@@ -1,0 +1,1 @@
+Temporary directory when building mod.

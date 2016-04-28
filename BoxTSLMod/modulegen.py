@@ -89,6 +89,18 @@ enemies.append(Enemy('106PER', 'g_assassindrd007', 'box_spawn_per', 10, 10, 10, 
 enemies.append(Enemy('106PER', 'g_droid_mine_024', 'box_spawn_per', 12, 12, 12, 8, 8, 8, None, 0, 0, 0))
 enemies.append(Enemy('106PER', 'g_droid_mine_025', 'box_spawn_per', 12, 12, 12, 8, 8, 8, None, 0, 0, 0))
 # 107PER
+# 151HAR
+enemies.append(Enemy('151HAR', 'n_sithsoldier001', 'box_spn_sass', 12, 12, 12, 10, 12, 10, None, 0, 0, 0))
+# 152HAR
+enemies.append(Enemy('152HAR', 'n_sithsoldier001', 'box_spn_sass', 12, 12, 12, 10, 12, 10, None, 0, 0, 0))
+# 153HAR
+enemies.append(Enemy('153HAR', 'n_sithsoldier001', 'box_spn_sass', 12, 12, 12, 10, 12, 10, None, 0, 0, 0))
+# 154HAR
+enemies.append(Enemy('154HAR', 'n_sithsoldier001', 'box_spn_sass', 12, 12, 12, 10, 12, 10, None, 0, 0, 0))
+# 201TEL
+# Need to figure out which characters are actually enemies
+
+
 
 placeables = []
 # 101PER

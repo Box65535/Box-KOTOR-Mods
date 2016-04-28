@@ -11,7 +11,7 @@ void main() {
 	object oUser = OBJECT_SELF;
 	
 	// Spell properties
-	int castDC = 20;
+	int castDC = 18;
 	string name = "Death Field";
 	int alignment = POWER_TYPE_DARK;
 	float radius = 12.0;
@@ -20,7 +20,10 @@ void main() {
 	// Targeting
 	struct Box_Array aTargets = Box_GetHumanEnemyTargets(oUser, GetLocation(oUser), shape, radius);
 	
-	if (!Box_RollCastDC(oUser, castDC, alignment)) {
+	// Force
+	int force = Box_GetSpellForce(oUser, alignment, Box_RollCastDC(oUser, castDC, alignment));
+	
+	if (!Box_CheckPowerSuccess(oUser, castDC, alignment)) {
 		ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectForceFizzle(), oUser);
 		Box_SignalSpellFailed(oUser, name);
 	}
@@ -31,7 +34,7 @@ void main() {
 			
 			object oTarget = Box_ArrayGet(aTargets, index);
 			
-			int saveResult = Box_DrainPower(oUser, oTarget);
+			int saveResult = Box_DrainPower(oUser, oTarget, force);
 		
 			if (saveResult == IMMUNE) {
 				Box_SignalSpellImmune(oTarget, name);

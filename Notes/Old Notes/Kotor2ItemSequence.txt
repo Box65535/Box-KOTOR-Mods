@@ -1,0 +1,81 @@
+
+
+Here are the spots in the game where you can make/buy new items:
+
+
+
+Peragus:
+-Medlab next to the morgue
+-Workbench near HK-50
+-Medlab and Workbench in crew quarters
+
+Harbinger:
+-Medlab near Kolto tanks
+-Workbench after Kriea leaves
+
+Ebon Hawk:
+-Workbench and Medlab
+
+Citadel Station:
+-Workbench and Medlab on station
+-Dendis Dobo shop
+-Samhan Dobo shop
+-Samhan Dobo Black Market store
+-Chano's Droid shop
+
+Telos Surface:
+-Nothing
+
+Telos Military Base:
+-Workbench and Medlab
+
+Telos Academy:
+-Nothing
+
+Ebon Hawk
+-Workbench and Medlab
+
+
+
+
+After this, we'll assume that workbenches and medlabs are always
+available due to the fact that one can always come back to the
+Ebon Hawk
+
+
+
+
+Nar Shaadda:
+-Geeda's shop
+-Oondar's shop
+-Kodin's droid shop
+
+Dantooine:
+-Adum's shop
+-Akkere's droid shop
+-Daraala's salvage
+
+M4-78:
+-???
+
+Dxun:
+-Kex's supplies
+
+Onderon:
+-Margar's shop
+-Geg's shop
+-Droid Merchant shop
+
+Korriban:
+-Nothing
+
+
+
+
+And there are no other shops after this, only workbenches
+and medlabs.
+
+
+
+
+

@@ -1,0 +1,882 @@
+In this file, we're going to try to really document what the class stats and balances are
+for this mod.
+
+This is a pretty important part of the game, so it's going to involve A LOT of revisions,
+right now we're just trying to get everything down [actually scratch that, we're going to
+remake the classes as we go, update things to conform to this list]
+
+Also, remember that not every individual in the game is 100% beholden to his/her class
+stats so we may also have to list pseudo-classes for specific characters
+
+
+
+
+
+
+Solider
+
+Characters:	Mandalore, Handmaiden, Disciple
+
+Vitality	- 8 per Level
+Skills		- 1 per Level
+Feats		- 14 by Level 30
+Force		- 1 per Level
+Force Powers 	- None
+
+Attack		- 18 by Level 30
+Defense		- 5 by Level 30
+
+Fortitude	- 13 by Level 30
+Reflex		- 8 by Level 30
+Will		- 7 by Level 30
+
+Class Skills:
+-Awareness:	Free
+-Demolitions:	Feat Available
+-Treat Injury:	Feat Available
+-Stealth:	Feat Available
+
+Free Feats:
+-Armor Level 1			- Level 1
+-Armor Level 2			- Level 1
+-Armor Level 3			- Level 1
+-Blasters			- Level 1
+-Advanced Blasters		- Level 1
+-Rifles				- Level 1
+-Melee Weapons			- Level 1
+-Power Equipment 1		- Level 1
+-Increase Combat Damage I	- Level 9
+-Increase Combat Damage II	- Level 18
+-Increase Combat Damage III	- Level 27
+
+
+Comments:
+The tricky part about this class is that it comes at the wrong point in the game. Most of
+the Soldier characters come pretty late and ideally this is a basic meatshield class that
+you want to use early on to set a baseline for combat ability. If we consider changing
+this class, it should be to make it less generic and more specialized toward a specific
+type of combat. Okay well I just reduced the vitality to 8 so 
+
+
+
+Scout
+
+Characters:	Mira, Hanharr
+
+Vitality	- 6 per Level
+Skills		- 2 per Level
+Feats		- 17 by Level 30
+Force		- 1 per Level
+Force Powers 	- None
+
+Attack		- 18 by Level 30
+Defense		- 5 by Level 30
+
+Fortitude	- 10 by Level 30
+Reflex		- 10 by Level 30
+Will		- 10 by Level 30
+
+Class Skills:
+-Awareness:	Free
+-Demolitions:	Free
+-Treat Injury:	Feat Available
+-Repair:	Feat Available
+-Stealth:	Feat Available
+
+Free Feats:
+-Armor Level 1			- Level 1
+-Blasters			- Level 1
+-Advanced Blasters		- Level 1
+-Melee Weapons			- Level 1
+
+
+Comments:
+This class seems to be a foil to the Scoundrel class. The Scout seems to be more offensively
+focused while the Scoundrel is more defensive. Both have a focus on skills over combat. If
+the Scout and Scoundrel characters were introduced at the same time, it would work better
+but the fact is that we're stuck with Atton as the main beatstick for a good while until
+the game gets going. Either way, I think this class is pretty good based on theory alone.
+I have yet to test it.
+
+
+
+Scoundrel
+
+Characters:	Atton
+
+Vitality	- 6 per Level
+Skills		- 2 per Level
+Feats		- 14 by Level 30
+Force		- 1 per Level
+Force Powers 	- None
+
+Attack		- 15 by Level 30
+Defense		- 9 by Level 30
+
+Fortitude	- 8 by Level 30
+Reflex		- 13 by Level 30
+Will		- 7 by Level 30
+
+Class Skills:
+-Security:	Free
+-Awareness:	Free
+-Stealth:	Feat Available
+-Computer Use:	Feat Available
+-Demolitions:	Feat Available
+
+Free Feats:
+-Armor Level 1			- Level 1
+-Blasters			- Level 1
+-Advanced Blasters		- Level 1
+-Melee Weapons			- Level 1
+-Stealth Field Generators	- Level 1
+-Sneak Attack I			- Level 1
+-Sneak Attack II		- Level 5
+-Sneak Attack III		- Level 9
+-Sneak Attack IV		- Level 13
+-Sneak Attack V			- Level 17
+-Sneak Attack VI		- Level 21
+-Sneak Attack VII		- Level 25
+-Sneak Attack VIII		- Level 29
+-Sneak Attack IX		- Level 33
+-Sneak Attack X			- Level 37
+
+
+Comments:
+This is the big problem class. It's not quite powerful enough to stand on it's own as the
+big beatstick class for a major portion of the game. If you choose Consular, Atton is your
+strongest character from a vitality and attack standpoint and it just doesn't quite work.
+On the other hand, you can't really mess with the class too much because it betrays people's
+expectations. Either way, I changed the whole Sneak Attack thing because it's actually
+fairly powerful and can get rediculous pretty quickly if you're attacking a stunned
+opponent. A slight nerf was in order.
+
+
+
+Tech Specialist
+
+Characters:	Bao-Dur
+
+Vitality	- 6 per Level
+Skills		- 2 per Level
+Feats		- 17 by Level 30
+Force		- 1 per Level
+Force Powers 	- None
+
+Attack		- 12 by Level 30
+Defense		- 5 by Level 30
+
+Fortitude	- 8 by Level 30
+Reflex		- 8 by Level 30
+Will		- 8 by Level 30
+
+Class Skills:
+-Repair:	Free
+-Computer Use:	Free
+-Security:	Feat Available
+-Awareness:	Feat Available
+-Demolitions:	Feat Available
+-Treat Injury:	Feat Available
+
+Free Feats:
+-Armor Level 1			- Level 1
+-Blasters			- Level 1
+-Advanced Blasters		- Level 1
+-Melee Weapons			- Level 1
+
+
+-Tech Equipment 1		- Level 1
+
+Comments:
+This class isn't the greatest. It's a little too weak for Bao-Dur, who you have to use to
+fight all those mercenaries. There's also the worry about now increasing the skill points
+since that gives a Bao-Dur with 14 skill 4 skill points per level, which is potentially
+enough to just easily get high ranks in almost every skill.
+
+
+
+Expert Droid
+
+Characters:	T3-M4, G0-T0
+
+Vitality	- 6 per Level
+Skills		- 2 per Level
+Feats		- 11 by Level 30
+Force		- 0 per Level
+
+Attack		- 13 by Level 30
+Defense		- 4 by Level 30
+
+Fortitude	- 8 by Level 30
+Reflex		- 8 by Level 30
+Will		- 8 by Level 30
+
+Class Skills:
+-Security:	Free
+-Computer Use:	Free
+-Awareness:	Feat Available
+-Repair:	Feat Available
+-Demolitions:	Feat Available
+
+Free Feats:
+-Droid Light Armor		- Level 1
+-Blasters			- Level 1
+
+
+Comments:
+I'm pretty satisfied with this class so far. T3-M4 didn't seem that weak. He's got various
+droid equipment to help him and you don't really have to rely on him that much for fighting.
+The skill points are a little high for G0-T0 with an intelligence of 16.
+
+
+
+Combat Droid
+
+Characters:	HK-47
+
+Vitality	- 8 per Level
+Skills		- 1 per Level
+Feats		- 11 by Level 30
+Force		- 0 per Level
+
+Attack		- 18 by Level 30
+Defense		- 4 by Level 30
+
+Fortitude	- 13 by Level 30
+Reflex		- 8 by Level 30
+Will		- 7 by Level 30
+
+Class Skills:
+-Awareness:	Free
+-Repair:	Feat Available
+-Demolitions:	Feat Available
+-Computer Use:	Feat Available
+-Security:	Feat Available
+
+Free Feats:
+-Droid Light Armor		- Level 1
+-Droid Medium Armor		- Level 1
+-Blasters			- Level 1
+-Advanced Blasters		- Level 1
+-Rifles				- Level 1
+
+Comments:
+This class is sort of strange. I'm not sure if I really like it. It's like a more extreme
+version of the Soldier class, sacrificing even more for total focus on vitality. This
+doesn't seem to be completely within the character of HK-47 who you might suspect could
+have more skills or feats or something. Instead, he's this incredibly bulky class. Now,
+it's always possible to have HK-47's stats be in large contradition to this class, but
+there's still this huge amount of bulk. Consider trading some vitality for more feats.
+Okay, well I just did switch to 8 VP and 14 feats so that's a thing now. I also switched
+targeting from the Scout to the Combat Droid.
+
+
+
+Jedi Guardian
+
+Characters:	Exile, Handmaiden, Disciple
+
+Vitality	- 8 per Level
+Skills		- 1 per Level
+Feats		- 6 by Level 15 / 11 by Level 30
+Force		- 4 per Level
+Powers		- 6 by Level 15 / 9 by Level 30
+
+Attack		- 18 by Level 30
+Defense		- 6 by Level 30
+
+Fortitude	- 11 by Level 30
+Reflex		- 10 by Level 30
+Will		- 8 by Level 30
+
+Class Skills:
+
+Exile:
+-Awareness	Free
+-Demolitions	Free
+-Treat Injry	Feat Available
+-Stealth	Feat Available
+
+Allies:
+-Awareness:	Free
+-Treat Injury:	Feat Available
+
+Free Feats:
+-Blasters			- Level 1
+-Melee Weapons			- Level 1
+-Lightsabers			- Level 1
+-Force Agility 1		- Level 3
+-Force Agility 2		- Level 9
+-Force Agility 3		- Level 15
+
+
+Comments:
+For this class, it seems appropriate to go with the Agility feats at least
+up until level 2. 
+
+
+
+Jedi Sentinel
+
+Characters:	Exile, Visas, Atton
+
+Vitality	- 6 per Level
+Skills		- 2 per Level
+Feats		- 8 by Level 15 / 14 by Level 30
+Force		- 3 per Level
+Powers		- 7 by Level 15 / 11 by Level 30
+
+Attack		- 15 by Level 30
+Defense		- 6 by Level 30
+
+Fortitude	- 8 by Level 30
+Reflex		- 10 by Level 30
+Will		- 11 by Level 30
+
+Class Skills:
+Exile:
+-Awareness	Free
+-Computer Use	Free
+-Security	Free
+-Treat Injry	Feat Available
+-Stealth	Feat Available
+
+Allies:
+-Awareness:	Free
+-Treat Injury:	Feat Available
+-Stealth	Feat Available
+
+Free Feats:
+-Blasters			- Level 1
+-Melee Weapons			- Level 1
+-Lightsabers			- Level 1
+-Force Immunity 1		- Level 3
+-Force Immunity 2		- Level 9
+-Force Immunity 3		- Level 15
+
+
+Comments:
+I'm still debating whether to give this class Immunity 1 and/or Protection 1.
+I don't want to encourage the use of the shield powers and I don't want to give feats
+to a class that doesn't need them but they're both not that great anyway. The
+other reason I'm hesistant is because I'm not sure if I want to give Atton and Mira
+an immunity to Fear but I suppose it's not the worst thing. 
+
+
+
+Jedi Consular
+
+Characters:	Kreia, Bao-Dur
+
+Vitality	- 6 per Level
+Skills		- 1 per Level
+Feats		- 6 by Level 15 / 11 by Level 30
+Force		- 7 per Level
+Powers		- 8 by Level 15 / 14 by Level 30
+
+Attack		- 12 by Level 30
+Defense		- 8 by Level 30
+
+Fortitude	- 7 by Level 30
+Reflex		- 8 by Level 30
+Will		- 13 by Level 30
+
+Class Skills:
+
+Exile:
+-Awareness	Free
+-Repair		Free
+-Treat Injry	Feat Available
+-Stealth	Feat Available
+
+Kriea:
+-Awareness:	Free
+-Treat Injury:	Feat Available
+-Stealth	Feat Available
+
+Free Feats:
+-Blasters			- Level 1
+-Melee Weapons			- Level 1
+-Lightsabers			- Level 1
+-Force Mind Affect 1		- Level 3
+-Force Restrain 1		- Level 3
+-Force Mind Affect 2		- Level 9
+-Force Restrain 2		- Level 9
+-Force Mind Affect 3		- Level 15
+-Force Restrain 3		- Level 15
+
+
+Comments:
+I still can't figure out the best way to distribute force feats for this class. I think
+it's necessary to have something otherwise there's no way to get enough feats. I think
+Telekinesis, Mind Affect, and Restrain would be good feats for the Consular so I'm going
+with granting them all at low levels for now. I'm afraid to go any higher. I'm also
+still not sure about putting Bao-Dur in this class or the Disciple for that matter.
+This whole class is warped by Kriea's presence. It seems like Kriea would deserve her
+own class but she can't have one because making new classes doesn't work for some reason.
+
+
+
+
+
+
+
+
+
+
+
+
+Prestige Classes
+
+
+
+Jedi Weapon Master
+
+Vitality	- 8 per Level
+Skills		- 1 per Level
+Feats		- 5 by Level 15 / 10 by Level 30
+Force		- 4 per Level
+Powers		- 6 by Level 15 / 14 by Level 30
+
+Attack		- 18 by Level 30
+Defense		- 6 by Level 30
+
+Fortitude	- 11 by Level 30
+Reflex		- 10 by Level 30
+Will		- 8 by Level 30
+
+Class Skills:
+-Awareness:	Feat Available
+-Treat Inury:	Feat Available
+
+Free Feats:
+Deflect Mastery			- Level 1
+
+Comments:
+I'm not sure whether Inner Strength and Deflect are actually feats or not. Anyway,
+just including deflect here already seems powerful enough since it offers so much
+deflection power. It doesn't feel right to backfill on something like Agility.
+We'll keep these classes minimal in the free feats they grant. There's already a
+lot of feats to be had since the Exile gets so many for free.
+
+
+
+
+Jedi Watchman
+
+Vitality	- 6 per Level
+Skills		- 2 per Level
+Feats		- 7 by Level 15 / 13 by Level 30
+Force		- 3 per Level
+Powers		- 7 by Level 15 / 11 by Level 30
+
+Attack		- 15 by Level 30
+Defense		- 6 by Level 30
+
+Fortitude	- 7 by Level 30
+Reflex		- 8 by Level 30
+Will		- 13 by Level 30
+
+Class Skills:
+-Awareness:	Free
+-Treat Injury:	Free
+-Stealth:	Feat Available
+-Computer Use:	Feat Available
+-Repair:	Feat Available
+
+Free Feats:
+None
+
+Comments:
+This class gets a lot of available skills and maintains a good feat rate so it doesn't
+gain any extra feats. The vitality does seem a bit low so I am considering raising the
+prestige class vitalities a bit but not quite yet. There's also the option of granting
+a feat like "Prestige Toughness" which would be the master toughness feat. But that
+seems like it might not fit so well with the Jedi Master/Sith Lord classes.
+
+
+
+Jedi Master
+
+Vitality	- 6 per Level
+Skills		- 1 per Level
+Feats		- 5 by Level 15 / 10 by Level 30
+Force		- 8 per Level
+Powers		- 8 by Level 15 / 14 by Level 30
+
+Attack		- 12 by Level 30
+Defense		- 6 by Level 30
+
+Fortitude	- 7 by Level 30
+Reflex		- 8 by Level 30
+Will		- 13 by Level 30
+
+Class Skills:
+-Persuade:	Free
+-Awareness:	Feat Available
+-Treat Inury:	Feat Available
+-Stealth:	Feat Available
+
+Free Feats:
+Force Mastery 			- Level 1
+
+Comments:
+This class seems pretty weak actually but the Force Mastery feat is nothing to scoff at.
+This is the place were it really seems like it might be appropriate to buff something
+because I'm not sure how much better this class is over the regular Consular.
+
+
+
+
+Sith Marauder
+
+Vitality	- 8 per Level
+Skills		- 1 per Level
+Feats		- 5 by Level 15 / 10 by Level 30
+Force		- 3 per Level
+Powers		- 6 by Level 15 / 14 by Level 30
+
+Attack		- 18 by Level 30
+Defense		- 6 by Level 30
+
+Fortitude	- 11 by Level 30
+Reflex		- 10 by Level 30
+Will		- 8 by Level 30
+
+Class Skills:
+None
+
+Free Feats:
+Ignore Pain 1			- Level 1
+Ignore Pain 2			- Level 5
+Ignore Pain 3			- Level 9
+
+Comments:
+I think Dark side classes should have some noticable differences from their light side
+counterparts. Here, the Sith Maurauder loses the class skills although I think technically
+there was nothing lost here because the Weapon Master's potential class skills were
+already potential class skills for any jedi. Anyway, the Sith Marauder has Ignore Pain.
+I think this is adequate except for the fact that it's missing Fury. This is a unique 
+power and it seems like a shame to miss out on it. So I'm thinking of making it available
+for this class to choose from the spell list instead. I also chose to reduce this class's
+force points per level to 4 from 6.
+
+
+
+
+Sith Assassin
+
+Vitality	- 6 per Level
+Skills		- 2 per Level
+Feats		- 5 by Level 15 / 10 by Level 30
+Force		- 3 per Level
+Powers		- 7 by Level 15 / 11 by Level 30
+
+Attack		- 15 by Level 30
+Defense		- 6 by Level 30
+
+Fortitude	- 7 by Level 30
+Reflex		- 8 by Level 30
+Will		- 13 by Level 30
+
+Class Skills:
+-Awareness:	Free
+-Stealth:	Free
+-Demolitions:	Feat Available
+-Security:	Feat Available
+
+Free Feats:
+Force Camoflogue		- Level 1
+Sneak Attack V			- Level 3
+Sneak Attack VI			- Level 7
+Sneak Attack VII		- Level 11
+Sneak Attack VIII		- Level 15
+Sneak Attack IX			- Level 19
+Sneak Attack X			- Level 23
+
+Comments:
+This loses some of the feats from the Watchman class to get Force Camoflogue and 
+Sneak Attack. Obviously, the class can't make use of all of the Sneak Attack levels.
+I'm still not sure to whom Force Camoflogue should be available. It might have to be
+a prestige class only feat but I don't think I'd restrict it to this class. We can
+easily make the first level restricted which would block off most characters and then
+grant the feat manually to Kriea (and Visas?) so that they can take the higher levels.
+
+
+
+Sith Lord
+
+Vitality	- 6 per Level
+Skills		- 1 per Level
+Feats		- 5 by Level 15 / 10 by Level 30
+Force		- 6 per Level
+Powers		- 8 by Level 15 / 14 by Level 30
+
+Attack		- 12 by Level 30
+Defense		- 6 by Level 30
+
+Fortitude	- 7 by Level 30
+Reflex		- 8 by Level 30
+Will		- 13 by Level 30
+
+Class Skills:
+-Persuade:	Free
+-Awareness:	Feat Available
+-Stealth:	Feat Available
+
+Free Feats:
+
+
+Comments:
+This class sacrifices the Jedi Master's extra Defense. Obviously, this class gets access
+to Force Storm exclusively. I'm not sure what else to give to it right now. It's the class
+best suited to take advantage of the Drain feats. It might not need anything else.
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------
+
+New classes
+
+I want to rebalance these because while I think they're very good on paper, I think that they come up short on gameplay
+We'll look at each class by "situation": combat, skills, feats, and powers
+
+
+Combat Situation:
+
+
+Soldier:
+-Vitality	- 8 Per Level
+-Attack		- Class Attack 1
+-Defense	- Medium
+-Saves		- Soldier Style: High Forititude, Medium-Low Reflex, Low Will
+
+Scout:
+-Vitality	- 6 Per Level
+-Attack		- Class Attack 2
+-Defense	- Low
+-Saves		- Scoundrel Style: High Reflex, Medium-Low Fortitude, Low Will
+
+Scoundrel:
+-Vitality	- 6 Per Level
+-Attack		- Class Attack 3
+-Defense	- Medium
+-Saves		- Scoundrel Style: High Reflex, Medium-Low Fortitude, Low Will
+
+Tech Specialist:
+-Vitality	- 6 Per Level
+-Attack		- Class Attack 3
+-Defense	- Low
+-Saves		- Tech Style: High Will, Medium-Low Reflex, Low Fortitude
+
+Jedi Guardian:
+-Vitality	- 8 Per Level
+-Attack		- Class Attack 1
+-Defense	- High
+-Saves		- Guaridan Style: High Fortitude, Medium-High Reflex, Low Will
+
+Jedi Sentinel:
+-Vitality	- 6 Per Level
+-Attack		- Class Attack 2
+-Defense	- Medium
+-Saves		- Sentinel Style: High Fortitude, High Reflex, High Will
+
+Jedi Consular:
+-Vitality	- 6 Per Level
+-Attack		- Class Attack 3
+-Defense	- High
+-Saves		- Consular Style: High Will, Medium-High Reflex, Low Fortitude
+
+
+Combat Droid = Soldier
+Expert Droid = Tech Specialist
+
+Class Attack 1  = Base 1, Gain on 2, 3, 5, 6, 8, 9, 11, 12, 14, 15, 17, 18, 20, 21, 23, 24, 26, 27, 29, 30
+Class Attack 2  = Base 0, Gain on 2, 3, 5, 8, 9, 11, 14, 15, 17, 20, 21, 23, 26, 27, 29
+Class Attack 3  = Base 0, Gain on 2, 5, 8, 11, 14, 17, 20, 23, 26, 29
+
+High Defense 	= Base 1, Gain on 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25, 27, 29
+Medium Defense 	= Base 0, Gain on 3, 5, 7, 11, 15, 19, 21, 23, 27
+Low Defense 	= Base 0, Gain on 3, 7, 11, 15, 19, 23, 27
+
+High Save			= Base 2, Gain on 2, 4, 7, 9, 12, 14, 17, 19, 22, 24, 27, 29
+Medium-High Save	= Base 1, Gain on 2, 4, 9, 12, 14, 17, 19, 24, 27, 29
+Medium-Low Save		= Base 0, Gain on 2, 4, 9, 14, 17, 19, 24, 29
+Low Save			= Base 0, Gain on 4, 9, 14, 19, 24, 29
+
+
+
+Skill Situation:
+
+Ehhhhhhhhhhhhhhhhhhh, I used to have this figured out
+This is quite difficult
+Maybe we should do it by character first
+
+
+Fack it, skills are bullshit that can't be fixed
+
+
+
+Feat Situation:
+
+Soldier:
+-Armor: 	Level 3
+-Blasters: 	Level 3
+-Melee: 	Level 2
+-Sabers:	None
+-Feats:		Medium
+-Combat Damage 1
+-Combat Damage 2
+-Combat Damage 3
+
+Scout:
+-Armor: 	Level 1
+-Blasters: 	Level 2
+-Melee: 	Level 1
+-Sabers:	None
+-Feats:		High
+
+Scoundrel:
+-Armor: 	Level 1
+-Blasters: 	Level 2
+-Melee: 	Level 1
+-Sabers:	None
+-Feats:		High
+
+Tech Specialist:
+-Armor: 	Level 1
+-Blasters: 	Level 2
+-Melee: 	Level 1
+-Sabers:	None
+-Feats:		High
+
+Combat Droid:
+-Armor: 	Level 2
+-Blasters: 	Level 3
+-Melee: 	None
+-Sabers:	None
+-Feats:		Medium
+-Combat Damage 1
+-Combat Damage 2
+-Combat Damage 3
+
+Expert Droid:
+-Armor: 	Level 1
+-Blasters: 	Level 1
+-Melee: 	None
+-Sabers:	None
+-Feats:		High
+
+Jedi Guardian:
+-Armor: 	None
+-Blasters: 	Level 1
+-Melee: 	Level 1
+-Sabers:	Yes
+-Feats:		Low
+-Agility 1
+-Agility 2
+-Agility 3
+
+Jedi Sentinel:
+-Armor: 	None
+-Blasters: 	Level 1
+-Melee: 	Level 1
+-Sabers:	Yes
+-Feats:		Medium
+-Immunity 1
+-Immunity 2
+-Immunity 3
+
+Jedi Consular:
+-Armor: 	None
+-Blasters:  Level 1
+-Melee: 	Level 1
+-Sabers:	Yes
+-Feats:		Low
+-Mind-Affect 1
+-Mind-Affect 2
+-Mind-Affect 3
+-Restrain 1
+-Restrain 2
+-Restrain 3
+
+
+High Feats 		= Base 3, Gain on 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31
+Medium Feats 	= Base 3, Gain on 3, 6, 9, 12, 15, 18, 21, 24, 27, 30
+Low Feats		= Base 1, Gain on 3, 7, 11, 15, 19, 23, 27, 31
+
+
+
+
+
+Force Situation:
+
+
+Jedi Guardian
+-Force Points:	4 Points per Level
+-Spell Gain:	Low
+
+Jedi Sentinel
+-Force Points:	3 Points per Level
+-Spell Gain:	Medium
+
+Jedi Consular
+-Force Points:	7 Points per Level
+-Spell Gain:	High
+
+
+
+Exile Spell Gain:
+
+-High	 	= Base 0, Gain on 2, 3, 4, 6, 9, 10, 12, 15 etc
+-Medium	 	= Base 0, Gain on 2, 3, 6, 9, 12, 15 etc
+-Low		= Base 0, Gain on 2, 3, 6, 9, 15, etc
+
+
+Everyone Else:
+
+-High	 	= Base 2, Gain on 3, 4, 6, 9, 10, 12, 15 etc
+-Medium	 	= Base 2, Gain on 3, 6, 9, 12, 15 etc
+-Low		= Base 2, Gain on 3, 6, 9, 15 etc
+
+
+Basically it's just the same as the feat gains but rounded down
+to nearest multiple of 3
+Note that instead of having High gain on 4, 10, etc you could
+just double the powers on level 3, 9, etc
+
+Alternately 
+
+-High	 	= Base 2, Gain on 3, 6(2), 9, 12(2), 15 etc
+-Medium	 	= Base 2, Gain on 3, 6, 9, 12, 15 etc
+-Low		= Base 2, Gain on 3, 6, 12, 15 etc
+
+Basically Medium gets powers every 3 levels
+High gets the same + an extra power every 6 levels
+Low gets the same - powers every 9 levels
+Remember this is because powers become unlocked on levels which are multiples of 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

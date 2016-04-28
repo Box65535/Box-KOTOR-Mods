@@ -1,0 +1,1070 @@
+Alright so this is where we're going to try to analyze and balance the powers because it
+really wasn't working last time. In general they need a buff.
+
+Firstly, I'm considering going from saving at 5 + (3/5)*Level to 5 + (2/3)*Level since the
+numbers were just so low. If this was done I think a -2 modifier to all multi-target
+spells should be applied.
+
+Also, if any spell is saved with an excess of 10 points over the DC, then the spell should
+have absolutely no effect rather than it's save effect
+
+Anyway, we'll split these up into attacking and buffing powers, starting with the
+attacking ones
+
+
+[4/17/2013, I believe this is the most recent implementation of
+ force powers and should already be coded in k_inc_force.... maybe]
+
+
+
+
+Force Push
+
+Type:		Attacking
+Alignment:	Neutral
+
+Tier 1: (Force Push - Level 1)
+
+Target Area	- Single Opponent
+Cost		- 20
+Damage		- Level x 1
+Save Damage	- Level x 0.5
+Effect		- Knockdown
+Save Effect	- N/A
+Duration	- 6 Seconds
+Save Duration	- N/A
+
+
+Tier 2: (Force Shove - Level 9)
+
+Target Area	- Single Opponent
+Cost		- 30
+Damage		- Level x 1.5
+Save Damage	- Level x 1.5 / 2
+Effect		- Knockdown
+Save Effect	- Knockdown
+Duration	- 9 Seconds
+Save Duration	- 3 Seconds
+
+
+Tier 3: (Force Wave - Level 18)
+
+Target Area	- 12m Radius
+Cost		- 60
+Damage		- Level x 1.5
+Save Damage	- Level x 1.5 / 2
+Effect		- Knockdown
+Save Effect	- Knockdown
+Duration	- 9 Seconds
+Save Duration	- 3 Seconds
+
+Comments:
+
+
+
+
+
+
+
+Force Choke
+
+Type:		Attacking
+Alignment:	Dark
+
+Tier 1: (Force Wound - Level 1)
+
+Target Area	- Single Opponent
+Cost		- 20
+Damage		- Level x 1.5
+Save Damage	- Level x 1
+Effect		- Incapacitation
+Save Effect	- N/A
+Duration	- 6 Seconds
+Save Duration	- N/A
+
+
+Tier 2: (Force Choke - Level 9)
+
+Target Area	- Single Opponent
+Cost		- 30
+Damage		- Level x 3
+Save Damage	- Level x 2
+Effect		- Incapacitation
+Save Effect	- N/A
+Duration	- 6 Seconds
+Save Duration	- N/A
+
+
+Tier 3: (Force Kill - Level 15)
+
+Target Area	- Single Opponent
+Cost		- 40
+Damage		- Level x 6
+Save Damage	- Level x 4
+Effect		- Incapacitation
+Save Effect	- N/A
+Duration	- 6 Seconds
+Save Duration	- N/A
+
+Comments:
+
+
+
+
+
+
+
+
+Ionize Droid
+
+Type:		Attacking
+Alignment:	Neutral
+
+Tier 1: (Stun Droid - Level 1)
+
+Target Area	- Single Opponent
+Cost		- 20
+Damage		- Level x 1
+Save Damage	- Level x 0.5
+Effect		- Droid Stun
+Save Effect	- Droid Stun
+Duration	- 12 Seconds
+Save Duration	- 6 Seconds
+
+
+Tier 2: (Disable Droid - Level 9)
+
+Target Area	- Single Opponent
+Cost		- 30
+Damage		- Level x 1d4
+Save Damage	- Level x 1d4 / 2
+Effect		- Droid Stun
+Save Effect	- Droid Stun
+Duration	- 12 Seconds
+Save Duration	- 6 Seconds
+
+
+Tier 3: (Destroy Droid - Level 15)
+
+Target Area	- 6m Radius of Target
+Cost		- 60
+Damage		- Level x 1d4
+Save Damage	- Level x 1d4 / 2
+Effect		- Droid Stun
+Save Effect	- Droid Stun
+Duration	- 12 Seconds
+Save Duration	- 6 Seconds
+
+Comments:
+
+
+
+
+
+
+Force Lightning
+
+Type:		Attacking
+Alignment:	Dark
+
+Tier 1: (Force Shock - Level 6)
+
+Target Area	- Single Opponent
+Cost		- 30
+Damage		- Level x 1d4
+Save Damage	- Level x 1d4 / 2
+Effect		- N/A
+Save Effect	- N/A
+Duration	- N/A
+Save Duration	- N/A
+
+
+Tier 2: (Force Lightning - Level 15)
+
+Target Area	- All Enemies in Front
+Cost		- 50
+Damage		- Level x 1d6
+Save Damage	- Level x 1d6 / 2
+Effect		- N/A
+Save Effect	- N/A
+Duration	- N/A
+Save Duration	- N/A
+
+
+Tier 3: (Force Storm - Level 24 - Sith Lord & Kriea only)
+
+Target Area	- 10m Radius
+Cost		- 80
+Damage		- Level x 1d6
+Save Damage	- Level x 1d6 / 2
+Effect		- N/A
+Save Effect	- N/A
+Duration	- N/A
+Save Duration	- N/A
+
+Comments:
+
+
+
+
+
+Drain Life
+
+Type:		Attacking
+Alignment:	Dark
+
+Tier 1: (Drain Life - Level 12)
+
+Target Area	- Single Opponent
+Cost		- 40
+Damage		- Level x 1d4
+Save Damage	- Level x 1d4 / 2
+Effect		- Drains half of damage inflicted
+Save Effect	- Drains half of damage inflicted
+Duration	- N/A
+Save Duration	- N/A
+
+
+Tier 2: (Death Field - Level 21 - Dark Side Prestige & Kriea only)
+
+Target Area	- 10m Radius
+Cost		- 80
+Damage		- Level x 1d4
+Save Damage	- Level x 1d4 / 2
+Effect		- Drains half of damage inflicted
+Save Effect	- Drains half of damage inflicted
+Duration	- N/A
+Save Duration	- N/A
+
+Comments:
+
+
+
+
+Drain Force
+
+Type:		Attacking
+Alignment:	Dark
+
+Tier 1: (Drain Force - Level 18 - Dark Side Prestige & Kriea only)
+
+Target Area	- Single Opponent
+Cost		- 10
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Steals 20 + Level * 0.5 Force Points
+Save Effect	- N/A
+Duration	- N/A
+Save Duration	- N/A
+
+Comments:
+
+
+
+
+Force Stasis
+
+Type:		Attacking
+Alignment:	Light
+
+Tier 1: (Force Stun - Level 3)
+
+Target Area	- Single Opponent
+Cost		- 20
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Stun
+Save Effect	- N/A
+Duration	- 9 Seconds
+Save Duration	- N/A
+
+
+Tier 2: (Force Stasis - Level 12)
+
+Target Area	- Single Opponent
+Cost		- 30
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Stasis
+Save Effect	- Stasis
+Duration	- 12 Seconds
+Save Duration	- 3 Seconds
+
+
+Tier 3: (Force Stasis Field - Level 21)
+
+Target Area	- 8m Radius of Target
+Cost		- 60
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Stasis
+Save Effect	- Stasis
+Duration	- 12 Seconds
+Save Duration	- 3 Seconds
+
+Comments:
+
+
+
+
+
+Fear
+
+Type:		Attacking
+Alignment:	Dark
+
+Tier 1: (Fear - Level 1)
+
+Target Area	- Single Opponent
+Cost		- 20
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Fear
+Save Effect	- Fear
+Duration	- 9 Seconds
+Save Duration	- N/A
+
+
+Tier 2: (Horror - Level 12)
+
+Target Area	- 5m Radius from Target
+Cost		- 50
+Damage		- None
+Save Damage	- None
+Effect		- Horror
+Save Effect	- Horror
+Duration	- 12 Seconds
+Save Duration	- 3 Seconds
+
+Comments:
+
+
+
+
+
+Affliction
+
+Type:		Attacking
+Alignment:	Dark
+
+Tier 1: (Slow - Level 1)
+
+Target Area	- Single Target
+Cost		- 20
+Damage		- Level x 1
+Save Damage	- Level x 0.5
+Effect		- Attribute: -2 Dex -2 Str
+Save Effect	- Attribute: -2 Dex -2 Str
+Duration	- 30 Seconds
+Save Duration	- 9 Seconds
+
+
+Tier 2: (Affliction - Level 12)
+
+Target Area	- Single Target
+Cost		- 40
+Damage		- Level x 1.5
+Save Damage	- Level x 1.5 / 2
+Effect		- Attribute: -3 All Physical Stats
+Save Effect	- Attribute: -3 All Physical Stats
+Duration	- 30 Seconds
+Save Duration	- 9 Seconds
+
+Comments:
+
+
+
+
+
+Force Scream
+
+Type:		Attacking
+Alignment:	Dark
+
+Tier 1: (Force Scream - Level 6)
+
+Target Area	- All Enemies in Front
+Cost		- 30
+Damage		- Level x 1d2
+Save Damage	- Level x 1d2 / 2
+Effect		- Attribute: -2 all Mental Stats
+Save Effect	- Attribute: -2 all Mental Stats
+Duration	- 30 Seconds
+Save Duration	- 9 Seconds
+
+
+Tier 2: (Force Howl - Level 15)
+
+Target Area	- All Enemies in Front
+Cost		- 50
+Damage		- Level x 1d4
+Save Damage	- Level x 1d4 / 2
+Effect		- Attribute: -4 all Mental Stats
+Save Effect	- Attribute: -4 all Mental Stats
+Duration	- 30 Seconds
+Save Duration	- 9 Seconds
+
+Comments:
+
+
+
+
+
+Mind Trick
+
+Type:		Attacking
+Alignment:	Neutral
+
+Tier 1: (Mind Trick - Level 6)
+
+Target Area	- Single Target
+Cost		- 20
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Becomes Non-Hostile
+Save Effect	- Mind Trick Immunity
+Duration	- 18 Seconds
+Save Duration	- 120 Seconds
+
+
+Tier 2: (Confusion - Level 15)
+
+Target Area	- Single Target
+Cost		- 40
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Becomes Ally
+Save Effect	- Mind Trick Immunity
+Duration	- 18 Seconds
+Save Duration	- 120 Seconds
+
+Comments:
+
+
+
+
+
+
+
+Beast Trick
+
+Type:		Attacking
+Alignment:	Neutral
+
+Tier 1: (Beast Trick - Event)
+
+Target Area	- Single Target
+Cost		- 20
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Becomes Non-Hostile
+Save Effect	- Beast Trick Immunity
+Duration	- 18 Seconds
+Save Duration	- 120 Seconds
+
+
+Tier 2: (Beast Confusion - Event)
+
+Target Area	- Single Target
+Cost		- 40
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Becomes Ally
+Save Effect	- Beast Trick Immunity
+Duration	- 18 Seconds
+Save Duration	- 120 Seconds
+
+Comments:
+
+
+
+
+
+
+Force Suppression
+
+Type:		Attacking
+Alignment:	Neutral
+
+Tier 1: (Force Suppression - Level 12)
+
+Target Area	- Single Target
+Cost		- 30
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Level * 6 Force Damage
+Save Effect	- Level * 2 Force Damage
+Duration	- N/A
+Save Duration	- N/A
+
+Comments:
+
+
+
+
+Throw Lightsaber
+
+Type:		Attacking
+Alignment:	Neutral
+
+Tier 1: (Throw Lightsaber - Level 6)
+
+Target Area	- Single Target (<5m away)
+Cost		- 30
+Damage		- Level x 1d6
+Save Damage	- Level x 1d6
+Effect		- N/A
+Save Effect	- N/A
+Duration	- N/A
+Save Duration	- N/A
+
+Comments:
+
+
+
+
+Force Crush
+
+Type:		Attacking
+Alignment:	Dark
+
+Tier 1: (Force Crush - Event)
+
+Target Area	- Single Target ?
+Cost		- 60
+Damage		- Level x 1d12
+Save Damage	- Level x 1d12 / 2
+Effect		- Crush Effect ?
+Save Effect	- N/A
+Duration	- ???
+Save Duration	- N/A
+
+Comments:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Now we'll do the buffing powers
+
+
+
+
+Force Speed
+
+Type:		Buffing
+Alignment:	Neutral
+
+Tier 1: (Burst of Speed - Level 1)
+
+Target Area	- Self
+Cost		- 30
+Effect		- Increased Speed
+Duration	- 40 Seconds
+
+
+Tier 2: (Knight Speed - Level 12)
+
+Target Area	- Self
+Cost		- 50
+Effect		- Increased Speed, +1 Attacks per Round
+Duration	- 40 Seconds
+
+Comments:
+
+
+
+
+Force Armor
+
+Type:		Buffing
+Alignment:	Light
+
+Tier 1: (Force Aura - Level 1)
+
+Target Area	- Self
+Cost		- 30
+Effect		- -15% vs Damage
+Duration	- 40 Seconds
+
+
+Tier 2: (Force Armor - Level 12)
+
+Target Area	- Self
+Cost		- 50
+Effect		- -30% vs Damage
+Duration	- 40 Seconds
+
+Comments:
+
+
+
+
+Force Valor
+
+Type:		Buffing
+Alignment:	Light
+
+Tier 1: (Force Valor - Level 1)
+
+Target Area	- Self
+Cost		- 30
+Effect		- +2 Physical Attributes
+Duration	- 40 Seconds
+
+
+Tier 2: (Knight Valor - Level 12)
+
+Target Area	- Self
+Cost		- 50
+Effect		- +4 Physical Attributes
+Duration	- 40 Seconds
+
+Comments:
+
+
+
+Energy Resistance
+
+Type:		Buffing
+Alignment:	Neutral
+
+Tier 1: (Energy Resistance - Level 1)
+
+Target Area	- Self
+Cost		- 20
+Effect		- Absorbs 30 points of Energy, Electric & Ion Damage
+Duration	- 60 Seconds
+
+
+Tier 2: (Energy Resistance II - Level 9)
+
+Target Area	- Self
+Cost		- 40
+Effect		- Absorbs 60 points of Energy, Electric & Ion Damage
+Duration	- 60 Seconds
+
+Comments:
+
+
+
+
+Force Barrier
+
+Type:		Buffing
+Alignment:	Neutral
+
+Tier 1: (Force Barrier - Level 1)
+
+Target Area	- Self
+Cost		- 20
+Effect		- Absorbs 30 points of Physical Damage
+Duration	- 60 Seconds
+
+
+Tier 2: (Force Barrier II - Level 9)
+
+Target Area	- Self
+Cost		- 40
+Effect		- Absorbs 60 points of Physical Damage
+Duration	- 60 Seconds
+
+Comments:
+
+
+
+
+Force Resistance
+
+Type:		Buffing
+Alignment:	Neutral
+
+Tier 1: (Force Resistance - Level 6)
+
+Target Area	- Self
+Cost		- 40
+Effect		- All Force Powers check vs DC = 10 + Level - EnemyLevel
+Duration	- 60 Seconds
+
+
+
+
+Breath Control
+
+Type:		Buffing
+Alignment:	Neutral
+
+Tier 1: (Breath Control - Event)
+
+Target Area	- Self
+Cost		- 50
+Effect		- Poison Immunity
+Duration	- 300 Seconds
+
+
+
+
+Force Deflection
+
+Type:		Buffing
+Alignment:	Neutral
+
+Tier 1: (Force Deflection - Level 9)
+
+Target Area	- Self
+Cost		- 0
+Effect		- Deflection active without Lightsaber
+Duration	- Always Active
+
+
+
+
+Battle Meditation
+
+Type:		Buffing/Attacking
+Alignment:	Neutral
+
+Tier 1: (Battle Meditation - Level 9)
+
+Target Area	- Party
+Cost		- 40
+Effect		- +2 Attack
+Duration	- 60 Seconds
+
+
+Tier 2: (Battle Meditation II - Level 18)
+
+Target Area	- Party / 10m Radius
+Cost		- 80
+Effect		- +3 Attack / -2 Attack
+Save Effect	- N/A / N/A
+Duration	- 60 Seconds / 60 Seconds
+Save Duration	- 60 Seconds / N/A
+
+Comments:
+
+
+
+
+Force Heal
+
+Type:		Buffing
+Alignment:	Light
+
+Tier 1: (Cure - Level 3)
+
+Target Area	- Party
+Cost		- 10
+Effect		- Heals 5 + MAX ( TreatInjury * 0.75 , (Level * 0.5 + 2) ) 
+Duration	- N/A
+
+
+Tier 2: (Heal - Level 15)
+
+Target Area	- Party
+Cost		- 20
+Effect		- Heals 10 + MAX ( TreatInjury , (Level * 0.75 + 3) ) 
+Duration	- N/A
+
+Comments:
+
+
+
+
+Force Revitalize
+
+Type:		Buffing
+Alignment:	Light
+
+Tier 1: (Revitalize - Level 9)
+
+Target Area	- Fallen Ally
+Cost		- 40
+Effect		- Revives with 5% VP
+Duration	- N/A
+
+
+Tier 2: (Revitalize - Level 18)
+
+Target Area	- All Fallen Allies
+Cost		- 80
+Effect		- Revives with 10% VP
+Duration	- N/A
+
+Comments:
+
+
+
+
+Force Enlightenment
+
+Type:		Buffing
+Alignment:	Light
+
+Tier 1: (Force Enlightenment - Event)
+
+Target Area	- Self
+Cost		- 50
+Effect		- Highest Speed+Armor+Valor Effects
+Duration	- 40 Seconds
+
+Comments:
+
+
+
+
+
+
+
+--------------------------------------------------------
+New Force Powers
+--------------------------------------------------------
+
+
+So it turns out we wanted to create new powers anyway
+This utilizes a new system that simplifies acquiring powers
+Basically each power has a DC to meet before it can be used
+Also each power gets stronger as you level up, not just offensive ones
+Consulars etc get the ability to unlock special versions of powers that do multitargetting, otherwise only single-target spells are allowed
+
+
+Before we go into powers, we have to briefly explain cast DC
+Each power has a DC that needs to be met by the user before the power can even used
+Different classes gain modifiers that can be used on this DC at different rates
+There is also a set of 5 feats that raise these modifiers by 1 each
+Finally, modifiers to Charisma also act as modifiers to this cast DC
+
+Okay, now in more depth
+
+Consulars etc get Level/1.5 as their class modifier
+Other Jedi classes get Level/3 as their class modifier
+Non-Jedi classes get Level/6 as their class modifier
+
+Partial points count when changing classes because we can work with non-integers
+
+
+
+Alright here are the powers
+
+
+Force Suggestion
+-Unviersal Power
+-Unlocks Force Persuade
+
+Force Push
+-Universal Power
+-Single Opponent (Size appropriate)
+-Cast DC is 12
+-Deals Leveld2 Damage
+-Throws opponent
+-Opponent is stunned on the ground for 3 seconds
+-Spell DC is 15 + ForceModifier/2
+-Stun duration is 3 + ForceModifier*0.25 seconds
+-No effect when Save > Spell DC
+-No damage and knockdown for 3 seconds instead on save
+-For save, we can use Reflex OR Will, whichever is higher
+-Damage type is Bludgeoning
+-Saving throw type is None
+
+Force Ionize
+-Universal Ppwer
+-Single Opponent (Droid)
+-Cast DC is 12
+-Deals Leveld4 Damage
+-Stuns droid for 6 seconds
+-Spell DC is 15 + ForceModifier/2
+-Stun duration is 6 + ForceModifier*0.5 seconds
+-No effect when Save > Spell DC
+-Half damage and no stun on save
+-For save, we can use Fortitude OR Will, whichever is higher
+-Damage type is Ion
+-Saving throw type is Ion
+
+Force Fear
+-Dark Side Power
+-Single Opponent (Human)
+-Cast DC is 12
+-Horrified for 6 seconds
+-Spell DC is 15 + ForceModifier/2
+-Stun duration is 6 + ForceModifier*0.5 seconds
+-No effect when Save > Spell DC
+-3 second Fear on Save
+-For save we use Will only
+-Saving throw type is Fear
+
+Throw Lightsaber
+-Universal Power
+-Single Opponent
+-Cast DC is 12
+-Deals Leveld6 Damage
+-Damage type is Energy
+
+Force Stun
+-Light Side Power
+-Single Opponent (Human)
+-Cast DC is 14
+-Stunned for 9 seconds
+-Spell DC is 15 + ForceModifier/2
+-Stun duration is 9 + ForceModifier*0.5 seconds
+-No effect when Save > Spell DC
+-3 second Stun on Save
+-For save we use Will only
+-Saving throw type is Mind Affecting
+
+Force Choke
+-Dark Side Ppwer
+-Single Opponent (Human)
+-Cast DC is 14
+-Deals Leveld4 Damage
+-Choke for 9 seconds
+-Spell DC is 15 + ForceModifier/2
+-Choke duration is 9 + ForceModifier*0.5 seconds
+-User is occupied for the whole choking duration
+-Damage is spread out over duration of spell
+-No effect when Save > Spell DC
+-Half damage and no choke on save
+-For save, we can use Fortitude OR Will, whichever is higher
+-Damage type is Dark Side
+-Saving throw type is Dark Side
+
+Force Speed
+-Unversal Power
+-Self-Targeting
+-Cast DC is 10
+-Grants 1 extra attack per round and increased speed
+-Duration is 30 + ForceModifier seconds
+
+Force Heal
+-Light Side Ppwer
+-Self-Targeting
+-Cast DC is 14
+-Removes poison/paralysis/attribute damage
+-Heals 20 + ForceModifier damage
+
+Force Concealment
+-Universal Power
+-Allows user to bypass using stealth field generators
+
+Force Confusion
+-Universal Power
+-Single Opponent (Human)
+-Cast DC is 18
+-Change faction for 18 seconds
+-Spell DC is 15 + ForceModifier/2
+-Stun duration is 18 + ForceModifier seconds
+-No effect when Save > Spell DC
+-9 Second Null Faction on save
+-For save we use Will only
+-Saving throw type is Mind Affecting
+
+Force Lightning
+-Dark Side Power
+-Single Opponent
+-Cast DC is 18
+-Deals Leveld12 Damage
+-Spell DC is 15 + ForceModifier/2
+-No effect when Save > Spell DC
+-Half damage and no choke on save
+-For save, we can use Fortitude OR Will, whichever is higher
+-Damage type is Dark Side
+-Saving throw type is Dark Side
+
+Force Drain
+-Dark Side Ppwer
+-Single Opponent (Human)
+-Cast DC is 18
+-Deals Leveld4 Damage
+-Heals half of damage dealt
+-Deals Leveld2 Force Damage
+-Heals half of force damage dealt
+-Spell DC is 15 + ForceModifier/2
+-No effect when Save > Spell DC
+-Half damage and no drain
+-For save, we can use Fortitude OR Will, whichever is higher
+-Damage type is Dark Side
+-Saving throw type is Dark Side
+
+Force Sever
+-Light Side Power
+-Single Opponent (Human)
+-Cast DC is 20
+-Psychic Paralysis for 3 seconds and cuts target off from force permenantely
+-Jedi characters also suffer -6 to all attributes permenantely
+
+Force Consume
+-Dark Side Power
+-Single Opponent (Human)
+-Cast DC is 20
+-Horror for 3 seconds and cuts target off from force permenantely
+-User gains +1 force point permenantely
+
+
+Old powers that are missing/removed:
+-Afflict
+-Valor
+-Armor
+-Barrier
+-Energy Res
+-Body
+-Deflect
+-Scream
+-Revitalize
+-Battle Med
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

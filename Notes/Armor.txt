@@ -1,0 +1,662 @@
+Types of damage:
+
+Physical:
+-Piercing
+-Slashing
+-Bludgeoning
+
+Energy:
+-Energy
+-Ion
+-Electrical
+-Fire
+
+Alternative:
+-Cold
+-Sonic
+
+Force:
+-Light Side
+-Dark Side
+
+Unstoppable:
+-Unstoppable
+
+Special:
+-Universal
+
+
+
+Clothing
+
+Clothing
++None
+
+Miner Uniform
++Level 1 Underlays
+
+Atton's Ribbed Jacket
+-2 vs Physical
++1 Saves
++None
+
+Mira's Ballilstic Mesh Jacket
+-2 vs Physical
+-20% vs Physical
++None
+
+
+Light Combat Suits
+
+Republic Light Combat Suit
+Max Dex +3
+-2 vs Physical
+-2 vs Energy/Ion/Fire/Electrical
++Level 1 Upgrades
+
+Zabrak Light Combat Suit
+Max Dex +3
+-2 vs Physical
+-2 vs Energy/Ion/Electrical
+-3 vs Cold
+-3 vs Fire
++1 Saves vs Cold
++1 Saves vs Fire
++None
+
+Echani Light Combat Suit
+Max Dex +3
+-1 vs Physical
+-2 vs Energy/Ion/Fire/Electrical
+-2 vs Sonic
++2 Max Dex
++None
+
+Massassi Ceremonial Armor
+Max Dex +3
+-2 vs Physical
+-2 vs Energy/Ion/Fire/Electrical
+Immune Fear
++None
+
+
+
+Heavy Combat Suits
+
+Republic Combat Suit
+Max Dex +2
+-3 vs Physical
+-3 vs Energy/Ion/Fire/Electrical
++Level 2 Upgrades
+
+Zabrak Field Suit
+Max Dex +2
+-4 vs Physical
+-2 vs Energy/Ion/Electrical
+-5 vs Fire
+-5 vs Cold
++3 Saves vs Fire
++3 Saves vs Cold
++None
+
+Echani Shield Suit
+Max Dex +2
+-1 vs Physical
+-3 vs Energy/Ion
+-5 vs Fire
+-5 vs Electrical
+-5 vs Sonic
++2 Max Dex
++None
+
+Mandalorian Combat Suit
+Max Dex +2
+-4 vs Physical
+-3 vs Energy/Ion/Fire/Electrical
++Level 2 Upgrades
+
+Sith Combat Suit
+Max Dex +2
+-2 vs Physical
+-2 vs Energy/Ion/Fire/Electrical
+-2 vs Cold
+-2 vs Sonic
++1 Saves vs Poison
++1 Saves vs Mind-Affecting
++Level 3 Upgrades
+
+Light Power Armor
+Max Dex +2
+-3 vs Physical
+-3 vs Energy/Ion/Fire/Electrical
++1 Str
++None
+
+
+Armored Flight Suits
+
+Armored Flight Suit
+Max Dex +2
+-2 vs Physical
+-2 vs Energy/Electrical
+-10 vs Ion
+-10 vs Fire
+-10 vs Cold
++None
+
+Ubese Environmental Suit
+Max Dex +2
+-2 vs Physical
+-2 vs Energy/Ion
+-10 vs Sonic
+-10 vs Fire
+-10 vs Cold
+-10 vs Electrical
++None
+
+
+
+Military Suits
+
+Republic Military Suit
+Max Dex +1
+-4 vs Physical
+-4 vs Energy/Ion/Fire/Electrical
+-1 vs Sonic
+-1 vs Cold
++Level 3 Upgrades
+
+Sith Battle Suit
+Max Dex +1
+-3 vs Physical
+-3 vs Energy/Ion/Fire/Electrical
+-3 vs Sonic
+-3 vs Cold
++2 Saves vs Poison
++2 Saves vs Mind-Affecting
++Level 4 Upgrades
+
+Echani Battle Armor
+Max Dex +1
+-3 vs Physical
+-4 vs Energy/Ion
+-6 vs Fire
+-6 vs Electric
+-6 vs Sonic
+-1 vs Cold
++2 Max Dex
++None
+
+Zabrak Battle Armor
+Max Dex +1
+-5 vs Physical
+-4 vs Energy/Ion/Electrical
+-10 vs Fire
+-10 vs Cold
++5 Saves vs Fire
++5 Saves vs Cold
++None
+
+Verpine Fiber Mesh
+Max Dex +1
+-3 vs Physical
+-4 vs Energy/Ion/Fire
+-10 vs Electrical
++2 Saves vs Ion
++2 Saves vs Electrical
++Level 3 Upgrades
+
+
+Heavy Battle Armor
+
+Republic Battle Armor
+Max Dex +0
+-5 vs Physical
+-5 vs Energy/Ion/Fire/Electrical
+-2 vs Sonic
+-2 vs Cold
++Level 4 Upgrades
+
+Mandalorian Battle Armor
+Max Dex +0
+-6 vs Physical
+-6 vs Energy/Ion/Fire/Electrical
+-2 vs Sonic
+-2 vs Cold
++Level 4 Upgrades
+
+Echani Heavy Armor
+Max Dex +0
+-4 vs Physical
+-5 vs Energy/Ion
+-8 vs Fire
+-8 vs Electric
+-8 vs Sonic
+-2 vs Cold
++2 Saves vs Fire
++2 Saves vs Electrical
++2 Saves vs Sonic
++2 Max Dex
++None
+
+Sith Heavy Armor
+Max Dex +0
+-4 vs Physical
+-4 vs Energy/Ion/Fire/Electrical
+-4 vs Sonic
+-4 vs Cold
++Level 5 Upgrades
+
+M'uhk'gfa
+Max Dex +0
+-8 vs Physical
+-6 vs Energy/Ion/Fire/Electrical
+-2 vs Sonic
+-2 vs Cold
+-30% vs Physical
++None
+
+
+Heaviest Armor
+
+Correlian Powersuit
+Max Dex +0
+-7 vs Physical
+-7 vs Energy/Ion/Fire/Electrical
+-3 vs Sonic
+-3 vs Cold
++2 Str
++2 Con
++None
+
+Mandalorian Assault Armor
+Max Dex +0
+-7 vs Physical
+-7 vs Energy/Ion/Fire/Electrical
+-3 vs Sonic
+-3 vs Cold
++Level 5 Upgrades
+
+Matrix Armor
+-8 vs Physical
+-8 vs Energy/Ion/Fire/Electrical
+-8 vs Cold
+-8 vs Sonic
+-30% vs Energy
+-30% vs Ion
+-30% vs Fire
+-30% vs Cold
+-30% vs Electric
++None
+
+
+
+Level 2:
+
+Energy Shielding I
+-5% vs Energy
+
+Ballistic Shielding I
+-5% vs Physical
+
+Heat Shielding I
+-20% vs Fire
+
+Radiant Shielding I
+-10% vs Ion
+
+Stealth Coating I
++2 Stealth
+
+
+Level 3:
+
+Alblative Plating I
+-5% vs Physical
+-5% vs Energy
+
+Energy Shielding II
+-10% vs Energy
+
+Ballistic Shielding II
+-10% vs Physical
+
+Heat Shielding II
+-25% vs Fire
+-5% vs Physical
+
+Radiant Shielding II
+-10% vs Ion
+-10% vs Electric
+-10% vs Fire
+
+Stealth Coating II
++4 Stealth
+
+
+Level 4:
+
+Alblative Plating II
+-10% vs Physical
+-10% vs Energy
+
+Energy Shielding III
+-20% vs Energy
+
+Ballistic Shielding III
+-20% vs Physical
+
+Heat Shielding III
+-50% vs Fire
+-10% vs Physical
+
+Radiant Shielding III
+-15% vs Ion
+-15% vs Electric
+-15% vs Fire
+-10% vs Energy
+
+Stealth Coating III
++4 Stealth
++1 Defense
+
+
+Level 5:
+
+Alblative Plating III
+-20% vs Physical
+-20% vs Energy
+
+Energy Shielding IV
+-30% vs Energy
+
+Ballistic Shielding IV
+-30% vs Physical
+
+Heat Shielding IV
+-75% vs Fire
+-15% vs Physical
+
+Radiant Shielding IV
+-20% vs Ion
+-20% vs Electric
+-20% vs Fire
+-20% vs Energy
+
+Stealth Coating IV
++4 Stealth
++2 Defense
+
+
+Level 1:
+
+Environmental I
+-5% vs Cold
+-5% vs Heat
+
+Poison I
++1 Save vs Poison
+
+
+Level 2:
+
+Environmental II
+-10% vs Cold
+-10% vs Heat
+
+Poison II
++2 Save vs Poison
+
+Mind-Affecting I
++1 Save vs Fear
++1 Save vs Mind-Affecting
+
+Flexible I
++1 Max Dex
+
+
+Level 3:
+
+Poison III
++3 Save vs Poison
+
+Mind-Affecting II
++2 Save vs Fear
++2 Save vs Mind-Affecting
+
+Strengthening I
++2 Fort
+
+Flexible II
++2 Max Dex
+
+Protecting I
+Immune Sneak Attack
+
+
+Level 4:
+
+Poison IV
++5 Save vs Poison
+
+Mind-Affecting III
++5 Save vs Fear
++5 Save vs Mind-Affecting
+
+Strengthening II
++2 Fort
++1 Str
+
+Flexible III
++3 Max Dex
+
+Protecting II
+Immune Attribute
+
+Regen I
++1 Regen
+
+
+Level 5:
+
+Strengthening III
++2 Fort
++2 Str
++1 Con
+
+Regen II
++3 Regen
+
+
+
+
+
+
+Droid Armor:
+
+
+Level 1:
+
+Impact Armor Mark I
+Max Dex +4
+-3 vs Physical
+-1 vs Energy/Ion/Fire/Electrical
+-20% vs Physical
+
+Modular Plating Mark I
+Max Dex +4
+-2 vs Physical
+-2 vs Energy/Ion/Fire/Electrical
+-2 vs Cold
+-2 vs Sonic
+
+Dura Plating Mark I
+Max Dex +4
+-3 vs Physical
+-3 vs Energy/Ion/Fire/Electrical
+
+Energized Armor Mark I
+Max Dex +4
+-2 vs Physical
+-2 vs Energy/Ion/Fire/Electrical
++1 Fort
++1 Reflex
+
+Agrinium Armor
+Max Dex +4
+-1 vs Physical
+-3 vs Energy/Ion/Fire/Electrical
+-20% vs Energy
+-20% vs Ion
+-20% vs Fire
+
+
+Level 2:
+
+Impact Armor Mark II
+Max Dex +2
+-4 vs Physical
+-3 vs Energy/Ion/Fire/Electrical
+-30% vs Physical
+
+Modular Plating Mark II
+Max Dex +2
+-3 vs Physical
+-3 vs Energy/Ion/Fire/Electrical
+-3 vs Cold
+-3 vs Sonic
++1 Max Dex
+
+Dura Plating Mark II
+Max Dex +2
+-5 vs Physical
+-5 vs Energy/Ion/Fire/Electrical
+
+Energized Armor Mark II
+Max Dex +2
+-3 vs Physical
+-3 vs Energy/Ion/Fire/Electrical
++1 Con
++2 Fort
++2 Reflex
+
+Quadranium Armor
+Max Dex +2
+-3 vs Physical
+-4 vs Energy/Ion/Fire/Electrical
+-30% vs Energy
+-30% vs Ion
+-30% vs Fire
+
+
+
+Level 3:
+
+Impact Armor Mark III
+Max Dex +0
+-6 vs Physical
+-4 vs Energy/Ion/Fire/Electrical
+-50% vs Physical
+
+Modular Plating Mark III
+Max Dex +0
+-4 vs Physical
+-4 vs Energy/Ion/Fire/Electrical
+-4 vs Cold
+-4 vs Sonic
++2 Max Dex
+
+Dura Plating Mark III
+Max Dex +0
+-7 vs Physical
+-7 vs Energy/Ion/Fire/Electrical
+
+Energized Armor Mark III
+Max Dex +0
+-4 vs Physical
+-4 vs Energy/Ion/Fire/Electrical
++2 Str
++2 Con
++3 Fort
++3 Reflex
+
+Capacitor Armor
+Max Dex +0
+-4 vs Physical
+-6 vs Energy/Ion/Fire/Electrical
+-50% vs Energy
+-50% vs Ion
+-50% vs Fire
+
+
+
+
+Upgrade Skill Requirements
+
+
+Energy Shielding I		8
+Ballistic Shielding I	8
+Heat Shielding I		4
+Radiant Shielding I		6
+Stealth Coating I		10
+
+Alblative Plating I		12
+Energy Shielding II		14
+Ballistic Shielding II	14
+Heat Shielding II		12
+Radiant Shielding II	12
+Stealth Coating II		16
+
+Alblative Plating II	20
+Energy Shielding III	20
+Ballistic Shielding III	20
+Heat Shielding III		18
+Radiant Shielding III	22
+Stealth Coating III		24
+
+Alblative Plating III	34
+Energy Shielding IV		28
+Ballistic Shielding IV	28
+Heat Shielding IV		26
+Radiant Shielding IV	30
+Stealth Coating IV		32
+
+
+Environmental I		4
+Poison I			2
+
+Environmental II	8
+Poison II			6
+Mind-Affecting I	10
+Flexible I			12
+
+Poison III			14
+Mind-Affecting II	16
+Strengthening I		16
+Flexible II			20
+Protecting I		18
+
+Poison IV			22
+Mind-Affecting III	24
+Strengthening II	26
+Flexible III		28
+Protecting II		30
+Regen I				26
+
+Strengthening III	34
+Regen II			34
+
+
+
+Upgrade Sequence:
+
+Level 1 Underlays - Level 1+ Armor, Miner Uniform, Jedi Robes
+Level 2 Underlays - Level 2+ Armor, Jedi Robes
+Level 2 Overlays  - Level 2+ Armor
+Level 3 Upgrades  - Level 3+ Armor
+Level 4 Upgrades  - Level 4+ Armor
+Level 5 Upgrades  - Level 5 Armor
+
+
+This way we get some but not all underlays on robes without having to bring in feat requirements on upgrades
+

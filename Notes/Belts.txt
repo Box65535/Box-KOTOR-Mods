@@ -1,0 +1,24 @@
+
+I don't know if we really need a file for this but whatever
+
+
+Stealth Field Generator
+Allows Stealth Mode
+
+Cardio Regulator
++2 Fort
+
+Advanced Cardio Regulator
++3 Fort
+
+Adrenaline Amplifier
++2 Reflex
+
+Advanced Adrenaline Amplifier
++3 Reflex
+
+Nerve Amplifier Belt
++2 Will
+
+Advanced Nerve Amplifier Belt
++3 Will

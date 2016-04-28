@@ -1,0 +1,679 @@
+Jedi Class Evolutions:
+Handmaiden:	Soldier		-> Jedi Apprentice (Strong)
+Disciple:	Soldier		-> Jedi Apprentice (Strong)
+Atton:		Scoundrel 	-> Jedi Apprentice (Weak)
+Mira:		Scout		-> Jedi Apprentice (Weak)
+Bao-Dur:	Tech-Specialist	-> Jedi Apprentice (Weak)
+
+
+
+Exile
+Jedi Guardian/Sentinel/Consular
+Level 1
+
+Str - [Custom]
+Dex - [Custom]
+Con - [Custom]
+Int - [Custom]
+Wis - [Custom]
+Chr - [Custom]
+
+Vitality: [Custom]
+Skill: [Custom]
+Feats: [Custom]
+Morality: 50
+
+Skill Distribution:
+[Custom]
+
+Feats:
+-War Veteran
+-Toughness
+-Armor Level 2
+-Advanced Blasters
+-Rifles
+-Unarmed Specialist 1
+-Jedi Defense
+-Energy Shields
+-Class Skill Demolitions (Guardian)
+-Class Skill Computer Use (Sentinel)
+-Class Skill Craft (Sentinel)
+-Class Skill Repair (Consular)
+-Craft Level 1*
+-Synthesize Level 1*
+
+
+
+
+
+T3-M4
+Expert Droid
+Level 4
+
+Str - 10    + 2
+Dex - 13    + 5
+Con - 14    + 6
+Int - 12    + 4
+Wis - 14    + 6
+Chr - 10    + 2
+            = 24
+
+Vitality: 4*(6+2) = 32 
+Skill: (4+3)*(2+1) = 21
+Feats: 2
+Morality: 50
+
+Skill Distribution:
+Awareness - 5
+Computer Use - 4
+Repair - 4
+Demolitions - 2
+Craft - 2
+
+Feats:
+-Blaster Pistols
+-Droid Light Armor*
+-Class Skill Computer Use
+-Class Skill Repair
+
+-Blaster Integration
+-Class Skill Awareness
+
+-Conditioning 1
+-Conditioning 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kriea
+Jedi Consular
+Level 6
+
+Str - 10    + 2
+Dex - 13    + 5
+Con - 13    + 5
+Int - 14    + 5
+Wis - 16    + 10
+Chr - 12    + 4
+            = 32
+
+Vitality: 6*(6+1) = 42
+Skill: (4+5)*(0+2) = 18
+Feats: 3
+Powers: 4
+Force: (6+1)*(6+3) + 25 = 83
+Morality: 50
+
+Skill Distribution:
+Stealth - 4
+Awareness - 9
+Persuade - 5
+
+Feats:
+-Blaster Pistols
+-Melee Weapons
+-Lightsabers
+-Force Restrain 1*
+-Force Mind Affect 1*
+-Class Skill Awareness
+-Force Sensitive
+
+-Force Chain
+-Mentor
+-Kinetic Combat (?)
+-Class Skill Stealth
+
+-Dueling
+-Force Camoflogue
+-Lightsaber Finesse
+
+Powers:
+-Fear
+-Force Push
+-Wound
+-Cure
+
+-Force Camoflogue
+
+
+
+
+
+
+
+
+
+
+
+
+Atton
+Scoundrel
+Level 4
+
+Str - 12    + 4
+Dex - 15    + 8
+Con - 12    + 4
+Int - 10    + 2
+Wis - 11    + 3
+Chr - 13    + 5
+            = 26
+
+Vitality: 3*(6+1) = 21
+Skill: (4+3)*(2+0) = 14
+Feat: 3
+Force: 3*(1+0) = 3
+Morality: 50
+
+Skill Distribution:
+Awareness - 4
+Computer Use - 6
+Stealth - 4
+
+Feats:
+-Blaster Pistols
+-Advanced Blaster Pistols
+-Melee Weapons
+-Armor Level 1*
+-Sneak Attack I
+-Class Skill Security
+-Class Skill Awareness
+-Stealth Fields*
+
+-Complex Unarmed Animations
+-Survival
+-Spirit
+-Class Skill Stealth
+
+-Armor Level 2*
+-Unarmed Specialist I
+-Precise Shot I
+
+
+
+
+
+
+
+
+
+
+
+Bao-Dur
+Tech Specialist
+Level 5
+
+Str - 13    + 5
+Dex - 10    + 2
+Con - 13    + 5
+Int - 14    + 6
+Wis - 13    + 5
+Chr - 10    + 2
+            = 25
+
+Vitality: 6*(6+1) = 42
+Skill: (4+4)*(2+2) = 32
+Feat: 4
+Force: 6*(1+1) = 12
+Morality: 60
+Skill Distribution:
+Awareness - 3
+Computer Use - 7
+Repair - 9
+Crafting - 7
+Demolitions - 2
+
+Feats:
+-Blaster Pistols
+-Advanced Blaster Pistols
+-Melee Weapons
+-Armor Level 1*
+-Class Skill Computer Use
+-Class Skill Repair
+-Tech Equipment 1*
+
+-Complex Unarmed Animations
+-Shield Breaker
+-Class Skill Security
+-Craft Energy Shields*
+
+-Armor Level 2*
+-Unarmed Specialist I
+-Craft Level 1*
+-Energy Shields*
+
+
+
+
+
+
+
+
+
+
+
+Handmaiden
+Solider
+Level 6
+
+Str - 14    + 6
+Dex - 15    + 8
+Con - 13    + 5
+Int - 10    + 2
+Wis - 11    + 3
+Chr - 10    + 2
+            = 26
+
+Vitality: 6*(8+1+1) = 60
+Skill: (4+5)*(1+0) = 9
+Feat: 4
+Force: 6*(1+0) = 6
+Morality: 62
+
+Skill Distribution:
+Awareness - 4
+Treat Injury - 5
+
+Feats:
+-Blaster Pistols
+-Melee Weapons
+-Vibro Weapons
+-Class Skill Awareness
+
+-Complex Unarmed Animations
+-Echani Strike I
+-Class Skill Treat Injury
+-Power Attack
+-Flurry
+-Critical Strike
+
+-Unarmed Specialist I
+-Unarmed Specialist II
+-Melee Finesse
+-
+
+
+
+
+
+
+
+
+
+Disciple
+Solider
+Level 6
+
+Str - 12    + 4
+Dex - 14    + 6
+Con - 12    + 4
+Int - 12    + 2
+Wis - 10    + 2
+Chr - 13    + 5
+            = 25
+
+Vitality: 6*(8+1+1) = 60
+Skill: (4+5)*(1+0) = 9
+Feat: 4
+Force: 6*(1+0) = 6
+Morality: 62
+
+Skill Distribution:
+Awareness - 4
+Treat Injury - 4
+
+Feats:
+-Blaster Pistols
+-Advanced Blaster Pistols
+-Blaster Rifles
+-Melee Weapons
+-Armor Level 1*
+-Armor Level 2*
+-Armor Level 3*
+-Power Equipment 1*
+-Class Skill Awareness
+
+-Complex Unarmed Animations
+-Class Skill Treat Injury
+
+-Unarmed Specialist I
+-Conditioning 1
+-
+-
+
+
+
+
+
+
+
+
+Visas
+Jedi Sentinel
+Level 7
+
+Str - 10    + 2
+Dex - 16    + 10
+Con - 11    + 3
+Int - 10    + 2
+Wis - 13    + 5
+Chr - 12    + 4
+            = 26
+
+Vitality: 6*(6+0) = 36
+Skill: (4+6)*(2+0) = 20
+Force: 6*(3+1) + 25 = 49
+Feat: 4
+Powers: 4
+Morality: 35
+
+Skill Distribution:
+Awareness - 7
+Treat Injury - 7
+Stealth - 3
+
+Feats:
+-Blaster Pistols
+-Melee Weapons
+-Lightsabers
+-Class Skill Awareness
+-Force Immunity 1
+
+-Force Sensitive
+-Complex Unarmed Animations
+-Class Skill Treat Injury
+
+-Jedi Defense
+-Sneak Attack I
+-Dual Strike
+-Force Camoflogue
+
+Powers:
+-Cure
+-Slow
+-Battle Meditation
+-Burst of Speed
+-Force Camoflogue
+
+
+
+
+
+
+
+
+
+
+Mira
+Scout
+Level 8
+
+Str - 10    + 2
+Dex - 15    + 8
+Con - 12    + 4
+Int - 12    + 4
+Wis - 12    + 4
+Chr - 13    + 5
+            = 27
+
+Vitality: 6*(6+1) = 42
+Skill: (4+7)*(2+1) = 33
+Force: 6*(1+0) = 6
+Feats: 6
+Morality: 55
+
+Skill Distribution:
+-Awareness: 10
+-Demolitions: 12
+-Treat Injury: 7
+-Repair: 2
+
+Feats:
+-Blaster Pistols
+-Advanced Blaster Pistols
+-Melee Weapons
+-Armor Level 1*
+-Class Skill Awareness
+-Class Skill Demolitions
+
+-Wrist Mounted Rockets
+-Point Guard
+-Complex Unarmed Animations
+-Class Skill Treat Injury
+
+-Grenades 1*
+-Energy Shields*
+-Uncanny Dodge I
+-Close Combat
+-Synthesize Level 1*
+-Tech Equipment 1*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hanharr
+Scout
+Level 7
+
+Str - 18    + 18
+Dex - 11    + 3
+Con - 18    + 18
+Int - 10    + 2
+Wis - 11    + 3
+Chr -  8    + 0
+            = 44
+
+Vitality: 4*(6+2+4) = 48
+Skill: (4+6)*(2+0) = 20
+Force: 3*(1+0) = 4
+Feats: 5
+Morality: 20
+
+Skill Distribution:
+-Awareness: 6
+-Demolitions: 8
+-Treat Injury: 6
+
+Feats:
+-Blaster Pistols
+-Advanced Blaster Pistols
+-Melee Weapons
+-Class Skill Awareness
+-Class Skill Demolitions
+
+-Wookie Toughness I
+-Wookie Toughness II
+-Wookie Toughness III
+-Wookie Rage
+-Bowcasters
+-Wookie Strength
+-Complex Unarmed Animations
+-Class Skill Treat Injury
+
+-Melee Weapon Focus I
+-Power Attack
+-Flurry
+-Two-Weapon Fighting
+-Synthesize Level 1*
+
+
+
+
+
+
+
+
+
+
+
+
+G0-T0
+Expert Droid
+Level 8
+
+Str - 10    + 2
+Dex - 10    + 2
+Con - 15    + 8
+Int - 16    + 10
+Wis - 11    + 3
+Chr - 14    + 5
+            = 30
+
+Vitality: 6*(6+2) = 48 
+Skill: (4+7)*(2+2) = 44
+Feats: 3
+Morality: 30
+
+Skill Distribution:
+Awareness - 9
+Computer Use - 11
+Repair - 8
+Craft - 4
+Demolitions - 2
+Stealth - 5
+Persuade - 4
+
+
+Feats:
+-Blaster Pistols
+-Droid Light Armor*
+-Class Skill Computer Use
+-Class Skill Repair
+
+-Blaster Integration
+-Mine Immunity
+-Personal Cloaking Shield
+-Class Skill Awareness
+
+-Droid Medium Armor*
+-Droid Auxilary Equipment 1*
+-Droid Sheilds*
+
+
+
+
+
+
+
+
+
+
+
+HK-47
+Combat Droid
+Level 8
+
+Str - 15    + 8
+Dex - 14    + 6
+Con - 13    + 4
+Int - 12    + 4
+Wis - 14    + 6
+Chr - 11    + 3
+            = 30
+
+Vitality: 6*(8+1) = 54 
+Skill: (4+7)*(1+1) = 22
+Feats: 3
+Morality: 20
+
+Skill Distribution:
+Awareness - 5
+Demolitions - 5
+Computer Use - 3
+Repair - 3
+
+Feats:
+-Blaster Pistols
+-Advanced Blaster Pistols
+-Blaster Rifles
+-Droid Light Armor*
+-Droid Medium Armor*
+-Class Skill Awareness
+
+-Assasin Protocol
+-Droid Interface
+-Class Skill Demolitions
+
+-Power Blast
+-Sniper Shot
+-Close Combat
+
+
+
+
+
+
+
+
+
+
+Mandalore
+Soldier
+Level 8
+
+Str - 15    + 8
+Dex - 12    + 4
+Con - 15    + 8
+Int - 11    + 3
+Wis - 12    + 4
+Chr - 14    + 6
+            = 32
+
+Vitality: 6*(8+2+1) = 66 
+Skill: (4+7)*(1+1) = 12
+Feats: 5
+Morality: 30
+
+Skill Distribution:
+Awareness - 4
+Treat Injury - 2
+Stealth - 1
+Persuade - 2
+
+Feats:
+-Blaster Pistols
+-Advanced Blaster Pistols
+-Blaster Rifles
+-Melee Weapons
+-Armor Level 1*
+-Armor Level 2*
+-Armor Level 3*
+-Power Equipment 1*
+-Class Skill Awareness
+
+-Mandalorian Courage
+-Implant Switching
+-Toughness
+-Complex Unarmed Animations
+-Class Skill Treat Injury
+
+-Close Combat
+-Repeating Blasters*
+-Armor Level 4*
+-Implants 1*
+-Stealth Belts 1*
+
+
+
+

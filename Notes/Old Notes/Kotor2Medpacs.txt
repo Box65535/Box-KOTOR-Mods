@@ -1,0 +1,423 @@
+Advanced Medpac
+g_i_medeqpmnt02
+20 Healing
++1 Healing for Wis modifier
++2 Healing for Treat Injury
+
+Advanced Repair Kit
+g_i_drdrepeqp002
+25 Healing
++1 Healing for Int modifier
++2 Healing for Repair
+
+Antidote Kit
+g_i_medeqpmnt04
+Heals Poison
+
+Construction Kit
+g_i_drdrepeqp003
+35 Healing
++1 Healing for Int modifier
++3 Healing for Repair
+
+Life Support Pack
+g_i_medeqpmnt03
+30 Healing
++1 Healing for Wis modifier
++3 Healing for Treat Injury
+
+Medpac
+g_i_medeqpmnt01
+10 Healing
++1 Healing for Wis modifier
++1 Healing for Treat Injury
+
+Repair Kit
+g_i_drdrepeqp001
+15 Healing
++1 Healing for Int modifier
++1 Healing for Repair
+
+Squad Recovery Stim
+g_i_medeqpmnt08
+10 Healing to Party
+
+
+
+
+
+
+
+
+
+Advanced Medpac
+g_i_medeqpmnt02
+3 Healing every 2 seconds for 60 seconds
++2 Healing for Treat Injury
+60 Credits
+
+Advanced Repair Kit
+g_i_drdrepeqp002
+4 Healing every 2 seconds for 60 seconds
++2 Healing for Repair
+75 Credits
+
+Antidote Kit
+g_i_medeqpmnt04
+Heals Poison
+Heals Attribute Damage
+30 Credits
+
+Construction Kit
+g_i_drdrepeqp003
+6 Healing every 2 seconds for 60 seconds
++4 Healing for Repair
+250 Credits
+
+Life Support Pack
+g_i_medeqpmnt03
+4 Healing every 2 seconds for 60 seconds
++4 Healing for Treat Injury
+200 Credits
+
+Medpac
+g_i_medeqpmnt01
+2 Healing every 2 seconds for 40 seconds
++1 Healing for Treat Injury
+20 Credits
+
+Repair Kit
+g_i_drdrepeqp001
+2 Healing every 2 seconds for 60 seconds
++1 Healing for Repair
+25 Credits
+
+Squad Recovery Stim
+g_i_medeqpmnt08
+Not Used????
+
+
+Heal Another 1:  +25% initial healing (not effect) when the healer
+                      isn't healing him/herself
+Heal Another 2:  +50%
+Heal Another 3:  +75%
+
+
+
+
+--------------------------------------------------------
+New Medpacs
+--------------------------------------------------------
+
+
+Medpacs:
+
+
+Medpac
+40 Healing (2/2 for 40 Seconds)
++1 Healing for Treat Inujury
+
+Advanced Medpac
+75 Healing (3/2 for 50 Seconds)
++2 Healing for Treat Inujury
+
+Life Support Pack
+120 Healing (4/2 for 60 Seconds)
++4 Healing for Treat Injury
+
+Antidote Pack
+Cures Poison
+Cures Attribute Damage
+
+
+
+Repair Kits:
+
+
+Repair Kit
+60 Healing (2/2 for 60 Seconds)
++1 Healing for Repair
+
+Advanced Repair Kit
+120 Healing (3/2 for 80 Seconds)
++2 Healing for Repair
+
+Construction Kit
+200 Healing (4/2 for 100 Seconds)
++4 Healing for Repair
+
+Quick Fix Kit
+10*X Healing (X/1 for 10 Seconds)
+X = 2 + Repair/10
+
+
+
+
+
+----------------------------------------------------------------------
+
+Alright we're rethinking medpacs and repair kits too
+.......... maybe
+We'll do the droid kits first
+I don't think it's necessarily a good idea to make these require feats, idk maybe
+
+
+
+Repair Tools:
+
+
+Repair Tool
+60 Healing (2/2 for 60 Seconds)
+Can Heal self or others
+1 Minute Recharge
+
+Quick-Fix Tool
+40 Healling (4/1 for 10 Seconds)
+Can Heal self or others
+1 Minute Recharge
+
+
+
+Advanced Repair Tools:
+
+
+Advanced Repair Tool
+120 Healing (4/2 for 60 Seconds)
+Can Heal self or others
+1 Minute Recharge
+
+Advanced Quick-Fix Tool
+80 Healling (8/1 for 10 Seconds)
+Can Heal self or others
+1 Minute Recharge
+
+
+
+Medical Tools:
+
+
+Medicine Tool
+60 Healing (2/2 for 60 Seconds)
+Can heal human party members
+1 Minute Recharge
+
+
+
+Repair Kits:
+
+
+Repair Kit
+X Healing (2/2 for X seconds)
+X = 10 + Repair
+Can Heal self or others
+Single Use
+
+Advanced Repair Kit
+X Healing (2/2 for X seconds)
+X = 20 + 2*Repair
+Can Heal self or others
+Single Use
+
+
+
+
+Medpacs:
+
+Medpac
+X Healing (2/2 for X seconds)
+X = 10 + TreatInjury
+Can Heal self or others
+Single Use
+
+Advanced Medpac
+X Healing (2/2 for X seconds)
+X = 20 + 2*TreatInjury
+Can Heal self or others
+Single Use
+
+Antidote Kit
+Cures Poison
+Single Use
+
+
+
+Medicine Belts:
+
+Medicine Belt
+60 Healing (2/2 for 60 Seconds)
+Heals self only
+1 Minute Recharge
+
+
+
+Advanced Medicine Belts:
+
+Medical Dispenser
+60 Healing (2/2 for 60 Seconds)
+Can Heal self or others
+1 Minute Recharge
+
+Revive Belt
+Can Revive (ie Atton's Spirit)
+1 Use Per Day Recharge
+
+
+
+
+Idk man
+Vitality is just so dynamic in this game that keeping up with it is hard
+Welllllll
+Basically we just want there to be an advantage to units who choose to put investment into healing
+But we still want to be able to do healing without that investment since it's so important
+One major problem is that we need to slowly introduce better healing items regardless of investment
+So maybe instead of a regular progression, we evolve into more complicated healing items
+This time we'll start with human healing items since they're more important
+We'll also go in 'chrnological' order to try to understand how these items interact
+
+
+One thing to keep in mind is that the goal of changing medpacs to the way they are now is to discourage medpac games in battle
+Instead of doing this crap with times and stuff, it might be easier to just make medpacs only work outside of battle or something
+
+Regardless, I don't like the current proposals for medpacs
+
+Okay here we go now
+
+
+
+Medpac
+40 Healing (10/2 for 8 seconds) 
++1 Healing for TreatInjury (Immediate)
+Can Heal Self or Others
+Target can't move for 8 seconds
+Single Use
+
+Antidote Kit
+Cures Poison
+Can Heal Self or Others
+Target can't move for 8 seconds
+Single Use
+
+Medicine Belt [Feat Level 1]
+32 Healing (8/2 for 8 seconds)
+Can Heal Self only
+Target can't move for 8 seconds
+Unlimited Use
+
+Medpac Dispenser [Feat Level 2]
+20+4*X Healing ((5+X)/2 for 8 seconds)
+X = TreatInjury / 2
+Can Heal Self or Others
+Target can't move for 8 seconds
+Unlimited Use
+
+
+
+Advanced Medpac
+80 Healing (20/2 for 8 seconds) 
++2 Healing for TreatInjury (Immediate)
+Can Heal Self or Others
+Target can't move for 8 seconds
+Single Use
+
+Advanced Medicine Belt [Feat Level 1]
+64 Healing (16/2 for 8 seconds)
+Can Heal Self only
+Target can't move for 8 seconds
+Unlimited Use
+
+Advanced Medpac Dispenser [Feat Level 2]
+40+4*X Healing ((10+X)/2 for 8 seconds)
+X = TreatInjury
+Can Heal Self or Others
+Target can't move for 8 seconds
+Unlimited Use
+
+Life Support Pack
+60 Healing (Immediate)
++2 Healing for TreatInjury (Immediate)
+-4 Str/Dex/Wis for 30 Seconds
+Can Heal Self or Others
+Single Use
+
+
+
+
+I think that works, I think it works very well actually
+
+
+
+For Droids
+
+
+Repair Kit
+40 Healing (10/2 for 8 seconds) 
++1 Healing for Repair (Immediate)
+Can Heal Self or Others
+Target can't move for 8 seconds
+Single Use
+
+Repair Routine [Feat Level 1]
+32 Healing (8/2 for 8 seconds)
+Can Heal Self only
+Target can't move for 8 seconds
+Unlimited Use
+
+Repair Tool [Feat Level 2]
+20+4*X Repair ((5+X)/2 for 8 seconds)
+X = Repair / 2
+Can Heal Self or Others
+Target can't move for 8 seconds
+Unlimited Use
+
+
+
+Advanced Repair Kit
+80 Healing (20/2 for 8 seconds) 
++2 Healing for Repair (Immediate)
+Can Heal Self or Others
+Target can't move for 8 seconds
+Single Use
+
+Advanced Repair Routine [Feat Level 1]
+64 Healing (16/2 for 8 seconds)
+Can Heal Self only
+Target can't move for 8 seconds
+Unlimited Use
+
+Advanced Repair Tool [Feat Level 2]
+40+4*X Healing ((10+X)/2 for 8 seconds)
+X = Repair
+Can Heal Self or Others
+Target can't move for 8 seconds
+Unlimited Use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

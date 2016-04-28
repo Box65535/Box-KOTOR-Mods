@@ -1,0 +1,271 @@
+
+-----------------------------------------------
+New Stuff
+-----------------------------------------------
+
+Lightsaber
+1d16 Unstoppable / 19-20 x2
++All
+
+Double-Bladed Lightsaber
+1d18 Unstoppable / 20-20 x2 / Balanced
++All
+
+Short Lightsaber
+1d12 Unstoppable / 19-20 x2 / Balanced
++All
+
+
+
+
+
+----------------------------------------------------
+Lightsaber Upgrades
+----------------------------------------------------
+
+
+Lenses:
+
+Widening Lens 1:
++1 Attack
+-2 Damage
+
+Widening Lens 2:
++1 Attack
++1 Deflect
+-2 Damage
+
+Kunda Lens 1:
++1 Deflect
+-1 Damage
+
+Kunda Lens 2:
++2 Deflect
+-1 Damage
+
+Sharp Lens:
+Keen
+-2 Defense
+
+Vibration Lens 1:
++1 Energy
+-1 Attack
+
+Vibration Lens 2:
++2 Energy
+-1 Attack
+
+
+
+Emitters:
+
+Deflection Emitter 1:
++1 Deflect
+-1 Attack
+
+Deflection Emitter 2:
++2 Deflect
+-1 Attack
+
+Fencing Emitter:
++1 Defense
+-1 Damage
+-1 Deflect
+
+Disrupting Emitter 1:
+50% Slow DC 18 (3 Rounds)
+-1 Defense
+
+Disrupting Emitter 2:
+25% Stun DC 18 (3 Rounds)
+-1 Defense
+
+Phobium Emitter:
++3 Energy
+-1 Attack
+-1 Defense
+
+
+
+Cells:
+
+
+Energy Cell:
++1 Energy
+-1 Deflect
+
+Electric Cell:
++1 Electric
+25% Stun DC 18 (2 Rounds)
+-1 Attack
+
+Cold Cell:
++1 Cold
+25% Paralyze DC 18 (3 Rounds)
+-1 Defense
+
+Fire Cell:
++1 Fire
+-6 Con DC 14
+-1 Defense
+
+Ion Cell:
++1 Ion
++2 Ion vs Droid
+-1 Attack
+
+Vibration Cell:
++2 Slashing
+-1 Attack
+
+
+
+
+Crystals:
+
+Rubat
++1 Attack
+
+Nextor
++1d4 Massive Crit
+
+Dragite
++2 Sonic
+
+Firkrann
++3 Electric vs Droid
+
+Phond
++2 Slashing
+
+Bondar
+25% Stun DC 18 (2 Rounds)
+
+Sigil
++3 Energy
+
+Jenraux
++3 Deflect
+
+Kasha
++2 Will
+
+Stygium
++3 Stealth
+
+Damind
++2 Attack
+
+Pontite
++2 Cold
++1 Will
+
+Upari
+Keen
+
+Ultima-Pearl
++1 Attack
++1 Fire
++1 Cold
+
+Solari
++1 Light Side
++3 Phys vs Dark Side
+Light Side Restriction
+
+Qixoni
++3 Dark Side
++1 Regen Force
+Dark Side Restriction
+
+Lorrdian Gemstone
++1 Defense
++1 Deflect
+
+Barab Ore Ignot
++3 Fire
+
+Hurrikane
++3 Unstoppable
+
+Ankarres Saphire
+Immunity Attribute Damage
++1 Regen
+
+
+
+
+--------------------------------------------------------------
+Personal Crystals:
+--------------------------------------------------------------
+
+There are 9 levels for each crystal.
+There are 5 alignment variations for each crystal.
+
+All crystals get bonus damage for every level
+
+Level 1:	+1
+Level 2:	+1
+Level 3:	+2
+Level 4:	+2
+Level 5:	+3
+Level 6:	+3
+Level 7:	+4
+Level 8:	+4
+Level 9:	+5
+
+Neutral or Semi Light/Dark: Unstoppable Damage
+Light Side: LS Damage
+Dark Side: DS Damage
+
+Then there's an attribute bonus per level
+
+Level 1:	+0
+Level 2:	+0
+Level 3:	+0
+Level 4:	+1
+Level 5:	+1
+Level 6:	+2
+Level 7:	+2
+Level 8:	+3
+Level 9:	+3
+
+
+The Attributes gained depend on alignment as well
+
+Pure Light:		Dex
+Semi Light:		Wis
+Pure Neutral:	Wis and Chr
+Semi Dark:		Chr
+Pure Dark:		Str
+
+No Cost for this crystal
+
+
+Skill Upgrade Requirements
+
+
+
+
+Deflection Emitter 1	20
+Deflection Emitter 2	26
+Fencing Emitter			24
+Disrupting Emitter 1	22
+Disrupting Emitter 2	28
+Phobium Emitter			30
+
+Widening Lens 1		20
+Widening Lens 2		26
+Kunda Lens 1		22
+Kunda Lens 2		28
+Sharp Lens			30
+Vibration Lens 1	18
+Vibration Lens 2	24
+
+Energy Cell			20
+Electric Cell		22
+Cold Cell			28
+Fire Cell			30
+Ion Cell			24
+Disruption Cell		26
+

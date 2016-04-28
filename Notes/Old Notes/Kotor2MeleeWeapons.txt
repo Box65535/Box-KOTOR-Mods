@@ -1,0 +1,1213 @@
+Short Sword
+w_melee_01
+1d6 Slashing
+Balanced
+Edge and Grip Upgrades Only
+
+Long Sword
+w_melee_02
+1d12 Slashing
+Edge and Grip Upgrades Only
+
+Energy Baton
+w_melee_03
+1d1 Piercing
++1d3 Piercing
+25% Stun DC 14
+Not Upgradeable
+
+Quarterstaff
+w_melee_04
+1d6 Bludgeoning
+Two Handed, Balanced
+Not Upgradeable
+
+Vibroblade
+w_melee_05
+1d10 Slashing
+Balanced
+Fully Upgradeable
+
+Vibrosword
+w_melee_06
+2d6 Slashing
+Fully Upgradeable
+
+Double-Bladed Sword
+w_melee_07
+2d6 Slashing
+Two Handed, Balanced
+Edge and Grip Upgrades Only
+
+Exchange Negotiator
+w_melee_08
+1d1 Piercing
++1d6 Piercing
+25% Stun DC 18
+Not Upgradeable
+
+Gamorrean War Axe
+w_melee_09
+1d12 Slashing
++1d8 Slashing
+
+Zabrak Vibroblade
+w_melee_10
+1d10 Slashing
++2 Piercing
+Melee Finesse
+Balanced
+Fully Upgradeable
+
+Rodian Blade
+w_melee_11
+1d6 Slashing
++1 Attack
+Str Damage DC 14
+Balanced
+Not Upgradeable
+
+Sith War Sword
+w_melee_12
+2d8 Slashing
++1 Enhancement
+Two Handed, Balanced
+Edge and Grip Upgrades Only
+
+Trandoshan Sword
+w_melee_13
+1d12 Slashing
++1 Attack
++4 Damage
++4 Massive Crit
+Not Upgradeable
+
+Force Pike
+w_melee_14
+2d6 Bludgeoning
+Stun 25% DC 10
+Two Handed, Balanced
+
+Vibro Double-Blade
+w_melee_15
+2d8 Slashing
+Two Handed, Balanced
+Fully Upgradeable
+
+Gamorrean Cleaver
+w_melee_16
+1d12 Slashing
++1d12 Slashing
+-2 Attack
+Stun 25% DC 14
+Not Upgradeable
+
+Rodian Death Blade
+w_melee_17
+1d6 Slashing
++1 Slashing
++1 Attack
+Con Damage DC 10
+Str Damage DC 14
+Balanced
+Not Upgradeable
+
+Gand Silencer
+w_melee_18
+1 Piercing
++1d8 Piercing
++1 Attack
+Stun 25% DC 22
+
+Ryyk Blade
+w_melee_19
+1d6 Slashing
++3 Slashing
++2 Enhancement
+Edge and Grip Upgrades Only
+
+Trandoshan Double-Blade
+w_melee_20
+2d8 Slashing
++4 Slashing
++2 Attack
++1d8 Massive Crit
+Two Handed, Balanced
+Not Upgradeable
+
+Echani Vibrosword
+w_melee_21
+2d6 Slashing
++2 Cold
++2 Enhancement
+Fully Upgradeable
+
+Sith Tremor Sword
+w_melee_22
+2d6 Slashing
++3 Sonic
++2 Enhancement
+Fully Upgradeable
+
+Gand Shockstaff
+w_melee_23
+2d6 Bludgeoning
+Stun 50% DC 14
+Two Handed, Balanced
+Not Upgradeable
+
+Shyarn
+w_melee_24
+1d12 Slashing
++5 Slashing
++1 Attack
+Flurry
+Improved Flurry
+Not Upgradeable
+
+Arg'garok
+w_melee_25
+1d12 Slashing
++2d12 Slashing
+-5 Attack
+Power Attack
+Improved Power Attack
+25% Stun DC 18
+Not Upgradeable
+
+Geonosian Electro-Staff
+w_melee_26
+1d6 Bludeoning
++3d6 Electric
+Two Handed, Balanced
+Not Upgradeable
+
+Tehk'la Blade
+w_melee_27
+1d10 Slashing
++5 Slashing
++1 Attack
+Critical Strike
+Improved Critical Strike
+Balanced
+Not Upgradeable
+
+Zhaboka
+w_melee_28
+2d8 Slashing
++1d8 Slashing
++2d8 Massive Crit
+Two Handed, Balanced
+Grip and Edge Upgrades Only
+
+Gand Discharger
+w_melee_29
+1 Piercing
++2d8 Piercing
+Stun 50% DC 22
+Not Upgradeable
+
+Freyyr's Warblade
+w_melee_30
+1d10 Slashing
++2d10 Slashing
++2 Slashing
++1 Attack
+Keen
+Not Upgradeable
+
+Handmaiden's Staff
+w_melee_x011
+1d6 Bludgeoning
++1d6 Bludgeoning
++2 Attack
++1 Defense
+Two Handed, Balanced
+Not Upgradeable
+Handmaiden
+
+Twi'lek Spinning Blade
+w_melee_x02
+1d6 Slashing
++1 Attack
+Str Damage DC 18
+Balanced
+Not Upgradeable
+
+Twi'lek Spinning Blade (Alternate)
+w_melee_x03
+1d6 Slashing
++1 Attack
+Con Damage DC 18
+Balanced
+Not Upgradeable
+
+Ludo Kressh's War Sword
+w_melee_x12
+2d8 Slashing
++1 Attack
++2 Dark Side
+Two Handed, Balanced
+Edge and Grip Upgrades Only
+
+Dueling Vibrosword
+g_w_vbroswrd002
+???
+
+Plasma Torch
+plasmatorch
+???
+
+Vibrocutter
+vibrocutter
+1d10 Slashing
+Balanced
+Not Upgradeable?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Short Sword
+w_melee_01
+1d8 Slashing / Threat Range 19-20, x2
+Balanced
+Edge and Grip Upgrades Only
+50 Credits
+
+Rodian Blade
+w_melee_11
+1d8 Slashing / Threat Range 19-20, x2
++1 Attack
+Str Damage DC 14
+Balanced
+Not Upgradeable
+1000 Credits
+
+Rodian Death Blade
+w_melee_17
+1d8 Slashing / Threat Range 19-20, x2
++1d3 Slashing
++2 Attack
+Con Damage DC 18
+Str Damage DC 18
+Balanced
+Not Upgradeable
+3000 Credits
+
+Ryyk Blade
+w_melee_19
+1d8 Slashing / Threat Range 19-20, x2
++2 Attack
+Balanced
+Edge and Grip Upgrades Only
+2000 Credits
+
+Twi'lek Spinning Blade
+w_melee_x02
+1d8 Slashing / Threat Range 19-20, x2
++1 Attack
+Str Damage DC 22
+Balanced
+Not Upgradeable
+No Cost
+
+Twi'lek Spinning Blade (Alternate)
+w_melee_x03
+1d8 Slashing / Threat Range 19-20, x2
++1 Attack
+Con Damage DC 22
+Balanced
+Not Upgradeable
+No Cost
+
+
+
+Long Sword
+w_melee_02
+1d12 Slashing / Threat Range 19-20, x2
+Edge and Grip Upgrades Only
+100 Credits
+
+Trandoshan Sword
+w_melee_13 / Threat Range 19-20, x2 ?????
+1d12 Slashing
++1d6 Slashing
++1 Attack
+Not Upgradeable
+2500 Credits
+
+Shyarn
+w_melee_24 / Threat Range 19-20, x2
+1d12 Slashing
++1d10 Slashing
++1 Attack
++1 Defense
+Not Upgradeable
+6000 Credits
+
+
+
+Energy Baton
+w_melee_03
+1 Piercing / Threat Range 20-20, x2
++1d4 Electric
+50% Stun DC 14
+Not Upgradeable
+400 Credits
+
+Exchange Negotiator
+w_melee_08
+1 Piercing / Threat Range 20-20, x2
++1d6 Electric
++1d4 Massive Crit
+50% Stun DC 18
+Not Upgradeable
+1200 Credits
+
+Gand Silencer
+w_melee_18
+1 Piercing / Threat Range 20-20, x2
++1d8 Electric
++1d6 Massive Crit
++1 Attack
+Stun 50% DC 22
+2000 Credits
+
+Gand Discharger
+w_melee_29
+1 Piercing / Threat Range 20-20, x2
++1d12 Electric
++1d8 Massive Crit
++1 Attack
+Stun 100% DC 22
+Not Upgradeable
+4500 Credits
+
+
+
+Quarterstaff
+w_melee_04
+1d10 Bludgeoning / Threat Range 20-20, x2
+Two Handed, Balanced
+Not Upgradeable
+100 Credits
+
+Geonosian Electro-Staff
+w_melee_26
+1d10 Bludgeoning / Threat Range 20-20, x2
++2d6 Electric
+Two Handed, Balanced
+Not Upgradeable
+5000 Credits
+
+Handmaiden's Staff
+w_melee_x011
+1d10 Bludgeoning / Threat Range 20-20, x2
++1d6 Bludgeoning
++2 Attack
++1 Defense
+Two Handed, Balanced
+Not Upgradeable
+Handmaiden
+No Cost
+
+
+
+Force Pike
+w_melee_14
+2d6 Slashing / Threat Range 20-20, x2
+Two Handed, Balanced
+Not Upgradeable
+200 Credits
+
+Gand Shockstaff
+w_melee_23
+2d6 Slashing
+Stun 50% DC 22
+Two Handed, Balanced
+Not Upgradeable
+3000 Credits
+
+
+
+Gamorrean War Axe
+w_melee_09
+1d16 Slashing / Threat Range 20-20, x2
+Not Upgradeable
+800 Credits
+
+Gamorrean Cleaver
+w_melee_16
+1d16 Slashing / Threat Range 20-20, x2
++1d8 Slashing
+-2 Attack
+Not Upgradeable
+2000 Credits
+
+Arg'garok
+w_melee_25
+1d16 Slashing / Threat Range 20-20, x2
++2d8 Slashing
+-4 Attack
+Not Upgradeable
+4000 Credits
+
+
+
+Double-Bladed Sword
+w_melee_07
+2d6 Slashing / Threat Range 20-20, x2
+Two Handed, Balanced
+Edge and Grip Upgrades Only
+400 Credits
+
+Freyyr's Warblade
+w_melee_30
+1d10 Slashing / Threat Range 19-20, x2
++1d10 Slashing
++1 Attack
+Keen
+Two Handed, Balanced
+Not Upgradeable
+8000 Credits
+
+
+Vibroblade
+w_melee_05
+1d10 Slashing / Threat Range 20-20, x2
+Balanced
+Fully Upgradeable
+1000 Credits
+
+Zabrak Vibroblade
+w_melee_10
+1d10 Slashing / Threat Range 20-20, x2
++1 Attack
+Balanced
+Fully Upgradeable
+2000 Credits
+
+Tehk'la Blade
+w_melee_27
+1d10 Slashing / Threat Range 20-20, x2
++1d8 Slashing
++2 Attack
+Balanced
+Not Upgradeable
+5000 Credits
+
+
+
+Vibrosword
+w_melee_06
+2d6 Slashing / Threat Range 19-20, x2
+Fully Upgradeable
+1500 Credits
+
+Echani Vibrosword
+w_melee_21
+2d6 Slashing / Threat Range 19-20, x2
++1d3 Cold
+Fully Upgradeable
+3000 Credits
+
+Sith Tremor Sword
+w_melee_22
+2d6 Slashing / Threat Range 19-20, x2
++1d3 Sonic
+Fully Upgradeable
+3000 Credtis
+
+
+
+Vibro Double-Blade
+w_melee_15
+2d6 Slashing / Threat Range 20-20, x2
+Two Handed, Balanced
+Fully Upgradeable
+2000 Credits
+
+Sith War Sword
+w_melee_12
+2d6 Slashing / Threat Range 20-20, x2
++1d3 Slashing
++1 Attack
+Two Handed, Balanced
+Edge and Grip Upgrades Only
+2000 Credits
+
+Trandoshan Double-Blade
+w_melee_20
+2d6 Slashing / Threat Range 20-20, x2
++1d8 Slashing
++2 Attack
+Two Handed, Balanced
+Not Upgradeable
+6000 Credits
+
+Zhaboka
+w_melee_28
+2d6 Slashing / Threat Range 20-20, x2
++1d6 Slashing
+Two Handed, Balanced
+Grip and Edge Upgrades Only
+5000 Credits
+
+Ludo Kressh's War Sword
+w_melee_x12
+2d6 Slashing / Threat Range 20-20, x2
++1d4 Dark Side
++1 Attack
+Two Handed, Balanced
+Edge and Grip Upgrades Only
+No Cost
+
+Dueling Vibrosword
+g_w_vbroswrd002
+???
+
+Plasma Torch
+plasmatorch
+???
+
+Vibrocutter
+vibrocutter
+1d10 Slashing
+Balanced
+Not Upgradeable?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------
+New Items
+--------------------------------------------------------
+
+
+Melee Weapons [Simple]
+
+Short Sword
+1d8 / 19-20, x2
++Edge, Grip
+
+Long Sword
+1d10 / 19-20, x2
++Edge, Grip
+
+Quarterstaff
+1d10 / 20-20, x2
++Grip
+
+Double-Bladed Sword
+1d10 / 20-20, x2
++Edge, Grip
+
+Energy Baton
+1d6 / 20-20 x2
+Stun 50% DC 14
++Grip
+
+Force Pike
+1d8 / 20-20 x2
+Stun 25% DC 14
++Grip
+
+Gammorean Battleaxe
+1d16 / 20-20 x2
++None
+
+Wookie Warblade
+1d12 / 20-20 x3
++None
+
+Plasma Torch
+1d6 Fire / 20-20 x1
++None
+
+Dueling Vibrosword
+1d10 / 20-20 x2
++None
+
+
+Cell-Powered Melee Weapons
+
+Vibrocutter
+1d8 / 20-20 x2
++None
+
+Vibroblade
+1d10 / 19-20 x2
++All
+
+Vibrosword
+1d12 / 19-20 x2
++All
+
+Vibro Double-blade
+1d12 / 20-20 x2
++All
+
+
+
+Ceremonial Melee Weapons
+
+
+Echani Vibrosword (Vibrosword)
+1d12 / 19-20 x2
+Keen
++2 Cold
++None
+
+Rodian Blade (Short Sword)
+1d8 / 19-20 x2
+-6 Str DC 18
+-6 Dex DC 18
++None
+
+Trandoshian Sword (Long Sword)
+1d10 / 19-20 x2
++2 Slashing
++1d8 Massive Crit
++None
+
+Arg'garok (Gammorean Battleaxe)
+1d16 / 20-20 x2
+-2 Attack
++1d12 Damage
++None
+
+Gand Shockstaff (Force Pike)
+1d8 / 20-20 x2
+Stun 25% DC 22
++None
+
+Geonosian Electro-Staff (Quarterstaff)
+1d10 / 20-20 x2
++6 Electric
++None
+
+Sith War Sword (Double-Bladed Sword)
+1d10 / 20-20 x2
++1 Attack
++1 Defense
++2 Slashing
++None
+
+Ludo Kressh's War Sword (Double-Bladed Sword)
+1d10 / 20-20 x2
++1 Wis
++1 Chr
++4 Dark Side
+Restricted to Dark Side
++None
+
+Gand Silencer (Stun Baton)
+1d6 / 20-20 x2
++2 Electric
+Stun 50% DC 22
++None
+
+Tehk'la Blade (Vibroblade)
+1d10 / 19-20 x2
+-6 Con DC 22
++None
+
+Zhaboka (Vibro Double-Blade)
+1d12 / 20-20 x2
++1 Attack
++3 Unstoppable
++None
+
+Twi'lek Spinning Blade (Short Sword)
+1d8 / 19-20 x2
+"Severe" Poison DC 22
++None
+
+Twi'lek Spinning Blade (Short Sword)
+1d8 / 19-20 x2
+Paralysis 50% DC 22
++None
+
+Freyyr's Warblade (Wookie Warblade)
+1d12 / 20-20 x3
++1 Attack
+Keen
++None
+
+Shyarn (Long Sword)
+1d10 / 19-20, x2
++2 Defense
++None
+
+Handmaiden's Staff (Quarterstaff)
+1d10 / 20-20, x2
++1 Attack
++1 Defense
++None
+
+
+
+---------------------------------------------
+Availability
+---------------------------------------------
+
+Peragus Craftable:
+-Short Sword
+-Long Sword
+-Quarterstaff
+
+
+Peragus Obtainable:
+-Plasma Torch
+-Vibrocutter
+
+
+Telos Craftable:
+-Double-Bladed Sword
+-Energy Baton
+-Force Pike
+
+
+Telos Purchaseable:
+*All Craftable
+-Vibroblade
+
+
+Lategame Craftable:
+-Vibroblade
+-Vibrosword
+-Vibro Double-blade
+
+
+Lategame Purchaseable:
+-Everything Else
+
+
+
+---------------------------------------------
+Costs
+---------------------------------------------
+
+
+Vibrocutter			-200 Credits
+Plasma Torch			-100 Credits
+Short Sword			-200 Credits
+Long Sword			-400 Credits
+Quarterstaff			-400 Credits
+Double-Bladed Sword		-800 Credits
+Energy Baton			-200 Credits
+Force Pike			-800 Credits
+Wookie Warblade			-1500 Credits
+Gammorean Cleaver		-2000 Credits
+Vibroblade			-1000 Credits
+Vibrosword			-2000 Credits
+Vibro Double-Blade		-4000 Credits
+
+
+Echani Vibrosword		-00 Credits
+Rodian Blade			-00 Credits
+Trandoshian Blade		-00 Credits
+Arg'garok			-00 Credits
+Gand Shockstaff			-00 Credits
+Geonosian Electro-Staff		-00 Credits
+Sith War Sword			-00 Credits
+Ludo Kressh's War Sword		-00 Credits
+Gand Silencer			-00 Credits
+Tehk'la Blade			-00 Credits
+Zhaboka				-00 Credits
+Twi'lek Spinning Blade
+Twi'lek Spinning Blade
+Freyyr's Warblade
+Shyarn				
+
+
+--------------------------------------------------------
+New Upgrades
+--------------------------------------------------------
+
+Edges:
+
+
+Metal Edge 1:
++1 Slashing
+
+Metal Edge 2:
++2 Slashing
+
+Metal Edge 3:
++3 Slashing
+
+Metal Edge 4:
++4 Slashing
+
+[Poison 1] Edge:
+On Hit Weak Poison DC 10 (10 Damage across 30 seconds)
+
+[Poison 2] Edge:
+On Hit Weak Poison DC 14 (10 Damage across 30 seconds)
+
+[Paralyze 1] Edge:
+On Hit Paralyze 25% 2 rounds DC 14
+
+[Paralyze 2] Edge:
+On Hit Paralyze 25% 2 rounds DC 18
+
+[Ion 1] Edge:
++2 Ion vs Droid
+
+[Ion 2] Edge:
++2 Ion vs Droid
++2 Electric vs Droid
+
+[Energy] Edge:
++2 Energy
+
+[Heated] Edge:
++2 Fire
+-6 Con DC 14
+
+[Sharp] Edge:
+Keen
+
+[Chilling] Edge:
++1 Cold
+Keen
+
+[Critical 1] Edge:
++1d4 Massive Crits
+
+[Critical 2] Edge:
++1d6 Massive Crits
+
+[Critical 3] Edge:
++1d8 Massive Crits
+
+
+Cells:
+
+Okay, so here's the thing.
+I recently decided that Cells would be a good thing
+to not have a whole bunch of since only a small
+number of weapons use them and they should have a
+definite but niche use.
+Anyway, I don't want to get rid of the old Cells
+but I need a new group so we'll just put the real
+ones first and then the old ones after.
+
+Note that these are not meant to be orthogonally
+equilvalent.
+
+
+[Vibration] Cell:
++2 Slashing
+-1 Attack
+
+[Sonic] Cell:
++2 Sonic
++1d4 Massive Crit
+-1 Attack
+
+[Energy] Cell
++1 Energy
+
+[Electrical] Cell:
++1 Electric
+25% Stun DC 18 (2 Rounds)
+
+[Plasma] Cell:
++1 Fire
++1 Ion
+
+
+---------------
+
+[Vibration 1] Cell:
++2 Slashing
+-1 Attack
+
+[Vibration 2] Cell:
++4 Slashing
+-2 Attack
+
+[Sonic] Cell:
++2 Sonic
++1d3 Massive Crit
+-2 Attack
+
+[Energy 1] Cell:
++1 Energy
++1 Attack
+-1 Defense
+
+[Energy 2] Cell:
++1 Energy
++1 Slashing
++1 Attack
+-1 Defense
+
+[Energy 3] Cell:
++1 Energy
++2 Slashing
++1 Attack
+-1 Defense
+
+[Ion 1] Cell:
++2 Ion vs Droid
+-1 Damage
+
+[Ion 2] Cell:
++4 Ion vs Droid
+-2 Damage
+
+[Ion 3] Cell:
++5 Ion vs Droid
+-2 Damage
+
+[Electrical] Cell:
++2 Electric
+25% Stun DC 18 (2 Rounds)
+-1 Defense
+
+[Plasma] Cell:
++1 Fire
++1 Ion
++1 Energy
+-1 Defense
+
+[Cold] Cell:
++2 Cold
+25% Paralyze DC 18 (3 Rounds)
+-1 Defense
+
+
+Grips:
+
+
+[Aggressive 1] Grip
++1 Enhancement Damage
+-1 Attack
+
+[Aggressive 2] Grip
++2 Enhancement Damage
+-1 Attack
+
+[Aggressive 3] Grip
++3 Enhancement Damage
+-1 Attack
+
+[Passive 1] Grip
++1 Attack
+-2 Damage
+
+[Passive 2] Grip
++2 Attack
+-2 Damage
+
+[Passive 3] Grip
++3 Attack
+-2 Damage
+
+[Defensive 1] Grip
++1 Defense
+-2 Attack
+
+[Defensive 2] Grip
++2 Defense
+-2 Attack
+
+[Defensive 3] Grip
++3 Defense
+-2 Attack
+
+[Zabrak 1] Grip
++2 Attack
++2 Enhancement Damage
+-2 Defense
+
+[Zabrak 2] Grip
++3 Attack
++3 Enhancement Damage
+-2 Defense
+
+[Balanced 1] Grip
++1 Attack
+
+[Balanced 1.1] Grip
++1 Defense
+
+[Balanced 2] Grip
++1 Attack
++1 Defense
+
+
+----------------------------------------------
+Upgrade Availability
+----------------------------------------------
+
+
+
+We're going to separate out the upgrades into several tiers
+
+Feel free to make many tiers and don't worry about the separation between them
+
+
+
+If you want to redo this, take a look at the ranged weapons one, I think it's generally better
+
+Tier 1:
+-Metal Edge 1
+-[Poison 1] Edge
+
+Tier 2:
+-[Aggressive 1] Grip
+-[Passive 1] Grip
+-[Defensive 1] Grip
+
+Tier 3:
+-[Paralyze 1] Edge
+-[Ion 1] Edge
+-[Critical 1] Edge
+
+Tier 4:
+-[Vibration] Cell
+-[Energy] Cell
+-[Zabrak 1] Grip
+-[Balanced 1] Grip
+
+Tier 5:
+-Metal Edge 2
+-[Poison 2] Edge
+-[Sharp] Edge
+
+Tier 6:
+-[Aggressive 2] Grip
+-[Passive 2] Grip
+-[Defensive 2] Grip
+-[Critical 2] Edge
+
+Tier 7:
+-[Paralyze 2] Edge
+-[Energy] Edge
+-[Electrical] Cell
+
+Tier 8:
+-Metal Edge 3
+-[Ion 2] Edge
+-[Critical 3] Edge
+-[Balanced 1.1] Grip
+
+Tier 9:
+-[Sonic] Cell
+-[Plasma] Cell
+
+Tier 10:
+-[Aggressive 3] Grip
+-[Passive 3] Grip
+-[Defensive 3] Grip
+
+Tier 11:
+-Metal Edge 4
+-[Heated] Edge
+-[Chilling] Edge
+
+Tier 12:
+-[Zabrak 2] Grip
+-[Balanced 2] Grip
+
+
+
+Okay, we have 12 tiers so now let's figure out the separation between them
+We want assign a raw level at which each of the following can be reached
+
+
+Tier 1 		- Level 2
+Tier 2 		- Level 4
+Tier 3 		- Level 6
+Tier 4 		- Level 8
+Tier 5 		- Level 10
+Tier 6 		- Level 12
+Tier 7 		- Level 14
+Tier 8 		- Level 16
+Tier 9 		- Level 18
+Tier 10		- Level 20
+Tier 11		- Level 22
+Tier 12		- Level 24
+
+
+Hmmmmmmmmmmmm, seems legit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

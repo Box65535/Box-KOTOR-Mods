@@ -1,0 +1,34 @@
+This file is a guide to leveling up characters in KOTOR 2:
+
+
+
+The Exile:
+
+
+Class 1 - Jedi Sentinel
+
+Attributes:
+
+Starting:
+
+Strength - 12
+Dexterity - 12
+Constitution - 14
+Intelligence - 14
+Wisdom - 12
+Charisma - 14
+
+Upgrades:
+Level 4 - Constitution
+Level 8 - Constituion
+Level 12 - Constituion
+
+Feats:
+Level 1 - Class Skill: Demolitions
+Level 3 - Class Skill: Repair
+Level 6 - Toughness
+Level 7 - Improved Toughness
+Level 9 - Master Toughness
+Level 11 - Two-Weapon Fighting
+Level 13 - Improved Two-Weapon Fighting
+Level 15 - Master Two-Weapon Fighting

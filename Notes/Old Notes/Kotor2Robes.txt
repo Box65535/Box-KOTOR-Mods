@@ -1,0 +1,608 @@
+
+
+Padawan Robe
+a_robe_02
+Defense 0
++1 Defense
+
+Dark Padawan Robe
+a_robe_03
+Defense 0
++1 Defense
+
+Baran Do Novice Robe
+a_robe_04
+Defense 0
++1 Defense
++1 Wis
+10% vs Dark
+10% vs Light
+
+Matukai Apprentice Robe
+a_robe_05
+Defense 0
++1 Con
++1 Str
++1 Dex
+
+Zeison Sha Initiate Armor
+a_robe_06
+Defense 3 / Max Dex +4
++1 Defense
++1 Fort
+
+Jal Shey Neophyte Armor
+a_robe_07
+Defense 3 / Max Dex +4
++1 Chr
++1 Persuade
+
+Jedi Robe
+a_robe_08
+Defense 0
++1 Defense
++1 Regen Force
+
+Dark Jedi Robe
+a_robe_09
+Defense 0
++1 Defense
++1 Regen Force
+
+Norris Robe
+a_robe_10
+Defense 0
++2 Defense
+20% vs Energy
+
+Jal Shey Advisor Armor
+a_robe_11
+Defense 3 / Max Dex +4
++2 Chr
++1 Wis
++1 Persuade
+
+Gray Jedi Robe
+a_robe_12
+Defense 0
++1 Defense
++1 Regen Force
++2 Chr
+
+Jedi Knight Robe
+a_robe_13
+Defense 0
++2 Defense
++1 Regen Force
+
+Dark Jedi Knight Robe
+a_robe_14
+Defense 0
++2 Defense
++1 Regen Force
+
+Matukai Adept Robe
+a_robe_15
+Defense 0
++1 Defense
++2 Con
++2 Str
++2 Dex
+
+Zeison Sha Warrior Armor
+a_robe_16
+Defense 3 / Max Dex +4
++2 Defense
++1 Fort
+
+Jedi Master Robe
+a_robe_17
+Defense 0
++3 Defense
++1 Regen Force
+
+Dark Jedi Master Robe
+a_robe_18
+Defense 0
++3 Defense
++1 Regen Force
+
+Baran Do Sage Robe
+a_robe_19
+Defense 0
++2 Defense
++4 Wis
+20% vs Dark
+20% vs Light
+
+Jal Shey Mentor Armor
+a_robe_20
+Defense 3 / Max Dex +4
++1 Defense
++4 Chr
++1 Wis
++1 Persuade
+
+Ossus Keeper Robe
+a_robe_21
+Defense 0
++1 Defense
++4 Wis
++4 Int
++2 Chr
+
+Natth Cowling
+a_robe_22
+Defense 0
++3 Defense
++3 Str
+Dark Side
+
+Arca Jeth's Robe
+a_robe_23
+Defense 0
++2 Defense
++3 Regen Force
++2 Wis
+Light Side
+
+Aleema Keto's Robe
+a_robe_24
+Defense 0
++3 Defense
++1 Regen Force
++2 Str
++4 Wis
+Dark Side
+
+Sylvar's Robe
+a_robe_25
+Defense 0
++2 Defense
+-15 vs Energy
+-15 vs Dark Side
++2 Dex
+Light Side
+
+Darth Malak's Armor
+a_robe_26
+Defense 3 / Max Dex +4
++4 Defense
++2 Regen
++1 Str
+Dark Side
+
+Jolee's Robe
+a_robe_27
+Defense 0
++3 Defense
++1 Regen Force
++4 Chr
+Neutral
+
+Thon's Robe
+a_robe_28
+Defense 0
++3 Defense
+Force Focus
+Force Immunity: Stun
+Force Jump
+Light Side
+
+Crado's Robe
+a_robe_29
+Defense 0
++2 Defense
++6 Str
+-2 Con
+Dark Side
+
+Nomi's Robe
+a_robe_30
+Defense 0
++3 Defense
++3 Regen Force
++4 Wis
+Light Side
+
+Handmaiden's Robe
+a_robe_x01
+Defense 0
++3 Defense
++2 Chr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Padawan Robe
+a_robe_02
+Defense 0
+1000 Credits
+
+Dark Padawan Robe
+a_robe_03
+Defense 0
+1000 Credits
+
+Baran Do Novice Robe
+a_robe_04
+Defense 0
++1 Will
+1500 Credits
+
+Matukai Apprentice Robe
+a_robe_05
+Defense 0
++1 Deflect
+2000 Credits
+
+Zeison Sha Initiate Armor
+a_robe_06
+Defense 1 / Max Dex +4
++1 Fort
+2500 Credits
+
+Jal Shey Neophyte Armor
+a_robe_07
+Defense 1 / Max Dex +4
++1 Int
+-1 Attack
+3000 Credits
+
+Jedi Robe
+a_robe_08
+Defense 0
++1 Force Regen
+3000 Credits
+
+Dark Jedi Robe
+a_robe_09
+Defense 0
++1 Force Regen
+3000 Credits
+
+Norris Robe
+a_robe_10
+Defense 0
++1 Defense vs Energy
++1 Force Regen
+3500 Credits
+
+Jal Shey Advisor Armor
+a_robe_11
+Defense 1 / Max Dex +4
++1 Int
++1 Chr
+-2 Attack
+5000 Credits
+
+Gray Jedi Robe
+a_robe_12
+Defense 0
++1 Force Regen
++1 Wis
+6000 Credits
+
+Jedi Knight Robe
+a_robe_13
+Defense 0
++1 Defense
++1 Regen Force
+6000 Credits
+
+Dark Jedi Knight Robe
+a_robe_14
+Defense 0
++1 Defense
++1 Regen Force
+6000 Credits
+
+Matukai Adept Robe
+a_robe_15
+Defense 0
++1 Dex
++2 Deflect
+7500 Credits
+
+Zeison Sha Warrior Armor
+a_robe_16
+Defense 1 / Max Dex +4
++1 Defense
++1 Fort
+9000 Credits
+
+Jedi Master Robe
+a_robe_17
+Defense 0
++1 Attack
++1 Defense
++1 Force Regen
+10000 Credits
+
+Dark Jedi Master Robe
+a_robe_18
+Defense 0
++1 Attack
++1 Defense
++1 Force Regen
+10000 Credits
+
+Baran Do Sage Robe
+a_robe_19
+Defense 0
++2 Wis
+13000 Credits
+
+Jal Shey Mentor Armor
+a_robe_20
+Defense 1 / Max Dex +4
++1 Defense
++2 Chr
+-1 Attack
+13000 Credits
+
+Ossus Keeper Robe
+a_robe_21
+Defense 0
++2 Int
+13000 Credits
+
+Natth Cowling
+a_robe_22
+Defense 0
++1 Defense
++2 Str
+Dark Side
+16000 Credits
+
+Arca Jeth's Robe
+a_robe_23
+Defense 0
++2 Attack
++1 Defense
+Light Side
+16000 Credits
+
+Aleema Keto's Robe
+a_robe_24
+Defense 0
++1 Defense
++1 Dex
++4 Stealth
+Dark Side
+16000 Credits
+
+Sylvar's Robe
+a_robe_25
+Defense 0
++1 Defense
++3 Will
+-5 vs Dark Side
+Light Side
+16000 Credits
+
+Darth Malak's Armor
+a_robe_26
+Defense 1 / Max Dex +4
++3 Defense
++1 Str
+-2 Wis
+Dark Side
+18000 Credits
+
+Jolee's Robe
+a_robe_27
+Defense 0
++1 Defense
++2 Int
++2 Wis
++2 Chr
+Neutral
+20000 Credits
+
+Thon's Robe
+a_robe_28
+Defense 0
++1 Defense
++2 Wis
++1 Will
++1 Awareness
+Light Side
+20000 Credits
+
+Crado's Robe
+a_robe_29
+Defense 0
++1 Defense
++4 Str
+-1 Saves
+Dark Side
+25000 Credits
+
+Nomi's Robe
+a_robe_30
+Defense 0
++1 Defense
++1 Attack
++1 Dex
++1 Wis
++1 Will
++1 Awareness
++1 Deflect
+Light Side
+25000 Credits
+
+Handmaiden's Robe
+a_robe_x01
+Defense 0
++1 Defense
++1 Attack
++2 Dex
+No Cost
+
+
+
+
+
+
+---------------------------------------------------------------
+New Robes
+---------------------------------------------------------------
+
+
+Jedi Robes:
+
+
+Padawan Robe
+Nothing
+
+Dark Padawan Robe
+Nothing
+
+
+
+
+Jedi Robe
++1 Force Regen
+
+Dark Jedi Robe
++1 Force Regen
+
+Baran Do Novice Robe
++2 Will
+
+Matukai Apprentice Robe
++1 Deflect
++1 Reflex
+
+
+
+
+
+Jedi Knight Robe
++1 DT
++1 Force Regen
+
+Dark Jedi Knight Robe
++1 DT
++1 Force Regen
+
+Grey Jedi Robe
++1 DT
++1 Force Regen
+
+Matukai Adept Robe
++1 Dex
++2 Deflect
+
+
+
+
+
+Jedi Master Robe
++1 Attack
++1 DT
++1 Force Regen
+
+Dark Jedi Master Robe
++1 Attack
++1 DT
++1 Force Regen
+
+Ossus Keeper's Robe
++2 Int
+
+Baran Do Sage Robe
++1 Wis
++2 Will
+
+Natth Cowlling
++1 DT
++2 Str
+
+
+
+Handmaiden's Robe
++1 Attack
++1 DT
++1 Dex
+
+
+
+
+
+
+
+Okay, let's try starting from a clean slate like with armor
+
+Since there aren't any feats for jedi robes, these don't
+have to have tiers like with other items
+
+
+Padawan Robe
+Nothing
+
+Jedi Robe
++1 Force Regen
+
+Jedi Knight Robe
++1 DT
+
+Dark Jedi Robe
++2 Damage
+
+Jedi Master Robe
++1 Attack
+
+Norris Robe
++2 Fort
+
+Baran Do Robe
++2 Will
+
+Matukai Robe
++1 Deflect
++1 Reflex
+
+Natth Cowling
++1 Str
+
+Handmaiden's Robe
++1 Dex
+
+
+Yeah, this is perfect
+
+
+
+
+
+
+
+
+
+
+

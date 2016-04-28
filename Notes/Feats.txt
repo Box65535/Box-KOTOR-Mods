@@ -1,0 +1,251 @@
+I think we need to round up what feats we eventually decided on
+
+Weapons:
+-Blasters 1
+-Blasters 2
+-Blasters 3
+-Blasters 4
+-Blasters 5
+-Melee 1
+-Melee 2
+-Melee 3
+-Lightsabers
+-Grenades 1
+-Grenades 2
+-Energy 1
+-Energy 2
+-Energy 3
+-Bowcasters/Wookie Weapons
+
+Armor:
+-Armor 1
+-Armor 2
+-Armor 3
+-Armor 4
+-Armor 5
+-Droid Armor 1
+-Droid Armor 2
+-Droid Armor 3
+
+Items:
+-Stealth Fields
+-Energy Shields 1
+-Energy Shields 2
+-Stimulants 1
+-Stimulants 2
+-Turrets 1
+-Turrets 2
+-Turrets 3
+-Implants?????
+
+Combat Feats:
+*Same as Vanilla
+
+Bonuses:
+-Precise Shot 1
+-Precise Shot 2
+-Precise Shot 3
+-Precise Shot 4
+-Precise Shot 5
+-Increased Melee Damage 1
+-Increased Melee Damage 2
+-Increased Melee Damage 3
+-Increased Melee Damage 4
+-Increased Melee Damage 5
+-Lightsabers 1
+-Lightsabers 2
+-Lightsabers 3
+-Lightsabers 4
+-Lightsabers 5
+-Unarmed Specialist 1
+-Unarmed Specialist 2
+-Unarmed Specialist 3
+-Unarmed Specialist 4
+-Unarmed Specialist 5
+-Force Specialist 1
+-Force Specialist 2
+-Force Specialist 3
+-Force Specialist 4
+-Force Specialist 5
+
+
+
+
+
+
+All level restricted sequences go Level 1, 3, 7, 11, 15 since everyone gains feats on those levels
+
+Feat Gain:
+
+High Feats:		Base 2, Gain on 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31 ...
+Medium Feats:	Base 1, Gain on 3, 5, 7, 11, 13, 15, 19, 21, 23, 27, 29, 31 ...
+Low Feats:		Base 1, Gain on 3, 7, 11, 15, 19, 23, 27, 31 ...
+
+High Feats - Scout, Scoundrel, Tech Spec, Watchman
+Medium Feats - Soldier, Sentinel, Assassin, Expert Droid
+Low Feats - Combat Droid, Guardian, Consular, Apprentice, Master, Lord, Weapon Master, Marauder
+
+
+
+We need to talk briefly about character feats:
+
+A lot of them seem pretty OP, mainly because they have multiple levels that get stronger over time
+I think this is unecessary, we should pair them down
+
+Let's review the character feats in vanilla:
+
+Exile 		- War Veteran, Force Chain
+T3-M4 		- Blaster Integration
+Kriea 		- Kinetic Combat, Mentor, Force Chain
+Atton 		- Survival, Spirit 1/2/3
+Bao-Dur		- Shield Breaker, Repulsor Strike 1/2/3
+Handmaiden	- Echani Strike 1/2/3
+Disciple	- ??? (Mobile Lab??)
+Mandalore	- Mandalorian Courage, Implant Switching
+HK-47		- Assassin Protocols 1/2/3
+Mira		- Wrist Mounted Rockets, Point Guard
+Hanharr		- Wookie Rage 1/2/3, Wookie Toughness 1/2/3
+G0-T0		- Blaster Integration, Personal Cloaking Shield, Mine Immunity, Droid Trick 1/2
+Visas		- Nothing
+
+The following characters can easily be made to recieve feats on level up:
+-Handmaiden, Bao-Dur, Hanharr, HK-47, Atton, Kriea
+
+For others we require creativity
+
+
+The following feats seem potentailly overpowered:
+
+-Mentor - This is a pretty good feat, and considering what it does to the whole exp sequence, it might just be better to leave it out, I'm not sure giving Kriea 75% exp balances against this feat since it's just so good, there are other ways we can try to balance her without wrecking the entire exp system
+-Force Chian - This allows two characters to basically share force powers while also doubling the effect whenever one of them uses one, it's a much bigger deal because of the new way we deal with force powers
+-Survival - The description doesn't quantify, just says saves go up starting at 50% and more as he approaches 0 vitality
+-Spirit 1/2/3 - We should be able to nerf this in a script if we even want it at all, can probably be condensed down to 1 feat
+-Repulsor Strike 1/2/3 - It depends on what causes this to fire, I don't ever remember really using it, the DC is insane but there's a small chance of activation and it's only slow for 2 rounds, either way it can probably be condensed down to 1 feat
+-Echani Strike 1/2/3 - I think this is automatic, even the lowest level grants 1d4 bonus and has 10% knockdown on pretty much every attack since the DC is nuts
+-Disciple Med Lab - Probably not that broken but I don't know what it does exactly, I also think he can heal for free which is kind of BS
+-Mandalorian Courage - The immunity to Fear isn't OP, but the feat mentions +2 Defense every 6 levels, I suspect it is probably not actually part of the feat and instead is implemented in acbonus.2da for mandalore (I cheked, it probably is)
+-Assassin Protocols 1/2/3 - Not as broken as some of the other ones but it's still pretty incredible and has high DC, again it can probably be condensed down to 1 feat
+-Wookie Rage 1/2/3 - Keep in mind this kind of makes up for complete lack of force powers, but it's still pretty good, the question is whether it is implimented in-script or not because it seems like it might be and if it is then we can adjust it to balance it, also seems like a candidate for simplifying down to 1 feat
+-Wookie Toughness 1/2/3 - No reason to keep these as we've added another whole class in classes.2da to get around this issue
+-Droid Trick 1/2 - We've considered removing this feat from G0-T0 and making it a weapon, I'm not sure if that's a great idea actually, I'm pretty sure that this is implemented in-script so we can adjust it to make it work, it may or may not be a good idea to simplify to a single droid scramble beam and remove droid trick
+
+
+Keep in mind that adjusting any of these assumes that they are implemented in feat
+
+What about some ideas for feats?:
+
+-Empahty 1/2/3 - This was an idea you had early on to help out with skills on the main character, unfortunately, it is less salient now that we've changed Treat Injury to Medicine and made it less necessary, it might just make more sense to make Persuade a class skill to start, hard to say, still it's something to consider and probably something to do as a 1/2/3 sequence if possible
+-I'd like to give Visas something because it seems like everyone else has something except her, even Disciple has the healing thing, I'm not sure what it should/could be though
+
+
+
+
+I'm not sure about all of these, Atton's feats in particular seem very powerful on a fundamental level that's hard to pair down, on the other hand people expect things, but here's what I think could be done:
+
+Exile 		- War Veteran, Force Chain
+T3-M4 		- 
+Atton		- Spirit
+Kriea		- Kinetic Combat, Force Chain
+Bao-Dur		- Shield Breaker*
+Handmaiden	- Echani Strike
+Disciple	- ???
+Visas		- 
+Mira		- Point Guard
+Hanharr		- Wookie Rage
+G0-T0		- Mine Immunity, Droid Trick, Personal Cloaking Shield
+Mandalore	- Mandalorian Courage, Implant Switching
+HK-47		- Assassin Protocols
+
+*Not a granted feat, instead a bonus feat granted by the permenant equipment that Bao-Dur wears on his left arm
+
+
+Alright finally we need class-granted feats:
+
+Soldier		- Armor 3, Blasters 3, Melee 1
+Scout		- Armor 2, Blasters 2, Melee 1
+Scoundrel	- Armor 2, Blasters 2, Melee 1
+Tech Spec	- Armor 2, Blasters 2, Melee 1
+Jedi Appren	- Blasters 1, Melee 1, Force Sensitive
+Jedi G/S/C	- Blasters 1, Melee 1, Sabers, Force Sensitive, Jedi Defense
+Combat Drd	- Armor 1, Blasters 3
+Expert Drd	- Blasters 1
+Martial Art	- Melee 2, Power Attack 1, Flurry 1, Critical Strike 1
+
+
+At some point we considered giving scoundrels sneak attacks instead of 
+
+And now the real question is which starting feats the characters get
+
+Exile G/S/C	- Armor 2, Blasters 2, Melee 1, Sabers, Jedi Defense 1
+Exile G/S/C	- War Veteran, Complex Unarmed Animations
+Exile G		- Awareness, Demolitions
+Exile S		- Awareness, Science, Security, Medicine
+Exile C		- Awareness, Repair, Stealth
+Exile G/S/C ~ Unarmed 1, Shields 1, Stealth Fields
+Exile G		~ Power Attack 1, Flurry 1, Critical Strike 1
+Exile S		~ Stims 1, Grenades 1, Turrets 1, Implants 1
+Exile C		~ Critical Strike 1, Sneak 1, Immune Fear
+Still working on what feats to give to the various exile classes
+
+T3-M4		- Blasters 1, Energy 1, Conditioning 2
+T3-M4		- Awareness, Repair, Security, Demolitions
++4 Feats, +1 Skills
+
+Atton		- Armor 2, Blasters 2, Melee 1, Unarmed 1
+Atton		- Sneak 1, Stealth Fields
+Atton		- Complex Unarmed Animations, Spirit
+Atton		- Awareness, Stealth, Security, Medicine
++3 Feats, +1 Skills, +1 Character Feats
+
+Kriea		- Blasters 1, Melee 1, Sabers, Force Sensitive, Jedi Defense 1
+Kriea		- Force 2, Dueling, Saber Finesse, Melee Finesse, Fear Immunity
+Kriea		- Kinetic Combat, Force Chain, Awareness, Stealth, Medicine
++6 Feats, +1 Skills, +1 Character Feats (Don't count Kinetic Combat)
+
+Bao-Dur		- Armor 2, Blasters 2, Melee 1, Unarmed 1
+Bao-Dur		- Shields 2, Turrets 3, Complex Unarmed Animations
+Bao-Dur		- Awareness, Science, Repair, Demolitions, Security
++4 Feats, +1 Skills, +1 Character Feats (Shields 2 equates to this)
+
+Handmaiden	- Blasters 1, Melee 2, Unarmed 2
+Handmaiden	- Power Attack 1, Flurry 1, Critical Strike 1
+Handmaiden	- Melee Finesse
+Handmaiden	- Complex Unarmed Animations, Echani Strike
+Handmaiden 	- Awareness
++3 Feats, +1 Character Feats
+
+Disciple	- Armor 3, Blasters 3, Melee 1, Grenades 1
+Disciple	- Shields 1, Stims 1, Implants 1
+Disciple	- Awareness, Demolitions, Medicine
++4 Feats, +1 Skills
+
+Visas		- Blasters 1, Melee 1, Sabers, Force Sensitive, Jedi Defense 1
+Visas		- Force 1, Sneak 1, Fear Immunity, Stun Immunity
+Visas		- Awareness, Stealth
++6 Feats, +1 Skills - (assuming Jedi Apprentice class)
+
+Mira		- Armor 2, Blasters 2, Melee 1, Grenades 2
+Mira		- Close Combat, Turrets 1
+Mira		- Point Guard, Awareness, Demolitions, Repair, Medicine
++4 Feats, +1 Skills, +1 Character Feats
+
+Hanharr		- Blasters 2, Melee 1, Bowcasters
+Hanharr		- Two-Weapon 1, Power Attack 1, Flurry 1, Sniper Shot 1
+Hanharr		- Wookie Rage, Awareness, Demolitions, Repair
+-2 Feats, +5 Feats, +1 Character Feats
+
+G0-T0		- Armor 1, Blasters 1, Turrets 1, Energy 2
+G0-T0		- Mine Immunity, Personal Cloaking Shield, Droid Trick
+G0-T0		- Awareness, Security, Repair, Science, Stealth
++4 Feats, +1 Skills, +2 Character Feats
+
+Mandalore	- Armor 4, Blasters 4, Melee 2, Implants 3
+Mandalore 	- Stealth Fields, Close Combat, Implant Switching
+Mandalore	- Mandalorian Courage, Awareness, Demolitions
++5 Feats, +1 Character Feats
+
+HK-47		- Armor 1, Blasters 3
+HK-47		- Close Combat, Power Shot 1, Sniper Shot 1, Precise Shot 1
+HK-47		- Assassin Protocols, Awareness, Demolitions, Security
++4 Feats, +1 Skills, +1 Character Feats
+

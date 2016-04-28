@@ -1,0 +1,154 @@
+
+
+
+Medpac
+Type:		Medpac
+
+Tier 1: (Medpac)
+
+Cost		- 20
+Healing		- TreatInjury x 1
+Effect		- 2 Healing Every 2 Seconds
+Duration	- 20 Seconds
+
+
+Tier 2: (Advanced Medpac)
+
+Cost		- 60
+Healing		- TreatInjury x 2
+Effect		- 4 Healing Every 2 Seconds
+Duration	- 20 Seconds
+
+
+Tier 3: (Life Support Pack)
+
+Cost		- 200
+Healing		- TreatInjury x 4
+Effect		- 4 Healing Every 2 Seconds
+Duration	- 30 Seconds
+
+Comments:
+
+
+
+
+Repair Kit
+Type:		Repair Kit
+
+Tier 1: (Repair Kit)
+
+Cost		- 25
+Healing		- Repair x 1
+Effect		- 2 Healing Every 2 Seconds
+Duration	- 30 Seconds
+
+
+Tier 2: (Advanced Repair Kit)
+
+Cost		- 75
+Healing		- Repair x 2
+Effect		- 4 Healing Every 2 Seconds
+Duration	- 30 Seconds
+
+
+Tier 3: (Construction Kit)
+
+Cost		- 250
+Healing		- Repair x 4
+Effect		- 6 Healing Every 2 Seconds
+Duration	- 30 Seconds
+
+Comments:
+
+
+
+
+
+
+Frag Grenade
+Type:		Explosive
+
+Tier 1: (Frag Grenade)
+
+Target Area	- 4m Radius from Target
+Cost		- 200
+Damage		- 30 Piercing
+Save Damage	- Half Damage
+Effect		- N/A
+Save Effect	- N/A
+Duration	- N/A
+Save Duration	- N/A
+
+
+Tier 2: (Explosive Rocket)
+
+Target Area	- 4m Radius from Target
+Cost		- 200
+Damage		- 30 Piercing
+Save Damage	- Half Damage
+Effect		- N/A
+Save Effect	- N/A
+Duration	- N/A
+Save Duration	- N/A
+
+
+Tier 3: (Construction Kit)
+
+Cost		- 250
+Healing		- Repair x 4
+Effect		- 6 Healing Every 2 Seconds
+Duration	- 30 Seconds
+
+Comments:
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ehhhhhhhhh forget this, just use the files you already have for these
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

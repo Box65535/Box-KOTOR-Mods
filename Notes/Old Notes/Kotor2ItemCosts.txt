@@ -1,0 +1,49 @@
+We will now embark on the journey of pricing every item in the game.
+
+Good luck.
+
+
+
+
+
+
+
+
+
+
+Actually, we might do this instead in the actual txt documents of the
+items themselves.
+
+
+lol
+
+I'll keep this open for some notes
+
+
+
+Okay so we're doing the weapon upgrades in a special way. Since there are
+always 15 of them, we'll follow the following curve to get the prices.
+
+200
+250
+300
+350
+450
+550
+675
+825
+1025
+1250
+1525
+1875
+2275
+2800
+3425
+
+
+We can multiply by this curve by some constant to get individual
+upgrade costs
+
+
+
+Armor upgrades we'll do individually since there are 30 of those

@@ -1,0 +1,144 @@
+Light Droid Armor
+
+Impact Armor Mark I
+Max Dex +2
+-3 vs Physical/Disruption
+-2 vs Energy/Ion/Fire/Electrical
+-2 vs Sonic
+-2 vs Cold
+-15% vs Physical
+
+Modular Plating Mark I
+Max Dex +2
+-2 vs Physical/Disruption
+-2 vs Energy/Ion/Fire/Electrical
+-2 vs Sonic
+-2 vs Cold
++1 Max Dex
+
+Dura Plating Mark I
+Max Dex +2
+-3 vs Physical/Disruption
+-3 vs Energy/Ion/Fire/Electrical
+-3 vs Sonic
+-3 vs Cold
+
+Energized Armor Mark I
+-2 Damage / -0 Dex
+Max Dex +2
+-2 vs Physical/Disruption
+-2 vs Energy/Ion/Fire/Electrical
+-2 vs Sonic
+-2 vs Cold
++1 Fort
++1 Reflex
+
+Agrinium Armor
+-1 Damage / -0 Dex
+Max Dex +2
+-2 vs Physical/Disruption
+-3 vs Energy/Ion/Fire/Electrical
+-2 vs Sonic
+-2 vs Cold
+-15% vs Energy
+-15% vs Ion
+-15% vs Fire
+-15% vs Electrical
+
+
+Medium Droid Armor
+
+Impact Armor Mark II
+Max Dex +1
+-5 vs Physical/Disruption
+-3 vs Energy/Ion/Fire/Electrical
+-3 vs Sonic
+-3 vs Cold
+-30% vs Physical
+
+Modular Plating Mark II
+Max Dex +1
+-3 vs Physical/Disruption
+-3 vs Energy/Ion/Fire/Electrical
+-3 vs Sonic
+-3 vs Cold
++2 Max Dex
+
+Dura Plating Mark II
+Max Dex +1
+-5 vs Physical/Disruption
+-5 vs Energy/Ion/Fire/Electrical
+-5 vs Sonic
+-5 vs Cold
+
+Energized Armor Mark II
+-3 Damage / -1 Dex
+Max Dex +1
+-3 vs Physical/Disruption
+-3 vs Energy/Ion/Fire/Electrical
+-3 vs Sonic
+-3 vs Cold
++1 Dex
++2 Fort
++1 Reflex
+
+Quadranium Armor
+-3 vs Physical/Disruption
+-5 vs Energy/Ion/Fire/Electrical
+-3 vs Sonic
+-3 vs Cold
+-30% vs Energy
+-30% vs Ion
+-30% vs Fire
+-30% vs Electrical
+
+
+Heavy Droid Armor
+
+Impact Armor Mark III
+Max Dex +0
+-6 vs Physical/Disruption
+-4 vs Energy/Ion/Fire/Electrical
+-4 vs Sonic
+-4 vs Cold
+-50% vs Physical
+
+Modular Plating Mark III
+Max Dex +0
+-4 vs Physical/Disruption
+-4 vs Energy/Ion/Fire/Electrical
+-4 vs Sonic
+-4 vs Cold
++3 Max Dex
+
+Dura Plating Mark III
+Max Dex +0
+-7 vs Physical/Disruption
+-7 vs Energy/Ion/Fire/Electrical
+-7 vs Sonic
+-7 vs Cold
+
+Energized Armor Mark III
+Max Dex +0
+-4 vs Physical/Disruption
+-4 vs Energy/Ion/Fire/Electrical
+-4 vs Sonic
+-4 vs Cold
++2 Dex
++1 Con
++2 Fort 
++1 Reflex
+
+Capacitor Armor
+Max Dex +0
+-4 vs Physical/Disruption
+-6 vs Energy/Ion/Fire/Electrical
+-4 vs Sonic
+-4 vs Cold
+-50% vs Energy
+-50% vs Ion
+-50% vs Fire
+-50% vs Electical
+
+
+Ideally we would be able to change these up and create overlays for them

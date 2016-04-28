@@ -1,0 +1,196 @@
+I'm doing this from the items that were added already:
+
+Energy Level 1:
+-Flamethrower
+-Ion Blaster
+-Shock Arm
+-Stun Ray
+
+Mechanical Level 1:
+-Grappling Hook
+-Grenade Launcher
+-Flashbang Launcher
+-Poison Dart
+
+Energy Level 2:
+-Carbonite Projector
+-Plasma Cannon
+-Sonic Repulsor
+-Droid Hacker
+
+Mechanical Level 2:
+-Rocket Launcher
+-Gas Grenade Launcher
+-Sonic Charge Launcher
+-Plasma Grenade Laucher
+
+Energy Level 3:
+-Sonic Shield Disruptor
+-Gravity Generator
+-Plasma Flamethrower
+-Ion Cannon
+
+Mechanical Level 3:
+-Radiation Rocket Launcher
+-Anti-Tank Gun
+-Detonator Launcher
+-Incendiary Rocket Launcher
+
+Hmmmmm, that's not what I thought it would be, I thought I had 4 in every category but it seems 2 of them only have 3
+
+
+Flamethrower
+-30 Damage (Fire)
+-6 second Fear
+-10 Damage and no effect on save (Will, Fire)
+-DC 16
+
+Ion Blaster
+-30 Damage (Ion)
+-9 second Droid Stun
+-10 Damage and no effect on save (Fortitude, Ion)
+-DC 16
+
+Stun Ray
+-12 second Stun
+-Defense -2 for 6 seconds on save (Will, Mind-Affecting)
+-DC 16
+
+Shock Arm
+-36 Damage (Electrical)
+-3 second Stun
+-12 Damage and no effect on save (Fortitude, Electrical)
+-DC 16
+
+Carbonite Projector
+-30 Damage (Cold)
+-15 second Paralyze and Dex -4
+-10 Damage and Dex -4 for 6 seconds on save (Fortitude, Cold)
+-DC 20
+
+Plasma Cannon
+-48 Damage (Fire)
+-Con -4 for 30 seconds
+-16 Damage and no effect on save (Fortitude, Fire)
+-DC 20
+
+Sonic Repulsor
+-24 Damage (Sonic)
+-Int/Wis/Chr -6 for 30 seconds
+-8 Damage and no effect on save (Will, Sonic)
+-Cone Spell Shape (Not sure about radius)
+-DC 18
+
+Droid Hacker
+-Faction Change for 20 seconds
+-Nothing on save (Will, Mind-Affecting(?))
+-DC 20
+
+Sonic Shield Disruptor
+-30 Damage (Unstoppable)
+-Removes Shield
+
+Gravity Generator
+-Levitate for 3 seconds, then knockdown 
+-Radius 3m
+-No effect on save (Reflex, None)
+-DC 22
+
+Plasma Flamethrower
+-75 Damage (Fire)
+-Con -6 for 15 seconds
+-25 Damage and no effect on save (Fortitude, Fire)
+-DC 24
+
+Ion Cannon
+-75 Damage (Ion)
+-12 second Droid Stun
+-25 Damage and no effect on save (Fortitude, Ion)
+-DC 24
+
+
+Ehhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh, we'll work on this
+
+
+Grenade Launcher
+-24 Damage (Piercing)
+-8 Damage on save (Reflex, None)
+-4m Radius
+-DC 14
+
+Stun Grenade Launcher
+-Stun for 9 seconds
+-Defense -1 for 6 seconds on save (Reflex/Will, None)
+-4m Radius
+-DC 14
+
+Grappling Hook
+-Choke for 12 seconds
+-No effect on save (Reflex, None)
+-DC 16
+
+Poison Dart
+-40 Poison Damage (2 every 3 seconds for 60 seconds)
+-Str/Dex -2 Ability Poison
+-No effect on save (Reflex/Fortitude, Poison)
+-DC 16
+
+
+Rocket Launcher
+-42 Damage (Piercing)
+-14 Damge on save (Reflex, None)
+-5m Radius
+-DC 18
+
+Gas Grenade Launcher
+-40 Poison Damage (2 every 3 seconds for 60 seconds)
+-Str/Dex -4 Ability Poison
+-No effect on save (Reflex/Fortitude, Poison)
+-5m Radius
+-DC 18
+
+Sonic Charge Launcher
+-24 Damage (Sonic)
+-Int/Wis/Chr -6 for 30 seconds
+-8 Damage and no effect on save (Reflex/Will, Sonic)
+-4m Radius
+-DC 18
+
+Plasma Grenade Launcher
+-36 Damage (Fire)
+-Con -2 for 30 seconds
+-12 Damage and no effect on save (Fortitude/Reflex, Fire)
+-4m Radius
+-DC 18
+
+
+Radiation Rocket Launcher
+-20 Damage (Fire) 
+-20 Poison Damage (1 every 3 seconds for 60 seconds)
+-Str/Con/Dex -4 Ability Poison for 60 seconds
+-16 Damage and no poison on save (Fortitude/Reflex, Poison)
+-5m Radius
+-DC 22
+
+Anti-Armor Gun
+-90 Damage (Piercing)
+-Push Effect
+-30 Damage and no effect on save (Reflex, None)
+-DC 24
+
+Thermal Detonator Launcher
+-60 Damage (Energy)
+-Push Effect
+-20 Damage and no effect on save (Reflex, None)
+-4m Radius
+-DC 22
+
+Incendiary Rocket Launcher
+-50 Damage (Fire)
+-6 Second Horror
+-20 Damage and no effect on save (Reflex/Will, Fire)
+-5m Radius
+-DC 22
+
+
+

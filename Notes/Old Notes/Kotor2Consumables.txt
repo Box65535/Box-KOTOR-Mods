@@ -1,0 +1,164 @@
+
+2/18/2015 - A brand new file for a brand new feature
+
+Basically, consumables, belts, and gloves have always been the weak point of this mod
+However, now we're embarking to change all of that and fix everything
+Basically, we're replacing consumables by equippable items
+Anyway, I won't go into explaining everything, best just to write things out and it will be made apparent
+
+
+Humans:
+-Head			- Special Items/Unused
+-Body			- Armor
+-Hands			- Special Items
+-Left Weapon	- Secondary Weapon
+-Right Weapon	- Primary Weapon
+-Left Arm		- Shields/Stimulants
+-Right Arm		- Auxilary Weapons
+-Implant		- Stat Boosts
+-Belt			- Stealth/Healing
+
+Droid:
+-Tool Slot		- Healing/Special Items
+-Body			- Armor
+-Sheild Slot	- Sheilds
+-Left Weapon	- Secondary Weapon
+-Right Weapon	- Primary Weapon
+-Left Item		- Auxilary Weapons
+-Right Item		- Auxilary Weapons
+-Left Implant	- Stat Boosts
+-Right Implant	- Stat Boosts
+
+
+In this file:
+-Auxilary Weapons
+-Shields
+-Stimulants
+-Stealth
+-Healing
+-Special Items
+
+
+----------------------------------------------------------------------------
+Auxilary Weapons
+
+
+
+
+Grenade Launchers:
+
+
+Sonic Charge Launcher
+18 Sonic Damage / DC 15
+1 Minute Cooldown / 6 second reload
+Half damage on save (Reflex)
+
+Grenade Launcher
+24 Piercing Damage / DC 15
+1 Minute Cooldown / 6 second reload
+4m Radius
+Half damage on save (Reflex)
+
+Concussion Launcher
+9 Second Stun / DC 15
+1 Minute Cooldown / 6 second reload
+4m Radius
+3 second stun on save (Reflex)
+No effect when Reflex > 15
+
+
+
+Grenade Launchers 2:
+
+
+Cryoban Grenade Launcher
+30 Cold Damage / DC 20
+6 Second Paralyze / DC 20
+1 Minute Cooldown / 6 second reload
+4m Radius
+Half damage on save (Reflex)
+No effect on save (Fortitude)
+
+Ion Grenade Launcher
+30 Ion Damage / DC 20
+12 Second Stun vs Droid / DC 20
+1 Minute Cooldown / 6 second reload
+4m Radius
+Half damage on save (Reflex)
+3 second stun on save (Fortitude)
+No effect when Fortitude > 20
+
+Sonic Grenade Launcher
+30 Sonic Damage / DC 20
+30 Second -6 Dex / DC 20
+1 Minute Cooldown / 6 second reload
+4m Radius
+Half damage on save (Reflex)
+No attribute damage on save (Will)
+
+
+
+Rocket Launchers:
+
+
+Republic Rocket Launcher
+48 Piercing Damage / DC 24
+1 Minute Cooldown / 6 second reload
+4m Radius
+Half damage on save (Reflex)
+
+Anti-Tank Gun
+60 Piercing Damage / DC 100
+1 Minute Cooldown / 6 second reload
+No Area of Effect
+
+Cluster Rocket Laucher
+10x6 Piercing Damage / DC 15
+1 Minute Cooldown / 6 second reload
+4m Radius
+Half damage on save (Reflex)
+
+Plasma Rocket Launcher
+20 Energy/Ion/Fire Damage / DC 24
+1 Minute Cooldown / 6 second reload
+4m Radius
+Half damage on save (Reflex)
+
+
+
+
+Close Range Weapons:Flamethrower30 Fire Damage / DC 20
+6 Second Horror / DC 201 Minute Cooldown / 6 second reloadHalf damage on save (Fortitude)No horror on save (Will)
+
+Carbonite Projector24 Cold Damage / DC 209 Second Paralyze / DC 201 Minute Cooldown / 6 second reloadHalf damage on save (Fortitude)3 second stun on save (Fortitude)No effect when Fortitude > 20Shock Arm30 Electric Damage + 3 Second Shock / DC 20
+1 Minute Cooldown / 6 second reloadHalf damage and no shock on save (Fortitude)
+
+Neural ScramblerSonic Repulsor
+
+WellllllllllllllllllllAhem so 
+I'm not satisfied at all with what is above, of course these things take a few iterations to get rightMaybe we should start with things that are easierActually, we should probably split this up into multiple files since there's a ton here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

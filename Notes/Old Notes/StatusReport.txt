@@ -1,0 +1,240 @@
+2/14/2015
+
+We need to bring some sensibility to this project, we need to know what has been completed
+
+
+Right now, I just want to know which items have been implemented, the following seem to be done:
+-Ranged Weapons and Upgrades
+-Melee Weapons and Upgrades
+-Armor and Upgrades
+-Belts and Gloves
+-Droid Upgrades (Mounts and Tools)
+-Robes
+-Implants
+-Droid Armor
+*Lightsabers and Upgrades (Lightsaber Crystals might have issues, Colors not accounted for)
+
+
+
+And for all the items listed, we have not determined prices, we'll work on that later
+
+For our stage in the project, we just need to work on getting the remaining items done\
+
+
+-------------------------------------
+
+
+
+Okay so I think we did all of the equippable items so now we just have to check to make sure the consumables work
+
+We do have to grab them though to make sure we can adjust prices so there's that
+
+
+Completed Consumables:
+-Grenades
+-Mines
+-Medpacs
+-Stimulants
+-Energy Shields
+-Droid Weapons
+-Droid Shields
+
+
+Alright Consumables are done
+
+
+Anything Else?
+
+Headgear?
+
+Well we're not really using those so I say ignore them
+
+
+
+-------------------------------------------------
+
+
+Now we want to briefly verify the item scripts:
+
+Scripts checked:
+-Medpacs
+-Repair Kits
+-Shields
+-Stimulants
+-Grenades
+-Droid Weapons
+-Mines
+
+
+Well that was boring
+
+But it's done at least for now, so that's good
+
+
+
+------------------------------------------------------
+
+The next thing to do would be to check that all of the force powers work the way they are intended, just like we did for the scripts
+
+The thing is that I KNOW that I did this recently so I might just half-heartedly check it
+
+
+Yeah, I'm going to assume this is good
+
+
+-----------------------------------------------------
+
+Okay now we have to do crafting
+
+The first thing is to list out all of the craftable items and decide at what level they are craftable
+We're not going anywhere near the whole skill debate, we're just determining the raw level at which these items should be craftable
+
+We're also not worrying about crafting feats this iteration, just the level
+
+
+Alright well we got that done
+
+
+I had an inspiration about how to do consumables differently which might make the skills work better too but we'll see
+At the very least, it's not something we need to worry about in this iteration probably
+Probably
+Well maybe not, but there are things we have to do regardless
+Either way, we can't assess the viability until we go in and test a few things
+So we have to press on regardless, maybe just forget about the consumables for now
+
+
+
+-----------------------------------------------------
+
+The next step in crafting is to check/implement the scripts for workbenches and medstations
+
+We might have a slight problem when dealing with the whole "how much do you get back for decomposing" but we'll figure it out
+
+Alright well that works for now based on what we have
+
+
+----------------------------------------------------
+
+Now we want to implement the 2das for craftables
+Since we're not doing rockets make itemcreate and itemcreatemira identical
+
+There might be a problem with the custom items having to adjust their tag in the .uti files to become available in the crafting menu
+We can test that later though, right now we just need to lay it out
+
+Since the whole crafting thing kinda needs to be tested to be verified, we really skimped out on doing this right
+We will need to come back to this pretty much in full after figuring out how all of the upgrades work
+
+
+----------------------------------------------------
+
+Alright so I guess next we should make sure the random treasure scripts are working the way we think they should
+
+Well I feel relatively confident in the treasure scripts though they definately need to be tested and checked etc
+
+
+----------------------------------------------------
+
+Alright well I'm getting impatient and this seems like as good a time as any to try to boot up the mod and see what it can do
+Ehhhhhhhhhhhhhhhhhhhhhh, we have to figure out what's going on in the override folder first.........
+
+Alright well I think I got all of the crap out of there
+Let's add ranged weapons and try to see if we can craft and upgrade.
+We'll need to compile the crafting scripts and include the appropriate 2da and uti files.
+
+As I suspected, in order to use upgrades, it seems that we need to include them in a 2da file or change their tag
+Alright well, it seems as if the most sane way to do these upgrades is to simply override the names of upgrades that they can replace
+That means we'll have to use the old names in the workbench 2da file as well
+
+NO, WAIT
+IT WAS THE NAMING CONVENTION, IT WAS TOO LONG SO IT GOT CUT OFF
+OKAY, LETS DO SOME VARIATIONS AND SEE WHAT HAPPENS
+
+Okay so here's what we need to do:
+Choose a new naming convention where all of the upgrade names are short
+Modify the tag and template of all of the upgrade items to match new names
+Use the modified name in both the itemcreate and upgrade 2da files
+
+---------------------------------------------------------
+
+Okay okay we did a whole lot of experimentation with consumables and we have a number of different possibilities on how to implement
+Now I think we need to take a step back from that and try to get done some of the rote work that needs to happen regardless
+So let's work on getting all of the items and upgrades in the game proper
+
+We need a naming scheme that accomplishes several things:
+-All items are easy to identify by name
+-All names are 11 characters or fewer
+-When sorted by name, related items are grouped together
+-Names should be relatively easy to type
+
+So I think based on this, it's best to do something similar to Kotor 2's naming scheme
+
+We start out with 2 characters that determine what kind of item this is for example:
+
+wm = melee weapon
+wr = ranged weapon
+um = melee upgrade
+ha = human armor
+da = droid armor
+he = human equipment
+hi = human item
+
+Then we have an underscore
+The next part of the name should describe the item in 6 characters or less
+Finally there should be 2 digits for numbers if necessary
+
+For example:
+wm_vibro1 = vibroblade
+
+For vibro1 is easier to type than vbrbld which is kinda weird even though it's more informative so keep such things in mind
+Okay? We'll start with upgrades then
+
+Upgrades Completed:
+-Melee upgrades
+-Ranged upgrades
+-Lightsaber upgrades
+-Armor upgrades
+
+We've also verified that these upgrades do in fact work as upgrades
+I have no tested each individually to make sure the effects are correct though
+
+----------------------------------------------------
+
+Okay so next......... well we should probably figure out what's going on with merchants
+Unfortunately we're not sure how consumables are working at the moment....... still though we should be able to put some items in shops
+If we ignore consumables, upgrades, and equipment that just leaves weapons and armor which I think we can do
+Okay so go to the merchants and decide who's getting what
+
+Okay so we didn't really do merchants but we put it off until the next cycle where we implement the Ebon Hawk internet merchant
+
+---------------------------------------------------
+
+Alright.......... now what
+We shoould do a little more testing and come to a decision about consumables
+
+Okay, that was amazing, we actually solved the whole issue, incredibly, truly, go with gusto and create all consumables
+
+Okay, I think we did the designs for consumables at least
+
+
+-----------------------------------------------------
+
+Where are we at now?
+We still need to do traps, we also need to rethink some of the DCs the player team will face
+
+So basically it's back to the scripts, except this time I think you should also give feats a lookover since they need to be updated too
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1074 @@
+What Items are craftable?:
+
+-Melee Upgrades
+-Ranged Upgrades
+-Lightsaber Upgrades (Not Crystals)
+-Armor Upgrades
+
+Lightsabers:
+-Lightsaber
+-Double-Bladed Lightsaber
+-Short Lightsaber
+
+Melee Weapons:
+-Short Sword
+-Long Sword
+-Quarterstaff
+-Energy Baton
+-Force Pike
+-Double-Bladed Sword
+
+Blaster Pistols:
+-Disruptor Pistol
+-Field Survival Pistol
+-Blaster Pistol
+-Heavy Blaster
+
+Blaster Rifles:
+-Ion Carbine
+-Sonic Carbine
+-Disruptor Carbine
+-Blaster Carbine
+-Blaster Rifle
+-Repeating Blaster Carbine
+-Heavy Repeating Carbine
+
+Armor:
+-Light Combat Suit
+-Combat Suit
+-Heavy Combat Suit
+-Military Suit
+-Light Battle Armor
+-Battle Armor
+-Heavy Battle Armor
+
+Droid Armor:
+-Droid Impact Armor Mark I
+-Droid Impact Armor Mark II
+-Droid Modular Plating Mark I
+-Droid Modular Plating Mark II
+-Droid Dura Plating Mark I
+
+Shields:
+-Energy Shield
+-All?
+
+Droid Shields:
+-Droid Deflector Mark I
+-Droid Defense Barrier
+-All?
+
+Droid Weapons:
+-Droid Flame Thrower
+-Droid Carbonite Projector
+-Droid Ion Blast Mark I
+-Droid Ion Striker
+-Droid Neural Scrambler
+-Droid Toxin Emitter
+
+Droid Healing
+-Repair Kit
+-Advanced Repair Kit
+-Construction Kit
+
+
+What Items can be synthesized?:
+
+-Medpacs
+-Grenades
+-Stimulants
+-Mines
+
+Implants:
+-All Level 1 Implants
+-All?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ok let's just cut to the chase:
+
+
+Craftables:
+
+Melee Upgrades:
+
+Name:	Energy Cell
+Skill:	Computer Use
+1 -	6
+2 -	12
+3 - 	18
+4 -	24
+
+Name:	Ion Cell
+Skill:	Computer Use
+1 -	6
+2 -	10
+3 - 	16
+4 -	22
+
+Name:	Sonic Discharge Cell
+Skill:	Demolitions
+1 -	8
+2 -	16
+3 - 	24
+
+Name:	Vibration Cell
+Skill:	Repair
+1 -	8
+2 -	14
+3 - 	20
+4 -	26
+
+
+
+Name:	Ionite Edge
+Skill:	Computer Use
+1 -	6
+2 -	12
+3 - 	18
+
+Name:	Mullinine Edge
+Skill:	Repair
+1 -	6
+2 -	14
+3 - 	20
+
+Name:	Neutronium Edge
+Skill:	Repair
+1 -	8
+2 -	14
+3 - 	20
+
+Name:	Devaronian Edge
+Skill:	Treat Injury
+1 -	6
+2 -	12
+3 - 	18
+4 -	24
+
+Name:	Quadranium Edge
+Skill:	Repair
+1 -	26
+
+Name:	Ostrine Edge
+Skill:	Stealth
+1 -	24
+
+
+
+Name:	Agrinium Grip
+Skill:	Repair
+1 -	6
+2 -	14
+3 - 	22
+
+Name:	Basket Hilt
+Skill:	Repair
+1 -	8
+2 -	16
+3 - 	24
+
+Name:	Nagai Grip
+Skill:	Repair
+1 -	10
+2 -	18
+3 - 	26
+
+Name:	Zabrak Grip
+Skill:	Repair
+1 -	8
+2 -	16
+3 - 	24
+
+Name:	Contoured Grip
+Skill:	Repair
+1 -	6
+2 -	14
+3 - 	22
+
+
+
+
+Ranged Upgrades:
+
+Name:	Amplifying Chamber
+Skill:	Computer Use
+1 -	8
+2 -	16
+3 - 	24
+
+Name:	Beam Splitter
+Skill:	Computer Use
+1 -	8
+2 -	16
+3 - 	24
+
+Name:	Broadened Chamber
+Skill:	Repair
+1 -	6
+2 -	14
+3 - 	22
+
+Name:	Mandalorian Chamber
+Skill:	Repair
+1 -	10
+2 -	18
+3 - 	26
+
+Name:	Precision Chamber
+Skill:	Computer Use
+1 -	8
+2 -	16
+3 - 	24
+
+
+
+Name:	Ion Charger
+Skill:	Computer Use
+1 -	6
+2 -	10
+3 - 	14
+4 -	18
+5 -	22
+
+Name:	Power Pulsator
+Skill:	Computer Use
+1 -	6
+2 -	10
+3 - 	14
+4 -	18
+5 -	24
+
+Name:	Rylith Power Cell
+Skill:	Computer Use
+1 -	8
+2 -	12
+3 - 	16
+4 -	20
+5 -	26
+
+
+
+Name:	Accuracy Scope
+Skill:	Repair
+1 -	8
+2 -	14
+3 - 	20
+4 -	26
+
+Name:	Crippling Scope
+Skill:	Repair
+1 -	6
+2 -	14
+3 - 	22
+
+Name:	Pinpoint Scope
+Skill:	Repair
+1 -	6
+2 -	12
+3 - 	18
+4 -	24
+
+Name:	Targeting Scope
+Skill:	Repair
+1 -	10
+2 -	16
+3 - 	22
+4 -	26
+
+
+
+Lightsaber Upgrades:
+
+Name:	Discharge Energy Cell
+Skill:	Computer Use
+1 -	6
+2 -	12
+3 - 	18
+
+Name:	Diatium Energy Cell
+Skill:	Computer Use
+1 -	8
+2 -	14
+3 - 	20
+4 -	25
+
+Name:	Ion Energy Cell
+Skill:	Computer Use
+1 -	9
+2 -	15
+3 - 	21
+
+Name:	Telgorn Jolt Cell
+Skill:	Computer Use
+1 -	10
+2 -	17
+3 - 	23
+
+
+Name:	Deflection Emitter
+Skill:	Repair
+1 -	6
+2 -	12
+3 - 	18
+
+Name:	Disrupting Emitter
+Skill:	Computer Use
+1 -	7
+2 -	14
+3 - 	20
+
+Name:	Phobium Emitter
+Skill:	Computer Use
+1 -	9
+2 -	15
+3 - 	21
+4 -	25
+
+Name:	Fencing Emitter
+Skill:	Repair
+1 -	11
+2 -	17
+3 - 	23
+
+
+Name:	Kunda Lens
+Skill:	Repair
+1 -	6
+2 -	14
+3 - 	21
+
+Name:	Crystal Lenses
+Skill:	Awareness
+1 -	8
+2 -	15
+3 - 	23
+
+Name:	Bryothsis Lens
+Skill:	Repair
+1 -	9
+2 -	17
+3 - 	25
+
+Name:	Beam Gem Lens
+Skill:	Computer Use
+1 -	11
+2 -	17
+
+Name:	Vibration Lens
+Skill:	Repair
+1 -	12
+2 -	20
+
+
+
+Armor Upgrades:
+
+Name:	Heat Shielding
+Skill:	Computer Use
+1 -	6
+2 -	12
+3 -	18
+4 -	24
+
+Name:	Armorply Plating
+Skill:	Stealth
+1 -	6
+2 -	10
+3 -	14
+4 -	20
+
+Name:	Sound Dampening Overlay
+Skill:	Stealth
+1 -	6
+2 -	12
+3 -	18
+4 -	24
+
+Name:	Ablative Plating
+Skill:	Repair
+1 -	10
+2 -	16
+3 -	22
+4 -	28
+
+Name:	Energy Shielding
+Skill:	Computer Use
+1 -	8
+2 -	14
+3 -	20
+4 -	26
+
+Name:	Ballistic Shielding
+Skill:	Repair
+1 -	8
+2 -	14
+3 -	20
+
+Name:	Bonded Plates
+Skill:	Repair
+1 -	10
+2 -	16
+3 -	22
+4 -	28
+
+Name:	Heavy Bonded Plates
+Skill:	Repair
+1 -	12
+2 -	20
+3 -	28
+
+
+Name:	Environment Underlay
+Skill:	Computer Use
+1 -	6
+2 -	10
+3 -	14
+4 -	18
+5 -	22
+
+Name:	Biorestorative Underlay
+Skill:	Treat Injury
+1 -	6
+2 -	10
+3 -	14
+4 -	20
+5 -	24
+
+Name:	Armorweave Underlay
+Skill:	Computer Use
+1 -	8
+2 -	12
+3 -	16
+4 -	20
+5 -	26
+
+Name:	Strengthening Underlay
+Skill:	Computer Use
+1 -	8
+2 -	12
+3 -	16
+4 -	20
+5 -	26
+
+Name:	Flexible Underlay
+Skill:	Repair
+1 -	8
+2 -	12
+3 -	16
+4 -	20
+5 -	26
+
+Name:	Durasteel Underlay
+Skill:	Repair
+1 -	8
+2 -	12
+3 -	18
+4 -	24
+5 -	28
+
+
+
+Okay that's all the upgrades. We need to actually decide how we're going
+to determine their crafting prerequisites.
+
+Remember we can also use level.
+
+Most things should obviously depend on Repair and Computer Use. I was
+thinking of anything that has to do with energy could be based on
+Computer Use.
+
+Excpetions for other skills should only be made in exceptional
+circumstances. I don't think there should be any planned use of Stealth,
+Security, Awareness, Demolitions, or Treat Injury.
+
+As for the min and max. I think most upgrades should have the lowest
+skill level for crafting be 6. The maximum can be like 26 or something.
+
+Lastly, I think the different types of upgrades can be done in parallel
+rather than avoiding intersections between upgrade skill requirements.
+
+
+....
+
+
+Alright that's done. Now onto other items:
+
+
+
+
+
+
+
+
+Blaster Pistols:
+
+Disruptor Pistol 	- Repair	- 8	
+Field Survival Pistol 	- Computer Use	- 6
+Blaster Pistol	 	- Computer Use	- 4
+Heavy Blaster 		- Repair	- 10
+
+
+Blaster Rifles:
+
+Ion Carbine			- Computer Use	- 8
+Sonic Carbine			- Repair	- 8
+Disruptor Carbine		- Repair	- 10
+Blaster Carbine			- Computer Use	- 6
+Blaster Rifle			- Computer Use	- 10
+Repeating Blaster Carbine	- Repair	- 14
+Heavy Repeating Carbine		- Repair	- 18
+
+
+Melee Weapons:
+
+Short Sword		- Repair	- 4
+Long Sword		- Repair	- 6
+Quarterstaff		- Repair	- 8
+Energy Baton		- Computer Use	- 6
+Force Pike		- Computer Use	- 8
+Double-Bladed Sword	- Repair	- 10
+
+
+Lightsabers:
+
+Lightsaber			- Awareness	- 14 - Level 16
+Short Lightsaber		- Awareness	- 12 - Level 16
+Double-Bladed Lightsaber	- Awareness	- 16 - Level 16
+
+
+Armor:
+
+Light Combat Suit	- Repair	- 4
+Combat Suit		- Repair	- 6
+Heavy Combat Suit	- Repair	- 8
+Military Suit		- Repair	- 10
+Light Battle Armor	- Repair	- 12
+Battle Armor		- Repair	- 14
+Heavy Battle Armor	- Repair	- 16
+
+
+Droid Armor:
+
+Droid Impact Armor Mark I	- Repair	- 6
+Droid Impact Armor Mark II	- Repair	- 8
+Droid Modular Plating Mark I	- Repair	- 10
+Droid Modular Plating Mark II	- Repair	- 12
+Droid Dura Plating Mark I	- Repair	- 14
+
+
+Shields:
+
+Energy Shield			- Computer Use	- 8
+Mandalorian Melee Shield	- Repair	- 12
+Arkanian Energy Shield		- Computer Use	- 12
+Echani Shield			- Computer Use	- 16
+Mandalorian Power Shield	- Repair	- 18
+Echani Dueling Shield		- Computer Use	- 20
+Verpine Prototype Shield	- Computer Use	- 24
+
+
+Droid Shields:
+
+Droid Deflector Mark I		- Computer Use	- 8
+Droid Defense Barrier		- Computer Use	- 10
+Droid Deflector Mark II		- Computer Use	- 12
+Droid Deflector Mark III	- Computer Use	- 16
+Droid Energy Collector		- Computer Use	- 14
+Droid Unity Grid		- Computer Use	- 18
+
+
+Droid Weapons:
+
+Droid Flame Thrower		- Computer Use	 - 8
+Droid Molten Cannon		- Computer Use	 - 14
+Droid Carbonite Projector	- Computer Use	 - 10
+Droid Carbonite Freezerer	- Computer Use	 - 18
+Droid Ion Blast Mark I		- Computer Use	 - 8
+Droid Ion Blast Mark II		- Computer Use	 - 16
+Droid Ion Blast Mark III	- Computer Use	 - 22
+Droid Ion Striker		- Computer Use	 - 12
+Droid Plasma Projector		- Computer Use	 - 20
+Droid Neural Scrambler		- Computer Use	 - 10
+Droid Neural Pacifier		- Computer Use	 - 20
+Droid Slow Thing		- Computer Use	 - 14 
+Droid Toxin Emitter		- Computer Use	 - 10
+Droid Bio Assault Spray		- Computer Use	 - 20
+Multi-Spectral Emitter		- Computer Use	 - 28
+
+
+Droid Healing:
+
+Repair Kit		- Repair	- 4
+Advanced Repair Kit	- Repair	- 10
+Construction Kit	- Repair	- 16
+
+
+Rockets:
+
+Buster		- Demolitions	- 18
+Concussion	- Demolitions	- 18
+Explosive	- Demolitions	- 14
+Plasma		- Demolitions	- 18
+Ion		- Demolitions	- 22
+
+
+Darts:
+Piercing	- Treat Injury	- 8
+Poison		- Treat Injury	- 14
+Kyber		- Treat Injury	- 22
+Tranquilizer	- Treat Injury	- 14
+Paralysis	- Treat Injury	- 22
+
+
+
+Miscellaneous:
+
+Parts				- Repair 	- 6
+Computer Spike			- Computer Use	- 6
+Security Tunneler		- Security	- 8
+security Spike Tunneler		- Security	- 16
+
+
+Implants:
+
+All Level 1	- Treat Injury	- 8
+All Level 2	- Treat Injury	- 10
+All Level 3	- Treat Injury	- 12
+All Level 4	- Treat Injury	- 16
+All Level 5	- Treat Injury	- 18
+All Level 6	- Treat Injury	- 20
+All Level 7	- Treat Injury	- 24
+All Level 8	- Treat Injury	- 26
+All Level 9	- Treat Injury	- 28
+All Level 10	- Treat Injury	- 30
+
+
+Stimulants:
+
+All Adrenal		- Treat Injury	- 8
+All Hyper Adrenal	- Treat Injury	- 14
+Combat Shot 1		- Treat Injury	- 8
+Combat Shot 2		- Treat Injury	- 12
+Combat Shot 3		- Treat Injury	- 16
+
+
+Medpacs:
+
+Medpac			- Treat Inury	- 4
+Advanced Medpac		- Treat Inury	- 10
+Life Support Pack	- Treat Inury	- 16
+Antidote Pack		- Treat Inury	- 6
+
+
+Grenades:
+
+Frag		- Demolitions	- 6
+Stun		- Demolitions	- 6
+Poison		- Demolitions	- 8
+Sonic		- Demolitions	- 10
+Ion		- Demolitions	- 10
+Adhesive	- Demolitions	- 10
+Cryoban		- Demolitions	- 14
+Plasma		- Demolitions	- 18
+Thermal Det	- Demolitions	- 26
+
+Mines:
+
+All Minor	- Demolitions	- 6
+All Average	- Demolitions	- 10
+All Strong	- Demolitions	- 14
+All Deadly	- Demolitions	- 18
+All Devestating	- Demolitions	- 24
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------
+New Craftables
+---------------------------------------------------------------
+
+
+Blasters:
+Hold Out Blaster
+Blaster Pistol
+Ion Blaster
+Disruptor Pistol
+Sonic Pistol
+Heavy Blaster
+Blaster Carbine
+
+Melee Weapons:
+Short Sword
+Long Sword
+Quarterstaff
+Double-Bladed Sword
+Stun Baton
+Force Pike
++Vibroblade
++Vibrosword
++Vibro Double-Sword
+
+Lightsabers:
++Lightsaber
++Short Lightsaber
++Double-Bladed Lightsaber
+
+Armors:
+Light Combat Suit
+Combat Suit
+Heavy Combat Suit
+
+Droid Armor:
+None
++Droid Dura Plating Mark I
++Droid Dura Plating Mark II
++Droid Dura Plating Mark III
++Droid Impact Armor Mark I
++Droid Impact Armor Mark II
++Droid Impact Armor Mark III
++Droid Modular Plating Mark I
++Droid Modular Plating Mark II
++Droid Modular Plating Mark III
+
+Implants:
+Level 1 Implants
++Level 2 Implants
++Level 3 Implants
+
+Shields:
+Level 1 Shields
++Level 2 Shields
+
+Power Equipment:
+None
++Level 1 Power Equipment
+
+Tech Equipment
+None
++Level 1 Tech Equipment
+
+Droid Weapons:
+None
++Level 1 Droid Weapons
+
+Droid Shields:
+Level 1 Droid Shields
++Level 2 Droid Shields
+
+Mines:
+Level 1, 2, 3 Mines
++Level 4, 5 Mines
+
+Grenades:
+Pre-Cryoban Grenades
++Post-Cryban Grenades
+
+Medpacs:
+Medpacs and Antidote Packs
++Advanced Medpacs and Life Support Packs
+
+Stimulants:
+Level 1 Stimulants
++All Stimulants
+
+Repair Kits:
+Repair Kits
++Advanced Repair Kits, Construction Kits
+
+Rockets:
+None
++All (If we're still using them)
+
+Darts:
+None
++All (If we're still using them)
+
+Misc:
+Parts
+Computer Spike
+Security Spike
+Security Spike Tunnler
+
+
+
+Crafting Feats:
+
+
+Melee Weapons - Craft All Simple and Powered Melee Weapons
+Energy Shields - Craft All Energy Shields and Droid Shields
+Droid Devices - Craft Certain Droid Armor and Droid Weapons
+Grenades - Craft All Grenades
+Mines - Craft All Mines
+Implants - Craft All Implants
+Stimulants - Craft All Stimulants
+Rockets - Craft All Rockets
+Lightsabers - Craft All Lightsabers
+Wookie Weapons - Craft All Wookie Warblades and Bowcasters
+
+
+
+Second Attempt:
+
+
+Craft - Prereq feat for crafting
+Synthesize - Prereq feat for synthesizing
+
+Blasters - Some blasters and advanced upgrades
+Melee Weapons - Some melee weapons and advanced upgrades
+Lightsabers - All Lightsabers and upgrdes
+Robes - All Jedi Robes
+Armor - Some Armor and advanced upgrades
+Droid Equipment - Droid Weapons and Armor
+Energy Shields - Advanced Shields and Droid Shields
+Explosives - Advanced Grenades and Mines
+Meds - Advanced Medpacs, Stimulants, and Implants
+
+Rockets - Mira Only, Craft Rockets
+Wookie Weapons - Hanharr Only, Craft Wookie Weapons
+
+
+
+Third Attempt:
+
+
+Crafting Level 1 - Level 1 Items, Breakdown Bonus
+Crafting Level 2 - Level 2 Items, Breakdown Bonus
+Crafting Level 3 - Level 3 Items, Breakdown Bonus
+Synthesize Level 1 - Level 1 Items, Breakdown Bonus
+Synthesize Level 2 - Level 2 Items, Breakdown Bonus
+Synthesize Level 3 - Level 3 Items, Breakdown Bonus
+Jedi Crafting - Adds Jedi Items to Crafting, Jedi Only
+Energy Shields - Adds Shields to Crafting, Bao-Dur Only
+Rockets - Craft Rockets, Mira Only
+Wookie Weapons- Craft WookieWeapons, Hanharr Only
+
+
+
+
+Fourth Attempt:
+(This one, unlike the others is supposed to be consistent with having
+ Craft and Synthesize as skills themselves instead of 
+
+
+Breakdown (Craft) - Ups Breakdown rate to 75% from 50%
+Breakdown (Synthesize) - Ups Breakdown rate to 75% from 50%
+
+Melee - +33% craft when crafting melee weapons or upgrades
+Blasters - +33% craft when crafting ranged weapons or upgrades
+Armor - +33% craft when crafting armor or armor upgrades
+Droid Items - +33% craft when crafting droid items
+
+Lightsabers - +33% craft when crafting lightsabers and saber upgrades
+Robes - +33% craft when crafting jedi robes
+
+Explosives - +20% synthesize when making grenades and mines (and rockets)
+Meds - +20% synthesize when making medpacs and stimulants
+Implants +20% synthesize when making implants
+
+Jedi Crafting - Adds Jedi Items to Crafting, Jedi Only
+Energy Shields - Adds Shields to Crafting, Bao-Dur Only
+Rockets - Craft Rockets, Mira Only
+Wookie Weapons- Craft WookieWeapons, Hanharr Only
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+2/15/2015
+
+So the news is that we can't for the life of us figure out how to get the skill system to work
+In addition, this crafting system has been a whole mess from the very beginning
+
+So we're starting over from the beginning on this with some new limitations
+
+There will be no crafting skills or crafting feats, instead we will use raw level
+Also, there will NOT be multiple 2da files in this version
+We can iterate to change this later but now we have to keep it simple or this will never finish
+
+
+So what we're doing now is writing down what things are craftable and at what level:
+
+
+
+Alright well all of the upgrade craftables are handled in their files
+
+Let's review what craftables we're allowing:
+
+
+-Hold Out Blaster
+-Blaster Pistol
+-Ion Blaster
+-Disruptor Pistol
+-Sonic Pistol
+-Heavy Blaster
+-Blaster Carbine
+
+-Short Sword
+-Long Sword
+-Quarterstaff
+-Double-Bladed Sword
+-Stun Baton
+-Force Pike
+-Vibroblade
+-Vibrosword
+-Vibro Double-Sword
+
+-Lightsaber
+-Short Lightsaber
+-Double-Bladed Lightsaber
+
+-Energy Shield
+-Environment Shield
+
+-Droid Energy Shield
+-Droid Environment Sheild
+
+-Ion Striker
+-Carbonite Projector
+-Flamethrower
+-Neural Pacifier
+-Toxin Emitter
+
+*All Repair Kits
+
+-Parts
+-Computer Spike
+-Security Spike
+-Security Spike Tunnler
+
+
+And for the med station:
+
+*All Implants
+*All Mines
+*All Grenades
+*All Medpacs
+*All Stimulants
+
+
+
+
+Okay......... well we can start with the weapons we're allowing:
+
+
+Hold Out Blaster	- Level 3
+Blaster Pistol		- Level 5
+Ion Blaster			- Level 7
+Disruptor Pistol	- Level 7
+Sonic Pistol		- Level 7
+Heavy Blaster		- Level 9
+Blaster Carbine		- Level 9
+
+Short Sword			- Level 3
+Long Sword			- Level 6
+Quarterstaff		- Level 5
+Double-Bladed Sword	- Level 9
+Stun Baton			- Level 4
+Force Pike			- Level 8
+Vibroblade			- Level 10
+Vibrosword			- Level 13
+Vibro Double-blade	- Level 15
+
+Lightsaber					- Level 15
+Short Lightsaber			- Level 15
+Double-Bladed Lightsaber	- Level 18
+
+
+
+Okay now for the miscellany:
+
+Computer Spike			- Level 5
+Parts					- Level 5
+Security Spike			- Level 3
+Security Spike Tunneler	- Level 9
+
+
+Other equipment:
+
+Energy Shield				- Level 6
+Environment Shield			- Level 8
+Droid Energy Sheild			- Level 6
+Droid Environment Shield	- Level 8
+
+Ion Striker					- Level 7
+Carbonite Projector			- Level 11
+Flamethrower				- Level 9
+Neural Pacifier				- Level 9
+Toxin Emitter				- Level 11
+
+Repair Kit					- Level 1
+Quick Fix Kit				- Level 5
+Advanced Repair Kit			- Level 10
+Construction Kit			- Level 18
+
+
+
+Ok now for med station stuff:
+
+
+Medpac				- Level 1
+Antidote Pack		- Level 3
+Advanced Medpac		- Level 10
+Life Support Pack	- Level 18
+
+Level 1 Mines		- Level 3
+Level 2 Mines		- Level 8
+Level 3 Mines		- Level 13
+Level 4 Mines		- Level 18
+Level 5 Mines		- Level 23
+
+Frag Grenade		- Level 7
+Concussion Grenade	- Level 8
+Poison Grenade		- Level 8
+Ion Grenade			- Level 10
+Sonic Grenade		- Level 10
+Adhesive Grenade	- Level 12
+Cryoban Grenade		- Level 16
+Plasma Grenade 		- Level 17
+Thermal Detonator	- Level 24
+
+Level 1 Implants	- Level 4
+Level 2 Implants	- Level 10
+Level 3 Implants	- Level 16
+
+Level 1 Adrenal		- Level 5
+Level 2 Adrenal		- Level 13
+Battle Stim 1		- Level 11
+Battle Stim 2		- Level 19
+
+
+
+

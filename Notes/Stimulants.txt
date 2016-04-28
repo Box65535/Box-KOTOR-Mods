@@ -1,0 +1,132 @@
+
+Stimulants don't need to be that radical, but they should be at least useful
+
+
+Adrenal Strength
++4 Str for 40 Seconds
+2 Minute Recharge
+
+Adrenal Stamina
++4 Con for 40 Seconds
+2 Minute Recharge
+
+Adrenal Alacrity
++4 Dex for 40 Seconds
+2 Minute Recharge
+
+
+
+Stimulants:
+
+
+Strengthening Stimulant
++4 Str for 40 Seconds
++4 Fort/Reflex for 40 Seconds
+2 Minute Recharge
+
+Toughening Stimulant
++4 Con for 40 Seconds
++20% Damage Immunity for 40 Seconds
+Immune to Paralysis for 40 Seconds
+2 Minute Recharge
+
+Focusing Stimulant
++4 Dex for 40 Seconds
++4 Will for 40 Seconds
++2 Attack for 40 Seconds
+Immune to Fear for 40 Seconds
+2 Minute Recharge
+
+
+I think these are decent
+
+
+Here's an alternate take:
+
+Battle Stimulant
++4 Str for 40 Seconds
++2 Damage for 40 Seconds
++4 Saves for 40 Seconds
+2 Minute Recharge
+
+Endurance Stimulant
++4 Con for 40 Seconds
+40 Healing (2/2 for 40 seconds)
+Remove Poison
+Immune to Poison/Paralysis for 40 Seconds
+2 Minute Recharge
+
+Agility Stimulant
++4 Dex for 40 Seconds
++1 Extra Move for 40 Seconds
+2 Minute Recharge
+
+
+These are actually pretty darn good, maybe a little too good
+Keep in mind, these are supposed to be better than energy shields because they have a longer cooldown, probably the longest cooldown of any item/weapon
+
+
+
+
+
+Stimulants 1:
+
+Adrenal Toughness
++4 Fort
++4 Reflex
+
+Adrenal Concentration
++4 Will
++4 vs Fear
++4 vs Mind-Affecting
+
+Adrenal 
+
+
+Adrenal Strength
++4 Str
+
+Adrenal Endurance
++4 Con
+
+Adrenal Alacrity
++4 Dex
+
+
+Stimulants 2:
+
+Strengthening Stimulant
++4 Str
++4 Fort
++4 Reflex
+
+Toughening Stimulant
++4 Con
+10% Phyiscal Damage Immunity
+
+Concentrating Stimulant
++4 Dex
++4 Will
+
+Battle Stimulant
++4 Str
++2 Damage
++4 Saves
+
+Endurance Stimulant
++4 Con
+40 Healing (2/2 for 40 seconds)
+Remove Poison
+Immune to Poison
+
+Agility Stimulant
++4 Dex
++1 Extra Move
+
+
+
+
+
+
+
+

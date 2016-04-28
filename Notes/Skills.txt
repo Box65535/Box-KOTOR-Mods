@@ -1,0 +1,320 @@
+
+Old Skills:
+-Computer Use
+-Repair
+-Security
+-Demolitions
+-Treat Injury
+-Awareness
+-Stealth
+-Persuade
+
+New Skills:
+-Computers
+-Repair
+-Craft
+-Demolitions
+-Medicine
+-Awareness
+-Stealth
+-Persuade
+
+
+
+Class Skills (Old):
+
+
+Guardian	- Awareness, Demolitions
+Sentinel	- Awareness, Computer Use, Security, Stealth
+Consular	- Awareness, Repair, Stealth
+
+Solider		- Awareness, Treat Injury
+Scout		- Awareness, Repair, Demolitions
+Scoundrel	- Awareness, Computer Use, Security 
+Tech Spec	- Repair, Computer Use, Demolitions
+Combat Drd	- Awareness, Security
+Expert Drd	- Computer Use, Security, Repair
+
+Visas		- Awareness, Treat Injury, Stealth
+Kriea		- Awareness, Stealth
+
+Counts:
+-Awareness 	= 9
+-Stealth	= 
+
+
+
+Class Skills (New):
+
+Guardian	- Awareness, Demolitions
+Sentinel	- Awareness, Computers, Medicine, Craft
+Consular	- Awareness, Repair, Stealth
+
+Soldier		- Awareness, Demolitions
+Combat Drd	- Awareness, Computers
+
+Scout		- Awareness, Repair, Medicine
+Scoundrel	- Awareness, Computers, Stealth
+Tech Spec	- Awareness, Craft, Repair, Demolitions
+Expert Drd	- Awareness, Computers, Repair
+
+Visas		- Awareness, Medicine, Craft
+Kriea		- Awareness, Stealth
+
+
+Counts:
+-Awareness 	 = 11
+-Stealth	 = 3
+-Computers	 = 4
+-Repair		 = 4
+-Medicine	 = 3
+-Demolitions = 3
+-Craft		 = 3
+
+
+Counts by NPCs:
+-Awareness 	 = 10 -Stealth	 = 2-Computers	 = 4-Repair		 = 4-Medicine	 = 2-Demolitions = 3-Craft		 = 2(Without double-counting classes)-Awareness 	 = 8 -Stealth	 = 2-Computers	 = 3-Repair		 = 3-Medicine	 = 2-Demolitions = 2-Craft		 = 2
+Anyway, I think that cross-class skills should be free for one feat for all classesIf there's a problem with that, we can throw in some prerequisite feats with stuff like Caution, Gear Head, etcHere's what the new Skills actually do btw:Computers		- Locks, Comptuer terminals, dialog (replaces Security)Repair			- Repairing droids, dialog (needs something else)Craft			- Crafting at workbench (replaces Comp Use)Demolitions		- Set/Disable/Recover mines, synthesize mines at med station, dialogMedicine		- Synthesize medicine/stims/implants at med station, dialog (replaces Treat Injury)Awareness		- UnchangedStealth			- UnchangedPersuade		- UnchangedUnfortuantely I came up with the new skills without writing down what they did so I'm not sure if the above is what I intended
+
+
+
+
+
+
+Nov 11, 2015:
+
+Here are my ideas for newerer skills:
+
+Awareness - same
+Stealth - same
+Persuade - same
+
+Demolitions - dealing with mines, dialog, synthesizing mines
+Medicine - synthesizing medicine/implants, dialog, chemical breakdown
+Computers - opening doors, computer spikes, dialog
+Science - crafting complicated items, dialog
+Repair - repair parts, dialog, crafting physical items, craft refund
+
+
+Dialogs to change:
+
+
+Originals:
+[Repair] Your behavior core... they didn't memory wipe you, did they?
+[Repair] That wouldn't be standard procedure in an emergency lockdown.
+[Repair] There are no ticks in the power coupling - it's fixed.
+[Repair] [Judging from the droid schematic displays, the droids rely on thermal sensors to detect fuel deposits. You could easily blind them by raising the temperature.]
+
+REPAIR allows you to create some weapons as well as many types of standard upgrades. Possible upgrade types include:
+ 
+ Ranged weapons: firing chambers
+ Melee weapons: grips and edges
+ Lightsabers: emitters
+ Armor: overlays
+
+[Likewise, a character with ten ranks of Repair will get more COMPONENTS from a blaster rifle than a character with only three ranks.]
+[Finally, the REPAIR skill allows one to CREATE a wide array of armor, weapons, and droid and equipped items that aren't covered by the other skills, including UPGRADE ITEMS and UPGRADEABLE items.]
+
+[Repair] Run diagnostic on damaged systems.
+[Repair] Several parts have been removed from this console and a laser drill has been used on a number of sub-systems.
+[Repair] Despite the sabotage however, the console's basic functionality was intended to be restored quickly by replacing the missing parts.
+[Repair] Scavenge the console for components.
+[Repair] For an extra 50 credits, I'll repair it for you.
+[Repair] Some time? Don't leave your droid in the hands of this amateur. I can fix it.
+[Repair] I'll have this droid working in no time.
+[Repair] Good luck with the navicomputer - you're wasting your time.
+[Repair] Let me rewire a secondary motivator, and the sabotage will be undetectable.
+[Repair] Attempt to open the module's casing.
+[Repair] Sabotage the droid's ocular sensors.
+[Repair] Would you mind if I took a look? Maybe it can be fixed.
+[Repair] [Attempt to open the module's casing.]
+[Repair] If you are damaged, it might be good to stop the damage before it gets worse. 
+[Repair] Let's open you up and take a look.
+[Repair] A memory core in an astromech droid isn't worth more than 100 credits.
+[Repair] Install maneuvering flaps.
+[Repair] Can I help?
+[Repair] I'm pretty good with a hydrospanner. Can I help?
+[Repair] Attempt to disable the sensor.
+[Repair] Do you mean the type 2 perimeter motion relay?
+[Repair] It's a type 2 perimeter motion relay.
+{Stealth OK, same person has Repair}The same person that can use the stealth field can probably also disable it.
+[Repair] Let me just see if I can rewire you to be a little more "helpful."
+[Repair] Fix the droid's memory unit.
+[Repair] Give me a hydrospanner, and I'll smash its motivators.
+[Repair] Disable security systems on terminal.
+[Repair] Fix the defense turret
+[Repair] Insert the temporary sequencer into the terminal to activate a delay on their construction.
+[Repair] Really? Then you won't mind if I pull a few processing chips from these systems and make them inoperative.
+[Repair] Scavenge the mining droid for spare components.
+[Repair] Rewire the key buffer to the secondary buffer.
+[Repair] Bypass all systems to the secondary buffer.
+[Repair] Diagnose speech system
+[Repair] Scavenge the droid for components.
+[Repair] Hey, I can hear a catch in it. It's not fully fixed.
+[Repair] I have devoted myself to repairing machines. 
+[Repair] Repairing machines. 
+
+(((HK repair stuff)))
+(((T3 repair stuff)))
+
+[Repair] This equipment looks like it's designed to track signals - correct?
+[Repair] You've got an impressive array of equipment and monitors here.
+[Repair] Rewire the generator's circuitry to cause it to explode.
+[Repair] I'll just crack open one of these sensors and see what's inside.
+
+
+SECURITY, with its emphasis on electrical systems, is used to create upgrades involving ions. Possible upgrade types include:
+ 
+ Ranged weapons: power packs and firing chambers
+ Melee weapons: edges and energy cells
+ Lightsabers: emitters
+ Armor: underlays
+
+[Security] Unlock airspeeder's controls.
+[Security] As you go to take a sample of the plant, you notice what appears to be a fairly complex security system.
+[Security] Disable security system.
+[Security] Open the security door. (<CUSTOM35> Spike(s))
+[Security] I have devoted myself to convincing stubborn security devices to open.
+[Security] Convincing stubborn security devices to open.
+
+[The SECURITY skill allows one to CREATE security spikes and other computer-related items, such as security interface tools for droids.]
+
+
+
+With Computer Use, you discovered the ID signature of the terminal that transmitted the lethal medication order. If you can find that terminal in the facility, you may be able to find out who issued the order.
+
+COMPUTER USE allows you to create high-tech upgrades that require computer engineering. Possible upgrade types include:
+ 
+ Ranged weapons: power packs and firing chambers
+ Melee weapons: energy cells
+ Lightsabers: energy cells and lenses
+ Armor: none
+
+[Computer] I'm going to fix your behavior core.
+[Computer] Your behavior core is showing signs of some binary decay. Do you mind if I try to fix it?
+[Computer] You're deliberately avoiding answering - why?
+[Computer] That does it. I'm going to rip out your module and get some answers.
+[Computer] Let me check your core. I'll be careful, I promise.
+[Computer]That's not standard in an emergency lockdown. 
+[Computer] The treatment was administered by remote from another console within the facility: 34-103. You cannot determine its location, but you would recognize the ID signature if you accessed the console. 
+[Computer] [Judging from the droid schematic displays, the droids rely on thermal sensors to detect fuel deposits. You could easily blind them by raising the temperature.]
+
+[The COMPUTER USE skill allows one to CREATE computer spikes and other computer-related items, such as computer probes for droids.]
+
+[Computer] Check 3C-FD status.
+[Computer] Check status of emergency sub-systems.
+[Computer + Sonic Sensor] I understand if your limited functionality prevents you from mimicking the maintenance officer's voice accurately.
+[Computer] I understand if your limited functionality prevents you from mimicking the maintenance officer's voice accurately.
+[Computer] Check status of emergency sub-systems.
+[Computer] Attempt to slice a user name and password.
+[Computer] Attempt to recover the lost data.
+[Computer Use] So it can't be sliced?
+[Computer] Slice security code.
+[Computer] Bypass secure login.
+[Computer] So it can't be sliced?
+[Computer] Hey, I'm not such a bad slicer, myself.
+[Computer] Slice into security terminal.
+[Computer] Good luck with the navicomputer - you're wasting your time.
+[Computer] I can reprogram the computer behavior core with a process delay without him realizing it.
+[Computer] Hook the module up to your datapad.
+[Computer] Slice into the droid's central behavioral core
+[Computer] Reprogram the droid.
+[Computer] [Hook the module up to your datapad.]
+[Computer] There is obviously a problem in your programming. You should have it fixed before the damage spreads to other areas.
+[Computer] Install navigation interface.
+[Computer] I've had some practice restoring computer systems, if you need a hand.
+[Computer] Transfer all primary functions to secondary terminal then shutdown.
+[Computer] Then you won't mind if I use what little time I have left to slice into these computers. 
+[Computer] These systems aren't controlling the ship - they're tracking signals on a planetary scale - maybe even galaxy-wide.
+[Computer] Well, the strange thing is, we've detected no similar frequencies entering the Ebon Hawk.
+[Computer] So a good portion of your programming was adapted from protocol subroutines?
+[Computer Use] Hey, T3 has a stuck motivator. 
+[Computer] I have devoted myself to increasing my aptitude for computers.
+[Computer] My aptitude for computers.
+[Computer] I could take a look at your programming.
+[Computer/Repair] Do you mind if I try working on you one last time? I keep feeling like there's something I'm missing.
+
+(((T3 upgrades)))
+
+
+
+I'll continue recording these but I'm actually thinking of doing the easy way out which is having the "Science" skill be more of a "Computer" skill anyway
+That way I wouldn't have to change any dialogs and I could also leave the computer spike stuff intact
+
+
+
+Class Skills (New):
+
+Guardian	- Awareness, Demolitions
+Sentinel	- Awareness, Science, Medicine, Security
+Consular	- Awareness, Repair, Stealth
+
+Soldier		- Awareness, Demolitions
+Combat Drd	- Awareness, Security
+
+Scout		- Awareness, Demolitions, Repair
+Scoundrel	- Awareness, Security, Medicine
+Tech Spec	- Awareness, Science, Repair, Demolitions
+Expert Drd	- Awareness, Security, Repair
+
+Visas		- Awareness (rip)
+Kriea		- Awareness, Stealth
+
+
+
+New Skill Stuffs:
+
+
+
+Character		Awa	Stl	Dem	Med	Sec	Rep	Sci	Per
+Exile G			X		X					X
+Exile S			X			X	X		X	X
+Exile C			X	X				X		X
+
+Character		Awa	Stl	Dem	Med	Sec	Rep	Sci
+T3-M4			X		X		X	X	
+Atton			X	X		X	X	
+Kreia			X	X		X		
+Bao-Dur			X		X	X	X	X	X
+Handmaiden		X					
+Disciple		X		X	X		
+Visas			X	X				
+Mira			X		X	X		X
+Hanharr			X		X			X
+G0-T0			X	X			X	X	X
+Mandalore		X		X			
+HK-47			X		X		X	
+
+Ally Count
+
+Awareness	= 10
+Stealth		= 4
+Demolitions	= 5 or 6
+Medicine	= 3, 4, or 5
+Security	= 5
+Repair		= 4
+Science		= 2
+
+1 Skill		= 0 or 1
+2 Skills	= 2
+3 Skills	= 2, 3, or 4
+4 Skills	= 2 or 3
+5 Skills	= 1
+6 Skills	= 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

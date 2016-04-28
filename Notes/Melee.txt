@@ -1,0 +1,370 @@
+Melee Weapons [Simple]
+
+Short Sword
+1d8 / 19-20, x2 / Balanced
++Edge, Grip
+
+Long Sword
+1d10 / 19-20, x2
++Edge, Grip
+
+Quarterstaff
+1d10 / 20-20, x2 / Balanced
++Grip
+
+Double-Bladed Sword
+1d10 / 20-20, x2 / Balanced
++Edge, Grip
+
+Energy Baton
+1d6 / 20-20 x2
+Stun 50% DC 12
++Grip
+
+Force Pike
+1d8 / 20-20 x2 / Balanced
+Stun 25% DC 12
++Grip
+
+Plasma Torch
+1d6 Fire / 20-20 x1
++None
+
+Dueling Vibrosword
+1d10 / 20-20 x2
++None
+
+
+Cell-Powered Melee Weapons
+
+Vibroblade
+1d10 / 19-20 x2 / Balanced
++All
+
+Vibrosword
+1d12 / 19-20 x2
++All
+
+Vibro Double-blade
+1d12 / 20-20 x2 / Balanced
++All
+
+
+Ceremonial Melee Weapons
+
+# Order here is messed up now
+
+Wookie Warblade
+1d12 / 20-20 x3 / Balanced
++None
+
+Gammorean Battleaxe
+1d16 / 20-20 x2
++None
+
+Echani Vibrosword (Vibrosword)
+1d12 / 19-20 x2
+Keen
++2 Cold
++None
+
+Rodian Blade (Short Sword)
+1d8 / 19-20 x2 / Balanced
+-6 Str/Dex DC 20 Attribute Poison
++None
+
+Trandoshian Sword (Long Sword)
+1d10 / 19-20 x2
++2 Slashing
++1d8 Massive Crit
++None
+
+Arg'garok (Gammorean Battleaxe)
+1d16 / 20-20 x2
+-2 Attack
++1d12 Damage
++None
+
+Gand Shockstaff (Force Pike)
+1d8 / 20-20 x2 / Balanced
+Stun 25% DC 20
++None
+
+Geonosian Electro-Staff (Quarterstaff)
+1d10 / 20-20 x2 / Balanced
++6 Electric
++None
+
+Sith War Sword (Double-Bladed Sword)
+1d10 / 20-20 x2 / Balanced
++1 Attack
++1 Defense
++2 Slashing
++None
+
+Ludo Kressh's War Sword (Double-Bladed Sword)
+1d10 / 20-20 x2 / Balanced
++1 Wis
++1 Chr
++4 Dark Side
+Restricted to Dark Side
++None
+
+Gand Silencer (Stun Baton)
+1d6 / 20-20 x2
++2 Electric
+Stun 50% DC 20
++None
+
+Tehk'la Blade (Vibroblade)
+1d10 / 19-20 x2 / Balanced
+-6 Con DC 20
++None
+
+Zhaboka (Vibro Double-Blade)
+1d12 / 20-20 x2 / Balanced
++1 Attack
++3 Unstoppable
++None
+
+Twi'lek Spinning Blade (Short Sword)
+1d8 / 19-20 x2 / Balanced
+On Hit 6 Poison Damage DC 20 (3 damage every 4 seconds for 8 seconds)
++None
+
+Twi'lek Spinning Blade (Short Sword)
+1d8 / 19-20 x2 / Balanced
+On Hit Paralysis 25% DC 20
++None
+
+Freyyr's Warblade (Wookie Warblade)
+1d12 / 20-20 x3 / Balanced
++1 Attack
+Keen
++None
+
+Shyarn (Long Sword)
+1d10 / 19-20, x2
++2 Defense
++None
+
+Handmaiden's Staff (Quarterstaff)
+1d10 / 20-20, x2 / Balanced
++1 Attack
++1 Defense
++None
+
+Ryyk Blade (Short Sword)
+1d8 / 19-20 x2 / Balanced
+Keen
++2 Defense
++None
+
+
+
+Cells
+
+[Vibration] Cell:
++2 Slashing
+-1 Attack
+
+[Sonic] Cell:
++2 Sonic
++1d4 Massive Crit
+-1 Attack
+
+[Energy] Cell
++1 Energy
+
+[Electrical] Cell:
++1 Electric
+25% Stun DC 18 (2 Rounds)
+
+[Plasma] Cell:
++1 Fire
++1 Ion
+
+
+Edges
+
+Metal Edge 1:
++1 Slashing
+
+Metal Edge 2:
++2 Slashing
+
+Metal Edge 3:
++3 Slashing
+
+Metal Edge 4:
++4 Slashing
+
+[Poison 1] Edge:
+On Hit -2 Str/Dex Attribute Poison DC 10
+
+[Poison 2] Edge:
+On Hit -2 Str/Dex Attribute Poison DC 14
+
+[Poison 3] Edge:
+On Hit -4 Str/Dex Attribute Poison DC 16
+
+[Poison 4] Edge:
+On Hit -4 Str/Dex Attribute Poison DC 20
+
+[Ion 1] Edge:
++2 Ion vs Droid
+
+[Ion 2] Edge:
++2 Ion vs Droid
++2 Electric vs Droid
+
+[Energy] Edge:
++2 Energy
+
+[Heated] Edge:
++2 Fire
+-6 Con DC 14
+
+[Sharp] Edge:
+Keen
+
+[Chilling] Edge:
++1 Cold
+Keen
+
+[Critical 1] Edge:
++1d4 Massive Crits
+
+[Critical 2] Edge:
++1d6 Massive Crits
+
+[Critical 3] Edge:
++1d8 Massive Crits
+
+
+Grips
+
+[Aggressive 1] Grip
++1 Enhancement Damage
+-1 Attack
+
+[Aggressive 2] Grip
++2 Enhancement Damage
+-1 Attack
+
+[Aggressive 3] Grip
++3 Enhancement Damage
+-1 Attack
+
+[Passive 1] Grip
++1 Attack
+-2 Damage
+
+[Passive 2] Grip
++2 Attack
+-2 Damage
+
+[Passive 3] Grip
++3 Attack
+-2 Damage
+
+[Defensive 1] Grip
++1 Defense
+-2 Attack
+
+[Defensive 2] Grip
++2 Defense
+-2 Attack
+
+[Defensive 3] Grip
++3 Defense
+-2 Attack
+
+[Zabrak 1] Grip
++2 Attack
++2 Enhancement Damage
+-2 Defense
+
+[Zabrak 2] Grip
++3 Attack
++3 Enhancement Damage
+-2 Defense
+
+[Balanced 1] Grip
++1 Attack
+
+[Balanced 1.1] Grip
++1 Defense
+
+[Balanced 2] Grip
++1 Attack
++1 Defense
+
+
+Upgrade Skill Requirements:
+
+[Aggressive 1] Grip
+[Passive 1] Grip
+[Defensive 1] Grip
+---
+[Aggressive 2] Grip
+[Passive 2] Grip
+[Balanced 1] Grip
+[Defensive 2] Grip
+[Balanced 1.1] Grip
+[Aggressive 3] Grip
+[Zabrak 1] Grip
+[Passive 3] Grip
+[Defensive 3] Grip
+[Balanced 2] Grip
+[Zabrak 2] Grip
+
+There are 15 grips and 1 blank, levels 2-30
+
+Metal Edge 1		4
+Metal Edge 2		12
+Metal Edge 3		20
+Metal Edge 4		28
+[Poison 1] Edge		4
+[Poison 2] Edge		10
+[Poison 3] Edge		16
+[Poison 4] Edge		22
+[Ion 1] Edge		6
+[Ion 2] Edge		14
+[Energy] Edge		18
+[Heated] Edge		26
+[Sharp] Edge		20
+[Chilling] Edge		24
+[Critical 1] Edge	8
+[Critical 2] Edge	14
+[Critical 3] Edge	20
+
+
+[Vibration] Cell	16
+[Sonic] Cell		20
+[Energy] Cell		10
+[Electrical] Cell	14
+[Plasma] Cell		18
+
+Good enough
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

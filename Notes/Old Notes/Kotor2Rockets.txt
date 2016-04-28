@@ -1,0 +1,262 @@
+Buster Rocket
+w_rocket_03
+50 Piercing Damage
+DC 15 for half Damage
+
+Concussion Rocket
+w_rocket_11
+1 Piercing Damage
+Knockdown and Stun for 9 seconds
+DC 15 for no Effect
+
+Explosive Rocket
+w_rocket_01
+10 Piercing Damage (Target)
+24 Piercing Damage (Area)
+DC 15 for half Damage
+4 meter radius
+
+Ion Rocket
+w_rocket_10
+10 Piercing Damage (Target)
+48 Ion Damage (Area)
+DC 15 for half Damage
+4 meter radius
+
+Kyber Dart
+w_rocket_04
+1 Piercing Damage
+Poison 25 points every 6 seconds for 18 seconds
+DC 25 for half Damage
+
+Paralysis Dart
+w_rocket_09
+1 Piercing Damage
+Paralysis for 9 seconds
+DC 20 for Slow for 3 seconds instead
+
+Piercing Dart
+w_rocket_08
+50 Piercing Damage
+DC 10 for no effect
+
+Plasma Rocket
+w_rocket_05
+10 Piercing Damage (Target)
+36 Fire Damage (Area)
+DC 15 for half Damage
+4 meter radius
+
+Poison Dart
+w_rocket_07
+1 Piercing Damage
+Poison 10 points every 6 seconds for 18 seconds
+DC 25 for no effect
+
+Poison Rocket
+w_rocket_06
+10 Piercing Damage (Target)
+Poison 5 points every 6 seconds for 12 seconds (Area)
+DC 25 for no effect
+
+Tranquilizer Dart
+w_rocket_02
+1 Piercing Damage
+Stun for 9 seconds
+DC 20 for no effect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Buster Rocket
+w_rocket_03
+50 Piercing Damage
+DC 100 or basically no way to dodge it
+300 Credits
+
+Concussion Rocket
+w_rocket_11
+1 Piercing Damage
+Knockdown and Stun for 9 seconds
+DC 100 or basically no way to dodge it
+300 Credits
+
+Explosive Rocket
+w_rocket_01
+10 Piercing Damage (Target)
+36 Piercing Damage (Area)
+DC 18 for half Damage
+4 meter radius
+500 Credits
+
+Plasma Rocket
+w_rocket_05
+10 Piercing Damage (Target)
+50 Fire Damage (Area)
+DC 18 for half Damage
+4 meter radius
+800 Credits
+
+Ion Rocket
+w_rocket_10
+10 Piercing Damage (Target)
+64 Ion Damage (Area)
+DC 18 for half Damage
+4 meter radius
+1200 Credits
+
+
+
+
+Piercing Dart
+w_rocket_08
+50 Piercing Damage
+DC 15 for no damage
+50 Credits
+
+Poison Dart
+w_rocket_07
+1 Piercing Damage
+Poison 10 points every 6 seconds for 30 seconds
+DC 25 for no effect
+150 Credits
+
+Kyber Dart
+w_rocket_04
+1 Piercing Damage
+Kill
+DC 20 for Kyber Poison instead
+500 Credits
+
+Tranquilizer Dart
+w_rocket_02
+1 Piercing Damage
+Stun for 9 seconds
+DC 20 for no effect
+150 Credits
+
+Paralysis Dart
+w_rocket_09
+1 Piercing Damage
+Paralysis for 9 seconds
+DC 25 for Slow for 3 seconds instead
+300 Credits
+
+
+
+
+Poison Rocket
+w_rocket_06
+10 Piercing Damage (Target)
+Poison 5 points every 6 seconds for 12 seconds (Area)
+DC 30 for no effect
+IDK what to do with this piece of crap item, what's a poison rocket? seriously
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------
+New Rockets
+----------------------------------------------------------------------------
+
+[Still think these are pretty redundant with Grenades and that including them
+  just complicates the issue]
+
+
+
+
+Buster Rocket
+40 Piercing (Single)
+DC 100
+
+Concussion Rocket
+1 Piercing (Single)
+9 Second Knockdown and Stun (Single)
+DC 100
+
+Explosive Rocket
+10 Piercing (Single)
+24 Piercing (Area)
+DC 20
+
+Poison Rocket
+10 Piercing (Single)
+Poison: 4/3 for 30 seconds (DC 100) (Area)
+DC 20 (Rocket DC not Poison)
+
+Plasma Rocket
+10 Piercing (Single)
+36 Fire (Area)
+DC 20
+
+Ion Rocket
+10 Piercing (Single)
+48 Ion (Area)
+DC 22
+
+
+
+
+Piercing Dart
+30 Piercing
+DC 15
+
+Poison Dart
+1 Piercing
+Poison: 5/3 for 30 seconds (DC 100)
+DC 20
+
+Kyber Dart
+1 Piercing
+Kill
+Poison: 5/3 for 30 seconds (DC 100) on Save
+DC 20
+
+Tranquilizer Dart
+1 Piercing
+9 Second Stun
+DC 20
+
+Paralysis Dart
+1 Piercing
+12 Second Paralysis
+12 second Slow (50%) on Save
+DC 24
+
+
+
+
+Rockets:
++1 DC for every 6 points in Demolitions
++1% damage for every point in Demolitions
+
+Darts:
++1 DC for every 6 points in Treat Injury
+

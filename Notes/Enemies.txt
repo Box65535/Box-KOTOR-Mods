@@ -1,0 +1,274 @@
+
+
+Enemy Minion
+
+Enemy Attack High = (Player Defense High) higher?
+Enemy Attack Medium = (Player Defense High)
+
+Enemy Defense High = (Player Attack Medium)
+Enemy Defense Medium = (Player Attack Low)
+
+Enemy Saivng Throw High = (+1 every 2 levels)
+Enemy Saivng Throw Medium = (+1 every 3 levels)
+
+Enemy Awareness High = (+1 3 of every 4 levels)
+Enemy Awareness Medium = (+1 every 2 levels)
+
+Enemy Stealth High = (+1 3 of every 4 levels)
+Enemy Stealth Medium = (+1 every 2 levels)
+
+So then, how does this work?
+
+
+10/26/2015:
+
+I'm sure I did a thing were I recorded all of the enemy types in the game but now I can't seem to find it
+Anyway we need enemy types:
+
+Based on in-game files for K1/TSL:
+
+-Assassin Droid (1, 2)
+-Assault Droid (1, 2, 3)
+-Darth Bandon
+-Bantha
+-Black Vulkar Gang (1, 2)
+-Rakatan Warrior (1, 2, 3, 4, 5, 6, 7)
+-Birth
+-Combat Droid
+-Dark Jedi (1, 2, 3, 4)
+-Darth Bandon Lackey
+-Dark Apprentice
+-Dark Jedi
+-Dark Master
+-Dewback
+-Telos Military Droid
+-Telos Sentry Droid
+-Drexl
+-Construction Droid Boss
+-Construction Droid Light
+-Construction Droid Medium
+-Foreman Droid
+-Mining Droid Mark I (1, 2, 3)
+-Mining Droid Mark II (1, 2, 3)
+-Tank Droid
+-Firaxa Shark
+-Floating Mine
+-Gammorean (1, 2, 3)
+-Gizka
+-Hidden Bek Thug (1, 2)
+-Hutt
+-Iriaz
+-Ithorian
+-Jagi
+-Jawa
+-Jordo
+-Kataam (1, 2, 3)
+-Kath Hound (1, 2)
+-Kinrath (1, 2, 3, 4)
+-Krayt Dragon
+-Lena
+-Malare
+-Mandalorian (1, 2, 3)
+-Probe Droid
+-Elder Rakatan (1, 2, 3, 4, 5, 6, 7)
+-Rackghoul (1, 2)
+-Rancor (1, 2)
+-Ronto
+-Sea Beast
+-Selkath (1, 2, 3)
+-Senni Vek
+-Sith Assassin
+-Sith Commander (1, 2)
+-Sith Trooper (1, 2, 3, 4, 5, 6, 7)
+-Tach
+-Rodian Crony
+-Thug[Alien] (1, 2, 3)
+-Tuk'ata (1, 2)
+-Turret (1, 2, 3, 4, 5, 6, 7, 8)
+-Sand People (1, 2, 3)
+-Verkaal (1, 2, 3, 4)
+-War Droid (1, 2, 3, 4)
+-Wookie (1, 2)
+-Wraid (1, 2)
+-Xor
+-Ziagrom
+
+This has some things but it really isn't even close, I'm going to have to go through the whole list and even then I don't know what they may have reused, this is a real pain
+
+
+Alright so the idea here is:
+
+-We have 3 levels of enemies except bosses
+-Each of them are pretty close together in terms of strength
+-Lowest level are the complete cannon fodder enemies
+-Middle levels supposed to indicate a moderate challenge, they're noticeably stronger but they shouldn't take much effort to defeat
+-Highest level are challenging opponents, reserved for leaders and minibosses
+
+None of these are bosses
+
+
+So we have 3 tiers of enemies and we have several enemy categories that define how in general each of these enemies behave
+
+Categories:
+-Soldiers (TSF, Czerka, Sith, Mandalorian)
+-Sith Assassins
+-Dark Jedi (Regular Jedi?)
+-Droids (Do we need separate categories?)
+-Creatures (Kinrath, Shyrack, Kath Hound, Cannok, etc)
+-Thugs (Various alein types)
+-Turret (Same as droid?)
+
+Alright small sub-categories aside let's specify the categories in terms of stats:
+
+
+Class Attack 1  = Base 1, Gain on 2, 3, 5, 6, 8, 9, 11, 12, 14, 15, 17, 18, 20, 21, 23, 24, 26, 27, 29, 30
+Class Attack 2  = Base 0, Gain on 2, 3, 5, 8, 9, 11, 14, 15, 17, 20, 21, 23, 26, 27, 29
+
+High Defense 	= Base 1, Gain on 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29
+Medium Defense 	= Base 0, Gain on 3, 5, 7, 11, 13, 15, 19, 21, 23, 27, 29
+
+Saving Throw High = 1 every 2 levels
+Saving Throw Medium = 1 every 2.5 levels
+Saving Throw Low = 1 every 3 levels
+
+Awareness High = 1 every level
+Awareness Medium = 3/4 every level
+Awareness Low = 1/2 every level
+
+
+Basically:
+Class Attack 1 >
+Class Attack 2 = High Defense >
+Class Attack 3 = Medium Defense >
+Low Defense
+
+Strong Armor =	DT=2, +1 every 6 levels
+Medium Armor =	DT=1, +1 every 6 levels except 18,36,54..
+Weak Armor =	DT=0, +1 every 12 levels
+No Armor =		DT=0, +0
+
+
+Attack Category High	=	Medium/Medium/High
+Attack Category Low		=	Medium/Medium/Medium
+
+Defense Category High	=	Medium/Medium/High
+Defense Category Low	=	Medium/Medium/Medium
+
+Armor Category VStrong	=	Medium/Medium/Strong
+Armor Category Strong	=	Weak/Medium/Medium
+Armor Category Medium	=	Weak/Weak/Medium
+Armor Category Weak		=	No/Weak/Weak
+Armor Category None		=	No/No/No
+
+Save Category High		=	Medium/Medium/High
+Save Category Medium	=	Low/Medium/High
+Save Category Low		=	Low/Medium/Medium
+
+Skill Category High		=	Medium/Medium/High
+Skill Category Medium	=	Low/Medium/High
+Skill Category Low		=	Low/Medium/Medium
+Skill Category VLow		=	Low/Low/Medium
+
+
+Saves Fortitude High:
+-Fortitude		- Medium/Medium/High
+-Reflex			- Low/Medium/High
+-Will			- Low/Medium/High
+
+Saves Fortitude Full:
+-Fortitude		- Medium/Medium/High
+-Reflex			- Low/Medium/Medium
+-Will			- Low/Medium/Medium
+
+Saves Balanced:
+-Fortitude		- Low/Medium/High
+-Reflex			- Low/Medium/High
+-Will			- Low/Medium/High
+
+
+Soldier/Combat Droid:
+-Attack		- High
+-Defense	- Low
+-Armor		- Strong
+-Saves		- Fortitude High
+-Skills		- Medium
+
+Thug Gammorean:
+-Attack		- High
+-Defense	- Low
+-Armor		- Strong
+-Saves		- Fortitude Full
+-Skills		- Low
+
+Thug Scoundrel:
+-Attack		- High
+-Defense	- Low
+-Armor		- Medium
+-Saves		- Reflex High
+-Skills		- Medium
+
+Jedi:
+-Attack		- Low
+-Defense	- High
+-Armor		- Weak
+-Saves		- Balanced
+-Skills		- Low
+
+Expert Droid:
+-Attack		- Low
+-Defense	- Low
+-Armor		- Medium
+-Saves		- Will High
+-Skills		- Medium
+
+Bat:
+-Attack		- Low
+-Defense	- High
+-Armor		- Weak
+-Saves		- Reflex High
+-Skills		- Medium
+
+
+So uh, yeah, this is pretty involved
+
+
+Droid Immunities
+-Stun, Fear, Horror
+-Fear
+-Paralysis
+-Poison
+
+Czerka/Republic Immunities:
+-None
+
+Mandalorian Immunities:
+-Fear +4
+
+Gammorean Immunities:
+-Poison +3
+-Acid +3
+-Disease +3
+
+Combat Droid Immunities:
+-Droid Immunities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

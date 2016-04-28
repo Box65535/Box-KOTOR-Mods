@@ -1,0 +1,80 @@
+
+Alright so I think we're not doing healing items, instead we'll just try to make healing very straightforward and equitable for all
+
+We're also very likely not doing Treat Injury/Repair involvement in healing
+
+
+
+Medpac
+40 Healing (10/2 for 8 seconds) 
+Target can't move for 8 seconds
+Single Use
+
+Antidote Pack
+Removes Poison
+Target can't move for 8 seconds
+Single Use
+
+Advanced Medpac
+80 Healing (20/2 for 8 seconds)
+Target can't move for 8 seconds
+Single Use
+
+Advanced Antidote Pack
+Removes Poison
+Removes Attribute Damage
+Target can't move for 8 seconds
+Single Use
+
+Life Support Pack
+60 Healing (Immediate)
+-4 Str/Dex/Wis for 30 Seconds
+Single Use
+
+
+
+Another option would be to do percentages
+But that has problems because these things are supposed to be a fixed price
+
+We might just need 3 levels
+
+
+Medpac/Kit 1
+40 Healing (10/2 for 8 seconds) 
+Target can't move for 8 seconds
+Single Use
+
+Medpac/Kit 2
+80 Healing (20/2 for 8 seconds) 
+Target can't move for 8 seconds
+Single Use
+
+Medpac/Kit 3
+120 Healing (30/2 for 8 seconds) 
+Target can't move for 8 seconds
+Single Use
+
+Antidote Pack (Human only)
+Removes Poison
+Target can't move for 8 seconds
+Single Use
+
+Life Support Pack / Quick Fix Kit 1
+40 Healing (Immediate)
+-4 Str/Dex/Wis for 30 Seconds
+Single Use
+
+Life Support Pack / Quick Fix Kit 2
+80 Healing (Immediate)
+-4 Str/Dex/Wis for 30 Seconds
+Single Use
+
+
+Anything else?
+
+There's actually a lot of potential flexibility here
+But I think that's better kept for Stims/etc
+These items are supposed to be basic healing
+I might even remove the Life Support Packs, maybe
+
+

@@ -1,0 +1,359 @@
+
+
+Level 1 Powers: (Unlocked at Level 0, Cast DC = 6)
+*Force Suggestion
+-Force Concealment
+-Force Speed
+-Force Valor (Light)
+-Force Fury (Dark)
+
+Level 2 Powers: (Unlocked at Level 5, Cast DC = 8)
+-Force Sweep
+-Force Ionize
+-Force Sleep (Light)
+-Force Afflict (Dark)
+
+Level 3 Powers: (Unlocked at Level 10, Cast DC = 10)
+-Throw Lightsaber
+-Force Levitate
+-Force Body (Light)
+-Force Fear (Dark)
+
+Level 4 Powers: (Unlocked at Level 15, Cast DC = 12)
+-Force Push
+-Force Blind
+-Force Suppress (Light)
+-Force Choke (Dark)
+
+Level 5 Powers: (Unlocked at Level 20, Cast DC = 14)
+-Force Agility
+-Battle Meditation
+-Force Paralysis (Light)
+-Forde Drain (Dark)
+
+Level 6 Powers: (Unlocked at Level 22, Cast DC = 16)
+-Force Confusion
+-Force Light (Light)
+-Force Lightning (Dark)
+
+Level 7 Powers: (Unlocked at Level 25, Cast DC = 18)
+
+Level 8 Powers: (Unlocked at Level 27, Cast DC = 20)
+
+Level 9 Powers: (Unlocked at Level 30, Cast DC = 22)
+
+
+
+
+Tier 2 Powers - All of these are Consular/Etc only
+
+
+Level 1 Powers: (Unlocked at Level 0, Cast DC = 6)
+
+Level 2 Powers: (Unlocked at Level 5, Cast DC = 8)
+
+Level 3 Powers: (Unlocked at Level 10, Cast DC = 10)
+
+Level 4 Powers: (Unlocked at Level 15, Cast DC = 12)
+*Force Compel
+
+Level 5 Powers: (Unlocked at Level 20, Cast DC = 14)
+-Force Quake
+-Ion Storm
+-Sleep Wave (Light)
+
+Level 6 Powers: (Unlocked at Level 22, Cast DC = 16)
+-Mass Levitate
+-Force Insanity (Dark)
+
+Level 7 Powers: (Unlocked at Level 25, Cast DC = 18)
+-Force Wave
+-Force Enlightenment (Light)
+-Force Crush (Dark)
+
+Level 8 Powers: (Unlocked at Level 27, Cast DC = 20)
+-Master Battle Meditation
+-Paralysis Wave (Light)
+-Death Field (Dark)
+
+Level 9 Powers: (Unlocked at Level 30, Cast DC = 22)
+-Mass Confusion
+-Wall of Light (Light)
+-Force Storm (Dark)
+
+
+Icons:
+
+*Force Suggestion		- Affect Mind
+?Force Concealment		- Force Camoflouge
+-Force Speed			- Knight Speed
+-Force Valor 			- Force Valor
+-Force Fury 			- Force Fury
+-Force Sweep			- Force Breach
+-Force Ionize			- Disable Droid
+-Force Sleep 			- Force Stun
+-Force Afflict 			- Force Afflict
+-Throw Lightsaber		- Throw Lightsaber
+-Force Levitate			- Force Whirlwind
+-Force Body 			- Force Body
+-Force Fear 			- Force Fear
+-Force Push				- Force Push
+-Force Blind			- Force Insanity
+-Force Suppress 		- Force Suppress
+-Force Choke 			- Force Choke
+-Force Agility			- Master Speed
+-Battle Meditation		- Battle Meditation
+-Force Paralysis		- Force Stasis
+-Force Drain			- Force Drain
+-Force Confusion		- Mind Trick
+-Force Light			- Force Control
+-Force Lightning		- Force Lightning
+*Force Compel			- Dominate Mind
+-Force Quake			- Force Alter
+-Ion Storm				- Destroy Droid
+-Mass Sleep 			- Force Stun
+-Mass Levitate			- Force Whirlwind
+-Force Insanity			- Force Horror
+-Force Wave				- Force Wave
+-Force Enlightenment 	- Master Force Body
+-Force Crush 			- Force Crush
+-Master Battle Meditation	- Master Battle Meditation
+-Mass Paralysis 		- Stasis Field
+-Death Field			- Death Field
+-Mass Confusion			- Force Confusion
+-Wall of Light			- Force Enlightenment
+
+
+Replacements:
+
+Affect Mind			- Force Suggestion
+Dominate Mind		- Force Compel
+Burst of Speed		- Force Speed
+Knight Speed		- Force Speed (Removed)
+Master Speed		- Force Agility
+Cure				- Enemy Heal 1 (Removed)
+Heal				- Enemy Heal 2 (Removed)
+Master Heal			- Enemy Heal 3 (Removed)
+Slow				- Force Afflict
+Affliction			- Force Afflict (Removed)
+Plague				- Force Afflict (Removed)
+Wound				- Force Choke
+Choke				- Force Choke (Removed)
+Kill				- Force Crush
+Drain Life			- Force Drain
+Death Field			- Death Field
+Fear				- Force Fear
+Horror				- Force Fear (Removed)
+Insanity			- Force Insanity
+Force Aura			- Force Sleep
+Force Shield		- Force Sleep (Removed)
+Force Armor			- Sleep Wave
+Force Push			- Force Push
+Force Whirlwind		- Force Push (Removed)
+Force Wave			- Force Wave
+Force Suppresion	- Force Suppression
+Force Breach		- Force Suppression (Removed)
+Force Resistance	- Force Levitate
+Force Immunity		- Mass Levitate
+Force Shock			- Force Lightning
+Force Lightning		- Force Lightning (Removed)
+Force Storm			- Force Storm
+Force Valor			- Force Valor
+Knight Valor		- Force Valor (Removed)
+Master Valor		- Force Valor (Removed)
+Energy Resistance	- Force Sweep
+Adv Energy Resist	- Force Sweep (Removed)
+Mstr Energy Resist	- Force Quake
+Stun				- Force Paralyze
+Stasis				- Force Paralyze (Removed)
+Stasis Field		- Paralysis Wave 
+Stun Droid			- Force Ionize
+Disable Droid		- Force Ionize (Removed)
+Destroy Droid		- Ion Storm
+Throw Lightsaber	- Throw Lightsaber
+Adv Throw Lightaber	- Throw Lightsaber (Removed)
+Force Barrier		- Force Light
+Imp Force Barrier	- Force Light (Removed)
+Mstr Force Barrier	- Wall of Light
+Battle Medidation	- Battle Meditation 
+Imp Battle Med		- Battle Meditation (Removed)
+Mstr Battle Med		- Battle Meditation (Removed)
+*Same kind of situation for enemy battle meditations but might need custom script
+*Crush Opposition and Inspire Followers should also be turned into Battle Meditation else we should come up with something special for that spell tree
+Force Body			- Force Body
+Imp Force Body		- Force Body (Removed)
+Mstr Force Body		- Force Enlightenment
+Drain Force			- Force Blind
+Imp Drain Force		- Force Drain (Removed)
+Mstr Drain Force	- Death Field (Removed)
+Force Camoflogue	- No Change
+Imp Force Camo		- No Change (Removed)
+Mstr Force Camo		- No Change (Removed)
+Force Repulsion		- No Change (Removed) 
+Force Redirection	- No Change (Removed)
+Fury				- Force Fury
+Improved Fury		- Force Fury (Removed)
+Master Fury			- Force Fury (Removed)
+Revitalize			- Enemy Revive 1 (Removed)
+Imp Revitalize		- Enemy Revive 2 (Removed)
+Mstr Reviltalize	- Enemy Revive 3 (Removed)
+Force Sight			- No Change
+Force Crush			- Force Consume
+Precognition		- No Change
+Battle Precog		- No Change
+Force Enlightenment	- Force Sever
+Mind Trick			- Force Confusion
+Confusion			- Force Confusion (Removed)
+Beast Trick			- Beast Trick
+Beast Confusion		- Beast Trick (Removed)
+Droid Trick			- Droid Confuse Ray (Removed)
+Droid Confusion		- Droid Confuse Ray (Removed)
+Breath Control		- Breath Control
+
+Things that needed to be fit in somewhere and got put in unusual places:
+-Force Sleep / Sleep Wave
+-Force Levitate / Mass Levitate
+-Force Blind
+-Force Sweep / Force Quake
+
+
+
+
+Nov 2015: Copied these from Powers2 and changed names to match
+
+
+Speed
+-Increased Speed for 18 + 3*Force
+-DC 6
+
+Sweep
+-Forced4 Damage (Bludgeoning)
+-Knockdown for 3 seconds
+-Damage/2 and no knockdown on save (Will/Reflex, None)
+-DC 8
+
+Ionize
+-Forced4 Damage (Ion)
+-Stun for 6 + 0.25*Force seconds
+-Damage/2 and no stun on save (Will/Fortitude, Ion)
+-DC 8
+
+Levitate
+-Whirlwind for 6 + 0.25*Force seconds
+-Nothing on save (Will/Reflex, None)
+-DC 10
+
+Throw Ligthsaber
+-Forced8 Damage
+-Damage/3 on save (Reflex, None)
+-DC 10
+
+Push
+-Forced6 Damage (Bludgeoning)
+-Force Push for 0.5 + 0.1*Force
+-Damage/2 and no push on save (Will/Reflex, None)
+-DC 12
+
+Blind
+-Defense -4 and 25% Miss Chance for 9 + 0.25*Force
+-Defense -2 for 6 seconds on save (Will, None)
+-DC 12
+
+Agility
+-One Extra Action per Round for 18 + 3*Force seconds
+-Speed Increase Bonus if acquired
+-DC 14
+
+Battle Meditation
+-Attack/Defense +3 to all Party for 18 + 3*Force seconds
+-DC 14
+
+Confusion
+-Faction Swap for 12 + 0.5*Force seconds
+-Nothing on save (Will, Mind-Affecting)
+-Only one confusion at a time
+-DC 16
+
+
+
+Valor
+-Attack/Defense +3 for 9 + Force seconds
+-DC 6
+
+Sleep
+-Sleep for 3 + 0.25*Force seconds
+-Attack -2 for 3 seconds on save (Will, Mind-Affecting)
+-DC 8
+
+Body
+-Poison Removal/Immunity and 2 heal per 3 second
+-Lasts for 18 + 3*Force
+-DC 10
+
+Suppress
+-Forced6 Force Damage
+-Wis/Chr -6 for 18 + 2*Force seconds
+-Damage/3 and Chr -4 for 6 seconds on save (Will, Light Side)
+-DC 12
+
+Paralysis
+-Paralysis for 9 + 0.5*Force seconds
+-Slow for 9 seconds on save (Will, Mind-Affecting)
+-DC 14
+
+Light
+-Enemy Morality is boosted +UserForce
+-For each point:
+	Calculate Evil = (100-Morality)/5
+	Deal 1dEvil Damage (Light Side)
+	If Damage would be fatal, accumulate all remaining Evil points
+-Sleep for 0.1*EvilRemaining seconds
+-ForcedEvil/3 Damage on save (Will, Light Side)
+-DC 16
+
+Sever
+-Cutoff from force Jedi
+-Impossible to save (except bosses, Will, Light Side)
+-DC 18
+
+
+
+Fury
+-Attack/Damage +4 for 6 + Force seconds
+-DC 6
+
+Afflict
+-Slow and -4 Str/Dex for 18 + 2*Force
+-Half slow for 9 seconds on save (Fortitude/Will, Poison)
+-DC 8
+
+Fear
+-Fear for 6 + 0.25*Force
+-Attack -2 for 6 seconds on Save (Will, Fear)
+-DC 10
+
+Choke
+-Forced6 Damage (Dark Side)
+-Choke for 9 seconds
+-No effect and 1/2 damage on save (Fortitude/Will, Dark Side)
+-DC 12
+
+Drain
+-Forced6 Damage (Dark Side) and heal half
+-Damage/2 on save (Fortitude/Will, Dark Side)
+-DC 14
+
+Lightning
+-Forced12 Damage (Dark Side)
+-Stun for 3 seconds
+-No effect and 1/3 damage on save (Fortitude/Will, Dark Side)
+-DC 16
+
+Consume
+-Kill Jedi and +1 Force Point
+-3 second Fear on save save (Will, Dark Side)
+-DC 18
+
+
+
+

@@ -1,0 +1,401 @@
+Arkanian Energy Shield
+a_shield_03
+40 Damage Absorption
+Energy, Sonic, Cold, Heat, Electrical
+60 Seconds
+Advanced Energy Sheilds
+300 Credits
+
+Echani Dueling Shield
+a_shield_06
+80 Damage Absorption
+Energy, Electrical
+60 Seconds
+Advanced Energy Sheilds
+1200 Credits
+
+Echani Shield
+a_shield_04
+60 Damage Absorption
+Energy
+60 Seconds
+Advanced Energy Sheilds
+600 Credits
+
+Energy Shield
+a_shield_01
+30 Damage Absorption
+Energy
+60 Seconds
+Energy Sheilds
+200 Credits
+
+Ludo Kressh's Armband
+a_band_x03
++1 Defense
++1 Str
+Dark Side
+No Cost
+
+Mandalorian Melee Shield
+a_shield_02
+40 Damage Absorption
+Physical
+60 Seconds
+Energy Sheilds
+300 Credits
+
+Mandalorian Power Shield
+a_shield_05
+70 Damage Absorption
+Physical
+60 Seconds
+Advanced Energy Sheilds
+800 Credits
+
+Nomi's Armband
+a_band_x01
++1 Attack vs Dark Side
+No Cost
+
+Telos Mining Shield
+100_fore01
+20 Damage Absorption
+Heat
+60 Seconds
+100 Credits
+
+Vao Armband
+a_band_x02
+???
+No Cost
+
+Verpine Prototype Shield
+a_shield_07
+80 Damage Absorption
+Energy, Sonic, Cold, Heat, Electrical
+60 Seconds
+Advanced Energy Sheilds
+1400 Credits
+
+Your Character's Armband
+a_band_c01
++2 Awareness
+Exile
+No Cost
+
+Droid Defense Barrier
+d_shield_03
+30 Damage Absorption
+Energy, Sonic, Cold, Fire, Ion
+60 Seconds
+Droid Energy Sheilds
+800 Credits
+
+Droid Deflector Mark I
+d_shield_01
+30 Damage Absorption
+Energy, Electric, Ion
+60 Seconds
+Droid Energy Sheilds
+500 Credits
+
+Droid Deflector Mark II
+d_shield_02
+40 Damage Absorption
+Energy, Electric, Ion
+60 Seconds
+Droid Energy Shields
+1000 Credits
+
+Droid Deflector Mark III
+d_shield_05
+60 Damage Absorption
+Energy, Electric, Ion
+60 Seconds
+Advanced Droid Shields
+2400 Credits
+
+Droid Energy Collector
+d_shield_04
+40 Damage Absorption
+Energy, Sonic, Cold, Fire, Ion
+60 Seconds
+Advanced Droid Shields
+1200 Credits
+
+Droid Renewable Shield
+d_t3m4_03
+30 Damage Absorption
+Energy, Electric, Ion
+60 Seconds
+Advanced Droid Shields
+5000 Credits
+
+Droid Unity Grid
+d_shield_06
+60 Damage Absorption
+Energy, Sonic, Cold, Fire, Ion
+60 Seconds
+Advanced Droid Shields
+3000 Credits
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------
+New Shields
+---------------------------------------------------------
+
+
+
+Energy Shields:
+
+
+Peragus Mining Shield
+20 Damage Absorbtion
+Fire
+60 Seconds
+
+Energy Shield
+30 Damage Absorbtion
+Energy
+60 Seconds
+
+Environment Shield
+30 Damage Absorbtion
+Fire, Cold, Ion, Sonic
+60 Seconds
+
+
+
+
+Advanced Energy Shields:
+
+
+Sith Energy Shield
+Energy, Electric
+50 Damage Absorbtion
+60 Seconds
+
+Mandalorian Melee Shield
+Physical
+40 Damage Absorbtion
+60 Seconds
+
+Echani Personal Shield
+Energy, Ion, Fire
+60 Damage Absorbtion
+60 Seconds
+
+Zabrak Energy Shield
+Energy, Fire, Ion, Electric, Sonic, Cold
+60 Damage Absorbtion
+60 Seconds
+
+
+
+
+
+Droid Energy Shields:
+
+
+Droid Energy Shield
+Energy
+30 Damage Absorbtion
+60 Seconds
+
+Droid Environment Shield
+30 Damage Absorbtion
+Fire, Cold, Electric, Sonic
+60 Seconds
+
+
+
+
+
+Advanced Droid Energy Shields:
+
+
+******************************
+Droid Renewable Shield
+Energy
+30 Damage Absorbtion
+60 Seconds
+
+NOT SURE IF THIS IS SMART, ALSO HARD TO FIGURE OUT
+********************************
+
+Radiant Energy Shield
+Energy, Ion, Fire
+50 Damage Absorbtion
+60 Seconds
+
+Advanced Energy Sheild
+Energy, Electric
+60 Damage Absorbtion
+60 Seconds
+
+Universal Energy Shield
+Energy, Fire, Ion, Electric, Sonic, Cold
+60 Damage Absorbtion
+60 Seconds
+
+
+
+All Shields have 10 charges except Telos Mining Shield with 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------
+
+
+I was very satisfied with how the shields work previously but now we can do a few things to update them I think:
+
+We only need two feats for energy sheilds but we still need separate shields for humans and droids due to different equipment slots
+
+
+
+
+Energy Shields:
+
+
+Peragus Mining Shield
+20 Damage Absorbtion
+Fire
+60 Seconds
+3 Minute Recharge
+
+Energy Shield
+30 Damage Absorbtion
+Energy
+60 Seconds
+1 Minute Recharge
+
+Environment Shield
+30 Damage Absorbtion
+Fire, Cold, Ion, Sonic
+60 Seconds
+1 Minute Recharge
+
+
+
+Advanced Energy Sheilds:
+
+Sith Energy Shield
+Energy, Electric
+50 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Mandalorian Melee Shield
+Physical
+40 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Echani Personal Shield
+Energy, Ion, Fire
+60 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Zabrak Energy Shield
+Energy, Fire, Ion, Electric, Sonic, Cold
+60 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+
+
+
+Droid Energy Shields:
+
+Droid Energy Shield
+Energy
+30 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Droid Environment Shield
+30 Damage Absorbtion
+Fire, Cold, Electric, Sonic
+60 Seconds
+1 Minute Recharge
+
+
+
+Advanced Droid Energy Shields:
+
+
+Radiant Energy Shield
+Energy, Ion, Fire
+50 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Advanced Energy Sheild
+Energy, Electric
+60 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Universal Energy Shield
+Energy, Fire, Ion, Electric, Sonic, Cold
+60 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+
+
+
+There was a problem with the whole Zabrak/Universal shields being way better than any others so I increased their charge times
+I am not really satisfied with this solution however since it's very crippling, it might be better to just make them much more expensive or something
+What this does prove is that you can have a good 2-tier progression even if you don't have a wide variety of items, you just need to provide a niche for each tier
+
+
+
+
+
+
+
+
+
+
+

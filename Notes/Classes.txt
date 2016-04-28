@@ -1,0 +1,85 @@
+
+Class Attack 1  = Base 1, Gain on 2, 3, 5, 6, 8, 9, 11, 12, 14, 15, 17, 18, 20, 21, 23, 24, 26, 27, 29, 30
+Class Attack 2  = Base 0, Gain on 2, 3, 5, 8, 9, 11, 14, 15, 17, 20, 21, 23, 26, 27, 29
+Class Attack 3  = Base 0, Gain on 2, 5, 8, 11, 14, 17, 20, 23, 26, 29
+
+High Defense 	= Base 1, Gain on 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29
+Medium Defense 	= Base 0, Gain on 3, 5, 7, 11, 13, 15, 19, 21, 23, 27, 29
+Low Defense 	= Base 0, Gain on 3, 7, 11, 15, 19, 23, 27
+
+
+Class Attack 1 - Guardian, Soldier, Combat Droid
+Class Attack 2 - Sentinel, Scout, Apprentice
+Class Attack 3 - Consular, Scoundrel, Expert Droid, Tech Specialist
+
+High Defense 	- Guardian, Consular
+Medium Defense	- Sentinel, Soldier, Combat Droid, Scoundrel, Apprentice
+Low Defense		- Scout, Tech Specialist, Expert Droid
+
+
+Guardian	- 8 VP, High Attack, High Defense, 1 SP, Low Feats, 3 FP, Low Force
+Sentinel	- 6 VP, Medium Attack, Medium Defense, 2 SP, Medium Feats, 3 FP, Low Force
+Consular	- 6 VP, Low Attack, High Defense, 1 SP, Low Feats, 5 FP, High Force
+
+Soldier		- 8 VP, High Attack, Medium Defense, 1 SP, Medium Feats
+Scout		- 6 VP, Medium Attack, Low Defense, 2 SP, High Feats
+Scoundrel	- 6 VP, Low Attack, Medium Defense, 2 SP, High Feats
+Tech Spec	- 6 VP, Low Attack, Low Defense, 2 SP, High Feats
+
+Apprentice	- 6 VP, Medium Attack, Medium Defense, 1 SP, Low Feats, 3 FP, Low Force**
+Sol Appren*	- 8 VP, High Attack, Medium Defense, 1 SP, Low Feats, 3 FP, Low Force**
+
+Combat Drd	- 8 VP, High Attack, Medium Defense, 1 SP, Medium Feats
+Expert Drd	- 6 VP, Low Attack, Low Defense, 2 SP, High Feats
+
+*Still not sure if I'm making this a thing but maybe
+
+
+
+Intuitive Version:
+
+Highest Save 	= Base 2, Gain on  2, 5, 7, 9, 10, 12, 15, 17, 20, 22, 24, 25, 27, 30		// For enemies only
+High Save 		= Base 2, Gain on  2, 5, 7, 10, 12, 15, 17, 20, 22, 25, 27, 30
+Medium Save		= Base 1, Gain on  2, 5, 7, 10, 15, 17, 20, 22, 25, 30
+Low Save		= Base 0, Gain on  2, 5, 10, 15, 17, 20, 25, 30
+
+
+Smoothed Version:
+
+Highest Save	= Base 2, Gain on 2, 4, 6, 9, 11, 13, 15, 17, 19, 21, 24, 26, 28, 30		// For enemies only
+High Save 		= Base 2, Gain on 2, 6, 9, 11, 13, 15, 17, 21, 24, 26, 28, 30
+Medium Save		= Base 1, Gain on 2, 6, 9, 11, 15, 17, 21, 24, 26, 30
+Low Save		= Base 0, Gain on 2, 6, 11, 15, 17, 21, 26, 30
+
+
+The smoothed version isn't perfect, but I think I like it the best
+Low gain is 4/15, medium is 5/15, high is 6/15, highest is 7/15
+
+It's worth noting that with these low base saves, we want to make sure to include easy items for increasing saves
+Having free +2 Save belts/upgrades is a good way to do this I think
+
+
+Guardian	- High Fortitude, Medium Reflex, Low Will
+Sentinel	- High Fortitude, High Reflex, High Will
+Consular	- Low Fortitude, Medium Reflex, High Will
+
+Soldier 	- High Fortitude, Low Reflex, Low Will
+Scout	 	- Low Fortitude, High Reflex, Low Will
+Scoundrel 	- Low Fortitude, High Reflex, Low Will
+Tech Spec 	- Low Fortitude, Low Reflex, High Will
+
+Apprentice 	- Medium Fortitude, Medium Reflex, Medium Will
+
+Combat Drd	- High Fortitude, Low Reflex, Low Will
+Expert Drd	- Low Fortitude, Low Reflex, High Will
+
+
+
+
+
+
+
+
+
+
+

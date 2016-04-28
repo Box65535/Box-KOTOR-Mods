@@ -1,0 +1,508 @@
+-----------------------------------------------------
+Cells:
+-----------------------------------------------------
+
+Enhanced Energy Cell
+u_m_cell_03
++1 Energy
+
+Enhanced Energy Cell Mark II
+u_m_cell_07
++1d3 Energy
+
+Enhanced Energy Cell Mark III
+u_m_cell_11
++1d6 Energy
+
+Enhanced Energy Cell Mark IV
+u_m_cell_15
++2d6 Energy
+
+Ion Cell
+u_m_cell_01
++1d3 Ion vs Droid
++1 Massive Crit
+
+Ion Cell Mark II
+u_m_cell_05
++1d6 Bludgeoning vs Droid
++1d6 Massive Crit
+
+Ion Cell Mark III
+u_m_cell_09
++1d4 Ion
++2d6 Ion vs Droid
++2d6 Massive Crit
+
+Ion Cell Mark IV
+u_m_cell_13
++1d6 Ion
++2d10 Ion vs Droid
++2d8 Massive Crit
+
+Sonic Discharge Cell
+u_m_cell_04
++2 Sonic
+-1 Attack
++1d8 Massive Crit
+
+Sonic Discharge Cell Mark II
+u_m_cell_08
++4 Sonic
+-1 Attack
++2d6 Massive Crit
+
+Sonic Discharge Cell Mark III
+u_m_cell_12
++1d10 Sonic
+-1 Attack
++2d8 Massive Crit
+
+Vibration Cell
+u_m_cell_02
++1 Slashing
+Melee Focus
+
+Vibration Cell Mark II
+u_m_cell_06
++1d10 Slashing
+-2 Attack
+Melee Focus
+
+Vibration Cell Mark III
+u_m_cell_10
++2d6 Slashing
+-1 Attack
+Melee Focus
+
+Vibration Cell Mark IV
+u_m_cell_14
++2d8 Slashing
+-1 Attack
+Melee Focus
+
+-----------------------------------------------------
+Edges:
+-----------------------------------------------------
+
+Basic Ionite Edge
+u_m_edge_02
++1 Ion
++1d4 Ion vs Droid
+
+Basic Mullinine Edge
+u_m_edge_03
+Keen
+
+Basic Neutronium Edge
+u_m_edge_04
++1d3 Slashing
+
+Deadly Devaronian Edge
+u_m_edge_13
++3 Slashing
++2d10 Massive Crit
+
+Improved Ionite Edge
+u_m_edge_06
++1d4 Ion
++1d6 Ion vs Droid
+
+Improved Mullinine Edge
+u_m_edge_07
++1d4 Slashing
+Keen
+
+Improved Neutronium Edge
+u_m_edge_08
++3 Slashing
++1d4 Massive Crit
+
+Mild Devaronian Edge
+u_m_edge_01
++1d3 Massive Crit
+
+Moderate Devaronian Edge
+u_m_edge_05
++2 Slashing
++1d8 Massive Crit
+
+Ostrine Edge
+u_m_edge_15
++2d8 Cold
+Keen
+-5 vs Fire
+
+Quadranium Edge
+u_m_edge_14
++2d6 Slashing
+
+Severe Devaronian Edge
+u_m_edge_09
++2 Slashing
++2d6 Massive Crit
+
+Superior Ionite Edge
+u_m_edge_10
++1d8 Ion
++1d8 Ion vs Droid
+
+Superior Mullinine Edge
+u_m_edge_11
++1d8 Slashing
+Keen
+
+Superior Neutronium Edge
+u_m_edge_12
++5 Slashing
++1d6 Massive Crit
+
+-----------------------------------------------------
+Grips:
+-----------------------------------------------------
+
+Advanced Agrinium Grip
+u_m_grip_06
++1-4 Slashing
+
+Advanced Basket Hilt
+u_m_grip_09
+-1 Attack
++2 Defense
+
+Advanced Contoured Grip
+u_m_grip_07
+-1 Damage
++2 Attack
+
+Advanced Nagai Grip
+u_m_grip_10
++1 Attack
++1 Defense
+
+Advanced Zabrak Grip
+u_m_grip_08
++2 Slashing
++3 Attack
+-2 Defense
+
+Agrinium Grip
+u_m_grip_01
++1 Slashing
+
+Basket Hilt
+u_m_grip_04
+-1 Attack
++1 Defense
+
+Contoured Grip
+u_m_grip_02
+-1 Damage
++1 Attack
+
+Nagai Grip
+u_m_grip_05
++1 Attack
+
+Superior Agrinium Grip
+u_m_grip_11
++1d8 Slashing
+
+Superior Basket Hilt
+u_m_grip_14
++2 Defense
+
+Superior Contoured Grip
+u_m_grip_12
+-1 Damage
++3 Attack
+
+Superior Nagai Grip
+u_m_grip_15
++2 Attack
++1 Defense
+
+Superior Zabrak Grip
+u_m_grip_13
++1d8 Slashing
++3 Attack
+-1 Defense
+
+Zabrak Grip
+u_m_grip_03
++1 Slashing
++1 Attack
+-1 Defense
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------
+Cells:
+-----------------------------------------------------
+
+Enhanced Energy Cell
+u_m_cell_03
++1 Energy
+200 Credits
+
+Enhanced Energy Cell Mark II
+u_m_cell_07
++1d3 Energy
+625 Credits
+
+Enhanced Energy Cell Mark III
+u_m_cell_11
++1d6 Energy
+1650 Credits
+
+Enhanced Energy Cell Mark IV
+u_m_cell_15
++1d10 Energy
+3750 Credits
+
+Ion Cell
+u_m_cell_01
++1d3 Ion vs Droid
+200 Credits
+
+Ion Cell Mark II
+u_m_cell_05
++1 Ion
++1d4 Ion vs Droid
+600 Credits
+
+Ion Cell Mark III
+u_m_cell_09
++1d3 Ion
++1d6 Ion vs Droid
+1450 Credits
+
+Ion Cell Mark IV
+u_m_cell_13
++1d6 Ion
++1d8 Ion vs Droid
+2900 Credits
+
+Sonic Discharge Cell
+u_m_cell_04
++1 Sonic
+-1 Attack
++1d6 Massive Crit
+200 Credits
+
+Sonic Discharge Cell Mark II
+u_m_cell_08
++2 Sonic
+-1 Attack
++1d10 Massive Crit
+800 Credits
+
+Sonic Discharge Cell Mark III
+u_m_cell_12
++1d8 Sonic
+-1 Attack
++2d6 Massive Crit
+3000 Credits
+
+Vibration Cell
+u_m_cell_02
++1 Slashing
+200 Credits
+
+Vibration Cell Mark II
+u_m_cell_06
++1d6 Slashing
+-2 Attack
+650 Credits
+
+Vibration Cell Mark III
+u_m_cell_10
++1d8 Slashing
+-1 Attack
+1750 Credits
+
+Vibration Cell Mark IV
+u_m_cell_14
++1d12 Slashing
+-1 Attack
+4400 Credits
+
+
+-----------------------------------------------------
+Edges:
+-----------------------------------------------------
+
+
+Basic Ionite Edge
+u_m_edge_02
++1d4 Ion vs Droid
+200 Credits
+
+Improved Ionite Edge
+u_m_edge_06
++1 Ion
++1d6 Ion vs Droid
+700 Credits
+
+Superior Ionite Edge
+u_m_edge_10
++1d3 Ion
++1d8 Ion vs Droid
+2500 Credits
+
+Basic Mullinine Edge
+u_m_edge_03
++1 Slashing
+200 Credits
+
+Improved Mullinine Edge
+u_m_edge_07
++1 Slashing
+Keen
+800 Credits
+
+Superior Mullinine Edge
+u_m_edge_11
++1d4 Slashing
+Keen
+
+Basic Neutronium Edge
+u_m_edge_04
++1d3 Slashing
+
+Improved Neutronium Edge
+u_m_edge_08
++1d6 Slashing
+
+Superior Neutronium Edge
+u_m_edge_12
++1d8 Slashing
+
+Mild Devaronian Edge
+u_m_edge_01
++1d3 Massive Crit
+
+Moderate Devaronian Edge
+u_m_edge_05
++1d8 Massive Crit
+
+Severe Devaronian Edge
+u_m_edge_09
++2d6 Massive Crit
+
+Deadly Devaronian Edge
+u_m_edge_13
++2d10 Massive Crit
+
+Quadranium Edge
+u_m_edge_14
++1d10 Slashing
+
+Ostrine Edge
+u_m_edge_15
++1d6 Cold
+Keen
+-5 vs Fire
+
+-----------------------------------------------------
+Grips:
+-----------------------------------------------------
+
+Agrinium Grip
+u_m_grip_01
++1 Slashing
+-1 Attack
+
+Advanced Agrinium Grip
+u_m_grip_06
++2 Slashing
+-1 Attack
+
+Superior Agrinium Grip
+u_m_grip_11
++3 Slashing
+-1 Attack
+
+Basket Hilt
+u_m_grip_04
+-2 Attack
++1 Defense
+
+Advanced Basket Hilt
+u_m_grip_09
+-1 Attack
++1 Defense
+
+Superior Basket Hilt
+u_m_grip_14
+-1 Attack
++2 Defense
+
+Nagai Grip
+u_m_grip_05
++1 Attack
+
+Advanced Nagai Grip
+u_m_grip_10
++1 Defense
+
+Superior Nagai Grip
+u_m_grip_15
++1 Attack
++1 Defense
+
+Zabrak Grip
+u_m_grip_03
++1 Slashing
++1 Attack
+-1 Defense
+
+Advanced Zabrak Grip
+u_m_grip_08
++2 Slashing
++2 Attack
+-2 Defense
+
+Superior Zabrak Grip
+u_m_grip_13
++2 Slashing
++3 Attack
+-2 Defense
+
+Contoured Grip
+u_m_grip_02
+-2 Damage
++1 Attack
+
+Advanced Contoured Grip
+u_m_grip_07
+-1 Damage
++1 Attack
+
+Superior Contoured Grip
+u_m_grip_12
+-1 Damage
++2 Attack
+
+
+
+
+
+
+
+

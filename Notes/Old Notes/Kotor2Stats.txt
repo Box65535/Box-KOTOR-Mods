@@ -1,0 +1,160 @@
+
+
+Base Attack Bonuses:
+
+
+High:
+
+Level 1:	+2
+Level 6:	+4
+Level 12:	+8
+Level 18:	+11
+Level 24:	+15
+Level 30:	+18
+
+Medium:
+
+Level 1:	+1
+Level 6:	+3
+Level 12:	+6
+Level 18:	+9
+Level 24:	+12
+Level 30:	+15
+
+
+Low:
+
+Level 1:	+0
+Level 6:	+2
+Level 12:	+5
+Level 18:	+7
+Level 24:	+10
+Level 30:	+12
+
+
+
+
+
+
+
+
+Armor Class Bonuses:
+
+
+
+Highest:
+
+Level 1:	+2
+Level 6:	+3
+Level 12:	+4
+Level 18:	+6
+Level 24:	+7
+Level 30:	+9
+
+
+High:
+
+Level 1:	+2
+Level 6:	+3
+Level 12:	+4
+Level 18:	+5
+Level 24:	+7
+Level 30:	+8
+
+
+Medium:
+
+Level 1:	+1
+Level 6:	+2
+Level 12:	+3
+Level 18:	+4
+Level 24:	+5
+Level 30:	+6
+
+
+Low:
+
+Level 1:	+0
+Level 6:	+1
+Level 12:	+2
+Level 18:	+3
+Level 24:	+4
+Level 30:	+5
+
+Lowest:
+
+Level 1:	+0
+Level 6:	+0
+Level 12:	+1
+Level 18:	+2
+Level 24:	+3
+Level 30:	+4
+
+
+
+
+
+
+
+
+
+Saving Throw Bonuses:
+
+
+
+Highest:
+
+Level 1:	+2
+Level 6:	+4
+Level 12:	+6
+Level 18:	+9
+Level 24:	+11
+Level 30:	+13
+
+
+High:
+
+Level 1:	+2
+Level 6:	+3
+Level 12:	+5
+Level 18:	+7
+Level 24:	+9
+Level 30:	+11
+
+
+Medium:
+
+Level 1:	+1
+Level 6:	+2
+Level 12:	+4
+Level 18:	+6
+Level 24:	+8
+Level 30:	+10
+
+
+Low:
+
+Level 1:	+0
+Level 6:	+1
+Level 12:	+3
+Level 18:	+4
+Level 24:	+6
+Level 30:	+8
+
+Lowest:
+
+Level 1:	+0
+Level 6:	+1
+Level 12:	+2
+Level 18:	+4
+Level 24:	+5
+Level 30:	+7
+
+
+
+
+
+
+
+
+

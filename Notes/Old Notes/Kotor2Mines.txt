@@ -1,0 +1,592 @@
+Minor Flash Mine
+g_i_trapkit001
+Stun for 9 seconds DC 15
+3.3m Radius
+
+Minor Frag Mine
+g_i_trapkit004
+18 Piercing Damage
+DC 15 for half damage
+3.3m Radius
+
+Minor Gas Mine
+g_i_trapkit010
+Mild Poison
+3.3m Radius
+
+Minor Plasma Mine
+g_i_trapkit007
+24 Energy Damage
+DC 15 for half damage
+3.3m Radius
+
+Minor Sonic Mine
+g_i_trapkit013
+18 Sonic Damage
+-2 Dex for 30 seconds
+DC 15 for half damage and no attribute damage
+
+Average Flash Mine
+g_i_trapkit002
+Stun for 9 seconds DC 20
+3.3m Radius
+
+Average Frag Mine
+g_i_trapkit005
+30 Piercing Damage
+DC 20 for half damage
+3.3m Radius
+
+Average Gas Mine
+g_i_trapkit011
+Average Poison
+3.3m Radius
+
+Average Plasma Mine
+g_i_trapkit008
+42 Energy Damage
+DC 20 for half damage
+3.3m Radius
+
+Average Sonic Mine
+g_i_trapkit014
+30 Sonic Damage
+-2 Dex for 30 seconds
+DC 20 for half damage and no attribute damage
+
+Strong Flash Mine
+g_i_trapkit016
+Stun for 9 seconds DC 25
+3.3m Radius
+
+Strong Frag Mine
+g_i_trapkit018
+42 Piercing Damage
+DC 25 for half damage
+3.3m Radius
+
+Strong Gas Mine
+g_i_trapkit022
+Average Ability and Damage Poison
+3.3m Radius
+
+Strong Plasma Mine
+g_i_trapkit020
+60 Energy Damage
+DC 25 for half damage
+3.3m Radius
+
+Strong Sonic Mine
+g_i_trapkit024
+42 Sonic Damage
+-4 Dex for 30 seconds
+DC 25 for half damage and no attribute damage
+
+Blinding Flash Mine
+g_i_trapkit003
+Stun for 9 seconds DC 30
+3.3m Radius
+
+Deadly Frag Mine
+g_i_trapkit006
+54 Piercing Damage
+DC 30 for half damage
+3.3m Radius
+
+Deadly Gas Mine
+g_i_trapkit012
+Virulent Poison
+3.3m Radius
+
+Deadly Plasma Mine
+g_i_trapkit009
+78 Energy Damage
+DC 30 for half damage
+3.3m Radius
+
+Deadly Sonic Mine
+g_i_trapkit015
+54 Sonic Damage
+-4 Dex for 30 seconds
+DC 30 for half damage and no attribute damage
+
+Devastating Flash Mine
+g_i_trapkit017
+Stun for 9 seconds DC 35
+3.3m Radius
+
+Devastating Frag Mine
+g_i_trapkit019
+66 Piercing Damage
+DC 35 for half damage
+3.3m Radius
+
+Devastating Gas Mine
+g_i_trapkit023
+Vilulent Ability and Damage Poison
+3.3m Radius
+
+Devastating Plasma Mine
+g_i_trapkit021
+96 Energy Damage
+DC 35 for half damage
+3.3m Radius
+
+Devastating Sonic Mine
+g_i_trapkit025
+66 Sonic Damage
+-6 Dex for 30 seconds
+DC 35 for half damage and no attribute damage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Minor Flash Mine
+g_i_trapkit001
+Stun for 9 seconds
+3.3m Radius
+
+Minor Frag Mine
+g_i_trapkit004
+18 Piercing Damage
+3.3m Radius
+
+Minor Gas Mine
+g_i_trapkit010
+Mild Poison
+3.3m Radius
+
+Minor Plasma Mine
+g_i_trapkit007
+24 Energy Damage
+3.3m Radius
+
+Minor Sonic Mine
+g_i_trapkit013
+18 Sonic Damage
+-2 Dex for 30 seconds
+
+Average Flash Mine
+g_i_trapkit002
+Stun for 9 seconds
+3.3m Radius
+
+Average Frag Mine
+g_i_trapkit005
+30 Piercing Damage
+3.3m Radius
+
+Average Gas Mine
+g_i_trapkit011
+Average Poison
+3.3m Radius
+
+Average Plasma Mine
+g_i_trapkit008
+42 Energy Damage
+3.3m Radius
+
+Average Sonic Mine
+g_i_trapkit014
+30 Sonic Damage
+-2 Dex for 30 seconds
+
+Strong Flash Mine
+g_i_trapkit016
+Stun for 9 seconds
+3.3m Radius
+
+Strong Frag Mine
+g_i_trapkit018
+42 Piercing Damage
+3.3m Radius
+
+Strong Gas Mine
+g_i_trapkit022
+Average Ability and Damage Poison
+3.3m Radius
+
+Strong Plasma Mine
+g_i_trapkit020
+60 Energy Damage
+3.3m Radius
+
+Strong Sonic Mine
+g_i_trapkit024
+42 Sonic Damage
+-4 Dex for 30 seconds
+
+Blinding Flash Mine
+g_i_trapkit003
+Stun for 9 seconds
+3.3m Radius
+
+Deadly Frag Mine
+g_i_trapkit006
+54 Piercing Damage
+3.3m Radius
+
+Deadly Gas Mine
+g_i_trapkit012
+Virulent Poison
+3.3m Radius
+
+Deadly Plasma Mine
+g_i_trapkit009
+78 Energy Damage
+3.3m Radius
+
+Deadly Sonic Mine
+g_i_trapkit015
+54 Sonic Damage
+-4 Dex for 30 seconds
+
+Devastating Flash Mine
+g_i_trapkit017
+Stun for 9 seconds
+3.3m Radius
+
+Devastating Frag Mine
+g_i_trapkit019
+66 Piercing Damage
+3.3m Radius
+
+Devastating Gas Mine
+g_i_trapkit023
+Vilulent Ability and Damage Poison
+3.3m Radius
+
+Devastating Plasma Mine
+g_i_trapkit021
+96 Energy Damage
+3.3m Radius
+
+Devastating Sonic Mine
+g_i_trapkit025
+66 Sonic Damage
+-6 Dex for 30 seconds
+
+
+
+
+
+
+Summary:
+
+Frags:
+20 Piercing
+30 Piercing
+40 Piercing
+50 Piercing
+60 Piercing
+
+Flashes:
+Stun 8 seconds
+Stun 9 seconds
+Stun 10 seconds
+Stun 11 seconds
+Stun 12 seconds
+
+Sonics:
+18 Sonic, -2 Dex for 30 seconds
+26 Sonic, -3 Dex for 30 seconds
+34 Sonic, -4 Dex for 30 seconds
+42 Sonic, -5 Dex for 30 seconds
+50 Sonic, -6 Dex for 30 seconds
+
+Poison:
+30 Poison Damage over 30 seconds, DC 14
+45 Poison Damage over 30 seconds, DC 18
+60 Poison Damage over 30 seconds, DC 22
+75 Poison Damage over 30 seconds, DC 26
+90 Poison Damage over 30 seconds, DC 30
+
+Plasma:
+30 Energy Damage, 2/3 radius
+45 Energy Damage, 2/3 radius
+60 Energy Damage, 2/3 radius
+75 Energy Damage, 2/3 radius
+90 Energy Damage, 2/3 radius
+
+DC:
+15
+18
+20
+22
+25
+
+Radius:
+3.2
+3.4
+3.6
+3.8
+4.0
+
+Price:
+200 Credits
+400 Credits
+600 Credits
+800 Credits
+1000 Credits
+
+For each rank in Demolitions:
++0.5 Damage
++0.05 Radius, 0.1 Radius for Poison
++1/5 DC
+
+Deadly Mines:
+Rank 1	- +50% Damage
+Rank 2	- +50% Radius
+Rank 3	- +50% Damage
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------
+New Mines
+----------------------------------------------------------
+
+Frags:
+20 Piercing
+30 Piercing
+40 Piercing
+50 Piercing
+60 Piercing
+
+Flashes:
+Stun 8 seconds
+Stun 9 seconds
+Stun 10 seconds
+Stun 11 seconds
+Stun 12 seconds
+
+Sonic:
+16 Sonic, -2 Int/Wis/Chr for 30 seconds
+22 Sonic, -3 Int/Wis/Chr for 30 seconds
+28 Sonic, -4 Int/Wis/Chr for 30 seconds
+34 Sonic, -5 Int/Wis/Chr for 30 seconds
+40 Sonic, -6 Int/Wis/Chr for 30 seconds
+
+Poison:
+30 Poison Damage over 30 seconds (3/3 for 30)
+40 Poison Damage over 30 seconds (4/3 for 30)
+50 Poison Damage over 30 seconds (5/3 for 30)
+60 Poison Damage over 30 seconds (6/3 for 30)
+70 Poison Damage over 30 seconds (7/3 for 30)
+
+Plasma:
+24 Fire Damage, -0.25 radius
+36 Fire Damage, -0.25 radius
+48 Fire Damage, -0.25 radius
+60 Fire Damage, -0.25 radius
+72 Fire Damage, -0.25 radius
+
+Radius:
+3.2
+3.4
+3.6
+3.8
+4.0
+
+Damage DC: 
+15
+18
+20
+22
+25
+
+Mines 1: +30% Damage
+Mines 2: +60% Damage
+Mines 3: +100% Damage
+
++1 DC for every 4 ranks in Demolitions
+
+
+
+Notice DC (Minus 20):
+-8	-> 12
+-2	-> 18
+5	-> 25
+12	-> 32
+20	-> 40
+
+Set DC (Minus 20):
+-8	-> 12
+-2	-> 18
+5	-> 25
+12	-> 32
+20	-> 40
+
+
+Disarm DC (Minus 20):
+Recover is automatically +5 this:
+0	-> 20
+5	-> 25
+12	-> 32
+18	-> 38
+25	-> 45
+
+
+
+--------------------------------------------------------------------------------------
+
+Okay now we're rethinking mines
+
+
+Frags:
+20 Piercing
+30 Piercing
+40 Piercing
+50 Piercing
+60 Piercing
+
+Flashes:
+Stun 8 seconds
+Stun 9 seconds
+Stun 10 seconds
+Stun 11 seconds
+Stun 12 seconds
+
+Sonic:
+16 Sonic, -2 Int/Wis/Chr for 30 seconds
+22 Sonic, -3 Int/Wis/Chr for 30 seconds
+28 Sonic, -4 Int/Wis/Chr for 30 seconds
+34 Sonic, -5 Int/Wis/Chr for 30 seconds
+40 Sonic, -6 Int/Wis/Chr for 30 seconds
+
+Poison:
+30 Poison Damage over 30 seconds (3/3 for 30)
+40 Poison Damage over 30 seconds (4/3 for 30)
+50 Poison Damage over 30 seconds (5/3 for 30)
+60 Poison Damage over 30 seconds (6/3 for 30)
+70 Poison Damage over 30 seconds (7/3 for 30)
+
+Plasma:
+24 Fire Damage, -0.25 radius
+36 Fire Damage, -0.25 radius
+48 Fire Damage, -0.25 radius
+60 Fire Damage, -0.25 radius
+72 Fire Damage, -0.25 radius
+
+Radius = 3.25
+
+Damage DCs:
+16
+18
+20
+22
+24
+
+On save half damage, reduce effect to 9 seconds
+On ST > DC, no effects
+
+All mines use Reflex, Poison uses Fort, Sonic uses Will
+
+On Recovery:
+5 Chemicals
+10 Chemicals
+20 Chemicals
+40 Chemicals
+60 Chemicals
+
+Notice DC (Minus 20):
+-8	-> 12
+-2	-> 18
+5	-> 25
+12	-> 32
+20	-> 40
+
+Set DC (Minus 20):
+-8	-> 12
+-2	-> 18
+5	-> 25
+12	-> 32
+20	-> 40
+
+Disarm DC (Minus 20):
+Recover is automatically +5 this:
+0	-> 20
+5	-> 25
+12	-> 32
+18	-> 38
+25	-> 45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

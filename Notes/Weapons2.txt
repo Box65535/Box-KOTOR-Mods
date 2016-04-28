@@ -1,0 +1,50 @@
+We're trying the weapons thing again, this is difficult
+
+
+Level 1 Weapons:
+-Flamethrower
+-Stun Ray
+-Shock Arm
+-Ion Blast
+
+Level 2 Weapons:
+-Molten Cannon
+-Carbonite Projector
+-Sonic Repulsor
+-Energy Blaster
+-Droid Hacker
+
+
+Level 1 Mechanical Weapons:
+-Grenade Launcher
+-Flashbang Launcher
+-Chaff Grenade Launcher
+-Poison Dark Gun
+-Grappling Hook
+
+Level 2 Mechanical Weapons:
+-Rocket Launcher
+-Anti-Tank Gun
+-Gas Bomb Launcher
+-Sonic Charge Launcher
+
+
+
+
+Blaster/Ranged Weapon Categories
+
+
+-Assassin Pistol
+-Sonic Pistol
+-Heavy Pistol
+-Electric Pistol
+-Blaster Carbine
+-Blaster Rifle
+-Sniper Rifle
+-Ion Rifle
+-Disruptor Rifle
+-Slugthrower Rifle
+-Sonic Disruptor Rifle
+
+...........Nah
+

@@ -1,0 +1,41 @@
+These are things found throughout my playthrough that need to be fixed:
+
++ means fixed
+- means not fixed
+
+-Workbenches don't reduce Computer Use bonuses
+-Medstation on the Harbinger doesn't give the prompt and subsequently doesn't
+work correctly
+-Many, many free feats aren't granted, especially for the Exile
+-Dark Padawan Robe has 1 Defense
+-Echani Heavy Armor seems wrong
+-Merchants still get random items
++Gloves don't cost the right amount
++Some Belts don't cost the right amount
+-Some merchants don't seem to have all the items I thought would be there
+-Some of the tougher enemies have really high saving throws
+?Characters seem to be leveling a bit slow at the beginning, this affects some skill
+checks, esepecially against persuade, consider giving a bonus to that skill somewhere
++Maybe Bao-Dur should be able to get Class Skill: Demolitions since there's no one else
+to disarm all the mines on Telos surface except a Jedi Guardian Exile
++Maybe some character's starting skills shouldn't be so low
+-Getting skill feats doesn't give bonuses to those skills' base values, maybe consider
+finding a way to give bonuses of +2 instead?
++I think I'm going go switch a few things around with the Tech Spec class, mainly with
+feats, giving more feat choices rather than free feats
++The fix for breaking down items depending on the character seems wrong since we only have
+a SkillEffectDecrease instead of an if statement for when it needs to be increased
+?Enemy remains still give items instead of credits/components/chemicals
+?Lt. Green gives Alblative Plating Mark II for completing a minor quest, this is way too
+much of a reward (look at the script a_give_q_reward, this may fix some things)
+-Implant costs seem to be wrong
++The game is too hard in general, enemies deal too much damage
+?Force powers are pretty weak so far
++Heal power is too strong for how early we are and how low VP is
++Concentration and Affect feats are mixed up
++The mod really really becomes too hard too quickly at least so far, we need to fully
+reconsider the class stats and maybe not nerfing them so much instead of just relying
+on autobalance.2da
+*Some of the heavy characters don't have the right model and look rediculous, you can surely
+present this to the modding community and they won't think you're crazy if you say that it
+isn't supposed to look like that

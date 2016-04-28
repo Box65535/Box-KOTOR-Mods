@@ -1,0 +1,789 @@
+
+--------------------------------------------------------------
+Cells:
+--------------------------------------------------------------
+
+
+Discharge Energy Cell
+u_l_cell_01
++1d3 Massive Crit
+
+Diatium Energy Cell
+u_l_cell_02
++1 Energy
+
+Ion Energy Cell
+u_l_cell_03
++1d4 Ion vs Droid
++1d4 Massive Crit
+
+Telgorn Jolt Cell Mark I
+u_l_cell_04
++1d3 Electric
+
+Improved Discharge Energy Cell
+u_l_cell_05
++1d6 Massive Crit
+
+Improved Diatium Energy Cell
+u_l_cell_06
++2 Energy
+
+Improved Ion Energy Cell
+u_l_cell_07
++1 Ion
++1d8 Ion vs Droid
++1d3 Massive Crit
+
+Telgorn Jolt Cell Mark II
+u_l_cell_08
++1d4 Electric
+
+Superior Discharge Energy Cell
+u_l_cell_09
++1d8 Massive Crit
+
+Superior Diatium Energy Cell
+u_l_cell_10
++4 Energy
+
+Superior Ion Energy Cell
+u_l_cell_11
++2 Ion
++1d12 Ion vs Droid
++1d6 Massive Crit
+
+Telgorn Jolt Cell Mark III
+u_l_cell_12
++1d8 Electric
+
+Ultimate Diatium Energy Cell
+u_l_cell_13
++5 Energy
+
+
+--------------------------------------------------------------
+Emitters:
+--------------------------------------------------------------
+
+
+Deflection Emitter
+u_l_emit_01
++1 Deflect
+
+Disrupting Emitter
+u_l_emit_02
+25% Slow DC 10
+-1 Defense
+
+Crude Phobium Emitter
+u_l_emit_03
+25% Slow DC 14
+-3 Deflect
+
+Fencing Emitter
+u_l_emit_04
+-2 Deflect
++1 Energy
++1 Defense
+
+Improved Deflection Emitter
+u_l_emit_05
++1 Defense
++2 Deflect
+
+Advanced Disrupting Emitter
+u_l_emit_06
+-1 Defense
+25% Stun DC 10
+
+Synthesized Phobium Emitter
+u_l_emit_07
+25% Stun DC 14
+-3 Deflect
+
+Improved Fencing Emitter
+u_l_emit_08
++2 Energy
++2 Defense
+-2 Deflect
+
+Expert Deflection Emitter
+u_l_emit_09
++1 Defense
++4 Deflect
+
+Superior Disrupting Emitter
+u_l_emit_10
+25% Stun DC 14
+-1 Defense
+
+Phobium Alloy Emitter
+u_l_emit_11
+25% Stun DC 18
+-3 Deflect
+
+Expert Fencing Emitter
+u_l_emit_12
++3 Energy
++2 Defense
+
+Refined Phobium Emitter
+u_l_emit_13
+50% Slow DC 18
+-1 Defense
+
+
+--------------------------------------------------------------
+Lenses:
+--------------------------------------------------------------
+
+
+Synthesized Kunda Lens
+u_l_lens_01
++1 Deflect
+
+Dragite Lens
+u_l_lens_02
++2 Energy
+
+Synthesized Byrothsis Lens
+u_l_lens_03
++1 Attack
++1 Energy
+-2 Deflect
+
+Beam Gem Lens
+u_l_lens_04
++1 Energy
+Keen
+
+Vibration Lens
+u_l_lens_05
++1d8 Energy
+-1 Attack
+-1 Defense
+
+Pure Kunda Lens
+u_l_lens_06
++1 Attack
++2 Deflect
+
+Adegan Lens
+u_l_lens_07
++1d12 Energy
+
+Pure Byrothsis Lens
+u_l_lens_08
++2 Damage
++2 Attack
+-3 Deflect
+
+Improved Beam Gem Lens
+u_l_lens_09
++2 Energy
++1 Attack
+Keen
+
+Improved Vibration Lens
+u_l_lens_10
++2d6 Energy
+-1 Attack
+-1 Defense
+
+Ossus Dueling Lens
+u_l_lens_11
++2 Attack
++3 Deflect
+
+Pontite Lens
+u_l_lens_12
++2d6 Energy
++1 Attack
+
+Enhanced Byrothsis Lens
+u_l_lens_13
++4 Energy
++3 Attack
+-4 Deflect
+
+
+
+--------------------------------------------------------------
+Crystals:
+--------------------------------------------------------------
+
+
+Crystal, Adegan
+u_l_crys_01
++2 Damage
+
+Crystal, Rubat
+u_l_crys_02
++1 Damage
++1 Attack
+
+Crystal, Ruusan
+u_l_crys_03
++1 Chr
++1 Wis
+
+Crystal, Nextor
+u_l_crys_04
+Crit Threat Range x2
++1 Attack
+
+Crystal, Dragite
+u_l_crys_05
++1 Sonic
++1 Con
+
+Crystal, Firkrann
+u_l_crys_06
++2d6 vs Droid
++2 Attack
+
+Crystal, Phond
+u_l_crys_07
++1d6 Phys
+
+Crystal, Bondar
+u_l_crys_08
+25% Stun DC 10
+
+Crystal, Velmorite
+u_l_crys_09
+Keen
++1 Dex
+
+Crystal, Sigil
+u_l_crys_10
++1d6 Energy
++1 Attack
+
+Crystal, Jenruax
+u_l_crys_11
++2 Damage
++5 Deflect
+
+Crystal, Kasha
+u_l_crys_12
++1 Attack
++2 Wis
+
+Crystal, Opila
+u_l_crys_13
++3 Damage
++2d6 Massive Crit
+
+Crystal, Eralam
+u_l_crys_14
++2 Damage
++2 Attack
+
+Crystal, Stygium
+u_l_crys_15
++1 Attack
++1 Dex
++4 Stealth
+
+Crystal, Damind
+u_l_crys_16
++3 Attack
+
+Crystal, Sapith
+u_l_crys_17
++3 Damage
++2 Attack
+
+Crystal, Pontite
+u_l_crys_18
++1d10 Cold
++2 Chr
+
+Crystal, Upari
+u_l_crys_19
++1d8 Damage
++3 Attack
+
+Ultima-pearl
+u_l_crys_20
++2 Damage
++3 Attack
++1d6 Massive Crit
+
+Crystal, Solari
+u_l_crys_21
++3 Damage
++1d8 Phys vs Dark Side
++3 Attack
+Light Side
+
+Crystal, Qixoni
+u_l_crys_21x
++5 Damage
++1 Regen Force
+Dark Side
+
+Lorrdian Gemstone
+u_l_crys_22
++2 Defense
++3 Deflect
+
+Barab Ore Ingot
+u_l_crys_23
++2d8 Fire
+
+Crystal, Hurrikaine
+u_l_crys_x23
++1d8 Unstoppable
+
+Ankarres Sapphire
+u_l_crys_24
+Keen
++1 Dex
++2 Str
++2 Regen
+
+Crystal, Kaiburr
+u_l_crys_25
++3 Con
++3 Wis
++3 Regen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------
+Cells:
+--------------------------------------------------------------
+
+
+Discharge Energy Cell
+u_l_cell_01
++1d3 Massive Crit
+
+Diatium Energy Cell
+u_l_cell_02
++1 Energy
+
+Ion Energy Cell
+u_l_cell_03
++1 Ion
++1 Ion vs Droid
+
+Telgorn Jolt Cell Mark I
+u_l_cell_04
++1d3 Electric
+
+Improved Discharge Energy Cell
+u_l_cell_05
++1d6 Massive Crit
+
+Improved Diatium Energy Cell
+u_l_cell_06
++1d3 Energy
+
+Improved Ion Energy Cell
+u_l_cell_07
++1d3 Ion
++1d3 Ion vs Droid
+
+Telgorn Jolt Cell Mark II
+u_l_cell_08
++1d4 Electric
+
+Superior Discharge Energy Cell
+u_l_cell_09
++1d8 Massive Crit
+
+Superior Diatium Energy Cell
+u_l_cell_10
++1d4 Energy
+
+Superior Ion Energy Cell
+u_l_cell_11
++1d4 Ion
++1d4 Ion vs Droid
+
+Telgorn Jolt Cell Mark III
+u_l_cell_12
++1d6 Electric
+
+Ultimate Diatium Energy Cell
+u_l_cell_13
++1d6 Energy
+
+
+
+--------------------------------------------------------------
+Emitters:
+--------------------------------------------------------------
+
+
+Deflection Emitter
+u_l_emit_01
++1 Deflect
+-1 Attack
+
+Disrupting Emitter
+u_l_emit_02
+50% Slow DC 14
+-1 Defense
+
+Crude Phobium Emitter
+u_l_emit_03
++2 Energy
+-2 Attack
+-2 Defense
+
+Fencing Emitter
+u_l_emit_04
++1 Attack
+-2 Deflect
+
+Improved Deflection Emitter
+u_l_emit_05
++2 Deflect
+-1 Attack
+
+Advanced Disrupting Emitter
+u_l_emit_06
+25% Stun DC 18
+-2 Defense
+
+Synthesized Phobium Emitter
+u_l_emit_07
++4 Energy
+-2 Attack
+-2 Defense
+
+Improved Fencing Emitter
+u_l_emit_08
++1 Attack
++1 Defense
+-3 Deflect
+-1 Damage
+
+Expert Deflection Emitter
+u_l_emit_09
++3 Deflect
+-1 Attack
+
+Superior Disrupting Emitter
+u_l_emit_10
+50% Slow DC 22
+25% Stun DC 18
+-1 Attack
+-2 Defense
+
+Phobium Alloy Emitter
+u_l_emit_11
++3 Energy
+-1 Attack
+-1 Defense
+
+Expert Fencing Emitter
+u_l_emit_12
++1 Attack
++1 Defense
+-2 Deflect
+
+Refined Phobium Emitter
+u_l_emit_13
++4 Energy
+-1 Attack
+-1 Defense
+
+
+
+--------------------------------------------------------------
+Lenses:
+--------------------------------------------------------------
+
+
+Synthesized Kunda Lens
+u_l_lens_01
++1 Deflect
+-2 Damage
+
+Dragite Lens
+u_l_lens_02
++1 Sonic
+-1 Attack
+
+Synthesized Byrothsis Lens
+u_l_lens_03
++1 Attack
++1 Energy
+-1 Defense
+
+Beam Gem Lens
+u_l_lens_04
+Keen
+-3 Deflect
+
+Vibration Lens
+u_l_lens_05
++2 Energy
+-1 Attack
+
+Pure Kunda Lens
+u_l_lens_06
++2 Deflect
+-2 Damage
+
+Adegan Lens
+u_l_lens_07
++1 Energy
+
+Pure Byrothsis Lens
+u_l_lens_08
++2 Attack
++2 Energy
+-2 Defense
+
+Improved Beam Gem Lens
+u_l_lens_09
+Keen
++1 Energy
+-1 Deflect
+
+Improved Vibration Lens
+u_l_lens_10
++4 Energy
+-2 Attack
+
+Ossus Dueling Lens
+u_l_lens_11
++1 Attack
++1 Deflect
+
+Pontite Lens
+u_l_lens_12
++3 Cold
+
+Enhanced Byrothsis Lens
+u_l_lens_13
++3 Energy
++3 Attack
+-2 Defense
+
+
+--------------------------------------------------------------
+Crystals:
+--------------------------------------------------------------
+
+
+Crystal, Adegan
+u_l_crys_01
++1 Energy
+
+Crystal, Rubat
+u_l_crys_02
++1 Attack
+
+Crystal, Ruusan
+u_l_crys_03
++2 Will
+
+Crystal, Nextor
+u_l_crys_04
++1d4 Massive Crit
+
+Crystal, Dragite
+u_l_crys_05
++1d3 Sonic
+
+Crystal, Firkrann
+u_l_crys_06
++1d8 Electric vs Droid
+
+Crystal, Phond
+u_l_crys_07
++1d3 Slashing
+
+Crystal, Bondar
+u_l_crys_08
+25% Stun DC 14 (3 Rounds)
+
+Crystal, Velmorite
+u_l_crys_09
++1 Defense
+
+Crystal, Sigil
+u_l_crys_10
++1d4 Energy
+
+Crystal, Jenruax
+u_l_crys_11
++2 Deflect
+
+Crystal, Kasha
+u_l_crys_12
++1 Wis
+
+Crystal, Opila
+u_l_crys_13
++1d8 Massive Crit
+
+Crystal, Eralam
+u_l_crys_14
++1 Attack
++1 Energy
+
+Crystal, Stygium
+u_l_crys_15
++2 Stealth
+
+Crystal, Damind
+u_l_crys_16
++2 Attack
+
+Crystal, Sapith
+u_l_crys_17
++1 Attack
++1 Energy
++1 Deflect
+
+Crystal, Pontite
+u_l_crys_18
++1d6 Cold
+
+Crystal, Upari
+u_l_crys_19
+Keen
++1 Energy
+
+Ultima-pearl
+u_l_crys_20
++1 Attack
++1 Fire
++1 Cold
+
+Crystal, Solari
+u_l_crys_21
++1 Attack
++1d3 Slashing
++1d8 Light Side vs Dark Side
+Light Side
+
+Crystal, Qixoni
+u_l_crys_21x
++1 Attack
++1d8 Dark Side
+Dark Side
+
+Lorrdian Gemstone
+u_l_crys_22
++1 Defense
++2 Deflect
+
+Barab Ore Ingot
+u_l_crys_23
++1d8 Fire
+
+Crystal, Hurrikaine
+u_l_crys_x23
++1d6 Unstoppable
+
+Ankarres Sapphire
+u_l_crys_24
+Immune Attribute
+
+Crystal, Kaiburr
+u_l_crys_25
++1 Attack
++1 Wis
++1 Con
+
+
+
+--------------------------------------------------------------
+Power Crystals:
+--------------------------------------------------------------
+
+There are 9 levels for each crystal.
+There are 5 alignment variations for each crystal.
+
+All crystals get bonus damage for every level
+
+Level 1:	+1d3
+Level 2:	+1d3
+Level 3:	+1d4
+Level 4:	+1d4
+Level 5:	+1d6
+Level 6:	+1d6
+Level 7:	+1d8
+Level 8:	+1d8
+Level 9:	+1d10
+
+Neutral or Semi Light/Dark: Energy Damage
+Light Side: LS Damage
+Dark Side: DS Damage
+
+Then there's an attribute bonus per level
+
+Level 1:	+0
+Level 2:	+0
+Level 3:	+0
+Level 4:	+1
+Level 5:	+1
+Level 6:	+2
+Level 7:	+2
+Level 8:	+3
+Level 9:	+3
+
+
+The Attributes gained depend on alignment as well
+
+Pure Light:		Dex
+Semi Light:		Wis
+Pure Neutral:		Wis and Chr
+Semi Dark:		Chr
+Pure Dark:		Str
+
+No Cost for this crystal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

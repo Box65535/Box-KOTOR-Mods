@@ -1,0 +1,78 @@
+
+Because I've never been satisfied with this
+
+
+Spell Items (Peragus):
+
+
+Excavator Blowtorch 
+-12 Fire
+-4 Damage on Save (Will, Fire)
+-DC 10
+
+Excavator Sonic Charge
+-8 Sonic
+-Int/Wis/Chr -4
+-4 Damage on Save (Reflex or Will, Sonic)
+-DC 10
+
+Excavator Mining Shield
+-10 Fire Absorbtion
+
+Excavator Blowtorch Mark II
+-24 Fire
+-8 Damage on Save (Will, Fire)
+-DC 12
+
+Excavator Sonic Charge Mark II
+-16 Sonic
+-Int/Wis/Chr -4
+-8 Damage on Save (Reflex or Will, Sonic)
+-DC 12
+
+Excavator Mining Shield Mark II
+-20 Fire Absorbtion
+
+Excavator Fire Suppression System
+-16 Cold
+-Paralysis for 6 Seconds
+-8 Damage on Save (Fortitude, Cold)
+-DC 12
+
+
+I think the main problem has been that you haven't figured out how to properly set up grenades and auxilary weapons
+
+There's a desire to have some low-level grenades that aren't tied to large commitments in items but at the same time there's a desire to have some of the stronger explosives be tied to specific weapons
+
+So in the early game we have these little ion charges or explosives that provide a small advantage in battle but then in the late game we want dedicated rocket launchers for big explosives
+
+On top of this, I'm not sure exactly how I should sequence the other non-grenade auxilary weapons, whether they should even have feat requirements and if so, what exactly should they be, 4 weapons per upgrade isn't what we're going for
+
+One idea was to mix in grenades and rockets with slugthrowers as some sort of line of mechanical weapons but I'm not sure that I like the idea of making grenade users commit to using slugthrowers like that
+
+Another idea is the desire to fix mines and grenades at the same time by integrating them in some way as some sort of explosive weapon that the player can use that is satisfying to use
+
+Again the main problem with any of these ideas is that for player characters to select these weapons, they have to be in the common inventory at least for human characters, I don't think it's really acceptable to have these weapons be AI only
+
+
+Alright let's break this down:
+
+We want:
+-A way of using minor/expendable explosives in a way that's useful without being spammable
+-Large weapons for major explosives
+-Other auxilary weapons
+
+I think that the first can coexist with the other two but I'm not even sure what the first even is in the first place
+
+
+
+
+
+
+
+
+
+
+
+
+

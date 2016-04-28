@@ -1,0 +1,272 @@
+Level 1 Powers
+
+Force Suggestion
+-Unviersal Power
+-Unlocks Force Persuade
+
+Force Speed
+-Universal Power
+-Grants Haste effect
+-Duration is 18 + ForceModifier*3 seconds
+-Cast DC is 6
+
+Force Concealment
+-Universal Power
+-Grants Stealth
+-Cast DC is 6
+
+Force Push
+-Universal Power
+-Deals ForceModifierd4 Bludgeoning Damage
+-Throws opponent, opponent is stunned on the ground
+-Stun duration is 3 + ForceModifier*0.25 seconds
+-Half damage and no effect on Save
+-No effect on Save > DC
+-Reflex OR Will Save (Type = None)
+-Cast DC is 8
+
+Force Ionize
+-Universal Power
+-Deals ForceModifierd4 Ion Damage
+-Throws opponent, opponent is stunned on the ground
+-Stun duration is 6 + ForceModifier*0.5 seconds
+-Half damage and no effect on Save
+-No effect on Save > DC
+-Fortitude OR Will Save (Type = Ion)
+-Cast DC is 8
+
+Force Afflict
+-Dark Side Power
+-Slow duration is 18 + ForceModifier*2 seconds
+-Deals -4 Str/Dex Attribute Damage for same duration
+-9 second duration on Save
+-No effect on Save > DC
+-Fortitude OR Will Save (Type = Poison)
+-Cast DC is 8
+
+Force [Valor]
+-Light Side Power
+-Grants +1 Attack, +1 Defense, +2 Deflect, +2 Saves
+-Duration is 18 + ForceModifier*3 seconds
+-Cast DC is 8
+
+Force Fury
+-Dark Side Power
+-Grants +3 Attack, +2 Damage
+-Duration is 9 + ForceModifier*1.5 seconds
+-Cast DC is 8
+
+Force 
+-Light Side Power
+-
+-
+-Cast DC is 8
+
+
+
+Level 2 Powers
+
+Throw Lightsaber
+-Universal Power
+-Deals Leveld6 Damage
+-Cast DC is 10
+
+Force Resistance
+-Universal Power
+-Grants +10 Saves vs Force
+-Grants +20% Damage Immunity
+-Duration is 18 + ForceModifier*3 seconds
+-Cast DC is 10
+
+Force Body
+-Light Side Power
+-Regen 2 Damage every 3 Seconds
+-Removes Poison
+-Removes Attribute Damage
+-Duration is 18 + ForceModifier*3 seconds
+-Cast DC is 10
+
+Force Fear
+-Dark Side Power
+-Fear duration is 6 + ForceModifier*0.5 seconds
+-3 second Fear on Save
+-No effect on Save > DC
+-Will Save (Type = Fear)
+-Cast DC is 10
+
+Force Stun
+-Light Side Power
+-Stun duration is 9 + ForceModifier*0.5 seconds
+-3 second Stun on Save
+-No effect on Save > DC
+-Will Save (Type = Mind-Affecting)
+-Cast DC is 12
+
+Force Choke
+-Dark Side Power
+-Deals ForceModifierd6 Dark Side Damage
+-Choke duration is 6 + ForceModifier*0.25 seconds
+-Half Damage on Save
+-No effect on Save > DC
+-Fortitude OR Will Save (Type = Dark Side)
+-Cast DC is 12
+
+Force Dominate [Comsular Only]
+-Universal Power
+-Unlocks higher level Force Persuade
+
+
+Level 3 Powers
+
+Battle Meditation
+-Universal Power
+-Caster meditates and targets the whole party
+-Grants +2 Attack and +2 Defense
+-Duration is 18 + ForceModifier*3 seconds
+-Cast DC is 14
+
+Force Confusion
+-Universal Power
+-Change Faction for 12 + ForceModifier seconds
+-9 second Null Faction on Save
+-No effect on Save > DC
+-Will Save (Type = Mind-Affecting)
+-Cast DC is 14
+
+Force Wave [Consular Only]
+-Universal Power
+-Force Push around User, Radius 12m
+-Cast DC is 14
+
+Force Ion Storm [Consular Only]
+-Universal Power
+-Force Ionize around Target, Radius 6m
+-Cast DC is 14
+
+Force Athletics
+-Universal Power
+-1 extra move per round
+-Duration is 18 + ForceModifier*3 seconds
+-Cast DC is 14
+
+Force Plague [Consular Only]
+-Dark Side Power
+-Force Afflict around Target, Radius 6m
+-Cast DC is 14
+
+Force Lightning
+-Dark Side Power
+-Deals ForceModifierd12 Dark Side Damage
+-Stun for 6 Seconds
+-Half damage and no effect on Save
+-No effect on Save > DC
+-Fortitude OR Will Save (Type = Dark Side)
+-Cast DC is 14
+
+Force Drain
+-Dark Side Power
+-Deals ForceModifierd4 Dark Side Damage
+-Heal half of damage inflicted
+-Deals half of damage as force damage
+-Half damage and no force damage on Save
+-No effect on Save > DC
+-Fortitude OR Will Save (Type = Dark Side)
+-Cast DC is 14
+
+Force Sever
+-Light Side Power
+-Psychic Paralysis for 6 seconds
+-Death to Jedi Characters after Paralysis
+-Deal -6 all Attribute Damage to Jedi Characters Permenantely on Save
+-Removes Force Points from Jedi Characters Permenantely on Save
+-No effect on Save > DC
+-Will Save (Type = Light Side)
+-Cast DC is 16
+
+Force Consume
+-Dark Side Power
+-Horror for 3 seconds
+-Death to Jedi Characters after Horror
+-Gain 1 Force Point Permenantely after Targetting Jedi
+-Deal -6 all Attribute Damage to Jedi Characters Permenantely on Save
+-No Force Point gain on Save
+-No effect on Save > DC
+-Will Save (Type = Dark Side)
+-Cast DC is 16
+
+Force Insanity [Consular Only]
+-Dark Side Power
+-Force Fear around Target, Radius 6m
+-Cast DC is 16
+
+
+Level 4 Powers
+
+Force Mass Stun [Consular Only]
+-Light Side Power
+-Force Stun around Target, Radius 8m
+-Cast DC is 18
+
+Force [Enlightenment] [Consular Only]
+-Light Side Power
+-Combines Force Speed, Force [Valor], Force Athletics, Force Heal
+-Cast DC is 18
+
+Advanced Battle Meditation [Consular Only]
+-Universal Power
+-Caster meditates and targets the whole party
+-Grants +4 Attack and +4 Defense
+-Duration is 18 + ForceModifier*3 seconds
+-Cast DC is 18
+
+Force Mass Confusion [Consular Only]
+-Universal Power
+-Force Confusion around Caster, Radius 20m
+-Cast DC is 20
+
+Force Storm [Consular Only]
+-Dark Side Power
+-Force Lightning around Caster, Radius 12m
+-Cast DC is 20
+
+Force Death Field [Consular Only]
+-Dark Side Power
+-Force Drain around Caster, Radius 12m
+-Cast DC is 20
+
+
+Level 5 Powers
+
+Force Mass Sever [Consular Only]
+-Light Side Power
+-Force Sever around Caster, Radius 15m
+-Cast DC is 22
+
+Force Mass Consume [Consular Only]
+-Dark Side Power
+-Force Consume around Caster, Radius 15m
+-Cast DC is 22
+
+
+Special
+
+Breath Control
+-Universal Power
+-Immune to Poison for 300 Seconds
+-Cast DC is 8
+
+Beast Trick
+-Universal Power
+-Makes Beast non-Hostile for 30 + ForceModifier*2 Seconds
+-No effect on Save
+-Will Save (Type = Mind-Affecting)
+-Cast DC is 10
+
+
+Availability
+
+Level 1 Powers - At Level 1
+Level 2 Powers - At Level 10
+Level 3 Powers - At Level 20
+Level 4 Powers - At Level 25
+Level 5 Powers - At Level 30

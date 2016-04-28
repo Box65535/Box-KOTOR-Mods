@@ -1,0 +1,410 @@
+
+Mini Flamethrower 1
+10 Fire Damage
+3 Second Horror
+Half Damage and no Horror on Save
+Quarter Damage on Save > DC
+Fortitude OR Will Save (Type = Fire)
+DC 10
+
+Mini Flamethrower 2
+20 Fire Damage
+3 Second Horror
+Half Damage and no Horror on Save
+Quarter Damage on Save > DC
+Fortitude OR Will Save (Type = Fire)
+DC 12
+
+Flamethrower 1
+30 Fire Damage
+6 Second Horror
+Half Damage and no Horror on Save
+Quarter Damage on Save > DC
+Fortitude OR Will Save (Type = Fire)
+DC 14
+
+Flamethrower 2
+50 Fire Damage
+6 Second Horror
+Half Damage and no Horror on Save
+Fortitude OR Will Save (Type = Fire)
+DC 20
+
+
+
+Mini Carbonite 1
+8 Cold Damage
+6 Second Paralyze
+Half Damage and no Paralyze on Save
+Quarter Damage on Save > DC
+Fortitude Save (Type = Cold)
+DC 10
+
+Mini Carbonite 2
+16 Cold Damage
+6 Second Paralyze
+Half Damage and no Paralyze on Save
+Quarter Damage on Save > DC
+Fortitude Save (Type = Cold)
+DC 12
+
+Carbonite 1
+24 Cold Damage
+9 Second Paralyze
+Half Damage and 3 Second Paralyze on Save
+Quarter Damage and No Paralyze Save > DC
+Fortitude Save (Type = Cold)
+DC 14
+
+Carbonite 2
+40 Cold Damage
+9 Second Paralyze
+Half Damage and 3 Second Paralyze on Save
+Quarter Damage and No Paralyze Save > DC
+Fortitude Save (Type = Cold)
+DC 20
+
+
+
+Shock Arm 1
+36 Electric Damage
+3 Second Paralysis
+Half Damage on Save and No Paralysis
+Quarter Damage on Save > DC
+Fortitude Save (Type = Electrical)
+DC 14
+
+Shock Arm 2
+60 Electric Damage
+3 Second Paralysis
+Half Damage on Save and No Paralysis
+Quarter Damage on Save > DC
+Fortitude Save (Type = Electrical)
+DC 20
+
+
+
+Sonic Repulsor 1
+24 Sonic Damage
+-4 Int/Wis/Chr for 30 Seconds
+Half Damage and -4 Int/Wis/Chr for 9 Seconds on Save
+Quarter Damage and No Attribute Damage on Save > DC
+Fortitude OR Will Save (Type = Sonic)
+DC 14
+
+Sonic Repulsor 2
+40 Sonic Damage
+-6 Int/Wis/Chr for 30 Seconds
+Half Damage and -6 Int/Wis/Chr for 9 Seconds on Save
+Nothing on Save > DC
+Fortitude OR Will Save (Type = Sonic)
+DC 20
+
+
+
+Toxin Emitter 1
+36 Poison Damage across (3 Damage every 5 seconds for 1 min)
+-2 Str/Dex Attribute Poison for 1 min
+Half Damage and no Attribute Poison on Save
+Nothing on Save > DC
+Fortitude Save (Type = Poison)
+DC 14
+
+Toxin Emitter 2
+60 Poison Damage across (5 Damage every 5 seconds for 1 min)
+-4 Str/Dex Attribute Poison for 1 min
+Half Damage and no Attribute Poison on Save
+Nothing on Save > DC
+Fortitude Save (Type = Poison)
+DC 20
+
+
+
+Grenade Launcher
+24 Piercing Damage
+4m Radius
+Half Damage on Save
+No effect on Save > DC
+Reflex Save (Type = None)
+DC 14
+
+Rocket Launcher
+40 Piercing Damage
+4.5m Radius
+Half Damage on Save
+No effect on Save > DC
+Reflex Save (Type = None)
+DC 20
+
+
+
+Flashbang Launcher
+9 Second Stun
+4m Radius
+3 Second Stun on Save
+No effect on Save > DC
+Reflex Save (Type = None)
+DC 14
+
+Adhesive Rocket Launcher
+9 Second Stun
+9 Second Adhesive Effect
+4.5m Radius
+3 Second Stun on Save, no Adhesive
+No effect on Save > DC
+Reflex Save (Type = None)
+DC 20
+
+
+
+Ion Grenade Launcher
+18 Ion Damage
++12 Ion Damage vs Droid
+3 Second Droid Stun
+Half Damage and no effect on Save
+No effect on Save > DC
+Reflex Save (Type = Ion)
+DC 14
+
+Ion Rocket Launcher
+32 Ion Damage
++18 Ion Damage vs Droid
+6 Second Droid Stun
+Half Damage and no effect on Save
+No effect on Save > DC
+Reflex Save (Type = Ion)
+DC 20
+
+
+
+
+
+
+
+Frag Mine 1
+20 Piercing Damage
+3.25m Radius
+Half Damage on Save
+Quarter Damage on Save > DC
+Reflex Save (Type = None)
+DC 12
+
+Frag Mine 2
+30 Piercing Damage
+3.25m Radius
+Half Damage on Save
+Quarter Damage on Save > DC
+Reflex Save (Type = None)
+DC 14
+
+Frag Mine 3
+40 Piercing Damage
+3.25m Radius
+Half Damage on Save
+Quarter Damage on Save > DC
+Reflex Save (Type = None)
+DC 16
+
+Frag Mine 4
+50 Piercing Damage
+3.25m Radius
+Half Damage on Save
+Quarter Damage on Save > DC
+Reflex Save (Type = None)
+DC 18
+
+Frag Mine 5
+60 Piercing Damage
+3.25m Radius
+Half Damage on Save
+Quarter Damage on Save > DC
+Reflex Save (Type = None)
+DC 20
+
+
+Plasma Mine 1
+16 Fire Damage
+-2 Con Damage for 60 Seconds
+2.25m Radius
+Half Damage on Save and no Attribute Damage
+No effect on Save > DC
+Reflex Save (Type = Fire)
+DC 12
+
+Plasma Mine 2
+24 Fire Damage
+-3 Con Damage for 60 Seconds
+2.25m Radius
+Half Damage on Save and no Attribute Damage
+No effect on Save > DC
+Reflex Save (Type = Fire)
+DC 14
+
+Plasma Mine 3
+32 Fire Damage
+-4 Con Damage for 60 Seconds
+2.25m Radius
+Half Damage on Save and no Attribute Damage
+No effect on Save > DC
+Reflex Save (Type = Fire)
+DC 16
+
+Plasma Mine 4
+40 Fire Damage
+-5 Con Damage for 60 Seconds
+2.25m Radius
+Half Damage on Save and no Attribute Damage
+No effect on Save > DC
+Reflex Save (Type = Fire)
+DC 18
+
+Plasma Mine 5
+48 Fire Damage
+-6 Con Damage for 60 Seconds
+2.25m Radius
+Half Damage on Save and no Attribute Damage
+No effect on Save > DC
+Reflex Save (Type = Fire)
+DC 20
+
+
+Sonic Mine 1
+16 Sonic Damage
+-2 Int/Wis/Chr Damage for 60 Seconds
+3.25m Radius
+Half Damage on Save and no Attribute Damage
+No effect on Save > DC
+Reflex OR Will Save (Type = Sonic)
+DC 12
+
+Sonic Mine 2
+24 Sonic Damage
+-3 Int/Wis/Chr Damage for 60 Seconds
+3.25m Radius
+Half Damage on Save and no Attribute Damage
+No effect on Save > DC
+Reflex OR Will Save (Type = Sonic)
+DC 14
+
+Sonic Mine 3
+32 Sonic Damage
+-4 Int/Wis/Chr Damage for 60 Seconds
+3.25m Radius
+Half Damage on Save and no Attribute Damage
+No effect on Save > DC
+Reflex OR Will Save (Type = Sonic)
+DC 16
+
+Sonic Mine 4
+40 Sonic Damage
+-5 Int/Wis/Chr Damage for 60 Seconds
+3.25m Radius
+Half Damage on Save and no Attribute Damage
+No effect on Save > DC
+Reflex OR Will Save (Type = Sonic)
+DC 18
+
+Sonic Mine 5
+48 Sonic Damage
+-6 Int/Wis/Chr Damage for 60 Seconds
+3.25m Radius
+Half Damage on Save and no Attribute Damage
+No effect on Save > DC
+Reflex OR Will Save (Type = Sonic)
+DC 20
+
+
+Poison Mine 1
+24 Poison Damage across (2 Damage every 5 seconds for 1 min)
+-2 Str/Dex Attribute Poison for 1 min
+3.25m Radius
+Half Damage on Save and no Attribute Poison
+No effect on Save > DC
+Fortitude OR Reflex Save (Type = Poison)
+DC 12
+
+Poison Mine 2
+36 Poison Damage across (3 Damage every 5 seconds for 1 min)
+-3 Str/Dex Attribute Poison for 1 min
+3.25m Radius
+Half Damage on Save and no Attribute Poison
+No effect on Save > DC
+Fortitude OR Reflex Save (Type = Poison)
+DC 14
+
+Poison Mine 3
+48 Poison Damage across (4 Damage every 5 seconds for 1 min)
+-4 Str/Dex Attribute Poison for 1 min
+3.25m Radius
+Half Damage on Save and no Attribute Poison
+No effect on Save > DC
+Fortitude OR Reflex Save (Type = Poison)
+DC 16
+
+Poison Mine 4
+60 Poison Damage across (5 Damage every 5 seconds for 1 min)
+-5 Str/Dex Attribute Poison for 1 min
+3.25m Radius
+Half Damage on Save and no Attribute Poison
+No effect on Save > DC
+Fortitude OR Reflex Save (Type = Poison)
+DC 18
+
+Poison Mine 5
+72 Poison Damage across (6 Damage every 5 seconds for 1 min)
+-6 Str/Dex Attribute Poison for 1 min
+3.25m Radius
+Half Damage on Save and no Attribute Poison
+No effect on Save > DC
+Fortitude OR Reflex Save (Type = Poison)
+DC 20
+
+
+Flash Mine 1
+6 Second Stun
+3.25m Radius
+3 Second Stun on Save
+No effect on Save > DC
+Reflex OR Will Save (Type = None)
+DC 12
+
+Flash Mine 2
+8 Second Stun
+3.25m Radius
+3 Second Stun on Save
+No effect on Save > DC
+Reflex OR Will Save (Type = None)
+DC 14
+
+Flash Mine 3
+9 Second Stun
+3.25m Radius
+3 Second Stun on Save
+No effect on Save > DC
+Reflex OR Will Save (Type = None)
+DC 16
+
+Flash Mine 4
+10 Second Stun
+3.25m Radius
+3 Second Stun on Save
+No effect on Save > DC
+Reflex OR Will Save (Type = None)
+DC 18
+
+Flash Mine 5
+12 Second Stun
+3.25m Radius
+3 Second Stun on Save
+No effect on Save > DC
+Reflex OR Will Save (Type = None)
+DC 20
+
+
+
+
+
+
+
+
+

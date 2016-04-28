@@ -1,0 +1,207 @@
+T3-M4 - Level 3
+Str - 10	+ 2
+Dex - 13	+ 5
+Con - 14	+ 6
+Int - 12	+ 4
+Wis - 14	+ 6
+Chr - 11	+ 3
+			= 25
+
+Kriea - Level 8
+Str - 10	+ 2
+Dex - 13	+ 5
+Con - 13	+ 5
+Int - 14	+ 5
+Wis - 16	+ 10
+Chr - 12	+ 4
+			= 32
+
+Atton - Level 2
+Str - 12	+ 4
+Dex - 15	+ 8
+Con - 12	+ 4
+Int - 10	+ 2
+Wis - 11	+ 3
+Chr - 13	+ 5
+			= 26
+
+Bao-Dur - Level 3
+Str - 13	+ 5
+Dex - 10	+ 2
+Con - 13	+ 5
+Int - 14	+ 6
+Wis - 13	+ 5
+Chr - 10	+ 2
+			= 25
+
+Handmaiden - Level 3
+Str - 14	+ 6
+Dex - 15	+ 8
+Con - 13	+ 5
+Int - 10	+ 2
+Wis - 11	+ 3
+Chr - 10	+ 2
+			= 26
+
+Disciple - Level 3
+Str - 13	+ 5
+Dex - 13	+ 5
+Con - 12	+ 4
+Int - 12	+ 2
+Wis - 10	+ 2
+Chr - 13	+ 5
+			= 25
+
+Visas - Level 3
+Str - 10	+ 2
+Dex - 14	+ 6
+Con - 13	+ 5
+Int - 10	+ 2
+Wis - 14	+ 6
+Chr - 12	+ 4
+			= 25
+
+Mira - Level 4
+Str - 10	+ 2
+Dex - 15	+ 8
+Con - 12	+ 4
+Int - 12	+ 4
+Wis - 12	+ 4
+Chr - 13	+ 5
+			= 27
+
+Hanharr - Level 4
+Str - 16	+ 10
+Dex - 11	+ 3
+Con - 16	+ 10
+Int - 10	+ 2
+Wis - 11	+ 3
+Chr -  8	+ 0
+			= 28
+
+G0-T0 - Level 6
+Str - 10	+ 2
+Dex - 10	+ 2
+Con - 15	+ 8
+Int - 16	+ 10
+Wis - 11	+ 3
+Chr - 14	+ 5
+			= 30
+
+HK-47 - Level 5
+Str - 15	+ 8
+Dex - 14	+ 6
+Con - 13	+ 4
+Int - 12	+ 4
+Wis - 14	+ 6
+Chr - 11	+ 3
+			= 30
+
+Mandalore - Level 6
+Str - 15	+ 8
+Dex - 12	+ 4
+Con - 15	+ 8
+Int - 11	+ 3
+Wis - 12	+ 4
+Chr - 14	+ 6
+			= 32
+
+
+Kriea gets 75% of party experience
+All others get 85% of party experience
+
+
+By Attribute:
+
+Strength:
+-T3-M4		= 10
+-Kriea		= 10
+-G0-T0		= 10
+-Mira		= 11
+-Visas		= 12
+-Atton		= 12
+-Bao-Dur	= 13
+-Disciple	= 13
+-Handmaiden	= 14
+-HK-47		= 15
+-Mandalore	= 15
+-Hanharr	= 17
+
+
+Dexterity:
+-G0-T0		= 10
+-Bao-Dur	= 10
+-Hanharr	= 11
+-Disciple	= 11
+-Mandalore	= 12
+-T3-M4		= 13
+-Kriea		= 13
+-Visas		= 14
+-HK-47		= 14
+-Mira		= 15
+-Atton		= 15
+-Handmaiden	= 16
+
+
+Constitution:
+-Atton		= 11
+-Mira		= 11
+-Bao-Dur	= 12
+-G0-T0		= 12
+-Handmaiden	= 13
+-Disciple	= 13
+-Kriea		= 13
+-Visas		= 13
+-HK-47		= 13
+-T3-M4		= 14
+-Mandalore	= 15
+-Hanharr	= 16
+
+
+Intelligence:
+-Hanharr	= 10
+-Atton		= 10
+-Visas		= 10
+-Handmaiden	= 10
+-Mandalore	= 11
+-HK-47		= 12
+-T3-M4		= 12
+-Disciple	= 12
+-Mira		= 12
+-Kriea		= 14
+-Bao-Dur	= 15
+-G0-T0		= 16
+
+
+Wisdom:
+-Disciple	= 10
+-Handmaiden	= 10
+-Hanharr	= 11
+-Atton		= 11
+-Mandalore	= 12
+-Mira		= 12
+-Bao-Dur	= 13
+-Visas		= 13
+-HK-47		= 13
+-G0-T0		= 13
+-T3-M4		= 14
+-Kriea		= 16
+
+
+Charisma:
+-Hanharr	= 8
+-Bao-Dur	= 10
+-Handmaiden	= 10
+-T3-M4		= 11
+-HK-47		= 11
+-Kriea		= 12
+-Visas		= 12
+-Atton		= 13
+-Disciple	= 13
+-Mira		= 13
+-Mandalore	= 14
+-G0-T0		= 15
+
+
+
+

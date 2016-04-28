@@ -1,0 +1,213 @@
+
+-------------------------------------------------------------
+Medium Armor
+-------------------------------------------------------------
+
+Military Suit
+a_medium_01
+Defense 6 / Max Dex +3
+
+Light Battle Armor
+a_medium_02
+Defense 7 / Max Dex +2
+
+Echani Battle Armor
+a_medium_03
+Defense 6 / Max Dex +3
++1 Defense
+
+Cinnagar War Suit
+a_medium_04
+Defense 6 / Max Dex +3
++1 Defense
+-15 vs Sonic
+
+Sith Battle Suit
+a_medium_05
+Defense 6 / Max Dex +3
++1 Defense
++4 Max Dex Bonus
+
+Bronzium Light Battle Armor
+a_medium_06
+Defense 7 / Max Dex +2
++1 Defense
+
+Verpine Fiber Mesh
+a_medium_07
+Defense 6 / Max Dex +3
++2 Defense
+
+Krath Heavy Armor
+a_medium_08
+Defense 7 / Max Dex +2
++2 Defense
+
+Powered Light Battle Armor
+a_medium_09
+Defense 7 / Max Dex +2
++1 Defense
++1 Str
+-25 vs Sonic
+
+Krath Holy Battle Suit
+a_medium_10
+Defense 7 / Max Dex +3
++2 Defense
+-15 vs Cold
+-15 vs Fire
+-15 vs Sonic
+
+Exar Kun's Light Battle Suit
+a_medium_11
+Defense 6 / Max Dex +3
++3 Defense
+
+Heavy Cinnagar War Suit
+a_medium_12
+Defense 6 / Max Dex +3
++3 Defense
+-20 vs Sonic
+
+Verpine Fiber Ultramesh
+a_medium_13
+Defense 6 / Max Dex +3
++4 Defense
+
+Electromesh Armor
+a_medium_14
+Defense 7 / Max Dex +2
+-10 vs Energy
++4 Mas Dex Bonus
+
+Jamoh Hogra's Battle Armor
+a_medium_15
+Defense 7 / Max Dex +2
++4 Defense
++1 Str
+Immune Crit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Military Suit
+a_medium_01
+Defense 4 / Max Dex +3
+800 Credits
+
+Light Battle Armor
+a_medium_02
+Defense 5 / Max Dex +2
+1000 Credits
+
+Echani Battle Armor
+a_medium_03
+Defense 4 / Max Dex +3
++1 Max Dex Bonus
+1200 Credits
+
+Cinnagar War Suit
+a_medium_04
+Defense 4 / Max Dex +3
++1 Defense
+2000 Credits
+
+Sith Battle Suit
+a_medium_05
+Defense 4 / Max Dex +3
++2 Max Dex Bonus
+2400 Credits
+
+Bronzium Light Battle Armor
+a_medium_06
+Defense 5 / Max Dex +2
++1 Defense
+3500 Credits
+
+Verpine Fiber Mesh
+a_medium_07
+Defense 4 / Max Dex +3
++1 Defense
++1 Fort
+4500 Credits
+
+Krath Heavy Armor
+a_medium_08
+Defense 5 / Max Dex +2
++1 Defense
++1 Defense vs Phys
+5000 Credits
+
+Powered Light Battle Armor
+a_medium_09
+Defense 5 / Max Dex +2
++2 Defense vs Sonic
++1 Str
+6500 Credits
+
+Krath Holy Battle Suit
+a_medium_10
+Defense 5 / Max Dex +3
++1 Defense
++2 Defense vs Phys
+7500 Credits
+
+Exar Kun's Light Battle Suit
+a_medium_11
+Defense 4 / Max Dex +3
++1 Defense
++2 Deflect
+10000 Credits
+
+Heavy Cinnagar War Suit
+a_medium_12
+Defense 4 / Max Dex +3
++2 Defense
+10000 Credits
+
+Verpine Fiber Ultramesh
+a_medium_13
+Defense 4 / Max Dex +3
++2 Defense
++2 Fort
+12000 Credits
+
+Electromesh Armor
+a_medium_14
+Defense 5 / Max Dex +2
++2 Defense vs Energy
++3 Max Dex
+13000 Credits
+
+Jamoh Hogra's Battle Armor
+a_medium_15
+Defense 5 / Max Dex +2
++2 Defense
+Immune Crit
+15000 Credits

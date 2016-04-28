@@ -1,0 +1,535 @@
+Gloves (Original):
+
+
+Accuracy Gloves
+a_gloves_05
+Focus - Pistols
+Focus - Rifles
+
+Automation Gloves
+a_gloves_21
++3 Dex
++4 Demolitions
++2 Repair
+
+Bothan Precision Gloves
+a_gloves_16
++2 Fort
++1 Dex
++6 Demolitions
+25% vs Fire
+15% vs Slashing
+-5 vs Fire
+
+Czerka Defensive Gauntlets
+a_gloves_08
++1 Defense
+
+Detonator Gloves
+a_gloves_09
++2 Fort
++3 Demolitions
+25% vs Fire
+10% vs Slashing
+
+Disruption Gloves
+a_gloves_28
++1-10 Unstoppable
+
+Dominator Gauntlets
+a_gloves_25
++5 Str
+
+Echani Accuracy Gloves
+a_gloves_23
++5 Phys
++1 Attack unarmed
++1 Dex
+
+Eriadu Strength Amplifier
+a_gloves_14
++2 Str
+
+Exchange Casual Gloves
+a_gloves_02
++1 Computer Use
++2 Demolitions
++2 Security
+
+Exchange Work Gloves
+a_gloves_07
++1 Dex
++1 Computer Use
++3 Demolitions
++3 Security
+
+Gamorrean Gauntlets
+a_gloves_06
++4 Phys
+-1 Attack unarmed
+
+Gamorrean Power Gauntlets
+a_gloves_18
++2 Phys
+25% Stun DC 14
++1 Defense
++2 Strength
+Heavy Armor
+Master Power Attack
+
+Gamorrean Wargloves
+a_gloves_13
++3 Defense
+-2 Dex
+Heavy Armor
+
+Improved Automation Gloves
+a_gloves_29
++5 Dex
++6 Demolitions
++4 Repair
+
+Infiltrator Gloves
+a_gloves_11
++2 Dex
++4 Computer Use
++4 Security
+
+Insulated Gloves
+a_gloves_01
+30% vs Cold
+20% vs Fire
+
+Jal Shey Meditation Gloves
+a_gloves_22
++2 Dex
++2 Wis
++2 Awareness
+
+Jal Shey Perception Gloves
+a_gloves_12
++1 Dex
++1 Wis
++1 Awareness
+
+Karakan Gauntlets
+a_gloves_15
++3 Saves
++1 Dex
+
+Kubaz Scoundrel Gloves
+a_gloves_20
++5 Dex
++6 Computer Use
++6 Security
+
+Lightning Gloves
+a_gloves_30
++2-12 Electric
++1 Attack unarmed
+-10 Electric
+
+Nagai Combat Gloves
+a_gloves_19
++2 Saves
+-5 Energy
+
+Nikto Soldier Gloves
+a_gloves_26
++2 Dex
++3 Str
+
+Ossluk's Gloves
+a_gloves_27
++1 Con
++1 Dex
++1 Str
+
+Sith Power Gauntlets
+a_gloves_17
++3 Str
+
+Taris Survival Gloves
+a_gloves_04
++1 Saves
+
+Unarmed Accuracy Gloves
+a_gloves_10
++2 Phys
++1 Unarmed Attack
++1 Reflex
+
+Zeison Sha Gloves
+a_gloves_24
++2 Con
++1 Regeneration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tech Equip 1 - 261
+Tech Equip 2 - 262
+Tech Equip 3 - 263
+Power Equip 1 - 258
+Power Equip 2 - 259
+Power Equip 3 - 260
+Unarmed Specialist 1 - 213
+Unarmed Specialist 2 - 215
+Unarmed Specialist 3 - 217
+Unarmed Mastery - 219
+Light Armor - 5
+Medium Armor - 6
+Heavy Armor - 4
+
+Gloves (New):
+
+
+
+Accuracy Gloves
+a_gloves_05
++1 Attack
+Tech Equipment 1
+1000 Credits
+
+Detonator Gloves
+a_gloves_09
++2 Demolitions
+20% vs Fire
+5% vs Slashing
+Tech Equipment 1
+1200 Credits
+
+Bothan Precision Gloves
+a_gloves_16
++4 Demolitions
+50% vs Fire
+15% vs Slashing
+Tech Equipment 2
+2400 Credits
+
+Exchange Casual Gloves
+a_gloves_02
++1 Demolitions
++1 Security
+Tech Equipment 1
+800 Credits
+
+Exchange Work Gloves
+a_gloves_07
++1 Computer Use
++2 Demolitions
++2 Security
+Tech Equipment 1
+1200 Credits
+
+Infiltrator Gloves
+a_gloves_11
++1 Dex
++2 Computer Use
++3 Security
+Tech Equipment 2
+2400 Credits
+
+Kubaz Scoundrel Gloves
+a_gloves_20
++2 Dex
++4 Computer Use
++4 Security
+Tech Equipment 3
+6000 Credits
+
+Automation Gloves
+a_gloves_21
++2 Dex
++4 Demolitions
++2 Repair
+Tech Equipment 3
+6000 Credits
+
+Improved Automation Gloves
+a_gloves_29
++3 Dex
++5 Demolitions
++3 Repair
+Tech Equipment 3
+8000 Credits
+
+
+Taris Survival Gloves
+a_gloves_04
++1 Saves
+Power Equipment 1
+2000 Credits
+
+Karakan Gauntlets
+a_gloves_15
++2 Saves
+Power Equipment 2
+4000 Credits
+
+Nagai Combat Gloves
+a_gloves_19
++2 Saves
+-5 Energy
+Power Equipment 3
+7000 Credits
+
+Gamorrean Gauntlets
+a_gloves_06
++3 Phys
+-1 Attack unarmed
+Unarmed Specialist 1
+4000 Credits
+
+Unarmed Accuracy Gloves
+a_gloves_10
++2 Phys
++1 Unarmed Attack
+Unarmed Specialist 1
+6000 Credits
+
+Gamorrean Power Gauntlets
+a_gloves_18
++3 Phys
+25% Stun DC 14
++1 Defense
+Heavy Armor
+Unarmed Specialist 2
+8000 Credits
+
+Echani Accuracy Gloves
+a_gloves_23
++4 Phys
++1 Attack unarmed
+Unarmed Specialist 3
+10000 Credits
+
+Disruption Gloves
+a_gloves_28
++1-10 Unstoppable
+Unarmed Mastery
+13000 Credits
+
+Lightning Gloves
+a_gloves_30
++2-12 Electric
++1 Attack unarmed
+-5 vs Electric
+Unarmed Mastery
+15000 Credits
+
+Insulated Gloves
+a_gloves_01
+20% vs Cold
+20% vs Fire
+Light Armor
+500 Credits
+
+Czerka Defensive Gauntlets
+a_gloves_08
++1 Defense
+Medium Armor
+2000 Credits
+
+Gamorrean Wargloves
+a_gloves_13
++2 Defense
+-2 Dex
+Heavy Armor
+3000 Credits
+
+Eriadu Strength Amplifier
+a_gloves_14
++1 Str
+Power Equipment 1
+1500 Credits
+
+Sith Power Gauntlets
+a_gloves_17
++2 Str
+Power Equipment 2
+3000 Credits
+
+Zeison Sha Gloves
+a_gloves_24
++3 Con
+Power Equipment 3
+6000 Credits
+
+Dominator Gauntlets
+a_gloves_25
++3 Str
+Power Equipment 3
+6000 Credits
+
+Nikto Soldier Gloves
+a_gloves_26
++1 Dex
++2 Str
+Power Equipment 3
+6000 Credits
+
+Ossluk's Gloves
+a_gloves_27
++1 Con
++1 Dex
++1 Str
+Power Equipment 3
+6000 Credits
+
+Jal Shey Perception Gloves
+a_gloves_12
++1 Wis
++1 Awareness
+Power Equipment 1
+2500 Credits
+
+Jal Shey Meditation Gloves
+a_gloves_22
++2 Wis
++2 Awareness
+Power Equipment 2
+5000 Credits
+
+
+
+
+
+
+-----------------------------------------------------------
+New Belts
+-----------------------------------------------------------
+
+
+Detonator Gloves
+Tech
+
+Infiltrator Gloves
+Tech
+
+Automation Gloves
+Tech
+
+Combat Gloves
+Power
+
+Unarmed Accuracy Gloves
+Unarmed
+
+Defensive Gauntlets
+Armor
+
+Power Gloves
+Power
+
+
+
+Power Equipment:
+
+Power Gloves
++1 Str
+
+Power Gloves 2
++2 Str
+
+Deflection Gloves
++2 Deflect
+
+Deflection Gloves 2
++4 Deflect
+
+
+
+Not Sure:
+
+Accuracy Gloves
++1 Attack
+
+Accuracy Gloves 2
++2 Attack
+
+Sniper Gloves
++1 Sniper Shot
+
+Sniper Gloves 2
++2 Sniper Shot
+
+
+
+Tech Equipment:
+
+Detonator Gloves
++2 Demolitions
+
+Detonator Gloves 2
++5 Demolitions
+
+Infiltrator Gloves
++2 Security
++2 Computer Use
+
+Infiltrator Gloves 2
++4 Security
++4 Computer Use
+
+
+
+
+Not Sure:
+
+Hacking Gloves
++2 Computer Use
+
+Hacking Gloves 2
++4 Computer Use
+
+
+
+Other:
+
+Insulated Gloves
+Requires Armor 3
+-5 vs Cold
+-5 vs Fire
+
+Defensive Gauntlets
+Requires Armor 5
+-10 vs Physical
+
+Lightning Gloves
+Requires Unarmed 5
++2d4 Electric
+
+
+

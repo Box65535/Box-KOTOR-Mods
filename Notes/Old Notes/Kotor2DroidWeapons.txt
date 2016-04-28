@@ -1,0 +1,461 @@
+Blowtorch
+g_d_blowtrch01
+6 Heat Damage
+DC 15 for half Damage
+Short Range
+
+Advanced Blowtorch
+g_d_blowtrch02
+12 Heat Damage
+DC 15 for half Damage
+Short Range
+
+Fire Suppression System
+g_d_firesupres01
+10 Cold Damage
+Paralyze 25% for 6 seconds
+DC 15 for half Damage and no Effect
+Short Range
+
+Droid Carbonite Projector
+d_device_08
+20 Cold Damage
+Paralyze for 9 Seconds
+DC 15 for half Damage and Paralyze 3 seconds
+Medium Range
+
+Droid Carbonite Emitter
+d_device_11
+40 Cold Damage
+Paralyze for 15 Seconds
+DC 20 for half Damage and Paralyze 9 seconds
+Medium Range
+
+Droid Flame Thrower
+d_device_03
+30 Heat Damage
+Horror for 3 Seconds if < level 7
+DC 15 for half Damage
+Short Range
+
+Droid Molten Cannon
+d_device_07
+60 Heat Damage
+Horror for 3 Seconds if < level 7
+DC 20 for half Damage
+Short Range
+
+Droid Plasma Thrower
+d_device_09
+60 Ion Damage
+DC 20 for half Damage
+Short Range
+
+Droid Ion Blast Mark I
+d_device_12
+15 Ion Damage
+Stun for 12 seconds
+DC 10 for no Stun
+Short Range
+
+Droid Ion Blast Mark II
+d_device_13
+15 Ion Damage
+Stun for 12 seconds
+DC 14 for no Stun
+Short Range
+
+Droid Ion Blast Mark III
+d_device_14
+30 Ion Damage
+Stun for 12 seconds
+DC 18 for no Stun
+Short Range
+
+Droid Ion Striker
+d_device_06
+20 Ion Damage
+Medium Range
+
+Droid Neural Pacifier
+d_device_01
+Stun for 9 seconds
+DC 15 for no Stun
+Medium Range
+
+Droid Neural Scrambler
+d_device_05
+Stun for 9 seconds
+DC 20 for no Stun
+Medium Range
+
+Droid Repulsor
+d_device_02
+Slow 75% for 9 seconds
+DC 15 for no Slow
+Medium Range
+
+Droid Toxin Emitter
+d_device_04
+Paralyze 25% for 6 Seconds
+Mild Poison
+DC 10 for no Effect
+
+Droid Bio-Assault Spray
+d_device_10
+Slow ??
+Virulent Poison
+DC 10 to negate Slow
+
+Droid Multi-spectral Emitter
+d_device_15
+100 Energy Damage
+DC 24 + Target Level for half Damage
+
+Droid Shock Arm
+d_t3m4_01
+Check Notes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Blowtorch
+g_d_blowtrch01
+Not Used, Keep Same
+
+Advanced Blowtorch
+g_d_blowtrch02
+Not Used, Keep Same
+
+Fire Suppression System
+g_d_firesupres01
+Not Used, Keep Same
+
+Droid Carbonite Projector
+d_device_08
+20 + 0.75x Level Cold Damage
+9 seconds Paralyze
+Save for half damage and 3 second paralyze
+Short Range
+500 Credits
+
+Droid Carbonite Emitter
+d_device_11
+40 + 0.75x Level Cold Damage
+Paralyze for 15 Seconds
+Save for half Damage and 6 second paralyze
+Medium Range
+1200 Credits
+
+Droid Flame Thrower
+d_device_03
+30 + Level Fire Damage
+3 seconds Horror
+Save for half damage and no horror
+Short Range
+300 Credits
+
+Droid Molten Cannon
+d_device_07
+60 + Level Fire Damage
+3 seconds Horror
+Save for half damage and no horror
+Short Range
+900 Credits
+
+Droid Plasma Thrower
+d_device_09
+60 + 1.5x Level Ion Damage
+Save for half damage
+Medium Range
+1200 Credits
+
+Droid Ion Blast Mark I
+d_device_12
+20 + 0.5x Level Ion Damage vs Droid
+Stun for 12 seconds vs Droid
+Save for half damage 6 second Stun
+Short Range
+250 Credits
+
+Droid Ion Blast Mark II
+d_device_13
+20 + 0.5x Level Ion Damage vs Droid
+Stun for 12 seconds vs Droid
+Save for half damage 6 second Stun
+Short Range
+5m Radius
+1000 Credits
+
+Droid Ion Blast Mark III
+d_device_14
+40 + 1.5x Level Ion Damage vs Droid
+Stun for 12 seconds vs Droid
+Save for half damage 6 second Stun
+Short Range
+6m Radius
+2000 Credits
+
+Droid Ion Striker
+d_device_06
+30 + 1.5x Level Ion Damage
+Save for half damage
+Medium Range
+500 Credits
+
+Droid Neural Pacifier
+d_device_01
+Stun for 12 seconds
+-2 Int, -2 Wis, -2 Chr for 20 seconds
+Save for 6 second Stun, -2 Int, -2 Wis, -2 Chr for 10 seconds
+Medium Range
+600 Credits
+
+Droid Neural Scrambler
+d_device_05
+Stun for 18 seconds
+-2 Int, -2 Wis, -2 Chr for 30 seconds
+Save for 9 second Stun, -2 Int, -2 Wis, -2 Chr for 15 seconds
+Medium Range
+1500 Credits
+
+Droid Repulsor
+d_device_02
+Slow and -4 Dex for 30 seconds
+Save for half slow and -2 Dex instead
+Medium Range
+1000 Credits
+
+Droid Toxin Emitter
+d_device_04
+Paralyze for 6 seconds
+Average Poison (Damage)
+-2 Str and -2 Con for 20 seconds
+Save for 3 second Paralyze, -2 Str, -2 Con 10 seconds
+600 Credits
+
+Droid Bio-Assault Spray
+d_device_10
+Paralyze for 12 seconds
+Virulent Poison (Damage)
+-2 Str and -2 Con for 30 seconds
+Save for 6 second Paralyze, -2 Str, -2 Con 15 seconds
+1500 Credits
+
+Droid Multi-spectral Emitter
+d_device_15
+30 Energy Damage
+30 Ion Damage
+30 Fire Damage
+30 Cold Damage
+30 Electric Damage
+Save for half damage
++5 DC
+6000 Credits
+
+Droid Shock Arm
+d_t3m4_01
+1d4x Level Electric Damage
+Save for half damage
+No Computer Use Bonus
+No Cost
+
+
+All Droid weapons save at 10 + (2/5)*Level
+All Droid weapons have a 30 second cooldown
+
+Droid Weapon Focus: +3 DC with droid weapons
+Droid Weapon Spec: +50% damage/attribute damage with droid weapons
+
++1 DC for each 4 ranks in Computer Use
++1% Damage for each rank in Computer Use
+
+
+
+
+
+
+---------------------------------------------------------------
+New Droid Weapons
+---------------------------------------------------------------
+
+*****************************
+Droid Shock Arm
+10 Electric Damage
+DC 15
+
+MIGHT NOT BE SMART, HARD TO DO, MAYBE
+********************************
+
+Ion Striker
+24 Ion Damage
+DC 18
+
+Plasma Cannon
+40 Ion Damage
+DC 20
+
+Multi-Spectral Emitter
+10 Energy/Fire/Ion/Electrical/Cold
+DC 25
+
+Flamethrower
+20 Fire Damage
+3 Second Horror
+DC 18
+
+Flamethrower 2
+30 Fire Damage
+6 Second Horror
+DC 20
+
+Carbonite Projector
+18 Cold Damage
+9 Second Paralyze
+DC 18
+
+Carbonite Projector 2
+24 Cold Damage
+12 Second Paralyze
+DC 20
+
+Ion Blast I
+Droid Only
+24 Ion Damage
+6 Second Stun
+DC 15
+
+Ion Blast II
+Droid Only
+24 Ion Damage
+6 Second Stun
+Multi-Target
+DC 15
+
+Ion Blast III
+Droid Only
+40 Ion Damage
+6 Second Stun
+Multi-Target
+DC 18
+
+Toxin Emitter
+20 Poison Damage
+-2 Str / -2 Con for 30 Seconds
+3 Seconds Paralyze
+DC 18
+
+Bio-Assault Spray
+30 Poison Damage
+-2 Str / -2 Con for 30 Seconds
+6 Seconds Paralyze
+DC 20
+
+Neural Pacifier
+-2 Wis / -2 Int / -2 Chr for 30 Seconds
+6 Seconds Stun
+DC 18
+
+Neural Scrambler
+-2 Wis / -2 Int / -2 Chr for 30 Seconds
+12 Seconds Stun
+DC 20
+
+Repulsor
+Slow (50) for 30 Seconds
+-4 Dex for 30 Seconds
+DC 18
+
+
++1% Damage for every rank in Computer Use
++1 DC for every 6 ranks in Computer Use
+
+Droid Weapons 1: +2 DC and +15% Damage
+Droid Weapons 2: +4 DC and +30% Damage
+Droid Weapons 3: +6 DC and +50% Damage
+
+All Saves Half Damage/Effects -ish
+
+
+
+----------------------------------------------------------------------------
+
+These are like droid weapons but they are no longer exclusive to droids
+
+
+
+
+
+Close Range Weapons:
+
+Flamethrower
+20 Fire Damage / DC 15 (Fortitude) / Half damage on save
+6 Second Horror / DC 15 (Will) / No effect on save
+9 Second Reload
+
+[Droid] Stun Ray
+12 Second Stun / DC 15 (Fortitude) / 6 Second Stun on save
+No Stun on Fortitude > 15
+9 Second Reload
+
+
+
+Advanced Close Range Weapons:
+
+
+Plasma Flamethrower
+36 Fire Damage / DC 20 (Fortitude) / Half damage on save
+6 Second Horror / DC 20 (Will) / No effect on save
+30 Second -4 Con/Str / DC 20 (Fortitude) / No effect on save
+Con damage and Fire damage are the same save
+9 Second Reload
+
+Carbonite Projector
+36 Cold Damage / DC 20 (Fortitude) / Half damage on save
+12 Second Paralyze / DC 20 (Fortitude) / 6 Second Paralyze on save
+No Paralyze if Fortitude > 20 
+Cold damage and Paralyze are the same save
+9 Second Reload
+
+Shock Arm
+36 Electric Damage / DC 20 (Fortitude) / Half damage on save
+~12m Cone Shape Area of Effect
+9 Second Reload
+
+Sonic Repulsor
+20 Sonic Damage / DC 20 (Will) / Half damage on save
+30 Second -4 Int/Wis/Chr / DC 20 (Will) / 9 Second effect on save
+No effect on Will > 20
+~12m Cone Shape Area of Effect
+9 Second Reload
+
+
+
+
+
+
+
+
+

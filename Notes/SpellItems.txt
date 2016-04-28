@@ -1,0 +1,376 @@
+
+Alright
+
+We need to come to a thing about all of the types of spell items in the game
+
+We've got:
+-Loose Grenades
+-Grenade/Rocket Launchers
+-Energy Weapons
+-Energy Projectile Weapons
+-Energy Shields
+-Stimulants
+-Mines
+-Turrets Etc
+
+Now we need to figure out how each of them work:
+
+Energy Shields
+-Equipped item, uses Use/Minute 
+-For humans, equipped on left arm
+-For droids, equipped on shield slot
+-Base item is based on actual energy shields w/ feat requirements
+
+Stimulants
+-Equipped item, uses Use/Minute
+-Humans only, equipped on left arm
+-Uses gui_inject sound effect
+-Base item is based on energy shield
+
+Mines
+-Set like in vanilla, from inventory
+-Enemy mines should recover to chemicals
+-If recovering to chemicals is impossible, use an unusable mine
+
+Turrets Etc
+-Equipped item, uses Use/Minute
+-For humans, equipped on glove slot
+-For droids, equipped on tool slot
+-Uses gui_repair sound effect
+-If it can be found, uses trap set sound effect
+-Base item is based on energy shield
+-Trap set animation would be preferred
+-On activation, creates a creature (floating mine, turret, droid)
+-Script will deduct components or fail if insufficient components are had
+-Script needs to send a signal to destroy other turrets etc
+-These might actually be too hard to pull off if the they try to do things during cutscenes for example, might have to disable in certain modules
+
+Energy Weapons
+-Uses two items, an equipped item and an activation trigger
+-For humans, equipped on right arm
+-For droids, equpped on either weapon slot
+-The equipped item is a Use/Minute, self targeting
+-When the equipped item is used, it checks the feats of the user in order to determine which activation trigger to create
+-All other activation triggers are removed
+-For droids, the activation trigger is equipped to the monster item slot
+-For humans, the activation trigger is unique to the user and placed in the inventory
+-We may have to make droid activation triggers work like human ones unfortunately
+-Activation triggers are Charge/Use
+-Activation triggers should check that the proper item is equipped before working, if it isn't there, destroy the item
+
+Energy Projectile Weapons
+-Same as energy weapons but with activation triggers that trigger projectile scripts
+
+Grenade/Rocket Launchers
+-Uses three items, an equipped item, an ammo item, and an activation trigger
+-For humans, equipped on right arm
+-For droids, equpped on either weapon slot
+-Ammo is an equippable to the monster weapon slots
+-Launcher is Use/Minute, takes ammo weapons from inventory and equips them to slots, sets up appropriate trigger
+-Trigger is an infinite use item, takes one ammo weapon off the equipment per use and on the last one it disappears itself
+-There's an unload trigger that will unequip the ammo items and repopulates the ammo items in the inventory
+
+Loose Grenades
+-Uses two items, a disposible item, ammo, and a trigger
+-The disposible item is a one time use, it stocks the grenade slots with grenades of that type
+-The trigger this time is a Use/Minute instead of infinite use, it also blows itself up when 
+-The grenades are like grenades for grenade launchers
+
+
+So basically, we can't implement all of these types of things in the first version of this mod, we'll do the easy ones and then leave the other ones for later versions
+
+Anyway, let's do the fun part where we actually create the items
+
+-------------------------
+Update
+The above implementations are only proposed, they are not finalized
+-------------------------
+
+
+
+
+------------------------------------------------------------------
+
+
+Peragus Shields:
+
+Excavator Mining Shield Mark I
+-10 Damage Absorbtion
+-Fire
+
+
+Energy Shields 1:
+
+Mining Shield
+-20 Damage Absorbtion
+-Fire
+-Red
+
+Energy Shield
+-40 Damage Absorbtion
+-Energy
+-Blue
+
+Environment Shield
+-40 Damage Absorbtion
+-Ion, Fire, Electrical, Cold
+-Red
+
+Energy Shields 2:
+
+Sith Energy Shield (Advanced Energy Shield)
+-60 Damage Absorbtion
+-Energy, Electrical
+-Blue
+
+Echani Personal Shield (Radiant Energy Shield)
+-60 Damage Absorbtion
+-Energy, Ion, Fire
+-Red
+
+Universal Energy Shield
+-40 Damage Absorbtion
+-Energy, Ion, Fire, Electrical, Cold, Sonic
+-Red?
+
+Mandalorian Melee Shield
+-30 Damage Absorbtion
+-Bludgeoning, Piercing, Slashing
+-2 Damage vs Melee
+-Grey
+
+Bao-Dur's Energy Shield
+-60 Damage Absorbtion
+-Energy, Electrical, Ion, Sonic
+-Shield Breaker
+-Bao-Dur Only
+-Blue?
+
+
+Not sure I can really do much more than this, shields are really enough of a thing on their own, you can't really mess with them too much without making them too gimmicky
+
+
+
+Stimulants 1:
+
+Adrenal Toughness
++4 Fort
++4 Reflex
+
+Adrenal Concentration
++4 Will
++4 vs Fear
++4 vs Mind-Affecting
+
+Adrenal 
+
+
+Adrenal Strength
++4 Str
+
+Adrenal Endurance
++4 Con
+
+Adrenal Alacrity
++4 Dex
+
+
+Stimulants 2:
+
+Strengthening Stimulant
++4 Str
++4 Fort
++4 Reflex
+
+Toughening Stimulant
++4 Con
+10% Phyiscal Damage Immunity
+
+Concentrating Stimulant
++4 Dex
++4 Will
+
+Battle Stimulant
++4 Str
++2 Damage
++4 Saves
+
+Endurance Stimulant
++4 Con
+40 Healing (2/2 for 40 seconds)
+Remove Poison
+Immune to Poison
+
+Agility Stimulant
++4 Dex
++1 Extra Move
+
+
+
+Energy Weapons
+
+Excavator Droid Blowtorch Mark I
+-12 Fire Damage
+-4 Damage on Save (Fortitude, Fire)
+-DC 10
+
+Excavator Droid Blowtorch Mark II
+-24 Fire Damage
+-8 Damage on Save (Fortitude, Fire)
+-DC 10
+
+Excavator Fire Suppression
+-24 Cold Damage
+-6 Second Paralysis
+-8 Damage on Save (Fortitude, Cold)
+-DC 10
+
+
+
+
+Shock Arm Mark I
+-12 Electrical Damage
+-4 Damage on Save (Fortitude, Electrical)
+-2 Energy
+-DC 12
+
+Shock Arm Mark II
+-20 Electrical Damage
+-6 Damage on Save (Fortitude, Electrical)
+-3 Energy
+-DC 14
+
+Shock Arm Mark III
+-32 Electrical Damage
+-8 Damage on Save (Fortitude, Electrical)
+-4 Energy
+-DC 16
+
+Lightning Arm Mark I
+-24 Electrical Damage
+-8 Damage on Save (Fortitude, Electrical)
+-Chains 5m between each enemy
+-8 Energy
+-DC 16
+
+Lightning Arm Mark II
+-36 Electrical Damage
+-12 Damage on Save (Fortitude, Electrical)
+-Chains 6m between each enemy
+-10 Energy
+-DC 18
+
+Lightning Double
+-Lightning Arm Mark I
+-Shock Arm Mark II
+
+Lightning Double Mark II
+-Lightning Arm Mark II
+-Shock Arm Mark III
+
+
+
+
+
+Droid Stunner
+-9 Second Droid Stun
+-Nothing on Save (Will, Mind-Affecting)
+-2 Energy
+-DC 12
+
+Stun Ray
+-12 Second Stun
+-Nothing on Save (Will, Mind-Affecting)
+-3 Energy
+-DC 14
+
+Double Stunner
+-Droid Stunner
+-Stun Ray
+
+Ion Blaster
+-18 Ion Damage
+-6 Damage on Save (Fortitude, Ion)
+-3 Energy
+-DC 12
+
+Ion Striker
+-4 Energy
+-DC 14
+
+Ion Double
+-Ion Blaster
+-Ion Striker
+
+Plasma Blaster
+-24 Fire Damage
+-6 Damage on Save (Fortitude, Fire)
+-4 Energy
+-DC 14
+
+Carbonite Projector
+-24 Cold Damage
+-9 Second Paralysis
+-8 Damage on Save  (Fortitude, Cold)
+-6 Energy
+-DC 14
+
+Sonic Blast
+-24 Sonic Damage
+-Int/Wis/Chr -6 for 30 Seconds
+-6 Energy
+-DC 14
+
+Plasma Cannon
+-24 Fire Damage
+-Con -6 for 30 seconds
+-8 Energy
+-DC 16
+
+Plasma Double
+-Plasma Blaster
+-Plasma Cannon
+
+Sonic Repulsor
+-30 Sonic Damage
+-Int/Wis/Chr -6 for 30 Seconds
+-Sphere AOE
+-8 Energy
+-DC 16
+
+Sonic Double
+-Sonic Blast
+-Sonic Repulsor
+
+Lightning Chain Arm
+-18
+
+
+
+Based on these, the sequencing should be:
+Feat 1 = 6 Energy
+Feat 2 = 12 Energy
+Feat 3 = 18 Energy
+
+Also, energy can regenerate approximately 1 point per 6-10 seconds depending on what is convenient with heartbeat scripts, alternately, we could lean toward 12-20 seconds for regen and have the feats also increase the rate of energy recovery by 2x and 3x
+
+
+
+Turrets Etc
+
+
+Floating Mines:
+
+Bleh
+
+
+Turrets:
+
+Blaster Turret
+1d8 Energy / 20-20 x1
+40 VitalityRegular Blaster Ammo
+Rapid Blaster Turret1d8 Energy / 20-20 x1Improved Rapid Shot60 VitalityRegular Blaster Ammo
+Heavy Turret1d16 Energy / 20-20 x1Master Power Shot80 VitalityHeavy Green Blaster Ammo
+
+Heavy Rapid Turret1d16 Energy / 20-20 x1Master Rapid Shot
+80 VitalityGreen Blaster AmmoIon Turret1d8 Ion / 20-20 x1+1d4 Ion vs DroidCan use Ion Blaster once per minute60 VitalityIon AmmoSonic Disruptor Turret1d10 Sonic / 20-20 x180 VitalitySonic Ammo

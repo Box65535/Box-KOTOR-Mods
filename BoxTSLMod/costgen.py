@@ -33,6 +33,16 @@ costs.append(Item('ha_echani3', 3900))
 costs.append(Item('ha_zabrak3', 4300))
 costs.append(Item('ha_verpin3', 3500))
 
+costs.append(Item('ha_repub4', 5500))
+costs.append(Item('ha_mand4', 7500))
+costs.append(Item('ha_echani4', 7200))
+costs.append(Item('ha_sith4', 6000))
+costs.append(Item('ha_gammor4', 6800))
+
+costs.append(Item('ha_power5', 12000))
+costs.append(Item('ha_mand5', 12500))
+costs.append(Item('ha_matrix5', 16000))
+
 
 costs.append(Item('da_impact1', 550))
 costs.append(Item('da_mod1', 400))
@@ -46,9 +56,23 @@ costs.append(Item('da_dura2', 1600))
 costs.append(Item('da_energy2', 1400))
 costs.append(Item('da_radian2', 1300))
 
+costs.append(Item('da_impact3', 2200))
+costs.append(Item('da_mod3', 1600))
+costs.append(Item('da_dura3', 3200))
+costs.append(Item('da_energy3', 2800))
+costs.append(Item('da_radian3', 2600))
+
 
 costs.append(Item('ja_padawa', 400))
 costs.append(Item('ja_jedi', 900))
+costs.append(Item('ja_knight', 1400))
+costs.append(Item('ja_dark', 1300))
+costs.append(Item('ja_master', 1700))
+costs.append(Item('ja_norris', 1500))
+costs.append(Item('ja_barand', 1200))
+costs.append(Item('ja_matuka', 1400))
+costs.append(Item('ja_natth', 2000))
+costs.append(Item('ja_hand', 2400))
 
 
 
@@ -88,6 +112,20 @@ costs.append(Item('wr_assaul3', 1700))
 costs.append(Item('wr_zabrak3', 2100))
 costs.append(Item('wr_droid3', 2500))
 
+costs.append(Item('wr_blast4', 3500))
+costs.append(Item('wr_sonicd4', 4400))
+costs.append(Item('wr_zabrak4', 4800))
+costs.append(Item('wr_oclock4', 4000))
+
+costs.append(Item('wr_blast5', 5500))
+costs.append(Item('wr_mand5', 7500))
+
+costs.append(Item('wr_bow1', 1800))
+costs.append(Item('wr_bow2', 4000))
+
+
+
+
 costs.append(Item('wm_short', 50))
 costs.append(Item('wm_long', 100))
 costs.append(Item('wm_quarter', 75))
@@ -95,9 +133,31 @@ costs.append(Item('wm_dblade', 175))
 costs.append(Item('wm_baton', 100))
 costs.append(Item('wm_pike', 250))
 
+costs.append(Item('wm_gammor1', 600))
+costs.append(Item('wm_wookie1', 1000))
+
 costs.append(Item('wm_vblade', 1000))
 costs.append(Item('wm_vsword', 1500))
 costs.append(Item('wm_vdoubl', 3000))
+
+costs.append(Item('wm_echani', 2500))
+costs.append(Item('wm_rodian', 2250))
+costs.append(Item('wm_trando', 2400))
+costs.append(Item('wm_gammor2', 2700))
+costs.append(Item('wm_gand1', 2000))
+costs.append(Item('wm_geonos', 3200))
+costs.append(Item('wm_sith', 3350))
+costs.append(Item('wm_ludo', 8000))
+costs.append(Item('wm_gand2', 1600))
+costs.append(Item('wm_tehkla', 2200))
+costs.append(Item('wm_zhabok', 3500))
+costs.append(Item('wm_twilek1', 1200))
+costs.append(Item('wm_twilek2', 1200))
+costs.append(Item('wm_wookie2', 4200))
+costs.append(Item('wm_shyarn', 2300))
+costs.append(Item('wm_ryyk', 2500))
+
+
 
 
 # costs.append(Item('hw_flame1', 1100))
@@ -130,19 +190,33 @@ costs.append(Item('hb_cardio1', 300))
 costs.append(Item('hb_reflex1', 300))
 costs.append(Item('hb_nerve1', 350))
 costs.append(Item('hb_steal', 300))
-
+costs.append(Item('hb_cardio2', 600))
+costs.append(Item('hb_reflex2', 600))
+costs.append(Item('hb_nerve2', 700))
 
 
 costs.append(Item('hh_medpac1', 20))
 costs.append(Item('hh_medpac1e', 10))
 costs.append(Item('hh_medpac2', 60))
 costs.append(Item('hh_medpac2e', 30))
+costs.append(Item('hh_medpac3', 80))
+costs.append(Item('hh_medpac3e', 40))
 costs.append(Item('hh_antido', 40))
 costs.append(Item('hh_antidoe', 20))
+costs.append(Item('hh_lifepk1', 60))
+costs.append(Item('hh_lifepk1e', 30))
+costs.append(Item('hh_lifepk2', 100))
+costs.append(Item('hh_lifepk2e', 50))
 
 costs.append(Item('dh_repair1', 25))
 costs.append(Item('dh_repair2', 50))
+costs.append(Item('dh_repair2e', 25))
+costs.append(Item('dh_repair3', 75))
+costs.append(Item('dh_repair3e', 50))
 costs.append(Item('dh_quick1', 50))
+costs.append(Item('dh_quick1e', 25))
+costs.append(Item('dh_quick2', 75))
+costs.append(Item('dh_quick2e', 50))
 
 costs.append(Item('g_i_progspike01', 200))
 costs.append(Item('g_i_parts01', 200))

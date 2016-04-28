@@ -12,17 +12,20 @@ void main() {
 	object oTarget = GetSpellTargetObject();
 	
 	// Spell properties
-	int castDC = 8;
+	int castDC = 6;
 	string name = "Force Afflict";
 	int alignment = POWER_TYPE_DARK;
 	
-	if (!Box_RollCastDC(oUser, castDC, alignment)) {
+	// Force
+	int force = Box_GetSpellForce(oUser, alignment, Box_RollCastDC(oUser, castDC, alignment));
+	
+	if (!Box_CheckPowerSuccess(oUser, castDC, alignment)) {
 		ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectForceFizzle(), oUser);
 		Box_SignalSpellFailed(oUser, name);
 	}
 	else {
 		
-		int saveResult = Box_AfflictPower(oUser, oTarget);
+		int saveResult = Box_AfflictPower(oUser, oTarget, force);
 		
 		if (saveResult == IMMUNE) {
 			Box_SignalSpellImmune(oTarget, name);

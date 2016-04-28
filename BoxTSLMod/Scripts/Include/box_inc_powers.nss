@@ -4,10 +4,9 @@
 // Include file for force powers
 
 //
-void Box_SpeedPower(object oUser, object oTarget) {
+void Box_SpeedPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
 	float duration = 18.0 + 3.0*force;
 	
 	//
@@ -18,11 +17,10 @@ void Box_SpeedPower(object oUser, object oTarget) {
 }
 
 //
-int Box_SweepPower(object oUser, object oTarget) {
+int Box_SweepPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_UNIVERSAL);
+	int powerDC = 10 + force;
 	int damage = d4(force);
 	int damageType = DAMAGE_TYPE_BLUDGEONING;
 	float duration = 3.0;
@@ -49,11 +47,10 @@ int Box_SweepPower(object oUser, object oTarget) {
 }
 
 //
-int Box_PushPower(object oUser, object oTarget) {
+int Box_PushPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_UNIVERSAL);
+	int powerDC = 10 + force;
 	int damage = d6(force);
 	int damageType = DAMAGE_TYPE_BLUDGEONING;
 	float duration = 0.5 + 0.1*force;
@@ -80,11 +77,10 @@ int Box_PushPower(object oUser, object oTarget) {
 }
 
 //
-int Box_IonizePower(object oUser, object oTarget) {
+int Box_IonizePower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_UNIVERSAL);
+	int powerDC = 10 + force;
 	int damage = d4(force);
 	int damageType = DAMAGE_TYPE_ION;
 	float duration = 9.0 + 0.25*force;
@@ -110,11 +106,10 @@ int Box_IonizePower(object oUser, object oTarget) {
 }
 
 //
-int Box_SleepPower(object oUser, object oTarget) {
+int Box_SleepPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_LIGHT);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_LIGHT);
+	int powerDC = 10 + force;
 	float duration = 6.0 + 0.25*force;
 	int save = SAVING_THROW_WILL;
 	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
@@ -137,11 +132,10 @@ int Box_SleepPower(object oUser, object oTarget) {
 	return saveResult;
 }
 
-int Box_BlindPower(object oUser, object oTarget) {
+int Box_BlindPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_UNIVERSAL);
+	int powerDC = 10 + force;
 	float duration = 12.0 + 0.5*force;
 	int save = SAVING_THROW_WILL;
 	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
@@ -166,11 +160,10 @@ int Box_BlindPower(object oUser, object oTarget) {
 }
 
 //
-int Box_AfflictPower(object oUser, object oTarget) {
+int Box_AfflictPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_DARK);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_DARK);
+	int powerDC = 10 + force;
 	float duration = 18.0 + 2.0*force;
 	int save = Box_GetBestSave(oTarget, SAVING_THROW_FORT, SAVING_THROW_WILL);
 	int saveType = SAVING_THROW_TYPE_POISON;
@@ -196,10 +189,9 @@ int Box_AfflictPower(object oUser, object oTarget) {
 }
 
 //
-void Box_ValorPower(object oUser, object oTarget) {
+void Box_ValorPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_LIGHT);
 	float duration = 9.0 + force;
 	
 	//
@@ -213,10 +205,9 @@ void Box_ValorPower(object oUser, object oTarget) {
 }
 
 //
-void Box_FuryPower(object oUser, object oTarget) {
+void Box_FuryPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_DARK);
 	float duration = 9.0 + force;
 	
 	//
@@ -228,12 +219,11 @@ void Box_FuryPower(object oUser, object oTarget) {
 }
 
 //
-int Box_ThrowLightsaberPower(object oUser, object oTarget) {
+int Box_ThrowLightsaberPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
 	int damage = d6(force);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_UNIVERSAL);
+	int powerDC = 10 + force;
 	int save = SAVING_THROW_REFLEX;
 	int saveType = SAVING_THROW_TYPE_NONE;
 	
@@ -256,10 +246,9 @@ int Box_ThrowLightsaberPower(object oUser, object oTarget) {
 }
 
 //
-void Box_ShieldPower(object oUser, object oTarget) {
+void Box_ShieldPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
 	float duration = 10.0 + 2.0*force;
 	
 	//
@@ -271,10 +260,9 @@ void Box_ShieldPower(object oUser, object oTarget) {
 }
 
 //
-void Box_BodyPower(object oUser, object oTarget) {
+void Box_BodyPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_LIGHT);
 	float duration = 18.0 + 3.0*force;
 	
 	//
@@ -290,10 +278,9 @@ void Box_BodyPower(object oUser, object oTarget) {
 }
 
 //
-void Box_EnlightenPower(object oUser, object oTarget) {
+void Box_EnlightenPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_LIGHT);
 	float duration = 18.0 + 3.0*force;
 	
 	// Force Speed
@@ -324,11 +311,10 @@ void Box_EnlightenPower(object oUser, object oTarget) {
 }
 
 //
-int Box_FearPower(object oUser, object oTarget) {
+int Box_FearPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_DARK);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_DARK);
+	int powerDC = 10 + force;
 	float duration = 9.0 + 0.25*force;
 	int save = SAVING_THROW_WILL;
 	int saveType = SAVING_THROW_TYPE_FEAR;
@@ -352,11 +338,10 @@ int Box_FearPower(object oUser, object oTarget) {
 }
 
 //
-int Box_ParalyzePower(object oUser, object oTarget) {
+int Box_ParalyzePower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_LIGHT);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_LIGHT);
+	int powerDC = 10 + force;
 	float duration = 12.0 + 0.5*force;
 	int save = SAVING_THROW_WILL;
 	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
@@ -380,11 +365,10 @@ int Box_ParalyzePower(object oUser, object oTarget) {
 }
 
 //
-int Box_ChokePower(object oUser, object oTarget) {
+int Box_ChokePower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_DARK);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_DARK);
+	int powerDC = 10 + force;
 	int damage = d6(force);
 	int damageType = DAMAGE_TYPE_DARK_SIDE;
 	float duration = 9.0;
@@ -410,11 +394,10 @@ int Box_ChokePower(object oUser, object oTarget) {
 }
 
 //
-int Box_LevitatePower(object oUser, object oTarget)  {
+int Box_LevitatePower(object oUser, object oTarget, int force)  {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_UNIVERSAL);
+	int powerDC = 10 + force;
 	float duration = 9.0 + 0.25*force;
 	int save = Box_GetBestSave(oTarget, SAVING_THROW_REFLEX, SAVING_THROW_WILL);
 	int saveType = SAVING_THROW_TYPE_NONE;
@@ -436,11 +419,10 @@ int Box_LevitatePower(object oUser, object oTarget)  {
 }
 
 //
-int Box_SuppressPower(object oUser, object oTarget) {
+int Box_SuppressPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_LIGHT);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_LIGHT);
+	int powerDC = 10 + force;
 	int damage = d6(force);
 	float duration = 18.0 + 2.0*force;
 	int save = SAVING_THROW_WILL;
@@ -468,11 +450,10 @@ int Box_SuppressPower(object oUser, object oTarget) {
 }
 
 //
-int Box_ConfusionPower(object oUser, object oTarget) {
+int Box_ConfusionPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_UNIVERSAL);
+	int powerDC = 10 + force;
 	float duration = 12.0 + force;
 	int save = SAVING_THROW_WILL;
 	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
@@ -496,11 +477,10 @@ int Box_ConfusionPower(object oUser, object oTarget) {
 }
 
 //
-int Box_MassConfusionPower(object oUser, object oTarget) {
+int Box_MassConfusionPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_UNIVERSAL);
+	int powerDC = 10 + force;
 	float duration = 12.0 + force;
 	int save = SAVING_THROW_WILL;
 	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
@@ -525,10 +505,9 @@ int Box_MassConfusionPower(object oUser, object oTarget) {
 }
 
 //
-void Box_AgilityPower(object oUser, object oTarget) {
+void Box_AgilityPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
 	float duration = 18.0 + 3.0*force;
 	
 	//
@@ -539,11 +518,10 @@ void Box_AgilityPower(object oUser, object oTarget) {
 }
 
 //
-int Box_LightPower(object oUser, object oTarget) {
+int Box_LightPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_LIGHT);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_LIGHT);
+	int powerDC = 10 + force;
 	int save = SAVING_THROW_WILL;
 	int saveType = SAVING_THROW_TYPE_LIGHT_SIDE;
 	int damageType = DAMAGE_TYPE_LIGHT_SIDE;
@@ -605,11 +583,10 @@ int Box_LightPower(object oUser, object oTarget) {
 }
 
 //
-int Box_LightningPower(object oUser, object oTarget) {
+int Box_LightningPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_DARK);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_DARK);
+	int powerDC = 10 + force;
 	int damage = d12(force);
 	int damageType = DAMAGE_TYPE_DARK_SIDE;
 	float duration = 3.0;
@@ -635,11 +612,10 @@ int Box_LightningPower(object oUser, object oTarget) {
 }
 
 //
-int Box_DrainPower(object oUser, object oTarget) {
+int Box_DrainPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_DARK);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_DARK);
+	int powerDC = 10 + force;
 	int damage = d6(force);
 	int damageType = DAMAGE_TYPE_DARK_SIDE;
 	int save = Box_GetBestSave(oTarget, SAVING_THROW_FORT, SAVING_THROW_WILL);
@@ -666,10 +642,9 @@ int Box_DrainPower(object oUser, object oTarget) {
 }
 
 //
-void Box_MeditationPower(object oUser, object oTarget) {
+void Box_MeditationPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_LIGHT);
 	float duration = 18.0 + 3.0*force;
 	
 	//
@@ -681,10 +656,9 @@ void Box_MeditationPower(object oUser, object oTarget) {
 }
 
 //
-void Box_MasterMeditationPower(object oUser, object oTarget) {
+void Box_MasterMeditationPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_LIGHT);
 	float duration = 18.0 + 3.0*force;
 	
 	//
@@ -697,11 +671,10 @@ void Box_MasterMeditationPower(object oUser, object oTarget) {
 }
 
 //
-int Box_CrushPower(object oUser, object oTarget) {
+int Box_CrushPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_DARK);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_DARK);
+	int powerDC = 10 + force;
 	int damage = d6(force);
 	int damageType = DAMAGE_TYPE_DARK_SIDE;
 	int save = Box_GetBestSave(oTarget, SAVING_THROW_FORT, SAVING_THROW_WILL);
@@ -728,11 +701,10 @@ int Box_CrushPower(object oUser, object oTarget) {
 }
 
 //
-int Box_SeverPower(object oUser, object oTarget) {
+int Box_SeverPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_LIGHT);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_LIGHT);
+	int powerDC = 10 + force;
 	int save = SAVING_THROW_WILL;
 	int saveType = SAVING_THROW_TYPE_LIGHT_SIDE;
 	
@@ -755,11 +727,10 @@ int Box_SeverPower(object oUser, object oTarget) {
 }
 
 //
-int Box_ConsumePower(object oUser, object oTarget) {
+int Box_ConsumePower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_DARK);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_DARK);
+	int powerDC = 10 + force;
 	int save = SAVING_THROW_WILL;
 	int saveType = SAVING_THROW_TYPE_DARK_SIDE;
 	
@@ -800,9 +771,8 @@ int Box_ConsumePower(object oUser, object oTarget) {
 }
 
 //
-void Box_BreathPower(object oUser, object oTarget) {
+void Box_BreathPower(object oUser, object oTarget, int force) {
 	
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
 	float duration = 120.0 + 15.0*force;
 	
 	//
@@ -813,11 +783,10 @@ void Box_BreathPower(object oUser, object oTarget) {
 }
 
 //
-int Box_BeastPower(object oUser, object oTarget) {
+int Box_BeastPower(object oUser, object oTarget, int force) {
 	
 	//
-	int force = Box_GetForce(oUser, POWER_TYPE_UNIVERSAL);
-	int powerDC = Box_GetPowerDC(oUser, POWER_TYPE_UNIVERSAL);
+	int powerDC = 10 + force;
 	float duration = 24.0 + 3.0*force;
 	int save = SAVING_THROW_WILL;
 	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;

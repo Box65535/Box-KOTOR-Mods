@@ -120,7 +120,12 @@ int Box_PlasmaBlaster(object oUser, object oTarget) {
 	return saveResult;
 }
 
-
+// Convenience function for equipping hides
+void Box_EquipHide(object oEnemy, int type, int strength) {
+	
+	string hide = Box_GetHideTemplate(type, strength);
+	ActionEquipItem(CreateItemOnObject(hide, oEnemy), INVENTORY_SLOT_CARMOUR, TRUE);
+}
 
 
 

@@ -23,8 +23,8 @@ int POWER_TYPE_DARK = 3;
 int FORCE_FEAT_1 = #BOX_FORCE1#;
 int FORCE_FEAT_2 = #BOX_FORCE2#;
 int FORCE_FEAT_3 = #BOX_FORCE3#;
-int FORCE_FEAT_4 = #BOX_FORCE4#;
-int FORCE_FEAT_5 = #BOX_FORCE5#;
+// int FORCE_FEAT_4 = #BOX_FORCE4#;
+// int FORCE_FEAT_5 = #BOX_FORCE5#;
 int FEAT_FORCE_SEVER = 2; // This should be advanced guard stance, an unused feat
 
 //
@@ -185,7 +185,7 @@ int Box_ModifyForceByAlignment(object oUser, int force, int powerAlignment) {
 }
 
 //
-int Box_GetForce(object oUser, int powerAlignment) {
+int Box_GetBaseForce(object oUser, int powerAlignment) {
 	
 	int force = GetAbilityModifier(ABILITY_CHARISMA, oUser);
 	int totalLevel = GetHitDice(oUser);
@@ -196,16 +196,16 @@ int Box_GetForce(object oUser, int powerAlignment) {
 		force += Box_GetForceByClassLevel(class, level, totalLevel);
 	}
 	
-	if (GetFeatAcquired(FORCE_FEAT_1, oUser))
-		force++;
-	if (GetFeatAcquired(FORCE_FEAT_2, oUser))
-		force++;
-	if (GetFeatAcquired(FORCE_FEAT_3, oUser))
-		force++;
-	if (GetFeatAcquired(FORCE_FEAT_4, oUser))
-		force++;
-	if (GetFeatAcquired(FORCE_FEAT_5, oUser))
-		force++;
+	// if (GetFeatAcquired(FORCE_FEAT_1, oUser))
+		// force++;
+	// if (GetFeatAcquired(FORCE_FEAT_2, oUser))
+		// force++;
+	// if (GetFeatAcquired(FORCE_FEAT_3, oUser))
+		// force++;
+	// if (GetFeatAcquired(FORCE_FEAT_4, oUser))
+		// force++;
+	// if (GetFeatAcquired(FORCE_FEAT_5, oUser))
+		// force++;
 	
 	force = Box_ModifyForceByAlignment(oUser, force, powerAlignment);
 	
@@ -215,21 +215,63 @@ int Box_GetForce(object oUser, int powerAlignment) {
 	return force;
 }
 
-//
+int Box_GetCastForce(object oUser, int powerAlignment) {
+	
+	int force = Box_GetBaseForce(oUser, powerAlignment)
+	
+	if (GetFeatAcquired(FORCE_FEAT_1, oUser))
+		force++;
+	if (GetFeatAcquired(FORCE_FEAT_2, oUser))
+		force++;
+	if (GetFeatAcquired(FORCE_FEAT_3, oUser))
+		force++;
+	
+	return force;
+}
+
+int Box_GetSpellForce(object oUser, int powerAlignment, int castSuccess) {
+	
+	int force = Box_GetBaseForce(oUser, powerAlignment)
+	
+	if (castSuccess)
+		return force;
+	else
+		return (force + 1) / 2;
+}
+
+// 
 int Box_RollCastDC(object oUser, int castDC, int powerAlignment) {
 	
-	int force = Box_GetForce(oUser, powerAlignment);
+	int force = Box_GetCastForce(oUser, powerAlignment)
 	
-	if (force <= 0) {
-		return FALSE;
-	}
-	else if (force + d10() >= castDC) {
+	if (force + d8() >= castDC) {
 		return TRUE;
 	}
 	else {
 		return FALSE;
 	}
 }
+
+// 
+int Box_CheckSpellSuccess(object oUser, int castDC, int powerAlignment) {
+	
+	int force = Box_GetBaseForce(oUser, powerAlignment);
+	
+	if (force <= 0) {
+		return FALSE;
+	}
+	// else if (force + d10() >= castDC) {
+		// return TRUE;
+	// }
+	// else {
+		// return FALSE;
+	// }
+	else {
+		return TRUE;
+	}
+}
+
+int Box_Roll
 
 //
 int Box_GetPowerDC(object oUser, int powerAlignment) {

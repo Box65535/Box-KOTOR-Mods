@@ -23,6 +23,12 @@ python costgen.py
 python modulegen.py
 copy dc.ini tslpatchdata
 
+copy Dependencies\TSLPatcher.exe .
+copy Dependencies\nwnnsscomp.exe tslpatchdata
+copy Dependencies\nwnnsscomp.exe Scripts
+copy Dependencies\nwscript.nss tslpatchdata
+copy Dependencies\nwscript.nss Scripts
+
 TSLPatcher.exe armor.ini
 TSLPatcher.exe hides.ini
 copy Strings\Feats\append.tlk tslpatchdata

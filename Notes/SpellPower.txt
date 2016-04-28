@@ -1,0 +1,47 @@
+
+
+A character's force power can be calculated like so:
+
+Start with the Charisma Modifier
+
+Spell Power also gets the following class bonuses:
+
+Jedi Consular - Base 1, Gain on 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29
+Other Jedi - Base 0, Gain on 3, 5, 9, 11, 15, 17, 21, 23, 27, 29
+
+Jedi Apprentice - Base 1, Gain every level
+HOWEVER you have to make a special calculation in this case
+
+For Jedi Apprentice, take the total level of the character who is the apprentice
+Calculate the Spell Power if a Non-Consular Jedi had that total level
+If the Spell Power calculated above is greater than this new value, use the new value
+
+
+Each character can also gain up to 5 points with feats, 1 point per feat
+Some other bonuses may be available as well
+
+
+Spell Power + d10 is compared against Spell DC
+Spell Power is -1 for every 5 points out of alignment past 40/60
+Spell Power penalties are reduced by 1 for every Chr modifier
+
+
+Characters also use Spell Power to calculate a spell DC against which other characters have to save
+That value is calculated as
+
+Spell Power + 10
+
+
+
+High Spells (Presige):	Base 1, Gain on 2, 4, 7, 9, 12, 14, 17, 19, 22, 24, 27, 29
+Low Spells (Prestige):	Base 1, Gain on 4, 9, 14, 19, 24, 29
+
+High Spells (Other):	Base 1, Gain on 2, 5, 8, 10, 12, 15, 18, 20, 22, 25, 28, 30
+Low Spells (Other):		Base 1, Gain on 2, 5, 10, 15, 20, 25, 30
+
+
+Highest Force:	6 Per Level
+High Force:		5 Per Level
+Low Force:		3 Per Level
+
+

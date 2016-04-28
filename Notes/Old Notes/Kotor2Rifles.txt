@@ -1,0 +1,522 @@
+Ion Carbine
+w_brifle_02
+1d10 Ion / Threat Range 20-20, x3
++1d10 Ion vs Droid
+Not Upgradeable
+
+Ion Rifle
+w_brifle_07
+1d10 Ion / Threat Range 20-20, x3
++1d10 Ion vs Droid
+Scope and Chamber Upgrades Only
+
+Bothan Droid Disruptor
+w_brifle_15
+1d10 Ion / Threat Range 20-20, x3
++2d10 Ion vs Droid
++1 Enhancement
+Scope and Chamber Upgrades Only
+
+Verpine Droid Disruptor
+w_brifle_20
+1d10 Ion / Threat Range 20-20, x3
++2d10 Ion vs Droid
++2 Enhancement
+Scope and Chamber Upgrades Only
+
+Verpine Droid Disintegrator
+w_brifle_29
+1d10 Ion / Threat Range 20-20, x3
++1d10 Ion
++3d10 Ion vs Droid
++2 Enhancement
+Scope and Chamber Upgrades Only
+
+Sonic Carbine
+w_brifle_03
+1d10 Sonic / Threat Range 20-20, x2
+Dex Damage DC 14
+Not Upgradeable
+
+Sonic Rifle
+w_brifle_09
+1d10 Sonic / Threat Range 20-20, x2
+Dex Damage DC 14
+Scope Upgrades Only
+
+Argazdan Riot Buster
+w_brifle_14
+1d10 Sonic / Threat Range 20-20, x2
+Stun 25% DC 10
+Dex Damage DC 14
+Scope Upgrades Only
+
+Sonic Disruptor
+w_brifle_27
+1d10 Sonic / Threat Range 20-20, x2
++1d10 Unstoppable
+Stun 25% DC 18
+Dex Damage DC 22
+Scope Upgrades Only
+
+Disruptor Carbine
+w_brifle_08
+1d10 Unstoppable / Threat Range 18-20, x2
+Not Upgradeable
+
+Disruptor Rifle
+w_brifle_13
+1d10 Unstoppable / Threat Range 18-20, x2
+Fully Upgradable
+
+Charric
+w_brifle_23
+1d10 Unstoppable / Threat Range 18-20, x2
++4 Attack
+Knockdown DC 14
+Fully Upgradeable
+
+Droid Assassin's Rifle
+d_hk47_01
+Charric
+w_brifle_23
+1d10 Unstoppable / Threat Range 18-20, x2
++5 Attack
++2d10 Massive Crit
+All Sniper Sho
+Not Upgradeable ??
+HK-47
+
+Blaster Carbine
+w_brifle_01
+1d12 Energy / Threat Range 20-20, x2
+Not Upgradeable
+
+Zabrak Blaster Carbine
+w_brifle_24
+1d12 Energy / Threat Range 20-20, x2
++1d12 Energy
++3 Energy
+Keen
+Not Upgradeable
+
+Slavemaster Stun Carbine
+w_brifle_25
+1d12 Energy / Threat Range 20-20, x2
+Con Damage DC 14
+Stun 25% DC 22
+Not Upgradeable
+
+Blaster Rifle
+w_brifle_04
+1d12 Energy / Threat Range 19-20, x2
+Fully Upgradeable
+
+Arkanian Blaster Rifle
+w_brifle_12
+1d12 Energy / Threat Range 19-20, x2
++2 Energy
++1 Enhancement
+Scope Upgrades Only
+
+Plasma Projector
+w_brifle_18
+1d12 Energy / Threat Range 19-20, x2
++1d12 Energy
+Rifle Focus
+Rifle Spec
+Keen
+Not Upgradeable
+
+Mandalorian Assault Rifle
+w_brifle_19
+1d12 Energy / Threat Range 19-20, x2
++2 Enhancement
+Stun 25% DC 14
+Fully Upgradeable
+
+Zersium Rifle
+w_brifle_30
+1d12 Energy / Threat Range 19-20, x2
++1d12 Energy
++1 Enhancement
+Fully Upgradeable
+
+Bowcaster
+w_brifle_05
+1d10 Energy / Threat Range 19-20, x3
++1 Energy
+Not Upgradeable
+
+War Bowcaster
+w_brifle_11
+1d10 Energy / Threat Range 19-20, x3
++1 Energy
+Fully Upgradeable
+
+Ceremonial Bowcaster
+w_brifle_21
+1d10 Energy / Threat Range 19-20, x3
+Rapid Shot
+Improved Rapid Shot
+Keen
++3 Enhancement
+Not Upgradeable
+
+Repeating Blaster Carbine
+w_brifle_06
+2d6 Energy / Threat Range 20-20, x2
+Not Upgradeable
+
+Repeating Blaster Rifle
+w_brifle_10
+2d6 Energy / Threat Range 20-20, x2
+Fully Upgradeable
+
+Combat Enforcer
+w_brifle_16
+2d6 Energy / Threat Range 20-20, x2
+-2 Attack
++1d6 Massive Crit
+Con Damage DC 10
+Fully Upgradable
+
+Onderon Repeating Carbine
+w_brifle_26
+2d6 Energy / Threat Range 20-20, x2
++2d6 Energy
++1 Enhancement
+Not Upgradeable
+
+Heavy Repeating Carbine
+w_brifle_17
+2d8 Energy / Threat Range 20-20, x2
++1d6 Energy
+Not Upgradeable
+
+Heavy Repeating Rifle
+w_brifle_22
+2d8 Energy / Threat Range 20-20, x2
++1d6 Energy
+Fully Upgradeable
+
+Mandalorian Heavy Repeater
+w_brifle_28
+2d8 Energy / Threat Range 20-20, x2
++1d8 Energy
++1d10 Massive Crit
+Not Upgradeable
+
+Advanced Mining Laser
+advancedminingla
+???
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ion Carbine
+w_brifle_02
+1d10 Ion / Threat Range 20-20, x2
++1d6 Ion vs Droid
+Not Upgradeable
+800 Credits
+
+Ion Rifle
+w_brifle_07
+1d10 Ion / Threat Range 20-20, x2
++1d6 Ion vs Droid
+Scope and Chamber Upgrades Only
+2000 Credits
+
+Bothan Droid Disruptor
+w_brifle_15
+1d10 Ion / Threat Range 20-20, x2
++1d3 Ion
++1d8 Ion vs Droid
+Scope and Chamber Upgrades Only
+3500 Credits
+
+Verpine Droid Disruptor
+w_brifle_20
+1d10 Ion / Threat Range 20-20, x2
++1d4 Ion
++1d12 Ion vs Droid
+Scope and Chamber Upgrades Only
+6000 Credits
+
+Verpine Droid Disintegrator
+w_brifle_29
+1d10 Ion / Threat Range 20-20, x2
++1d4 Ion
++2d8 Ion vs Droid
+Scope and Chamber Upgrades Only
+8000 Credits
+
+
+
+Sonic Carbine
+w_brifle_03
+1d8 Sonic / Threat Range 20-20, x2
+Dex Damage DC 14
+Not Upgradeable
+1200 Credits
+
+Sonic Rifle
+w_brifle_09
+1d8 Sonic / Threat Range 20-20, x2
+Dex Damage DC 14
+Scope Upgrades Only
+2500 Credits
+
+Argazdan Riot Buster
+w_brifle_14
+1d8 Sonic / Threat Range 20-20, x2
+Stun 25% DC 18
+Dex Damage DC 18
+Scope Upgrades Only
+6000 Credits
+
+Sonic Disruptor
+w_brifle_27
+1d8 Sonic / Threat Range 20-20, x2
++1d8 Unstoppable
+Keen
+Dex Damage DC 22
+Scope Upgrades Only
+10000 Credits
+
+
+Disruptor Carbine
+w_brifle_08
+1d8 Unstoppable / Threat Range 19-20, x2
+Not Upgradeable
+600 Credits
+
+Disruptor Rifle
+w_brifle_13
+1d8 Unstoppable / Threat Range 19-20, x2
+Fully Upgradable
+2000 Credits
+
+Charric
+w_brifle_23
+1d8 Unstoppable / Threat Range 19-20, x2
++2 Attack
+Fully Upgradeable
+5000 Credits
+
+Droid Assassin's Rifle
+d_hk47_01
+Charric
+w_brifle_23
+1d8 Unstoppable / Threat Range 19-20, x2
++2 Attack
++2d8 Massive Crit
+Keen
+Not Upgradeable ??
+HK-47
+15000 Credits
+
+
+Blaster Carbine
+w_brifle_01
+1d12 Energy / Threat Range 20-20, x2
+Not Upgradeable
+400 Credits
+
+Zabrak Blaster Carbine
+w_brifle_24
+1d12 Energy / Threat Range 20-20, x2
++1d12 Energy
+Not Upgradeable
+4000 Credits
+
+Slavemaster Stun Carbine
+w_brifle_25
+1d12 Energy / Threat Range 20-20, x2
+Stun 50% DC 22
+Not Upgradeable
+4000 Credits
+
+
+
+Blaster Rifle
+w_brifle_04
+1d12 Energy / Threat Range 19-20, x2
+Fully Upgradeable
+1500 Credits
+
+Arkanian Blaster Rifle
+w_brifle_12
+1d12 Energy / Threat Range 19-20, x2
++1d4 Energy
++1 Attack
+Scope Upgrades Only
+2000 Credits
+
+Plasma Projector
+w_brifle_18
+1d12 Energy / Threat Range 19-20, x2
++1d6 Ion
++1d6 Fire
+Not Upgradeable
+5000 Credits
+
+Mandalorian Assault Rifle
+w_brifle_19
+1d12 Energy / Threat Range 19-20, x2
++1 Attack
+Fully Upgradeable
+4000 Credits
+
+Zersium Rifle
+w_brifle_30
+1d12 Energy / Threat Range 19-20, x2
++1d6 Energy
+Fully Upgradeable
+6000 Credits
+
+
+
+
+Bowcaster
+w_brifle_05
+1d10 Energy / Threat Range 19-20, x3
+Not Upgradeable
+1000 Credits
+
+War Bowcaster
+w_brifle_11
+1d10 Energy / Threat Range 19-20, x3
+Fully Upgradeable
+3000 Credits
+
+Ceremonial Bowcaster
+w_brifle_21
+1d10 Energy / Threat Range 19-20, x3
++3 Attack
+Keen
+Not Upgradeable
+9000 Credits
+
+
+
+Repeating Blaster Carbine
+w_brifle_06
+4d4 Energy / Threat Range 20-20, x2
+Not Upgradeable
+Repeating Blasters
+3000 Credits
+
+Repeating Blaster Rifle
+w_brifle_10
+4d4 Energy / Threat Range 20-20, x2
+Fully Upgradeable
+Repeating Blasters
+6000 Credits
+
+Combat Enforcer
+w_brifle_16
+4d4 Energy / Threat Range 20-20, x2
++1 Attack
+Fully Upgradable
+Repeating Blasters
+8000 Credits
+
+Onderon Repeating Carbine
+w_brifle_26
+4d4 Energy / Threat Range 20-20, x2
++3d4 Energy
++1 Attack
+Not Upgradeable
+Repeating Blasters
+13000 Credits
+
+
+
+Heavy Repeating Carbine
+w_brifle_17
+4d6 Energy / Threat Range 20-20, x2
+Not Upgradeable
+Heavy Repeating Blasters
+4000 Credits
+
+Heavy Repeating Rifle
+w_brifle_22
+4d6 Energy / Threat Range 20-20, x2
+Fully Upgradeable
+Heavy Repeating Blasters
+8000 Credits
+
+Mandalorian Heavy Repeater
+w_brifle_28
+4d6 Energy / Threat Range 20-20, x2
++2d6 Energy
++2 Attack
+Not Upgradeable
+Heavy Repeating Blasters
+15000 Credits
+
+Advanced Mining Laser
+advancedminingla
+???
+
+

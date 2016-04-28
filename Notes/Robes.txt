@@ -1,0 +1,33 @@
+
+
+
+Padawan Robe
+Nothing
+
+Jedi Robe
++1 Force Regen
+
+Jedi Knight Robe
++1 DT
+
+Dark Jedi Robe
++2 Damage
+
+Jedi Master Robe
++1 Attack
+
+Norris Robe
++2 Fort
+
+Baran Do Robe
++2 Will
+
+Matukai Robe
++1 Deflect
++1 Reflex
+
+Natth Cowling
++1 Str
+
+Handmaiden's Robe
++1 Dex

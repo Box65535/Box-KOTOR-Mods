@@ -1,0 +1,190 @@
+
+Mini Flamethrower 1
+10 Fire Damage
+3 Second Horror
+Half Damage and no Horror on Save
+Quarter Damage on Save > DC
+Fortitude OR Will Save
+Saving Throw Type Fire
+DC 10
+
+Mini Flamethrower 2
+20 Fire Damage
+3 Second Horror
+Half Damage and no Horror on Save
+Quarter Damage on Save > DC
+Fortitude OR Will Save
+Saving Throw Type Fire
+DC 12
+
+Flamethrower 1
+30 Fire Damage
+6 Second Horror
+Half Damage and no Horror on Save
+Quarter Damage on Save > DC
+Fortitude OR Will Save
+Saving Throw Type Fire
+DC 14
+
+Flamethrower 2
+50 Fire Damage
+6 Second Horror
+Half Damage and no Horror on Save
+Fortitude OR Will Save
+Saving Throw Type Fire
+DC 20
+
+
+
+Mini Carbonite 1
+8 Cold Damage
+6 Second Paralyze
+Half Damage and no Paralyze on Save
+Quarter Damage on Save > DC
+Fortitude Save
+Saving Throw Type Cold
+DC 10
+
+Mini Carbonite 2
+16 Cold Damage
+6 Second Paralyze
+Half Damage and no Paralyze on Save
+Quarter Damage on Save > DC
+Fortitude Save
+Saving Throw Type Cold
+DC 12
+
+Carbonite 1
+24 Cold Damage
+9 Second Paralyze
+Half Damage and 3 Second Paralyze on Save
+Quarter Damage and No Paralyze Save > DC
+Fortitude Save
+Saving Throw Type Cold
+DC 14
+
+Carbonite 2
+40 Cold Damage
+9 Second Paralyze
+Half Damage and 3 Second Paralyze on Save
+Quarter Damage and No Paralyze Save > DC
+Fortitude Save
+Saving Throw Type Cold
+DC 20
+
+
+
+Shock Arm 1
+36 Electric Damage
+3 Second Paralysis
+Half Damage on Save and No Paralysis
+Quarter Damage on Save > DC
+Fortitude Save
+Saving Throw Type Electrical
+DC 14
+
+Shock Arm 2
+60 Electric Damage
+3 Second Paralysis
+Half Damage on Save and No Paralysis
+Quarter Damage on Save > DC
+Fortitude Save
+Saving Throw Type Electrical
+DC 20
+
+
+
+Sonic Repulsor 1
+24 Sonic Damage
+-4 Dex for 30 Seconds
+Half Damage and -4 Int/Wis/Chr for 9 Seconds on Save
+Quarter Damage and No Attribute Damage on Save > DC
+Fortitude OR Will Save
+Saving Throw Type Sonic
+DC 14
+
+Sonic Repulsor 2
+40 Sonic Damage
+-6 Dex for 30 Seconds
+Half Damage and -6 Int/Wis/Chr for 9 Seconds on Save
+Quarter Damage and No Attribute Damage on Save > DC
+Fortitude OR Will Save
+Saving Throw Type Sonic
+DC 20
+
+
+
+Toxin Emitter 1
+36 Poison Damage across (3 Damage every 5 seconds for 1 min)
+-2 Str/Dex Attribute Poison for 1 min
+Half Damage and no Attribute Poison on Save
+Nothing on Save > DC
+Fortitude Save
+Saving Throw Type Poison
+DC 14
+
+Toxin Emitter 2
+60 Poison Damage across (5 Damage every 5 seconds for 1 min)
+-4 Str/Dex Attribute Poison for 1 min
+Half Damage and no Attribute Poison on Save
+Nothing on Save > DC
+Fortitude Save
+Saving Throw Type Poison
+DC 20
+
+
+
+
+Frag Mine 1
+20 Piercing Damage
+3.25 m Radius
+Half Damage on Save
+Quarter Damage on Save > DC
+Reflex Save
+DC 12
+
+Frag Mine 2
+30 Piercing Damage
+3.25 m Radius
+Half Damage on Save
+Quarter Damage on Save > DC
+Reflex Save
+DC 14
+
+Frag Mine 3
+40 Piercing Damage
+3.25 m Radius
+Half Damage on Save
+Quarter Damage on Save > DC
+Reflex Save
+DC 16
+
+Frag Mine 4
+50 Piercing Damage
+3.25 m Radius
+Half Damage on Save
+Quarter Damage on Save > DC
+Reflex Save
+DC 18
+
+Frag Mine 5
+60 Piercing Damage
+3.25 m Radius
+Half Damage on Save
+Quarter Damage on Save > DC
+Reflex Save
+DC 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+

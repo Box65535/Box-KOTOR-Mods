@@ -1,0 +1,246 @@
+Let's try these again:
+
+New Feats:
+
+Weapon Proficiency - Energy Weapons
+(Prereq for energy weapons - 8 Energy)
+Weapon Proficiency - Heavy Energy Weapons
+(Prereq for double energy weapons)
+
+Weapon Focus - Energy Weapons
+(+4 Energy and x1.5 Regen - Level 7 Req)
+Weapon Focus - Energy Weapons
+(+4 Energy and x1.5 Regen - Level 15 Req)
+
+
+Basically we have the following categories for energy weapons:
+-Electric
+-Ion
+-Sonic
+-Plasma
+-Stun
+-Hack
+
+There are some other potential ones but I want to start with these
+
+Each of the above has two variations
+-Electric: Single Target vs Chain Targeting
+-Ion: Blast vs Beam
+-Sonic: Blast vs Wave
+-Plasma: Blast vs Beam
+
+We haven't adequately distinguished blasts vs beams yet...
+
+Well we could try making blasts the more powerful but more costly versions of what the beams are, idk
+
+Let's try sequencing this out:
+
+
+Energy Weapons:
+Tier 1:
+
+Ion Striker Mk I
+-Droid Stun for 9 Seconds
+-Nothing on Save (Fortitude, Ion)
+-3 Energy
+-DC 14
+
+Stun Ray Mk I
+-Stun for 6 Seconds
+-Nothing on Save (Will, Mind-Affecting)
+-3 Energy
+-DC 14
+
+Shock Arm Mk I
+-12 Electrical Damage
+-4 Damage on Save (Will, Electrical)
+-4 Energy
+-DC 14
+
+
+Tier 2:
+
+Ion Striker Mk II
+-8 Ion Damage
+-Droid Stun for 9 Seconds
+-4 Damage on Save (Fortitude, Ion)
+-6 Energy
+-DC 16
+
+Shock Arm Mk II
+-16 Electrical Damage
+-Stun for 3 Seconds
+-8 Damage on Save (Will, Electrical)
+-9 Energy
+-DC 16
+
+Stun Ray Mk II
+-Stun for 9 Seconds
+-Nothing on Save (Will, Mind-Affecting)
+-6 Energy
+-DC 16
+
+Sonic Repulsor Mk I
+-Int/Wis/Chr -6 for 30 Seconds
+-Nothing on Save (Will, Sonic)
+-8 Energy
+-10m Spellcone
+-DC 16
+
+
+Tier 3:
+
+Ion Blaster
+-24 Ion Damage
+-Droid Stun for 3 Seconds
+-12 Damage on Save (Fortitude, Ion)
+-8 Energy
+-DC 18
+
+Shock Arm Mk III
+-24 Electrical Damage
+-3 Second Stun
+-12 Damage on Save (Will, Electrical)
+-10 Energy
+-DC 18
+
+
+Tier 4:
+
+Ion Striker Mk III
+-18 Ion Damage
+-Droid Stun for 12 Seconds
+-9 Damage on Save (Fortitude, Ion)
+-10 Energy
+-DC 20
+
+Plasma Blaster Mk I
+-36 Fire Damage
+-12 Damage on Save (Fortitude, Fire)
+-12 Energy
+-DC 20
+
+Sonic Repulsor Mk II
+-18 Sonic Damage
+-Int/Wis/Chr -6 for 30 Seconds
+-9 Damage on Save on Save (Will, Sonic)
+-12 Energy
+-10m Spellcylinder
+-DC 20
+
+
+Tier 5:
+
+Carbonite Projector
+-24 Cold Damage
+-Paralysis/Droid Stun for 6 Seconds
+-12 Damage on Save (Fortitude, Cold)
+-14 Energy
+-DC 22
+
+Plasma Blaster Mk II
+-48 Fire Damage
+-16 Damage on Save (Fortitude, Fire)
+-16 Energy
+-DC 24
+
+Shield Disruptor
+-16 Sonic Damage
+-Removes Shield
+-16 Energy
+-DC --
+
+
+
+
+
+Heavy Energy Weapons:
+
+Ion Cannon Mk I
+Beam:
+-12 Ion Damage
+-4 Damage on Save (Fortitude, Ion)
+-2 Energy
+-DC 14
+Blast:
+-24 Ion Damage
+-Droid Stun for 6 Seconds
+-8 Damage on Save (Fortitude, Ion)
+-6 Energy
+-DC 14
+
+Lightning Arm Mk I
+Shock:
+-24 Electrical Damage
+-8 Damage on Save (Will, Electrical)
+-4 Energy
+-DC 16
+Chain:
+-24 Electrical Damage
+-8 Damage on Save (Will, Electrical)
+-Chain Enemies 5m
+-12 Energy
+
+Twin Blaster
+Ion:
+-36 Ion Damage
+-Droid Stun for 6 Seconds
+-12 Damage on Save (Fortitude, Ion)
+-8 Energy
+-DC 18
+Plasma:
+-48 Fire Damage
+-Con -2
+-24 Damage on Save (Fortitude, Fire)
+-16 Energy
+-DC 18
+
+Twin Cannon
+Ion:
+-24 Ion Damage
+-Droid Stun for 12 Seconds
+-12 Damage on Save (Fortitude, Ion)
+-6 Energy
+-DC 18
+Plasma:
+-24 Fire Damage
+-Con -4
+-12 Damage on Save (Fortitude, Fire)
+-12 Energy
+-DC 18
+
+Radiant Cannon
+Beam:
+-18 Energy Damage
+-18 Fire Damage
+-9/9 Damage on Save (Fortitude, Energy)
+-8 Energy
+-DC 20
+Blast:
+-32 Fire Damage
+-32 Ion Damage
+-32 Energy Damage
+-16/16/16 Damage on Save (Fortitude, Energy)
+-20 Energy
+-DC 20
+
+
+
+
+
+
+
+
+
+Man this could be much bigger than I originally imagined, there are lots of potential combos:
+
+Ion/Plasma
+Stun/Electric
+Ion/Electric (Can use Ionize animation)
+Sonic/Disrupt
+Stun/Hack
+Ion/Hack
+
+Will need to come back to this
+
+Also, would be cool if Bao-Dur could use energy weapons since his left arm is locked (hopefully)

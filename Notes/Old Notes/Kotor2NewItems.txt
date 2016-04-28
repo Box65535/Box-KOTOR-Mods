@@ -1,0 +1,98 @@
+
+
+
+Blaster
+
+Damage:		1d8
+Type:		Energy
+Tier 1:		Nothing
+Comments:
+
+
+
+Hold Out
+
+Damage:		1d4
+Type:		Energy
+Tier 1:		25% Stun / 2 Rounds / DC 10
+Tier 2:		25% Stun / 2 Rounds / DC 14
+Tier 3:		25% Stun / 2 Rounds / DC 18
+Tier 4:		25% Stun / 2 Rounds / DC 22
+Comments:
+
+
+
+Ion
+
+Damage:		1d6
+Type:		Ion
+Tier 1:		1d4 vs Droid
+Tier 2:		
+Comments:
+
+
+
+Sonic
+
+Damage:		1d6
+Type:		Sonic
+Tier 1:		Dex Damage / DC 10
+Tier 2:		Dex Damage / DC 14
+Tier 2:		Dex Damage / DC 18
+Tier 2:		Dex Damage / DC 22
+Comments:
+
+
+
+Disruptor
+
+Damage:		1d8
+Type:		Piercing
+Tier 1:		Nothing
+Tier 2:		
+Comments:
+
+
+
+Heavy
+
+Damage:		1d10
+Type:		Energy
+Tier 1:		Nothing
+Tier 2:		
+Comments:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

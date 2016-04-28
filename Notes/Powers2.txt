@@ -1,0 +1,368 @@
+
+This is to organize the powers differently
+
+Offensive Powers:
+
+Push
+-Forced4 Damage (Bludgeoning)
+-Push Effect
+-No effect and 1/3 damage on save (Reflex/Will, None)
+
+Ionize
+-Forced4 Damage (Ion)
+-Droid Stun for 6 + 0.25*Force
+-No effect and 1/3 damage on save (Fortitude/Will, Ion)
+
+Afflict
+-Slow and -4 Str/Dex for 18 + 2*Force
+-Half slow for 12 seconds on save (Fortitude/Will, Poison)
+
+Blind
+-Miss Chance 50% for 9 + 0.5*Force [Alternate: Attack/Defense -4]
+-Miss Chance 20% for 9 seconds on save (Will, Mind-Affect) [Alternate: Attack/Defense -1]
+
+Throw Saber
+-Leveld6 Damage (Energy)
+-1/4 Damage on save (Reflex, None)
+
+Fear
+-Fear for 6 + 0.25*Force
+-Attack -2 for 6 seconds on Save (Will, Fear)
+
+Stun
+-Stun for 9 + 0.25*Force
+-Slow for 6 seconds on Save (Will, Mind-Affect)
+
+Choke
+-Forced6 Damage (Dark Side)
+-Choke for 9 seconds
+-No effect and 1/3 damage on save (Fortitude/Will, Dark Side)
+
+Levitate
+
+-
+
+Crush
+-Forced6 Damage (Dark Side)
+-Crush effect
+-No effect and 1/3 damage on save (Fortitude/Will, Dark Side)
+
+Confusion
+-Faction Change for 12 + Force
+-No effect on save (Will, Mind-Affect)
+
+Lightning
+-Forced12 Damage (Dark Side)
+-Stun for 3 seconds
+-No effect and 1/4 damage on save (Fortitude/Will, Dark Side)
+
+Drain
+-Forced4 Damage (Dark Side) and heal half
+-Forced2 Force Damage
+-No force damage and 1/3 damage on save (Fortitude/Will, Dark Side)
+
+Sever
+-Kill Jedi after 3 second psychic static
+-Permenantly sever and -6 all attributes to Jedi after 3 second psychic static on save (Will, Light Side) [Use a dummy feat to mark an enemy as severed]
+-Non-Jedi are immune
+
+Consume
+-Kill Jedi after 3 second fear and +1 Force Points to user
+-All attributes -6 to Jedi after 3 second fear on save (Will, Dark Side)
+-Non-Jedi are immune
+
+
+
+
+
+
+Now we'll look at progression and then come back to that:
+Okay one idea is to have the light side specialize in incapacitation while the dark side specializes in damage
+We've been starting from the bottom up, we can consider starting from the most powerful powers and working down
+
+
+
+Level 3 Powers:
+
+Force Body			- Light
+
+
+Level 3+ Powers:
+
+Force Confusion		- Universal
+Battle Meditation	- Universal
+Force Empathy		- Light
+Force Ressurect		- Light
+Force Lightning		- Dark
+Force Drain			- Dark
+
+Endgame Powers:
+
+Force Sever			- Light
+Force Consume		- Dark
+
+
+Really we just need more offensive universal and light side powers
+
+
+Light Side Offensive Powers:
+
+Force Suppression
+-Deals Forced8 Force Damage
+-On Save Damage/4 (Will, Light Side)
+
+Force Paralysis
+-Paralyze for 9 + 0.5*Force seconds
+-On Save Slow for 9 seconds (Will, Mind-Affect)
+
+Force Empathy
+-Attack -4 for 18 + 2*Force seconds
+-On Save Attack -1 for 12 seconds (Will, Mind-Affect)
+
+Force Blind
+-Defense -4 for 9 + 0.5*Force seconds
+-On Save  (Will, Mind-Affect)
+
+
+Universal Offensive Powers:
+
+Force Disarm
+-
+
+Force Levitate
+-
+-
+
+Force Combustion
+-
+
+
+
+
+
+
+
+
+Okay one more time:
+We'll start with focusing on universal powers:
+
+Level 1:
+-Force Speed
+-Force Camoflogue
+-Force Suggestion
+
+Level 1+:
+-Force Sweep
+-Force Ionize
+
+Level 2:
+-Force Levitate
+-Force Shield
+-Throw Lightsaber
+
+Level 2+:
+-Force Push
+-Force Blind
+-Force Resistance
+
+Level 3:
+-Force Athletics
+-Battle Meditation
+-Force Confusion
+
+Level 3+:
+
+
+
+Light Side:
+
+Level 1:
+-Force Valor
+
+Level 1+:
+-Force Sleep
+
+Level 2:
+-Force Body
+
+Level 2+:
+-Force Suppression
+
+Level 3:
+-Force Paralysis
+
+Level 3+:
+-Force Light
+
+Special:
+-Force Sever
+
+
+
+Light Side:
+
+Level 1:
+-Force Fury
+
+Level 1+:
+-Force Afflict
+
+Level 2:
+-Force Fear
+
+Level 2+:
+-Force Choke
+
+Level 3:
+-Force Drain
+
+Level 3+:
+-Force Lightning
+
+Special:
+-Force Consume
+
+
+
+
+
+Speed
+-Increased Speed for 18 + 3*Force
+-DC 6
+
+Sweep
+-Forced4 Damage (Bludgeoning)
+-Knockdown for 3 seconds
+-Damage/2 and no knockdown on save (Will/Reflex, None)
+-DC 8
+
+Ionize
+-Forced4 Damage (Ion)
+-Stun for 6 + 0.25*Force seconds
+-Damage/2 and no stun on save (Will/Fortitude, Ion)
+-DC 8
+
+Levitate
+-Whirlwind for 6 + 0.25*Force seconds
+-Nothing on save (Will/Reflex, None)
+-DC 10
+
+Throw Ligthsaber
+-Forced8 Damage
+-Damage/3 on save (Reflex, None)
+-DC 10
+
+Shield
+-Damage Immunity Physical/Unstoppable +20%
+-Lasts for 10 + 2*Force seconds
+-DC 10
+
+Push
+-Forced6 Damage (Bludgeoning)
+-Force Push for 0.5 + 0.1*Force
+-Damage/2 and no push on save (Will/Reflex, None)
+-DC 12
+
+Blind
+-Defense -4 and 25% Miss Chance for 9 + 0.25*Force
+-Defense -2 for 6 seconds on save (Will, None)
+-DC 12
+
+Resistance
+-Force can replace Saves against Force Powers
+-Lasts for 18 + 3*Force Seconds
+-DC 12
+
+Athletics
+-One Extra Action per Round for 18 + 3*Force seconds
+-Speed Increase Bonus if acquired
+-DC 14
+
+Battle Meditation
+-Attack/Defense +3 to all Party for 18 + 3*Force seconds
+-DC 14
+
+Confusion
+-Faction Swap for 12 + 0.5*Force seconds
+-Nothing on save (Will, Mind-Affecting)
+-Only one confusion at a time
+-DC 14
+
+
+
+Valor
+-Attack/Defense +3 for 9 + Force seconds
+-DC 6
+
+Sleep
+-Sleep for 3 + 0.25*Force seconds
+-Attack -2 for 3 seconds on save (Will, Mind-Affecting)
+-DC 8
+
+Body
+-Poison Removal/Immunity and 2 heal per 3 second
+-Lasts for 18 + 3*Force
+-DC 10
+
+Suppression
+-Forced6 Force Damage
+-Wis/Chr -6 for 18 + 2*Force seconds
+-Damage/3 and Chr -4 for 6 seconds on save (Will, Light Side)
+-DC 12
+
+Paralysis
+-Paralysis for 9 + 0.5*Force seconds
+-Slow for 9 seconds on save (Will, Mind-Affecting)
+-DC 14
+
+Light
+-Dark Side Immunity for 10 + 2*Force seconds
+-DC 16
+
+Sever
+-Cutoff from force Jedi
+-Impossible to save (except bosses, Will, Light Side)
+-DC 18
+
+
+
+Fury
+-Attack/Damage +4 for 6 + Force seconds
+-DC 6
+
+Afflict
+-Slow and -4 Str/Dex for 18 + 2*Force
+-Half slow for 9 seconds on save (Fortitude/Will, Poison)
+-DC 8
+
+Fear
+-Fear for 6 + 0.25*Force
+-Attack -2 for 6 seconds on Save (Will, Fear)
+-DC 10
+
+Choke
+-Forced6 Damage (Dark Side)
+-Choke for 9 seconds
+-No effect and 1/2 damage on save (Fortitude/Will, Dark Side)
+-DC 12
+
+Drain
+-Forced6 Damage (Dark Side) and heal half
+-Damage/2 on save (Fortitude/Will, Dark Side)
+-DC 14
+
+Lightning
+-Forced12 Damage (Dark Side)
+-Stun for 3 seconds
+-No effect and 1/3 damage on save (Fortitude/Will, Dark Side)
+-DC 16
+
+Consume
+-Kill Jedi and +1 Force Point
+-3 second Fear on save save (Will, Dark Side)
+-DC 18
+
+
+
+
+

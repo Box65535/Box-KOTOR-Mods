@@ -1,0 +1,398 @@
+Mining Lasers
+
+Peragus Mining Laser [Not sure about feat requirements for this]
+1d8 Fire / 20-20 x2
++None
+
+Peragus Advanced Mining Laser
+1d10 Fire / 20-20 x2
++Scope
+
+
+Small Blasters
+
+Hold Out Blaster
+1d6 Energy / 19-20 x2
++All
+
+Sith Assassin Pistol (Hold Out Blaster)
+1d6 Energy / 19-20 x2
+Stun 25% 2 rounds DC 16
++All
+
+
+Blaster Pistols
+
+Blaster Pistol [Might need to change this]
+1d8 Energy / 20-20 x2
++All
+
+Ion Blaster
+1d8 Ion / 20-20 x2
++2 Ion vs Droid
++Chamber, Scope
+
+Disruptor Pistol
+1d8 Unstoppable / 19-20 x2
++Chamber, Scope
+
+Sonic Pistol
+1d6 Sonic / 20-20 x2
+-6 Wis DC 12
++Scope
+
+Heavy Blaster
+1d10 Energy / 20-20 x2
++All
+
+Blaster Carbine
+1d10 Energy / 19-20 x2
++None
+
+Systech Electric Blaster (Ion Blaster)
+1d8 Ion / 20-20 x2
++1d4 Electric
++Chamber, Scope
+
+Exchange Stun Carbine (Blaster Carbine)
+1d10 / 19-20 x2
+Stun 25% 2 rounds DC 16
++None
+
+Dashade Sonic Disruptor (Sonic Pistol)
+1d6 Sonic / 20-20 x2
++1d4 Unstoppable
++Scope
+
+Mandalorian Disruptor Pistol (Disruptor Pistol)
+1d8 Unstoppable / 19-20 x2
+Knockdown DC 12
++Chamber, Scope
+
+Zabrak Heavy Pistol (Heavy Blaster)
+1d10 Energy / 20-20 x2
++1d3 Unstoppable
++1 Attack 
++None
+
+Not Sure
+
+Mercenary Blaster (Heavy Blaster)
+1d10 Energy / 20-20 x2
+Keen
++1d3 Physical
++1d3 Massive Crit
++None
+
+Zabrak Blaster (Blaster Pistol)
+1d8 Energy / 20-20 x2
++1d4 Unstoppable
++None
+
+
+Blaster Rifles
+
+Republic Blaster Rifle
+1d12 Energy / 19-20 x2
++All
+
+Verpine Ion Rifle
+1d10 Ion / 20-20 x3
++4 Ion vs Droid
++Chamber, Scope
+
+Onderon Sonic Rifle
+1d8 Sonic / 20-20 x2
+-6 Wis DC 16
++Scope
+
+Mandalorian Disruption Rifle
+1d10 Unstoppable / 18-20 x2
++Chamber, Scope
+
+Systech Sonic Disruption Rifle (Sonic Rifle)
+1d10 Sonic / 20-20 x2
+-6 Wis DC 12
++1d6 Unstoppable
++Scope
+
+Aratech Plasma Rifle (Ion Rifle)
+1d10 Ion / 20-20 x3
++1d4 Fire
+-6 Con DC 16
++Chamber, Scope
+
+Sith Sniper Rifle (Blaster Rifle)
+1d12 Energy / 19-20 x2
++1 Sniper Shot Bonus
++All
+
+Mandalorian Assault Rifle (Blaster Rifle)
+1d12 Energy / 19-20 x2
+Knockdown DC 16
++All
+
+Zabrak Combat Rifle (Blaster Rifle)
+1d12 Energy / 19-20 x2
++2 Attack
++1d4 Unstoppable
++None
+
+Droid Assassin Rifle (Disruptor Rifle)
+1d10 Unstoppable / 18-20 x2
+-6 Str DC 20
+HK 47 Only
++Chamber, Scope
+
+Not Sure
+
+Verpine Neural Scrambler (Ion Rifle)
+1d10 Ion / 20-20 x2
+Confusion 25% 2 Rounds DC 18
++Chamber, Scope
+
+Crippling Disruptor Rifle (Disruptor Rifle)
+1d10 Unstoppable / 19-20 x2
+-6 Str DC 14
++All
+
+Zabrak Carbonite Rifle
+1d10 Cold / 20-20 x2
+Paralyze 25% 2 Rounds DC 18
++None
+
+
+Repeating Blaster Rifles
+
+Republic Repeating Blaster
+2d8 Energy / 20-20 x2
++All
+
+Onderon Repeating Carbine
+2d6 Sonic / 20-20 x2
+-6 Wis DC 20
++None
+
+Zabrak Repeating Blaster
+2d8 Energy / 20-20 x2
++1d8 Unstoppable
++None
+
+Overclocked Repeating Blaster
+2d8 Energy / 20-20 x2
++2 Rapid Shot
++None
+
+
+Heaving Repeating Blasters
+
+Republic Heavy Repeater
+3d6 Energy / 20-20 x2
++All
+
+Mandalorian Heavy Repeater
+3d6 Unstoppable / 20-20 x2
+Knockdown DC 18
++Chamber, Scope
+
+
+Bowcasters
+
+Bowcaster
+1d12 / 19-20 x3
++None
+
+Ceremonial Bowcaster
+1d12 / 19-20 x3
++1d4 Piercing
+Keen
++None
+
+
+Power Cells
+
+Energy Cell 1
++1 Energy
+
+Energy Cell 2
++2 Energy
+
+Energy Cell 3
++3 Energy
+
+Energy Cell 4
++4 Energy
+
+Ion Cell 1
++2 Ion vs Droid
+
+Ion Cell 2
++3 Ion vs Droid
+
+Plasma Cell 1
++1 Fire
+
+Plasma Cell 2
++1 Fire
+-6 Con DC 16
+
+Electric Cell 1
++1 Electric
+
+Electric Cell 2
++1 Electric
+Stun 25% DC 14
+
+Electric Cell 3
++2 Electric
+Stun 25% DC 14
+
+Electric Cell 4
++2 Electric
+Stun 25% DC 18
+
+Crit Cell 1
++1d3 Massive Crits
+
+Crit Cell 2
++1d4 Massive Crits
+
+Crit Cell 3
++1d6 Massive Crits
+
+Crit Cell 4
++1d8 Massive Crits
+
+Physical Cell 1
++1 Piercing
+
+Physical Cell 2
++2 Piercing
+
+Physical Cell 3
++3 Piercing
+
+
+Chambers
+
+Concentrating Chamber 1
++1 Enhancement Damage
+-1 Attack
+
+Concentrating Chamber 2
++2 Enhancement Damage
+-1 Attack
+
+Concentrating Chamber 3
++3 Enhancement Damage
+-1 Attack
+
+Widening Chamber 1
++1 Attack
+-2 Damage
+
+Widening Chamber 2
++2 Attack
+-2 Damage
+
+Widening Chamber 3
++3 Attack
+-2 Damage
+
+Ion Chamber 1
+-1 Damage
++2 Ion vs Droid
+
+Ion Chamber 2
+-1 Damage
++3 Ion vs Droid
+
+Beam Splitter 1
+-2 Damage
++1 Fire
++1 Cold
+
+Beam Splitter 2
+-2 Damage
++2 Fire
++2 Cold
+
+Disrtuptor Chamber 1
+-2 Damage
++2 Unstoppable 
+
+Disrtuptor Chamber 2
+-2 Damage
++3 Unstoppable 
+
+Concentrating Chamber Type II 1
++1d4 Massive Crit
+-1 Attack
+
+Concentrating Chamber Type II 2
++1d8 Massive Crit
+-1 Attack
+
+
+Scopes
+
+Accuracy Scope 1
++1 Attack
+
+Accuracy Scope 2
++2 Attack
+
+Keen Scope
+-1 Attack
+Keen
+
+
+
+
+Upgrade Skill Requirements:
+
+Concentrating Chamber 1		2
+Concentrating Chamber 2		12
+Concentrating Chamber 3		22
+Widening Chamber 1			4
+Widening Chamber 2			16
+Widening Chamber 3			28
+Ion Chamber 1				8
+Ion Chamber 2				18
+Beam Splitter 1				6
+Beam Splitter 2				12
+Disrtuptor Chamber 1		10	
+Disrtuptor Chamber 2		20	
+Precision Chamber 1			14
+Precision Chamber 2			30
+
+2-28
+This is kinda ehh as well
+
+Energy Cell 1		4
+Energy Cell 2		12
+Energy Cell 3		20
+Energy Cell 4		28
+Ion Cell 1			8
+Ion Cell 2			16
+Plasma Cell 1		6
+Plasma Cell 2		20
+Electric Cell 1		6
+Electric Cell 2		12
+Electric Cell 3		18
+Electric Cell 4		24
+Crit Cell 1			4
+Crit Cell 2			8
+Crit Cell 3			14
+Crit Cell 4			20
+Physical Cell 1		8
+Physical Cell 2		16
+Physical Cell 3		24
+
+Accuracy Scope 1	8
+Accuracy Scope 2	20
+Keen Scope			20
+
+
+
+

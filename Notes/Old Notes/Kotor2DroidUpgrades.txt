@@ -1,0 +1,762 @@
+
+Droid Motion Tracker
+d_tool_01
++1 Attack
++1 Awareness
+Droid Upgrade 1
+
+Droid Upgrade Slot
+d_tool_02
+Gives Droid Upgrade 2
+Droid Upgrade 1
+
+Droid Surveillance Upgrade
+d_tool_03
++1 Dex
++3 Awareness
++1 Demolitions
+
+Droid Advanced Upgrade Slot
+d_tool_04
+Gives Droid Upgrade 3
+Droid Upgrade 2
+
+Droid Reference Database
+d_tool_05
++2 Attack vs Droid
++4 Repair
+Droid Upgrade 1
+
+Droid System Fortification
+d_tool_06
+-10 vs Ion
+Droid Upgrade 3
+
+Droid Fighting Upgrade
+d_tool_07
++3 Attack
++2 Defense
++2 Awareness
+Droid Upgrade 1
+
+Droid Perception Sensors
+d_tool_08
++2 Attack
++1 Defense
++8 Awareness
++2 Demolitions
+Droid Upgrade 3
+
+Droid Memory Upgrade
+d_tool_09
++2 Int
++5 Computer Use
+Droid Upgrade 1
+
+Droid Warfare Upgrade
+d_tool_10
++2 Attack
++2 Con
+Blaster Prof
+Blaster Focus
+Blaster Spec
+Rifle Prof
+Rifle Focus
+Rifle Spec
+Droid Upgrade 2
+
+Droid Battle Upgrade
+d_tool_11
++3 Attack
++2 Defense
++2 Con
++2 Dex
+Blaster Prof
+Blaster Focus
+Blaster Spec
+Rifle Prof
+Rifle Focus
+Rifle Spec
+Droid Upgrade 3
+
+Droid CERS
+d_tool_12
++1 Attack
+All Rapid Shot
+Droid Upgrade 2
+
+Droid CESS
+d_tool_13
++1 Attack
+All Sniper Shot
+Droid Upgrade 2
+
+Droid CEPB
+d_tool_14
++1 Attack
+All Power Blast
+Droid Upgrade 2
+
+Droid Micro-Optics
+d_tool_15
++5 Dex
+All Caution
++10 Demolitions
+Droid Upgrade 3
+
+Droid Optimized Interface
+d_interface_01
++2 Computer Use
+Droid Upgrade 1
+
+Droid Stabilization Subroutine
+d_interface_02
++4 Demolitions
+Droid Upgrade 1
+
+Droid Machine Interface
+d_interface_03
++4 Repair
+Droid Upgrade 1
+
+Droid Lockout Bypass
+d_interface_04
++3 Computer Use
++3 Security
+Droid Upgrade 1
+
+Droid Parabolic Guides
+d_interface_05
++2 Dex
++2 Reflex
+Droid Upgrade 3
+
+Droid Motivator Booster
+d_interface_06
++1 Dex
++2 Defense
+Droid Upgrade 3
+
+Droid Durability Upgrade
+d_interface_07
++1 Con
++2 Fort
+Droid Upgrade 2
+
+Droid Agility Upgrade
+d_interface_08
++3 Dex
++2 Reflex
+Droid Upgrade 2
+
+Droid Wisdom Upgrade
+d_interface_09
++2 Wis
++2 Will
+Droid Upgrade 2
+
+Droid Exchange Interface
+d_interface_10
++3 Computer Use
++6 Security
+Droid Upgrade 1
+
+Droid Remote Interface
+d_interface_11
+-3 Awareness
++10 Security
+Droid Upgrade 2
+
+Droid Anatomy Library
+d_interface_12
++3 Attack vs Human
++1d10 Damage vs Human
+Droid Upgrade 2
+
+Droid Scavenger Upgrade
+d_interface_13
++2 Con
+Immune Crit
++3 Fort
++5 Repair
+Droid Upgrade 3
+
+Droid Source Ripper
+d_interface_14
++2 Defense
++10 Computer Use
+Droid Upgrade 3
+
+Droid Systems Upgrade
+d_interface_15
++2 Con
++4 Dex
+Droid Upgrade 3
+
+Droid Stealth Booster
+d_g0t0_01
++5 Stealth
+G0-T0
+
+Droid Omniscience Unit
+d_g0t0_02
++3 Attack
+Immune Crit
++10 Awareness
++5 Demolitions
+G0-T0
+
+Droid Singulararity Projector
+d_g0t0_03
++10 Stealth
+All Caution
+G0-T0
+
+Goto Targeting Module
+d_g0t0_04
+All Normal and Improved Power Blast, Rapid Shot, Sniper Shot
+G0-T0
+
+Droid Self-Sustaining Unit
+d_t3m4_02
++3 Regen
+Regenerate Vitality Feat
+T3-M4
+
+Droid Assassination Module
+d_hk47_03
++3 Attack
+Targeting 1, 2, and 3
+Precise Shot 1, 2, and 3
+HK-47
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Combat 1 - 270
+Combat 2 - 271
+Combat 2 - 272
+Awareness 1 - 273
+Awareness 2 - 274
+Awareness 3 - 275
+Auxiliary 1 - 276
+Auxiliary 2 - 277
+Auxiliary 3 - 278
+
+
+Droid Motion Tracker
+d_tool_01
++1 Attack
++1 Awareness
+Combat Tech 1
+500 Credits
+
+Droid Upgrade Slot
+d_tool_02
+Auxilary Tech 1
+Gives Combat Tech 1
+1500 Credits
+
+Droid Surveillance Upgrade
+d_tool_03
++2 Awareness
++1 Demolitions
+Auxilary Tech 1
+500 Credits
+
+Droid Advanced Upgrade Slot
+d_tool_04
+Auxilary Tech 2
+Gives Combat Tech 2
+3000 Credits
+
+Droid Reference Database
+d_tool_05
++2 Damage vs Droid
++2 Repair
+Auxilary Tech 1
+1000 Credits
+
+Droid System Fortification
+d_tool_06
+-5 vs Ion
+Auxilary Tech 3
+5000 Credits
+
+Droid Fighting Upgrade
+d_tool_07
++1 Attack
++1 Defense
+Combat Tech 1
+2000 Credits
+
+Droid Perception Sensors
+d_tool_08
++1 Defense
++4 Awareness
++2 Demolitions
+Auxilary Tech 2
+4000 Credits
+
+Droid Memory Upgrade
+d_tool_09
++1 Int
++4 Computer Use
+Auxilary Tech 2
+4000 Credits
+
+Droid Warfare Upgrade
+d_tool_10
++3 Attack
++1 Int
++1 Wis
++1 Chr
+Combat Tech 2
+6000 Credits
+
+Droid Battle Upgrade
+d_tool_11
++2 Attack
++1 Str
++1 Con
++1 Dex
+Combat Tech 2
+6000 Credits
+
+Droid CERS
+d_tool_12
++1 Attack
+Regular and Improved Rapid Shot
+Combat Tech 3
+8000 Credits
+
+Droid CESS
+d_tool_13
++1 Attack
+Regular and Improved Sniper Shot
+Combat Tech 3
+8000 Credits
+
+Droid CEPB
+d_tool_14
++1 Attack
+Regular and Improved Power Blast
+Combat Tech 3
+8000 Credits
+
+Droid Micro-Optics
+d_tool_15
++2 Dex
++2 Awareness
++6 Demolitions
+Auxilary Tech 3
+9000 Credits
+
+
+
+
+Combat 1 - 270
+Combat 2 - 271
+Combat 2 - 272
+Awareness 1 - 273
+Awareness 2 - 274
+Awareness 3 - 275
+Auxiliary 1 - 276
+Auxiliary 2 - 277
+Auxiliary 3 - 278
+
+
+Droid Optimized Interface
+d_interface_01
++1 Computer Use
+Auxilary Tech 1
+200 Credits
+
+Droid Stabilization Subroutine
+d_interface_02
++1 Demolitions
+Auxilary Tech 1
+200 Credits
+
+Droid Machine Interface
+d_interface_03
++1 Repair
+Auxilary Tech 1
+200 Credits
+
+Droid Lockout Bypass
+d_interface_04
++1 Security
+Auxilary Tech 1
+200 Credits
+
+Droid Parabolic Guides
+d_interface_05
++2 Reflex
+Auxilary Tech 1
+400 Credits
+
+Droid Motivator Booster
+d_interface_06
++1 Dex
+Combat Tech 1
+1000 Credits
+
+Droid Durability Upgrade
+d_interface_07
++1 Con
++2 Fort
+Auxilary Tech 2
+1400 Credits
+
+Droid Agility Upgrade
+d_interface_08
++2 Dex
+Combat Tech 2
+2000 Credits
+
+Droid Wisdom Upgrade
+d_interface_09
++2 Wis
++2 Will
+Auxilary Tech 2
+2200 Credits
+
+Droid Exchange Interface
+d_interface_10
++2 Computer Use
++2 Security
+Auxilary Tech 3
+2600 Credits
+
+Droid Remote Interface
+d_interface_11
+-2 Awareness
++4 Security
+Auxilary Tech 3
+2600 Credits
+
+Droid Anatomy Library
+d_interface_12
++4 Damage vs Human
+Combat Tech 3
+4000 Credits
+
+Droid Scavenger Upgrade
+d_interface_13
++1 Fort
++4 Repair
+Auxilary Tech 3
+3200 Credits
+
+Droid Source Ripper
+d_interface_14
++4 Computer Use
+Auxilary Tech 3
+3200 Credits
+
+Droid Systems Upgrade
+d_interface_15
++1 Attack
++1 Defense
++1 Dex
++1 Con
+Combat Tech 3
+5000 Credits
+
+
+
+
+Droid Stealth Booster
+d_g0t0_01
++2 Stealth
+G0-T0
+500 Credits
+
+Droid Omniscience Unit
+d_g0t0_02
++1 Attack
++2 Awareness
+Immune Crit
+G0-T0
+6000 Credits
+
+Droid Singulararity Projector
+d_g0t0_03
++8 Stealth
+-4 Str
+-4 Con
+-4 Dex
+G0-T0
+9000 Credits
+
+Goto Targeting Module
+d_g0t0_04
+Power Blast, Rapid Shot, Sniper Shot
+G0-T0
+8000 Credits
+
+Droid Self-Sustaining Unit
+d_t3m4_02
++2 Regen
+T3-M4
+4000 Credits
+
+Droid Assassination Module
+d_hk47_03
++4 Attack
+HK-47
+7000 Credits
+
+
+
+
+
+
+
+
+---------------------------------------------------------------
+New Droid Upgrades
+---------------------------------------------------------------
+
+Tech Interfaces:
+
+Droid Optimized Interface
++2 Computer Use
+
+Droid Stabilization Subroutine
++2 Demolitions
+
+Droid Machine Interface
++2 Repair
+
+Droid Lockout Bypass
++2 Security
+
+Droid Stealth Booster
++1 Stealth
+
+
+Tech Tools:
+
+Droid Micro Optics
++2 Awareness
++2 Demolitions
++1 Defense
+
+Droid Memory Upgrade
++2 Int
++2 Computer Use
+
+Droid Upgrade Slot
+Bonus Feat Combat Upgrades
+
+Droid Self-Sustaining Unit
++1 Regen
+
+Droid Singularity Projector
++8 Stealth
+-4 Str
+-4 Con
+-4 Dex
+
+
+
+
+Combat Interfaces:
+
+Droid Parabolic Guides
++1 Reflex
+
+Droid System Fortification
++1 Fort
+
+Droid Wisdom Upgrade
++1 Will
+
+
+Combat Tools:
+
+Droid CEPB
+Bonus Feat Power Blast
+Bonus Feat Improved Power Blast
+
+Droid CERS
+Bonus Feat Rapid Shot
+Bonus Feat Improved Rapid Shot
+
+Droid CESS
+Bonus Feat Sniper Shot
+Bonus Feat Improved Sniper Shot
+
+Droid Durability Upgrade
++2 Con
+
+Droid Battle Upgrade
++1 Attack
++1 Defense
+
+
+
+
+
+
+
+---------------------------------------------------------------
+New New Droid Upgrades
+---------------------------------------------------------------
+
+
+Droid Spike Mounts:
+
+
+
+Combat Mounts (Level 1):
+
+Droid Parabolic Guides
++1 Reflex
+
+Droid System Fortification
++1 Fort
+
+Droid Wisdom Upgrade
++1 Will
+
+Droid Anatomy Library
++1 Damage vs Human
+
+Droid Reference Database
++1 Damage vs Droid
+
+
+
+Tech Mounts (Level 1):
+
+Droid Optimized Interface
++2 Computer Use
+
+Droid Stabilization Subroutine
++2 Demolitions
+
+Droid Machine Interface
++2 Repair
+
+Droid Lockout Bypass
++2 Security
+
+Droid Stealth Booster
++1 Stealth
+
+
+
+
+
+
+
+Combat Tools (Level 1):
+
+Droid Motion Tracker
++1 Attack
+
+Droid Agility Upgrade
++1 Dex
+
+Droid Wisdom Upgrade
++2 Wis
+
+Droid Durability Upgrade
++1 Con
+
+
+
+Combat Tools (Level 2):
+
+Droid CEPB
+Bonus Feat Power Blast
+Bonus Feat Improved Power Blast
+
+Droid CERS
+Bonus Feat Rapid Shot
+Bonus Feat Improved Rapid Shot
+
+Droid CESS
+Bonus Feat Sniper Shot
+Bonus Feat Improved Sniper Shot
+
+Droid Assassination Module
++2 Attack
+
+
+
+Tech Tools (Level 1):
+
+Droid Upgrade Slot
+Bonus Feat Combat Upgrades
+
+Droid Perception Sensors
++3 Awareness
+
+Droid Memory Upgrade
++2 Int
+
+Droid Self-Sustaining Unit
++1 Regen
+
+
+
+Tech Tools (Level 2):
+
+Droid Micro-Optics
++4 Awareness
++2 Demolitions
++1 Defense
+
+Droid System Fortification
+-10 vs Ion
+
+Droid Scavenger Upgrade
++1 Con
++4 Repair
+
+Droid Singularity Projector
++8 Stealth
+-4 Str
+-4 Con
+-4 Dex
+

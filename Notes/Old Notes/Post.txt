@@ -1,0 +1,3 @@
+I've been doing some fairly basic modding of Kotor 2 for a while now, mainly just replacing stuff in the 2das, gffs, and scripts. I wanted to see if I could improve the gameplay when it came to the battles. It's a part of the game that is very weak and very difficult to balance. It goes from way too easy to way too hard with little in between. And moreover, it just kind of sucks since the AI is dumb and there's all sorts of ways you can cheese the system.
+
+So after iterating through a bunch of mods to try to fix this, I've come to the conclusion that the only way that the combat in this game is going to feel rewarding is through a turn-based system. That way you're always picking the moves you mean to use and 

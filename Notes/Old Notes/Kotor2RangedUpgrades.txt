@@ -1,0 +1,549 @@
+----------------------------------------------------------------
+Firing Chambers:
+----------------------------------------------------------------
+
+Amplifying Chamber Mark I
+u_r_firi_02
++1 Energy
+
+Amplifying Chamber Mark II
+u_r_firi_07
++4 Energy
+
+Amplifying Chamber Mark III
+u_r_firi_12
++6 Energy
+
+Beam Splitter Mark I
+u_r_firi_04
++1d3 Energy
+
+Beam Splitter Mark II
+u_r_firi_09
++1d10 Energy
+
+Beam Splitter Mark III
+u_r_firi_14
++2d6 Energy
+
+Broadened Chamber Mark II
+u_r_firi_06
++1 Attack
++4 Massive Crit
+
+Broadened Chamber Mark III
+u_r_firi_11
++1 Attack
++1d12 Massive Crit
+
+Broadening Chamber Mark I
+u_r_firi_01
++2 Massive Crit
+
+Mandalorian Chamber Mark I
+u_r_firi_05
++1d4 Energy
++1 Attack
+-1 Defense
+
+Mandalorian Chamber Mark II
+u_r_firi_10
++1d12 Energy
++1 Attack
+-2 Defense
+
+Mandalorian Chamber Mark III
+u_r_firi_15
++2d8 Energy
++1 Attack
+-1 Defense
+
+Precision Chamber Mark I
+u_r_firi_03
++1 Attack
++1 Massive Crit
+
+Precision Chamber Mark II
+u_r_firi_08
++2 Attack
++1d6 Massive Crit
+
+Precision Chamber Mark III
+u_r_firi_13
++2 Attack
++2-12 Massive Crit
+
+----------------------------------------------------------------
+Power Cells:
+----------------------------------------------------------------
+
+Advanced Rylith Power Cell
+u_r_powe_09
++1d6 Energy
+
+Basic Rylith Power Cell
+u_r_powe_03
++2 Energy
+
+Ion Charger Mark I
+u_r_powe_01
++1d4 Ion vs Droid
+
+Ion Charger Mark II
+u_r_powe_04
++1d6 Ion vs Droid
++2 Massive Crit
+
+Ion Charger Mark III
+u_r_powe_07
++1d8 Ion vs Droid
++4 Massive Crit
+
+Ion Charger Mark IV
+u_r_powe_10
++1d6 Ion
++1d6 Ion vs Droid
++5 Massive Crit
+
+Ion Charger Mark V
+u_r_powe_13
++1d8 Ion
++2d6 Ion vs Droid
++2d8 Massive Crit
+
+Power Pulsator Mark I
+u_r_powe_02
++1d4 Massive Crit
+
+Power Pulsator Mark II
+u_r_powe_05
++1d8 Massive Crit
+
+Power Pulsator Mark III
+u_r_powe_08
++2 Energy
++1d10 Massive Crit
+
+Power Pulsator Mark IV
+u_r_powe_11
++4 Energy
++2d8 Massive Crit
+
+Power Pulsator Mark V
+u_r_powe_14
++5 Energy
++2d10 Massive Crit
+
+Pure Rylith Power Cell
+u_r_powe_15
++2d10 Energy
+
+Standard Rylith Power Cell
+u_r_powe_06
++1d4 Energy
+
+Superior Rylith Power Cell
+u_r_powe_12
++2d6 Energy
+
+----------------------------------------------------------------
+Targeting:
+----------------------------------------------------------------
+
+Accuracy Scope Mark I
+u_r_targ_02
++1 Attack
+
+Accuracy Scope Mark II
+u_r_targ_06
++2 Attack
+
+Accuracy Scope Mark III
+u_r_targ_10
++3 Attack
+
+Accuracy Scope Mark IV
+u_r_targ_14
++4 Attack
+
+Crippling Scope Mark I
+u_r_targ_04
+Stun 25% DC 10
+
+Crippling Scope Mark II
+u_r_targ_08
++1 Energy
+Stun 25% DC 14
+
+Crippling Scope Mark III
+u_r_targ_12
++3 Energy
+Stun 25% DC 18
+
+Pinpoint Scope Mark I
+u_r_targ_01
+Keen
+
+Pinpoint Scope Mark II
+u_r_targ_05
+Slow 25% DC 14
+Keen
+
+Pinpoint Scope Mark III
+u_r_targ_09
+Slow 50% DC 14
+Keen
+
+Pinpoint Scope Mark IV
+u_r_targ_13
+Slow 50% DC 18
+Keen
+
+Targeting Scope Mark I
+u_r_targ_03
+Slow 25% DC 14
+
+Targeting Scope Mark II
+u_r_targ_07
++1 Energy
+Slow 25% DC 14
+
+Targeting Scope Mark III
+u_r_targ_11
++2 Energy
+Slow 25% DC 18
+
+Targeting Scope Mark IV
+u_r_targ_15
++3 Energy
+Slow 25% DC 22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------
+Firing Chambers:
+----------------------------------------------------------------
+
+Amplifying Chamber Mark I
+u_r_firi_02
++1d3 Energy
+200 Credits
+
+Amplifying Chamber Mark II
+u_r_firi_07
++1d6 Energy
+750 Credits
+
+Amplifying Chamber Mark III
+u_r_firi_12
++1d8 Energy
+2950 Credits
+
+Beam Splitter Mark I
+u_r_firi_04
+-2 Damage
++1 Cold
++1 Fire
++1 Electric
+200 Credits
+
+Beam Splitter Mark II
+u_r_firi_09
+-3 Damage
++1d3 Cold
++1d3 Fire
++1d3 Electric
+800 Credits
+
+Beam Splitter Mark III
+u_r_firi_14
+-3 Damage
++1d4 Cold
++1d4 Fire
++1d4 Electric
+3300 Credits
+
+Broadening Chamber Mark I
+u_r_firi_01
++1 Energy
+200 Credits
+
+Broadened Chamber Mark II
+u_r_firi_06
++1 Energy
++1 Attack
+800 Credits
+
+Broadened Chamber Mark III
+u_r_firi_11
++3 Energy
++1 Attack
+3200 Credits
+
+Mandalorian Chamber Mark I
+u_r_firi_05
++1d4 Piercing
+-1 Defense
+225 Credits
+
+Mandalorian Chamber Mark II
+u_r_firi_10
++1d6 Piercing
++1 Attack
+-1 Defense
+925 Credits
+
+Mandalorian Chamber Mark III
+u_r_firi_15
++1d10 Piercing
++1 Attack
+-1 Defense
+3900 Credits
+
+Precision Chamber Mark I
+u_r_firi_03
++1d4 Massive Crit
+200 Credits
+
+Precision Chamber Mark II
+u_r_firi_08
++1d8 Massive Crit
+800 Credits
+
+Precision Chamber Mark III
+u_r_firi_13
++2d6 Massive Crit
+3200 Credits
+
+----------------------------------------------------------------
+Power Cells:
+----------------------------------------------------------------
+
+Ion Charger Mark I
+u_r_powe_01
++1d3 Ion vs Droid
+175 Credits
+
+Ion Charger Mark II
+u_r_powe_04
++1 Ion
++1d4 Ion vs Droid
+350 Credits
+
+Ion Charger Mark III
+u_r_powe_07
++1d3 Ion
++1d6 Ion vs Droid
+750 Credits
+
+Ion Charger Mark IV
+u_r_powe_10
++1d4 Ion
++1d8 Ion vs Droid
+1400 Credits
+
+Ion Charger Mark V
+u_r_powe_13
++1d6 Ion
++1d10 Ion vs Droid
+2650 Credits
+
+Power Pulsator Mark I
+u_r_powe_02
++1d4 Massive Crit
+200 Credits
+
+Power Pulsator Mark II
+u_r_powe_05
++1d6 Massive Crit
+400 Credits
+
+Power Pulsator Mark III
+u_r_powe_08
++1d3 Electric
++1d6 Massive Crit
+800 Credits
+
+Power Pulsator Mark IV
+u_r_powe_11
++1d4 Electric
++1d6 Massive Crit
+1600 Credits
+
+Power Pulsator Mark V
+u_r_powe_14
++1d6 Electric
++1d6 Massive Crit
+3200 Credits
+
+Basic Rylith Power Cell
+u_r_powe_03
++1d3 Energy
+200 Credits
+
+Standard Rylith Power Cell
+u_r_powe_06
++1d4 Energy
+400 Credits
+
+Advanced Rylith Power Cell
+u_r_powe_09
++1d6 Energy
+850 Credits
+
+Superior Rylith Power Cell
+u_r_powe_12
++1d8 Energy
+1750 Credits
+
+Pure Rylith Power Cell
+u_r_powe_15
++1d10 Energy
+3750 Credits
+
+----------------------------------------------------------------
+Targeting:
+----------------------------------------------------------------
+
+Accuracy Scope Mark I
+u_r_targ_02
+-2 Damage
++1 Attack
+100 Credits
+
+Accuracy Scope Mark II
+u_r_targ_06
+-3 Damage
++2 Attack
+300 Credits
+
+Accuracy Scope Mark III
+u_r_targ_10
+-1 Damage
++2 Attack
+750 Credits
+
+Accuracy Scope Mark IV
+u_r_targ_14
+-1 Damage
++3 Attack
+1600 Credits
+
+Crippling Scope Mark I
+u_r_targ_04
+-2 Damage
+Slow 25% DC 14
+Stun 25% DC 10
+100 Credits
+
+Crippling Scope Mark II
+u_r_targ_08
+-2 Damage
+Slow 25% DC 18
+Stun 25% DC 14
+400 Credits
+
+Crippling Scope Mark III
+u_r_targ_12
+-2 Damage
+Slow 25% DC 22
+Stun 25% DC 18
+1650 Credits
+
+Pinpoint Scope Mark I
+u_r_targ_01
+Keen
+-2 Defense
+100 Credits
+
+Pinpoint Scope Mark II
+u_r_targ_05
+Keen
+-1 Defense
+300 Credits
+
+Pinpoint Scope Mark III
+u_r_targ_09
+Keen
+825 Credits
+
+Pinpoint Scope Mark IV
+u_r_targ_13
++2 Energy
+Keen
+1900 Credits
+
+Targeting Scope Mark I
+u_r_targ_03
++1 Energy
++1 Attack
+-1 Defense
+125 Credits
+
+Targeting Scope Mark II
+u_r_targ_07
++2 Energy
++2 Attack
+-2 Defense
+325 Credits
+
+Targeting Scope Mark III
+u_r_targ_11
++2 Energy
++3 Attack
+-2 Defense
+875 Credits
+
+Targeting Scope Mark IV
+u_r_targ_15
++2 Energy
++3 Attack
+-1 Defense
+2200 Credits
+
+
+
+
+
+

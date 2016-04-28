@@ -1,0 +1,887 @@
+Old: 
+
+Advanced Combat System
+e_imp3_04
++1 Attack
+Focus Pistol
+Focus Rifle
+Spec Pistol
+Spec Rifle
+16 Con
+
+Alacrity Implant
+e_imp2_05
++1 Reflex
+14 Con
+
+Bavakar Strength System
+e_imp3_05
++3 Str
+16 Con
+
+Bio-Antidote System
+e_imp3_01
++1 Con
+Immune Poison
+16 Con
+
+Biotech Implant
+e_imp2_03
+Regen +1
+14 Con
+
+Cardio Package
+e_imp1_03
++1 Con
+12 Con
+
+Cardio Power System
+e_imp3_06
++4 Con
+16 Con
+
+Durability Implant
+e_imp2_08
++1 Con
+-5 vs Electric
+-5 vs Energy
+14 Con
+
+Enhancement D-Package
+e_imp4_04
+All Dueling
+All Two Weapon
+18 Con
+
+Fitness Package
+e_imp1_06
++1 Con
++1 Str
+12 Con
+
+Health Package
+e_imp1_08
++1 Con
++1 Regen
+12 Con
+
+Immortality D-Package
+e_imp4_05
++3 Con
+All Toughness
+18 Con
+
+Immunity D-Package
+e_imp4_02
+Immune Crit, Poison, Stun, Fear, Horror
+18 Con
+
+Insight Implant
+e_imp2_06
++1 Will
++2 Wis
+14 Con
+
+Lornan Implant
+e_imp2_02
+10% vs Electric
+10% vs Energy
+14 Con
+
+Mental Boost D-Package
+e_imp4_10
++3 Chr
++3 Wis
++3 Int
+18 Con
+
+Mental Boost Implant
+e_imp2_10
++2 Chr
++1 Int
++2 Wis
+14 Con
+
+Mental Boost Package
+e_imp1_10
++1 Chr
++1 Int
++1 Wis
+12 Con
+
+Mental Boost System
+e_imp3_10
++2 Chr
++2 Int
++3 Wis
+16 Con
+
+Nerve Enhancement System
+e_imp3_02
+Immune Stun, Fear, Horror
+
+Numbness System
+e_imp3_08
++2 Con
+-5 vs Phys
+16 Con
+
+Perception D-Package
+e_imp4_03
++1 Chr
++2 Wis
+18 Con
+
+Pheromone Package
+e_imp1_02
++1 Chr
++1 Persuade
+12 Con
+
+
+Physical Boost D-Package
+e_imp4_09
++3 Con
++3 Dex
++3 Str
+18 Con
+
+
+Physical Boost Implant
+e_imp2_09
++1 Con
++2 Dex
++2 Str
+14 Con
+
+Physical Boost Package
+e_imp1_09
++1 Con
++1 Dex
++1 Str
+12 Con
+
+Physical Boost System
+e_imp3_09
++2 Con
++3 Dex
++2 Str
+16 Con
+
+Power Implant
+e_imp2_04
++1 Fort
++2 Str
+14 Con
+
+Quickness D-Package
+e_imp4_06
++4 Dex
++1 Defense
+18 Con
+
+Reaction System
+e_imp3_03
++3 Dex
+16 Con
+
+Reflex Package
+e_imp1_01
++1 Reflex
+12 Con
+
+Response Package
+e_imp1_05
++1 Dex
++1 Stealth
+12 Con
+
+Retinal Combat Implant
+e_imp2_01
++1 Awareness
+Immune Crit
+14 Con
+
+Skills D-Package
+e_imp4_07
++6 Awareness
++6 Computer Use
++6 Demolitions
++6 Persuade
++6 Repair
++6 Security
++6 Stealth
++6 Treat Injury
+18 Con
+
+Skills Implant
+e_imp2_07
++2 Awareness
++2 Computer Use
++2 Demolitions
++2 Persuade
++2 Repair
++2 Security
++2 Stealth
++2 Treat Injury
+14 Con
+
+Skills Package
+e_imp1_07
++1 Awareness
++1 Computer Use
++1 Demolitions
++1 Persuade
++1 Repair
++1 Security
++1 Stealth
++1 Treat Injury
+12 Con
+
+Skills System
+e_imp3_07
++4 Awareness
++4 Computer Use
++4 Demolitions
++4 Persuade
++4 Repair
++4 Security
++4 Stealth
++4 Treat Injury
+16 Con
+
+Strength D-Package
+e_imp4_01
++1 Con
++1 Str
+18 Con
+
+Strength Package
+e_imp1_04
++1 Str
+12 Con
+
+Universal D-Package
+e_imp4_08
++2 Chr
++2 Con
++2 Dex
++2 Int
++2 Str
++2 Wis
+18 Con
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New:
+
+Reflex Package
+e_imp1_01
++1 Reflex
+12 Con
+Implants 1
+200 Credits
+
+Retinal Combat Implant
+e_imp2_01
++1 Awareness
+14 Con
+Implants 1
+400 Credits
+
+Bio-Antidote System
+e_imp3_01
+Immune Poison
+16 Con
+Implants 1
+1000 Credits
+
+Strength D-Package
+e_imp4_01
++1 Str
+18 Con
+Implants 1
+1500 Credits
+
+Pheromone Package
+e_imp1_02
++1 Persuade
+12 Con
+Implants 1
+800 Credits
+
+Lornan Implant
+e_imp2_02
+20% vs Electric
+14 Con
+Implants 1
+1000 Credits
+
+Nerve Enhancement System
+e_imp3_02
+Immune Fear
+16 Con
+Implants 1
+1500 Credits
+
+Immunity D-Package
+e_imp4_02
+Immune Crit
+18 Con
+Implants 1
+2500 Credits
+
+Cardio Package
+e_imp1_03
++1 Con
+12 Con
+Implants 1
+1500 Credits
+
+Biotech Implant
+e_imp2_03
++1 Con
++1 Fort
+14 Con
+Implants 1
+2000 Credits
+
+Reaction System
+e_imp3_03
++1 Dex
++2 Reflex
+16 Con
+Implants 1
+2500 Credits
+
+Perception D-Package
+e_imp4_03
++1 Wis
++1 Chr
+18 Con
+Implants 1
+3500 Credits
+
+Strength Package
+e_imp1_04
++1 Str
++1 Fort
+12 Con
+Implants 2
+1800 Credits
+
+Power Implant
+e_imp2_04
++1 Str
++1 Con
+14 Con
+Implants 2
+3000 Credits
+
+Advanced Combat System
+e_imp3_04
++2 Attack
+16 Con
+Implants 2
+4000 Credits
+
+Enhancement D-Package
+e_imp4_04
++2 Attack
++1 Defense
+18 Con
+Implants 2
+5500 Credits
+
+Response Package
+e_imp1_05
++1 Dex
++1 Reflex
++1 Stealth
+12 Con
+Implants 2
+2200 Credits
+
+Alacrity Implant
+e_imp2_05
++2 Dex
+14 Con
+Implants 2
+3500 Credits
+
+Bavakar Strength System
+e_imp3_05
++2 Str
++1 Con
+16 Con
+Implants 2
+5000 Credits
+
+Immortality D-Package
+e_imp4_05
++2 Con
+-5 Phys
+18 Con
+Implants 2
+6500 Credits
+
+Fitness Package
+e_imp1_06
++1 Con
++1 Str
+12 Con
+Implants 2
+3000 Credits
+
+Insight Implant
+e_imp2_06
++2 Wis
+14 Con
+Implants 2
+4500 Credits
+
+Cardio Power System
+e_imp3_06
++3 Con
+16 Con
+Implants 2
+5500 Credits
+
+Quickness D-Package
+e_imp4_06
++4 Dex
+18 Con
+Implants 2
+7000 Credits
+
+Skills Package
+e_imp1_07
++2 Computer Use
++2 Demolitions
++1 Repair
++2 Security
++1 Treat Injury
+12 Con
+Implants 3
+3500 Credits
+
+Skills Implant
+e_imp2_07
++2 Computer Use
++3 Demolitions
++2 Repair
++3 Security
++2 Treat Injury
+14 Con
+4800 Credits
+
+Skills System
+e_imp3_07
++3 Computer Use
++3 Demolitions
++3 Repair
++3 Security
++3 Treat Injury
+16 Con
+Implants 3
+6400 Credits
+
+Skills D-Package
+e_imp4_07
++4 Computer Use
++4 Demolitions
++4 Repair
++4 Security
++4 Treat Injury
+18 Con
+Implants 3
+8000 Credits
+
+Health Package
+e_imp1_08
++2 Con
+12 Con
+Implants 3
+4000 Credits
+
+Durability Implant
+e_imp2_08
++1 Con
+-5 vs Energy
+14 Con
+Implants 3
+6000 Credits
+
+Numbness System
+e_imp3_08
++2 Con
+-5 vs Phys
+16 Con
+Implants 3
+7000 Credits
+
+Universal D-Package
+e_imp4_08
++1 Chr
++1 Con
++1 Dex
++1 Int
++1 Str
++1 Wis
+18 Con
+Implants 3
+8500 Credits
+
+Physical Boost Package
+e_imp1_09
++1 Con
++1 Dex
++1 Str
+12 Con
+Implants 3
+4500 Credits
+
+Physical Boost Implant
+e_imp2_09
++1 Con
++1 Dex
++2 Str
+14 Con
+Implants 3
+6400 Credits
+
+Physical Boost System
+e_imp3_09
++2 Con
++1 Dex
++2 Str
+16 Con
+Implants 3
+7200 Credits
+
+Physical Boost D-Package
+e_imp4_09
++2 Con
++2 Dex
++2 Str
+18 Con
+Implants 3
+9000 Credits
+
+Mental Boost Package
+e_imp1_10
++1 Chr
++1 Int
++1 Wis
+12 Con
+Implants 3
+5000 Credits
+
+Mental Boost Implant
+e_imp2_10
++1 Chr
++1 Int
++2 Wis
+14 Con
+Implants 3
+7000 Credits
+
+Mental Boost System
+e_imp3_10
++1 Chr
++2 Int
++2 Wis
+16 Con
+Implants 3
+8000 Credits
+
+Mental Boost D-Package
+e_imp4_10
++2 Chr
++2 Wis
++2 Int
+18 Con
+Implants 3
+10000 Credits
+
+
+
+
+
+
+
+--------------------------------------------------------------
+New Implants
+--------------------------------------------------------------
+
+Types of Implants
+
+Immunities - Immunity Poison/Paralysis/Fear
+Power - +X Str
+Health - +X Regen
+Fitness - +X Con, +X Fortitude
+Dexterity - +X Dex, +X Reflex
+Wisdom - +X Wis, +X Will
+Intelligence - +X Int
+Skills - +X Skills
+Charisma - +X Chr
+Awareness - +X Awareness, Immune Sneak Attack
+
+
+
+Level 1 Implants (12 Con Prereq):
+
+
+Awareness Implant
++2 Awareness
+
+Intelligence Implant
++1 Int
+
+Reflex Implant
++2 Reflex
+
+Cardio Implant
++1 Con
+
+Strength Implant
++1 Str
+
+Charisma Implant
++1 Persuade
+
+Bio-Antidote Implant
++4 Saves vs Poison
++4 Saves vs Paralysis
+
+Health Implant
++1 Regen
+
+Nerve Enhancement Implant
++2 Will
+
+Fitness Implant
++2 Fort
+
+
+
+Level 2 Implants (14 Con Prereq):
+
+
+Awareness Package
+Immune Sneak Attack
++2 Awareness
+
+Intelligence Package
++2 Int
++1 Wis
+
+Reflex Package
++1 Dex
++2 Reflex
+
+Cardio Package
++2 Con
+
+Strength Package
++2 Str
+
+Charisma Package
++1 Chr
++1 Persuade
+
+Bio-Antidote Package
+Immune Poison
+Immune Paralysis
+
+Health Package
++2 Regen
+
+Nerve Enhancement Package
+Immune Fear
++2 Will
+
+Fitness Package
++2 Fort
++1 Str
+
+
+
+Level 3 Implants (16 Con Prereq):
+
+
+Awareness System
+Immune Sneak Attack
++1 Wis
++4 Awareness
+
+Intelligence System
++3 Int
++1 Wis
++1 Chr
+
+Reflex System
++2 Dex
++3 Reflex
+
+Cardio System
++3 Con
+
+Strength System
++3 Str
+
+Charisma System
++2 Chr
++2 Persuade
+
+Bio-Antidote System
+Immune Poison
+Immune Paralysis
+Immune Attribute Damage
++2 Fort
+
+Health System
++4 Regen
+
+Nerve Enhancement System
+Immune Fear, Stun, Horror
++2 Will
++1 Wis
+
+Fitness Package
++2 Fort
++1 Str
++1 Con
+
+
+
+
+--------------------------------------------------------------
+
+We're now rethinking droid upgrades as "Droid Implants" so yeah
+I was always proud of how implants worked compared to belts and gloves
+
+
+Hmmmmmmmmmmmmmmmm
+The problem is that droids don't work on so many different parameters
+
+Droids don't use:
+-Strength
+-Wisdom
+-Charisma
+-Poison Saves
+-Paralysis Saves
+-Stun, Fear, Horror Saves
+
+What droids do use:
+-Dexterity
+-Constitution
+-Intelligence
+-Reflex
+-Fortitude
+-Will
+-Immunity to Sneak Attack
+-Regen
+-Awareness
+
+The problem is that we have TWO upgrade slots so we need things to be extra orthogonal, no overlaps
+It also means that we have to make things weaker since we're doubling up
+Moreover, it means we can't make any single bonus too large, we need to spread out across categories
+
+Alternately we could add scripts or things to the upgrades because that is the droids' specialty
+Of course this means a lot of things could be on the table
+
+Ehhhhhhhhhhhhhh
+Maybe do the skill stuff
+
+
+
+Upgrades:
+
+Droid Optimized Interface
++2 Computer Use
+
+Droid Stabilization Subroutine
++2 Demolitions
+
+Droid Machine Interface
++2 Repair
+
+Droid Lockout Bypass
++2 Security
+
+Droid Surveillance Upgrade
++2 Awareness
+
+Droid Stealth Booster
++1 Stealth
+
+Droid Parabolic Guides
++1 Reflex
+
+Droid System Fortification
++1 Fort
+
+Droid Wisdom Upgrade
++1 Will
+
+
+Well it's something
+Not really
+
+There was so much difficulty with this in the past
+It was one of the hardest item slots to fill
+It feels wrong to just leave them undone
+There probably aren't any scripts that can be done unless you want to do something with traps but I don't think we want to encourage traps
+Yeah I just don't feel like anything is missing
+So maybe just skip these on this iteration
+Whatever mang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,223 @@
+
+-------------------------------------------------------------
+Heavy Armor
+-------------------------------------------------------------
+
+Battle Armor
+a_heavy_01
+Defense 8 / Max Dex +1
+
+Heavy Battle Armor
+a_heavy_02
+Defense 9 / Max Dex +0
+
+Echani Heavy Armor
+a_heavy_03
+Defense 8 / Max Dex +1
++2 Defense
+
+Durasteel Heavy Armor
+a_heavy_04
+Defense 9 / Max Dex +0
++1 Defense
+
+Powered Battle Armor
+a_heavy_05
+Defense 8 / Max Dex +1
++1 Defense
++1 Str
+
+Flex Heavy Armor
+a_heavy_06
+Defense 9 / Max Dex +0
++1 Defense
++3 Max Dex Bonus
+
+Mandalorian Battle Armor
+a_heavy_07
+Defense 9 / Max Dex +0
++2 Defense
+-25 vs Electric
+
+Mandalorian Heavy Armor
+a_heavy_08
+Defense 9 / Max Dex +0
++3 Defense
+Immune Stun, Fear, Horror
+
+Verpine Zal Alloy Mesh
+a_heavy_09
+Defense 8 / Max Dex +1
++4 Defense
+-25 vs Cold
+-25 vs Fire
+-25 vs Sonic
+
+Mandalorian Assault Armor
+a_heavy_10
+Defense 9 / Max Dex +0
++4 Defense
+-25 vs Cold
+-25 vs Fire
+
+Corellian Powersuit
+a_heavy_11
+Defense 8 / Max Dex +1
++2 Defense
++2 Strength
+
+M'uhk'gfa
+a_heavy_12
+Defense 8 / Max Dex +1
+-10 vs Phys
+-5 vs Energy
+
+Iotran Braceman Armor
+a_heavy_13
+Defense 8 / Max Dex +1
++3 Defense
+Precise Shot I
+Targeting I
+
+Felenar Armor
+a_heavy_14
+Defense 9 / Max Dex +0
++2 Defense
++4 Max Dex Bonus
+
+Matrix Armor
+a_heavy_15
+Defense 9 / Max Dex +0
++4 Defense
+-5 vs Energy
+
+Mandalore's Armor
+a_heavy_x01
+Defense 9 / Max Dex +0
++2 Defense
+-25 vs Electric
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Battle Armor
+a_heavy_01
+Defense 6 / Max Dex +1
+1000 Credits
+
+Heavy Battle Armor
+a_heavy_02
+Defense 7 / Max Dex +0
+1500 Credits
+
+Echani Heavy Armor
+a_heavy_03
+Defense 6 / Max Dex +1
++1 Max Dex Bonus
+2500 Credits
+
+Durasteel Heavy Armor
+a_heavy_04
+Defense 7 / Max Dex +0
++1 Defense vs Phys
+3500 Credits
+
+Powered Battle Armor
+a_heavy_05
+Defense 6 / Max Dex +1
++1 Str
+4500 Credits
+
+Flex Heavy Armor
+a_heavy_06
+Defense 7 / Max Dex +0
+-1 Defense
++3 Max Dex Bonus
+5000 Credits
+
+Mandalorian Battle Armor
+a_heavy_07
+Defense 7 / Max Dex +0
++1 Defense
+7000 Credits
+
+Mandalorian Heavy Armor
+a_heavy_08
+Defense 7 / Max Dex +0
++1 Defense
+Immune Fear
+8000 Credits
+
+Verpine Zal Alloy Mesh
+a_heavy_09
+Defense 6 / Max Dex +1
++1 Defense
++2 Fort
+8500 Credits
+
+Mandalorian Assault Armor
+a_heavy_10
+Defense 7 / Max Dex +0
++1 Defense
++1 Attack
+9000 Credits
+
+Corellian Powersuit
+a_heavy_11
+Defense 6 / Max Dex +1
++1 Defense
++2 Str
+11000 Credits
+
+M'uhk'gfa
+a_heavy_12
+Defense 6 / Max Dex +1
++2 Defense
+12000 Credits
+
+Iotran Braceman Armor
+a_heavy_13
+Defense 6 / Max Dex +1
++1 Defense
++2 Attack
+14000 Credits
+
+Felenar Armor
+a_heavy_14
+Defense 7 / Max Dex +0
++3 Max Dex Bonus
+15000 Credits
+
+Matrix Armor
+a_heavy_15
+Defense 7 / Max Dex +0
++2 Defense
++2 Defense vs Energy
++2 Defense vs Ion
+18000 Credits
+
+Mandalore's Armor
+a_heavy_x01
+Defense 7 / Max Dex +0
++1 Defense
+No Cost
+
+

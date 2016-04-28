@@ -1,0 +1,266 @@
+This file is for the idea of changing the skills
+around a bit and what that would affect:
+
+Here are the current skills:
+Computer Use
+Demolitions
+Stealth
+Awareness
+Persuade
+Repair
+Security
+Treat Injury
+
+And here is what would it would change to:
+Computer Use	->	Crafting
+Demolitions	->	Demolitions
+Stealth		->	Stealth
+Awareness	->	Awareness
+Persuade	->	Persuade
+Repair		->	Repair
+Security	->	Computer Use
+Treat Injury	->	Treat Injury
+
+And here is the main effect of those skills:
+Crafting	- Crafting, Synthesizing
+Demolitions	- Explosives Bonus
+Stealth		- Stealth Fields
+Awareness	- Detecting Hidden Things
+Persuade	- No Main Effect
+Repair		- Parts, Shields, Kits
+Computer Use	- Locks, Spikes
+Treat Injury	- Using Medpacs
+
+Here are the conversation effects:
+Crafting	- None
+Demolitions	- Demolitions
+Stealth		- Stealth
+Awareness	- Awareness
+Persuade	- Persuade
+Repair		- Repair
+Computer Use	- Security/Comp
+Treat Injury	- Treat Injury
+Basically, the way this works is that
+each conversation is individually decided
+but these are the general categories from
+what they were in the original game
+
+Here are the effects for droids:
+Crafting	- None
+Demolitions	- None
+Stealth		- None
+Awareness	- None
+Persuade	- None
+Repair		- Repair Kit Bonus
+Computers	- Droid Weapon Bonus
+Treat Injury	- None
+
+
+So at this point, the skills to seem a
+little unbalanced and maybe a bit
+arbitrary but that's kind of how they
+were before so it's not the biggest deal.
+
+Anyway, let's move on to class skills
+since that's pretty important.
+
+
+
+Soldier:
+-Awareness:	Free
+-Demolitions:	Feat Available
+-Treat Injury:	Feat Available
+-Stealth:	Feat Available
+
+Scout:
+-Awareness:	Free
+-Crafting:	Free
+-Demolitions:	Feat Available
+-Treat Injury:	Feat Available
+-Repair:	Feat Available
+
+Scoundrel
+-Awareness:	Free
+-Computer Use:	Free
+-Stealth:	Feat Available
+-Demolitions:	Feat Available
+-Repair:	Feat Available
+
+Tech Specialist
+-Repair:	Free
+-Crafting:	Free
+-Awareness:	Feat Available
+-Computer Use:	Feat Available
+-Demolitions:	Feat Available
+-Treat Injury:	Feat Available
+
+Expert Droid
+-Computer Use:	Free
+-Repair:	Free
+-Awareness:	Feat Available
+-Crafting:	Feat Available
+-Demolitions:	Feat Available
+-Treat Injury:	Feat Available
+
+Combat Droid
+-Awareness:	Free
+-Computer Use:	Feat Available
+-Demolitions:	Feat Available
+-Repair:	Feat Availalbe
+
+Jedi Guardian
+-Awareness:	Free
+-Treat Injry:	Feat Available
+-Stealth:	Feat Available
+-Demolitions:	Exile Only
+
+Jedi Sentinel
+-Awareness:	Free
+-Treat Injury:	Feat Available
+-Stealth:	Feat Available
+-Computer Use:	Exile Only
+-Crafting:	Exile Only
+
+Jedi Consular
+-Awareness:	Free
+-Treat Injury:	Feat Available
+-Stealth:	Feat Available
+-Repair:	Exile Only
+
+Jedi Weapon Master
+-Awareness:	Free
+-Stealth:	Feat Available
+-Treat Inury:	Feat Available
+-Demolitions:	Feat Available
+
+Jedi Watchman
+-Awareness:	Free
+-Treat Injury:	Feat Available
+-Stealth:	Feat Available
+-Crafting:	Feat Available
+-Repair:	Feat Available
+
+Jedi Master
+-Persuade:	Free
+-Awareness:	Free
+-Treat Inury:	Feat Available
+-Stealth:	Feat Available
+
+Sith Marauder
+-Awareness:	Free
+-Stealth:	Feat Available
+-Treat Inury:	Feat Available
+-Stealth:	Feat Available
+
+Sith Assassin
+-Awareness:	Free
+-Treat Injury:	Feat Available
+-Stealth:	Feat Available
+-Computer Use:	Feat Available
+-Demolitions:	Feat Available
+
+Sith Lord
+-Persuade:	Free
+-Awareness:	Free
+-Treat Inury:	Feat Available
+-Stealth:	Feat Available
+
+
+
+Now for the adjustments to the starting
+skills of characters:
+
+T3-M4:
+-Class Skill Computer Use
+-Class Skill Repair
+*Class Skill Awareness
+Computer Use - 6
+Repair - 4
+Demolitions - 2
+Awareness - 5
+
+Kriea:
+-Class Skill Awareness
+*Class Skill Stealth
+Stealth - 4
+Awareness - 9
+Persuade - 5
+
+Atton:
+-Class Skill Computer Use
+-Class Skill Awareness
+*Class Skill Stealth
+-Computer Use: 6
+-Stealth: 4
+-Awareness: 4
+
+Bao-Dur:
+-Class Skill Repair
+-Class Skill Crafting
+*Class Skill Computer Use
+Computer Use - 7
+Repair - 7
+Crafting - 6
+Awareness - 2
+Demolitions - 2
+Treat Injury - 2
+
+Handmaiden:
+-Class Skill Awareness
+*Class Skill Treat Injury
+Awareness - 2
+Treat Injury - 7
+
+Disciple:
+-Class Skill Awareness
+*Class Skill Treat Injury
+Awareness - 2
+Treat Injury - 7
+
+Visas:
+-Class Skill Awareness
+*Class Skill Treat Injury
+Awareness - 6
+Stealth - 4
+Treat Injury - 6
+
+Mira:
+-Class Skill Awareness
+-Class Skill Treat Injury
+*Class Skill Demolitions
+Awareness - 10
+Demolitions - 12
+Treat Injury - 7
+Crafting - 2
+
+Hanharr:
+-Class Skill Awareness
+-Class Skill Treat Injury
+*Class Skill Demolitions
+Awareness - 6
+Demolitions - 8
+Treat Injury - 6
+
+G0-T0:
+-Class Skill Computer Use
+-Class Skill Repair
+*Class Skill Awareness
+
+
+HK-47:
+-Class Skill Awareness
+*Class Skill Demolitions
+Awareness - 5
+Demolitions - 5
+Computer Use - 3
+Repair - 3
+
+Mandalore:
+-Class Skill Awareness
+*Class Skill Treat Injury
+Awareness - 4
+Treat Injury - 3
+Stealth - 1
+Persuade - 2
+
+

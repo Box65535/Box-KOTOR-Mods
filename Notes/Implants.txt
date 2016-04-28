@@ -1,0 +1,292 @@
+Implants:
+
+Awareness Implant
++2 Awareness
+
+Intelligence Implant
++1 Int
+
+Reflex Implant
++2 Reflex
+
+Cardio Implant
++1 Con
+
+Strength Implant
++1 Str
+
+Charisma Implant
++1 Persuade
+
+Bio-Antidote Implant
++4 Saves vs Poison
+
+Health Implant
++1 Regen
+
+Nerve Enhancement Implant
++2 Will
+
+Fitness Implant
++2 Fort
+
+
+Level 2 Implants:
+
+Awareness Package
+Immune Sneak Attack
++2 Awareness
+
+Intelligence Package
++2 Int
++1 Wis
+
+Reflex Package
++1 Dex
++2 Reflex
+
+Cardio Package
++2 Con
+
+Strength Package
++2 Str
+
+Charisma Package
++1 Chr
++1 Persuade
+
+Bio-Antidote Package
+Immune Poison
+
+Health Package
++2 Regen
+
+Nerve Enhancement Package
+Immune Fear
++2 Will
+
+Fitness Package
++2 Fort
++1 Str
+
+
+Level 3 Implants:
+
+Awareness System
+Immune Sneak Attack
++1 Wis
++4 Awareness
+
+Intelligence System
++3 Int
++1 Wis
++1 Chr
+
+Reflex System
++2 Dex
++3 Reflex
+
+Cardio System
++3 Con
+
+Strength System
++3 Str
+
+Charisma System
++2 Chr
++2 Persuade
+
+Bio-Antidote System
+Immune Poison
+Immune Attribute Damage
++2 Fort
+
+Health System
++4 Regen
+
+Nerve Enhancement System
+Immune Mind-Affecting
++2 Will
++1 Wis
+
+Fitness System
++2 Fort
++1 Str
++1 Con
+
+
+
+Above are the old implants
+
+I'm no longer satisfied with them
+
+They remain one of the last things to specify
+
+Well, I think it's fine if we leave them as they are right now
+
+
+
+
+Droid implants though
+
+
+Cardio Implant
++1 Con
+
+Strength Implant
++1 Str
+
+Reflex Implant
++2 Reflex
+
+Fitness Implant
++2 Fort
+
+Nerve Enhancement Implant
++2 Will
+
+Bio-Antidote Implant
++4 Saves vs Poison
+
+
+Cardio Package
++2 Con
+
+Strength Package
++2 Str
+
+Reflex Package
++1 Dex
++2 Reflex
+
+Fitness Package
++2 Fort
++1 Str
+
+Nerve Enchancement Package
++2 Will
+Immune Fear
+
+Bio-Antidote Package
+Immune Poison
+
+
+Cardio System
++3 Con
+
+Strength System
++3 Str
+
+Reflex System
++2 Dex
++3 Reflex
+
+Fitness System
++2 Fort
++1 Str
++1 Con
+
+Nerve Enhancement System
++3 Will
+Immune Fear
++2 vs Mind Affecting
+
+Bio-Antidote System
+Immune Poison
+
+
+
+
+Here's an alternate idea:
+
+Each implant is a blank slate to be upgraded, each feat level unlocks another slot for upgrades
+
+
+Base Item
+
+Implant
+-Level 1 Upgrades
+-Level 1 Implants Required
+
+Implant Package
+-Level 1 and 2 Upgrades
+-Level 2 Implants Required
+
+Implant System
+-All Upgrades
+-Level 3 Implants Required
+
+
+Level 1 Upgrades:
+
+
+Cardio Implant
++2 Fort
+
+Reflex Implant
++2 Reflex
+
+Charisma Implant
++1 Persuade
+
+Nerve Enhancement Implant
++2 Will
+
+Strength Implant
++1 Str
+
+Cardio Implant
++1 Con
+
+
+Level 2 Upgrades:
+
+Dexterity Implant
++1 Dex
+
+Awareness Implant
++2 Awareness
+Immune Sneak Attack
+
+Bio-Antidote Implant
+Immune Poison
+
+Nerve Enhancement Implant
+Immune Fear
+
+Fitness Implant
++1 Str
++1 Fort
+
+Cardio Implant
++1 Con
++1 Fort
+
+
+Level 3 Upgrades:
+
+Agility Implant
++1 Dex
++2 Reflex
+
+Intelligence Implant
++2 Int
+
+Concentration Implant
++1 Wis
++2 Saves vs Mind Affecting
+
+Health Implant
+2 Regen
+
+Charisma Implant
++1 Chr
++1 Persuade
+
+Fitness Implant
++1 Str
++1 Con
+
+
+We need to work on names, but this is actually pretty good
+Implants being the only items to improve mental abilities gives them a niche

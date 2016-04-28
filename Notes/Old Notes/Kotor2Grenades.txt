@@ -1,0 +1,411 @@
+
+Minor Sonic Detonator
+g_w_sonicdet01
+6 Sonic Damage
+-2 Dex for 30 Seconds
+DC 15 for half Damage and no Effect
+4 meter radius
+
+Sonic Detonator
+g_w_sonicdet02
+12 Sonic Damage
+-4 Dex for 30 Seconds
+DC 15 for half Damage and no Effect
+4 meter radius
+
+Frag Grenade
+g_w_fraggren01
+20 Piercing Damage
+DC 15 for half Damage
+4 meter radius
+
+Concussion Grenade
+g_w_stungren01
+Stun for 9 Seconds
+DC 15 for no Effect
+
+Poison Grenade
+g_w_poisngren01
+Poison 4 damage every 3 seconds for 30 seconds
+DC 25 for no Effect
+4 meter radius
+
+Ion Grenade
+g_w_iongren01
+15 Ion Damage
+30 Ion Damage vs Droid
+DC 15 for half Damage
+4 meter radius
+
+Sonic Grenade
+g_w_sonicgren01
+20 Sonic Damage
+-6 Dex for 30 Seconds
+DC 15 for half Damage and no Effect
+4 meter radius
+
+Adhesive Grenade
+g_w_adhsvgren001
+Entangle for 15 seconds
+4 meter radius
+
+CryoBan Grenade
+g_w_cryobgren001
+20 Cold Damage
+Paralyze for 6 seconds
+DC 15 for half Damage and no Paralyze
+4 meter radius
+
+Plasma Grenade
+g_w_firegren001
+36 Fire Damage
+DC 15 for half Damage
+4 meter radius
+
+Thermal Detonator
+g_w_thermldet01
+60 Energy Damage
+Knockdown
+DC 15 for half Damage
+4 meter radius
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Minor Sonic Detonator
+g_w_sonicdet01
+8 Sonic Damage
+-2 Dex for 30 Seconds
+DC 15 for half Damage and no Effect
+4 meter radius
+50 Credits
+
+Sonic Detonator
+g_w_sonicdet02
+16 Sonic Damage
+-4 Dex for 30 Seconds
+DC 15 for half Damage and no Effect
+4 meter radius
+100 Credits
+
+Frag Grenade
+g_w_fraggren01
+30 Piercing Damage
+DC 15 for half Damage
+4 meter radius
+200 Credits
+
+Concussion Grenade
+g_w_stungren01
+Stun for 9 Seconds
+DC 18 for no Effect
+200 Credits
+
+Poison Grenade
+g_w_poisngren01
+Poison 4 damage every 3 seconds for 30 seconds
+DC 25 for no Effect
+4 meter radius
+200 Credits
+
+Ion Grenade
+g_w_iongren01
+18 Ion Damage
+36 Ion Damage vs Droid
+DC 15 for half Damage
+4 meter radius
+300 Credits
+
+Sonic Grenade
+g_w_sonicgren01
+24 Sonic Damage
+-6 Dex for 30 Seconds
+DC 15 for half Damage and no Effect
+4 meter radius
+300 Credits
+
+Adhesive Grenade
+g_w_adhsvgren001
+Entangle for 15 seconds
+4 meter radius
+300 Credits
+
+CryoBan Grenade
+g_w_cryobgren001
+36 Cold Damage
+Paralyze for 6 seconds
+DC 18 for half Damage and no Paralyze
+4 meter radius
+500 Credits
+
+Plasma Grenade
+g_w_firegren001
+50 Fire Damage
+DC 18 for half Damage
+4 meter radius
+800 Credits
+
+Thermal Detonator
+g_w_thermldet01
+100 Energy Damage
+Knockdown
+DC 24 for half Damage
+4 meter radius
+1800 Credits
+
+
+
+
++1 DC for every 4 points in Demolitions
++1% damage for every point in Demolitions
+
++2 DC to Stun, Ice, and Sonic grenades from wrist launcher
+
+Uncanny 1: +2 DC vs Grenades
+Uncanny 2: +2 DC vs Grenades
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------
+New Grenades
+----------------------------------------------------------
+
+
+Minor Sonic Detonator
+6 Sonic
+-2 Dex for 30 Seconds
+DC 15
+
+Sonic Detonator
+12 Sonic
+-4 Dex for 30 Seconds
+DC 15
+
+Frag Grenade
+24 Piercing
+DC 18
+
+Concussion Grenade
+Stun for 9 Seconds
+DC 20
+
+Poison Grenade
+Poison: 3/3 for 30 seconds (DC 100)
+DC 18 (Grenade DC not Poison)
+
+Ion Grenade
+18 Ion
+18 Ion vs Droid
+DC 18
+
+Sonic Grenade
+20 Sonic
+-6 Dex for 30 Seconds
+DC 18
+
+Adhesive Grenade
+Entangle for 15 seconds
+
+Cryoban Grenade
+30 Cold
+Paralyze for 6 seconds
+DC 20
+
+Plasma Grenade
+40 Fire
+DC 20
+
+Thermal Detonator
+80 Energy
+Knockdown
+DC 30
+
+
+Grenades 1: +2 DC and +15% Damage
+Grenades 2: +4 DC and +30% Damage
+Grenades 3: +6 DC and +50% Damage
+
++1 DC for every 6 points in Demolitions
++1% damage for every point in Demolitions
+
++2 To Grenades DC from Mira
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+
+All right well the jig is up, grenades are being replaced
+Sort of, enemies will still use them so we need to account for that
+But otherwise, we're moving to Grenade/Rocket launchers
+
+I think we don't need a ton of different effects for grenades
+While it's a shame to miss out on all of the grenades, this might be served better with a smaller number of more focused weapons
+
+
+
+Grenade Launchers:
+
+
+Grenade Launcher
+20 Piercing Damage / DC 15 (Reflex) / Half damage on save
+4m Area of Effect
+9 Second Reload
+
+Flashbang Launcher
+9 Second Stun / DC 15 (Reflex) / 3 Second Stun on save
+4m Area of Effect
+No stun on Reflex OR Will > 15
+9 Second Reload
+
+
+
+Rocket Launchers:
+
+
+Rocket Launcher
+36 Piercing Damage / DC 20 (Reflex) / Half damage on save
+4.5m Area of Effect
+9 Second Reload
+
+Adhesive Rocket Launcher
+12 Second Adhesive Effect + Stun / DC 20 (Reflex) / 3 Second Adhesive + Stun on save
+5m Area of Effect
+No adhesive or stun on Reflex > 20
+9 Second Reload
+
+Anti-Tank Gun
+30 Piercing Damage [Guarunteed Damage]
+Attack removes all shield effects before doing damage
+No Area of Effect
+9 Second Reload
+
+Ion Rocket Launcher
+30 Ion Damage / DC 20 (Reflex) / Half damage on save
+9 Second Stun vs Droids / DC 20 (Fortitude) / 3 second stun on save
+4.5m Area of Effect
+No stun on Fortitude > 20
+9 Second Reload
+
+
+
+------------------------------------------------------------------
+
+
+And now for the grenades that the opponents will use
+(We may decide that the player gets access to a limited amount of these grenades)
+
+
+
+
+Minor Sonic Detonator
+6 Sonic Damage / DC 10 (Reflex) / Half damage on save
+-2 Int/Wis/Chr for 30 Seconds / DC 10 (Will) / 9 Seconds on save
+If Will > 10, no attribute damage
+4 meter radius
+
+Sonic Detonator
+12 Sonic Damage / DC 12 (Reflex) / Half damage on save
+-2 Int/Wis/Chr for 30 Seconds / DC 12 (Will) / 9 Seconds on save
+If Will > 12, no attribute damage
+4 meter radius
+
+Frag Grenade
+20 Piercing Damage / DC 15 (Reflex) / Half damage on save
+4 meter radius
+
+Concussion Grenade
+9 Second Stun / DC 15 (Reflex) / 3 Second Stun on save
+If Reflex > 15, no stun
+4 meter radius
+
+Poison Grenade
+40 Poison Damage (4/3 for 30) / DC 15 (Fortitude) / Half damage on save
+If Fortitute > 15, no poison
+4 meter radius
+
+Ion Grenade
+20 Ion Damage / DC 15 (Reflex) / Half damage on save
+9 Second Stun vs Droids / DC 15 (Fortitude) / 3 second stun on save
+If Fortitude > 15, no stun
+4 meter radius
+
+Sonic Grenade
+20 Sonic Damage / DC 15 (Reflex) / Half damage on save
+-4 Int/Wis/Chr for 30 Seconds / DC 15 (Will) / 9 Seconds on save
+If Will > 15, no attribute damage
+4 meter radius
+
+Adhesive Grenade
+12 Second Adhesive Effect / DC 18 (Reflex) / 6 Second Adhesive on save
+No adhesive or stun on Reflex > 18
+4 meter radius
+
+CryoBan Grenade
+20 Cold Damage / DC 18 (Reflex) / Half damage on save
+9 second paralyze / DC 18 (Fortitude) / 3 Seconds on save
+If Fortitude > 18, no paralyze
+4 meter radius
+
+Plasma Grenade
+32 Fire Damage / DC 18 (Reflex) / Half damage on save
+2 second horror / DC 18 (Will) / no horror on save
+4 meter radius
+
+Thermal Detonator
+48 Energy Damage / DC 20 (Reflex) / Half damage on save
+Knockdown / DC 20 (Reflex) / No knockdown on save
+4 meter radius
+
+
+
+
+
+
+
+
+

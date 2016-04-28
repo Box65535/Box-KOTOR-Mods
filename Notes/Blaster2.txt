@@ -1,0 +1,247 @@
+
+So it turns out despite being brilliant when I initially came up with it, the selection/sequence of blasters wasn't quite perfect
+These are my adjustments to the blasters, most are the same 
+
+
+Common Blasters
+
+Blaster Pistol
+1d6 Energy / 20-20 x2 / Balanced+All
+Hold Out Blaster
+1d4 Energy / 19-20 x2 / Balanced
++All
+
+Ion Pistol
+1d4 Ion / 20-20 x2
++1d4 Ion vs Droid
++Chamber, Scope
+
+Disruptor Pistol
+1d4 Unstoppable / 20-20 x2
++Chamber, Scope
+
+Sonic Pistol
+1d4 Sonic / 20-20 x2 / Balanced
++Scope
+
+Heavy Blaster
+1d8 Energy / 20-20 x2
++All
+
+Blaster Carbine
+1d8 Energy / 20-20 x2
++Scope
+
+Sporting Rifle (Blaster Carbine)
+1d8 Energy / 20-20 x2
++All
+
+Mining Laser
+1d6 Fire / 20-20 x2
++None
+
+Advanced Mining Laser
+1d8 Fire / 20-20 x2
++Scope
+
+
+
+
+
+Military Blasters
+
+Watchman Blaster (Hold Out Blaster)
+1d6 Energy / 19-20 x2 / Balanced
++All
+
+Verpine Ion Pistol
+Ion Blaster
+1d8 Ion / 20-20 x2
++2 Ion vs Droid
++Chamber, Scope
+
+Sith Disruptor
+1d6 Unstoppable / 20-20 x2
+Keen
++Chamber, Scope
+
+Systech Aural Blaster
+1d6 Sonic / 20-20 x2 / Balanced
+-6 Wis DC 12
++Scope
+
+Republic Blaster Pistol (Heavy Blaster)
+1d10 Energy / 20-20 x2
++All
+
+Zabrak Blaster Carbine
+1d10 Energy / 20-20 x2
++1d3 Unstoppable
++1 Attack 
++None
+
+Sith Assassin Pistol (Hold Out Blaster)
+1d6 Energy / 19-20 x2 / Balanced
+Stun 25% 2 rounds DC 14
++All
+
+Systech Electric Blaster (Ion Blaster)
+1d8 Ion / 20-20 x2
++1d4 Electric
++Chamber, Scope
+
+Mandalorian Disruptor Pistol (Disruptor Pistol)
+1d6 Unstoppable / 20-20 x2
++1d3 Unstoppable
+-1 Damage
++Chamber, Scope
+
+Dashade Sonic Disruptor (Sonic Pistol)
+1d6 Sonic / 20-20 x2 / Balanced
++1d4 Unstoppable
++Scope
+
+Mercenary Blaster (Heavy Blaster)
+1d10 Energy / 20-20 x2
+Keen
++1d3 Physical
++1d3 Massive Crit
++None
+
+Exchange Stun Carbine (Blaster Carbine)
+1d10 / 19-20 x2
+Stun 25% 2 rounds DC 16
++None
+
+
+Blaster Rifles
+
+Republic Blaster Rifle
+1d12 Energy / 19-20 x2
++All
+
+Verpine Ion Rifle
+1d10 Ion / 20-20 x3
++4 Ion vs Droid
++Chamber, Scope
+
+Onderon Sonic Rifle
+1d10 Sonic / 20-20 x2
+-6 Wis DC 16
++Scope
+
+Mandalorian Disruption Rifle (Disruptor Rifle)
+1d10 Unstoppable / 19-20 x2
++1d3 Unstoppable
+-1 Damage
++Chamber, Scope
+
+Systech Sonic Disruption Rifle (Sonic Rifle)
+1d10 Sonic / 20-20 x2
+-6 Wis DC 12
++1d4 Unstoppable
++Scope
+
+Aratech Plasma Rifle (Ion Rifle)
+1d10 Ion / 20-20 x3
++1d4 Fire
+-6 Con DC 16
++Chamber, Scope
+
+Sith Sniper Rifle (Blaster Rifle)
+1d12 Energy / 19-20 x2
++1 Sniper Shot Bonus
++All
+
+Mandalorian Assault Rifle (Blaster Rifle)
+1d12 Energy / 19-20 x2
++1d3 Energy
++1d3 Energy
+-2 Damage
++All
+
+Zabrak Combat Rifle (Blaster Rifle)
+1d12 Energy / 19-20 x2
++2 Attack
++1d4 Unstoppable
++None
+
+Droid Assassin Rifle (Disruptor Rifle)
+1d10 Unstoppable / 19-20 x2
+-6 Str DC 20
+HK 47 Only
++Chamber, Scope
+
+Not Sure
+
+(?) Disruption Rifle
+1d10 Unstoppable / 19-20 x2
++Chamber, Scope
+
+Verpine Neural Scrambler (Ion Rifle)
+1d10 Ion / 20-20 x3
+Confusion 25% 2 Rounds DC 18
++Chamber, Scope
+
+Crippling Disruptor Rifle (Disruptor Rifle)
+1d10 Unstoppable / 19-20 x2
+-6 Str DC 14
++All
+
+Zabrak Carbonite Rifle
+1d10 Cold / 20-20 x2
+Paralyze 25% 2 Rounds DC 18
++None
+
+
+Repeating Blaster Rifles
+
+Republic Repeating Blaster
+2d8 Energy / 20-20 x2
++All
+
+Onderon Repeating Carbine
+2d8 Sonic / 20-20 x2
+-6 Wis DC 20
++None
+
+Zabrak Repeating Blaster
+2d8 Energy / 20-20 x2
++1d8 Unstoppable
++None
+
+Overclocked Repeating Blaster
+2d8 Energy / 20-20 x2
++2 Rapid Shot
++None
+
+
+Not Sure
+
+
+
+
+
+Heaving Repeating Blasters
+
+Republic Heavy Repeater
+3d6 Energy / 20-20 x2
++All
+
+Mandalorian Heavy Repeater
+3d6 Unstoppable / 20-20 x2
++1d4 Unstoppable
++Chamber, Scope
+
+
+Bowcasters
+
+Bowcaster
+1d12 Energy / 20-20 x3
++None
+
+Ceremonial Bowcaster
+1d12 Energy / 20-20 x3
++1d4 Piercing
+Keen
++None

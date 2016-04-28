@@ -1,0 +1,1211 @@
+Agility 1 - Speed Attack/Defense +1
+Agility 2 - Improved Force Jump
+Agility 3 - Speed Attack/Defense +1
+
+Immunity 1 - Immune Fear, +2 Save vs Force
+Immunity 2 - Immune Stun, +2 Save vs Force
+Immunity 3 - Immune Paralysis, +2 Save vs Force
+
+Concentration 1 - +2 Saves for Valor, +1 Saves for Battle Med
+Concentration 2 - +1/+2 Defense/Deflect for Valor, +1 Defense for Battle Med
+Concentration 3 - +2/-1 Attack for Improved Battle Med
+
+Protection 1 - 2 Damage Resistance for Shields/Armor (Armor splits 1/1)
+Protection 2 - 5% Damage Resistance
+Protection 3 - 4 Damage Resistance for Shields/Armor (Armor splits 2/2)
+
+Restrain 1 - Stasis/Choke/Droid DC +2
+Restrain 2 - Stasis/Choke/Droid +3 Seconds
+Restrain 3 - Stasis/Choke/Droid DC +2
+
+Telekinesis 1 - Push DC +1/Damage +Level*0.5, Throw Lightsaber uses d8
+Telekinesis 2 - Push DC +1/Damage +Level*0.5, Throw Lightsaber uses d10
+Telekinesis 3 - Push DC +1/Damage +Level*0.5, Throw Lightsaber uses d12, Force Wave +3m
+
+Mind Affect 1 - Fear/Trick DC +2
+Mind Affect 2 - Fear/Trick DC +2
+Mind Affect 3 - +12 Seconds for Trick
+
+Afflict 1 - Affliction/Scream +1 Attribute Damage
+Afflict 2 - Affliction/Scream DC +2
+Afflict 3 - Affliction/Scream +1 Attribute Damage
+
+Heal 1 - Heal +5
+Heal 2 - Heal +5
+Heal 3 - Heal +5
+
+Drain 1 - Drain Life/Force DC +3
+Drain 2 - Half Damage and No Heal when hit by Drain Life/Force
+Drain 3 - Drain Life +5 Drain Force / Drain Force +20 Drain Force / Storm +50 Force Damage
+
+Resist Dark 1 - Nah
+Resist Dark 2 - Let's not do this yet
+Resist Dark 3 - This doesn't really work
+
+Mastery - All DC +2
+
+
+
+Medpacs 1 - +25% when using on someone else
+Medpacs 2 - +25% when using on someone else 
+Medpacs 3 - +25% when using on someone else
+
+Shields 1 - Level 1 Energy Shields
+Shields 2 - Level 2 Energy Shields
+Shields 3 - None
+
+Mines 1 - +50% Mine Damage
+Mines 2 - +50% Mine Radius
+Mines 3 - +50% Mine Damage
+
+
+Stims 1 - +1 Stim Attributes, +1 Stim Damage, +4 Stim HP, +10 Stim Seconds
+Stims 2 - +1 Stim Attributes, +1 Stim Damage, +4 Stim HP, +10 Stim Seconds
+Stims 3 - +1 Stim Attributes, +1 Stim Damage, +4 Stim HP, +10 Stim Seconds
+
+Droid Weapons 1 - Nothing
+Droid Weapons 2 - +3 Droid Weapons DC
+Droid Weapons 3 - +50% Droid Weapons Damage/Attribute Damage
+
+Droid Shields 1 - Level 1 Droid Shields
+Droid Shields 2 - Level 2 Droid Shields
+Droid Shields 3 - None
+
+Repair Kits 1 - 
+Repair Kits 2 - 
+Repair Kits 3 - 
+
+
+
+Tech Experience I    - +10% Repairs
+Tech Experience II   - (Gear Head)
+Tech Experience III  - +10 Shield Duration
+Tech Experience IV   - +10% Repairs
+Tech Experience V    - (Gear Head 2)
+Tech Experience VI   - +10 Sheild Absorbtion
+Tech Experience VII  - +10 Sheild Duration
+Tech Experience VIII - (Gear Head 3)
+Tech Experience IX   - +10 Sheild Absorbtion
+
+
+Armor Proficiency - Light
+Armor Proficiency - Medium
+Armor Proficiency - Heavy
+
+Blaster Pistols
+Blaster Pistols Focus
+Blaster Pistols Specialization
+
+Blaster Rifles
+Blaster Rifles Focus
+Blaster Rifles Specialization
+
+Repeating Blasters
+Heavy Repeating Blasters
+
+Precise Shot I
+Precise Shot II
+Precise Shot III
+Precise Shot IV
+Precise Shot V
+
+Melee Weapons
+Melee Weapons Focus
+Melee Weapons Specialization
+Increase Melee Damage I
+Increase Melee Damage II
+Increase Melee Damage III
+
+Lightsabers
+Lightsabers Focus
+Lightsabers Specialization
+Lighstabers Specialization 2
+Lighstabers Specialization 3
+Lighstabers Specialization 4
+
+Grenades
+Grenades Focus
+Grenades Specialization
+
+Droid Armor - Light
+Droid Armor - Medium
+Droid Armor - Heavy
+
+Ion Weapons
+Ion Weapons Focus
+Ion Weapons Specialization
+
+Stun Weapons
+Stun Weapons Focus
+Stun Weapons Specialization
+
+Energy Shields
+Advanced Energy Sheilds
+
+Droid Shields
+Advanced Droid Shields
+
+Implants 1
+Implants 2
+Implants 3
+
+Mastercraft Armor I
+Mastercraft Armor II
+Mastercraft Armor III
+
+Power Equipment 1
+Power Equipment 2
+Power Equipment 3
+
+Tech Equipment 1
+Tech Equipment 2
+Tech Equipment 3
+
+Stealth Belts 1
+Stealth Belts 2
+Stealth Belts 3
+
+Droid Combat Tech 1
+Droid Combat Tech 2
+Droid Combat Tech 3
+
+Droid Auxillary Upgrades 1
+Droid Auxillary Upgrades 2
+Droid Auxillary Upgrades 3
+
+Class Skill Computer Use
+Class Skill Awareness
+Class Skill Demolitions
+Class Skill Repair
+Class Skill Stealth
+Class Skill Security
+Class Skill Treat Injury
+
+Gear Head 1
+Gear Head 2
+Gear Head 3
+
+Caution 1
+Caution 2
+Caution 3
+
+Empathy 1
+Empathy 2
+Empathy 3
+
+Power Attack 1
+Power Attack 2
+Power Attack 3
+
+Flurry 1
+Flurry 2
+Flurry 3
+
+Critical Strike 1
+Critical Strike 2
+Critical Strike 3
+
+Power Shot 1
+Power Shot 2
+Power Shot 3
+
+Rapid Shot 1
+Rapid Shot 2
+Rapid Shot 3
+
+Sniper Shot 1
+Sniper Shot 2
+Sniper Shot 3
+
+Two Handed Fighting
+Two Handed Advanced
+Two Handed Mastery
+
+Dueling
+
+Toughness
+
+Conditioning 1
+Conditioning 2
+Conditioning 3
+
+Uncanny Dodge 1
+Uncanny Dodge 2
+Evasion
+
+Close Combat
+
+Dual Strike 1
+Dual Strike 2
+Dual Strike 3
+
+Unarmed Specialist I
+Unarmed Specialist II
+Unarmed Specialist III
+Unarmed Specialist IV
+Unarmed Specialist V
+Unarmed Specialist VII
+Unarmed Specialist VII
+Unarmed Specialist VIII
+
+Sneak Attack I
+Sneak Attack II
+Sneak Attack II
+Sneak Attack IV
+Sneak Attack V
+Sneak Attack VI
+Sneak Attack VII
+Sneak Attack VIII
+Sneak Attack IX
+Sneak Attack X
+
+Increase Combat Damage I
+Increase Combat Damage II
+Increase Combat Damage III
+
+Inner Strength I
+Inner Strength II
+Inner Strength III
+
+Ignore Pain 1
+Ignore Pain 2
+Ignore Pain 3
+
+Craft
+
+Synthesize
+
+Mines 1
+Mines 2
+Mines 3
+
+Com-Shots 1
+Com-Shots 2
+Com-Shots 3
+
+Heal Another 1
+Heal Another 2
+Heal Another 3
+
+Finesse Melee
+
+Finesse Lightsabers
+
+Stealth Run
+
+Lighsaber Deflect 1
+Lighsaber Deflect 2
+Lighsaber Deflect 3
+Lighsaber Deflect Mastery
+
+Force Agility 1
+Force Agility 2
+Force Agility 3
+
+Force Protection 1
+Force Protection 2
+Force Protection 3
+
+Force Mind Affect 1
+Force Mind Affect 2
+Force Mind Affect 3
+
+Force Body Affect 1
+Force Body Affect 2
+Force Body Affect 3
+
+Force Telekinesis 1
+Force Telekinesis 2
+Force Telekinesis 3
+
+Force Drain 1
+Force Drain 2
+Force Drain 3
+
+Resist Dark Side 1
+Resist Dark Side 2
+Resist Dark Side 3
+
+Force Stealth 1
+Force Stealth 2
+Force Stealth 3
+
+Regenerate Force
+
+Force Focus
+
+Light Side Enlightenment
+
+Dark Side Corruption
+
+Inspire Followers I
+Inspire Followers II
+Inspire Followers III
+Inspire Followers IV
+Inspire Followers V
+
+Crush Opposition I
+Crush Opposition II
+Crush Opposition III
+Crush Opposition IV
+Crush Opposition V
+
+Force Sensitive
+
+Blaster Integration
+
+War Veteran
+Force Chain
+
+Mentor
+Kinetic Combat
+
+Survival
+Spirit
+Spirit 2
+Spirit 3
+
+Sheild Strike 1
+Shield Strike 2
+Sheild Strike 3
+
+Echani Strike I
+Echani Strike II
+Echani Strike III
+
+Wrist Mounted Rockets
+Point Guard
+
+Wookie Toughness I
+Wookie Toughness II
+Wookie Toughness III
+Wookie Rage I
+Wookie Rage II
+Wookie Rage III
+
+Personal Cloaking Shield
+Droid Trick
+Droid Trick 2
+Mine Immunity
+
+Assasin Protocol I
+Assasin Protocol II
+Assasin Protocol III
+Droid Interface
+
+Mandalorian Courage
+Implant Switching
+
+Complex Unarmed Animations
+Proficiency All
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weapons and Armor Proficiency:
+
+Armor Proficiency - Light
+Armor Proficiency - Medium
+Armor Proficiency - Heavy	- 12 Str
+Blaster Pistols
+Blaster Pistols Focus
+Blaster Pistols Specialization
+Blaster Rifles
+Blaster Rifles Focus
+Blaster Rifles Specialization
+Repeating Blasters		- Level 6 / 12 Str
+Heavy Repeating Blasters	- Level 12 / 14 Str
+Precise Shot I
+Precise Shot II
+Precise Shot III		- Level 4
+Precise Shot IV			- Level 8
+Precise Shot V			- Level 12
+Melee Weapons
+Melee Weapons Focus
+Melee Weapons Specialization
+Increase Melee Damage I		- Level 4
+Increase Melee Damage II	- Level 8
+Increase Melee Damage III	- Level 12
+Lightsabers
+Lightsabers Focus
+Lightsabers Specialization
+Lighstabers Specialization 2	- Level 4
+Lighstabers Specialization 3	- Level 8
+Lighstabers Specialization 4	- Level 12
+Grenades
+Grenades Focus			- Level 6
+Grenades Specialization		- Level 12
+Droid Armor - Light
+Droid Armor - Medium
+Droid Armor - Heavy
+Ion Weapons
+Ion Weapons Focus		- Level 6
+Ion Weapons Specialization	- Level 12
+Stun Weapons
+Stun Weapons Focus		- Level 6
+Stun Weapons Specialization	- Level 12
+
+
+
+Item Proficiency:
+
+Energy Shields
+Advanced Energy Sheilds		- Level 8
+Droid Shields
+Advanced Droid Shields		- Level 8
+Implants 1
+Implants 2			- Level 6
+Implants 3			- Level 12
+Mastercraft Armor I
+Mastercraft Armor II		- Level 6
+Mastercraft Armor III		- Level 12
+Power Equipment 1
+Power Equipment 2		- Level 6
+Power Equipment 3		- Level 12
+Tech Equipment 1
+Tech Equipment 2		- Level 6
+Tech Equipment 3		- Level 12
+Stealth Belts 1
+Stealth Belts 2			- Level 6
+Stealth Belts 3			- Level 12
+Droid Combat Tech 1
+Droid Combat Tech 2		- Level 6
+Droid Combat Tech 3		- Level 12
+Droid Auxillary Upgrades 1
+Droid Auxillary Upgrades 2	- Level 6
+Droid Auxillary Upgrades 3	- Level 12
+
+
+
+Skills:
+
+Class Skill Computer Use
+Class Skill Awareness
+Class Skill Demolitions
+Class Skill Persuade
+Class Skill Repair
+Class Skill Stealth
+Class Skill Security
+Class Skill Treat Injury
+Gear Head 1
+Gear Head 2
+Gear Head 3
+Caution 1
+Caution 2
+Caution 3
+Empathy 1
+Empathy 2
+Empathy 3
+
+
+
+Combat:
+
+Power Attack 1
+Power Attack 2
+Power Attack 3
+Flurry 1
+Flurry 2
+Flurry 3
+Critical Strike 1
+Critical Strike 2
+Critical Strike 3
+Power Shot 1
+Power Shot 2
+Power Shot 3
+Rapid Shot 1
+Rapid Shot 2
+Rapid Shot 3
+Sniper Shot 1
+Sniper Shot 2
+Sniper Shot 3
+
+
+
+Stat Buffs:
+
+Two Handed Fighting
+Two Handed Advanced
+Two Handed Mastery
+Dueling
+Toughness
+Conditioning 1
+Conditioning 2
+Conditioning 3
+Uncanny Dodge 1
+Uncanny Dodge 2
+Evasion
+Close Combat
+Dual Strike 1
+Dual Strike 2
+Dual Strike 3
+Increase Combat Damage I
+Increase Combat Damage II
+Increase Combat Damage III
+Inner Strength I
+Inner Strength II
+Inner Strength III
+Ignore Pain 1
+Ignore Pain 2
+Ignore Pain 3
+Finesse Melee
+Finesse Lightsabers
+Lighsaber Deflect 1
+Lighsaber Deflect 2
+Lighsaber Deflect 3
+Lighsaber Deflect Mastery
+Regenerate Force
+Force Mastery
+Light Side Enlightenment
+Dark Side Corruption
+
+
+Combat Talents:
+
+Dual Strike 1
+Dual Strike 2
+Dual Strike 3
+Unarmed Specialist I
+Unarmed Specialist II		- Level 4
+Unarmed Specialist III		- Level 8
+Unarmed Specialist IV		- Level 12
+Unarmed Specialist V		- Level 16
+Unarmed Specialist VII		- Level 20
+Unarmed Specialist VII		- Level 24
+Unarmed Specialist VIII		- Level 28
+Sneak Attack I
+Sneak Attack II			- Level 4
+Sneak Attack III		- Level 6
+Sneak Attack IV			- Level 10
+Sneak Attack V			- Level 12
+Sneak Attack VI			- Level 16
+Sneak Attack VII		- Level 18
+Sneak Attack VIII		- Level 20
+Sneak Attack IX			- Level 22
+Sneak Attack X			- Level 24
+
+
+
+Item Talents:
+
+Craft
+Synthesize
+Mines 1
+Mines 2				- Level 6
+Mines 3				- Level 12
+Com-Shots 1
+Com-Shots 2			- Level 6
+Com-Shots 3			- Level 12
+Heal Another 1
+Heal Another 2			- Level 6
+Heal Another 3			- Level 12
+Stealth Run
+
+
+
+Force Proficiency:
+
+(See Above)
+
+
+Character Specific:
+
+Force Sensitive
+Blaster Integration
+War Veteran
+Force Chain
+Mentor
+Kinetic Combat
+Survival
+Spirit
+Spirit 2
+Spirit 3
+Sheild Strike 1
+Shield Strike 2
+Sheild Strike 3
+Echani Strike I
+Echani Strike II
+Echani Strike III
+Wrist Mounted Rockets
+Point Guard
+Wookie Toughness I
+Wookie Toughness II
+Wookie Toughness III
+Wookie Rage I
+Wookie Rage II
+Wookie Rage III
+Personal Cloaking Shield
+Droid Trick
+Droid Trick 2
+Mine Immunity
+Assasin Protocol I
+Assasin Protocol II
+Assasin Protocol III
+Droid Interface
+Mandalorian Courage
+Implant Switching
+Complex Unarmed Animations
+Proficiency All
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------
+New Feats
+-------------------------------------------------------------------
+
+Note that these aren't the actual names in the descriptions,
+they're just listed this way for convenience so they look
+similar
+
+
+
+Item Prerequisites:
+
+Lightsabers
+Blasters 1
+Blasters 2 (Advanced)
+Blasters 3 (Rifles)
+Blasters 4 (Repeating)
+Blasters 5 (Heavy Repeating)
+Melee Weapons 1
+Melee Weapons 2 (Powered) 
+Melee Weapons 3 (Traditional) 
+Armor 1 (Light Combat Suits)
+Armor 2 (Heavy Combat Suits)
+Armor 3 (Military Suits)
+Armor 4 (Heavy Battle Armor)
+Armor 5 (Mastercraft Armor)
+Droid Armor 1
+Droid Armor 2
+Droid Armor 3
+Energy Shields 1
+Energy Shields 2 (Advanced)
+Droid Shields 1
+Droid Shields 2 (Advanced)
+Implants 1
+Implants 2
+Implants 3
+Power Equipment 1
+Power Equipment 2
+Tech Equipment 1
+Tech Equipment 2
+Droid Combat Upgrades 1
+Droid Combat Upgrades 2
+Droid Auxilary Upgrades 1
+Droid Auxilary Upgrades 2
+Stealth Field Generators
+
+
+
+Weapon Bonuses:
+
+Precise Shot I
+Precise Shot II
+Precise Shot III
+Precise Shot IV
+Precise Shot V
+Melee Focus
+Melee Specialization
+Melee Increase Damage I
+Melee Increase Damage II
+Melee Increase Damage III
+Lightsabers Focus
+Lightsabers Specialization
+Lightsabers Specialization 2
+Lightsabers Specialization 3
+Lightsabers Specialization 4
+
+
+
+Item Bonuses:
+
+Grenades 1
+Grenades 2
+Grenades 3
+Mines 1
+Mines 2
+Mines 3
+Comshots 1
+Comshots 2
+Comshots 3
+Droid Weapons 1
+Droid Weapons 2
+Droid Weapons 3
+Heal Another 1
+Heal Another 2
+Heal Another 3
+
+
+
+Combat Buffs:
+
+Dual Strike 1
+Dual Strike 2
+Dual Strike 3
+Unarmed Specialist I
+Unarmed Specialist II
+Unarmed Specialist III
+Unarmed Specialist IV
+Unarmed Specialist V
+Unarmed Specialist VI
+Unarmed Specialist VII
+Unarmed Specialist VIII
+Sneak Attack I
+Sneak Attack II
+Sneak Attack III
+Sneak Attack IV
+Sneak Attack V
+Sneak Attack VI
+Sneak Attack VII
+Sneak Attack VIII
+Sneak Attack IX
+Sneak Attack X
+Two Handed Fighting
+Two Handed Advanced
+Two Handed Mastery
+Conditioning 1
+Conditioning 2
+Conditioning 3
+Uncanny Dodge 1
+Uncanny Dodge 2
+Uncanny Dodge 3 (Evasion)
+Dual Strike 1
+Dual Strike 2
+Dual Strike 3
+Lighsaber Deflect 1
+Lighsaber Deflect 2
+Lighsaber Deflect 3
+Dueling
+Close Combat
+Finesse Melee
+Finesse Lightsabers
+Stealth Run
+
+
+
+Combat Techniques:
+
+Power Attack 1
+Power Attack 2
+Power Attack 3
+Flurry 1
+Flurry 2
+Flurry 3
+Critical Strike 1
+Critical Strike 2
+Critical Strike 3
+Power Shot 1
+Power Shot 2
+Power Shot 3
+Rapid Shot 1
+Rapid Shot 2
+Rapid Shot 3
+Sniper Shot 1
+Sniper Shot 2
+Sniper Shot 3
+
+
+
+Force Power Bonuses:
+
+Force Agility 1
+Force Agility 2
+Force Agility 3
+Force Immunity 1
+Force Immunity 2
+Force Immunity 3
+Force Concentration 1
+Force Concentration 2
+Force Concentration 3
+Force Protection 1
+Force Protection 2
+Force Protection 3
+Force Restrain 1
+Force Restrain 2
+Force Restrain 3
+Force Telekinesis 1
+Force Telekinesis 2
+Force Telekinesis 3
+Force Mind Affect 1
+Force Mind Affect 2
+Force Mind Affect 3
+Force Afflict 1
+Force Afflict 2
+Force Afflict 3
+Force Heal 1
+Force Heal 2
+Force Heal 3
+Force Drain 1
+Force Drain 2
+Force Drain 3
+
+
+
+Class Exclusive:
+
+Increase Combat Damage I
+Increase Combat Damage II
+Increase Combat Damage III
+Ignore Pain 1
+Ignore Pain 2
+Ignore Pain 3
+Lighsaber Deflect Mastery
+Force Mastery
+Force Camoflogue
+
+
+
+Character Exclusive:
+
+Force Sensitive
+Blaster Integration
+War Veteran
+Toughness
+Empathy I
+Empathy II
+Empathy III
+Force Chain
+Mentor
+Kinetic Combat
+Survival
+Spirit
+Spirit 2
+Spirit 3
+Sheild Strike 1
+Shield Strike 2
+Sheild Strike 3
+Echani Strike I
+Echani Strike II
+Echani Strike III
+Wrist Mounted Rockets
+Point Guard
+Wookie Toughness I
+Wookie Toughness II
+Wookie Toughness III
+Wookie Rage I
+Wookie Rage II
+Wookie Rage III
+Personal Cloaking Shield
+Droid Trick
+Droid Trick 2
+Mine Immunity
+Assasin Protocol I
+Assasin Protocol II
+Assasin Protocol III
+Droid Interface
+Mandalorian Courage
+Implant Switching
+Complex Unarmed Animations
+Proficiency All
+
+
+
+Crafting:
+
+Crafting Efficiency
+Synthesizing Efficiency
+
+
+
+Informative:
+
+{Base Attack Bonus High
+Base Attack Bonus Medium
+Base Attack Bonus Low
+AC Bonus Highest
+AC Bonus High
+AC Bonus Medium
+AC Bonus Low
+AC Bonus Lowest
+Saving Throws Soldier
+Saving Throws Scoundrel
+Saving Throws Consular
+Saving Throws Scout
+Saving Throws Tech Spec
+Saving Throws Guardian
+Saving Throws Senitinel
+1 Skill Point
+2 Skill Points
+6 Vitality Points
+8 Vitality Points}
+OR
+{Class Description Feats}
+Kriea's +1 FP -1 SP
+Handmaiden's Feat Situation
+
+
+
+Level Requirements:
+
+Armor 1				- Level 1
+Armor 2				- Level 1
+Armor 3				- Level 1
+Armor 4				- Level 6
+Armor 5				- Level 12
+Melee Weapons 1			- Level 1
+Melee Weapons 2			- Level 1
+Melee Weapons 3			- Level 6
+Blaster 1			- Level 1
+Blaster 2			- Level 1
+Blaster 3			- Level 1
+Blaster 4			- Level 6
+Blaster 5			- Level 12
+Droid Armor 1			- Level 1
+Droid Armor 2			- Level 6
+Droid Armor 3			- Level 12
+Shields 1			- Level 1
+Shields 2			- Level 6
+Equipment 1			- Level 1
+Equipment 2			- Level 6
+Droid Upgrades 1		- Level 1
+Droid Upgrades 2		- Level 6
+Implants 1			- Level 1
+Implants 2			- Level 6
+Implants 3			- Level 12
+Items Bonus 1			- Level 1
+Items Bonus 2			- Level 6
+Items Bonus 3			- Level 12
+Weapons Bonus 1			- Level 1
+Weapons Bonus 2			- Level 4
+Weapons Bonus 3			- Level 8
+Weapons Bonus 4			- Level 12
+Weapons Bonus 5			- Level 16
+Unarmed Specialist I		- Level 1
+Unarmed Specialist II		- Level 6
+Unarmed Specialist III		- Level 12
+Unarmed Specialist IV		- Level 18
+Unarmed Specialist V		- Level 24
+Unarmed Specialist VI		- Level 30
+Unarmed Specialist VII		- Level 36
+Unarmed Specialist VIII		- Level 42
+Sneak Attack I			- Level 1
+Sneak Attack II			- Level 5
+Sneak Attack III		- Level 9
+Sneak Attack IV			- Level 13
+Sneak Attack V			- Level 17
+Sneak Attack VI			- Level 21
+Sneak Attack VII		- Level 25
+Sneak Attack VIII		- Level 29
+Sneak Attack IX			- Level 33
+Sneak Attack X			- Level 37
+Force Feats 1			- Level 3
+Force Feats 2			- Level 9
+Force Feats 3			- Level 15
+Combat Technique 1		- Level 1
+Combat Technique 2		- Level 4
+Combat Technique 3		- Level 8
+Two Hands 1			- Level 1
+Two Hands 2			- Level 4
+Two Hands 3			- Level 8
+Conditioning 1			- Level 1
+Conditioning 2			- Level 4
+Conditioning 3			- Level 8
+Dual Strike 1			- Level 1
+Dual Strike 2			- Level 4
+Dual Strike 3			- Level 8
+Uncanny Dodge I			- Level 4
+Uncanny Dodge II		- Level 8
+Uncanny Dodge III		- Level 12
+
+
+
+Attribute Requirements:
+
+Blasters 4			- Str > 12
+Blasters 5			- Str > 14
+Armor 3				- Con > 10
+Armor 4				- Con > 12
+Armor 5				- Con > 14
+Implants 1			- Con > 12
+Implants 2			- Con > 14
+Implants 3			- Con > 16
+Melee Weapons 3			- Dex > 12
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+New Feats
+
+Actually this is more of a reorganization, everything is all over the place at the moment
+This file is getting really really long but what can you do
+
+
+Item Prerequisites:
+Lightsabers
+Blasters 1
+Blasters 2 (Advanced)
+Blasters 3 (Rifles)
+Blasters 4 (Repeating)
+Blasters 5 (Heavy Repeating)
+Melee Weapons 1
+Melee Weapons 2 (Powered) 
+Melee Weapons 3 (Traditional) 
+Armor 1 (Light Combat Suits)
+Armor 2 (Heavy Combat Suits)
+Armor 3 (Military Suits)
+Armor 4 (Heavy Battle Armor)
+Armor 5 (Mastercraft Armor)
+Droid Armor 1
+Droid Armor 2
+Droid Armor 3
+Energy Shields 1
+Energy Shields 2 (Advanced)
+Stimulant Packages 1 (Adrenaline Packages)
+Stimulant Packages 2 (Stimulant Packages)
+Explosives 1 (Grenade Launchers)
+Explosives 2 (Rocket Launchers)
+Close-Range Weapons 1 
+Close-Range Weapons 2 (Advanced)
+Implants 1
+Implants 2
+Implants 3
+Stealth Field Generators
+Medic Belts 1 (Medicine Belts)
+Medic Belts 2 (Medpac Dispensers)
+Repair Tools 1 (Repair 
+Repair Tools 2 (Repair Tools)
+Wookie Weapons
+
+Weapon Bonuses:
+*Same as Before
+
+Combat Buffs:
+*Same as Before
+
+Combat Techniques:
+*Same as Before
+
+Force Power Bonuses:
+*See Below
+
+
+
+
+
+Agility 1 - Speed Attack/Defense +1
+Agility 2 - Improved Force Jump
+Agility 3 - Speed Attack/Defense +1
+Immunity 1 - Immune Fear, +1 Save vs Force
+Immunity 2 - Immune Stun, +1 Save vs Force
+Immunity 3 - Immune Paralysis, +1 Save vs Force
+Concentration 1 - +2 Saves for Valor, +1 Saves for Battle Med
+Concentration 2 - +1/+2 Defense/Deflect for Valor, +1 Defense for Battle Med
+Concentration 3 - +2/-1 Attack for Improved Battle Med
+Protection 1 - 2 Damage Resistance for Shields/Armor (Armor splits 1/1)
+Protection 2 - 5% Damage Resistance
+Protection 3 - 4 Damage Resistance for Shields/Armor (Armor splits 2/2)
+Restrain 1 - Stasis/Choke/Droid DC +2
+Restrain 2 - Stasis/Choke/Droid +3 Seconds
+Restrain 3 - Stasis/Choke/Droid DC +2
+Telekinesis 1 - Push DC +1/Damage +Level*0.5, Throw Lightsaber uses d8
+Telekinesis 2 - Push DC +1/Damage +Level*0.5, Throw Lightsaber uses d10
+Telekinesis 3 - Push DC +1/Damage +Level*0.5, Throw Lightsaber uses d12, Force Wave +3m
+Mind Affect 1 - Fear/Trick DC +2
+Mind Affect 2 - Fear/Trick DC +2
+Mind Affect 3 - +12 Seconds for Trick
+Heal 1 - Heal +5
+Heal 2 - Heal +5
+Heal 3 - Heal +5
+Afflict 1 - Affliction/Scream +1 Attribute Damage
+Afflict 2 - Affliction/Scream DC +2
+Afflict 3 - Affliction/Scream +1 Attribute Damage
+Drain 1 - Drain Life/Force DC +3
+Drain 2 - Half Damage and No Heal when hit by Drain Life/Force
+Drain 3 - Drain Life +5 Drain Force / Drain Force +20 Drain Force / Storm +50 Force Damage
+
+
+
+You know actually once accounting for the new items we've made, I think we're actually in a pretty good spot feat wise
+
+
+
+
+
+
+

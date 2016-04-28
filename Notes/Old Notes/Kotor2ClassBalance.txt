@@ -1,0 +1,800 @@
+
+
+
+Soldier:
+VP 		- 9				= 8 Points (Combat)
+SP 		- 0
+Class Skills	- None
+Extra Skills	- Awareness, Demolitions	= 1 Point (Skill)
+Attack		- Highest			= 8 Points (Combat)
+Defense		- Low				= 2 Points (Combat)
+Fortitude	- Highest
+Relex		- Low
+Will		- Lowest
+Feats 		- 14				= 14 Points
+Free Feats:					= 5 Points (Combat)
+-Blaster Pistols
+-Blaster Rifles
+-Repeating Blasters
+-Melee Weapons
+-Grenades
+-Light Armor
+-Medium Armor 		- Level 1
+-Heavy Armor 		- Level 1
+-Increase Combat Damage I - Level 9
+-Increase Combat Damage II - Level 18
+-Increase Combat Damage III - Level 27
+-Stealth Belts 1
+Extra Available Feats:				= 1 Point (Combat)
+-Toughness
+-Two Hand Mastery
+
+
+24 Combat Points
+1 Skill Point
+
+
+
+Scout:
+VP 		- 5				= 4 Points (Combat)
+SP 		- 1				= 4 Points (Skill)
+Class Skills	- Awareness			= 1 Point (Skill)
+Extra Skills	- Demolitions, Treat Injury	= 2 Points (Skill)
+Attack		- Medium (+Targeting)		= 6 Points (Combat)
+Defense		- Low				= 2 Points (Combat)
+Fortitude	- Medium
+Relex		- Medium
+Will		- Medium
+Feats 		- 20				= 20 Points
+Free Feats:					= 5 Points (Combat)
+-Blaster Pistols
+-Blaster Rifles
+-Melee Weapons
+-Grenades
+-Light Armor
+-Medium Armor - Level 1
+-Conditioning 1 - Level 1
+-Conditioning 2 - Level 7
+-Conditioning 3 - Level 15
+-Uncanny Dodge 1 - Level 4
+-Uncanny Dodge 2 - Level 11
+-Evasion 	- Level 21
+-Stealth Belts 1
+*Targeting
+
+15 Combat Points
+7 Skill Points
+
+
+Scoundrel:
+VP 		- 5					= 4 Points (Combat)
+SP 		- 1					= 4 Points (Skill)
+Class Skills	- Security				= 2 Points (Skill)
+Extra Skills	- Awareness, Stealth, Computer Use	= 1 Point (Skill)
+Attack		- Medium				= 4 Points (Combat)
+Defense		- Highest				= 8 Points (Combat)
+Fortitude	- Low
+Relex		- Highest
+Will		- Lowest
+Feats 		- 14					= 14 Points
+Free Feats:						= 5 Points (Combat)
+-Blaster Pistols
+-Blaster Rifles
+-Melee Weapons
+-Grenades
+-Light Armor
+-Sneak Attack I 	- Level 4
+-Sneak Attack II 	- Level 8
+-Sneak Attack III 	- Level 14
+-Sneak Attack IV 	- Level 18
+-Sneak Attack V 	- Level 24
+-Extra Sneak Attack I - Level 2
+-Extra Sneak Attack II - Level 6
+-Extra Sneak Attack III - Level 12
+-Extra Sneak Attack IV - Level 16
+-Extra Sneak Attack V - Level 22
+-Stealth Belts 1 	- Level 1
+-Stealth Belts 2 	- Level 9
+-Stealth Belts 3 	- Level 19
+
+21 Combat Points
+7 Skill Points
+
+
+
+Tech Specialist:
+VP 		- 4					= 3 Points (Combat)
+SP 		- 1					= 4 Points (Skill)
+Class Skills	- Computer Use, Repair			= 2 Points (Skill)
+Extra Skills	- Awareness, Security, Demolitions	= 2 Points (Skill)
+Attack		- Lowest
+Defense		- Low
+Fortitude	- Low
+Relex		- Low
+Will		- Low
+Feats 		- 14
+Free Feats:						= 4 (Combat) + 1 (Skill)
+-Blaster Pistols
+-Blaster Rifles
+-Melee Weapons
+-Grenades
+-Light Armor
+-Stealth Belts 1
+
+
+
+Expert Droid:
+VP 		- 5				= 3 Points
+SP 		- 1				= 4 Points
+Class Skills	- Computer Use, Security
+Extra Skills	- Awareness, Repair
+Attack		- Lowest
+Defense		- Lowest
+Fortitude	- Low
+Relex		- Low
+Will		- Low
+Feats 		- 12
+Free Feats:					= ? Points
+-Blaster Pistols
+-Blaster Rifles
+-Grenades
+-Droid Sheilds
+-Computer Tech
+Extra Available Feats:
+*Droid Feats
+
+Total 9 + ? Points
+
+
+
+Combat Droid:
+VP 		- 11				= 10 Points
+SP 		- 0
+Class Skills	- Awareness
+Extra Skills	- Repair
+Attack		- Medium			= 4 Points
+Defense		- Lowest
+Fortitude	- Highest
+Relex		- Low
+Will		- Lowest
+Feats 		- 12
+Free Feats:					= ? Points
+-Blaster Pistols
+-Blaster Rifles
+-Repeating Blasters
+-Grenades
+Extra Available Feats:
+-Two Hand Mastery
+*Droid Feats
+
+Total 14 + ? Points
+
+
+
+Jedi Guardian:
+VP		- 8				= 7 Points
+SP		- 0
+FP		- 4				= 4 Points
+Class Skills	- None
+Extra Skills	- Awareness, Treat Injury
+Attack		- Highest			= 8 Points
+Defense		- Medium			= 4 Points
+Fortitude	- High
+Relex		- Medium
+Will		- Low
+Feats		- 7/15, 12/30
+Force Powers	- 6/15, 9/30			= 9 Points
+Free Feats:					= 5 Points
+-Blaster Pistols
+-Grenades
+-Melee Weapons
+-Lightsabers
+-Energy Sheilds
+-Light Armor
+-Medium Armor
+-Deflection		- Level 1
+-Force Jump		- Level 4
+-Force Jump 2		- Level 9
+-Force Jump 3		- Level 14
+Extra Available Feats:				= 2 Points
+-Toughness
+-Two Hand Mastery
+*Force Feats
+
+Total 38 Points
+
+
+
+Jedi Sentinel
+VP		- 5				= 4 Points
+SP		- 1				= 4 Points
+FP		- 3				= 3 Points
+Class Skills	- Awareness
+Extra Skills	- Stealth, Treat Injury
+Attack		- Medium			= 4 Points
+Defense		- Medium			= 4 Points
+Fortitude	- Low
+Relex		- Medium
+Will		- High
+Feats		- 9/15, 14/30
+Force Powers	- 7/15, 11/30			= 9 Points
+Free Feats:					= 1 Point
+-Blaster Pistols
+-Grenades
+-Melee Weapons
+-Lightsabers
+-Energy Sheilds
+-Light Armor
+Extra Available Feats:				= 1 Point
+*Force Feats
+
+Total 31 Points
+
+
+
+Jedi Consular
+VP		- 4				= 3 Points
+SP		- 0
+FP		- 6				= 7 Points
+Class Skills	- Treat Injury
+Extra Skills	- Awareness, Stealth
+Attack		- Lowest
+Defense		- High				= 6 Points
+Fortitude	- Lowest
+Relex		- Low
+Will		- Highest
+Feats		- 7/15, 12/30
+Force Powers	- 8/15, 14/30			= 14 Points
+Free Feats:					= 4 Points
+-Blaster Pistols
+-Grenades
+-Melee Weapons
+-Lightsabers
+-Energy Sheilds
+-Light Armor
+-Concentration 1	- Level 1
+-Mind Affect 1		- Level 3
+-Incapacitate 1		- Level 7
+Extra Available Feats:				= 1 Point
+-Dueling 2
+*Force Feats
+
+Total 35 Points
+
+
+
+Jedi Weapon Master
+VP		- 8
+SP		- 0
+FP		- 4
+Class Skills	- None
+Extra Skills	- Awareness, Treat Injury
+Attack		- Highest
+Defense		- Medium
+Feats		- 
+Force Powers	- 6/15, 9/30
+Free Feats:
+-Deflection 1
+-Deflection 2
+-Deflection 3
+-Master Deflection 	- Level 1
+-Increase Combat Damage I
+-Increase Combat Damage II
+-Increase Combat Damage III
+Extra Powers:
+-Master Speed
+
+
+Sith Marauder
+VP		- 8
+SP		- 0
+FP		- 4
+Class Skills	- None
+Extra Skills	- Awareness
+Attack		- Highest
+Defense		- Medium
+Feats		- 
+Force Powers	- 6/15, 9/30
+Free Feats:
+-Ignore Pain I
+-Ignore Pain II
+-Ignore Pain III
+-Increase Combat Damage I
+-Increase Combat Damage II
+-Increase Combat Damage III
+Extra Powers:
+-Drain Life 2
+-Drain Force 2
+
+
+Jedi Watchman
+VP		- 5
+SP		- 1
+FP		- 3
+Class Skills	- Stealth
+Extra Skills	- Awareness, Computer Use, Repair
+Attack		- Medium
+Defense		- Medium
+Feats		- 
+Force Powers	- 7/15, 11/30
+Free Feats:
+-Force Camoflogue	- Level 1
+Extra Powers:
+
+
+Sith Assassin
+VP		- 5
+SP		- 1
+FP		- 3
+Class Skills	- Stealth
+Extra Skills	- Awareness, Security, Demolitions
+Attack		- Medium
+Defense		- Medium
+Feats		- 
+Force Powers	- 7/15, 11/30
+Free Feats:
+-Force Camoflogue
+-Force Camoflogue 2
+-Force Camoflogue 3
+-Sneak Attack I
+-Sneak Attack II
+-Sneak Attack III
+-Sneak Attack IV
+-Sneak Attack V
+-Extra Sneak Attack I
+-Extra Sneak Attack II
+-Extra Sneak Attack III
+-Extra Sneak Attack IV
+-Extra Sneak Attack V
+Extra Powers:
+-Drain Life 2
+-Drain Force 2
+
+
+Jedi Master
+VP		- 4
+SP		- 0
+FP		- 7
+Class Skills	- Treat Injury
+Extra Skills	- Awareness, Stealth
+Attack		- Lowest
+Defense		- High
+Feats		- 
+Force Powers	- 8/15, 14/30
+Free Feats:
+-Light Side Enlightenment
+-Inspire Followers I
+-Inspire Followers II
+-Inspire Followers III
+-Inspire Followers IV
+-Inspire Followers V
+-Resist Dark Side
+-Resist Dark Side 2
+-Resist Dark Side 3
+Extra Powers:
+-Master Heal
+
+
+
+Sith Lord
+VP		- 4
+SP		- 0
+FP		- 7
+Class Skills	- None
+Extra Skills	- Awareness, Stealth
+Attack		- Lowest
+Defense		- High
+Feats		- 
+Force Powers	- 8/15, 14/30
+Free Feats:
+-Dark Side Corruption
+-Crush Opposition I
+-Crush Opposition II
+-Crush Opposition III
+-Crush Opposition IV
+-Crush Opposition V
+Extra Powers:
+-Force Storm
+-Drain Life 2
+-Drain Force 2
+
+
+
+
+
+
+
+
+
+
+
+Identifying Class by Skill
+Computer Use - Ex Droid, Tech Spec, Scoundrel
+Awareness - Sentinel, Cm Droid, Scout ...
+Demolitions - Scout, Tech Spec, Soldier
+Repair - Tech Spec, Ex Droid
+Security - Scoundrel, Ex Droid, Tech Spec
+Stealth - Assasin, Scoundrel, Consular, Sentinel, Scout, Soldier
+Treat Injury - Scout, Consular
+
+
+Spells by "Type"
+
+Telekinesis - Push, Wound, Throw Lightsaber
+Affect Mind - Fear, Persuade, Trick
+Health - Heal, Slow
+Drain - Drain Life, Drain Force
+Agility - Speed
+Lightning - Shock, Droid
+Protection - Armor, Energy Resistance, Physical Resistance
+Stun - Stun, Droid
+
+
+Spells by Purpose
+
+Party Support - Energy Resistance, Physical Resistance, Heal
+Buffs - Armor, Speed, Valor
+Debuffs - Scream, Affliction
+Stun - Destroy Droid, Wave, Stasis, Fear, Kill, Trick
+Damage - Lightning, Drain Life, Destroy Droid, Wave, Kill, Throw Lightsaber
+Drain - Drain Life, Drain Force
+
+So let's say
+Protection - Energy/Physical Resistance, Armor, BattleMed
+Agility - Speed, Valor
+Incapacitation - Stasis, Choke, Push, Droid, Crush
+Mind Affect - Fear, Trick, Affliction, Scream
+Drain - Drain Life, Drain Force, Lightning*
+
+Let's also define what the actual calculations might be
+Spell DC = 5 + (3/5)(Level) + WisMod + CharMod
+
+Protection 1 - Armor AC Bonus +1
+Protection 2 - Energy/Physical Resistance increased by 2
+Protection 3 - BattleMed gives AC bonus 1 to party
+
+Concentration 1 - Valor Saving Throws +1
+Concentration 2 - Valor and Speed AC Bonus +1
+Concentration 3 - Valor Stats +1
+
+Jump 1 - Force Jump
+Jump 2 - Advanced Jump
+Jump 3 - Master Jump, Speed AC +1
+
+Telekinesis 1 - Stasis/Choke/Push/Droid/Crush DC +1
+Telekinesis 2 - Stasis/Choke/Push/Droid/Crush DC +1
+Telekinesis 3 - Stasis/Choke/Push/Droid/Crush DC +1
+
+Mind Affect 1 - Fear/Trick/Affliction/Scream DC +2
+Mind Affect 2 - Increase Affliction/Scream Debuffs by 1
+Mind Affect 3 - Fear/Trick/Affliction/Scream DC +2
+
+Drain 1 - Drain Life/Force DC +2
+Drain 2 - Increase Drain Life Damage
+Drain 3 - Increase Shock Damage, Storm drains Force
+
+Immunity 1 - Immune Fear, +1 Save vs Force
+Immunity 2 - Immune Stun, +1 Save vs Force
+Immunity 3 - Immune Paralysis, +1 Save vs Force
+
+Resist Dark 1 - Nah
+Resist Dark 2 - Let's not do this yet
+Resist Dark 3 - This doesn't really work
+
+Focus - All DC +2
+
+
+
+
+
+All Feats:
+
+Armor Proficiency - Light (1)
+Armor Proficiency - Medium (2)
+Armor Proficiency - Heavy (3)
+
+Blaster Pistols (4)
+Blaster Pistols Focus (5)
+Blaster Pistols Specialization (6)
+
+Blaster Rifles (7)
+Blaster Rifles Focus (8)
+Blaster Rifles Specialization (9)
+
+Repeating Blasters (10)
+Heavy Repeating Blasters (11)
+
+Precise Shot I (12)
+Precise Shot II (13)
+Precise Shot III (14)
+Precise Shot IV (15)
+Precise Shot V (16)
+
+Melee Weapons (17)
+Melee Weapons Focus (18)
+Melee Weapons Specialization (19)
+Increase Melee Damage I (20)
+Increase Melee Damage II (21)
+Increase Melee Damage III (22)
+
+Lightsabers (23)
+Lightsabers Focus (24)
+Lightsabers Specialization (25)
+Lighstabers Specialization 2 (26)
+Lighstabers Specialization 3 (27)
+Lighstabers Specialization 4 (28)
+
+Grenades (29)
+Grenades Focus (30)
+Grenades Specialization (31)
+
+Computer Tech (32)
+Computer Tech Focus (33)
+Computer Tech Specialization (34)
+
+Energy Shields (35)
+Advanced Energy Sheilds (36)
+
+Implants 1 (37)
+Implants 2 (38)
+Implants 3 (39)
+
+Mastercraft Armor I (40)
+Mastercraft Armor II (41)
+Mastercraft Armor III (42)
+
+Power Equipment 1 (43)
+Power Equipment 2 (44)
+Power Equipment 3 (45)
+
+Tech Equipment 1 (46)
+Tech Equipment 2 (47)
+Tech Equipment 3 (48)
+
+Stealth Belts 1 (49)
+Stealth Belts 2 (50)
+Stealth Belts 3 (51)
+
+Droid Combat Tech 1 (52)
+Droid Combat Tech 2 (53)
+Droid Combat Tech 3 (54)
+
+Droid Auxillary Upgrades 1 (55)
+Droid Auxillary Upgrades 2 (56)
+Droid Auxillary Upgrades 3 (57)
+
+Droid Awareness Tech 1 (58)
+Droid Awareness Tech 2 (59)
+Droid Awareness Tech 3 (60)
+
+Class Skill Computer Use (61)
+Class Skill Awareness (62)
+Class Skill Demolitions (63)
+Class Skill Repair (64)
+Class Skill Stealth (65)
+Class Skill Security (66)
+Class Skill Treat Injury (67)
+
+Gear Head 1 (68)
+Gear Head 2 (69)
+Gear Head 3 (70)
+
+Caution 1 (71)
+Caution 2 (72)
+Caution 3 (73)
+
+Empathy 1 (74)
+Empathy 2 (75)
+Empathy 3 (76)
+
+Perception 1 (77)
+Perception 2 (78)
+Perception 3 (79)
+
+Power Attack 1 (80)
+Power Attack 2 (81)
+Power Attack 3 (82)
+
+Flurry 1 (83)
+Flurry 2 (84)
+Flurry 3 (85)
+
+Critical Strike 1 (86)
+Critical Strike 2 (87)
+Critical Strike 3 (88)
+
+Power Shot 1 (89)
+Power Shot 2 (90)
+Power Shot 3 (91)
+
+Rapid Shot 1 (92)
+Rapid Shot 2 (93)
+Rapid Shot 3 (94)
+
+Sniper Shot 1 (95)
+Sniper Shot 2 (96)
+Sniper Shot 3 (97)
+
+Two Handed Fighting (98)
+Two Handed Advanced (99)
+Two Handed Mastery (100)
+
+Dueling (101)
+
+Toughness (102)
+
+Conditioning 1 (103)
+Conditioning 2 (104)
+Conditioning 3 (105)
+
+Uncanny Dodge 1 (106)
+Uncanny Dodge 2 (107)
+Evasion (108)
+
+Close Combat (109)
+
+Dual Strike 1 (110)
+Dual Strike 2 (111)
+Dual Strike 3 (112)
+
+Unarmed Specialist I (113)
+Unarmed Specialist II (114)
+Unarmed Specialist III (115)
+Unarmed Specialist IV (116)
+
+Unarmed Adept I (117)
+Unarmed Adept II (118)
+Unarmed Adept III (119)
+Unarmed Adept IV (120)
+
+Sneak Attack I (121)
+Sneak Attack II (122)
+Sneak Attack II (123)
+Sneak Attack IV (124)
+Sneak Attack V (125)
+
+Extra Sneak Attack I (126)
+Extra Sneak Attack II (127)
+Extra Sneak Attack III (128)
+Extra Sneak Attack IV (129)
+Extra Sneak Attack V (130)
+
+Increase Combat Damage I (131)
+Increase Combat Damage II (132)
+Increase Combat Damage III (133)
+
+Inner Strength I (134)
+Inner Strength II (135)
+Inner Strength III (136)
+
+Ignore Pain 1 (137)
+Ignore Pain 2 (138)
+Ignore Pain 3 (139)
+
+Craft (140)
+
+Synthesize (141)
+
+Mines 1 (142)
+Mines 2 (143)
+Mines 3 (144)
+
+Com-Shots 1 (145)
+Com-Shots 2 (146)
+Com-Shots 3 (147)
+
+Heal Another 1 (148)
+Heal Another 2 (149)
+Heal Another 3 (150)
+
+Finesse Melee (151)
+
+Finesse Lightsabers (152)
+
+Stealth Run (153)
+
+Lighsaber Deflect 1
+Lighsaber Deflect 2
+Lighsaber Deflect 3
+Lighsaber Deflect Mastery
+
+Force Agility 1
+Force Agility 2
+Force Agility 3
+
+Force Protection 1
+Force Protection 2
+Force Protection 3
+
+Force Mind Affect 1
+Force Mind Affect 2
+Force Mind Affect 3
+
+Force Body Affect 1
+Force Body Affect 2
+Force Body Affect 3
+
+Force Telekinesis 1
+Force Telekinesis 2
+Force Telekinesis 3
+
+Force Drain 1
+Force Drain 2
+Force Drain 3
+
+Resist Dark Side 1
+Resist Dark Side 2
+Resist Dark Side 3
+
+Force Stealth 1
+Force Stealth 2
+Force Stealth 3
+
+Regenerate Force
+
+Force Focus
+
+Light Side Enlightenment
+
+Dark Side Corruption
+
+Inspire Followers I
+Inspire Followers II
+Inspire Followers III
+Inspire Followers IV
+Inspire Followers V
+
+Crush Opposition I
+Crush Opposition II
+Crush Opposition III
+Crush Opposition IV
+Crush Opposition V
+
+Force Sensitive
+
+Blaster Integration
+
+War Veteran
+Force Chain
+
+Mentor
+Kinetic Combat
+
+Survival
+Spirit
+Spirit 2
+Spirit 3
+
+Sheild Strike 1
+Shield Strike 2
+Sheild Strike 3
+
+Echani Strike I
+Echani Strike II
+Echani Strike III
+
+Wrist Mounted Rockets
+Point Guard
+
+Wookie Toughness I
+Wookie Toughness II
+Wookie Toughness III
+Wookie Rage I
+Wookie Rage II
+Wookie Rage III
+
+Personal Cloaking Shield
+Droid Trick
+Droid Trick 2
+Mine Immunity
+
+Assasin Protocol I
+Assasin Protocol II
+Assasin Protocol III
+Droid Interface
+
+Mandalorian Courage
+Implant Switching
+
+Complex Unarmed Animations
+Proficiency All

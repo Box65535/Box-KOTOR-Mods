@@ -1,0 +1,168 @@
+
+
+
+Energy Shield
+Type:		Human
+
+Tier 1: (Energy Shield - Energy Shields I)
+
+Cost		- 300 / 10 Uses
+Absorption	- 30
+Types		- Energy
+Duration	- 60 Seconds
+
+
+Tier 2: (Echani Shield - Energy Shields II)
+
+Cost		- 1000 / 10 Uses
+Absorption	- 60
+Types		- Energy
+Duration	- 60 Seconds
+
+
+Tier 3: (Echani Dueling Shield - Energy Shields II)
+
+Cost		- 1800 / 10 Uses
+Absorption	- 80
+Types		- Energy, Electrical
+Duration	- 60 Seconds
+
+Comments:
+
+
+
+
+Melee Shield
+Type:		Human
+
+Tier 1: (Mandalorian Melee Shield - Energy Shields I)
+
+Cost		- 500 / 10 Uses
+Absorption	- 40
+Types		- Physical
+Duration	- 60 Seconds
+
+
+Tier 2: (Mandalorian Power Shield - Energy Shields II)
+
+Cost		- 1500 / 10 Uses
+Absorption	- 70
+Types		- Physical
+Duration	- 60 Seconds
+
+Comments:
+
+
+
+
+Environment Shield
+Type:		Human
+
+Tier 1: (Telos Mining Shield - Energy Shields I)
+
+Cost		- 200 / 10 Uses
+Absorption	- 20
+Types		- Heat
+Duration	- 60 Seconds
+
+
+Tier 2: (Arkanian Energy Shield - Energy Shields II)
+
+Cost		- 600 / 10 Uses
+Absorption	- 40
+Types		- Energy, Sonic, Cold, Heat, Electrical
+Duration	- 60 Seconds
+
+
+Tier 3: (Verpine Prototype Shield - Energy Shields II)
+
+Cost		- 2200 / 10 Uses
+Absorption	- 80
+Types		- Energy, Sonic, Cold, Heat, Electrical
+Duration	- 60 Seconds
+
+Comments:
+
+
+
+
+Droid Energy Shield
+Type:		Droid
+
+Tier 1: (Droid Deflector Mark I - Droid Shields I)
+
+Cost		- 300 / 10 Uses
+Absorption	- 30
+Types		- Energy, Electrical, Ion
+Duration	- 60 Seconds
+
+
+Tier 2: (Droid Deflector Mark II - Droid Shields I)
+
+Cost		- 700 / 10 Uses
+Absorption	- 40
+Types		- Energy, Electrical, Ion
+Duration	- 60 Seconds
+
+
+Tier 3: (Droid Deflector Mark III - Droid Shields II)
+
+Cost		- 1500 / 10 Uses
+Absorption	- 60
+Types		- Energy, Electrical, Ion
+Duration	- 60 Seconds
+
+Comments:
+
+
+
+
+
+Droid Environment Shield
+Type:		Droid
+
+Tier 1: (Droid Absorption Barrier - Droid Shields I)
+
+Cost		- 400 / 10 Uses
+Absorption	- 30
+Types		- Energy, Sonic, Cold, Fire, Ion
+Duration	- 60 Seconds
+
+
+Tier 2: (Droid Energy Collector - Droid Shields II)
+
+Cost		- 900 / 10 Uses
+Absorption	- 40
+Types		- Energy, Sonic, Cold, Fire, Ion
+Duration	- 60 Seconds
+
+
+Tier 3: (Droid Unity Grid - Droid Shields II)
+
+Cost		- 2000 / 10 Uses
+Absorption	- 60
+Types		- Energy, Sonic, Cold, Fire, Ion
+Duration	- 60 Seconds
+
+Comments:
+
+
+
+
+Droid Renewable Shield
+Type:		Droid
+
+Tier 1: (Droid Renewable Shield - Droid Shields II)
+
+Cost		- 8000 / Unlimited Uses
+Absorption	- 40
+Types		- Energy, Electrical, Ion
+Duration	- 60 Seconds
+
+
+
+
+
+
+
+

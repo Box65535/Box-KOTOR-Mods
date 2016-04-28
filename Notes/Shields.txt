@@ -1,0 +1,91 @@
+
+
+Energy Shields:
+
+Peragus Mining Shield
+20 Damage Absorbtion
+Fire
+60 Seconds
+3 Minute Recharge
+
+Energy Shield
+20 Damage Absorbtion
+Energy
+60 Seconds
+1 Minute Recharge
+
+Environment Shield
+30 Damage Absorbtion
+Fire, Cold, Ion, Sonic
+60 Seconds
+1 Minute Recharge
+
+
+Advanced Energy Sheilds:
+
+Sith Energy Shield
+Energy, Electric
+40 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Mandalorian Melee Shield
+Physical
+30 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Echani Personal Shield
+Energy, Ion, Fire
+50 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Bao-Dur's Energy Shield
+Energy, Fire, Ion, Electric, Sonic, Cold
+50 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+
+
+
+
+Droid Energy Shields:
+
+Droid Energy Shield
+Energy
+20 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Droid Environment Shield
+30 Damage Absorbtion
+Fire, Cold, Electric, Sonic
+60 Seconds
+1 Minute Recharge
+
+
+
+Advanced Droid Energy Shields:
+
+
+Radiant Energy Shield
+Energy, Ion, Fire
+40 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Advanced Energy Sheild
+Energy, Electric
+50 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+Universal Energy Shield
+Energy, Fire, Ion, Electric, Sonic, Cold
+50 Damage Absorbtion
+60 Seconds
+1 Minute Recharge
+
+

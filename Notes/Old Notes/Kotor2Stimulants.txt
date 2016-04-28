@@ -1,0 +1,153 @@
+
+
+
+Adrenal Strength
+g_i_adrnaline001
++3 Str
+60 Seconds
+300 Credits
+
+Adrenal Alacrity
+g_i_adrnaline002
++3 Dex
+60 Seconds
+300 Credits
+
+Adrenal Stamina
+g_i_adrnaline003
++3 Con
+60 Seconds
+300 Credits
+
+Hyper-adrenal Strength
+g_i_adrnaline004
++5 Str
+60 Seconds
+500 Credits
+
+Hyper-adrenal Alacrity
+g_i_adrnaline005
++5 Dex
+60 Seconds
+500 Credits
+
+Hyper-adrenal Stamina
+g_i_adrnaline006
++5 Con
+60 Seconds
+500 Credits
+
+Battle Stimulant
+g_i_cmbtshot001
++12 Vitality
++2 Damage
+200 Credits
+
+Hyper-battle Stimulant
+g_i_cmbtshot002
++18 Vitality
++3 Damage
+350 Credits
+
+Echani Battle Stimulant
+g_i_cmbtshot003
++24 Vitality
++4 Damage
+600 Credits
+
+
+
+
+All Comshot feats:
+
++1 to attributes
++1 damage
++6 vitality
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------
+New Stimulants
+---------------------------------------------------------------
+
+
+Adrenal Stimulants
++3 Str/Con/Dex
++5 Str/Con/Dex
+
+Battle Stimulants
++4 Damage / +6 Damage 
+-10% vs Damage / -15% Damage
++3 Saves / +5 Saves
+
+
+Comshots 1: +1 Attribute / +2 Damage / -5% vs Damage / +1 Saves 
+Comshots 2: +2 Attribute / +4 Damage / -10% vs Damage / +2 Saves 
+Comshots 3: +3 Attribute / +6 Damage / -15% vs Damage / +3 Saves 
+
+
+
+
+
+
+----------------------------------------------------------------------------------
+
+
+New stimulants, now they're armbands
+
+
+
+
+Adrenalines:
+
+Adrenal Strength
++4 Str for 40 Seconds
+2 Minute Recharge
+
+Adrenal Stamina
++4 Con for 40 Seconds
+2 Minute Recharge
+
+Adrenal Alacrity
++4 Dex for 40 Seconds
+2 Minute Recharge
+
+
+
+Stimulants:
+
+
+Strengthening Stimulant
++4 Str for 40 Seconds
++4 Fort for 40 Seconds
++4 Reflex for 40 Seconds
+2 Minute Recharge
+
+Toughening Stimulant
++4 Con for 40 Seconds
++20 Damage Immunity
+2 Minute Recharge
+
+Focusing Stimulant
++4 Dex for 40 Seconds
++4 Will for 40 Seconds
++2 Attack for 40 Seconds
+2 Minute Recharge
+
+
+Ehhhhhhhhh we'll work on these
+Might replace saves with immunities or something
+We need to see what effects are available first
+
+
+
+
+
+

@@ -1,0 +1,331 @@
+This is just a short little txt file for the lightsabers in the game.
+
+
+
+Lightsaber
+2d8 Energy / Threat Range 19-20 x2
+Fully Upgradable
+4000 Credits
+
+Double-Bladed Lightsaber
+2d10 Energy / Threat Range 20-20 x2
+Fully Upgradable
+Two-Handed
+Balanced
+6000 Credits
+
+Short Lightsaber
+2d6 Energy / Threat Range 19-20 x2
+Fully Upgradeable
+Balanced
+1500 Credits
+
+
+Not yet sure how these might be changed. Wait until you finish pricing
+the game's weapons and upgrades.
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+New Stuff
+-----------------------------------------------
+
+Lightsaber
+2d8 Energy / 19-20 x2
++All
+
+Double-Bladed Lightsaber
+2d8 Energy / 20-20 x2
++All
+
+Short Lightsaber
+2d6 Energy / 19-20 x2
++All
+
+
+
+
+
+----------------------------------------------------
+Lightsaber Upgrades
+----------------------------------------------------
+
+
+Lenses:
+
+Widening Lens 1:
++1 Attack
+-2 Damage
+
+Widening Lens 2:
++1 Attack
++1 Deflect
+-2 Damage
+
+Kunda Lens 1:
++1 Deflect
+-1 Damage
+
+Kunda Lens 2:
++2 Deflect
+-1 Damage
+
+Sharp Lens:
+Keen
+-2 Defense
+
+Vibration Lens 1:
++1 Energy
+-1 Attack
+
+Vibration Lens 2:
++2 Energy
+-1 Attack
+
+
+
+Emitters:
+
+Deflection Emitter 1:
++1 Deflect
+-1 Attack
+
+Deflection Emitter 2:
++2 Deflect
+-1 Attack
+
+Fencing Emitter:
++1 Defense
+-1 Damage
+-1 Deflect
+
+Disrupting Emitter 1:
+50% Slow DC 18 (3 Rounds)
+-1 Defense
+
+Disrupting Emitter 2:
+25% Stun DC 18 (3 Rounds)
+-1 Defense
+
+Phobium Emitter:
++3 Energy
+-1 Attack
+-1 Defense
+
+
+
+Cells:
+
+
+Energy Cell:
++1 Energy
+-1 Deflect
+
+Electric Cell:
++1 Electric
+25% Stun DC 18 (2 Rounds)
+-1 Attack
+
+Cold Cell:
++1 Cold
+25% Paralyze DC 18 (3 Rounds)
+-1 Defense
+
+Fire Cell:
++1 Fire
+-6 Con DC 14
+-1 Defense
+
+Ion Cell:
++1 Ion
++2 Ion vs Droid
+-1 Attack
+
+Disruption Cell:
++2 Unstoppable
+-1 Attack
+
+
+
+
+Crystals:
+
+Rubat
++1 Attack
+
+Nextor
++1d4 Massive Crit
+
+Dragite
++2 Sonic
+
+Firkrann
++3 Electric vs Droid
+
+Phond
++2 Slashing
+
+Bondar
+25% Stun DC 18 (2 Rounds)
+
+Sigil
++3 Energy
+
+Jenraux
++3 Deflect
+
+Kasha
++2 Will
+
+Stygium
++3 Stealth
+
+Damind
++2 Attack
+
+Pontite
++2 Cold
++1 Will
+
+Upari
+Keen
+
+Ultima-Pearl
++1 Attack
++1 Fire
++1 Cold
+
+Solari
++1 Light Side
++3 Phys vs Dark Side
+Light Side Restriction
+
+Qixoni
++3 Dark Side
++1 Regen Force
+Dark Side Restriction
+
+Lorrdian Gemstone
++1 Defense
++1 Deflect
+
+Barab Ore Ignot
++3 Fire
+
+Hurrikane
++3 Unstoppable
+
+Ankarres Saphire
+Immunity Attribute Damage
++1 Regen
+
+
+
+
+--------------------------------------------------------------
+Personal Crystals:
+--------------------------------------------------------------
+
+There are 9 levels for each crystal.
+There are 5 alignment variations for each crystal.
+
+All crystals get bonus damage for every level
+
+Level 1:	+1
+Level 2:	+1
+Level 3:	+2
+Level 4:	+2
+Level 5:	+3
+Level 6:	+3
+Level 7:	+4
+Level 8:	+4
+Level 9:	+5
+
+Neutral or Semi Light/Dark: Energy Damage
+Light Side: LS Damage
+Dark Side: DS Damage
+
+Then there's an attribute bonus per level
+
+Level 1:	+0
+Level 2:	+0
+Level 3:	+0
+Level 4:	+1
+Level 5:	+1
+Level 6:	+2
+Level 7:	+2
+Level 8:	+3
+Level 9:	+3
+
+
+The Attributes gained depend on alignment as well
+
+Pure Light:		Dex
+Semi Light:		Wis
+Pure Neutral:	Wis and Chr
+Semi Dark:		Chr
+Pure Dark:		Str
+
+No Cost for this crystal
+
+
+------------------------------------------------------------
+
+Alright well now we need to do the tier thing again, it's lightsabers though so this is going to be a little different
+
+
+Tier 1:
+-Widening Lens 1
+-Kunda Lens 1
+-Vibration Lens 1
+-Deflection Emitter 1
+-Disrupting Emitter 1
+-Energy Cell
+
+Tier 2:
+-Electric Cell
+-Cold Cell
+
+Tier 3:
+-Fire Cell
+-Sharp Lens
+
+Tier 4:
+-Widening Lens 2
+-Vibration Lens 2
+
+Tier 5:
+-Deflection Emitter 2
+-Disruption Emitter 2
+-Kunda Lens 2
+
+Tier 6:
+-Ion Cell
+-Disruption Cell
+
+Tier 7:
+-Fencing Emitter
+-Phobium Emitter
+
+
+Tier 1 		- Level 10
+Tier 2 		- Level 12
+Tier 3 		- Level 13
+Tier 4 		- Level 15
+Tier 5 		- Level 17
+Tier 6 		- Level 18
+Tier 7 		- Level 20
+
+
+Yeah, I think this works because non-crystal lightsaber upgrades are kinda silly anyway
+
+
+
+
+

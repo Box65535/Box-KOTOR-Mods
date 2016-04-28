@@ -1,0 +1,276 @@
+
+
+The following are required:
+
+-Awareness must handle awareness
+-Stealth must handle stealth
+-Security must handle doors
+-Demolitions must handle traps
+-Droids cannot use Treat Injury
+-Droids cannot use Stealth (except G0t0)
+-Empathy gives bonuses to Awareness, Treat Injury, Persuade
+-Persuade can only be used by main character
+
+
+
+What you want:
+
+-All combat/non-combat skills to be separated
+-All crafting/non-crafting skills to be separated
+-2 different crafting skills
+-Not having repairs and hacking use the same skill
+-Only Persuasion should be restricted to main character
+-Empathy should not give bonuses to something random
+-Droids should only be restricted from things they absolutely can't do
+
+
+Consequences:
+-Awareness and Stealth cannot change
+-Extra things cannot be added to Persuade
+-Demolitions can only expand to include more combat stuff
+-Treat Injury can only expand to include more combat stuff or be eliminated
+
+More Consequences:
+-This leaves Security, Computer Use, and Repair as non-combat skills
+-Computer Use and Repair must be crafting skills only
+-Security cannot include both repairing and hacking
+-So we have a contradiction
+
+
+
+
+But Wait, What if we don't consider traps to be a combat ability?:
+-Repairing and hacking must be split between Demolitions and Security
+-If we assign hacking to Security, and repairing to Demolitions, it works
+-We cannot have any combat skills for demolitions
+-Any bonuses to droid weapons, demolitions, and repair kits can't be expressed in skills
+
+
+
+
+
+So based on this answer, we have the following skills:
+
+Persuade - same as before
+Awareness - same as before
+Stealth - same as before
+
+Treat Injury - effectivness with healing/medkits
+Repair - use of mines, repairing
+Security - opening doors, hacking
+
+Craft - crafting objects at workbench
+Chemicals - crafting objects at med station
+
+
+
+Things not included in skills:
+-Grenade bonuses
+-Mine bonuses
+-Stimulant bonuses
+-Repair kit bonuses
+-Droid weapon bonuses
+
+This is the main sacrifice that is made, that so many things here cannot be included
+
+
+
+Implimentation requirements:
+
+-Move repairing functionality to Demolitions
+-Move hacking functionality to Security
+-Rename Demolitions -> Repair
+-Rename Repair -> Craft
+-Rename Computer Use -> Chemicals
+-Adjust dialogue options to reflect new skills [play by ear]
+
+
+
+Only note is that I think when it comes to dialogue options, you are going to have to be willing to write a few extra lines of dialogue if necessary to work things out
+
+
+
+
+
+
+Alright so what about which classes get which skills?:
+
+Well, I've been thinking about this a bit
+There was a problem where there weren't enough skill options for classes
+Therefore, I think it makes sense to give all classes access to all skills as class skills after using a feat to do so
+The question is whether to require an intermediate feat
+For now, we'll list them as Free, Available, and Unlisted
+
+
+Instead of listing out every skill, how about a general framework:
+-There are several classes of skills: Persuade, Awareness, Treat Injury, Stealth, Technical
+-Tehnical = Repair + Craft + Chemicals + Security
+-Almost everyone gets Awareness
+-Scout, Scoundrel get one technical
+-Tech Specialist, Expert Droid get two technicals but no awareness
+-The non-technicals only require one feat to use
+-The technicals require a prereq feat to use
+-Droids get the prereq feat for free
+-Jedi get no technicals unless the main character who gets 1-2
+
+
+So this is the consequence of this:
+
+Solider:
+-Awareness
+
+Scout:
+-Awareness
+-Repair
+
+Scoundrel:
+-Awareness
+-Security
+
+Tech Specialist:
+-Repair
+-Craft
+
+Combat Droid:
+-Awareness
+
+Expert Droid:
+-Repair
+-Security
+
+Jedi Guardian:
+-Awareness
+*Repair
+
+Jedi Scoundrel:
+-Awareness
+*Chemicals
+*Security
+
+Jedi Consular:
+-Awareness
+*Craft
+
+Jedi Watchman:
+*Craft
+*Chemicals
+
+Sith Assassin:
+*Repair
+*
+
+
+
+
+
+
+FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACK
+
+
+I don't like this
+
+Because
+
+Demolitions is gone as a combat skill which means we're one short
+
+And all the items that assumed Demolitions was combat based don't work
+
+Fack!
+
+
+No, the best solution here is to work on eliminating this thing:
+
+-All crafting/non-crafting skills to be separated
+-2 different crafting skills
+
+
+Basically, what if we made 3 crafting skills which each did slightly different things:
+-2 for workbench
+-1 for med station
+
+Right now the items are configured for the following technical skills:
+-Repair
+-Computer Use
+-Security
+
+We want to change this to:
+-Chemicals
+-Mechanics
+-Computers
+
+No I don't like this either:
+
+Here's the problem in a nutshell:
+
+-You want 4 combat skills
+-You want 4 non-combat skills
+-You have 7 skills total
+-You don't want any crossover between skills
+
+Okay? Something has to go. We have to limit either combat or non-combat skills to 3 or have a hybrid skill. There's no other way. We can't make 8 skills. Persuade won't work.
+
+So there are 3 options:
+-Reduce combat skills to 3
+-Reduce non-combat skills to 3
+-Reduce both skills to 3 but also get a hybrid skill
+
+Things that need to exist on the combat side:
+-Awareness
+-Stealth
+-Treat Injury
+
+Things that need to exist on the non-combat side:
+-Security/Computers
+-Craft
+-Repair
+
+So what does that leave in the middle as potential removals/hybrids:
+-Demolitions
+-Chemicals
+
+
+We COULD combine Craft and Repair into one skill but this makes a VERY powerful skill since Craft is already one of the best
+
+An alternate is to combine Demolitions and Chemicals as a hybrid but the abilities of each skew heavily toward combat/non-combat so it's getting pulled in two directions
+
+We have to pick one of these, probably
+
+
+Is there a way to make Craft/Repair less powerful?:
+
+Is there a way to fold Chemicals into something that already exists?:
+
+
+
+
+
+
+Fack
+This all has happened because you wanted to include skills for crafting
+What if
+Instead of doing that, you forgot all this skill-changing nonsense
+And just made crafting feat-based
+Eh?
+Look, idk what the answer is
+But having 8 skills is impossible
+And even having 7 skills the way you've proposed could be really tricky
+Is it really worth trying to make crafting be a skill? Is it?
+Well, crafting wouldn't really fit very well into the feat system either
+I've got a new idea
+Free Crafting
+There are no requirements for crafting items, just pay the components/chemicals and move on
+I think that's what we have to do if we're ever going to get past this
+Just do it that way for now and see about coming back to it later
+It's just not worth trying to figure this out on this iteration because you're not satisfied with any solution for more than 2 hours
+It's the way it has to be
+Sorry
+Wait no, we need some sort of level scaling
+Just make it use the character's level in the script
+Whatever man
+I can't deal with this
+It is very important to the design, but I just can't make the sacrifices necessary
+As for the rest of the skill system
+Do everything else first and then see what you can put together just to test the game for once
+
+
+

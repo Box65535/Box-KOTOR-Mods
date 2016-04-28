@@ -1,0 +1,290 @@
+So this is DroidPowers.txt modeled after ForcePowers.txt. 
+
+
+Ion Striker
+Type:		Ion
+
+Tier 1: (Ion Striker)
+
+Target Area	- Single Opponent
+Cost		- 500 / 20 Uses
+Damage		- Level x 2
+Save Damage	- Level x 1
+Effect		- N/A
+Save Effect	- N/A
+Duration	- N/A
+Save Duration	- N/A
+
+
+Tier 2: (Plasma Thrower)
+
+Target Area	- Single Opponent
+Cost		- 1200 / 20 Uses
+Damage		- Level x 4
+Save Damage	- Level x 2
+Effect		- N/A
+Save Effect	- N/A
+Duration	- N/A
+Save Duration	- N/A
+
+Comments:
+
+
+
+
+Ion Blast
+Type:		Ion
+
+Tier 1: (Ion Blast Mark I)
+
+Target Area	- Single Opponent (Droid)
+Cost		- 250 / 20 Uses
+Damage		- Level x 1
+Save Damage	- Level x 0.5
+Effect		- Stun
+Save Effect	- Stun
+Duration	- 12 Seconds
+Save Duration	- 6 Seconds
+
+
+Tier 2: (Ion Blast Mark II)
+
+Target Area	- 5m Radius [of target?] (Droid)
+Cost		- 1000 / 20 Uses
+Damage		- Level x 1
+Save Damage	- Level x 0.5
+Effect		- Stun
+Save Effect	- Stun
+Duration	- 12 Seconds
+Save Duration	- 6 Seconds
+
+
+Tier 3: (Ion Blast Mark III)
+
+Target Area	- 6m Radius [of target?] (Droid)
+Cost		- 2000 / 20 Uses
+Damage		- Level x 1d4
+Save Damage	- Level x 1d4 / 2
+Effect		- Stun
+Save Effect	- Stun
+Duration	- 12 Seconds
+Save Duration	- 6 Seconds
+
+Comments:
+
+
+
+
+Flamethrower
+Type:		Ion
+
+
+Tier 1: (Flame Thrower)
+
+Target Area	- Single Opponent
+Cost		- 300 / 20 Uses
+Damage		- Level x 1.5
+Save Damage	- Level x 0.75
+Effect		- Horror
+Save Effect	- N/A
+Duration	- 6 Seconds
+Save Duration	- N/A
+
+
+Tier 2: (Molten Cannon)
+
+Target Area	- Single Opponent
+Cost		- 900 / 20 Uses
+Damage		- Level x 3
+Save Damage	- Level x 1.5
+Effect		- Horror
+Save Effect	- N/A
+Duration	- 6 Seconds
+Save Duration	- N/A
+
+Comments:
+
+
+
+
+Carbonite Projector
+Type:		Stun
+
+
+Tier 1: (Carbonite Projector)
+
+Target Area	- Single Opponent
+Cost		- 500 / 20 Uses
+Damage		- Level x 1
+Save Damage	- Level x 0.5
+Effect		- Paralyze
+Save Effect	- Paralyze
+Duration	- 6 Seconds
+Save Duration	- 3 Seconds
+
+
+Tier 2: (Carbonite Emitter)
+
+Target Area	- Single Opponent
+Cost		- 1200 / 20 Uses
+Damage		- Level x 1.5
+Save Damage	- Level x 1
+Effect		- Paralyze
+Save Effect	- Paralyze
+Duration	- 12 Seconds
+Save Duration	- 6 Seconds
+
+Comments:
+
+
+
+
+
+
+
+Neural Pacifier
+Type:		Stun
+
+
+Tier 1: (Neural Pacifier)
+
+Target Area	- Single Opponent
+Cost		- 400 / 20 Uses
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Stun / -2 All Mental Stats
+Save Effect	- Stun / -2 All Mental Stats
+Duration	- 9 Seconds / 30 Seconds 
+Save Duration	- 3 Seconds / 15 Seconds
+
+
+Tier 2: (Neural Scrambler)
+
+Target Area	- Single Opponent
+Cost		- 1000 / 20 Uses
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Stun / -2 All Mental Stats
+Save Effect	- Stun / -2 All Mental Stats
+Duration	- 15 Seconds / 30 Seconds 
+Save Duration	- 6 Seconds / 15 Seconds
+
+Comments:
+
+
+
+
+Toxin Emitter
+Type:		Stun
+
+
+Tier 1: (Toxin Emitter)
+
+Target Area	- Single Opponent
+Cost		- 400 / 20 Uses
+Damage		- Average Poison
+Save Damage	- N/A
+Effect		- Paralyze / -2 Str and Con
+Save Effect	- Paralyze / -2 Str and Con
+Duration	- 6 Seconds / 18 Seconds 
+Save Duration	- N/A / 9 Seconds
+
+
+Tier 2: (Bio-Assault Spray)
+
+Target Area	- Single Opponent
+Cost		- 1000 / 20 Uses
+Damage		- Virulent Poison
+Save Damage	- N/A
+Effect		- Paralyze / -2 Str and Con
+Save Effect	- Paralyze / -2 Str and Con
+Duration	- 9 Seconds / 24 Seconds 
+Save Duration	- 3 Seconds / 12 Seconds
+
+Comments:
+
+
+
+
+Repulsor
+Type:		Stun
+
+
+Tier 1: (Repulsor)
+
+Target Area	- Single Opponent
+Cost		- 900 / 20 Uses
+Damage		- N/A
+Save Damage	- N/A
+Effect		- Slow / -4 Dex
+Save Effect	- Half Slow / -2 Dex
+Duration	- 30 Seconds 
+Save Duration	- 30 Seconds 
+
+Comments:
+
+
+
+
+Multi-Spectral Emitter
+Type:		Ion
+
+
+Tier 1: (Multi-Spectral Emitter)
+
+Target Area	- Single Opponent
+Cost		- 4000 / 10 Uses
+Damage		- Level x 5 (Split between Energy, Fire, Ion, Cold, and Electric)
+Save Damage	- Level x 2.5 (Split between Energy, Fire, Ion, Cold, and Electric)
+Effect		- +5 DC
+Save Effect	- N/A
+Duration	- N/A 
+Save Duration	- N/A
+
+Comments:
+
+
+
+
+Shock Arm
+Type:		Special
+
+
+Tier 1: (Shock Arm)
+
+Target Area	- Single Opponent
+Cost		- No Cost
+Damage		- Level x 1d2
+Save Damage	- Level x 1d2 / 2
+Effect		- No Damage/DC Bonuses
+Save Effect	- N/A
+Duration	- N/A 
+Save Duration	- N/A
+
+Comments:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

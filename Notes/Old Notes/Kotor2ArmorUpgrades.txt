@@ -1,0 +1,864 @@
+--------------------------------------------------------------
+Overlays:
+--------------------------------------------------------------
+
+Ablative Plating Mark I
+u_a_over_04
++1 Defense
+-1 Dex
+Medium or Heavy
+
+Ablative Plating Mark II
+u_a_over_12
++1 Defense
+-1 Dex
+25% vs Energy
+Medium or Heavy
+
+Ablative Plating Mark III
+u_a_over_20
++1 Defense
+-1 Dex
+30% vs Energy
+Medium or Heavy
+
+Ablative Plating Mark IV
+u_a_over_28
++1 Defense
+-1 Dex
+30% vs Energy
+-5 vs Energy
+Medium or Heavy
+
+Armorply Plating Mark I
+u_a_over_02
++2 Stealth
+
+Armorply Plating Mark II
+u_a_over_10
++1 Reflex
++4 Stealth
+
+Armorply Plating Mark III
+u_a_over_18
++1 Reflex
++1 Dex
++6 Stealth
+
+Armorply Plating Mark IV
+u_a_over_26
++1 Reflex
++2 Dex
++8 Stealth
+
+Ballistic Shielding Mark I
+u_a_over_06
+10% vs Phys
+
+Ballistic Shielding Mark II
+u_a_over_14
+15% vs Phys
+
+Ballistic Shielding Mark III
+u_a_over_22
+20% vs Phys
+
+Bonded Plates Mark I
+u_a_over_07
++1 Defense
+Medium or Heavy
+
+Bonded Plates Mark II
+u_a_over_15
++2 Defense
+Medium or Heavy
+
+Bonded Plates Mark III
+u_a_over_23
++3 Defense
+Medium or Heavy
+
+Bonded Plates Mark IV
+u_a_over_30
++3 Defense
+-5 vs Phys
+Medium or Heavy
+
+Energy Shielding Mark I
+u_a_over_05
+10% vs Energy
+
+Energy Shielding Mark II
+u_a_over_13
+15% vs Energy
+
+Energy Shielding Mark III
+u_a_over_21
+20% vs Energy
+
+Energy Shielding Mark IV
+u_a_over_29
+30% vs Energy
+
+Heat Shielding Mark I
+u_a_over_01
+10% vs Fire
+
+Heat Shielding Mark II
+u_a_over_09
+15% vs Fire
+
+Heat Shielding Mark III
+u_a_over_17
+15% vs Fire
+-5 vs Fire
+
+Heat Shielding Mark IV
+u_a_over_25
+20% vs Fire
+-10 vs Fire
+
+Heavy Bonded Plates Mark I
+u_a_over_08
++2 Defense
+-2 Dex
+Heavy
+
+Heavy Bonded Plates Mark II
+u_a_over_16
++3 Defense
+-3 Dex
+Heavy
+
+Heavy Bonded Plates Mark III
+u_a_over_24
++4 Defense
+-4 Dex
+15% vs Energy
+Heavy
+
+Sound Dampening Overlay Mark I
+u_a_over_03
+10% vs Sonic
+
+Sound Dampening Overlay Mark II
+u_a_over_11
+15% vs Sonic
+
+Sound Dampening Overlay Mark III
+u_a_over_19
+20% vs Sonic
+-5 vs Sonic
+
+Sound Dampening Overlay Mark IV
+u_a_over_27
+50% vs Sonic
+-5 vs Sonic
+
+
+--------------------------------------------------------------
+Underlays:
+--------------------------------------------------------------
+Armorweave Underlay Mark I
+u_a_unde_03
+10% vs Energy
+
+Armorweave Underlay Mark II
+u_a_unde_09
+10% vs Energy
+Immune Attribute
+
+Armorweave Underlay Mark III
+u_a_unde_15
+15% vs Energy
+Immune Attribute
+
+Armorweave Underlay Mark IV
+u_a_unde_21
+20% vs Energy
+Immune Attribute
+
+Armorweave Underlay Mark V
+u_a_unde_27
+30% vs Energy
+Immune Attribute
+
+Biorestorative Underlay Mark I
+u_a_unde_02
++1 Regen
+
+Biorestorative Underlay Mark II
+u_a_unde_08
++2 Regen
+
+Biorestorative Underlay Mark III
+u_a_unde_14
++3 Regen
+
+Biorestorative Underlay Mark IV
+u_a_unde_20
++1 Con
++3 Regen
+
+Biorestorative Underlay Mark V
+u_a_unde_26
++3 Con
++3 Regen
+
+Durasteel Underlay Mark I
+u_a_unde_06
++1 Defense vs Physical
+
+Durasteel Underlay Mark II
+u_a_unde_12
++2 Defense vs Physical
+-1 Dex
+
+Durasteel Underlay Mark III
+u_a_unde_18
++3 Defense vs Physical
+-2 Dex
+
+Durasteel Underlay Mark IV
+u_a_unde_24
++4 Defense vs Physical
+-3 Dex
+
+Durasteel Underlay Mark V
+u_a_unde_30
++5 Defense vs Physical
+-3 Dex
+
+Environment Underlay Mark I
+u_a_unde_01
+15% vs Cold
+15% vs Fire
+-5 vs Cold
+-5 vs Fire
+
+Environment Underlay Mark II
+u_a_unde_07
+20% vs Cold
+20% vs Fire
+-5 vs Cold
+-5 vs Fire
+
+Environment Underlay Mark III
+u_a_unde_13
+25% vs Cold
+25% vs Fire
+-5 vs Cold
+-5 vs Fire
+
+Environment Underlay Mark IV
+u_a_unde_19
+30% vs Cold
+30% vs Fire
+-5 vs Cold
+-5 vs Fire
+
+Environment Underlay Mark V
+u_a_unde_25
+30% vs Cold
+30% vs Fire
+-10 vs Cold
+-10 vs Fire
+
+Flexible Underlay Mark I
+u_a_unde_05
++1 Max Dex Bonus
+Heavy
+
+Flexible Underlay Mark II
+u_a_unde_11
++1 Max Dex Bonus
++1 Dex
+Heavy
+
+Flexible Underlay Mark III
+u_a_unde_17
++2 Max Dex Bonus
++1 Dex
+Heavy
+
+Flexible Underlay Mark IV
+u_a_unde_23
++2 Max Dex Bonus
++2 Dex
+Heavy
+
+Flexible Underlay Mark V
+u_a_unde_29
++3 Max Dex Bonus
++3 Dex
+Heavy
+
+Strengthening Underlay Mark I
+u_a_unde_04
++1 Str
+
+Strengthening Underlay Mark II
+u_a_unde_10
++1 Str
++1 Con
+
+Strengthening Underlay Mark III
+u_a_unde_16
++2 Str
++1 Con
+
+Strengthening Underlay Mark IV
+u_a_unde_22
++2 Str
++2 Con
+
+Strengthening Underlay Mark V
+u_a_unde_28
++3 Str
++3 Con
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mastercraft 1 - 264
+Mastercraft 2 - 265
+Mastercraft 3 - 266
+
+
+
+
+--------------------------------------------------------------
+Overlays:
+--------------------------------------------------------------
+
+Ablative Plating Mark I
+u_a_over_04
+-2 Defense
+10% vs Energy
+10% vs Phys
+Medium or Heavy
+Mastercraft 1
+1500 Credits
+
+Ablative Plating Mark II
+u_a_over_12
+-3 Defense
+20% vs Energy
+20% vs Phys
+Medium or Heavy
+Mastercraft 1
+3000 Credits
+
+Ablative Plating Mark III
+u_a_over_20
+-4 Defense
+30% vs Energy
+30% vs Phys
+Medium or Heavy
+Mastercraft 2
+6000 Credits
+
+Ablative Plating Mark IV
+u_a_over_28
+-6 Defense
+50% vs Energy
+50% vs Phys
+Heavy
+Mastercraft 3
+10000 Credits
+
+Armorply Plating Mark I
+u_a_over_02
++1 Stealth
+Mastercraft 1
+400 Credits
+
+Armorply Plating Mark II
+u_a_over_10
++2 Stealth
+Mastercraft 1
+800 Credits
+
+Armorply Plating Mark III
+u_a_over_18
++4 Stealth
+Mastercraft 2
+2000 Credits
+
+Armorply Plating Mark IV
+u_a_over_26
++6 Stealth
+Mastercraft 3
+4000 Credits
+
+Ballistic Shielding Mark I
+u_a_over_06
+-1 Defense
+10% vs Phys
+Mastercraft 1
+1000 Credits
+
+Ballistic Shielding Mark II
+u_a_over_14
+-2 Defense
+20% vs Phys
+Mastercraft 1
+2500 Credits
+
+Ballistic Shielding Mark III
+u_a_over_22
+-2 Defense
+30% vs Phys
+Medium or Heavy
+Mastercraft 2
+4000 Credits
+
+Bonded Plates Mark I
+u_a_over_07
++1 Defense
+-1 Attack
+Medium or Heavy
+Mastercraft 2
+1000 Credits
+
+Bonded Plates Mark II
+u_a_over_15
++2 Defense
+-2 Attack
+Medium or Heavy
+Mastercraft 2
+2500 Credits
+
+Bonded Plates Mark III
+u_a_over_23
++3 Defense
+-2 Attack
+-2 Dex
+Medium or Heavy
+Mastercraft 3
+5000 Credits
+
+Bonded Plates Mark IV
+u_a_over_30
++3 Defense
+-1 Attack
+-1 Dex
+Medium or Heavy
+Mastercraft 3
+8000 Credits
+
+Energy Shielding Mark I
+u_a_over_05
+-1 Defense
+10% vs Energy
+Mastercraft 1
+1000 Credits
+
+Energy Shielding Mark II
+u_a_over_13
+-2 Defense
+20% vs Energy
+Mastercraft 1
+2500 Credits
+
+Energy Shielding Mark III
+u_a_over_21
+-2 Defense
+30% vs Energy
+Medium or Heavy
+Mastercraft 2
+4000 Credits
+
+Energy Shielding Mark IV
+u_a_over_29
+-4 Defense
+50% vs Energy
+Medium or Heavy
+Mastercraft 3
+7000 Credits
+
+Heat Shielding Mark I
+u_a_over_01
+-5 vs Fire
+Mastercraft 1
+800 Credits
+
+Heat Shielding Mark II
+u_a_over_09
+-1 Defense
+50% vs Fire
+-5 vs Fire
+Mastercraft 1
+2000 Credits
+
+Heat Shielding Mark III
+u_a_over_17
+-2 Defense
+75% vs Fire
+-5 vs Fire
+10% vs Phys
+Medium or Heavy
+Mastercraft 2
+3500 Credits
+
+Heat Shielding Mark IV
+u_a_over_25
+-3 Defense
+90% vs Fire
+-10 vs Fire
+20% vs Phys
+Heavy
+Mastercraft 3
+6000 Credits
+
+Heavy Bonded Plates Mark I
+u_a_over_08
++2 Defense
+-2 Dex
+-1 Attack
+12 Str
+12 Con
+Heavy
+Mastercraft 2
+3000 Credits
+
+Heavy Bonded Plates Mark II
+u_a_over_16
++3 Defense
+-2 Dex
+-1 Attack
+14 Str
+14 Con
+Heavy
+Mastercraft 3
+7000 Credits
+
+Heavy Bonded Plates Mark III
+u_a_over_24
++4 Defense
+-2 Dex
+-1 Attack
+16 Str
+16 Con
+Heavy
+Mastercraft 3
+10000 Credits
+
+Sound Dampening Overlay Mark I
+u_a_over_03
+25% vs Sonic
+Mastercraft 1
+800 Credits
+
+Sound Dampening Overlay Mark II
+u_a_over_11
+-1 Defense
+50% vs Sonic
+5% vs Energy
+Mastercraft 1
+2000 Credits
+
+Sound Dampening Overlay Mark III
+u_a_over_19
+-2 Defense
+75% vs Sonic
+10% vs Energy
+Medium or Heavy
+Mastercraft 2
+3500 Credits
+
+Sound Dampening Overlay Mark IV
+u_a_over_27
+-3 Defense
+100% vs Sonic
+20% vs Energy
+Medium or Heavy
+Mastercraft 3
+6000 Credits
+
+--------------------------------------------------------------
+Underlays:
+--------------------------------------------------------------
+
+Armorweave Underlay Mark I
+u_a_unde_03
++1 Saves
+Mastercraft 1
+1000 Credits
+
+Armorweave Underlay Mark II
+u_a_unde_09
+Immune Fear
++1 Saves
+Mastercraft 1
+2000 Credits
+
+Armorweave Underlay Mark III
+u_a_unde_15
+Immune Fear
+Immune Attribute
++1 Saves
+Mastercraft 2
+Medium or Heavy
+3500 Credits
+
+Armorweave Underlay Mark IV
+u_a_unde_21
+Immune Stun, Fear, Horror
+Immune Attribute
++1 Saves
+Mastercraft 2
+Medium or Heavy
+6000 Credits
+
+Armorweave Underlay Mark V
+u_a_unde_27
+Immune Stun, Fear, Horror
+Immune Attribute
+Immune Crit
++1 Saves
+Mastercraft 3
+Heavy
+10000 Credits
+
+Biorestorative Underlay Mark I
+u_a_unde_02
++1 Save vs Poison
++1 Save vs Paralysis
+500 Credits
+
+Biorestorative Underlay Mark II
+u_a_unde_08
+Immune Poison
+Mastercraft 1
+Light
+1000 Credits
+
+Biorestorative Underlay Mark III
+u_a_unde_14
+Immune Poison
+Immune Paralysis
+Mastercraft 1
+Light
+1800 Credits
+
+Biorestorative Underlay Mark IV
+u_a_unde_20
+Immune Poison
+Immune Paralysis
++1 Regen
+Mastercraft 2
+Medium
+4500 Credits
+
+Biorestorative Underlay Mark V
+u_a_unde_26
+Immune Poison
+Immune Paralysis
++3 Regen
+Mastercraft 3
+Medium
+7000 Credits
+
+Durasteel Underlay Mark I
+u_a_unde_06
++1 Defense vs Phys
+-1 Dex
+Light
+Mastercraft 1
+1000 Credits
+
+Durasteel Underlay Mark II
+u_a_unde_12
++1 Defense
+-1 Dex
+-1 Attack
+Medium or Heavy
+Mastercraft 2
+2000 Credits
+
+Durasteel Underlay Mark III
+u_a_unde_18
++2 Defense
+-2 Dex
+-2 Attack
+Medium or Heavy
+Mastercraft 2
+3500 Credits
+
+Durasteel Underlay Mark IV
+u_a_unde_24
++3 Defense
+-3 Dex
+-3 Attack
+Heavy
+Mastercraft 3
+6000 Credits
+
+Durasteel Underlay Mark V
+u_a_unde_30
++3 Defense
+-2 Dex
+-2 Attack
+Heavy
+Mastercraft 3
+10000 Credits
+
+Environment Underlay Mark I
+u_a_unde_01
+5% vs Cold
+5% vs Fire
+5% vs Sonic
+5% vs Ion
+400 Credits
+
+Environment Underlay Mark II
+u_a_unde_07
+10% vs Cold
+10% vs Fire
+10% vs Sonic
+10% vs Ion
+Mastercraft 1
+1000 Credits
+
+Environment Underlay Mark III
+u_a_unde_13
+15% vs Cold
+15% vs Fire
+15% vs Sonic
+15% vs Ion
+Mastercraft 1
+1800 Credits
+
+Environment Underlay Mark IV
+u_a_unde_19
+20% vs Cold
+20% vs Fire
+20% vs Sonic
+20% vs Ion
+Mastercraft 2
+3200 Credits
+
+Environment Underlay Mark V
+u_a_unde_25
+30% vs Cold
+30% vs Fire
+30% vs Sonic
+30% vs Ion
+Mastercraft 3
+5500 Credits
+
+Flexible Underlay Mark I
+u_a_unde_05
+-1 Defense
++1 Max Dex Bonus
+Heavy
+Mastercraft 1
+900 Credits
+
+Flexible Underlay Mark II
+u_a_unde_11
+-2 Defense
++2 Max Dex Bonus
+Heavy
+Mastercraft 2
+1800 Credits
+
+Flexible Underlay Mark III
+u_a_unde_17
+-3 Defense
++3 Max Dex Bonus
+Heavy
+Mastercraft 2
+3000 Credits
+
+Flexible Underlay Mark IV
+u_a_unde_23
+-3 Defense
++4 Max Dex Bonus
+Heavy
+Mastercraft 3
+5000 Credits
+
+Flexible Underlay Mark V
+u_a_unde_29
+-2 Defense
++4 Max Dex Bonus
+Heavy
+Mastercraft 3
+8000 Credits
+
+Strengthening Underlay Mark I
+u_a_unde_04
++1 Fort
+500 Credits
+
+Strengthening Underlay Mark II
+u_a_unde_10
++1 Str
++1 Fort
+Mastercraft 1
+Light
+1200 Credits
+
+Strengthening Underlay Mark III
+u_a_unde_16
++1 Str
++1 Con
+Mastercraft 1
+Light
+2000 Credits
+
+Strengthening Underlay Mark IV
+u_a_unde_22
++2 Str
++1 Con
++1 Fort
+Mastercraft 2
+Medium
+4000 Credits
+
+Strengthening Underlay Mark V
+u_a_unde_28
++3 Str
++2 Con
++2 Fort
+Mastercraft 3
+Heavy
+7500 Credits
+
+
+
+

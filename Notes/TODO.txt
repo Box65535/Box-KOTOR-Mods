@@ -1,0 +1,23 @@
+
+Oct 11, 2015:
+
+Here's what I think still needs to be done:
+
+Required:
+-Spell script testing
+-Weapon load script writing/testing
+-Integrating feat constants into scripts
+-Poison.2da
+-Enemy hides/script assignment
+-Skill changes
+-Party characters
+-Crafting
+
+Extra:
+-Item costs - decide and implement
+-Merchants - need to figure out HOW then do
+-Feat descriptions
+-
+
+
+

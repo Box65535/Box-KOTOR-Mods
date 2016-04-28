@@ -1,0 +1,289 @@
+
+-------------------------------------------------------------
+Light Armor
+-------------------------------------------------------------
+
+Light Combat Suit
+a_light_01
+Defense 4 / Max Dex +5
+-1 Defense
+
+Combat Suit
+a_light_02
+Defense 4 / Max Dex +5
+
+Heavy Combat Suit
+a_light_03
+Defense 5 / Max Dex +4
+
+Mandalorian Combat Suit
+a_light_04
+Defense 4 / Max Dex +5
+10% vs Phys
+-1 Defense
+
+Zabrak Combat Suit
+a_light_05
+Defense 4 / Max Dex +5
++1 Defense
+
+Bonadan Alloy Heavy Suit
+a_light_06
+Defense 5 / Max Dex +4
++1 Defense
+
+Echani Light Armor
+a_light_07
+Defense 4 / Max Dex +5
+-15 vs Fire
++1 Defense
+
+Massassi Ceremonial Armor
+a_light_08
+Defense 4 / Max Dex +5
++1 Defense
+Immune Crit
+
+Mandalorian Heavy Suit
+a_light_09
+Defense 4 / Max Dex +5
+10% vs Phys
++1 Defense
+Medium Upgrades??
+
+Zabrak Battle Armor
+a_light_10
+Defense 5 / Max Dex +4
+-20 vs Cold
++1 Defense
+
+Ubese Environmental Suit
+a_light_11
+Defense ???
+-10 vs Cold
+-10 vs Electric
+-10 vs Energy
+-10 vs Fire
+
+Echani Shield Suit
+a_light_12
+Defense 5 / Max Dex +4
+10% vs Energy
+10% vs Electric
++2 Defense
+
+Reinforced Fiber Armor
+a_light_13
+Defense 5 / Max Dex +4
++2 Defense
+
+Zabrak Field Armor
+a_light_14
+Defense 5 / Max Dex +4
+-30 vs Cold
++2 Defense
+
+Ulic Qel Droma's Mesh Suit
+a_light_15
+Defense 5 / Max Dex +4
+-20 vs Fire
+-20 vs Cold
++3 Defense
+
+Miner Uniform
+mineruniform
+Defense 1
+
+Armored Flight Suit
+g_a_armrdfsuit
+Armor ???
+-20 vs Cold
+
+Atton's Ribbed Jacket
+a_light_x02
+Defense 0
++4 Defense
++2 Saves
+
+Mira's Ballistic Mesh Jacket
+a_light_x09
+Defense 0
++5 Defense
+-5 vs Phys
+
+Electromesh Suit
+a_light_x08
+Defense 4 / Max Dex +5
++1 Defense
++2 Max Dex Bonus
+-5 vs Energy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Light Combat Suit
+a_light_01
+Defense 2 / Max Dex +5
+-1 Defense
+100 Credits
+
+Combat Suit
+a_light_02
+Defense 2 / Max Dex +5
+250 Credits
+
+Heavy Combat Suit
+a_light_03
+Defense 3 / Max Dex +4
+400 Credits
+
+Mandalorian Combat Suit
+a_light_04
+Defense 2 / Max Dex +5
++2 Defense vs Phys
+800 Credits
+
+Zabrak Combat Suit
+a_light_05
+Defense 2 / Max Dex +5
++1 Defense
+1200 Credits
+
+Bonadan Alloy Heavy Suit
+a_light_06
+Defense 3 / Max Dex +4
++1 Defense
+1600 Credits
+
+Echani Light Armor
+a_light_07
+Defense 2 / Max Dex +5
++1 Defense
++1 Max Dex Bonus
+-5 vs Fire
+2000 Credits
+
+Massassi Ceremonial Armor
+a_light_08
+Defense 2 / Max Dex +5
++1 Defense
++1 Attack
+3000 Credits
+
+Mandalorian Heavy Suit
+a_light_09
+Defense 2 / Max Dex +5
++1 Defense
++1 Defense vs Phys
+Medium Upgrades??
+3500 Credits
+
+Zabrak Battle Armor
+a_light_10
+Defense 3 / Max Dex +4
++1 Defense
+-10 vs Cold
+4500 Credits
+
+Ubese Environmental Suit
+a_light_11
+Defense ???
+-10 vs Cold
+-10 vs Electric
+-10 vs Energy
+-10 vs Fire
+5500 Credits
+
+Echani Shield Suit
+a_light_12
+Defense 3 / Max Dex +4
++1 Defense
++2 Defense vs Energy
+7000 Credits
+
+Reinforced Fiber Armor
+a_light_13
+Defense 3 / Max Dex +4
++2 Defense
+7500 Credits
+
+Zabrak Field Armor
+a_light_14
+Defense 3 / Max Dex +4
++2 Defense
+-10 vs Cold
+8500 Credits
+
+Ulic Qel Droma's Mesh Suit
+a_light_15
+Defense 3 / Max Dex +4
++2 Defense
++1 Deflect
+10000 Credits
+
+Miner Uniform
+mineruniform
+Defense 0
+No Cost
+
+Armored Flight Suit
+g_a_armrdfsuit
+Armor ???
+-20 vs Cold
+3000 Credits????
+
+Atton's Ribbed Jacket
+a_light_x02
+Defense 0
++2 Defense
++1 Saves
+No Cost
+
+Mira's Ballistic Mesh Jacket
+a_light_x09
+Defense 0
++2 Defense
+-5 vs Phys
+No Cost
+
+Electromesh Suit
+a_light_x08
+Defense 2 / Max Dex +5????
++2 Max Dex Bonus
+-5 vs Energy
+6000 Credits
+
+

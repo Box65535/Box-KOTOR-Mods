@@ -1,0 +1,394 @@
+Belts (Original):
+
+Adrenaline Amplifier
+a_belt_01
++2 Reflex
+
+Adrenaline Stimulatr
+a_belt_18
++4 Saves
++2 Dex
+
+Advanced Adrenaline Amplifier
+a_belt_05  
++3 Reflex
+
+Aratech Cardio-Regulator
+a_belt_25  
++1 Fort
++3 Con
++1 Str
+
+Aratech Echo Belt
+a_belt_29
++4 Dex
++10 Stealth
+
+Aratech SD Belt
+a_belt_06  
++2 Stealth
+25% vs Sonic
+
+Cardio-Regulator
+a_belt_02  
++2 Fort
+
+CNS Strength Enhancer
+a_belt_15  
++2 Saves
++2 Strength
+
+Czerka Utility Belt
+a_belt_04  
++2 Demolitions
++2 Repair
++2 Security
++3 Treat Injury
+
+Defel Mimicker
+a_belt_22  
++3 Dex
++8 Stealth
+
+Electrical Capacitance Shield
+a_belt_12  
+75% vs Electric
+
+Eriadu Stealth Unit
+a_belt_14  
++2 Dex
++6 Stealth
+
+Exchange Shadow Caster
+a_belt_10  
++1 Dex
++2 Awareness
++4 Stealth
+
+Exchange Utility Belt
+a_belt_16  
++1 Dex
++1 Str
++3 Computer Use
++3 Demolitions
++3 Repair
++3 Security
+
+Frozian Scout Belt
+a_belt_23  
++1 Defense
++3 Dex
++3 Stealth
+
+GNS Strength Enhancer
+a_belt_26  
++4 Str
+
+Hyper Adrenaline Amplifier
+a_belt_09  
++3 Reflex
++1 Dex
+
+Immortality Belt
+a_belt_28  
++2 Attack
++1 Con
+-10 Energy
+-10 Melee
+
+Immunity Belt
+a_belt_17  
++1 Attack
++1 Con
+-5 Energy
+-5 Melee
+
+Inertial Inhibitor
+a_belt_11  
++1 Defense
++1 Dex
+
+ Jal Shey Belt
+a_belt_20  
++1 Wis
++14 Force Resist
+
+Jal Shey Mentor Belt
+a_belt_30  
++2 Wis
++20 Force Resist
+
+
+Multishield Generator
+a_belt_21  
+50% vs Electric
+50% vs Fire
+15% vs Ion
+
+Nerve Amplifier Belt
+a_belt_19  
++1 Wis
+Immune to Stun, Fear, Horror
+
+Qel-Droma Belt
+a_belt_27 
+20% vs Dark
+20% vs Light
+
+Safety Harness
+100_belt01  
++1 Demolitions
+
+Stealth Field Generator
+a_belt_03  
+Stealth
+
+Strength Enhancer
+a_belt_07  
++1 Fort
++1 Str
+
+Systech Cardio-Regulator
+a_belt_08
++1 Fort
++1 Con
+
+Tech Specialist Belt
+a_belt_24  
++2 Dex
++1 Str
++2 Awareness
++4 Computer Use
++4 Demolitions
++5 Repair
++4 Security
++3 Treat Injury
+
+Thermal Shield Generator
+a_belt_13
+75% vs Fire
+
+
+
+
+Tech Equip 1 - 261
+Tech Equip 2 - 262
+Tech Equip 3 - 263
+Power Equip 1 - 258
+Power Equip 2 - 259
+Power Equip 3 - 260
+Stealth Belts 1 -267
+Stealth Belts 2 - 268
+Stealth Belts 3 - 269
+
+
+Belts (New):
+
+Safety Harness
+100_belt01  
++1 Demolitions
+(Unchanged)
+
+
+Adrenaline Amplifier
+a_belt_01
++2 Reflex
+Tech Equip 1
+
+Advanced Adrenaline Amplifier
+a_belt_05  
++3 Reflex
+Tech Equip 1
+
+Hyper Adrenaline Amplifier
+a_belt_09  
++3 Reflex
++1 Dex
+Tech Equip 2
+
+Inertial Inhibitor
+a_belt_11  
++1 Defense
++1 Dex
+Tech Equip 2
+
+Adrenaline Stimulatr
+a_belt_18
++1 Saves
++2 Dex
+Tech Equip 3
+
+Czerka Utility Belt
+a_belt_04  
++1 Demolitions
++2 Repair
++1 Security
++2 Treat Injury
+Tech Equip 1
+
+Exchange Utility Belt
+a_belt_16  
++2 Computer Use
++3 Demolitions
++2 Repair
++3 Security
+Tech Equip 2
+
+Tech Specialist Belt
+a_belt_24  
++4 Computer Use
++3 Demolitions
++4 Repair
++4 Security
++2 Treat Injury
+Tech Equip 3
+
+
+
+Stealth Field Generator
+a_belt_03  
+Stealth
+Stealth Belts 1
+
+Aratech SD Belt
+a_belt_06  
++1 Stealth
+10% vs Sonic
+Stealth Belts 1
+
+Exchange Shadow Caster
+a_belt_10  
++3 Stealth
+Stealth Belts 2
+
+Eriadu Stealth Unit
+a_belt_14
++5 Stealth
+Stealth Belts 2
+
+Defel Mimicker
+a_belt_22  
++1 Dex
++6 Stealth
+Stealth Belts 3
+
+Frozian Scout Belt
+a_belt_23  
++1 Defense
++1 Dex
++4 Stealth
+Stealth Belts 3
+
+Aratech Echo Belt
+a_belt_29
++2 Dex
++8 Stealth
+Stealth Belts 3
+
+
+
+Cardio-Regulator
+a_belt_02  
++2 Fort
+Power Equip 1
+
+Strength Enhancer
+a_belt_07  
++1 Str
+Power Equip 1
+
+Systech Cardio-Regulator
+a_belt_08
++1 Con
+Power Equip 1
+
+CNS Strength Enhancer
+a_belt_15  
++2 Strength
+Power Equip 2
+
+Aratech Cardio-Regulator
+a_belt_25
++3 Con
+Power Equip 3
+
+GNS Strength Enhancer
+a_belt_26  
++3 Str
+Power Equip 3
+
+Immunity Belt
+a_belt_17
+-1 Attack
+-5 Energy
+-5 Melee
+Power Equip 2
+
+Immortality Belt
+a_belt_28
+-2 Attack
+-10 Energy
+-10 Melee
+Power Equip 3
+
+Electrical Capacitance Shield
+a_belt_12  
+75% vs Electric
+Power Equip 2
+
+Thermal Shield Generator
+a_belt_13
+75% vs Fire
+Power Equip 2
+
+Multishield Generator
+a_belt_21  
+50% vs Electric
+50% vs Fire
+10% vs Ion
+Power Equip 2
+
+Nerve Amplifier Belt
+a_belt_19  
+Immune to Stun, Fear, Horror
+Power Equip 2
+
+Jal Shey Belt
+a_belt_20  
++1 Wis
++8 Force Resist
+Power Equip 2
+
+Qel-Droma Belt
+a_belt_27
++1 Chr
++1 Wis
+Power Equip 3
+
+Jal Shey Mentor Belt
+a_belt_30  
++2 Wis
++12 Force Resist
+Power Equip 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

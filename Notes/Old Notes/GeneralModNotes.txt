@@ -1,0 +1,13 @@
+Here are some scripts that I've just found that you should watch out for.
+
+
+
+k_inc_drop.nss - This says it determines random drops for creatures but
+I'm not sure if it's leftover from Kotor 1 or used in Kotor 2
+
+k_inc_item_gen.nss - This script does stuff for when you ask a party
+member for a specific item. Be careful modifying because it may not
+line up with the dialogue.
+
+k_inc_generic.nss - This has a lot of stuff. You should check what it
+all is sometime.

@@ -1,0 +1,381 @@
+All detailed information on powers now happens in ForcePowers.txt
+
+
+
+Universal Powers
+
+
+Burst of Speed - Level 1
+-Grants +2 Defense for 30 Seconds
+
+Knight Speed - Level 9
+-Grants +2 Defense and 1 Extra Attack for 30 Seconds
+
+Cost 40
+Restricted by Armor
+
+
+
+Force Push - Level 1
+-Deals level damage and stuns for 3 seconds
+-Reflex Save halves damage and negates stun
+
+Force Shove - Level 12
+-Deals 1.5x level damage and stuns for 6 seconds all targets in front
+-Reflex Save halves damage and negates stun
+
+Force Wave - Level 18
+-All enemies within 15 meters take 1.5x level damage and stun for 6 seconds
+-Reflext Save halves damage and negates stun
+
+Cost 30
+
+
+
+Stun Droid - Level 1
+-Deals level damage and stuns for 12 seconds, droids only
+-Fortitude Save halves damage and negates stun
+
+Disable Droid - Level 9
+-Deals level damage and disables for 12 seconds all droids within 5m of target
+-Fortitude Save halves damage and negates disable
+
+Destroy Droid - Level 15
+-Deals 1d4x level damage and disables for 12 seconds all droids within 6m of target
+-Fortitude Save halves damage and negates disable
+
+Cost 20
+
+
+
+Battle Meditation - Level 3
+-Gives +1 Attack and +2 Damage to party members for 40 seconds
+
+Improved Battle Meditation - Level 12
+-Gives +2 Attack, +2 Damage to party members for 40 seconds
+-Enemies withing 10m get -1 Attack and -2 Damage for 40 seconds
+-Will save for no effect to enemies
+
+Cost 40
+Restricted by Armor
+
+
+
+Energy Resistance - Level 1
+- -4 vs Energy, Ion, Electric for 60 Seconds
+
+Improved Energy Resistance - Level 6
+- -8 vs Energy, Ion, Electric for 60 Seconds
+
+Cost 40
+Restricted by Armor
+
+
+
+Force Barrier - Level 1
+- -4 vs Phys for 60 Seconds
+
+Improved Force Barrier - Level 6
+- -8 vs Phys for 60 Seconds
+
+Cost 40
+Restricted by Armor
+
+
+
+Force Resist - Level 6
+-All force powers must prevail against a DC 10 + your level - their level for 40 seconds
+
+Cost 30
+Restricted by Armor
+
+
+
+Force Suppression - Level 9
+-Normal and improved versions of Aura, Valor, Speed, Energy Resist, Force Resist,
+Battle Meditation, Barrier, Body, and Fury are removed
+
+Cost 30
+
+
+
+Force Body - Level 6 - All but Consular, Jedi Master, and Sith Lord
+-When force powers are cast 50% of cost is from health, 50% from
+force points
+
+Improved Force Body - Level 15 - All but Consular, Jedi Master, and Sith Lord
+-When force powers are cast 40% of cost is from health, 40% from
+force points
+
+Cost 0
+
+
+
+Throw Lightsaber - Level 1
+-Target up to 5m away takes 1d6 / 2 level damage
+
+Advanced Throw Lightsaber - Level 9
+-3 targets up to 5m away takes 1d6 / 2 level damage
+
+Cost 20
+
+
+
+Force Deflect - Level 6
+-Player can now permenantly reflect blaster bolts
+
+Cost 0
+
+
+
+Affect Mind - Level 1
+-Used in conversation
+
+Dominate Mind - Level 6
+-Used in conversation
+
+Cost 0
+
+
+
+Mind Trick - Level 6
+-Lets you sneak by an enemy for 20 seconds
+-Will DC to negate effect
+
+Force Confusion - Level 15
+-Turns the enemy into an ally for 20 seconds
+-Will DC to negate effect
+
+Cost 20
+Restricted by Armor
+
+
+
+Beast Trick - Event
+-Lets you sneak by an enemy beast for 20 seconds
+-Will DC to negate effect
+
+Beast Confusion - Event
+-Turns the enemy beast into an ally for 20 seconds
+-Will DC to negate effect
+
+Cost 20
+Restricted by Armor
+
+
+
+Breath Control - Event
+-Immune to Poison for 240 seconds
+
+Cost 40
+
+
+
+
+
+
+
+
+
+
+
+Light Side
+
+
+Force Aura - Level 1
+- +2 Defense for 30 seconds
+
+Force Shield - Level 9
+- +4 Defense for 30 seconds
+
+Cost 40
+Restricted by Armor
+
+
+
+Force Valor - Level 1
+- +1 Dex, +1 Str, +1 Con, and +1 Saves for 30 seconds
+
+Knight Valor - Level 9
+- +2 Dex, +2 Str, +2 Con, and +2 Saves for 30 seconds
+
+Cost 40
+Restricted by Armor
+
+
+
+Cure - Level 3
+- Heals 5 + 0.75xTreatInjury to all party members
+
+Heal - Level 12
+- Heals 15 + TreatInjury to all party members
+
+Cost 25
+
+
+
+Stun - Level 1
+-Stun for 9 seconds
+-Fort Save turns Stun into Slow
+
+Stasis - Level 12
+-Stasis for 12 seconds
+-Fort Save turns Stasis into slow
+
+Stasis Field - Level 18
+-Stasis for 12 seconds to everyone 10m from target
+-Fort Save turns Stasis into slow
+
+Cost 30
+
+
+
+Revitalize - Level 9
+-Ally brought back with 5% VP
+
+Revitalize 2 - Level 18
+-Party brought back with 5% VP
+
+Cost 50
+
+
+
+Inspire Followers - ???
+
+
+
+Force Enlightenment - Event
+-Highest Ranks of Valor, Armor, and Speed combined
+
+Cost 40
+Restricted by Armor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dark Side
+
+
+Fear - Level 1
+-Fear for 6 seconds
+-Will save negates Fear
+
+Horror - Level 9
+-Horror for 12 seconds, all enemies within 5m of target
+-Will save negates Horror
+
+Cost 25
+Restricted by Armor
+
+
+
+Slow - Level 1
+- -2 Str, -4 Dex for 30 seconds
+-Fort save negates effects
+
+Affliction - Level 6
+- -4 Str, -4 Dex, -4 Con for 30 seconds
+-Fort save negates effects
+
+Cost 20
+Restricted by Armor
+
+
+
+Wound - Level 1
+-1x level damage and incapacitation for 6 seconds
+-Fort save negates effects
+
+Choke - Level 9
+-2x level damage and incapacitation for 6 seconds
+-Fort save negates effects
+
+Kill - Level 15
+-4x level damage and incapacitation for 6 seconds
+-Fort save negates effects
+
+Cost 25
+
+
+
+Force Scream - Level 6
+-Level Sonic Damage -2 Int, and -2 Wis, -2 Chr for 20 sec to all enemies in front
+-Will save negates effects and halves damage
+
+Improved Force Scream - Level 15
+-1.5x Level Sonic Damage -4 Int, and -4 Wis, -4 Chr for 20 sec to all enemies in front
+-Will save negates effects and halves damage
+
+Cost 25
+Restricted by Armor
+
+
+
+Shock - Level 6
+-1d4x level Electric Damage
+-Will save halves damage
+
+Lightning - Level 12
+-1d4x level Electric Damage to all enemies in front
+-Will save halves damage
+
+Storm - Level 21 - Sith Lord Only (And Consular)
+-1d4x level Electric Damage to all enemies within 10m
+-Will save halves damage
+
+Cost 35
+Restricted by Armor
+
+
+
+Drain Life - Level 6
+-1d2x Level damage, heals half of damage inflicted
+-Fort save halves damage
+
+Death Field - Level 18 - Dark Side Prestige Only (And Consular)
+-1d2x Level damage to all enemies in 10m, heals half of damage inflicted
+-Fort save halves damage
+
+Cost 35
+Restricted by Armor
+
+
+
+Drain Force - Level 6
+-Steals 10 + 0.5x Level force points
+-Will save negates this
+
+Improved Drain Force - Level 15, Dark Side Prestige Only
+-Steals 25 + 0.5x Level force points
+-Will save negates this
+
+Master Drain Force
+
+Cost 5
+Restricted by Armor
+
+
+
+Crush Opposition - ???
+
+
+
+Force Crush - Event
+-1d10x Level Damage, Crush effect?
+-Fort save halves damage
+
+Cost 60
+
+
+
+

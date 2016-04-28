@@ -1,0 +1,925 @@
+
+-------------------------------------------------------------
+Heavy Armor
+-------------------------------------------------------------
+
+Battle Armor
+a_heavy_01
+Defense 8 / Max Dex +1
+
+Heavy Battle Armor
+a_heavy_02
+Defense 9 / Max Dex +0
+
+Echani Heavy Armor
+a_heavy_03
+Defense 8 / Max Dex +1
++2 Defense
+
+Durasteel Heavy Armor
+a_heavy_04
+Defense 9 / Max Dex +0
++1 Defense
+
+Powered Battle Armor
+a_heavy_05
+Defense 8 / Max Dex +1
++1 Defense
++1 Str
+
+Flex Heavy Armor
+a_heavy_06
+Defense 9 / Max Dex +0
++1 Defense
++3 Max Dex Bonus
+
+Mandalorian Battle Armor
+a_heavy_07
+Defense 9 / Max Dex +0
++2 Defense
+-25 vs Electric
+
+Mandalorian Heavy Armor
+a_heavy_08
+Defense 9 / Max Dex +0
++3 Defense
+Immune Stun, Fear, Horror
+
+Verpine Zal Alloy Mesh
+a_heavy_09
+Defense 8 / Max Dex +1
++4 Defense
+-25 vs Cold
+-25 vs Fire
+-25 vs Sonic
+
+Mandalorian Assault Armor
+a_heavy_10
+Defense 9 / Max Dex +0
++4 Defense
+-25 vs Cold
+-25 vs Fire
+
+Corellian Powersuit
+a_heavy_11
+Defense 8 / Max Dex +1
++2 Defense
++2 Strength
+
+M'uhk'gfa
+a_heavy_12
+Defense 8 / Max Dex +1
+-10 vs Phys
+-5 vs Energy
+
+Iotran Braceman Armor
+a_heavy_13
+Defense 8 / Max Dex +1
++3 Defense
+Precise Shot I
+Targeting I
+
+Felenar Armor
+a_heavy_14
+Defense 9 / Max Dex +0
++2 Defense
++4 Max Dex Bonus
+
+Matrix Armor
+a_heavy_15
+Defense 9 / Max Dex +0
++4 Defense
+-5 vs Energy
+
+Mandalore's Armor
+a_heavy_x01
+Defense 9 / Max Dex +0
++2 Defense
+-25 vs Electric
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Battle Armor
+a_heavy_01
+Defense 6 / Max Dex +1
+
+Heavy Battle Armor
+a_heavy_02
+Defense 7 / Max Dex +0
+
+Echani Heavy Armor
+a_heavy_03
+Defense 6 / Max Dex +1
++2 Defense
+
+Durasteel Heavy Armor
+a_heavy_04
+Defense 9 / Max Dex +0
++1 Defense
+
+Powered Battle Armor
+a_heavy_05
+Defense 8 / Max Dex +0
++1 Defense
++1 Str
+
+Flex Heavy Armor
+a_heavy_06
+Defense 9 / Max Dex +0
++1 Defense
++3 Max Dex Bonus
+
+Mandalorian Battle Armor
+a_heavy_07
+Defense 9 / Max Dex +0
++2 Defense
+-25 vs Electric
+
+Mandalorian Heavy Armor
+a_heavy_08
+Defense 9 / Max Dex +0
++3 Defense
+Immune Stun, Fear, Horror
+
+Verpine Zal Alloy Mesh
+a_heavy_09
+Defense 8 / Max Dex +0
++4 Defense
+-25 vs Cold
+-25 vs Fire
+-25 vs Sonic
+
+Mandalorian Assault Armor
+a_heavy_10
+Defense 9 / Max Dex +0
++4 Defense
+-25 vs Cold
+-25 vs Fire
+
+Corellian Powersuit
+a_heavy_11
+Defense 8 / Max Dex +0
++2 Defense
++2 Strength
+
+M'uhk'gfa
+a_heavy_12
+Defense 8 / Max Dex +0
+-10 vs Phys
+-5 vs Energy
+
+Iotran Braceman Armor
+a_heavy_13
+Defense 8 / Max Dex +1
++3 Defense
+Precise Shot I
+Targeting I
+
+Felenar Armor
+a_heavy_14
+Defense 9 / Max Dex +0
++2 Defense
++4 Max Dex Bonus
+
+Matrix Armor
+a_heavy_15
+Defense 9 / Max Dex +0
++4 Defense
+-5 vs Energy
+
+Mandalore's Armor
+a_heavy_x01
+Defense 9 / Max Dex +0
++2 Defense
+-25 vs Electric
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------
+New Armor
+-------------------------------------------------------
+
+What types of characteristics can armor here have?
+
++X Defense
++X Max Dex
++X Saves (Fort/Reflex/Will/vs(Poison/Paralysis etc)/All)
+Immunities (Poison/Paralysis/Crits/Etc)
++X Attributes
++X Regen
+-X vs Damage
+-X% vs Damage
++X Deflect
+
+Which major categories do you want
+
+Basic:		No Change
+Sturdy:		+1 DT
+Flexibile: 	+1 Max Dex
+Physical:	-5 vs Slashing/Piercing/Bludgeoning
+Energy:		-5 vs Energy/Ion/Electrical
+Thermal:	-5 vs Fire/Cold
+Mind:		Immunity vs Fear / Stun / Horror
+Poison:		Immunity vs Poison / Paralysis
+Protecting:	Immunity vs Attribute Damage / Sneak Attack
+Strenghening:	+1 Str / +1 Con
+
+
+Level 1:
+
+
+
+
+Level 2:
+
+Republic Combat Suit (Combat Suit)
+DT 3 / Max Dex +3
++Underlays
+
+Zabrak Combat Suit
+DT 3 / Max Dex +3
+-5 vs Cold
++Underlays
+
+Echani Light Suit
+DT 3 / Max Dex +3
++1 Max Dex
++Underlays
+
+Massassi Ceremonial Armor [Might change name]
+DT 3 / Max Dex +3
+Immunity vs Fear
++None
+
+
+
+Level 3:
+
+Republic Heavy Combat Suit (Heavy Combat Suit)
+DT 4 / Max Dex +2
++Underlays
+
+Echani Shield Suit
+DT 4 / Max Dex +2
+-5 vs Energy
+-5 vs Electric
++Underlays
+
+Thermal Suit
+DT 4 / Max Dex +2
+-10 vs Fire
++Underlays
+
+Mandalorian Light Suit (Zabrak Battle Armor)
+DT 4 / Max Dex +2
+-5 vs Phys
++Underlays
+
+Zabrak Field Suit
+DT 4 / Max Dex +2
+-10 vs Cold
++Underlays
+
+Sith Combat Suit (Reinforced Fiber Armor)
+DT 4 / Max Dex +2
++2 Stealth
++2 Demolitions
++Underlays
+
+Armored Flight Suit
+DT 4 / Max Dex +2
+-10 vs Cold
+-10 vs Fire
+-10 vs Ion
++None
+
+Ubese Environmental Suit
+DT 4 / Max Dex +2
+-10 vs Electrical
+-10 vs Cold
+-10 vs Sonic
+-10 vs Fire
++None
+
+
+Level 4: (DT 6 / Max Dex +1)
+
+Republic Millitary Suit (Military Suit)
+DT 6 / Max Dex +1
++All
+
+Sith Battle Suit
+DT 6 / Max Dex +1
+-1 DT
++2 Max Dex
+Immunity Paralysis
+
+Cinnigar War Suit
+DT 6 / Max Dex +1
++None
+
+Echani Battle Armor
+DT 6 / Max Dex +1
+-10 vs Fire
++2 Max Dex
++None
+
+Verpine Fiber Mesh
+DT 6 / Max Dex +1
+-10 vs Fire
+-10 vs Cold
++None
+
+
+Level 5: (DT 8 / Max Dex +0)
+
+Republic Battle Armor (Heavy Battle Armor)
+No Change
+
+Mandalorian Battle Armor
++1 DT
+
+Sith Battle Armor (Verpine Zal Alloy Mesh)
+Immunity vs Attribute Damage
+
+Echani Heavy Armor (Corellian Powersuit)
++2 Max Dex
+
+M'uhk'gfa
++2 DT
+-2 Dex
+
+
+Level 6: (DT 10 / Max Dex +0)
+
+Corellian Powersuit (Durasteel Heavy Armor)
++2 Str
+
+Mandalorian Assault Armor
+-15 vs Phys
+Immunity Knockdown
+
+Matrix Armor
+-20 vs Energy
+-20 vs Ion
+-20 vs Fire
+
+
+
+----------------------------------------------------------------
+Upgrades
+----------------------------------------------------------------
+
+Types of Upgrades:
+
+Overlays:
+
+Ballistic Shielding
+Energy Sheilding
+Alblative Plating
+Heat Shielding
+Radiant Shielding
+Stealth Coating
+Bonded Plates
+
+
+
+Level 1:
+
+None
+
+
+Level 2:
+
+Energy Shielding I
+-5% vs Energy
+
+Ballistic Shielding I
+-5% vs Physical
+
+Heat Shielding I
+-20% vs Fire
+
+Radiant Shielding I
+-10% vs Ion
+
+Stealth Coating I
++2 Stealth
+
+
+Level 3:
+
+Alblative Plating I
+-5% vs Physical
+-5% vs Energy
+
+Energy Shielding II
+-10% vs Energy
+
+Ballistic Shielding II
+-10% vs Physical
+
+Heat Shielding II
+-25% vs Fire
+-5% vs Physical
+
+Radiant Shielding II
+-10% vs Ion
+-10% vs Electric
+-10% vs Fire
+
+Stealth Coating II
++4 Stealth
+
+
+Level 4:
+
+Alblative Plating II
+-10% vs Physical
+-10% vs Energy
+
+Energy Shielding III
+-20% vs Energy
+
+Ballistic Shielding III
+-20% vs Physical
+
+Heat Shielding III
+-50% vs Fire
+-10% vs Physical
+
+Radiant Shielding III
+-15% vs Ion
+-15% vs Electric
+-15% vs Fire
+-10% vs Energy
+
+Stealth Coating III
++4 Stealth
++1 Defense
+
+
+Level 5:
+
+Alblative Plating III
+-20% vs Physical
+-20% vs Energy
+
+Energy Shielding IV
+-30% vs Energy
+
+Ballistic Shielding IV
+-30% vs Physical
+
+Heat Shielding IV
+-75% vs Fire
+-15% vs Physical
+
+Radiant Shielding IV
+-20% vs Ion
+-20% vs Electric
+-20% vs Fire
+-20% vs Energy
+
+Stealth Coating IV
++4 Stealth
++2 Defense
+
+
+
+
+Underlays:
+
+Flexible
+Strengthening
+Protecting
+Mind-Affecting
+Poison
+Regenerative
+Environmental
+
+
+
+Level 1:
+
+Environmental I
+-5% vs Cold
+-5% vs Heat
+
+Poison I
++1 Save vs Poison
++1 Save vs Paralysis
+
+
+Level 2:
+
+Environmental II
+-10% vs Cold
+-10% vs Heat
+
+Poison II
++2 Save vs Poison
++2 Save vs Paralysis
+
+Mind-Affecting I
++1 Save vs Fear, Stun, Horror
+
+Flexible I
++1 Max Dex
+
+
+Level 3:
+
+Poison III
+Immune Poison
++2 Save vs Paralysis
+
+Mind-Affecting II
++2 Save vs Fear, Stun, Horror
+
+Strengthening I
++2 Fort
+
+Flexible II
++2 Max Dex
+
+Protecting I
+Immune Sneak Attack
+
+
+Level 4:
+
+Poison IV
+Immune Poison
+Immune Paralysis
+
+Mind-Affecting IV
+Immune Fear, Stun, Horror
+
+Strengthening II
++2 Fort
++1 Str
+
+Flexible III
++3 Max Dex
+
+Protecting II
+Immune Attribute
+
+Regen I
++1 Regen
+
+
+Level 5:
+
+Strengthening III
++2 Fort
++2 Str
++1 Con
+
+Regen II
++3 Regen
+
+
+
+
+-------------------------------------------------------
+New New Armor
+-------------------------------------------------------
+
+
+Clothing
+
+
+Clothing
++None
+
+Miner Uniform
++None
+
+
+
+Light Combat Suits
+
+Republic Light Combat Suit
+-2 Damage / Max Dex +3
++All (Was Underlays) (Only Underlays Available)
+
+Zabrak Light Combat Suit
+-2 Damage / Max Dex +3
+-10% vs Fire
+-20% vs Cold
++None
+
+Echani Light Combat Suit
+-2 Damage / Max Dex +3
++2 Max Dex
++None
+
+Massassi Ceremonial Armor
+-2 Damage / Max Dex +3
+Immunity Fear
++None
+
+
+
+Heavy Combat Suits
+
+
+Republic Combat Suit
+-3 Damage / Max Dex +2
++All (Was Underlays)
+
+Zabrak Field Suit
+-3 Damage / Max Dex +2
+-15% vs Fire
+-30% vs Cold
++None
+
+Echani Shield Suit
+-3 Damage / Max Dex +2
++1 Max Dex
+-5% vs Energy
++None
+
+Mandalorian Light Combat Suit
+-3 Damage / Max Dex +2
++1 Saves vs Fear
+-5% vs Physical
++None
+
+Sith Combat Suit
+-3 Damage / Max Dex +2
++2 Stealth
++1 Demolitions
++None
+
+Light Power Armor
+-3 Damage / Max Dex +2
++1 Str
++Overlays
+
+
+Armored Flight Suits
+
+
+Armored Flight Suit
+-2 Damage / Max Dex +2
+-10 vs Cold
+-10 vs Fire
+-10 vs Ion
++None
+
+Ubese Environmental Suit
+-2 Damage / Max Dex +2
+-10 vs Cold
+-10 vs Fire
+-10 vs Sonic
+-10 vs Electric
++None
+
+
+
+Military Suits
+
+
+Republic Military Suit
+-4 Damage / Max Dex +1
++All
+
+Sith Battle Suit
+-3 Damage / Max Dex +1
++3 Stealth
++2 Demolitions
++2 Max Dex
++None
+
+Echani Battle Armor
+-3 Damage / Max Dex +1
++2 Max Dex
++Overlays
+
+Zabrak Heavy Armor
+-4 Damage / Max Dex +1
++2 Fort
++Overlays
+
+Verpine Fiber Mesh
+-3 Damage / Max Dex +1
++1 Max Dex
++All
+
+
+
+Heavy Battle Armor
+
+
+Republic Battle Armor
+-5 Damage / Max Dex +0
++All
+
+Mandalorian Battle Armor
+-6 Damage / Max Dex +0
++All
+
+Echani Heavy Armor
+-5 Damage / Max Dex +0
++2 Max Dex
++1 Dex
++Overlays
+
+Sith Heavy Armor
+-5 Damage / Max Dex +0
++2 Demolitions
++1 Saves vs Poison
++1 Saves vs Paralysis
++All
+
+M'uhk'gfa
+-6 Damage / Max Dex +0
+-30% vs Phys
++None
+
+
+
+Heaviest Armor
+
+
+Correlian Powersuit
+-6 Damage / Max Dex +0
++2 Str
++2 Con
++Overlays
+
+Mandalorian Assault Armor
+-7 Damage / Max Dex +0
++All
+
+Matrix Armor
+-8 Damage / Max Dex +0
+-30% vs Energy
+-30% vs Ion
+-30% vs Fire
+-30% vs Cold
+-30% vs Electric
++None
+
+
+
+
+
+
+------------------------------------------------------
+
+Alright now for upgrade tiers:
+
+
+
+
+
+Tier 1:
+-Environmental I
+-Poison I
+
+Tier 2:
+-Energy Shielding I
+-Ballistic Shielding I
+
+Tier 3:
+-Heat Shielding I
+-Radiant Shielding I
+-Stealth Coating I
+
+Tier 4:
+-Mind-Affecting I
+-Flexible I
+
+Tier 5:
+-Environmental II
+-Poison II
+
+Tier 6:
+-Alblative Plating I
+-Energy Shielding II
+-Ballistic Shielding II
+
+Tier 7:
+-Heat Shielding II
+-Radiant Shielding II
+-Stealth Coating II
+
+Tier 8:
+-Flexible II
+-Mind-Affecting II
+
+Tier 9:
+-Poison III
+-Strengthening I
+-Protecting I
+
+Tier 10:
+-Alblative Plating II
+-Energy Shielding III
+-Ballistic Shielding III
+
+Tier 11:
+-Heat Shielding III
+-Radiant Shielding III
+-Stealth Coating III
+
+Tier 12:
+-Flexible III
+-Mind-Affecting IV
+-Regen I
+
+Tier 13:
+-Strengthening II
+-Protecting II
+-Poison IV
+
+Tier 14:
+-Energy Shielding IV
+-Ballistic Shielding IV
+
+Tier 15:
+-Heat Shielding IV
+-Radiant Shielding IV
+
+Tier 16:
+-Alblative Plating III
+-Stealth Coating IV
+
+Tier 17:
+-Strengthening III
+-Regen II
+
+
+Tier 1 		- Level 2
+Tier 2 		- Level 4
+Tier 3 		- Level 5
+Tier 4 		- Level 7
+Tier 5 		- Level 8
+Tier 6 		- Level 10
+Tier 7 		- Level 11
+Tier 8 		- Level 13
+Tier 9 		- Level 14
+Tier 10		- Level 16
+Tier 11		- Level 17
+Tier 12		- Level 18
+Tier 13		- Level 20
+Tier 14		- Level 22
+Tier 15		- Level 23
+Tier 16		- Level 24
+Tier 17		- Level 25
+
+
+This one is a little differnet, we have more tiers, I think it works because we had more upgrades too
+
+
+
+
+
+
+
+

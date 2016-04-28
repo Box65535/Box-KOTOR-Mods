@@ -1,0 +1,790 @@
+First let's try to figure out what merchants there are in the game:
+
+Remember that there are different ones with the same name so this
+will get tricky.
+
+All names here are ultimately speculative.
+
+
+Oondar
+kexsstore.utm
+-Duros who has a rivalry with Geeda on Nar Shadda
+-Buy and Sell
+-Contains 4 types of grenades and 3 power crystals
+
+Pato
+kexsstore.utm
+-Pazaak player on dantooine
+-Buy only
+-Contains 7 pazaak cards
+
+Kex
+kexsstore.utm'
+-Mandalorian quatermaster on Dxun
+-Buy and Sell
+-Many mandalorian armors, blasters, and upgrades. Also contains
+medpads, mines, stimulants and grenades
+
+Geeda
+kexsstore001.utm
+-Female Rodian who has a rivalry with Oondar on Nar Shadda
+-Buy and Sell
+-Contains basic equipment of many varieities
+
+Tienn
+kexsstore002.utm
+-Sullustan on Nar Shadda who knows Bao-Dur
+-Buy and Sell
+-Contains Droid Upgrade Slot and "airspeeder41"
+
+Dahni
+kexsstore003.utm
+-Pazaak player?
+-Buy only
+-Contains 9 pazaak cards
+
+Dahni
+kexsstore003.utm
+-Pazaak player?
+-Buy only
+-Contains 9 pazaak cards
+*Same as other kexxstore003.utm?
+
+Kodin
+kodinstore.utm
+-Droid vendor on Nar Shadda
+-Buy and Sell
+-Contains Czerka Utility belt and "airspeeder43"
+
+Dendis Dobo
+m_202_001.utm
+-Good Duros merchant on Citadel Station
+-Buy and Sell
+-Contains Clothing, Medpac, Parts, and 8 pazaak cards
+
+"Citadel Merchant"???
+m_202_001.utm
+-??? Black market guy?
+-Buy and Sell
+-Contains Clothing, Medpac, Parts, Armored Light Suit and some
+invalid items
+
+Black Market
+m_202_002.utm
+-Black Market on Citadel Station I suppose
+-Buy and Sell
+-Empty inventory
+
+Black Market
+m_202_002.utm
+-Black Market on Citadel Station I suppose
+-Buy and Sell
+-Contains some invalid looking items, hard to say
+
+Samhan Dodo
+m_202_003.utm
+-Bad Duros merchant on Citadel Station
+-Buy and Sell
+-Contains some grenades and stimulants and a security tunneler
+
+"Droid Merchant"
+m_202_003.utm
+-Perhaps there is a droid merchant on Citadel Station I am forgetting
+-Buy and Sell
+-Contains Parts, Blowtorch, Repair Kit, some invalid items
+
+Mebla
+m_202_004.utm
+-Pazaak player on Citadel Station
+-Buy only
+-Contains 12 Pazaak cards
+
+Chano
+m_Chano.utm
+-Duros Merchant on Citadel Station with droid credendials
+-Buy and Sell
+-Contains Repair Kit, Parts, Computer Spike
+
+Chano
+m_Chano.utm
+-Duros Merchant on Citadel Station with droid credendials
+-Buy and Sell
+-Contains Repair Kit, Parts, Computer Spike
+*Has lower markdown from merchant above
+
+Chano
+m_Chano.utm
+-Duros Merchant on Citadel Station with droid credendials
+-Buy and Sell
+-Contains Repair Kit, Parts, Computer Spike
+*Same as merchant above?
+
+Margar
+margar_store.utm
+-Random Onderon merchant? Not the nervous guy
+-Buy and Sell
+-Contains some grenades, disruptor weapons, upgrades
+
+Pato
+patostore.utm
+-Pazaak player on dantooine
+-Buy only
+-Contains 7 pazaak cards
+*Same as kexstore.utm?
+
+Pato
+patostore.utm
+-Pazaak player on dantooine
+-Buy only
+-Contains 7 pazaak cards
+*Same as kexstore.utm? Same as above?
+
+"Store 128"
+store_128.utm
+-This is the Droid Merchant on Onderon that you can reprogram with G0-T0
+-Buy and Sell
+-Contains Repair Kits, Parts, Computer Spike, Security Tunneler
+
+Adum
+store_adum.utm
+-Rodian merchant on Dantooine
+-Buy and Sell
+-Contains Medpacs, Stimulants, Ruusan crystal
+
+Akkere
+store_adum001.utm
+-Sullestan droid merchant on Dantooine
+-Buy and Sell
+-Contains Repair Kits, Parts, Computer Spike, Security Tunneler, HK Part
+
+Akkere
+store_adum001.utm
+-Sullestan droid merchant on Dantooine
+-Buy and Sell
+-Contains Repair Kits, Parts, Computer Spike, Security Tunneler, HK Part
+*Contains different HK part from merchant above
+
+Daraala
+store_daraala.utm
+-Jedi Enclave scavenger on Dantooine
+-Buy only, Large markup
+-Contains 5 color crystals
+
+Geg
+store_geg.utm
+-Nervous merchant on Onderron
+-Buy and Sell
+-Contains Medpacs, Parts, Phone crystal
+
+
+For reference, it seems that the enhanced merchants mod works by 
+putting certain modified merchant files in the override folder.
+These merchants have more equipment but obviously this doens't account
+for everything since there's still something that adds random equipment
+to merchants. In order to fix merchants, we need to get rid of that.
+It might be a script.
+
+The merchants modified are as follows:
+kexxstore002.utm
+kodinstore.utm
+m_202_001.utm
+m_202_002.utm
+m_202_003.utm
+m_chano.utm
+margar_store.utm
+store_128.utm
+store_adum.utm
+store_daraala.utm
+store_geg.utm
+
+That doesn't necessarily account for all the merchats. This mod was really
+lazy.
+
+
+
+Anyway, we need to look for if there's a script that stocks the merchants
+with random items because that really needs to be taken out if we want
+to avoid some crazy workaround for random merchant inventory.
+
+
+
+Alright I still can't find the script. We'll go without it for now.
+
+We know that we can edit the merchants by putting replacements in the
+Overwrite folder so let's just start with that.
+
+Which merchants are we really concerned with?:
+
+
+Oondar
+Kex
+Geeda
+Tienn
+Dendis Dobo
+Black Market
+Samhan Dobo
+Chano
+Margar
+Adum
+Akkere
+Daarala
+Geg
+
+
+and then there's the myserious Store 128
+
+
+
+Now what types of items do they carry?
+
+Oondar - good supply of general stuff, decidedly above average
+Kex - Mandalorian focused military supplies
+Geeda - starts out with not much, gets better equipment over time
+Tienn - Upgrades or Droid parts.... I can't remember
+Dendis Dobo - General stuff someone on telos would need
+Black Market - Advanced equipment for someone on telos
+Samhan Dobo - Similar stuff to Dendis, perhaps same inventory
+Chano - Upgrades I believe, either that or droid parts
+Margar - Idk.. general stuff?
+Adum - General stuff
+Akkere - Droid stuff
+Daarala - Jedi stuff
+Geg - Basic stuff
+
+Second, we need to specify what types of equipment there is:
+
+Light Armor
+Medium Armor
+Heavy Armor
+Jedi Robes
+Melee Weapons
+Blaster Pistols
+Blaster Rifles
+Repeating Blasters (Heavy or otherwise)
+Lightsabers
+Stealth Belts
+Power Belts
+Power Gloves
+Tech Belts
+Tech Gloves
+Unarmed Gloves
+Armor Gloves
+Implants
+Energy Shields
+Headgear
+Mines
+Grenades
+Rockets
+Medpacs
+Stimulants
+Melee Upgrades
+Ranged Upgrades
+Lightsaber Upgrades
+Lightsaber Color Crystals
+Lightsaber Power Crystals
+Droid Armor
+Droid Devices
+Droid Weapons
+Droid Shields
+Miscellaneous Expendables
+
+
+
+We'll start with Dendis Dobo. He's the first merchant you'll meet
+in the game. What kind of basic equipment should he have?
+
+-----------------------------------------------
+Dendis Dobo
+-----------------------------------------------
+
+
+Light Armor:
+-Up to Bonadan Alloy Heavy Suit
+
+Medium Armor:
+-Up to Cinnigar War Suit
+
+Heavy Armor:
+-Up to Durasteel Heavy Armor
+
+Melee Weapons:
+-Short Sword
+-Long Sword
+-Energy Baton
+-Quarterstaff
+-Force Pike
+-Double-Bladed Sword
+-Vibroblade
+
+Blaster Pistols:
+-Ion Blaster
+-Sonic Pistol
+-Disruptor Pistol
+-Field Survival Pistol
+-Scout Enforcer
+-Blaster Pistol
+-Republic Blaster
+-Heavy Blaster
+
+Blaster Rifles:
+-Ion Carbine
+-Sonic Carbine
+-Disruptor Carbine
+-Blaster Carbine
+-Blaster Rifle
+-Repeating Blaster Carbine
+
+Stealth Belts:
+-All Level 1
+
+Power Belts:
+-All Level 1
+
+Power Gloves:
+-All Level 1
+	Except:
+	-Jal Shey Perception Gloves
+
+Armor Gloves
+-Insulated Gloves
+
+Tech Belts:
+-All Level 1
+
+Tech Gloves:
+-All Level 1
+
+Energy Shields:
+-Energy Sheild
+
+Medpacs:
+-Medpac
+-Antidote Kit
+
+
+
+-----------------------------------------------
+Samhan Dobo
+-----------------------------------------------
+
+*Same as Dendis Dobo
+
+
+
+-----------------------------------------------
+Black Market
+-----------------------------------------------
+
+Light Armor:
+-Echani Light Armor
+-Massassi Ceremonial Armor
+
+Medium Armor:
+-Sith Battle Suit
+-Bronzium Light Battle Armor
+
+Heavy Armor:
+-Powered Battle Armor
+-Flex Heavy Armor
+
+Melee Weapons:
+-Rodian Blade
+-Trandoshan Sword
+-Exchange Negotiator
+-Gammorean War Axe
+-Sith War Sword
+
+Blaster Pistols:
+-Aratech Droid Oxidizer
+-Systech Aural Blaster
+-Systech Static Blaster
+-Arkanian Heavy Pistol
+
+Blaster Rifles:
+-Ion Rifle
+-Sonic Rifle
+-Disruptor Rifle
+-Arkanian Blaster Rifle
+-Bowcaster
+-Heavy Repeating Carbine
+
+Stealth Belts:
+-Exchange Shadow Caster
+
+Power Belts:
+-Electrical Capacitance Shield
+-Thermal Shield Generator
+
+Unarmed Gloves:
+-Gamorrean Gauntlets
+
+Power Gloves:
+-Jal Shey Perception Gloves
+
+Tech Belts:
+-Exchange Utility Belt
+
+Energy Shields:
+-Mandalorian Melee Shield
+-Arkanian Energy Shield
+
+Implants:
+-First Four implants
+
+Medpacs:
+-Advanced Medpac
+
+Stimulants:
+-Adrenal Level 1
+-Battle Stimulant
+
+Grenades:
+-Frag Grenade
+-Concussion Grenade
+-Poison Grenade
+
+Mines:
+-All Minor mines
+
+
+-----------------------------------------------
+Chano
+-----------------------------------------------
+
+Droid Armor:
+-Droid Impact Armor Mark I
+-Droid Impact Armor Mark II
+-Droid Modular Plating Mark I
+-Droid Modular Plating Mark II
+-Droid Dura Plating Mark I
+-Droid Desh Plating
+
+Droid Devices:
+-All Central Devices Level 1
+	Except:
+	-Droid Fighting Upgrade
+-All Side Devices Level 1 (Auxilary Skill ones Only)
+
+Droid Weapons:
+-Droid Flame Thrower
+-Droid Ion Blast Mark I
+-Droid Neural Pacifier
+-Droid Toxin Emittter
+
+Droid Shields:
+-Droid Deflector Mark I
+-Droid Defense Barrier
+
+Misc:
+-Security Tunneler
+-Parts
+-Computer Spike
+
+
+-----------------------------------------------
+Adum
+-----------------------------------------------
+
+Light Armor:
+-Up to Zabrak Battle Armor
+
+Medium Armor:
+-Up to Powered Light Battle Armor
+
+Heavy Armor:
+-Up to Mandalorian Heavy Armor
+
+Melee Weapons:
+*Dendis Dobo Stock
+*Black Market Stock
+-Zabrak Vibroblade
+-Trandoshan Double-Blade
+-Gamorrean Cleaver
+-Gand Silencer
+-Rodian Death Blade
+-Vibro Double-Blade
+
+Blaster Pistols:
+*Dendis Dobo Stock
+*Black Market Stock
+-Arkanian Sonic Blaster
+-Heavy Sonic Blaster
+-Sith Disruptor
+-Watchman Blaster
+-Zabrak Blaster Pistol
+-Mandalorian Heavey Blaster
+
+Blaster Rifles:
+*Dendis Dobo Stock
+*Black Market Stock
+-Bothan Droid Disruptor
+-Argazdan Riot Buster
+-Zabrak Blaster Carbine
+-Slavemaster Stun Carbine
+-Plasma Projector
+-War Bowcaster
+-Repeating Blaster Rifle
+
+Stealth Belts:
+-All Level 1 and 2
+
+Power Belts:
+-All Level 1 and 2
+	Except:
+	-Multishield Generator
+	-Jal Shey Belt
+	-Nerve Amplifier Belt
+
+Power Gloves:
+-All Level 1 and 2
+	Except:
+	-Jal Shey Meditation Gloves
+
+Unarmed Gloves:
+-Gamorrean Gauntlets
+-Unarmed Accuracy Gloves
+
+Armor Gloves
+-All
+
+Tech Belts:
+-All Level 1 and 2
+
+Tech Gloves:
+-All Level 1 and 2
+
+Energy Shields:
+-Energy Sheild
+-Mandalorian Melee Shield
+-Arkanian Energy Shield
+-Echani Shield
+
+Medpacs:
+-Medpac
+-Antidote Kit
+-Advanced Medpac
+
+Implants:
+-Levels 1 through 4
+
+Grenades:
+-Up to but not including Cryoban
+
+Mines:
+-All Minor and Average
+
+Stimulants:
+*Black market stock
+-Battle Stim 2
+
+
+
+-----------------------------------------------
+Akkere
+-----------------------------------------------
+
+
+Droid Armor:
+-Droid Impact Armor Mark I
+-Droid Impact Armor Mark II
+-Droid Impact Armor Mark III
+-Droid Modular Plating Mark I
+-Droid Modular Plating Mark II
+-Droid Modular Plating Mark III
+-Droid Dura Plating Mark I
+-Droid Dura Plating Mark II
+-Droid Desh Plating
+
+Droid Devices:
+
+Droid Weapons:
+-Droid Flame Thrower
+-Droid Ion Blast Mark I
+-Droid Neural Pacifier
+-Droid Toxin Emittter
+
+Droid Shields:
+-Droid Deflector Mark I
+-Droid Defense Barrier
+
+Misc:
+-Security Tunneler
+-Parts
+-Computer Spike
+
+
+-----------------------------------------------
+Margar
+-----------------------------------------------
+
+Light Armor:
+-From Zabrak Combat Suit to Ubese Environmental Suit
+
+Medium Armor:
+-From Cinnagar War Suit to to Krath Holy Battle Suit
+
+Heavy Armor:
+-From Echani Heavy Armor to Verpine Zal Alloy Mesh
+
+Melee Weapons:
+*Black Market Stock
+-Vibroblade
+-Vibrosword
+-Zabrak Vibroblade
+-Trandoshan Double-Blade
+-Gamorrean Cleaver
+-Gand Silencer
+-Rodian Death Blade
+-Vibro Double-Blade
+
+Blaster Pistols:
+*Black Market Stock
+-Arkanian Sonic Blaster
+-Heavy Sonic Blaster
+-Sith Disruptor
+-Watchman Blaster
+-Zabrak Blaster Pistol
+-Mandalorian Heavy Blaster
+
+Blaster Rifles:
+*Black Market Stock
+-Bothan Droid Disruptor
+-Argazdan Riot Buster
+-Zabrak Blaster Carbine
+-Slavemaster Stun Carbine
+-Plasma Projector
+-War Bowcaster
+-Repeating Blaster Rifle
+
+Stealth Belts:
+-All Level 2
+-Defel Mimicker
+
+Power Belts:
+-All Level 2
+-Strengh Enhancer
+-Systec Cardio-Regulator
+
+Power Gloves:
+-All Level 2
+
+Unarmed Gloves:
+-Gamorrean Gauntlets
+-Unarmed Accuracy Gloves
+-Gamorrean War Gloves
+
+Armor Gloves
+-All
+
+Tech Belts:
+-All Level 2
+-Adrenaline Stimulator
+
+Tech Gloves:
+-All Level 2
+
+Energy Shields:
+-Echani Shield
+-Mandalorian Power Shield
+
+Medpacs:
+-Advanced Medpac
+
+Implants:
+-Levels 4 through 6
+
+Grenades:
+-Up to but not including Plasma
+
+Mines:
+-All Average and Strong
+
+Stimulants:
+-All except Battle Stim 3
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+Okay new merchants for new items
+Right now we're just doing weapons and armor
+We'll just list all of the weapons and armor and sort them where they need to go
+
+
+Dendis Dobo - Duros on Telos
+Samhan Dobo - Ruros on Telos with Exchange connections
+Black Market - Samhan's unlockable stash
+Chano - Duros on Telos selling droid stuff
+Oondar - Duros on Nar Shadda
+Geeda - Rodian on Nar Shadda who can be upgraded
+Tienn - Sullustan on Nar Shadda selling upgrades or droid stuff, can't remember which
+Adum - Rodian on Dantooine
+Daarala - Enclave Scavenger on Dantooine
+Akkere - Sullustan on Dantooine selling droid stuff
+Margar - Alien on Onderron
+Geg - Nervous Human on Onderron
+Kex - Mandalorian on Dxun
+
+Merchants selling regular amounts human eqipment:
+-Dendis/Samhan 	- Telos
+-Oondar			- Nar Shadda
+-Adum			- Dantooine
+-Kex			- Dxun
+-Margar			- 
+
+
+Republic Light Combat Suit			- 
+Zabrak Light Combat Suit			- 
+Echani Light Combat Suit			- 
+Massassi Ceremonial Armor			- 
+Republic Combat Suit				- 
+Zabrak Field Suit					- 
+Echani Shield Suit					- 
+Mandalorian Light Combat Suit		- 
+Sith Combat Suit					- 
+Light Power Armor					- 
+Armored Flight Suit					- 
+Ubese Environmental Suit			-
+Republic Military Suit				- 
+Sith Battle Suit					- 
+Echani Battle Armor					- 
+Zabrak Heavy Armor					- 
+Verpine Fiber Mesh					- 
+Republic Battle Armor				- 
+Mandalorian Battle Armor			- 
+Echani Heavy Armor					- 
+Sith Heavy Armor					- 
+M'uhk'gfa							- 
+Correlian Powersuit					- 
+Mandalorian Assault Armor			- 
+Matrix Armor						- 
+
+
+Hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+This is a problem, the items don't really fan out ideally
+We really need more custom merchants or something, Kotor 1 had better merchants, here there just aren't enough, idk
+
+Alright, yeah, no, I already came up with a better idea before
+We just create one merchant in the Ebon Hawk who can sell all of the stuff
+This merchant would be like the Star Wars equivalent of online shopping, whatever
+
+Anyway, this all means we're not worrying about merchants this iteration
+
+
+
+
+According to Fair Strides, the person who worked on the K1 Restoration, this is what would be needed to be made to add a merchant:
+
+1. A .dlg file for the conversation
+2. A script to open the store
+3. A .utm file which is the merchant
+4. A .utp file which is the placeable scenery object (whose conversation field is the name of the .dlg)
+
+
+
+
+
+
+

@@ -3,18 +3,22 @@
 // Written by Box
 // Include file for spawning enemies (Peragus)
 
-string MINING_LASER = "wr_mining1";
-string MINING_CARBINE = "wr_mining2";
-string DISRUPTOR_RIFLE = "wr_rifle4";
-string MINING_SHIELD_1 = "es_mining1";
-string MINING_SHIELD_2 = "es_mining2";
+string MINING_LASER = "ew_minels1";
+string MINING_CARBINE = "ew_minels2";
+string MINING_DISRUPTOR = "ew_mineds1";
+string MINING_SHIELD_1 = "es_minesh1";
+string MINING_SHIELD_2 = "es_minesh2";
 string SONIC_DETONATOR = "ew_soncdt1";
 string SONIC_DETONATOR_2 = "ew_soncdt2";
 string BURNERS = "ew_burn1";
 string BURNERS_2 = "ew_burn2";
 string FIRE_SUPPRESSION = "ew_firesu1";
 string FIRE_SUPPRESSION_TURRET = "et_firesu1";
-string DOUBLE_BLADED_SWORD = "wm_simple4";
+string MINE_FLAMETHROWER = "ew_minefr";
+string MINE_CARBONITE = "ew_minecb";
+string SITH_SHORT_SWORD_1 = "ew_sithss1";
+string SITH_POISON_SWORD_1 = "ew_sithps1";
+string SITH_DOUBLE_SWORD_1 = "ew_sithds1";
 string COMPONENTS = "compont_00001";
 
 void Box_MiningDroid(object oEnemy) {
@@ -73,23 +77,27 @@ void Box_FireSuppressionDroid(object oEnemy) {
 void Box_MiningDroidMarkII(object oEnemy) {
 	Box_RemoveAllItems(oEnemy);
 	Box_EquipHide(oEnemy, HIDE_TYPE_COMBAT_DROID, ENEMY_STRENGTH_REGULAR);
-	ActionEquipItem(CreateItemOnObject(MINING_CARBINE, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+	ActionEquipItem(CreateItemOnObject(MINING_DISRUPTOR, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
 }
 
 void Box_MiningDroidMarkIIFire(object oEnemy) {
-	Box_MiningDroidMarkII(oEnemy);
-	ActionEquipItem(CreateItemOnObject(BURNERS_2, oEnemy), INVENTORY_SLOT_RIGHTARM, TRUE);
+	Box_RemoveAllItems(oEnemy);
+	Box_EquipHide(oEnemy, HIDE_TYPE_COMBAT_DROID, ENEMY_STRENGTH_STRONG);
+	ActionEquipItem(CreateItemOnObject(MINING_DISRUPTOR, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+	ActionEquipItem(CreateItemOnObject(MINE_FLAMETHROWER, oEnemy), INVENTORY_SLOT_RIGHTARM, TRUE);
 }
 
 void Box_MiningDroidMarkIICold(object oEnemy) {
-	Box_MiningDroidMarkII(oEnemy);
-	ActionEquipItem(CreateItemOnObject(FIRE_SUPPRESSION, oEnemy), INVENTORY_SLOT_RIGHTARM, TRUE);
+	Box_RemoveAllItems(oEnemy);
+	Box_EquipHide(oEnemy, HIDE_TYPE_COMBAT_DROID, ENEMY_STRENGTH_STRONG);
+	ActionEquipItem(CreateItemOnObject(MINING_DISRUPTOR, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+	ActionEquipItem(CreateItemOnObject(MINE_CARBONITE, oEnemy), INVENTORY_SLOT_RIGHTARM, TRUE);
 }
 
 void Box_ExcavatorDroidMarkII(object oEnemy) {
 	Box_RemoveAllItems(oEnemy);
 	Box_EquipHide(oEnemy, HIDE_TYPE_COMBAT_DROID, ENEMY_STRENGTH_REGULAR);
-	ActionEquipItem(CreateItemOnObject(DISRUPTOR_RIFLE, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+	ActionEquipItem(CreateItemOnObject(MINING_DISRUPTOR, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
 	ActionEquipItem(CreateItemOnObject(MINING_SHIELD_2, oEnemy), INVENTORY_SLOT_BELT, TRUE);
 }
 
@@ -118,8 +126,22 @@ void Box_MaintenanceDroid(object oEnemy) {
 void Box_SithAssassin(object oEnemy) {
 	Box_RemoveAllItems(oEnemy);
 	Box_EquipHide(oEnemy, HIDE_TYPE_SITH_ASSASSIN, ENEMY_STRENGTH_REGULAR);
-	Box_GrantDualWield(oEnemy);
-	ActionEquipItem(CreateItemOnObject(DOUBLE_BLADED_SWORD, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+	
+	// Variety would be good so let's use randomness to have 3 types of assassins
+	int random = Random(4)
+	if (random == 0) {
+		ActionEquipItem(CreateItemOnObject(SITH_POISON_SWORD_1, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+	}
+	else if (random == 1) {
+		Box_GrantDualWield(oEnemy);
+		ActionEquipItem(CreateItemOnObject(SITH_POISON_SWORD_1, oEnemy), INVENTORY_SLOT_LEFTWEAPON, TRUE);
+		ActionEquipItem(CreateItemOnObject(SITH_SHORT_SWORD_1, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+	}
+	else {
+		Box_GrantDualWield(oEnemy);
+		ActionEquipItem(CreateItemOnObject(SITH_DOUBLE_SWORD_1, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+	}
+	
 	effect eUncloak = EffectVisualEffect(8001);
     DelayCommand(0.5f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eUncloak, OBJECT_SELF, 5.0f));
 }

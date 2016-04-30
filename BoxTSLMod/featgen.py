@@ -312,6 +312,15 @@ itemcodes.append('BOXI_MINING_PISTOL')
 itemcodes.append('BOXI_MINING_RIFLE')
 itemcodes.append('BOXI_STEALTH_FIELD')
 itemcodes.append('BOXI_DROID_STEALTH')
+# Enemy Equipment
+itemcodes.append('BOXI_ENEMY_BUFF_EQUIP')
+itemcodes.append('BOXI_ENEMY_SPELL_WEAPON')
+itemcodes.append('BOXI_SITH_SHORTSWORD')
+itemcodes.append('BOXI_SITH_DOUBLESWORD')
+itemcodes.append('BOXI_ENEMY_MINING_LASER')
+itemcodes.append('BOXI_ENEMY_ADVANCED_MINING_LASER')
+itemcodes.append('BOXI_ENEMY_DISRUPTION_MINING_LASER')
+
 
 items = list()
 
@@ -562,6 +571,27 @@ items.append(Item('da_energy3', 'BOXI_DROID_HEAVYARMOR3'))
 
 items.append(Item('hb_steal', 'BOXI_STEALTH_FIELD'))
 items.append(Item('ds_steal', 'BOXI_DROID_STEALTH'))
+
+
+items.append(Item('ew_sithss1', 'BOXI_SITH_SHORTSWORD'))
+items.append(Item('ew_sithps1', 'BOXI_SITH_SHORTSWORD'))
+items.append(Item('ew_sithds1', 'BOXI_SITH_DOUBLESWORD'))
+items.append(Item('ew_minels1', 'BOXI_ENEMY_MINING_LASER'))
+items.append(Item('ew_minels2', 'BOXI_ENEMY_ADVANCED_MINING_LASER'))
+items.append(Item('ew_mineds1', 'BOXI_ENEMY_DISRUPTION_MINING_LASER'))
+
+items.append(Item('es_minesh1', 'BOXI_ENEMY_BUFF_EQUIP'))
+items.append(Item('es_minesh2', 'BOXI_ENEMY_BUFF_EQUIP'))
+items.append(Item('ew_soncdt1', 'BOXI_ENEMY_SPELL_WEAPON'))
+items.append(Item('ew_soncdt2', 'BOXI_ENEMY_SPELL_WEAPON'))
+items.append(Item('ew_burn1', 'BOXI_ENEMY_SPELL_WEAPON'))
+items.append(Item('ew_burn2', 'BOXI_ENEMY_SPELL_WEAPON'))
+items.append(Item('ew_firesu1', 'BOXI_ENEMY_SPELL_WEAPON'))
+items.append(Item('et_firesu1', 'BOXI_ENEMY_SPELL_WEAPON'))
+items.append(Item('ew_minefr', 'BOXI_ENEMY_SPELL_WEAPON'))
+items.append(Item('ew_minecb', 'BOXI_ENEMY_SPELL_WEAPON'))
+
+
 
 
 featdescs = list(featnames)

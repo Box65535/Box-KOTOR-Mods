@@ -18,7 +18,8 @@ int RADIANT_SHIELD = #2DAMEMORY_RADIANT_SHIELD_D#;
 int ADVANCED_SHIELD = #2DAMEMORY_ADVANCED_SHIELD_D#;
 int UNIVERSAL_SHIELD = #2DAMEMORY_UNIVERSAL_SHIELD_D#;
 
-int WEAK_MINING_SHIELD = #2DAMEMORY_PERAGUS_SHIELD_E#;
+int ENEMY_MINING_SHIELD_MINING_SHIELD = #2DAMEMORY_PERAGUS_SHIELD_E#;
+int ENEMY_MINING_SHIELD_2 = #2DAMEMORY_PERAGUS_SHIELD_2_E#;
 
 void Box_MiningShield(object oUser) {
 	effect eShield = EffectForceShield(MINING_SHIELD);
@@ -88,7 +89,12 @@ void Box_UniversalShield(object oUser) {
 	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eShield, oUser, 60.0f);
 }
 
-void Box_WeakMiningShield(object oUser) {
-	effect eShield = EffectForceShield(WEAK_MINING_SHIELD);
+void Box_EnemyMiningShield1(object oUser) {
+	effect eShield = EffectForceShield(ENEMY_MINING_SHIELD);
+	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eShield, oUser, 60.0f);
+}
+
+void Box_EnemyMiningShield2(object oUser) {
+	effect eShield = EffectForceShield(ENEMY_MINING_SHIELD_2);
 	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eShield, oUser, 60.0f);
 }

@@ -6,7 +6,9 @@ These are my adjustments to the blasters, most are the same
 Common Blasters
 
 Blaster Pistol
-1d6 Energy / 20-20 x2 / Balanced+All
+1d6 Energy / 20-20 x2 / Balanced
++All
+
 Hold Out Blaster
 1d4 Energy / 19-20 x2 / Balanced
 +All

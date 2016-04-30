@@ -15,6 +15,7 @@ shieldnames.append('MELEE_SHIELD_H')
 shieldnames.append('BAODUR_SHIELD_H')
 shieldnames.append('PERAGUS_SHIELD_H')
 shieldnames.append('PERAGUS_SHIELD_E')
+shieldnames.append('PERAGUS_SHIELD_2_E')
 
 shields = 'error'
 with open('shields.ini', 'r') as file:

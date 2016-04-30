@@ -178,10 +178,10 @@ new_spells.append(Spell(None, 'PLASMA_GRENADE', 3, '0x8000', 'L', 'box_plasmagre
 new_spells.append(Spell(None, 'COLD_GRENADE', 3, '0x8000', 'L', 'box_coldgrenade', '****', True, 'w_CryobGren_001', 'throw', '****', True, '0x00'))
 new_spells.append(Spell(None, 'THERMAL_DETONATOR', 9, '0x8000', 'L', 'box_thermaldet', '****', True, 'w_ThermDet_001', 'throw', '****', True, '0x00'))
 
-new_spells.append(Spell(None, 'WEAK_SONIC_GRENADE', 3, '0x8000', 'L', 'box_weaksonicgrenade', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
-new_spells.append(Spell(None, 'WEAK_BURNERS', 3, '0x8000', 'M', 'box_weakburners', '****', False, None, None, None, True, '0x00'))
-new_spells.append(Spell(None, 'BURNERS', 3, '0x8000', 'M', 'box_burners', '****', False, None, None, None, True, '0x00'))
-new_spells.append(Spell(None, 'FIRE_SUPPRESSION', 3, '0x8000', 'M', 'box_firesuppression', '****', False, None, None, None, True, '0x00'))
+# new_spells.append(Spell(None, 'WEAK_SONIC_GRENADE', 3, '0x8000', 'L', 'box_weaksonicgrenade', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
+# new_spells.append(Spell(None, 'WEAK_BURNERS', 3, '0x8000', 'M', 'box_weakburners', '****', False, None, None, None, True, '0x00'))
+# new_spells.append(Spell(None, 'BURNERS', 3, '0x8000', 'M', 'box_burners', '****', False, None, None, None, True, '0x00'))
+# new_spells.append(Spell(None, 'FIRE_SUPPRESSION', 3, '0x8000', 'M', 'box_firesuppression', '****', False, None, None, None, True, '0x00'))
 
 # TODO - Auxilary Weapons
 
@@ -203,8 +203,6 @@ new_spells.append(Spell(None, 'DROID_ENVIRONMENT_SHIELD', 3, '0x1808', 'T', 'box
 new_spells.append(Spell(None, 'RADIANT_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_radiantshield', '****', False, None, None, None, False, '0x00'))
 new_spells.append(Spell(None, 'ADVANCED_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_advancedshield', '****', False, None, None, None, False, '0x00'))
 new_spells.append(Spell(None, 'UNIVERSAL_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_universalshield', '****', False, None, None, None, False, '0x00'))
-
-new_spells.append(Spell(None, 'WEAK_MINING_SHIELD', 6, '0x1808', 'T', 'box_weakminingshield', '****', False, None, None, None, False, '0x00'))
 
 new_spells.append(Spell(None, 'STRENGTH_ADRENALINE', 3, '0x1808', 'T', 'box_stradren', 'gui_inject', False, None, None, None, False, '0x00'))
 new_spells.append(Spell(None, 'DEXTERITY_ADRENALINE', 3, '0x1808', 'T', 'box_dexadren', 'gui_inject', False, None, None, None, False, '0x00'))
@@ -228,6 +226,18 @@ new_spells.append(Spell(None, 'LIFE_SUPPORT_PACK_1', 6, '0x1408', 'T', 'box_life
 new_spells.append(Spell(None, 'LIFE_SUPPORT_PACK_2', 9, '0x1408', 'T', 'box_lifesupport2', 'gui_inject', False, None, None, None, False, '0x00'))
 
 
+# Enemy Spells
+new_spells.append(Spell(None, 'SONIC_CHARGE', 3, '0x8000', 'L', 'box_soniccharge1', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
+new_spells.append(Spell(None, 'SONIC_CHARGE_2', 3, '0x8000', 'L', 'box_soniccharge2', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
+new_spells.append(Spell(None, 'BURNERS', 3, '0x8000', 'M', 'box_burners1', '****', False, None, None, None, True, '0x00'))
+new_spells.append(Spell(None, 'BURNERS_2', 3, '0x8000', 'M', 'box_burners2', '****', False, None, None, None, True, '0x00'))
+new_spells.append(Spell(None, 'FIRE_SUPPRESSION', 3, '0x8000', 'M', 'box_firesuppression', '****', False, None, None, None, True, '0x00'))
+new_spells.append(Spell(None, 'ENEMY_MINING_SHIELD', 3, '0x1808', 'T', 'box_enemymineshield1', '****', False, None, None, None, False, '0x00'))
+new_spells.append(Spell(None, 'ENEMY_MINING_SHIELD_2', 3, '0x1808', 'T', 'box_enemymineshield2', '****', False, None, None, None, False, '0x00'))
+new_spells.append(Spell(None, 'MINE_FLAMETHROWER', 3, '0x8000', 'M', 'box_mineflamethrower', '****', False, None, None, None, True, '0x00'))
+new_spells.append(Spell(None, 'MINE_CARBONITE', 3, '0x8000', 'M', 'box_minecarbonite', '****', False, None, None, None, True, '0x00'))
+
+
 items = list()
 
 items.append(Item('wg_frag', 'FRAG_GRENADE'))
@@ -237,14 +247,6 @@ items.append(Item('wg_sonic', 'SONIC_GRENADE'))
 items.append(Item('wg_plasma', 'PLASMA_GRENADE'))
 items.append(Item('wg_cold', 'COLD_GRENADE'))
 items.append(Item('wg_therm', 'THERMAL_DETONATOR'))
-
-items.append(Item('ew_soncdt1', 'WEAK_SONIC_GRENADE'))
-items.append(Item('ew_soncdt2', 'SONIC_GRENADE'))
-items.append(Item('ew_burn1', 'WEAK_BURNERS'))
-items.append(Item('ew_burn2', 'BURNERS'))
-items.append(Item('ew_firesu1', 'FIRE_SUPPRESSION'))
-items.append(Item('et_firesu1', 'FIRE_SUPPRESSION'))
-
 
 items.append(Item('hs_mining', 'MINING_SHIELD'))
 items.append(Item('hs_energy', 'ENERGY_SHIELD'))
@@ -259,9 +261,6 @@ items.append(Item('ds_enviro', 'DROID_ENVIRONMENT_SHIELD'))
 items.append(Item('ds_radian', 'RADIANT_ENERGY_SHIELD'))
 items.append(Item('ds_advanc', 'ADVANCED_ENERGY_SHIELD'))
 items.append(Item('ds_univer', 'UNIVERSAL_ENERGY_SHIELD'))
-
-items.append(Item('es_mining1', 'WEAK_MINING_SHIELD'))
-items.append(Item('es_mining2', 'MINING_SHIELD'))
 
 items.append(Item('hs_str1', 'STRENGTH_ADRENALINE'))
 items.append(Item('hs_dex1', 'DEXTERITY_ADRENALINE'))
@@ -292,7 +291,18 @@ items.append(Item('dh_quick1', 'QUICK_FIX_KIT_1'))
 items.append(Item('dh_quick2', 'QUICK_FIX_KIT_2'))
 
 
+# Enemy Spells
 
+items.append(Item('ew_soncdt1', 'SONIC_CHARGE'))
+items.append(Item('ew_soncdt2', 'SONIC_CHARGE_2'))
+items.append(Item('ew_burn1', 'BURNERS'))
+items.append(Item('ew_burn2', 'BURNERS_2'))
+items.append(Item('ew_firesu1', 'FIRE_SUPPRESSION'))
+items.append(Item('et_firesu1', 'FIRE_SUPPRESSION'))
+items.append(Item('es_minesh1', 'ENEMY_MINING_SHIELD'))
+items.append(Item('es_minesh2', 'ENEMY_MINING_SHIELD_2'))
+items.append(Item('ew_minefr', 'MINE_FLAMETHROWER'))
+items.append(Item('ew_minecb', 'MINE_CARBONITE'))
 
 
 header = ''

@@ -1,0 +1,115 @@
+
+This is where we detail the weapons that enemies will use
+I think it makes sense to create a unique set of weapons for enemies maybe different baseitems too
+
+All Spell weapons are 1 min cooldown weapons
+Exception is turrets which are unlimited use
+
+Not sure about Armor, may add it later but it's not necessarily required to complete these sets
+
+So let's start at the beginning
+
+
+
+Peragus:
+
+Mining Laser
+1d6 Fire / 20-20 x2
+Used by Mining Droid Mk I
+
+Mining Disruptor Laser
+1d6 Unstoppable / 20-20 x2
+Used by Mining Droid Mk II
+
+Unarmed
+1d4 Bludgeonining / 20-20 x2
+Used by Excavator Droid
+
+Advanced Mining Laser
+1d10 Fire / 20-20 x2
+Used by HK-50
+
+Sonic Charge
+8 Sonic
+Int/Wis/Chr -4
+4 Damage on Save (Reflex or Will, Sonic)
+DC 10
+Used by Excavator Droid
+
+Sonic Charge
+12 Sonic
+Int/Wis/Chr -4
+6 Damage on Save (Reflex or Will, Sonic)
+DC 12
+Used by Excavator Droid
+
+Burners
+12 Fire
+4 Damage on Save (Will, Fire)
+DC 10
+Used by Excavator Droid
+
+Burners Mk II
+18 Fire
+6 Damage on Save (Will, Fire)
+DC 12
+Used by Excavator Droid
+
+Fire Suppression
+12 Cold
+6 Second Paralysis
+6 Damage on Save (Fortitude, Cold)
+DC 12
+Used by Fire Suppression Droid, Fire Suppression Turret
+
+Mining Shield
+12 Fire Absorbtion
+Used by Mining Droid, Excavator Droid
+
+Mining Shield Mk II
+18 Fire Absorbtion
+Used by Mining Droid, Excavator Droid
+
+Flamethrower
+24 Fire
+3 Second Horror
+12 Damage on Save (Will, Fire)
+DC 12
+Used by Mining Droid Mk II Fire Boss
+
+Carbonite Projector
+18 Cold
+9 Second Paralyze
+9 Damage on Save (Fortitude, Cold)
+DC 12
+Used by Mining Droid Mk II Cold Boss
+
+
+Harbinger:
+
+Sith War Sword (Single)
+1d6 Slashing / 20-20 x2
+Used by Sith Assassin
+
+Sith War Sword (Poison)
+1d6 Slashing / 20-20 x2
+Poison 1/2 for 30 Seconds DC 10
+Used by Sith Assassin
+
+Sith War Sword (Double)
+1d10 Slashing / 20-20 x2
+Used by Sith Assassin
+
+
+Citadel Station:
+
+
+
+
+
+
+
+
+
+
+

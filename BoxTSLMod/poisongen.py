@@ -14,14 +14,16 @@ poisoncodes.append('BOXP_POISON_MINE_2')
 poisoncodes.append('BOXP_POISON_MINE_3')
 poisoncodes.append('BOXP_POISON_MINE_4')
 poisoncodes.append('BOXP_POISON_MINE_5')
+poisoncodes.append('BOXP_SITH_SWORD_1')
 
 itemcodes = {}
-itemcodes['wm_trad2.uti'] = 'BOXP_RODIAN_BLADE'
-itemcodes['wm_trad11.uti'] = 'BOXP_TWILEK_BLADE'
+itemcodes['wm_rodian.uti'] = 'BOXP_RODIAN_BLADE'
+itemcodes['wm_twilek1.uti'] = 'BOXP_TWILEK_BLADE'
 itemcodes['um_psn1.uti'] = 'BOXP_POISON_EDGE_1'
 itemcodes['um_psn2.uti'] = 'BOXP_POISON_EDGE_2'
 itemcodes['um_psn3.uti'] = 'BOXP_POISON_EDGE_3'
 itemcodes['um_psn4.uti'] = 'BOXP_POISON_EDGE_4'
+itemcodes['ew_sithps1.uti'] = 'BOXP_SITH_SWORD_1'
 
 
 header = 'error'

@@ -9,6 +9,9 @@ copy Items\Traps\* tslpatchdata
 copy Items\UnmodifiedNames\* tslpatchdata
 copy Items\Upgrades\* tslpatchdata
 copy Items\Weapons\* tslpatchdata
+
+copy Items\Peragus\* tslpatchdata
+
 copy Blanks\* tslpatchdata
 python armorgen.py
 python hidegen.py

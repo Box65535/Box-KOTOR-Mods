@@ -1,0 +1,87 @@
+
+Here we will document the identities of enemies we think need to be modified
+
+201TEL (Citadel Station Dock):
+
+
+201_tsf_ith - TSF ithorian guard
+201thug* - Thugs that attack you when you pick up the ithorian droid
+n_samhan - Samhan Dobo in sting operation (grenade)
+n_repoff001 - Leiutenant Grenn (cutscene or sting operation)
+n_repsold001 - Also Leiutenant Grenn ?
+n_tsfoff002 - TSF Officer, not sure what he does but has a rifle
+
+(There's a few other people I didn't find, in the sting operation from the other side you fight 2 TSF Officers and a TSF Leiutenant who I didn't find)
+(You also might be able to fight the Ithorian at the droid exchange, not sure)
+(Regardless, you do kill another ithorian)
+
+202TEL (Entertainment Module) - This is outside the cantina
+
+203_merc002 - Rifle merc, weapon unequipped
+203_merc01 - Blaster merc, weapon unequipped
+g_201thug - Masked Attacker, 001 is the duros
+n_tsfgf/gm - TSF Officers
+n_202_rem - Batu Rem assassin (dual blasters)
+n_repoff002/3 - TSF Officers
+(Benok and Co are here but I don't remember a fight with them but they have their weapons not equipped but available)
+
+203TEL (Residential East) - Next to Czerka, Exchange, Entertainment
+
+203_batono - Batono
+n_tsfoff001/2 - TSF Officers (might just be for cutscenes but have weapons)
+n_exthgd001/2/3/4 - Exchange door guard, item unequipped
+g_csd/001/002 - Czerka Security (might not fight but armed anyway, rifle + sword)
+n_rodian/trandoshan_bh - Bounty Hunters fought in exchnage deal sidequest
+merc1/2_batono - I think these are mercenaries that try to kill Batono
+gam_enforcer - Not sure what he does but he exists and is armed
+g_exthg - exchange human thug, can't remember what he does but is armed 
+
+(You can kill opo chano here but I can't find him)
+
+
+204TEL (Residential West) - Includes Ithorian compound
+
+203_merc* - Various mercenaries, check weapons
+tsf_med - TSF who attacks when you steal supplies
+merc_bguard* - Other mercenaries, not sure what these are from
+
+
+205TEL - I think this is just for a cutscene, TSF here with rifles
+
+207TEL - Cantina, don't think there are any battles here
+
+208TEL - Exchange, Almost everyone here is fightable and self-explanatory
+
+209TEL - Czerka??
+
+203_merc0* - These are the same mercs that try to attack ithorians, they attack czerka
+203_merc* - The ones without a 0 seems to be the regular mercs who don't fight
+merc_bguard - guessing these are also aggro mercs
+n_duros001 - Opo Chano? You need to replace his items anyway
+g_csd* - Czerka guards, might not be hostile
+
+211TEL - Guessing this is the Swoop
+
+220TEL - Telos Part 2, TSF vs Sith in Residential Area, These are also self-explanatory
+
+221TEL - Telos Part 2, I think this is the landing area, mostly self-explanatory
+
+222TEL - Telos Part 2, Entertainment Module, 
+
+(You should probably do Telos Part 2 stuff later since it's endgame)
+
+231TEL - Telos Surface, Probably Landing Area, Self-Explanatory
+
+232TEL - Underground Base, All one map, Mostly enemies
+
+233TEL - Czerka Base Site, 
+
+261TEL - Polar Landing Site I'm guessing, HK50s a bit confusing
+
+262TEL - Secret Academy, Self-Explanatory
+
+
+
+
+
+

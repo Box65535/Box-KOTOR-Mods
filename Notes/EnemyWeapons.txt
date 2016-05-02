@@ -103,8 +103,160 @@ Used by Sith Assassin
 
 Citadel Station:
 
+Republic Blaster Rifle
+1d10 Energy / 20-20 x2
+Used by TSF Officer etc
+
+Czerka Security Rifle
+1d10 Energy / 20-20 x2
+Used by Czerka Security
+
+Short Sword
+1d6 Slashing / 20-20 x2
+Used by Thug
+
+Hold Out Blaster
+1d4 Energy / 20-20 x2
+Used by Thug
+
+Mercenary Ion Rifle
+1d10 Ion / 20-20 x2
+Used by Mercenaries etc
+
+Mercenary Blaster Rifle
+1d10 Energy / 20-20 x2
+Used by Mercenaries etc
+
+Mercenary Backup Sword
+1d8 Slashing / 20-20 x2
+Used by Mercenaries etc
+
+Mercenary Sonic Rifle
+1d8 Sonic / 20-20 x2
+Wis -6 DC 12
+Used by Mercenaries etc
+
+Mercenary Blaster
+1d8 Energy / 20-20 x2
+Used by Mercenaries etc
+
+Mercenary Vibroblade
+1d10 Slashing / 20-20 x2
+Used by Mercenaries etc
+
+Mercenary Vibrosword
+1d12 Slashing / 20-20 x2
+Used by Mercenary Leader etc
+
+Gammorean War Axe
+1d16 Slashing / 20-20 x2
+Attack -1
+Used by Gammoreans etc
+
+Benok's Blaster
+1d10 Ion / 20-20 x2
+Str -6 DC 12
+Used by Benok
+
+Luxa's Disruptor
+1d8 Unstoppable / 20-20 x2
+Dex -6 DC 12
+Used by Luxa
+
+Slusk's Sonic Pistol
+1d8 Sonic / 20-20 x2
+Wis -6 DC 12
+Used by Slusk
+
+Exchange Stun Baton
+1d6 Piercing / 20-20 x2
+Stun 50% 2 Rounds DC 14
+Used by Exchange etc
+
+Exchange Blaster
+1d8 Energy / 20-20 x2
+Used by Exchange etc
 
 
+Telos Surface:
+
+Mercenary Repeating Blaster
+2d6 Energy / 20-20 x2
+Used by Mercenaries etc
+
+Mercenary Force Pike
+1d8 Bludgeoning / 20-20 x2
+25% Stun 2 Rounds DC 14
+Used by Mercenaries etc
+
+Mercenary Melee Shield
+Like Mandalorian Melee Shield
+Used by Mercenaries etc
+
+Mercenary Energy Shield
+Like Energy Shield
+Used by Mercenaries etc
+
+Mercenary Backup Longsword
+1d10 Slashing / 20-20 x2
+Used by Mercenaries etc
+
+Mercenary Blaster Carbine
+1d10 Energy / 20-20 x2
+Used by Mercenaries etc
+
+Disruptor Pistol
+1d8 Unstoppable / 20-20 x2
+Used by Killers etc
+
+Mercenary Disruptor Rifle
+1d10 Unstoppable
+Used by Mercenaries
+
+
+
+Underground Base:
+
+Telos Blaster Pistol
+1d8 Energy / 20-20 x2
+Used by Telos Military Droids
+
+Telos Disruptor Pistol
+1d8 Unstoppable / 20-20 x2
+Used by Telos Military Droids
+
+Telos Turret Laser
+1d10 Energy / 20-20 x2
+Used by Telos Turrets etc
+
+Telos Ion Turret Laser
+1d10 Ion / 20-20 x2
+Used by Telos Turrets etc
+
+Telos Heavy Turret Laser
+2d6 Energy / 20-20 x2
+Used by Telos Turrets etc
+
+Telos Tank Droid Blaster
+1d12 Energy / 20-20 x2
+Used by Tank Droid
+
+Various Grenades
+
+
+HK-50 Blaster Rifle
+1d12 Energy / 19-20 x2
+Used by HK-50 (Sniper)
+
+HK-50 Heavy Repeater
+3d6 Energy / 20-20 x2
+Used by HK-50 (Gunner)
+
+HK-50 Disruptor Rifle
+1d12 Unstoppable / 20-20 x2
+Used by HK-50 (Grenadier)
+
+[These HK-50 weapons might be too strong]
 
 
 

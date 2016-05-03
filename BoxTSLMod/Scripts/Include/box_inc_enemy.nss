@@ -108,7 +108,11 @@ void Box_GrantDualMastery(object oUser) {
 	GrantFeat(FEAT_ADVANCED_DOUBLE_WEAPON_FIGHTING, oUser);
 }
 
-
+void Box_GrantCloseCombat(object oUser) {
+	
+	// TODO: this
+	GrantFeat(1, oUser);
+}
 
 
 

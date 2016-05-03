@@ -3,6 +3,8 @@
 // Written by Box
 // Include file for spawning enemies (Peragus)
 
+#include "box_inc"
+
 string MINING_LASER = "ew_minels1";
 string MINING_CARBINE = "ew_minels2";
 string MINING_DISRUPTOR = "ew_mineds1";
@@ -16,9 +18,9 @@ string FIRE_SUPPRESSION = "ew_firesu1";
 string FIRE_SUPPRESSION_TURRET = "et_firesu1";
 string MINE_FLAMETHROWER = "ew_minefr";
 string MINE_CARBONITE = "ew_minecb";
-string SITH_SHORT_SWORD_1 = "ew_sithss1";
-string SITH_POISON_SWORD_1 = "ew_sithps1";
-string SITH_DOUBLE_SWORD_1 = "ew_sithds1";
+string SITH_SHORT_SWORD = "ew_sithss1";
+string SITH_POISON_SWORD = "ew_sithps1";
+string SITH_DOUBLE_SWORD = "ew_sithds1";
 string COMPONENTS = "compont_00001";
 
 void Box_MiningDroid(object oEnemy) {
@@ -130,16 +132,16 @@ void Box_SithAssassin(object oEnemy) {
 	// Variety would be good so let's use randomness to have 3 types of assassins
 	int random = Random(4)
 	if (random == 0) {
-		ActionEquipItem(CreateItemOnObject(SITH_POISON_SWORD_1, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+		ActionEquipItem(CreateItemOnObject(SITH_POISON_SWORD, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
 	}
 	else if (random == 1) {
 		Box_GrantDualWield(oEnemy);
-		ActionEquipItem(CreateItemOnObject(SITH_POISON_SWORD_1, oEnemy), INVENTORY_SLOT_LEFTWEAPON, TRUE);
-		ActionEquipItem(CreateItemOnObject(SITH_SHORT_SWORD_1, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+		ActionEquipItem(CreateItemOnObject(SITH_POISON_SWORD, oEnemy), INVENTORY_SLOT_LEFTWEAPON, TRUE);
+		ActionEquipItem(CreateItemOnObject(SITH_SHORT_SWORD, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
 	}
 	else {
 		Box_GrantDualWield(oEnemy);
-		ActionEquipItem(CreateItemOnObject(SITH_DOUBLE_SWORD_1, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+		ActionEquipItem(CreateItemOnObject(SITH_DOUBLE_SWORD, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
 	}
 	
 	effect eUncloak = EffectVisualEffect(8001);

@@ -304,34 +304,271 @@ max_level = 16
 
 hides = []
 
+
 # Expert Droid (Weak)
 for i in range(1, max_level):
-	hides.append(Hide('eh_exdrwk' + str(i), attack_medium(i), defense_medium(i), save_low(i), save_low(i), save_medium(i),
-	0, 0, droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+	hides.append(Hide('eh_exdrwk' + str(i), attack_medium(i), defense_medium(i),
+	save_low(i)+savbon_nl, save_low(i), save_low(i)+2, 0, 0, 
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
 # Expert Droid (Regular)
 for i in range(1, max_level):
-	hides.append(Hide('eh_exdrrg' + str(i), attack_medium(i), defense_medium(i), save_medium(i), save_medium(i), save_medium(i),
-	0, 0, droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+	hides.append(Hide('eh_exdrrg' + str(i), attack_medium(i), defense_medium(i),
+	save_medium(i), save_medium(i), save_medium(i)+2, 0, 0, 
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Expert Droid (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_exdrsr' + str(i), attack_medium(i)+2, defense_high(i),
+	save_medium(i)+2, save_medium(i)+2, save_high(i)+4, 0, 0, 
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Expert Droid (Boss)
+for i in range(1, max_level):
+	hides.append(Hide('eh_exdrbs' + str(i), attack_medium(i)+3, defense_high(i),
+	save_high(i)+2, save_high(i)+2, save_high(i)+4, 0, 0, 
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
 
+
+# Combat Droid (Weak)
+for i in range(1, max_level):
+	hides.append(Hide('eh_cmdrwk' + str(i), attack_medium(i), defense_medium(i),
+	save_low(i)+2, save_low(i), save_low(i), 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
 # Combat Droid (Regular)
 for i in range(1, max_level):
-	hides.append(Hide('eh_cmdrrg' + str(i), attack_high(i), defense_medium(i), save_medium(i), save_medium(i), save_medium(i),
-	0, 0, droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+	hides.append(Hide('eh_cmdrrg' + str(i), attack_high(i), defense_medium(i),
+	save_medium(i)+2, save_medium(i), save_medium(i), 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Combat Droid (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_cmdrsr' + str(i), attack_high(i)+2, defense_medium(i),
+	save_high(i)+4, save_medium(i)+2, save_medium(i)+2, 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Combat Droid (Boss)
+for i in range(1, max_level):
+	hides.append(Hide('eh_cmdrbs' + str(i), attack_high(i)+3, defense_medium(i),
+	save_high(i)+4, save_high(i)+2, save_high(i)+2, 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
 
+
+# HK-50 (Weak)
+for i in range(1, max_level):
+	hides.append(Hide('eh_hk50wk' + str(i), attack_medium(i), defense_medium(i),
+	save_low(i)+1, save_low(i)+1, save_low(i)+1, 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# HK-50 (Regular)
+for i in range(1, max_level):
+	hides.append(Hide('eh_hk50rg' + str(i), attack_high(i), defense_medium(i),
+	save_medium(i)+1, save_medium(i)+1, save_medium(i)+1, 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# HK-50 (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_hk50sr' + str(i), attack_high(i)+2, defense_medium(i),
+	save_high(i)+3, save_high(i)+3, save_high(i)+3, 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
 # HK-50 (Boss)
 for i in range(1, max_level):
-	hides.append(Hide('eh_hk50bs' + str(i), attack_high(i), defense_high(i), save_high(i), save_high(i), save_high(i),
-	0, 0, droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+	hides.append(Hide('eh_hk50bs' + str(i), attack_high(i)+3, defense_high(i),
+	save_high(i)+3, save_high(i)+3, save_high(i)+3, 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
 
+
+# Turret (Weak)
+for i in range(1, max_level):
+	hides.append(Hide('eh_turrwk' + str(i), attack_medium(i), 0,
+	save_low(i)+2, 0, 0, 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
 # Turret (Regular)
 for i in range(1, max_level):
-	hides.append(Hide('eh_turrrg' + str(i), attack_high(i), defense_medium(i), save_high(i), save_low(i), save_low(i),
-	0, 0, droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+	hides.append(Hide('eh_turrrg' + str(i), attack_high(i), 0,
+	save_medium(i)+2, 0, 0, 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Turret (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_turrsr' + str(i), attack_high(i)+2, 0,
+	save_high(i)+4, 0, 0, 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Turret (Boss)
+for i in range(1, max_level):
+	hides.append(Hide('eh_turrbs' + str(i), attack_high(i)+5, 0,
+	save_high(i)+7, 0, 0, 0, 0,
+	droid_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
 
+
+# Sith Assassin (Weak)
+for i in range(1, max_level):
+	hides.append(Hide('eh_sasswk' + str(i), attack_medium(i), defense_medium(i),
+	save_low(i), save_low(i)+2, save_low(i)+1, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
 # Sith Assassin (Regular)
 for i in range(1, max_level):
-	hides.append(Hide('eh_sassrg' + str(i), attack_medium(i), defense_medium(i), save_medium(i), save_high(i), save_medium(i),
-	0, 0, blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+	hides.append(Hide('eh_sassrg' + str(i), attack_medium(i), defense_high(i),
+	save_medium(i), save_medium(i)+2, save_medium(i)+1, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Sith Assassin (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_sasssr' + str(i), attack_medium(i)+2, defense_high(i),
+	save_medium(i), save_high(i)+4, save_high(i)+3, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Sith Assassin (Boss)
+for i in range(1, max_level):
+	hides.append(Hide('eh_sassbs' + str(i), attack_high(i)+3, defense_high(i),
+	save_high(i)+2, save_high(i)+4, save_high(i)+3, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+
+
+# Thug (Weak)
+for i in range(1, max_level):
+	hides.append(Hide('eh_thugwk' + str(i), attack_medium(i), defense_medium(i),
+	save_low(i), save_low(i), save_low(i), 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Thug (Regular)
+for i in range(1, max_level):
+	hides.append(Hide('eh_thugrg' + str(i), attack_medium(i), defense_medium(i),
+	save_medium(i), save_medium(i), save_medium(i), 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Thug (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_thugsr' + str(i), attack_high(i)+2, defense_medium(i),
+	save_medium(i)+2, save_medium(i)+2, save_medium(i)+2, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Thug (Boss)
+for i in range(1, max_level):
+	hides.append(Hide('eh_thugbs' + str(i), attack_high(i)+3, defense_medium(i),
+	save_high(i)+3, save_high(i)+3, save_high(i)+2, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+
+
+# Mercenary (Weak)
+for i in range(1, max_level):
+	hides.append(Hide('eh_mercwk' + str(i), attack_medium(i), defense_medium(i),
+	save_low(i)+2, save_low(i), save_low(i), 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Mercenary (Regular)
+for i in range(1, max_level):
+	hides.append(Hide('eh_mercrg' + str(i), attack_high(i), defense_medium(i),
+	save_medium(i)+2, save_medium(i), save_medium(i), 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Mercenary (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_mercsr' + str(i), attack_high(i)+2, defense_medium(i),
+	save_high(i)+4, save_medium(i)+2, save_medium(i)+2, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Mercenary (Boss)
+for i in range(1, max_level):
+	hides.append(Hide('eh_mercbs' + str(i), attack_high(i)+3, defense_medium(i),
+	save_high(i)+4, save_high(i)+2, save_high(i)+2, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+
+
+# Tech Spec (Weak)
+for i in range(1, max_level):
+	hides.append(Hide('eh_tspcwk' + str(i), attack_medium(i), defense_medium(i),
+	save_low(i)+savbon_nl, save_low(i), save_low(i)+2, 0, 0, 
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Tech Spec (Regular)
+for i in range(1, max_level):
+	hides.append(Hide('eh_tspcrg' + str(i), attack_medium(i), defense_medium(i),
+	save_medium(i), save_medium(i), save_medium(i)+2, 0, 0, 
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Tech Spec (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_tspcsr' + str(i), attack_medium(i)+2, defense_high(i),
+	save_medium(i)+2, save_medium(i)+2, save_high(i)+4, 0, 0, 
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Tech Spec (Boss)
+for i in range(1, max_level):
+	hides.append(Hide('eh_tspcbs' + str(i), attack_medium(i)+3, defense_high(i),
+	save_high(i)+2, save_high(i)+2, save_high(i)+4, 0, 0, 
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+
+
+# Republic (Weak)
+for i in range(1, max_level):
+	hides.append(Hide('eh_repbwk' + str(i), attack_medium(i), defense_medium(i),
+	save_low(i)+2, save_low(i), save_low(i)+1, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Republic (Regular)
+for i in range(1, max_level):
+	hides.append(Hide('eh_repbrg' + str(i), attack_high(i), defense_medium(i),
+	save_medium(i)+2, save_medium(i), save_medium(i)+1, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Republic (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_repbsr' + str(i), attack_high(i)+2, defense_medium(i),
+	save_high(i)+4, save_medium(i)+2, save_high(i)+3, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Republic (Boss)
+for i in range(1, max_level):
+	hides.append(Hide('eh_repbbs' + str(i), attack_high(i)+3, defense_medium(i),
+	save_high(i)+4, save_high(i)+2, save_high(i)+3, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+
+
+# Sith (Weak)
+for i in range(1, max_level):
+	hides.append(Hide('eh_sithwk' + str(i), attack_medium(i), defense_medium(i),
+	save_low(i)+2, save_low(i)+1, save_low(i), 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Sith (Regular)
+for i in range(1, max_level):
+	hides.append(Hide('eh_sithrg' + str(i), attack_high(i), defense_medium(i),
+	save_medium(i)+2, save_medium(i)+1, save_medium(i), 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Sith (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_sithsr' + str(i), attack_high(i)+2, defense_medium(i),
+	save_high(i)+4, save_high(i)+3, save_medium(i)+2, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Sith (Boss)
+for i in range(1, max_level):
+	hides.append(Hide('eh_sithbs' + str(i), attack_high(i)+3, defense_medium(i),
+	save_high(i)+4, save_high(i)+3, save_high(i)+2, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+
+
+# Mandalorian (Weak)
+for i in range(1, max_level):
+	hides.append(Hide('eh_mandwk' + str(i), attack_medium(i), defense_medium(i),
+	save_low(i)+2, save_low(i)+1, save_low(i)+1, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Mandalorian (Regular)
+for i in range(1, max_level):
+	hides.append(Hide('eh_mandrg' + str(i), attack_high(i), defense_medium(i),
+	save_medium(i)+2, save_medium(i)+1, save_medium(i)+1, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Mandalorian (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_mandsr' + str(i), attack_high(i)+2, defense_medium(i),
+	save_high(i)+4, save_high(i)+3, save_high(i)+3, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Mandalorian (Boss)
+for i in range(1, max_level):
+	hides.append(Hide('eh_mandbs' + str(i), attack_high(i)+3, defense_medium(i),
+	save_high(i)+4, save_high(i)+3, save_high(i)+3, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+
+
+# Onderon (Weak)
+for i in range(1, max_level):
+	hides.append(Hide('eh_ondewk' + str(i), attack_medium(i), defense_medium(i),
+	save_low(i)+2, save_low(i), save_low(i)+1, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Onderon (Regular)
+for i in range(1, max_level):
+	hides.append(Hide('eh_onderg' + str(i), attack_high(i), defense_medium(i),
+	save_medium(i)+2, save_medium(i), save_medium(i)+1, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Onderon (Strong)
+for i in range(1, max_level):
+	hides.append(Hide('eh_ondesr' + str(i), attack_high(i)+2, defense_medium(i),
+	save_high(i)+4, save_medium(i)+2, save_high(i)+3, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+# Onderon (Boss)
+for i in range(1, max_level):
+	hides.append(Hide('eh_ondebs' + str(i), attack_high(i)+3, defense_medium(i),
+	save_high(i)+4, save_high(i)+2, save_high(i)+3, 0, 0,
+	blank_immunities, blank_feats, blank_skill_bonuses, blank_immunity_bonuses, blank_save_bonuses))
+
+
 
 
 with open('tslpatchdata\\hides.ini', 'w') as file:

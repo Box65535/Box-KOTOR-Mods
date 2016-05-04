@@ -140,48 +140,48 @@ modify_spells.append(Script(281, 'box_plasmacannon3'))
 
 
 
-new_spells = list()
+neq_spells = list()
 
-# new_spells.append(Spell(None, 'FLAMETHROWER', 3, '0x8000', 'M', 'box_flamethrower', '****', False, None, None, None, True, '0x00'))
-# new_spells.append(Spell(None, 'ION_BLASTER', 3, '0x8000', 'M', 'box_ionblaster', 'cb_sh_pwrblast1', True, 'w_lfire_pb_b1', 'homing', 'target', True, '0x00'))
-# new_spells.append(Spell(None, 'STUN_RAY', 3, '0x8000', 'M', 'box_stunray', '****', False, None, None, None, True, '0x00'))
-# new_spells.append(Spell(None, 'SHOCK_ARM', 3, '0x8000', 'M', 'box_shockarm', '****', False, None, None, None, True, '0x00'))
-# new_spells.append(Spell(None, 'CARBONITE_PROJECTOR', 6, '0x8000', 'M', 'box_carbonite', '****', False, None, None, None, True, '0x00'))
-# new_spells.append(Spell(None, 'PLASMA_CANNON', 6, '0x8000', 'M', 'box_plasmacannon', '****', False, None, None, None, True, '0x00'))
-# new_spells.append(Spell(None, 'SONIC_REPULSOR', 6, '0x8000', 'M', 'box_sonicrepulsor', '****', False, None, None, None, True, '0x00'))
-# new_spells.append(Spell(None, 'DROID_HACKER', 6, '0x8000', 'M', 'box_droidhacker', '****', False, None, None, None, True, '0x00'))
-# new_spells.append(Spell(None, 'SHIELD_DISRUPTOR', 9, '0x8000', 'M', 'box_shielddisrupt', 'cb_sh_pwrblast2', True, 'w_lfire_pb_s1', 'homing', 'target', True, '0x00'))
-# new_spells.append(Spell(None, 'ION_CANNON', 9, '0x8000', 'M', 'box_ioncannon', 'cb_sh_pwrblast1', True, 'w_lfire_pb_b1', 'homing', 'target', True, '0x00'))
-# new_spells.append(Spell(None, 'PLASMA_FLAMETHROWER', 9, '0x8000', 'M', 'box_plasmaflame', '****', False, None, None, None, True, '0x00'))
-# new_spells.append(Spell(None, 'GRAVITY_GENERATOR', 9, '0x8000', 'M', 'box_gravitygen', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'FLAMETHROWER', 3, '0x8000', 'M', 'box_flamethrower', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'ION_BLASTER', 3, '0x8000', 'M', 'box_ionblaster', 'cb_sh_pwrblast1', True, 'w_lfire_pb_b1', 'homing', 'target', True, '0x00'))
+# neq_spells.append(Spell(None, 'STUN_RAY', 3, '0x8000', 'M', 'box_stunray', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'SHOCK_ARM', 3, '0x8000', 'M', 'box_shockarm', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'CARBONITE_PROJECTOR', 6, '0x8000', 'M', 'box_carbonite', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'PLASMA_CANNON', 6, '0x8000', 'M', 'box_plasmacannon', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'SONIC_REPULSOR', 6, '0x8000', 'M', 'box_sonicrepulsor', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'DROID_HACKER', 6, '0x8000', 'M', 'box_droidhacker', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'SHIELD_DISRUPTOR', 9, '0x8000', 'M', 'box_shielddisrupt', 'cb_sh_pwrblast2', True, 'w_lfire_pb_s1', 'homing', 'target', True, '0x00'))
+# neq_spells.append(Spell(None, 'ION_CANNON', 9, '0x8000', 'M', 'box_ioncannon', 'cb_sh_pwrblast1', True, 'w_lfire_pb_b1', 'homing', 'target', True, '0x00'))
+# neq_spells.append(Spell(None, 'PLASMA_FLAMETHROWER', 9, '0x8000', 'M', 'box_plasmaflame', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'GRAVITY_GENERATOR', 9, '0x8000', 'M', 'box_gravitygen', '****', False, None, None, None, True, '0x00'))
 
-# new_spells.append(Spell(None, 'GRENADE_LAUNCHER', 3, '0x8000', 'L', 'box_fraggrenade', '****', True, 'w_FragGren_001', 'ballistic', '****', True, '0x00'))
-# new_spells.append(Spell(None, 'STUN_GRENADE_LAUNCHER', 3, '0x8000', 'L', 'box_stungrenade', '****', True, 'w_StunGren_001', 'ballistic', '****', True, '0x00'))
-# new_spells.append(Spell(None, 'GRAPPLING_HOOK', 3, '0x8000', 'L', 'box_grapplinghook', '****', False, None, None, None, True, '0x00'))
-# new_spells.append(Spell(None, 'POISON_DART_GUN', 3, '0x8000', 'M', 'box_poisondart', '****', True, 'W_rokdart', 'homing', 'target', True, '0x00'))
-# new_spells.append(Spell(None, 'ROCKET_LAUNCHER', 6, '0x8000', 'L', 'box_explorocket', '****', True, 'W_rokpierce', 'accelerating', 'target', True, '0x00'))
-# new_spells.append(Spell(None, 'GAS_GRENADE_LAUNCHER', 6, '0x8000', 'L', 'box_gasgrenade', '****', True, 'w_PoisnGren_001', 'ballistic', '****', True, '0x00'))
-# new_spells.append(Spell(None, 'SONIC_CHARGE_LAUNCHER', 6, '0x8000', 'L', 'box_soniccharge', '****', True, 'w_SonicGren_001', 'ballistic', '****', True, '0x00'))
-# new_spells.append(Spell(None, 'PLASMA_GRENADE_LAUNCHER', 6, '0x8000', 'L', 'box_plasmagrenade', '****', True, 'w_FireGren_001', 'ballistic', '****', True, '0x00'))
-# new_spells.append(Spell(None, 'RADIATION_ROCKET_LAUNCHER', 9, '0x8000', 'L', 'box_radrocket', '****', True, 'W_rokplasma', 'accelerating', 'target', True, '0x00'))
-# new_spells.append(Spell(None, 'ANTI_ARMOR_GUN', 9, '0x8000', 'M', 'box_antiarmor', '****', True, 'W_rokdart', 'homing', 'target', True, '0x00'))
-# new_spells.append(Spell(None, 'THERMAL_DETONATOR_LAUNCHER', 9, '0x8000', 'L', 'box_thermaldet', '****', True, 'w_ThermDet_001', 'ballistic', '****', True, '0x00'))
-# new_spells.append(Spell(None, 'INCENDIARY_ROCKET_LAUNCHER', 9, '0x8000', 'L', 'box_firerocket', '****', True, 'W_rokplasma', 'accelerating', 'target', True, '0x00'))
+# neq_spells.append(Spell(None, 'GRENADE_LAUNCHER', 3, '0x8000', 'L', 'box_fraggrenade', '****', True, 'w_FragGren_001', 'ballistic', '****', True, '0x00'))
+# neq_spells.append(Spell(None, 'STUN_GRENADE_LAUNCHER', 3, '0x8000', 'L', 'box_stungrenade', '****', True, 'w_StunGren_001', 'ballistic', '****', True, '0x00'))
+# neq_spells.append(Spell(None, 'GRAPPLING_HOOK', 3, '0x8000', 'L', 'box_grapplinghook', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'POISON_DART_GUN', 3, '0x8000', 'M', 'box_poisondart', '****', True, 'W_rokdart', 'homing', 'target', True, '0x00'))
+# neq_spells.append(Spell(None, 'ROCKET_LAUNCHER', 6, '0x8000', 'L', 'box_explorocket', '****', True, 'W_rokpierce', 'accelerating', 'target', True, '0x00'))
+# neq_spells.append(Spell(None, 'GAS_GRENADE_LAUNCHER', 6, '0x8000', 'L', 'box_gasgrenade', '****', True, 'w_PoisnGren_001', 'ballistic', '****', True, '0x00'))
+# neq_spells.append(Spell(None, 'SONIC_CHARGE_LAUNCHER', 6, '0x8000', 'L', 'box_soniccharge', '****', True, 'w_SonicGren_001', 'ballistic', '****', True, '0x00'))
+# neq_spells.append(Spell(None, 'PLASMA_GRENADE_LAUNCHER', 6, '0x8000', 'L', 'box_plasmagrenade', '****', True, 'w_FireGren_001', 'ballistic', '****', True, '0x00'))
+# neq_spells.append(Spell(None, 'RADIATION_ROCKET_LAUNCHER', 9, '0x8000', 'L', 'box_radrocket', '****', True, 'W_rokplasma', 'accelerating', 'target', True, '0x00'))
+# neq_spells.append(Spell(None, 'ANTI_ARMOR_GUN', 9, '0x8000', 'M', 'box_antiarmor', '****', True, 'W_rokdart', 'homing', 'target', True, '0x00'))
+# neq_spells.append(Spell(None, 'THERMAL_DETONATOR_LAUNCHER', 9, '0x8000', 'L', 'box_thermaldet', '****', True, 'w_ThermDet_001', 'ballistic', '****', True, '0x00'))
+# neq_spells.append(Spell(None, 'INCENDIARY_ROCKET_LAUNCHER', 9, '0x8000', 'L', 'box_firerocket', '****', True, 'W_rokplasma', 'accelerating', 'target', True, '0x00'))
 
 
 # TODO - might need to do something to make the grenade animations work
-new_spells.append(Spell(None, 'FRAG_GRENADE', 3, '0x8000', 'L', 'box_fraggrenade', '****', True, 'w_FragGren_001', 'throw', '****', True, '0x00'))
-new_spells.append(Spell(None, 'STUN_GRENADE', 3, '0x8000', 'L', 'box_stungrenade', '****', True, 'w_StunGren_001', 'throw', '****', True, '0x00'))
-new_spells.append(Spell(None, 'ION_GRENADE', 3, '0x8000', 'L', 'box_iongrenade', '****', True, 'w_IonGren_001', 'throw', '****', True, '0x00'))
-new_spells.append(Spell(None, 'SONIC_GRENADE', 3, '0x8000', 'L', 'box_sonicgrenade', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
-new_spells.append(Spell(None, 'PLASMA_GRENADE', 3, '0x8000', 'L', 'box_plasmagrenade', '****', True, 'w_FireGren_001', 'throw', '****', True, '0x00'))
-new_spells.append(Spell(None, 'COLD_GRENADE', 3, '0x8000', 'L', 'box_coldgrenade', '****', True, 'w_CryobGren_001', 'throw', '****', True, '0x00'))
-new_spells.append(Spell(None, 'THERMAL_DETONATOR', 9, '0x8000', 'L', 'box_thermaldet', '****', True, 'w_ThermDet_001', 'throw', '****', True, '0x00'))
+neq_spells.append(Spell(None, 'FRAG_GRENADE', 3, '0x8000', 'L', 'box_fraggrenade', '****', True, 'w_FragGren_001', 'throw', '****', True, '0x00'))
+neq_spells.append(Spell(None, 'STUN_GRENADE', 3, '0x8000', 'L', 'box_stungrenade', '****', True, 'w_StunGren_001', 'throw', '****', True, '0x00'))
+neq_spells.append(Spell(None, 'ION_GRENADE', 3, '0x8000', 'L', 'box_iongrenade', '****', True, 'w_IonGren_001', 'throw', '****', True, '0x00'))
+neq_spells.append(Spell(None, 'SONIC_GRENADE', 3, '0x8000', 'L', 'box_sonicgrenade', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
+neq_spells.append(Spell(None, 'PLASMA_GRENADE', 3, '0x8000', 'L', 'box_plasmagrenade', '****', True, 'w_FireGren_001', 'throw', '****', True, '0x00'))
+neq_spells.append(Spell(None, 'COLD_GRENADE', 3, '0x8000', 'L', 'box_coldgrenade', '****', True, 'w_CryobGren_001', 'throw', '****', True, '0x00'))
+neq_spells.append(Spell(None, 'THERMAL_DETONATOR', 9, '0x8000', 'L', 'box_thermaldet', '****', True, 'w_ThermDet_001', 'throw', '****', True, '0x00'))
 
-# new_spells.append(Spell(None, 'WEAK_SONIC_GRENADE', 3, '0x8000', 'L', 'box_weaksonicgrenade', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
-# new_spells.append(Spell(None, 'WEAK_BURNERS', 3, '0x8000', 'M', 'box_weakburners', '****', False, None, None, None, True, '0x00'))
-# new_spells.append(Spell(None, 'BURNERS', 3, '0x8000', 'M', 'box_burners', '****', False, None, None, None, True, '0x00'))
-# new_spells.append(Spell(None, 'FIRE_SUPPRESSION', 3, '0x8000', 'M', 'box_firesuppression', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'WEAK_SONIC_GRENADE', 3, '0x8000', 'L', 'box_weaksonicgrenade', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
+# neq_spells.append(Spell(None, 'WEAK_BURNERS', 3, '0x8000', 'M', 'box_weakburners', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'BURNERS', 3, '0x8000', 'M', 'box_burners', '****', False, None, None, None, True, '0x00'))
+# neq_spells.append(Spell(None, 'FIRE_SUPPRESSION', 3, '0x8000', 'M', 'box_firesuppression', '****', False, None, None, None, True, '0x00'))
 
 # TODO - Auxilary Weapons
 
@@ -190,52 +190,52 @@ new_spells.append(Spell(None, 'THERMAL_DETONATOR', 9, '0x8000', 'L', 'box_therma
 
 
 
-new_spells.append(Spell(None, 'MINING_SHIELD', 3, '0x1808', 'T', 'box_miningshield', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'ENERGY_SHIELD', 3, '0x1808', 'T', 'box_energyshield', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'ENVIRONMENT_SHIELD', 3, '0x1808', 'T', 'box_environshield', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'SITH_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_sithshield', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'MANDALORIAN_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_mandshield', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'ECHANI_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_echanishield', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'BAODUR_ENERGY_SHIELD', 9, '0x1808', 'T', 'box_zabrakshield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'MINING_SHIELD', 3, '0x1808', 'T', 'box_miningshield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'ENERGY_SHIELD', 3, '0x1808', 'T', 'box_energyshield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'ENVIRONMENT_SHIELD', 3, '0x1808', 'T', 'box_environshield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'SITH_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_sithshield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'MANDALORIAN_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_mandshield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'ECHANI_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_echanishield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'BAODUR_ENERGY_SHIELD', 9, '0x1808', 'T', 'box_zabrakshield', '****', False, None, None, None, False, '0x00'))
 
-new_spells.append(Spell(None, 'DROID_ENERGY_SHIELD', 3, '0x1808', 'T', 'box_droidshield', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'DROID_ENVIRONMENT_SHIELD', 3, '0x1808', 'T', 'box_drdenvshield', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'RADIANT_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_radiantshield', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'ADVANCED_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_advancedshield', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'UNIVERSAL_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_universalshield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'DROID_ENERGY_SHIELD', 3, '0x1808', 'T', 'box_droidshield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'DROID_ENVIRONMENT_SHIELD', 3, '0x1808', 'T', 'box_drdenvshield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'RADIANT_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_radiantshield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'ADVANCED_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_advancedshield', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'UNIVERSAL_ENERGY_SHIELD', 6, '0x1808', 'T', 'box_universalshield', '****', False, None, None, None, False, '0x00'))
 
-new_spells.append(Spell(None, 'STRENGTH_ADRENALINE', 3, '0x1808', 'T', 'box_stradren', 'gui_inject', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'DEXTERITY_ADRENALINE', 3, '0x1808', 'T', 'box_dexadren', 'gui_inject', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'CONSTITUTION_ADRENALINE', 3, '0x1808', 'T', 'box_conadren', 'gui_inject', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'STRENGTH_STIMULANT', 3, '0x1808', 'T', 'box_strstim', 'gui_inject', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'DEXTERITY_STIMULANT', 3, '0x1808', 'T', 'box_dexstim', 'gui_inject', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'CONSTITUTION_STIMULANT', 3, '0x1808', 'T', 'box_constim', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'STRENGTH_ADRENALINE', 3, '0x1808', 'T', 'box_stradren', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'DEXTERITY_ADRENALINE', 3, '0x1808', 'T', 'box_dexadren', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'CONSTITUTION_ADRENALINE', 3, '0x1808', 'T', 'box_conadren', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'STRENGTH_STIMULANT', 3, '0x1808', 'T', 'box_strstim', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'DEXTERITY_STIMULANT', 3, '0x1808', 'T', 'box_dexstim', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'CONSTITUTION_STIMULANT', 3, '0x1808', 'T', 'box_constim', 'gui_inject', False, None, None, None, False, '0x00'))
 
 
-new_spells.append(Spell(None, 'REPAIR_KIT_1', 3, '0x1404', 'T', 'box_repairkit1', 'gui_upgrade', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'REPAIR_KIT_2', 6, '0x1404', 'T', 'box_repairkit2', 'gui_upgrade', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'REPAIR_KIT_3', 9, '0x1404', 'T', 'box_repairkit3', 'gui_upgrade', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'QUICK_FIX_KIT_1', 6, '0x1404', 'T', 'box_quickkit1', 'gui_upgrade', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'QUICK_FIX_KIT_2', 9, '0x1404', 'T', 'box_quickkit2', 'gui_upgrade', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'REPAIR_KIT_1', 3, '0x1404', 'T', 'box_repairkit1', 'gui_upgrade', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'REPAIR_KIT_2', 6, '0x1404', 'T', 'box_repairkit2', 'gui_upgrade', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'REPAIR_KIT_3', 9, '0x1404', 'T', 'box_repairkit3', 'gui_upgrade', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'QUICK_FIX_KIT_1', 6, '0x1404', 'T', 'box_quickkit1', 'gui_upgrade', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'QUICK_FIX_KIT_2', 9, '0x1404', 'T', 'box_quickkit2', 'gui_upgrade', False, None, None, None, False, '0x00'))
 
-new_spells.append(Spell(None, 'MEDPAC_1', 3, '0x1408', 'T', 'box_medpac1', 'gui_inject', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'MEDPAC_2', 6, '0x1408', 'T', 'box_medpac2', 'gui_inject', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'MEDPAC_3', 9, '0x1408', 'T', 'box_medpac3', 'gui_inject', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'ANTIDOTE_PACK', 3, '0x1408', 'T', 'box_antidote', 'gui_inject', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'LIFE_SUPPORT_PACK_1', 6, '0x1408', 'T', 'box_lifesupport1', 'gui_inject', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'LIFE_SUPPORT_PACK_2', 9, '0x1408', 'T', 'box_lifesupport2', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'MEDPAC_1', 3, '0x1408', 'T', 'box_medpac1', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'MEDPAC_2', 6, '0x1408', 'T', 'box_medpac2', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'MEDPAC_3', 9, '0x1408', 'T', 'box_medpac3', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'ANTIDOTE_PACK', 3, '0x1408', 'T', 'box_antidote', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'LIFE_SUPPORT_PACK_1', 6, '0x1408', 'T', 'box_lifesupport1', 'gui_inject', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'LIFE_SUPPORT_PACK_2', 9, '0x1408', 'T', 'box_lifesupport2', 'gui_inject', False, None, None, None, False, '0x00'))
 
 
 # Enemy Spells
-new_spells.append(Spell(None, 'SONIC_CHARGE', 3, '0x8000', 'L', 'box_soniccharge1', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
-new_spells.append(Spell(None, 'SONIC_CHARGE_2', 3, '0x8000', 'L', 'box_soniccharge2', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
-new_spells.append(Spell(None, 'BURNERS', 3, '0x8000', 'M', 'box_burners1', '****', False, None, None, None, True, '0x00'))
-new_spells.append(Spell(None, 'BURNERS_2', 3, '0x8000', 'M', 'box_burners2', '****', False, None, None, None, True, '0x00'))
-new_spells.append(Spell(None, 'FIRE_SUPPRESSION', 3, '0x8000', 'M', 'box_firesuppression', '****', False, None, None, None, True, '0x00'))
-new_spells.append(Spell(None, 'ENEMY_MINING_SHIELD', 3, '0x1808', 'T', 'box_enemymineshield1', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'ENEMY_MINING_SHIELD_2', 3, '0x1808', 'T', 'box_enemymineshield2', '****', False, None, None, None, False, '0x00'))
-new_spells.append(Spell(None, 'MINE_FLAMETHROWER', 3, '0x8000', 'M', 'box_mineflamethrower', '****', False, None, None, None, True, '0x00'))
-new_spells.append(Spell(None, 'MINE_CARBONITE', 3, '0x8000', 'M', 'box_minecarbonite', '****', False, None, None, None, True, '0x00'))
+neq_spells.append(Spell(None, 'SONIC_CHARGE', 3, '0x8000', 'L', 'box_soniccharge1', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
+neq_spells.append(Spell(None, 'SONIC_CHARGE_2', 3, '0x8000', 'L', 'box_soniccharge2', '****', True, 'w_SonicGren_001', 'throw', '****', True, '0x00'))
+neq_spells.append(Spell(None, 'BURNERS', 3, '0x8000', 'M', 'box_burners1', '****', False, None, None, None, True, '0x00'))
+neq_spells.append(Spell(None, 'BURNERS_2', 3, '0x8000', 'M', 'box_burners2', '****', False, None, None, None, True, '0x00'))
+neq_spells.append(Spell(None, 'FIRE_SUPPRESSION', 3, '0x8000', 'M', 'box_firesuppression', '****', False, None, None, None, True, '0x00'))
+neq_spells.append(Spell(None, 'ENEMY_MINING_SHIELD', 3, '0x1808', 'T', 'box_enemymineshield1', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'ENEMY_MINING_SHIELD_2', 3, '0x1808', 'T', 'box_enemymineshield2', '****', False, None, None, None, False, '0x00'))
+neq_spells.append(Spell(None, 'MINE_FLAMETHROWER', 3, '0x8000', 'M', 'box_mineflamethrower', '****', False, None, None, None, True, '0x00'))
+neq_spells.append(Spell(None, 'MINE_CARBONITE', 3, '0x8000', 'M', 'box_minecarbonite', '****', False, None, None, None, True, '0x00'))
 
 
 items = list()
@@ -293,16 +293,18 @@ items.append(Item('dh_quick2', 'QUICK_FIX_KIT_2'))
 
 # Enemy Spells
 
-items.append(Item('ew_soncdt1', 'SONIC_CHARGE'))
-items.append(Item('ew_soncdt2', 'SONIC_CHARGE_2'))
-items.append(Item('ew_burn1', 'BURNERS'))
-items.append(Item('ew_burn2', 'BURNERS_2'))
-items.append(Item('ew_firesu1', 'FIRE_SUPPRESSION'))
+items.append(Item('eq_soncdt1', 'SONIC_CHARGE'))
+items.append(Item('eq_soncdt2', 'SONIC_CHARGE_2'))
+items.append(Item('eq_burn1', 'BURNERS'))
+items.append(Item('eq_burn2', 'BURNERS_2'))
+items.append(Item('eq_firesu1', 'FIRE_SUPPRESSION'))
 items.append(Item('et_firesu1', 'FIRE_SUPPRESSION'))
-items.append(Item('es_minesh1', 'ENEMY_MINING_SHIELD'))
-items.append(Item('es_minesh2', 'ENEMY_MINING_SHIELD_2'))
-items.append(Item('ew_minefr', 'MINE_FLAMETHROWER'))
-items.append(Item('ew_minecb', 'MINE_CARBONITE'))
+items.append(Item('eq_minesh1', 'ENEMY_MINING_SHIELD'))
+items.append(Item('eq_minesh2', 'ENEMY_MINING_SHIELD_2'))
+items.append(Item('eq_minefr', 'MINE_FLAMETHROWER'))
+items.append(Item('eq_minecb', 'MINE_CARBONITE'))
+
+items.append(Item('', ''))
 
 
 header = ''
@@ -326,8 +328,8 @@ with open('temp.ini', 'w') as file:
 	for i in range(0, len(modify_spells)):
 		file.write('ChangeRow' + str(i) + '=modify_row_' + str(modify_spells[i].row) + '\n')
 	
-	for i in range(0, len(new_spells)):
-		file.write('AddRow' + str(i) + '=' + new_spells[i].name.lower() + '\n')
+	for i in range(0, len(neq_spells)):
+		file.write('AddRow' + str(i) + '=' + neq_spells[i].name.lower() + '\n')
 	
 	for spell in modify_spells:
 		file.write('[modify_row_' + str(modify_spells[i].row) + ']\n')
@@ -335,7 +337,7 @@ with open('temp.ini', 'w') as file:
 		file.write('impactscript=' + str(spell.script) + '\n')
 	
 	mem_index = 1
-	for spell in new_spells:
+	for spell in neq_spells:
 		file.write('[' + spell.name.lower() + ']\n')
 		file.write('label=BOX_ITEM_' + spell.name + '\n')
 		file.write('usertype=4\n')
@@ -398,7 +400,7 @@ with open('temp.ini', 'r') as file:
 
 
 index = 1
-for spell in new_spells:
+for spell in neq_spells:
 	out = out.replace('2DAMEMORY_' + spell.name, '2DAMEMORY' + str(index))
 	index = index + 1
 

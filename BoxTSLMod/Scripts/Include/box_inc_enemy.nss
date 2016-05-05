@@ -26,6 +26,7 @@ int HIDE_TYPE_CIVILIAN = 11;
 int HIDE_TYPE_BOUNTY_HUNTER = 12;
 int HIDE_TYPE_TECH_SPEC = 13;
 
+
 //
 void Box_RemoveAllItems(object oUser) {
 

@@ -62,6 +62,7 @@ copy Healing\* Source
 copy Mines\* Source
 copy Misc\* Source
 copy Shields\* Source
+rem Need to add the script that moves the spawn includes to the correct spot
 copy Spawn\* Source
 copy Stims\* Source
 copy Treasure\* Source

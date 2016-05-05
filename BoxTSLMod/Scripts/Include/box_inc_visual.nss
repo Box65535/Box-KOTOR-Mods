@@ -70,6 +70,7 @@ void Box_PlasmaRocketExplode(location lExplosion) {
 	Box_PlasmaGrenadeExplode(lExplosion);
 }
 
+//
 void Box_FlamethrowerBeam(object oUser, object oTarget) {
 	effect eBeam = EffectBeam(2053, oUser, BODY_NODE_HAND);
 	effect eBump = EffectVisualEffect(2062);
@@ -79,6 +80,7 @@ void Box_FlamethrowerBeam(object oUser, object oTarget) {
 	DelayCommand(0.33, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eBump, oTarget, 1.5));
 }
 
+//
 void Box_CarboniteBeam(object oUser, object oTarget) {
 	effect eBeam = EffectBeam(2051, OBJECT_SELF, BODY_NODE_HAND);
 	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eBeam, oTarget, 1.0);

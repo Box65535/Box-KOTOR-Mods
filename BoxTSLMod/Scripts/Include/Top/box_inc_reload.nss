@@ -46,10 +46,11 @@ int Box_HasSlot(object oUser, int slot, int weaponType) {
 	object oWeapon = GetItemInSlot(slot, oWeapon);
 	if (!GetIsObjectValid(oWeapon))
 		return FALSE;
-	else if (Get)
+	else if (GetBaseItemType(oWeapon) != weaponType)
 		return FALSE;
+	else
+		return TRUE;
 }
-
 int Box_HasWeapon(object oUser) {
 	return Box_HasSlot(oUser, WEAPON_CHECK_SLOT, WEAPON_ITEM_TYPE);
 }
@@ -182,17 +183,26 @@ int Box_CheckEnergy(object oUser, int cost) {
 }
 
 
-void Box_AttachItem(object oUser, int slot) {
+void Box_AttachItem(object oUser, int slot, int equipmentSlot) {
+	string tag = GetTag(GetItemInSlot(equipmentSlot, oUser));
+	string newTag = "wt_" + GetSubString(tag, 2, 8);
+	object oItem = CreateItemOnObject(slot, oUser);
+	ActionEquipItem(oItem, slot, TRUE);
 }
 void Box_AttachWeapon(object oUser) {
+	Box_AttachItem(oUser, WEAPON_SLOT, WEAPON_CHECK_SLOT);
 }
 
 void Box_RemoveItem(object oUser, int slot) {
+	object oItem = GetItemInSlot(slot, oUser);
+	DestroyObject(oItem);
 }
 void Box_RemoveWeapon(object oUser) {
+	Box_RemoveItem(oUser, WEAPON_SLOT);
 }
 
 void Box_RecalculateEnergyEquipDroid(object oUser) {
+	
 }
 void Box_RecalculateEnergyEquipHuman(object oUser) {
 }

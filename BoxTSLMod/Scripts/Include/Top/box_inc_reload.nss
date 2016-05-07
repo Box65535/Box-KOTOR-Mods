@@ -14,7 +14,7 @@ int ENERGY_SLOT_RIGHT = INVENTORY_SLOT_CWEAPON_R;
 int ENERGY_SLOT_LEFT = INVENTORY_SLOT_CWEAPON_L;
 int ENERGY_SLOT_HUMAN = INVENTORY_SLOT_CWEAPON_R;
 int ENERGY_SLOT_HEAVY = INVENTORY_SLOT_CWEAPON_R;
-int ENERGY_SLOT_HEAVY_EXTRA = INVENTORY_SLOT_CWEAPON_M;
+int ENERGY_SLOT_HEAVY_EXTRA = INVENTORY_SLOT_CWEAPON_B;
 
 int WEAPON_CHECK_SLOT = INVENTORY_SLOT_RIGHTARM;
 int ENERGY_CHECK_SLOT_RIGHT = INVENTORY_SLOT_RIGHTARM;
@@ -46,7 +46,7 @@ int ENERGY_ITEM_TYPE_HEAVY = 501;
 
 int Box_HasSlot(object oUser, int slot, int weaponType) {
 	
-	object oWeapon = GetItemInSlot(slot, oWeapon);
+	object oWeapon = GetItemInSlot(slot, oUser);
 	if (!GetIsObjectValid(oWeapon))
 		return FALSE;
 	else if (GetBaseItemType(oWeapon) != weaponType)
@@ -77,25 +77,25 @@ int Box_HasEnergy(object oUser) {
 
 string Box_GetWeaponTag(object oUser) {
 	if (Box_HasWeapon(oUser))
-		return GetTag(GetItemInSlot(oUser, WEAPON_CHECK_SLOT));
+		return GetTag(GetItemInSlot(WEAPON_CHECK_SLOT, oUser));
 	else
 		return "";
 }
 string Box_GetEnergyRightTag(object oUser) {
 	if (Box_HasEnergyRight(oUser))
-		return GetTag(GetItemInSlot(oUser, ENERGY_CHECK_SLOT_RIGHT));
+		return GetTag(GetItemInSlot(ENERGY_CHECK_SLOT_RIGHT, oUser));
 	else
 		return "";
 }
 string Box_GetEnergyLeftTag(object oUser) {
 	if (Box_HasEnergyLeft(oUser))
-		return GetTag(GetItemInSlot(oUser, ENERGY_CHECK_SLOT_LEFT));
+		return GetTag(GetItemInSlot(ENERGY_CHECK_SLOT_LEFT, oUser));
 	else
 		return "";
 }
 string Box_GetEnergyHumanTag(object oUser) {
 	if (Box_HasEnergyHuman(oUser))
-		return GetTag(GetItemInSlot(oUser, ENERGY_CHECK_SLOT_HUMAN));
+		return GetTag(GetItemInSlot(ENERGY_CHECK_SLOT_HUMAN, oUser));
 	else
 		return "";
 }
@@ -160,7 +160,7 @@ void Box_RegenEnergy(object oUser) {
 int Box_CheckWeaponLoaded(object oUser) {
 
 	int value = GetLocalNumber(oUser, WEAPON_LOCAL_NUMBER);
-	if (value == Box_GetWeaponReloadMax(oUser))
+	if (value == WEAPON_MAX)
 		return TRUE;
 	else
 		return FALSE;
@@ -206,12 +206,20 @@ string Box_ConvertTagHeavySecondary(string tag) {
 	return tag;
 }
 
+void Box_RemoveItem(object oUser, int slot) {
+	object oItem = GetItemInSlot(slot, oUser);
+	DestroyObject(oItem);
+}
+void Box_RemoveWeapon(object oUser) {
+	Box_RemoveItem(oUser, WEAPON_SLOT);
+}
+
 void Box_AttachWithTag(object oUser, int slot, string tag) {
 	
 	// Check if we are already equipped
 	if (GetIsObjectValid(GetItemInSlot(slot, oUser))) {
 		
-		string oldTag = GetTag(GetItemInSlot(equipmentSlot, oUser));
+		string oldTag = GetTag(GetItemInSlot(slot, oUser));
 		// If it's the same skip
 		if (oldTag == tag)
 			return;
@@ -232,14 +240,6 @@ void Box_AttachWeapon(object oUser) {
 	Box_AttachItem(oUser, WEAPON_SLOT, WEAPON_CHECK_SLOT);
 }
 
-void Box_RemoveItem(object oUser, int slot) {
-	object oItem = GetItemInSlot(slot, oUser);
-	DestroyObject(oItem);
-}
-void Box_RemoveWeapon(object oUser) {
-	Box_RemoveItem(oUser, WEAPON_SLOT);
-}
-
 
 void Box_RecalculateEnergyEquipSlot(object oUser, int equipmentSlot, int targetSlot) {
 	string tag = GetTag(GetItemInSlot(equipmentSlot, oUser));
@@ -257,12 +257,12 @@ void Box_RecalculateEnergyEquipHeavy(object oUser) {
 	int cost1 = Box_GetEnergyCost(tag);
 	int cost2 = Box_GetEnergySecondaryCost(tag);
 	
-	if (Box_CheckEnergy(cost1))
+	if (Box_CheckEnergy(oUser, cost1))
 		Box_AttachItem(oUser, ENERGY_SLOT_HEAVY, ENERGY_CHECK_SLOT_HEAVY);
 	else
 		Box_RemoveItem(oUser, ENERGY_SLOT_HEAVY);
 	
-	if (Box_CheckEnergy(cost2))
+	if (Box_CheckEnergy(oUser, cost2))
 		Box_AttachItem(oUser, ENERGY_SLOT_HEAVY_EXTRA, ENERGY_CHECK_SLOT_HEAVY);
 	else
 		Box_RemoveItem(oUser, ENERGY_SLOT_HEAVY_EXTRA);
@@ -270,16 +270,16 @@ void Box_RecalculateEnergyEquipHeavy(object oUser) {
 void Box_RecalculateEnergyEquip(object oUser) {
 	
 	if (Box_HasEnergyLeft(oUser)) {
-		Box_RecalculateEnergyEquip(oUser, ENERGY_CHECK_SLOT_LEFT, ENERGY_SLOT_LEFT);
+		Box_RecalculateEnergyEquipSlot(oUser, ENERGY_CHECK_SLOT_LEFT, ENERGY_SLOT_LEFT);
 	}
 	if (Box_HasEnergyRight(oUser)) {
-		Box_RecalculateEnergyEquip(oUser, ENERGY_CHECK_SLOT_RIGHT, ENERGY_SLOT_RIGHT);
+		Box_RecalculateEnergyEquipSlot(oUser, ENERGY_CHECK_SLOT_RIGHT, ENERGY_SLOT_RIGHT);
 	}
 	if (Box_HasEnergyHuman(oUser)) {
-		Box_RecalculateEnergyEquip(oUser, ENERGY_CHECK_SLOT_HUMAN, ENERGY_CHECK_SLOT_HUMAN);
+		Box_RecalculateEnergyEquipSlot(oUser, ENERGY_CHECK_SLOT_HUMAN, ENERGY_CHECK_SLOT_HUMAN);
 	}
 	if (Box_HasEnergyHeavy(oUser)) {
-		Box_RecalculateEnergyHeavy(oUser);
+		Box_RecalculateEnergyEquipHeavy(oUser);
 	}
 }
 

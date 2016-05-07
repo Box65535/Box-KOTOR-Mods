@@ -17,6 +17,7 @@ void Box_FragGrenadeExplode(location lExplosion) {
 void main() {
 	
 	// Spell Properties
+	object oUser = OBJECT_SELF;
 	object oTarget = GetSpellTarget();
 	location lTarget = GetSpellTargetLocation();
 	int cost = 12;

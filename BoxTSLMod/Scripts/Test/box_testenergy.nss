@@ -23,11 +23,13 @@ void main() {
 	// Spell Properties
 	object oUser = OBJECT_SELF;
 	object oTarget = GetSpellTarget();
+	int cost = 6;
 	
 	// We'll only the visual
 	Box_FlamethrowerBeam(oUser, oTarget);
 	
-	// TODO: Update the energy reloading information
+	// Update reload script
+	Box_UseEnergy(oUser, cost);
 }
 
 

@@ -1,0 +1,55 @@
+
+First we might want to separate party and enemy AI, mainly because we want AI to be a little more balanced whereas we want party AI to be strictly optimal to reduce the need for manual party control
+
+
+We have 4 Party AI types:
+
+-Aggressive
+-Ranged
+-Stationary
+-Grenadier/Jedi Support
+
+I think these should roughly translate to:
+
+-Offensive
+-Defensive
+-Stationary
+-Support
+
+Then we can differentiate based on equipped weapons and available spells
+
+Ok, let's start with offensive I guess
+
+Offensive:
+-Melee prioritize close enemies first then chase ranged
+-Ranged target near-death enemies first then chase ranged
+-Switch to melee if attacked at melee range
+-Switch to ranged if not being attacked at melee
+-Don't switch if unarmed, don't switch into unarmed
+-Liberal use of combat feats
+-Conservative use of buffs and other spells
+
+Defensive:
+-Stay close to party leader
+-Ranged don't leave party leader radius
+-Melee only leave party leader radius to attack enemies attacking party, don't chase
+-Prioritize attacking enemies attacking party leader, or enemies party leader is attacking
+-First priority is always attacking enemies attacking you at melee range
+-Switch to melee if attacked at melee range
+-Switch to ranged if not being attacked at melee
+-Conservative use of combat feats
+-Very conservative use of buffs and other spells
+
+Stationary:
+-Don't move
+-Liberal use of combat feats when not being attacked
+-Liberal use of spells that can attack at range
+-Otherwise, same as Defensive
+
+Support:
+-Liberal use of spells
+-Prioritize party buffing spells or AOE spells
+-Otherwise, similar to Defensive
+
+
+Then we need to specify how feats and spells are picked but we'll do that later

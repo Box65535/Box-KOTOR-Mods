@@ -17,12 +17,15 @@ void Box_FragGrenadeExplode(location lExplosion) {
 void main() {
 	
 	// Spell Properties
+	object oTarget = GetSpellTarget();
 	location lTarget = GetSpellTargetLocation();
+	int cost = 12;
 	
-	// We'll only worry about the visual explosion for this test
+	// We'll only worry about the visual for this test
 	Box_FragGrenadeExplode(lTarget);
 	
-	// TODO: Update the reloading information
+	// Talk to the reload script
+	Box_UseWeapon(oUser, cost);
 }
 
 

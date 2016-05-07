@@ -10,7 +10,7 @@
 
 #include "k_inc_debug"
 #include "k_inc_switch"
-#include "box_inc"
+#include "box_inc_reload"
 
 // Copied from another script, this should work fine 
 void Box_FragGrenadeExplode(location lExplosion) {

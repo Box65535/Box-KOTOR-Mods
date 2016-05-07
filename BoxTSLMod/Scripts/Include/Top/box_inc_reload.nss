@@ -3,10 +3,10 @@
 // Written by Box
 // Include file for managing auxilary weapon and grenade reloads
 
-string TEST_ENERGY_WEAPON = "ts_eweap1"
-string TEST_ENERGY_WEAPON_TRIGGER = "ts_etrig1"
-string TEST_GRENADE_LAUNCHER = "ts_grenla1"
-string TEST_GRENADE_LAUNCHER_ITEM = "ts_gritem1"
+string TEST_ENERGY_WEAPON = "ts_eweap1";
+string TEST_ENERGY_WEAPON_TRIGGER = "ts_etrig1";
+string TEST_GRENADE_LAUNCHER = "ts_grenla1";
+string TEST_GRENADE_LAUNCHER_ITEM = "ts_gritem1";
 
 
 int WEAPON_SLOT = INVENTORY_SLOT_CWEAPON_R;
@@ -37,10 +37,10 @@ int ENERGY_FEAT_2 = 502;
 
 
 // TODO: Change these to 2DA codes and integrate with featgen.py
-int WEAPON_ITEM_TYPE = 0;
-int ENERGY_ITEM_TYPE = 0;
-int ENERGY_ITEM_TYPE_HUMAN = 0;
-int ENERGY_ITEM_TYPE_HEAVY = 0;
+int WEAPON_ITEM_TYPE = 46;
+int ENERGY_ITEM_TYPE = 76;
+int ENERGY_ITEM_TYPE_HUMAN = 500;
+int ENERGY_ITEM_TYPE_HEAVY = 501;
 
 
 
@@ -138,7 +138,7 @@ void Box_RegenWeapon(object oUser) {
 	
 	value = value + WEAPON_REGEN;
 	if (value > WEAPON_MAX)
-		value = WEAPON_MAX);
+		value = WEAPON_MAX;
 	
 	SetLocalNumber(oUser, WEAPON_LOCAL_NUMBER, value);
 }
@@ -209,9 +209,9 @@ string Box_ConvertTagHeavySecondary(string tag) {
 void Box_AttachWithTag(object oUser, int slot, string tag) {
 	
 	// Check if we are already equipped
-	if (GetIsObjectValid(GetItemInSlot(slot, oUser)) {
+	if (GetIsObjectValid(GetItemInSlot(slot, oUser))) {
 		
-		stirng oldTag = GetTag(GetItemInSlot(equipmentSlot, oUser));
+		string oldTag = GetTag(GetItemInSlot(equipmentSlot, oUser));
 		// If it's the same skip
 		if (oldTag == tag)
 			return;

@@ -9,7 +9,7 @@ string TEST_GRENADE_LAUNCHER = "ts_grenla1";
 string TEST_GRENADE_LAUNCHER_ITEM = "ts_gritem1";
 
 
-int WEAPON_SLOT = INVENTORY_SLOT_CWEAPON_R;
+int WEAPON_SLOT = INVENTORY_SLOT_HEAD;
 int ENERGY_SLOT_RIGHT = INVENTORY_SLOT_CWEAPON_R;
 int ENERGY_SLOT_LEFT = INVENTORY_SLOT_CWEAPON_L;
 int ENERGY_SLOT_HUMAN = INVENTORY_SLOT_CWEAPON_R;
@@ -26,8 +26,8 @@ int HEARTBEAT_LOCAL_NUMBER = 26;
 int WEAPON_LOCAL_NUMBER = 27;
 int ENERGY_LOCAL_NUMBER = 28;
 
-int WEAPON_PERIOD = 4;
-int WEAPON_REGEN = 1;
+int WEAPON_PERIOD = 2;
+int WEAPON_REGEN = 2;
 int WEAPON_MAX = 12;
 
 // TODO: Put 2DA codes here
@@ -228,7 +228,7 @@ void Box_AttachWithTag(object oUser, int slot, string tag) {
 			Box_RemoveItem(oUser, slot);
 	}
 	
-	object oItem = CreateItemOnObject(tag, oUser);
+	object oItem = CreateItemOnObject(tag, oUser, 1, TRUE);
 	ActionEquipItem(oItem, slot, TRUE);
 }
 void Box_AttachItem(object oUser, int targetSlot, int equipmentSlot) {

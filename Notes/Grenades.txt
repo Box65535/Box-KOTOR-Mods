@@ -4,51 +4,51 @@ Peragus:
 Sonic Detonator
 -8 Sonic Damage
 -Int/Wis/Chr -4
--4 Damage on Save (Reflex or Will, Sonic)
--DC 10
+-2 Damage on Save (Reflex or Will, Sonic)
+-DC 12
 
 
 Loose Grenades:
 
 Frag Grenade
 -20 Piercing Damage
--8 Damage on Save (Reflex, None)
--DC 12
+-4 Damage on Save (Reflex, None)
+-DC 14
 
 Concussion Grenade
 -9 Second Stun
 -No Effect on Save (Reflex or Will, None)
--DC 12
+-DC 14
 
 Ion Pulse Grenade
 -12 Ion Damage
 -8 Ion Damage vs Droid
 -6 Second Droid Stun
--8 Damage on Save (Reflex, Ion)
--DC 12
+-4 Damage on Save (Reflex, Ion)
+-DC 14
 
 Sonic Detonator
 -16 Sonic Damage
 -Int/Wis/Chr -4
--8 Damage on Save (Reflex or Will, Sonic)
--DC 12
+-4 Damage on Save (Reflex or Will, Sonic)
+-DC 14
 
 CryoBan Grenade
 -24 Cold Damage
 -6 Second Paralysis/Droid Stun
--8 Damage on Save (Fortitude or Reflex, Cold)
--DC 14
+-4 Damage on Save (Fortitude or Reflex, Cold)
+-DC 16
 
 Plasma Grenade
 -32 Fire Damage
--8 Damage on Save (Reflex, Fire)
--DC 14
+-4 Damage on Save (Reflex, Fire)
+-DC 16
 
 Thermal Detonator
 -60 Energy Damage
 -Push Effect
--20 Damage on Save (Reflex, None)
--DC 20
+-8 Damage on Save (Reflex, None)
+-DC 24
 
 
 I think I'm satisfied with the above but we have to move on to the harder part of actual auxilary weapons - grenades and otherwise
@@ -62,24 +62,24 @@ Grenade Launchers:
 Grenade Launcher
 -24 Piercing Damage
 -8 Damage on Save (Reflex, None)
--DC 16
+-DC 18
 
 Flash Grenade Launcher
 -9 Second Stun
 -Attack -4 for 9 Seconds on Save (Reflex or Will, None)
--DC 16
+-DC 18
 
 Gas Grenade Launcher
 -20 Poison Damage (2 every 3 for 30 seconds)
 -Str/Dex -4 for 30 Seconds
 -Effect only for 15 seconds on Save (Fortitude or Reflex, Poison)
--DC 16
+-DC 18
 
 Sonic Charge Launcher
 -24 Sonic Damage
 -Int/Wis/Chr -6
 -12 Damage on Save (Reflex or Will, Sonic)
--DC 16
+-DC 18
 
 EMP Grenade Launcher
 Shock Grenade Launcher
@@ -87,13 +87,13 @@ Shock Grenade Launcher
 Plasma Grenade Launcher
 -36 Fire Damage
 -12 Damage on Save (Reflex, Fire)
--DC 18
+-DC 20
 
 CryoBan Grenade Launcher
 -24 Cold Damage
 -9 Second Paralysis
 -12 Damage on Save (Fortitude or Reflex, Cold)
--DC 18
+-DC 20
 
 
 Rocket Launchers:
@@ -144,71 +144,71 @@ Loose Grenades:
 
 Frag Grenade
 -20 Piercing Damage
--8 Damage on Save (Reflex, None)
--DC 12
+-4 Damage on Save (Reflex, None)
+-DC 14
 
 Concussion Grenade
 -9 Second Stun
 -No Effect on Save (Reflex or Will, None)
--DC 12
+-DC 14
 
 Ion Pulse Grenade
 -16 Ion Damage
 -6 Second Droid Stun
--8 Damage on Save (Reflex, Ion)
--DC 12
+-4 Damage on Save (Reflex, Ion)
+-DC 14
 
 Sonic Detonator
 -16 Sonic Damage
 -Int/Wis/Chr -4
--8 Damage on Save (Reflex or Will, Sonic)
--DC 12
+-4 Damage on Save (Reflex or Will, Sonic)
+-DC 14
 
 CryoBan Grenade
 -24 Cold Damage
 -6 Second Paralysis/Droid Stun
--8 Damage on Save (Fortitude or Reflex, Cold)
--DC 14
+-4 Damage on Save (Fortitude or Reflex, Cold)
+-DC 16
 
 Plasma Grenade
 -32 Fire Damage
--8 Damage on Save (Reflex, Fire)
--DC 14
+-4 Damage on Save (Reflex, Fire)
+-DC 16
 
 Thermal Detonator
 -60 Energy Damage
 -Push Effect
 -20 Damage on Save (Reflex, None)
--DC 20
+-DC 24
 
 
 
 Grenade Launcher
 -24 Piercing Damage
--8 Damage on Save (Reflex, None)
--DC 16
+-6 Damage on Save (Reflex, None)
+-DC 20
 
 Flash Grenade Launcher
 -9 Second Stun
 -Attack -4 for 9 Seconds on Save (Reflex or Will, None)
--DC 16
+-DC 20
 
 Gas Grenade Launcher
 -20 Poison Damage (2 every 3 for 30 seconds)
 -Str/Dex -4 Ability Poison for 30 Seconds
 -Effect only for 15 seconds on Save (Fortitude or Reflex, Poison)
--DC 16
+-DC 20
 
 Sonic Charge Launcher
 -24 Sonic Damage
 -Int/Wis/Chr -6 for 30 Seconds
--12 Damage on Save (Reflex or Will, Sonic)
--DC 16
+-6 Damage on Save (Reflex or Will, Sonic)
+-DC 20
 
 Plasma Grenade Launcher
 -36 Fire Damage
--12 Damage on Save (Reflex, Fire)
--DC 18
+-6 Damage on Save (Reflex, Fire)
+-DC 22
 
 
 
@@ -217,78 +217,78 @@ Unsure:
 EMP Grenade Launcher
 -18 Ion Damage
 -9 Second Droid Stun
--9 Damage on Save (Fortitude or Reflex, Ion)
--DC 16
+-4 Damage on Save (Fortitude or Reflex, Ion)
+-DC 20
 
 Shock Grenade Launcher
 -32 Electric Damage
 -3 Second Stun
--12 Damage on Save (Reflex or Will, Electric)
+-6 Damage on Save (Reflex or Will, Electric)
 -3m Radius
--DC 16
+-DC 20
 
 CryoBan Grenade Launcher
 -24 Cold Damage
 -9 Second Paralysis
--12 Damage on Save (Fortitude or Reflex, Cold)
--DC 18
+-6 Damage on Save (Fortitude or Reflex, Cold)
+-DC 22
 
 Detonator Launcher
 -60 Energy Damage
 -Push Effect
 -20 Damage on Save (Reflex, None)
--DC 20
+-DC 28
 
 
 
 Rocket Launcher
 -48 Piercing Damage
--16 Damage on Save (Reflex, None)
--DC 20
+-12 Damage on Save (Reflex, None)
+-DC 26
 
 Buster Rocket Launcher
 -60 Piercing Damage
 -Push Effect
--30 Damage on Save (Reflex, None)
+-12 Damage on Save (Reflex, None)
 -1 Target
--DC 20
+-DC 26
 
 Incendiary Rocket Launcher
 -36 Fire Damage
 -Con -4 for 30 Seconds
--18 Damage on Save (Fortitude or Reflex, Fire)
--DC 20
+-12 Damage on Save (Fortitude or Reflex, Fire)
+-DC 26
 
 Ion Rocket Launcher
 -36 Ion Damage
 -12 Second Droid Stun
--18 Damage on Save (Reflex or Will,
+-12 Damage on Save (Reflex or Will,
 -[Use Ion Lightning Effect]
--DC 20
+-DC 26
 
 Concussion Rocket Launcher
 -12 Second Stun
 -Attack/Defense -4 for 30 Seconds
--Attack/Defense -2 for 12 Seconds on Save (Reflex or Will, None)
--DC 20
+-Attack/Defense -2 for 9 Seconds on Save (Reflex or Will, None)
+-DC 26
 
 Plasma Rocket Launcher
 -60 Piercing Damage
 -20 Damage on Save (Reflex, Fire)
--DC 22
+-DC 28
 
 Radiation Rocket Launcher
 -20 Fire Damage
 -20 Poison Damage (1 every 3 seconds for 60 seconds)
 -Str/Con/Dex -4 Ability Poison for 60 seconds
 -20 Fire Damage on Save (Fortitude or Reflex, Poison)
--DC 22
+-DC 28
 
 Fusion Rocket Launcher
 -80 Energy Damage
 -Push Effect
 -40 Damage on Save (Reflex, None)
--DC 24
+-DC 32
 
 
 

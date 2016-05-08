@@ -41,6 +41,87 @@ int Box_GetForceByClassLevel(int class, int level, int totalLevel) {
 			force += 2;
 		if (level >= 3)
 			force += 1;
+		if (level >= 4)
+			force += 1;
+		if (level >= 5)
+			force += 1;
+		if (level >= 7)
+			force += 1;
+		if (level >= 8)
+			force += 1;
+		if (level >= 9)
+			force += 1;
+		if (level >= 11)
+			force += 1;
+		if (level >= 12)
+			force += 1;
+		if (level >= 13)
+			force += 1;
+		if (level >= 15)
+			force += 1;
+		if (level >= 16)
+			force += 1;
+		if (level >= 17)
+			force += 1;
+		if (level >= 19)
+			force += 1;
+		if (level >= 20)
+			force += 1;
+		if (level >= 21)
+			force += 1;
+		if (level >= 23)
+			force += 1;
+		if (level >= 24)
+			force += 1;
+		if (level >= 25)
+			force += 1;
+		if (level >= 27)
+			force += 1;
+		if (level >= 28)
+			force += 1;
+		if (level >= 29)
+			force += 1;
+		if (level >= 31)
+			force += 1;
+		if (level >= 32)
+			force += 1;
+		if (level >= 33)
+			force += 1;
+		if (level >= 35)
+			force += 1;
+		if (level >= 36)
+			force += 1;
+		if (level >= 37)
+			force += 1;
+		if (level >= 39)
+			force += 1;
+		if (level >= 40)
+			force += 1;
+		if (level >= 41)
+			force += 1;
+		if (level >= 43)
+			force += 1;
+		if (level >= 44)
+			force += 1;
+		if (level >= 45)
+			force += 1;
+		if (level >= 47)
+			force += 1;
+		if (level >= 48)
+			force += 1;
+		if (level >= 49)
+			force += 1;
+	}
+	//
+	else if ((class == CLASS_JEDI_GUARDIAN) ||
+		(class == CLASS_JEDI_SENTINEL) ||
+		(class == CLASS_JEDI_PRESTIGE_GUARDIAN) ||
+		(class == CLASS_JEDI_PRESTIGE_SENTINEL)) {
+		
+		if (level >= 1)
+			force += 2;
+		if (level >= 3)
+			force += 1;
 		if (level >= 5)
 			force += 1;
 		if (level >= 7)
@@ -84,47 +165,6 @@ int Box_GetForceByClassLevel(int class, int level, int totalLevel) {
 		if (level >= 45)
 			force += 1;
 		if (level >= 47)
-			force += 1;
-		if (level >= 49)
-			force += 1;
-	}
-	//
-	else if ((class == CLASS_JEDI_GUARDIAN) ||
-		(class == CLASS_JEDI_SENTINEL) ||
-		(class == CLASS_JEDI_PRESTIGE_GUARDIAN) ||
-		(class == CLASS_JEDI_PRESTIGE_SENTINEL)) {
-		
-		if (level >= 1)
-			force += 1;
-		if (level >= 3)
-			force += 1;
-		if (level >= 7)
-			force += 1;
-		if (level >= 9)
-			force += 1;
-		if (level >= 13)
-			force += 1;
-		if (level >= 15)
-			force += 1;
-		if (level >= 19)
-			force += 1;
-		if (level >= 21)
-			force += 1;
-		if (level >= 25)
-			force += 1;
-		if (level >= 27)
-			force += 1;
-		if (level >= 31)
-			force += 1;
-		if (level >= 33)
-			force += 1;
-		if (level >= 37)
-			force += 1;
-		if (level >= 39)
-			force += 1;
-		if (level >= 43)
-			force += 1;
-		if (level >= 45)
 			force += 1;
 		if (level >= 49)
 			force += 1;

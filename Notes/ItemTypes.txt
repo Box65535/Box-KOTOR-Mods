@@ -1,0 +1,43 @@
+
+Let's take stock of what types of items are in this mod now that testing revealed everything is busted:
+
+
+
+Melee Weapons
+Ranged Weapons
+Lightsabers
+
+Human Armor
+Droid Armor
+
+Melee Upgrades
+Ranged Upgrades
+Saber Upgrades
+Armor Upgrades
+
+Stealth Fields
+Saving Throw Belts
+
+Implaint Containers
+Implant Upgrades
+(Implant Combinations)
+
+Energy Shields
+Stimulant Packages
+Droid Energy Shields
+
+Grenade Launchers etc
+Grenade Ammo etc
+Ammo Boxes
+Energy Weapons
+
+Medpacs
+Repair Kits
+Grenades
+
+Turret Controllers
+Turrets
+Mines
+
+
+

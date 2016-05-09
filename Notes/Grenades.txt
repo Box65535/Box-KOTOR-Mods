@@ -315,7 +315,28 @@ Anti-Armor Gun
 
 
 
+May 2016
 
+Alright my original idea didn't work so we have to make grenades with harsher
+
+Also since auxilary weapons never really took off as an idea, I have a new plan
+
+For auxilary weapons, there's only one feat required for them, and similarly, there's only one tier of equippable weapons, the difference is that instead of changing the weapon to upgrade it, you just change the ammunition type
+
+So for example, you have a flamethrower weapon:
+-At tier 1, you have regular flamethrower fuel
+-At tier 2, you have some stronger fuel
+-At tier 3, you have plasma fuel or whatever
+
+These weapons wouldn't be as strong as the grenade launchers and energy weapons since they still only require one feat but they would have some sequencing and they would provide 
+
+Also you could do grenades the same way if you wanted to enforce animations, you could create an item called the "Grenade Dispenser" or something which allows the use of grenades similarly to other auxilary weapons
+
+That idea made me wonder about doing the following sequence
+
+Auxilary Weapons -> Grenade Launchers -> Rocket Launchers
+
+Well it's an idea, certainly weapons with AOE are better than those without
 
 
 

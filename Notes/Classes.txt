@@ -8,13 +8,13 @@ Medium Defense 	= Base 0, Gain on 3, 5, 7, 11, 13, 15, 19, 21, 23, 27, 29
 Low Defense 	= Base 0, Gain on 3, 7, 11, 15, 19, 23, 27
 
 
-Class Attack 1 - Guardian, Soldier, Combat Droid
-Class Attack 2 - Sentinel, Scout, Apprentice
-Class Attack 3 - Consular, Scoundrel, Expert Droid, Tech Specialist
+Class Attack 1 	- Guardian, Soldier, Combat Droid
+Class Attack 2 	- Sentinel, Scout, Apprentice
+Class Attack 3 	- Consular, Scoundrel, Expert Droid, Tech Specialist
 
 High Defense 	- Guardian, Consular
 Medium Defense	- Sentinel, Soldier, Combat Droid, Scoundrel, Apprentice
-Low Defense		- Scout, Tech Specialist, Expert Droid
+Low Defense	- Scout, Tech Specialist, Expert Droid
 
 
 Guardian	- 8 VP, High Attack, High Defense, 1 SP, Low Feats, 3 FP, Low Force

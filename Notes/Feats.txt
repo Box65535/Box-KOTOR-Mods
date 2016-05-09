@@ -181,7 +181,7 @@ Exile G/S/C	- War Veteran, Complex Unarmed Animations
 Exile G		- Awareness, Demolitions
 Exile S		- Awareness, Science, Security, Medicine
 Exile C		- Awareness, Repair, Stealth
-Exile G/S/C ~ Unarmed 1, Shields 1, Stealth Fields
+Exile G/S/C	~ Unarmed 1, Shields 1, Stealth Fields
 Exile G		~ Power Attack 1, Flurry 1, Critical Strike 1
 Exile S		~ Stims 1, Grenades 1, Turrets 1, Implants 1
 Exile C		~ Critical Strike 1, Sneak 1, Immune Fear

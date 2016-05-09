@@ -40,4 +40,7 @@ Turrets
 Mines
 
 
+That's a lot of items left, I think the only ones you have done are the weapons/armor/upgrades
+Still, shouldn't be too hard, it's mostly a matter of grinding through all of the spell scripts
+
 

@@ -274,14 +274,14 @@ Concussion Rocket Launcher
 
 Plasma Rocket Launcher
 -60 Piercing Damage
--20 Damage on Save (Reflex, Fire)
+-12 Damage on Save (Reflex, Fire)
 -DC 28
 
 Radiation Rocket Launcher
 -20 Fire Damage
 -20 Poison Damage (1 every 3 seconds for 60 seconds)
 -Str/Con/Dex -4 Ability Poison for 60 seconds
--20 Fire Damage on Save (Fortitude or Reflex, Poison)
+-12 Fire Damage on Save (Fortitude or Reflex, Poison)
 -DC 28
 
 Fusion Rocket Launcher

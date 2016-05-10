@@ -1,7 +1,7 @@
 import shutil
 
 class Script:
-	def __init__(self, source, filename, description, spellname, radius, spellshape, castdc
+	def __init__(self, source, filename, description, spellname, radius, spellshape, castdc,
 			minelevel, functioncall, locationfunction, visualfunction, includemodule,
 			childscript, stacksize, itemtag, poweralignment):
 		self.source = source
@@ -13,7 +13,7 @@ class Script:
 		self.castdc = castdc
 		self.minelevel = minelevel
 		self.functioncall = functioncall
-		self.locationfunction locationfunction
+		self.locationfunction = locationfunction
 		self.visualfunction = visualfunction
 		self.includemodule = includemodule
 		self.childscript = childscript
@@ -65,9 +65,9 @@ class Script:
 			None, None, None, None)
 	
 	@classmethod
-	def new_mine(cls, filename, description, mineLevel, functioncall, visualfunction):
+	def new_mine(cls, filename, description, minelevel, functioncall, visualfunction):
 		return cls('mine', filename, description, None, None, None, None,
-			mineLevel, functioncall, None, visualfunction, None,
+			minelevel, functioncall, None, visualfunction, None,
 			None, None, None, None)
 	
 	@classmethod
@@ -90,13 +90,13 @@ class Script:
 	
 
 scripts = []
-scripts.append(Script.new_forceattack('box_forcechoke', 'Auto-generated Script', 'Force Choke', '12'
-		'Box_ForceChoke', 'Box_NoVisual', ''))
+scripts.append(Script.new_forceattack('box_forcechoke', 'Auto-generated Script', 'Force Choke', '12',
+		'Box_ForceChoke', 'Box_NoVisual', 'POWER_TYPE_DARK'))
 
 for script in scripts:
 	template = 'error'
 	with open('Templates\\' + script.source + '.nss', 'r') as file:
-		template = file.read()
+		template = str(file.read())
 		if script.filename:
 			template = template.replace('#FILENAME', script.filename)
 		if script.description:
@@ -127,8 +127,8 @@ for script in scripts:
 			template = template.replace('#ITEM_TAG', script.itemtag)
 		if script.poweralignment:
 			template = template.replace('#POWER_ALIGNMENT', script.poweralignment)
-		with open('Source\\' + script.filename + '.nss') as outfile:
-			file.write(template)
+		with open('Source\\' + script.filename + '.nss', 'w') as outfile:
+			outfile.write(template)
 
 
 

@@ -1,13 +1,7 @@
-copy Class\* Source
-copy Force\* Source
-copy Grenades\* Source
-copy Healing\* Source
-copy Mines\* Source
-copy Misc\* Source
-copy Shields\* Source
-copy Spawn\* Source
-copy Stims\* Source
-copy Treasure\* Source
+copy Static\* Source
+python scriptgen.py
+copy Spawn\* .\
+copy Treasure\* .\
 echo. > box_inc.nss
 type Include\Top\TopTop\* >> .\box_inc.nss
 type Include\Top\* >> .\box_inc.nss

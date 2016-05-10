@@ -4,6 +4,9 @@
 // Include file for explosives visual effects
 
 // 
+void Box_NullVisual(location l) {}
+
+// 
 void Box_FragGrenadeExplode(location lExplosion) {
 	ApplyEffectAtLocation(DURATION_TYPE_INSTANT, EffectVisualEffect(1044), lExplosion);
 	ApplyEffectAtLocation(DURATION_TYPE_INSTANT, EffectVisualEffect(3003), lExplosion);

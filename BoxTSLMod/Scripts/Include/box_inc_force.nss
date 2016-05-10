@@ -19,12 +19,6 @@ int POWER_TYPE_UNIVERSAL = 1;
 int POWER_TYPE_LIGHT = 2;
 int POWER_TYPE_DARK = 3;
 
-// TODO
-int FORCE_FEAT_1 = #BOX_FORCE1#;
-int FORCE_FEAT_2 = #BOX_FORCE2#;
-int FORCE_FEAT_3 = #BOX_FORCE3#;
-int FEAT_FORCE_SEVER = 2; // This should be advanced guard stance, an unused feat
-
 //
 int Box_GetForceByClassLevel(int class, int level) {
 	
@@ -123,7 +117,7 @@ int Box_GetForceByClassLevel(int class, int level) {
 	else if (class == CLASS_JEDI_APPRENTICE ||
 			class == CLASS_JEDI_APPRENTICE_STRONG) {
 		
-		int min1 = level;
+		int min1 = 1 + level;
 		int min2 = Box_GetForceByClassLevel(CLASS_JEDI_SENTINEL, totalLevel, 0);
 		
 		if (min1 < min2) {
@@ -196,7 +190,7 @@ int Box_GetBaseForce(object oUser, int powerAlignment) {
 
 int Box_GetCastForce(object oUser, int powerAlignment) {
 	
-	int force = Box_GetBaseForce(oUser, powerAlignment)
+	int force = Box_GetBaseForce(oUser, powerAlignment);
 	
 	if (GetFeatAcquired(FORCE_FEAT_1, oUser))
 		force++;
@@ -210,7 +204,7 @@ int Box_GetCastForce(object oUser, int powerAlignment) {
 
 int Box_GetSpellForce(object oUser, int powerAlignment, int castSuccess) {
 	
-	int force = Box_GetBaseForce(oUser, powerAlignment)
+	int force = Box_GetBaseForce(oUser, powerAlignment);
 	
 	if (castSuccess)
 		return force;
@@ -221,7 +215,7 @@ int Box_GetSpellForce(object oUser, int powerAlignment, int castSuccess) {
 // 
 int Box_RollCastDC(object oUser, int castDC, int powerAlignment) {
 	
-	int force = Box_GetCastForce(oUser, powerAlignment)
+	int force = Box_GetCastForce(oUser, powerAlignment);
 	
 	if (force + d8() >= castDC) {
 		return TRUE;
@@ -249,8 +243,6 @@ int Box_CheckSpellSuccess(object oUser, int castDC, int powerAlignment) {
 		return TRUE;
 	}
 }
-
-int Box_Roll
 
 //
 int Box_GetPowerDC(object oUser, int powerAlignment) {

@@ -55,10 +55,10 @@ TSLPatcher.exe 106PER.ini
 TSLPatcher.exe 107PER.ini 
 
 cd Scripts
-copy Class\* Source
+copy Static\*.nss Source
 python scriptgen.py
-copy Spawn\* .\
-copy Treasure\* .\
+copy Spawn\*.nss .\
+copy Treasure\*.nss .\
 echo. > box_inc.nss
 type Include\Top\TopTop\* >> .\box_inc.nss
 type Include\Top\* >> .\box_inc.nss

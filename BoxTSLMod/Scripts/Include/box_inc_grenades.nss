@@ -101,12 +101,12 @@ int Box_IncendiaryRocket(object oTarget) {
 
 int Box_PlasmaRocket(object oTarget) {
 	int save = SAVING_THROW_REFLEX;
-	return Box_PlasmaWeapon(oTarget, 26, 36, 6, save);
+	return Box_PlasmaWeapon(oTarget, 28, 60, 20, save);
 }
 
 int Box_RadiationRocket(object oTarget) {
 	Box_DealDamage(oTarget, 20, DAMAGE_TYPE_FIRE);
-	return Box_PoisonWeapon(RADIATION_ROCKET);
+	return Box_PoisonWeapon(oTarget, RADIATION_ROCKET);
 }
 
 int Box_DetonatorRocket(object oTarget) {

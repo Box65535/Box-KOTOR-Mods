@@ -42,7 +42,7 @@ int Box_DamageAndEffectWeapon(object oTarget, int dc, int damage, int saveDamage
 		Box_DealDamage(oTarget, saveDamage, damageType);
 	}
 	
-	return saveResult
+	return saveResult;
 }
 
 //
@@ -94,7 +94,7 @@ int Box_ConfuseWeapon(object oTarget, int dc, int save, float duration) {
 	
 	// Properties
 	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
-	effect eConfuse = 
+	effect eConfuse = EffectFactionModifier(STANDARD_FACTION_INSANE);
 	
 	// Damage
 	return Box_EffectWeapon(oTarget, eStun, save, saveType, duration);
@@ -199,7 +199,7 @@ int Box_SonicWeapon(object oTarget, int dc, int damage, int saveDamage, int save
 int Box_PoisonWeapon(object oTarget, int poison) {
 	
 	// I think this is the best we can do
-	ApplyEffectToObject(DURATION_TYPE_PERMENANT, EffectPoison(poison), oTarget);
+	ApplyEffectToObject(DURATION_TYPE_PERMANENT, EffectPoison(poison), oTarget);
 	return SAVE_FAILED;
 }
 

@@ -1,6 +1,6 @@
 
 
-Level 1 Powers: (Unlocked at Level 0, Cast DC = 6)
+Level 1 Powers: (Unlocked at Level 0, Cast DC = 4)
 *Force Suggestion
 -Force Concealment
 -Force Speed
@@ -13,39 +13,39 @@ Level 2 Powers: (Unlocked at Level 5, Cast DC = 8)
 -Force Sleep (Light)
 -Force Afflict (Dark)
 
-Level 3 Powers: (Unlocked at Level 10, Cast DC = 10)
+Level 3 Powers: (Unlocked at Level 10, Cast DC = 12)
 -Throw Lightsaber
 -Force Levitate
 -Force Body (Light)
 -Force Fear (Dark)
 
-Level 4 Powers: (Unlocked at Level 15, Cast DC = 12)
+Level 4 Powers: (Unlocked at Level 15, Cast DC = 16)
 -Force Push
 -Force Blind
 -Force Suppress (Light)
 -Force Choke (Dark)
 
-Level 5 Powers: (Unlocked at Level 20, Cast DC = 14)
+Level 5 Powers: (Unlocked at Level 20, Cast DC = 20)
 -Force Agility
 -Battle Meditation
 -Force Paralysis (Light)
--Forde Drain (Dark)
+-Force Drain (Dark)
 
-Level 6 Powers: (Unlocked at Level 22, Cast DC = 16)
+Level 6 Powers: (Unlocked at Level 22, Cast DC = 22)
 -Force Confusion
 -Force Light (Light)
 -Force Lightning (Dark)
 
-Level 7 Powers: (Unlocked at Level 25, Cast DC = 18)
+Level 7 Powers: (Unlocked at Level 25, Cast DC = 24)
 
-Level 8 Powers: (Unlocked at Level 27, Cast DC = 20)
+Level 8 Powers: (Unlocked at Level 27, Cast DC = 26)
 
-Level 9 Powers: (Unlocked at Level 30, Cast DC = 22)
-
-
+Level 9 Powers: (Unlocked at Level 30, Cast DC = 28)
 
 
-Tier 2 Powers - All of these are Consular/Etc only
+
+
+Tier 2 Powers - All of these are Consular/Etc only - Nah
 
 
 Level 1 Powers: (Unlocked at Level 0, Cast DC = 6)

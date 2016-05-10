@@ -6,12 +6,11 @@ BoxTSLMod/Scripts/Compiled
 BoxTSLMod/Overwrites/*.ncs
 BoxTSLMod/Scripts/nwnnsscomp.exe
 BoxTSLMod/Scripts/nwscript.nss
-BoxTSLMod/Scripts/Include/box_inc_force.nss
-BoxTSLMod/Scripts/Include/box_inc_poison.nss
-BoxTSLMod/Scripts/Include/box_inc_shields.nss
+BoxTSLMod/Scripts/Include/Top/box_inc_forcefeat.nss
+BoxTSLMod/Scripts/Include/Top/box_inc_poison.nss
+BoxTSLMod/Scripts/Include/Top/box_inc_shieldindex.nss
 BoxTSLMod/installlog.rtf
 BoxTSLMod/installlog.txt
-BoxTSLMod/Scripts/box_inc.nss
 BoxTSLMod/Scripts/tmp.txt
 BoxTSLMod/TSLPatcher.exe
 

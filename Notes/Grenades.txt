@@ -340,5 +340,27 @@ Well it's an idea, certainly weapons with AOE are better than those without
 
 
 
+Here's another idea
+Since being able to use only one kind of grenade is boring, we can have each launcher compatible with 2 kinds of grenades:
 
+Grenade Launcher - Frag Grenade, Flash Grenade
+Gas Grenade Launcher - Poison Grenade, Sleep Grenade
+Sonic Detonator Launcher - Sonic Grenade, Sonic Detonator
+Plasma Grenade Launcher - Plasma Grenade, Ion Grenade
+
+Rocket Launcher - Explosive Rocket, Incendiary Rocket
+Buster Rocket Launcher - Buster Rocket Mk I, Buster Rocket Mk II
+Plasma Rocket Launcher - Plasma Rocket, Radiation Rocket
+Thermal Detonator Launcher - Thermal Detonator, Fusion Rocket
+
+
+Also while we're at it
+
+Peragus Fuel Burner - Peragian Fuel
+Flamethrower - Peragian Fuel, Flamethrower Fuel, ???, Plasma Fuel
+Carbonite Projector - Carbonite, ???, ???
+Dart Gun - Poison Dart, Tranquilizing Dart, Paralyzing Dart, Kyber Dart
+Grappling Hook Launcher - Grappling Hook
+Ion Blaster - Ion Fuel, Plasma Fuel?
+Disruption Blaster - Antimatter Fuel
 

@@ -4,7 +4,10 @@
 // Include file for explosives visual effects
 
 // 
-void Box_NullVisual(location l) {}
+void Box_NoVisual(location l) {}
+
+// 
+void Box_NoBeam(object oUser, object oTarget) {}
 
 // 
 void Box_FragGrenadeExplode(location lExplosion) {
@@ -13,7 +16,7 @@ void Box_FragGrenadeExplode(location lExplosion) {
 }
 
 // 
-void Box_StunGrenadeExplode(location lExplosion) {
+void Box_FlashGrenadeExplode(location lExplosion) {
 	ApplyEffectAtLocation(DURATION_TYPE_INSTANT, EffectVisualEffect(3004), lExplosion);
 }
 

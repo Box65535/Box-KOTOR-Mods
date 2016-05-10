@@ -190,13 +190,13 @@ Grenade Launcher
 
 Flash Grenade Launcher
 -9 Second Stun
--Attack -4 for 9 Seconds on Save (Reflex or Will, None)
+-Nothing on Save (Reflex or Will, None)
 -DC 20
 
 Gas Grenade Launcher
 -20 Poison Damage (2 every 3 for 30 seconds)
 -Str/Dex -4 Ability Poison for 30 Seconds
--Effect only for 15 seconds on Save (Fortitude or Reflex, Poison)
+-Nothing on Save (Fortitude or Reflex, Poison)
 -DC 20
 
 Sonic Charge Launcher

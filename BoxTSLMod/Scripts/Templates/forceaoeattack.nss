@@ -18,6 +18,9 @@ void main() {
 	object oUser = OBJECT_SELF;
 	struct Box_Array aTargets = Box_GetEnemyTargets(oUser, #LOCATION_FUNCTION, shape, radius);
 	
+	// Force
+	int force = Box_GetPowerDC(oUser, alignment);
+	
 	// Check Cast DC
 	if (!Box_RollCastDC(oUser, castDC, alignment)) {
 		ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectForceFizzle(), oUser);
@@ -29,7 +32,7 @@ void main() {
 		for (index = 0; index < Box_ArraySize(aTargets); index++) {
 			
 			object oTarget = Box_ArrayGet(aTargets, index);
-			int saveResult = #FUNCTION_CALL(oUser, oTarget);
+			int saveResult = #FUNCTION_CALL(oUser, oTarget, force);
 			
 			if (saveResult == IMMUNE)
 				Box_SignalSpellImmune(oTarget, name);

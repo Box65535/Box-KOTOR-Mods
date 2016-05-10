@@ -8,7 +8,7 @@
 void main() {
 	
 	// Spawn Script
-	ExecuteScript(#SCRIPT, OBJECT_SELF);
+	ExecuteScript(#CHILD_SCRIPT, OBJECT_SELF);
 	
 	// Equipment
 	#FUNCTION_CALL(OBJECT_SELF);

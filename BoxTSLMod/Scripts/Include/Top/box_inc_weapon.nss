@@ -68,6 +68,39 @@ int Box_PlasmaWeapon(object oTarget, int dc, int damage, int saveDamage, int sav
 }
 
 //
+int Box_FlashWeapon(object oTarget, int dc, int save, float duration) {
+	
+	// Properties
+	effect eStun = EffectStunned();
+	int saveType = SAVING_THROW_TYPE_NONE;
+	
+	// Damage
+	return Box_EffectWeapon(oTarget, eStun, save, saveType, duration);
+}
+
+//
+int Box_StunWeapon(object oTarget, int dc, int save, float duration) {
+	
+	// Properties
+	effect eStun = EffectStunned();
+	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
+	
+	// Damage
+	return Box_EffectWeapon(oTarget, eStun, save, saveType, duration);
+}
+
+//
+int Box_ConfuseWeapon(object oTarget, int dc, int save, float duration) {
+	
+	// Properties
+	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
+	effect eConfuse = 
+	
+	// Damage
+	return Box_EffectWeapon(oTarget, eStun, save, saveType, duration);
+}
+
+//
 int Box_IonWeapon(object oTarget, int dc, int damage, int saveDamage, int droidDamage,
 		int save, float duration) {
 	
@@ -171,11 +204,24 @@ int Box_PoisonWeapon(object oTarget, int poison) {
 }
 
 //
+int Box_BurnWeapon(object oTarget, int dc, int damage, int saveDamage, int save, int abilities, float duration) {
+	
+	// Properties
+	int damageType = DAMAGE_TYPE_FIRE;
+	int saveType = SAVING_THROW_TYPE_FIRE;
+	effect eBurn = EffectAbilityDecrease(ABILITY_CONSTITUTION, abilities);
+	
+	// Damage/Effects
+	return Box_DamageAndEffectWeapon(oTarget, dc, damage, saveDamage, damageType, eBurn,
+			save, saveType, duration);
+}
+
+//
 int Box_DetonatorWeapon(object oTarget, int dc, int damage, int saveDamage, int save) {
 	
 	// Properties
-	int damageType = DAMAGE_TYPE_SONIC;
-	int saveType = SAVING_THROW_TYPE_SONIC;
+	int damageType = DAMAGE_TYPE_BLASTER;
+	int saveType = SAVING_THROW_TYPE_NONE;
 	float duration = 0.1;
 	effect ePush = EffectForcePushTargetted(GetSpellTargetLocation());
 	

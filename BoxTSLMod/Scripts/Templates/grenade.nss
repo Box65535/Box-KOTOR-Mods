@@ -10,7 +10,7 @@ void main() {
 	// Spell properties
 	string name = "#SPELL_NAME";
 	float radius = #RADIUS;
-	int shape = #SPELL_SHAPE;
+	int shape = SHAPE_SPHERE;
 	
 	// Targeting
 	object oUser = OBJECT_SELF;

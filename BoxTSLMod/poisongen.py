@@ -52,7 +52,7 @@ for i in range(0, len(poisoncodes)):
 		# weapons = weapons.replace(poisoncodes[i], '2DAMEMORY' + str(i+1))
 		
 mines = 'error'
-with open('box_inc_mines.nss') as file:
+with open('box_inc_poison.nss') as file:
 	mines = file.read()
 	for i in range(0, len(poisoncodes)):
 		mines = mines.replace(poisoncodes[i], '2DAMEMORY' + str(i+1))
@@ -66,6 +66,6 @@ with open('tslpatchdata\\poison.ini', 'w') as file:
 # with open('tslpatchdata\\box_inc_weapon.nss', 'w') as file:
 	# file.write(weapons)
 
-with open('tslpatchdata\\box_inc_mines.nss', 'w') as file:
+with open('tslpatchdata\\box_inc_poison.nss', 'w') as file:
 	file.write(mines)
 

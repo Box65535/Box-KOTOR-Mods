@@ -44,7 +44,7 @@ TSLPatcher.exe shields.ini
 TSLPatcher.exe dc.ini
 TSLPatcher.exe upgrades.ini
 TSLPatcher.exe costs.ini
-copy tslpatchdata\debug\* Scripts\Include
+copy tslpatchdata\debug\* Scripts\Include\Top
 
 TSLPatcher.exe 101PER.ini 
 TSLPatcher.exe 102PER.ini 
@@ -56,16 +56,9 @@ TSLPatcher.exe 107PER.ini
 
 cd Scripts
 copy Class\* Source
-copy Force\* Source
-copy Grenades\* Source
-copy Healing\* Source
-copy Mines\* Source
-copy Misc\* Source
-copy Shields\* Source
-rem Need to add the script that moves the spawn includes to the correct spot
-copy Spawn\* Source
-copy Stims\* Source
-copy Treasure\* Source
+python scriptgen.py
+copy Spawn\* .\
+copy Treasure\* .\
 echo. > box_inc.nss
 type Include\Top\TopTop\* >> .\box_inc.nss
 type Include\Top\* >> .\box_inc.nss

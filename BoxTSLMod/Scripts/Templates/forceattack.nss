@@ -16,6 +16,9 @@ void main() {
 	object oUser = OBJECT_SELF;
 	object oTarget = GetSpellTargetObject();
 	
+	// Force
+	int force = Box_GetPowerDC(oUser, alignment);
+	
 	// Check Cast DC
 	if (!Box_RollCastDC(oUser, castDC, alignment)) {
 		ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectForceFizzle(), oUser);
@@ -23,7 +26,7 @@ void main() {
 	}
 	// Damage/Effects
 	else {
-		int saveResult = #FUNCTION_CALL(oUser, oTarget);
+		int saveResult = #FUNCTION_CALL(oUser, oTarget, force);
 		if (saveResult == IMMUNE)
 			Box_SignalSpellImmune(oTarget, name);
 		else if (saveResult == SAVED)

@@ -3,216 +3,121 @@
 // Written by Box
 // Include file for grenades
 
-//
+
+// Peragus Grenades
+int Box_PeragusSonicGrenade(object oTarget) {
+	int save = Box_GetBestSave(oTarget, SAVING_THROW_REFLEX, SAVING_THROW_WILL);
+	return Box_SonicWeapon(oTarget, 10, 8, 2, save, 4, 30.0);
+}
+
+
+// Loose Grenades
 int Box_FragGrenade(object oTarget) {
-	
-	//
-	int dc = 12;
-	int damage = 20;
-	int saveDamage = 8;
+	int save = SAVING_THROW_REFLEX;
+	return Box_PiercingWeapon(oTarget, 12, 20, 4, save);
+}
+
+int Box_FlashGrenade(object oTarget) {
+	int save = Box_GetBestSave(oTarget, SAVING_THROW_REFLEX, SAVING_THROW_WILL);
+	return Box_FlashWeapon(oTarget, 12, save, 9.0);
+}
+
+int Box_IonGrenade(object oTarget) {
+	int save = Box_GetBestSave(oTarget, SAVING_THROW_FORT, SAVING_THROW_REFLEX);
+	return Box_IonWeapon(oTarget, 12, 12, 4, 12, save, 6.0);
+}
+
+int Box_SonicGrenade(object oTarget) {
+	int save = Box_GetBestSave(oTarget, SAVING_THROW_REFLEX, SAVING_THROW_WILL);
+	return Box_SonicWeapon(oTarget, 12, 16, 4, save, 4, 30.0);
+}
+
+int Box_ColdGrenade(object oTarget) {
+	int save = Box_GetBestSave(oTarget, SAVING_THROW_FORT, SAVING_THROW_REFLEX);
+	return Box_ColdWeapon(oTarget, 14, 24, 4, save, 6.0);
+}
+
+int Box_PlasmaGrenade(object oTarget) {
+	int save = SAVING_THROW_REFLEX;
+	return Box_PlasmaWeapon(oTarget, 14, 32, 4, save);
+}
+
+int Box_DetonatorGrenade(object oTarget) {
+	int save = SAVING_THROW_REFLEX;
+	return Box_DetonatorWeapon(oTarget, 24, 60, 20, save);
+}
+
+
+// Grenade Launchers
+int Box_FragGrenadeLauncher(object oTarget) {
+	int save = SAVING_THROW_REFLEX;
+	return Box_PiercingWeapon(oTarget, 18, 24, 6, save);
+}
+
+int Box_FlashGrenadeLauncher(object oTarget) {
+	int save = Box_GetBestSave(oTarget, SAVING_THROW_REFLEX, SAVING_THROW_WILL);
+	return Box_FlashWeapon(oTarget, 18, save, 9.0);
+}
+
+int Box_PoisonGrenadeLauncher(object oTarget) {
+	return Box_PoisonWeapon(oTarget, GAS_GRENADE);
+}
+
+int Box_SonicGrenadeLauncher(object oTarget) {
+	int save = Box_GetBestSave(oTarget, SAVING_THROW_REFLEX, SAVING_THROW_WILL);
+	return Box_SonicWeapon(oTarget, 18, 24, 6, save, 6, 30.0);
+}
+
+int Box_PlasmaGrenadeLauncher(object oTarget) {
+	int save = SAVING_THROW_REFLEX;
+	return Box_PlasmaWeapon(oTarget, 20, 36, 6, save);
+}
+
+int Box_DetonatorGrenadeLauncher(object oTarget) {
+	int save = SAVING_THROW_REFLEX;
+	return Box_DetonatorWeapon(oTarget, 28, 60, 20, save);
+}
+
+
+// Rocket Launchers
+int Box_ExplosiveRocket(object oTarget) {
+	int save = SAVING_THROW_REFLEX;
+	return Box_PiercingWeapon(oTarget, 24, 48, 12, save);
+}
+
+int Box_BusterRocket(object oTarget) {
 	int damageType = DAMAGE_TYPE_PIERCING;
 	int save = SAVING_THROW_REFLEX;
 	int saveType = SAVING_THROW_TYPE_NONE;
-	
-	int saveResult = Box_RollSavingThrow(oTarget, dc, save, saveType);
-	//
-	if (saveResult == SAVE_FAILED) {
-		
-		Box_DealDamage(oTarget, damage, damageType);
-	}
-	//
-	else if (saveResult == SAVED) {
-		Box_DealDamage(oTarget, saveDamage, damageType);
-	}
-	
-	return saveResult;
+	effect ePush = EffectForcePushTargetted(GetSpellTargetLocation());
+	float duration = 0.1;
+	return Box_DamageAndEffectWeapon(oTarget, 24, 60, 12, ePush, damageType, save, saveType, duration);
 }
 
-//
-int Box_StunGrenade(object oTarget) {
-	
-	//
-	int dc = 12;
-	float duration = 9.0;
-	int save = Box_GetBestSave(oTarget, SAVING_THROW_REFLEX, SAVING_THROW_WILL);
-	int saveType = SAVING_THROW_TYPE_NONE;
-	
-	//
-	effect eStun = EffectStunned();
-	// effect eDistract = EffectACDecrease(1, AC_DODGE_BONUS, AC_VS_DAMAGE_TYPE_ALL);
-	
-	int saveResult = Box_RollSavingThrow(oTarget, dc, save, saveType);
-	//
-	if (saveResult == SAVE_FAILED) {
-		
-		ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eStun, oTarget, duration);
-	}
-	//
-	else if (saveResult == SAVED) {
-		// ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eDistract, oTarget, 6.0);
-	}
-	
-	return saveResult;
-}
-
-//
-int Box_IonGrenade(object oTarget) {
-	
-	//
-	int dc = 12;
-	int damage = 12;
-	int droidDamage = 18;
-	int saveDamage = 8;
-	int damageType = DAMAGE_TYPE_ION;
-	float duration = 6.0;
-	int save = SAVING_THROW_REFLEX;
-	int saveType = SAVING_THROW_TYPE_ION;
-	
-	effect eStun = EffectDroidStun();
-	
-	int saveResult = Box_RollSavingThrow(oTarget, dc, save, saveType);
-	//
-	if (saveResult == SAVE_FAILED) {
-		
-		Box_DealDamage(oTarget, damage, damageType);
-		
-		if (Box_IsDroid(oTarget)) {
-			Box_DealDamage(oTarget, droidDamage, damageType);
-			ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eStun, oTarget, duration);
-		}
-		else {
-			Box_DealDamage(oTarget, damage, damageType);
-		}
-	}
-	//
-	else if (saveResult == SAVED) {
-		Box_DealDamage(oTarget, saveDamage, damageType);
-	}
-	
-	return saveResult;
-}
-
-//
-int Box_SonicGrenade(object oTarget) {
-	
-	//
-	int dc = 12;
-	int damage = 16;
-	int saveDamage = 8;
-	int damageType = DAMAGE_TYPE_SONIC;
-	float duration = 30.0;
-	int save = Box_GetBestSave(oTarget, SAVING_THROW_REFLEX, SAVING_THROW_WILL);
-	int saveType = SAVING_THROW_TYPE_SONIC;
-	
-	//
-	effect eSonic = EffectAbilityDecrease(ABILITY_INTELLIGENCE, 4);
-	eSonic = EffectLinkEffects(eSonic, EffectAbilityDecrease(ABILITY_WISDOM, 4));
-	eSonic = EffectLinkEffects(eSonic, EffectAbilityDecrease(ABILITY_CHARISMA, 4));
-	
-	int saveResult = Box_RollSavingThrow(oTarget, dc, save, saveType);
-	//
-	if (saveResult == SAVE_FAILED) {
-		
-		Box_DealDamage(oTarget, damage, damageType);
-		ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eSonic, oTarget, duration);
-	}
-	//
-	else if (saveResult == SAVED) {
-		Box_DealDamage(oTarget, saveDamage, damageType);
-		ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eSonic, oTarget, 9.0);
-	}
-	
-	return saveResult;
-}
-
-//
-int Box_ColdGrenade(object oTarget) {
-	
-	//
-	int dc = 14;
-	int damage = 24;
-	int saveDamage = 8;
-	int damageType = DAMAGE_TYPE_COLD;
-	float duration = 6.0;
+int Box_IncendiaryRocket(object oTarget) {
 	int save = Box_GetBestSave(oTarget, SAVING_THROW_FORT, SAVING_THROW_REFLEX);
-	int saveType = SAVING_THROW_TYPE_COLD;
-	
-	//
-	effect eStun;
-	if (Box_IsDroid(oTarget)) {
-		eStun = EffectDroidStun();
-	}
-	else {
-		eStun = EffectParalyze();
-	}
-	
-	int saveResult = Box_RollSavingThrow(oTarget, dc, save, saveType);
-	//
-	if (saveResult == SAVE_FAILED) {
-		
-		Box_DealDamage(oTarget, damage, damageType);
-		ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eStun, oTarget, duration);
-	}
-	//
-	else if (saveResult == SAVED) {
-		Box_DealDamage(oTarget, damage/2, damageType);
-	}
-	
-	return saveResult;
+	return Box_BurnWeapon(oTarget, 24, 36, 12, save, 4, 30.0);
 }
 
-//
-int Box_PlasmaGrenade(object oTarget) {
-	
-	//
-	int dc = 14;
-	int damage = 32;
-	int saveDamage = 8;
-	int damageType = DAMAGE_TYPE_FIRE;
+int Box_PlasmaRocket(object oTarget) {
 	int save = SAVING_THROW_REFLEX;
-	int saveType = SAVING_THROW_TYPE_FIRE;
-	
-	int saveResult = Box_RollSavingThrow(oTarget, dc, save, saveType);
-	//
-	if (saveResult == SAVE_FAILED) {
-		
-		Box_DealDamage(oTarget, damage, damageType);
-	}
-	//
-	else if (saveResult == SAVED) {
-		Box_DealDamage(oTarget, saveDamage, damageType);
-	}
-	
-	return saveResult;
+	return Box_PlasmaWeapon(oTarget, 26, 36, 6, save);
 }
 
+int Box_RadiationRocket(object oTarget) {
+	Box_DealDamage(oTarget, 20, DAMAGE_TYPE_FIRE);
+	return Box_PoisonWeapon(RADIATION_ROCKET);
+}
 
-//
-int Box_ThermalDetonator(object oTarget) {
-	
-	//
-	int dc = 20;
-	int damage = 80;
-	int saveDamage = 20;
-	int damageType = DAMAGE_TYPE_BLASTER;
+int Box_DetonatorRocket(object oTarget) {
 	int save = SAVING_THROW_REFLEX;
-	int saveType = SAVING_THROW_TYPE_NONE;
-	
-	// TODO: Force push? Need to pass a location
-	
-	int saveResult = Box_RollSavingThrow(oTarget, dc, save, saveType);
-	//
-	if (saveResult == SAVE_FAILED) {
-		
-		Box_DealDamage(oTarget, damage, damageType);
-	}
-	//
-	else if (saveResult == SAVED) {
-		Box_DealDamage(oTarget, saveDamage, damageType);
-	}
-	
-	return saveResult;
+	return Box_DetonatorWeapon(oTarget, 32, 80, 40, save);
 }
+
+
+
+
+
 
 
 

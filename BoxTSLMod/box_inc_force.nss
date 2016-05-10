@@ -23,12 +23,10 @@ int POWER_TYPE_DARK = 3;
 int FORCE_FEAT_1 = #BOX_FORCE1#;
 int FORCE_FEAT_2 = #BOX_FORCE2#;
 int FORCE_FEAT_3 = #BOX_FORCE3#;
-// int FORCE_FEAT_4 = #BOX_FORCE4#;
-// int FORCE_FEAT_5 = #BOX_FORCE5#;
 int FEAT_FORCE_SEVER = 2; // This should be advanced guard stance, an unused feat
 
 //
-int Box_GetForceByClassLevel(int class, int level, int totalLevel) {
+int Box_GetForceByClassLevel(int class, int level) {
 	
 	int force = 0;
 	
@@ -39,77 +37,49 @@ int Box_GetForceByClassLevel(int class, int level, int totalLevel) {
 		
 		if (level >= 1)
 			force += 2;
-		if (level >= 3)
+		if (level >= 2)
 			force += 1;
 		if (level >= 4)
 			force += 1;
 		if (level >= 5)
 			force += 1;
-		if (level >= 7)
+		if (level >= 6)
 			force += 1;
 		if (level >= 8)
 			force += 1;
 		if (level >= 9)
 			force += 1;
-		if (level >= 11)
+		if (level >= 10)
 			force += 1;
 		if (level >= 12)
 			force += 1;
 		if (level >= 13)
 			force += 1;
-		if (level >= 15)
+		if (level >= 14)
 			force += 1;
 		if (level >= 16)
 			force += 1;
 		if (level >= 17)
 			force += 1;
-		if (level >= 19)
+		if (level >= 18)
 			force += 1;
 		if (level >= 20)
 			force += 1;
 		if (level >= 21)
 			force += 1;
-		if (level >= 23)
+		if (level >= 22)
 			force += 1;
 		if (level >= 24)
 			force += 1;
 		if (level >= 25)
 			force += 1;
-		if (level >= 27)
+		if (level >= 26)
 			force += 1;
 		if (level >= 28)
 			force += 1;
 		if (level >= 29)
 			force += 1;
-		if (level >= 31)
-			force += 1;
-		if (level >= 32)
-			force += 1;
-		if (level >= 33)
-			force += 1;
-		if (level >= 35)
-			force += 1;
-		if (level >= 36)
-			force += 1;
-		if (level >= 37)
-			force += 1;
-		if (level >= 39)
-			force += 1;
-		if (level >= 40)
-			force += 1;
-		if (level >= 41)
-			force += 1;
-		if (level >= 43)
-			force += 1;
-		if (level >= 44)
-			force += 1;
-		if (level >= 45)
-			force += 1;
-		if (level >= 47)
-			force += 1;
-		if (level >= 48)
-			force += 1;
-		if (level >= 49)
+		if (level >= 30)
 			force += 1;
 	}
 	//
@@ -118,55 +88,35 @@ int Box_GetForceByClassLevel(int class, int level, int totalLevel) {
 		(class == CLASS_JEDI_PRESTIGE_GUARDIAN) ||
 		(class == CLASS_JEDI_PRESTIGE_SENTINEL)) {
 		
-		if (level >= 1)
+		if (level >= 2)
 			force += 2;
-		if (level >= 3)
+		if (level >= 4)
 			force += 1;
-		if (level >= 5)
+		if (level >= 6)
 			force += 1;
-		if (level >= 7)
+		if (level >= 8)
 			force += 1;
-		if (level >= 9)
+		if (level >= 10)
 			force += 1;
-		if (level >= 11)
+		if (level >= 12)
 			force += 1;
-		if (level >= 13)
+		if (level >= 14)
 			force += 1;
-		if (level >= 15)
+		if (level >= 16)
 			force += 1;
-		if (level >= 17)
+		if (level >= 18)
 			force += 1;
-		if (level >= 19)
+		if (level >= 20)
 			force += 1;
-		if (level >= 21)
+		if (level >= 22)
 			force += 1;
-		if (level >= 23)
+		if (level >= 24)
 			force += 1;
-		if (level >= 25)
+		if (level >= 26)
 			force += 1;
-		if (level >= 27)
+		if (level >= 28)
 			force += 1;
-		if (level >= 29)
-			force += 1;
-		if (level >= 31)
-			force += 1;
-		if (level >= 33)
-			force += 1;
-		if (level >= 35)
-			force += 1;
-		if (level >= 37)
-			force += 1;
-		if (level >= 39)
-			force += 1;
-		if (level >= 41)
-			force += 1;
-		if (level >= 43)
-			force += 1;
-		if (level >= 45)
-			force += 1;
-		if (level >= 47)
-			force += 1;
-		if (level >= 49)
+		if (level >= 30)
 			force += 1;
 	}
 	//
@@ -235,17 +185,6 @@ int Box_GetBaseForce(object oUser, int powerAlignment) {
 		int level = GetLevelByClass(class, oUser);
 		force += Box_GetForceByClassLevel(class, level, totalLevel);
 	}
-	
-	// if (GetFeatAcquired(FORCE_FEAT_1, oUser))
-		// force++;
-	// if (GetFeatAcquired(FORCE_FEAT_2, oUser))
-		// force++;
-	// if (GetFeatAcquired(FORCE_FEAT_3, oUser))
-		// force++;
-	// if (GetFeatAcquired(FORCE_FEAT_4, oUser))
-		// force++;
-	// if (GetFeatAcquired(FORCE_FEAT_5, oUser))
-		// force++;
 	
 	force = Box_ModifyForceByAlignment(oUser, force, powerAlignment);
 	

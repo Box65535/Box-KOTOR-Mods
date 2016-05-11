@@ -130,7 +130,7 @@ void Box_SithAssassin(object oEnemy) {
 	Box_EquipHide(oEnemy, HIDE_TYPE_SITH_ASSASSIN, ENEMY_STRENGTH_REGULAR);
 	
 	// Variety would be good so let's use randomness to have 3 types of assassins
-	int random = Random(4)
+	int random = Random(4);
 	if (random == 0) {
 		ActionEquipItem(CreateItemOnObject(SITH_POISON_SWORD, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
 	}

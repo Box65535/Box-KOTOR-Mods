@@ -26,6 +26,8 @@ int HIDE_TYPE_CIVILIAN = 11;
 int HIDE_TYPE_BOUNTY_HUNTER = 12;
 int HIDE_TYPE_TECH_SPEC = 13;
 
+int HIDE_SLOT = INVENTORY_SLOT_CARMOUR;
+
 
 //
 void Box_RemoveAllItems(object oUser) {
@@ -66,16 +68,16 @@ int Box_GetEnemyLevel(int enemyStrength) {
 		level = 1;
 	}
 	else if (enemyStrength == ENEMY_STRENGTH_WEAK) {
-		level = level - 3;
+		level = level - 4;
 	}
 	else if (enemyStrength == ENEMY_STRENGTH_REGULAR) {
 		level = level - 2;
 	}
 	else if (enemyStrength == ENEMY_STRENGTH_STRONG) {
-		level = level - 1;
+		level = level;
 	}
 	else if (enemyStrength == ENEMY_STRENGTH_BOSS) {
-		level = level;
+		level = level + 2;
 	}
 	
 	if (level < 1)
@@ -177,6 +179,12 @@ string Box_GetHideTemplate(int hideType, int enemyStrength) {
 	}
 	
 	return "eh_ " + hideString + strengthString + levelString;
+}
+
+void Box_EquipHide(object oUser, int hideType, int enemyStrength) {
+	string hideTag = Box_GetHideTemplate(hideType, enemyStrength);
+	object oItem = CreateItemOnObject(hideTag, oUser, 1, TRUE);
+	ActionEquipItem(oItem, HIDE_SLOT, TRUE);
 }
 
 void Box_GrantDualWield(object oUser) {

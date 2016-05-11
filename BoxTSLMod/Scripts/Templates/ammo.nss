@@ -5,11 +5,7 @@
 
 void main() {
 	
-	// Spell Properties
-	int stack = #STACK_SIZE;
-	string item = #ITEM_TAG;
-	
 	// Effects
-	CreateItemOnObject(item, OBJECT_SELF, stack, 0);
+	CreateItemOnObject("#ITEM_TAG", OBJECT_SELF, #STACK_SIZE, 0);
 }
 

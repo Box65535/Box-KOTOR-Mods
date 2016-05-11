@@ -20,7 +20,7 @@ int POWER_TYPE_LIGHT = 2;
 int POWER_TYPE_DARK = 3;
 
 //
-int Box_GetForceByClassLevel(int class, int level) {
+int Box_GetForceByClassLevel(int class, int level, int totalLevel) {
 	
 	int force = 0;
 	
@@ -247,7 +247,7 @@ int Box_CheckSpellSuccess(object oUser, int castDC, int powerAlignment) {
 //
 int Box_GetPowerDC(object oUser, int powerAlignment) {
 	
-	return Box_GetForce(oUser, powerAlignment) + 10;
+	return Box_GetBaseForce(oUser, powerAlignment) + 10;
 }
 
 //

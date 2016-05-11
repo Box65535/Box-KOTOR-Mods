@@ -30,13 +30,13 @@ int Box_EffectWeapon(object oTarget, int dc, effect eEffect, int save, int saveT
 
 //
 int Box_DamageAndEffectWeapon(object oTarget, int dc, int damage, int saveDamage,
-		effect eEffect, int damageType, int save, int saveType, float duration) {
+		int damageType, effect eEffect, int save, int saveType, float duration) {
 	
 	// Damage/Effects
 	int saveResult = Box_RollSavingThrow(oTarget, dc, save, saveType);
 	if (saveResult == SAVE_FAILED) {	
 		Box_DealDamage(oTarget, damage, damageType);
-		ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eStun, oTarget, duration);
+		ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eEffect, oTarget, duration);
 	}
 	else if (saveResult == SAVED) {
 		Box_DealDamage(oTarget, saveDamage, damageType);
@@ -75,7 +75,7 @@ int Box_FlashWeapon(object oTarget, int dc, int save, float duration) {
 	int saveType = SAVING_THROW_TYPE_NONE;
 	
 	// Damage
-	return Box_EffectWeapon(oTarget, eStun, save, saveType, duration);
+	return Box_EffectWeapon(oTarget, dc, eStun, save, saveType, duration);
 }
 
 //
@@ -86,7 +86,18 @@ int Box_StunWeapon(object oTarget, int dc, int save, float duration) {
 	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
 	
 	// Damage
-	return Box_EffectWeapon(oTarget, eStun, save, saveType, duration);
+	return Box_EffectWeapon(oTarget, dc, eStun, save, saveType, duration);
+}
+
+//
+int Box_SleepWeapon(object oTarget, int dc, int save, float duration) {
+	
+	// Properties
+	effect eSleep = EffectSleep();
+	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
+	
+	// Damage
+	return Box_EffectWeapon(oTarget, dc, eSleep, save, saveType, duration);
 }
 
 //
@@ -97,7 +108,7 @@ int Box_ConfuseWeapon(object oTarget, int dc, int save, float duration) {
 	effect eConfuse = EffectFactionModifier(STANDARD_FACTION_INSANE);
 	
 	// Damage
-	return Box_EffectWeapon(oTarget, eStun, save, saveType, duration);
+	return Box_EffectWeapon(oTarget, dc, eConfuse, save, saveType, duration);
 }
 
 //
@@ -165,8 +176,8 @@ int Box_FireWeapon(object oTarget, int dc, int damage, int saveDamage, int save,
 int Box_ShockWeapon(object oTarget, int dc, int damage, int saveDamage, int save, float duration) {
 	
 	// Properties
-	int damageType = DAMAGE_TYPE_ELECTRIC;
-	int saveType = SAVING_THROW_TYPE_ELECTRIC;
+	int damageType = DAMAGE_TYPE_ELECTRICAL;
+	int saveType = SAVING_THROW_TYPE_ELECTRICAL;
 	effect eStun;
 	
 	if (Box_IsDroid(oTarget))
@@ -223,10 +234,10 @@ int Box_DetonatorWeapon(object oTarget, int dc, int damage, int saveDamage, int 
 	int damageType = DAMAGE_TYPE_BLASTER;
 	int saveType = SAVING_THROW_TYPE_NONE;
 	float duration = 0.1;
-	effect ePush = EffectForcePushTargetted(GetSpellTargetLocation());
+	effect ePush = EffectForcePushTargeted(GetSpellTargetLocation());
 	
 	// Damage/Effects
-	return Box_DamageAndEffectWeapon(oTarget, dc, damage, saveDamage, damageType, eStun,
+	return Box_DamageAndEffectWeapon(oTarget, dc, damage, saveDamage, damageType, ePush,
 			save, saveType, duration);
 }
 

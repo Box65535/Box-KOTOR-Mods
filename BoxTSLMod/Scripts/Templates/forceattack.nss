@@ -17,7 +17,7 @@ void main() {
 	object oTarget = GetSpellTargetObject();
 	
 	// Force
-	int force = Box_GetPowerDC(oUser, alignment);
+	int force = Box_GetBaseForce(oUser, alignment);
 	
 	// Check Cast DC
 	if (!Box_RollCastDC(oUser, castDC, alignment)) {

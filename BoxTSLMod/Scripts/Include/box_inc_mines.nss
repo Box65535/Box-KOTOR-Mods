@@ -30,15 +30,15 @@ int Box_SonicMine(object oTarget, int mineLevel) {
 
 int Box_PoisonMine(object oTarget, int mineLevel) {
 	if (mineLevel == 1)
-		return Box_PoisonWeapon(POISON_MINE_1);
+		return Box_PoisonWeapon(oTarget, POISON_MINE_1);
 	else if (mineLevel == 2)
-		return Box_PoisonWeapon(POISON_MINE_2);
+		return Box_PoisonWeapon(oTarget, POISON_MINE_2);
 	else if (mineLevel == 3)
-		return Box_PoisonWeapon(POISON_MINE_3);
+		return Box_PoisonWeapon(oTarget, POISON_MINE_3);
 	else if (mineLevel == 4)
-		return Box_PoisonWeapon(POISON_MINE_4);
+		return Box_PoisonWeapon(oTarget, POISON_MINE_4);
 	else
-		return Box_PoisonWeapon(POISON_MINE_5);
+		return Box_PoisonWeapon(oTarget, POISON_MINE_5);
 }
 
 int Box_FlashMine(object oTarget, int mineLevel) {

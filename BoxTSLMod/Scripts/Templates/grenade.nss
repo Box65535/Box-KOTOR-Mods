@@ -17,14 +17,14 @@ void main() {
 	struct Box_Array aTargets = Box_GetEnemyTargets(oUser, GetSpellTargetLocation(), shape, radius);
 	
 	// Visual effect
-	#VISUAL_FUNCTION(GetSpellTargetLocation())
+	#VISUAL_FUNCTION(GetSpellTargetLocation());
 	
 	// Damage/Effects
 	int index;
 	for (index = 0; index < Box_ArraySize(aTargets); index++) {
 		
 		object oTarget = Box_ArrayGet(aTargets, index);
-		int saveResult = #FUNCTION_CALL(oUser, oTarget);
+		int saveResult = #FUNCTION_CALL(oTarget);
 		
 		if (saveResult == IMMUNE)
 			Box_SignalSpellImmune(oTarget, name);

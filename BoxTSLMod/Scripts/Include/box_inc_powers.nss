@@ -338,7 +338,7 @@ int Box_FearPower(object oUser, object oTarget, int force) {
 }
 
 //
-int Box_ParalyzePower(object oUser, object oTarget, int force) {
+int Box_ParalysisPower(object oUser, object oTarget, int force) {
 	
 	//
 	int powerDC = 10 + force;
@@ -535,12 +535,12 @@ int Box_LightPower(object oUser, object oTarget, int force) {
 		
 		int damage = 0;
 		int hitLeft = GetCurrentHitPoints(oTarget);
-		int duration = 0.0f;
+		float duration = 0.0;
 		int i;
 		for (i = 0; i < force; i++) {
 			int evil = (100 - morality) / 5;
 			int damageCalc = Random(evil) + 1;
-			damageCalc = Box_AdjustForceDamage(oUser, saveDamage);
+			damageCalc = Box_AdjustForceDamage(oUser, damageCalc);
 			
 			if (damageCalc > hitLeft)
 				duration = duration + (0.1f * damageCalc);
@@ -556,7 +556,7 @@ int Box_LightPower(object oUser, object oTarget, int force) {
 		SetGoodEvilValue(oTarget, morality);
 		
 		if (damage > 0)
-			Box_DealDamage(oUser, oTarget, damage, damageType);
+			Box_DealDamage(oTarget, damage, damageType);
 		
 		if (duration > 0.0f)
 			Box_PerformForceEffect(oUser, oTarget, eSleep, duration);
@@ -576,7 +576,7 @@ int Box_LightPower(object oUser, object oTarget, int force) {
 		if (saveDamage > hitLeft)
 			saveDamage = hitLeft;
 		
-		Box_DealDamage(oUser, oTarget, saveDamage, damageType);
+		Box_DealDamage(oTarget, saveDamage, damageType);
 	}
 	
 	return saveResult;

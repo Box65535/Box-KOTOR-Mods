@@ -46,14 +46,19 @@ void Box_PlasmaGrenadeExplode(location lExplosion) {
 }
 
 // 
-void Box_EnergyGrenadeExplode(location lExplosion) {
+void Box_DetonatorGrenadeExplode(location lExplosion) {
 	ApplyEffectAtLocation(DURATION_TYPE_INSTANT, EffectVisualEffect(1044), lExplosion);
 	ApplyEffectAtLocation(DURATION_TYPE_INSTANT, EffectVisualEffect(3005), lExplosion);
 }
 
 //
 void Box_RocketExplode(location lExplosion) {
-	Box_EnergyGrenadeExplode(lExplosion);
+	Box_DetonatorGrenadeExplode(lExplosion);
+}
+
+//
+void Box_FireRocketExplode(location lExplosion) {
+	Box_PlasmaGrenadeExplode(lExplosion);
 }
 
 //
@@ -67,13 +72,18 @@ void Box_GasRocketExplode(location lExplosion) {
 }
 
 //
-void Box_IonRocketExplode(location lExplosion) {
+void Box_RadiationRocketExplode(location lExplosion) {
 	Box_IonGrenadeExplode(lExplosion);
 }
 
 //
 void Box_PlasmaRocketExplode(location lExplosion) {
 	Box_PlasmaGrenadeExplode(lExplosion);
+}
+
+//
+void Box_FusionRocketExplode(location lExplosion) {
+	Box_DetonatorGrenadeExplode(lExplosion);
 }
 
 //
@@ -92,7 +102,10 @@ void Box_CarboniteBeam(object oUser, object oTarget) {
 	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eBeam, oTarget, 1.0);
 }
 
-
+//
+void Box_BusterRocketBeam(object oUser, object oTarget) {
+	Box_DetonatorGrenadeExplode(GetLocation(oTarget));
+}
 
 
 

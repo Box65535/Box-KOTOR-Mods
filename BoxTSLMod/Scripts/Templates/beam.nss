@@ -18,7 +18,7 @@ void main() {
 	#VISUAL_FUNCTION(oUser, oTarget);
 	
 	// Damage/Effects
-	int saveResult = #FUNCTION_CALL(oUser, oTarget);
+	int saveResult = #FUNCTION_CALL(oTarget);
 	if (saveResult == IMMUNE)
 		Box_SignalSpellImmune(oTarget, name);
 	else if (saveResult == SAVED)

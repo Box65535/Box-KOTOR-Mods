@@ -63,14 +63,26 @@ int Box_PoisonGrenadeLauncher(object oTarget) {
 	return Box_PoisonWeapon(oTarget, GAS_GRENADE);
 }
 
+int Box_SleepGrenadeLauncher(object oTarget) {
+	return 0;
+}
+
 int Box_SonicGrenadeLauncher(object oTarget) {
 	int save = Box_GetBestSave(oTarget, SAVING_THROW_REFLEX, SAVING_THROW_WILL);
 	return Box_SonicWeapon(oTarget, 18, 24, 6, save, 6, 30.0);
 }
 
+int Box_SonicGrenadeLauncher2(object oTarget) {
+	return 0;
+}
+
 int Box_PlasmaGrenadeLauncher(object oTarget) {
 	int save = SAVING_THROW_REFLEX;
 	return Box_PlasmaWeapon(oTarget, 20, 36, 6, save);
+}
+
+int Box_IonGrenadeLauncher(object oTarget) {
+	return 0;
 }
 
 int Box_DetonatorGrenadeLauncher(object oTarget) {
@@ -89,9 +101,13 @@ int Box_BusterRocket(object oTarget) {
 	int damageType = DAMAGE_TYPE_PIERCING;
 	int save = SAVING_THROW_REFLEX;
 	int saveType = SAVING_THROW_TYPE_NONE;
-	effect ePush = EffectForcePushTargetted(GetSpellTargetLocation());
+	effect ePush = EffectForcePushTargeted(GetSpellTargetLocation());
 	float duration = 0.1;
-	return Box_DamageAndEffectWeapon(oTarget, 24, 60, 12, ePush, damageType, save, saveType, duration);
+	return Box_DamageAndEffectWeapon(oTarget, 24, 60, 12, damageType, ePush, save, saveType, duration);
+}
+
+int Box_BusterRocket2(object oTarget) {
+	return 0;
 }
 
 int Box_IncendiaryRocket(object oTarget) {
@@ -109,7 +125,7 @@ int Box_RadiationRocket(object oTarget) {
 	return Box_PoisonWeapon(oTarget, RADIATION_ROCKET);
 }
 
-int Box_DetonatorRocket(object oTarget) {
+int Box_FusionRocket(object oTarget) {
 	int save = SAVING_THROW_REFLEX;
 	return Box_DetonatorWeapon(oTarget, 32, 80, 40, save);
 }

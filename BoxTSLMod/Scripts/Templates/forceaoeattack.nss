@@ -19,7 +19,7 @@ void main() {
 	struct Box_Array aTargets = Box_GetEnemyTargets(oUser, #LOCATION_FUNCTION, shape, radius);
 	
 	// Force
-	int force = Box_GetPowerDC(oUser, alignment);
+	int force = Box_GetBaseForce(oUser, alignment);
 	
 	// Check Cast DC
 	if (!Box_RollCastDC(oUser, castDC, alignment)) {

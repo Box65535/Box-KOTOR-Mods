@@ -16,6 +16,9 @@ void main() {
 	object oUser = OBJECT_SELF;
 	struct Box_Array aTargets = Box_GetPartyTargets(oUser);
 	
+	// Force
+	int force = Box_GetBaseForce(oUser, alignment);
+	
 	// Check Cast DC
 	if (!Box_RollCastDC(oUser, castDC, alignment)) {
 		ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectForceFizzle(), oUser);
@@ -26,7 +29,7 @@ void main() {
 		int index;
 		for (index = 0; index < Box_ArraySize(aTargets); index++) {
 			object oTarget = Box_ArrayGet(aTargets, index);
-			#FUNCTION_CALL(oUser, oTarget);
+			#FUNCTION_CALL(oUser, oTarget, force);
 		}
 	}
 }

@@ -197,9 +197,10 @@ Battle Stimulant
 
 Endurance Stimulant
 +4 Con
-40 Healing (2/2 for 40 seconds)
+40 Healing (4/3 for 30 seconds)
 Remove Poison
 Immune to Poison
+Immune to Paralysis
 
 Agility Stimulant
 +4 Dex
@@ -369,8 +370,7 @@ Turrets:
 Blaster Turret
 1d8 Energy / 20-20 x1
 40 VitalityRegular Blaster Ammo
-Rapid Blaster Turret1d8 Energy / 20-20 x1Improved Rapid Shot60 VitalityRegular Blaster Ammo
-Heavy Turret1d16 Energy / 20-20 x1Master Power Shot80 VitalityHeavy Green Blaster Ammo
+Rapid Blaster Turret1d8 Energy / 20-20 x1Improved Rapid Shot60 VitalityRegular Blaster AmmoHeavy Turret1d16 Energy / 20-20 x1Master Power Shot80 VitalityHeavy Green Blaster Ammo
 
 Heavy Rapid Turret1d16 Energy / 20-20 x1Master Rapid Shot
 80 VitalityGreen Blaster AmmoIon Turret1d8 Ion / 20-20 x1+1d4 Ion vs DroidCan use Ion Blaster once per minute60 VitalityIon AmmoSonic Disruptor Turret1d10 Sonic / 20-20 x180 VitalitySonic Ammo

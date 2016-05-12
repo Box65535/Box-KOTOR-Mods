@@ -20,7 +20,7 @@ void Box_RemoveEffects(int effectType, object oTarget)
 void Box_Medpac(object oUser, int regen, float duration) {
 	
 	effect eHeal = EffectRegenerate(regen, 2.0f);
-	effect eStun = EffectStunned(); // I cannot remember what this is supposed to be
+	effect eStun = EffectSleep(); // I cannot remember what this is supposed to be
 	
 	effect eMedpac = EffectLinkEffects(eHeal, eStun);
 	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eMedpac, oUser, duration);
@@ -71,6 +71,11 @@ void Box_Medpac3(object oUser) {
 	Box_Medpac(oUser, 30, 8.0f);
 }
 
+// 
+void Box_Medpac4(object oUser) {
+	Box_Medpac(oUser, 40, 8.0f);
+}
+
 //
 void Box_RepairKit1(object oUser) {
 	Box_RepairKit(oUser, 10, 8.0f);
@@ -87,23 +92,28 @@ void Box_RepairKit3(object oUser) {
 }
 
 //
+void Box_RepairKit4(object oUser) {
+	Box_RepairKit(oUser, 30, 8.0f);
+}
+
+//
 void Box_LifeSupport1(object oUser) {
-	Box_QuickFix(oUser, 40, 4, 30.0f);
+	Box_QuickFix(oUser, 60, 4, 30.0f);
 }
 
 //
 void Box_LifeSupport2(object oUser) {
-	Box_QuickFix(oUser, 80, 4, 30.0f);
+	Box_QuickFix(oUser, 120, 4, 30.0f);
 }
 
 //
 void Box_QuickKit1(object oUser) {
-	Box_QuickFix(oUser, 40, 4, 30.0f);
+	Box_QuickFix(oUser, 60, 4, 30.0f);
 }
 
 //
 void Box_QuickKit2(object oUser) {
-	Box_QuickFix(oUser, 80, 4, 30.0f);
+	Box_QuickFix(oUser, 120, 4, 30.0f);
 }
 
 

@@ -44,3 +44,191 @@ That's a lot of items left, I think the only ones you have done are the weapons/
 Still, shouldn't be too hard, it's mostly a matter of grinding through all of the spell scripts
 
 
+
+Alright now let's review what needs to be done to make a new instance of each type of item:
+
+
+Melee Weapon/Ranged Weapon
+-Create item .uti in the Weapons folder with appropriate properties
+-Set appropriate upgrade level
+-Set appropriate model variation or copy from vanilla item
+-Set name and description
+-If a new base item is required, add a new blob in baseitems.ini
+-Add item to featgen.py to modify it to the correct baseitem
+-Add item to costgen.py with its cost
+-Add item to propgen.py so it can get its +2 enhancement bonus
+-If item uses poison, add poison effect to poison.ini, add to poisongen.py, poison.nss
+-If item uses dc, add a blob to dc.ini
+-Place item in any appropriate enemy or treasure scripts
+-Place item in any appropriate merchant inventories
+
+Armor
+-Create item .uti in the Armor folder with appropriate properties
+-Set appropriate upgrade level
+-Set appropriate model variation or copy from vanilla item
+-Set name and description
+-If a new base item is required, add a new blob in baseitems.ini
+-Add item to featgen.py to modify it to the correct baseitem
+-Add armor DT properties to armorgen.py
+-Add item to costgen.py with its cost
+-Place item in any appropriate enemy or treasure scripts
+-Place item in any appropriate merchant inventories
+
+Upgrades
+-Create item .uti in the Upgrades folder with appropriate properties
+-Set appropriate upgrade level
+-Set appropriate model variation or copy from vanilla item
+-Set name and description
+-Add item to costgen.py with its cost
+-Add item to upgradegen.py in correct order
+-If item uses poison, add poison effect to poison.ini, add to poisongen.py, poison.nss
+-If item uses dc, add a blob to dc.ini
+
+Belts/Static Equipment
+-Create item .uti in the Upgrades folder with appropriate properties
+-Set appropriate model variation or copy from vanilla item
+-Set name and description
+-Add item to featgen.py to modify it to the correct baseitem if necessary
+-Add item to costgen.py with its cost
+-Place item in any appropriate enemy or treasure scripts
+-Place item in any appropriate merchant inventories
+
+Energy Shields
+-Copy item properties from energy shield template
+-Set appropriate model variation or copy from vanilla item
+-Set name and description
+-Add item to featgen.py to modify it to the correct baseitem
+-Add item to costgen.py with its cost
+-Add blob to shieldgen.ini with its properties
+-Add line to shieldindex.nss
+-Add to shieldgen.py
+-Add spell properties and item to spellgen.py
+-Add spell use function to box_inc_shield.nss
+-Add spell to scriptgen.py
+-Place item in any appropriate enemy or treasure scripts
+-Place item in any appropriate merchant inventories
+
+Stimulant Package
+-Copy item properties from stimulant package template
+-Set appropriate model variation or copy from vanilla item
+-Set name and description
+-Add item to featgen.py to modify it to the correct baseitem
+-Add item to costgen.py with its cost
+-Add spell properties and item to spellgen.py
+-Add spell use function to box_inc_stim.nss
+-Add spell to scriptgen.py
+-Place item in any appropriate enemy or treasure scripts
+-Place item in any appropriate merchant inventories
+
+Ammo/Grenades/Etc
+-Copy item properties from ammo template
+-Set appropriate model variation or copy from vanilla item
+-Set name and description
+-Set appropriate baseitem or add to featgen.py
+-Add feat requirement to featgen.py
+-Add item to costgen.py with its cost
+-Add item to upgradegen.py in correct order if appropriate
+-Add spell properties and item to spellgen.py
+-Add spell use function to box_inc_grenades.nss or box_inc_fuelweap.nss
+-Add visual functions to box_inc_visual.nss if necessary
+-Add spell to scriptgen.py and item tag for ammo box script if appropriate
+-Place item in any appropriate enemy or treasure scripts
+-Place item in any appropriate merchant inventories
+
+Ammo Boxes
+-Copy item properties from ammo box template
+-Set appropriate model variation or copy from vanilla item
+-Set name and description
+-Add item to featgen.py to modify it to the correct baseitem
+-Add item to costgen.py with its cost
+-Add item to upgradegen.py in correct order
+-Add spell properties and item to spellgen.py
+-Add spell to scriptgen.py with appropriate item tag for ammo
+-Place item in any appropriate enemy or treasure scripts
+-Place item in any appropriate merchant inventories
+
+Energy Weapons
+-Copy item properties from energy weapon template
+-Set appropriate model variation or copy from vanilla item
+-Set name and description
+-Add item to featgen.py to modify it to the correct baseitem
+-Add item to costgen.py with its cost
+-Add spell properties and item to spellgen.py
+-Add function call to box_inc_energy.nss
+-Add visual functions to box_inc_visual.nss if necessary
+-Add spell to scriptgen.py
+-Place item in any appropriate enemy or treasure scripts
+-Place item in any appropriate merchant inventories
+
+Medpacs/Repair Kits
+-Copy item properties from medpac template
+-Set appropriate model variation or copy from vanilla item
+-Set name and description
+-Add item to featgen.py to modify it to the correct baseitem
+-Add item to costgen.py with its cost
+-Add item to upgradegen.py in correct order
+-Add spell properties and item to spellgen.py
+-Add spell to scriptgen.py
+-Add spell use function to box_inc_heal.nss
+-Place item in any appropriate enemy or treasure scripts
+-Place item in any appropriate merchant inventories
+
+Enemy Weapons
+-Create item .uti in the appropriate Module folder with appropriate properties
+-Set appropriate model variation or copy from vanilla item
+-If a new base item is required, add a new blob in baseitems.ini
+-Add item to featgen.py to modify it to the correct baseitem
+-Add item to costgen.py to set cost to 0
+-If item uses poison, add poison effect to poison.ini, add to poisongen.py, poison.nss
+-If item uses dc, add a blob to dc.ini
+-Place item in any appropriate enemy scripts
+
+Enemy Spell Equipment
+-Create item .uti in the appropriate Module folder with appropriate properties
+-Set appropriate model variation or copy from vanilla item
+-If a new base item is required, add a new blob in baseitems.ini
+-Add item to featgen.py to modify it to the correct baseitem
+-Add item to costgen.py to set cost to 0
+-If item uses poison, add poison effect to poison.ini, add to poisongen.py, poison.nss
+-If item uses dc, add a blob to dc.ini
+-Place item in any appropriate enemy scripts
+
+
+Implants - Not Done
+Implant Upgrades - Not Done
+Turrets - Not Done
+Turret Controllers - Not Done
+Mines - Not Done
+Floating Mines - Not Done
+
+
+And for other things:
+
+
+Feats
+-Add new blob to feat.ini
+-Add feat name and description to .tlk files
+-Add feat codes to featgen.py
+-Add any requiring base items to baseitem.ini
+
+Powers
+-Add power name and description to .tlk files
+-Add power properties to powergen2.py
+-Add power codes to powergen3.py
+-Add power function call to box_inc_powers.nss
+-Add visual functions to box_inc_visual.nss if necessary
+-Add power to scriptgen.py
+
+Enemies
+-Add enemy spawn equipment function to appropriate module include script
+-Add spawn script to scriptgen.py
+-If hide has not been created, add hides to hidegen.py and add to box_inc_enemy.nss
+-Add enemy to modulegen.py
+-Add module to modulegen.py and install.bat if not already added
+
+Treasure
+-Add treasure drop function to appropriate module include script
+-Add treasure script to scriptgen.py
+-Add container to modulegen.py
+-Add module to modulegen.py and install.bat if not already added
+

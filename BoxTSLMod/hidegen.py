@@ -251,9 +251,17 @@ def attack_medium(level):
 			attack += 1
 	return attack
 
+def attack_low(level):
+	attack = 0
+	levelups = [2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50]
+	for up in levelups:
+		if level >= up:
+			attack += 1
+	return attack
+
 def defense_high(level):
 	defense = 1
-	levelups = [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49]
+	levelups = [3, 4, 6, 9, 10, 12, 15, 16, 18, 21, 22, 24, 27, 28, 30, 33, 34, 36, 39, 40, 42, 45, 46, 48]
 	for up in levelups:
 		if level >= up:
 			defense += 1
@@ -261,7 +269,15 @@ def defense_high(level):
 
 def defense_medium(level):
 	defense = 0
-	levelups = [3, 5, 7, 11, 13, 15, 19, 21, 23, 27, 29, 33, 35, 37, 41, 43, 45, 49]
+	levelups = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48]
+	for up in levelups:
+		if level >= up:
+			defense += 1
+	return defense
+
+def defense_low(level):
+	defense = 0
+	levelups = [3, 9, 15, 21, 27, 33, 39, 45]
 	for up in levelups:
 		if level >= up:
 			defense += 1

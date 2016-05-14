@@ -97,40 +97,7 @@ class Script:
 scripts = []
 
 # Generated lines go here
-#FORCEBUFFS
-
-# Generated lines go here
-#FORCETEAMBUFFS
-
-# Generated lines go here
-#FORCEATTACKS
-
-# Generated lines go here
-#FORCEAOEATTACKS
-
-# Generated lines go here
-#GRENADES
-
-# Generated lines go here
-#BEAMS
-
-# Generated lines go here
-#MINES
-
-# Generated lines go here
-#AMMOS
-
-# Generated lines go here
-#SHIELDS
-
-# Generated lines go here
-#BUFFS
-
-# Generated lines go here
-#SPAWNS
-
-# Generated lines go here
-#TREASURES
+#SCRIPTS
 
 
 for script in scripts:

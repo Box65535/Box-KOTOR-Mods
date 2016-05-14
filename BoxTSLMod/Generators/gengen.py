@@ -7,10 +7,6 @@ class Object(object):
 	pass
 
 
-def read_csv(path):
-	with open(path, 'r') as csvfile
-		return csv.DictReader(csvfile)
-
 def check_code(code, file):
 	return (code + '=RowLabel') in file
 
@@ -19,10 +15,25 @@ def check_function(func, file):
 	chk2 = 'void ' + func
 	return (chk1 in file) or (chk2 in file)
 
+def check_item(tag, file):
+	return ('=' + tag + '.uti') in file
+
+def verify_code(code, file):
+	if not check_code(code, file):
+		raise AssertionError
+
+def verify_function(code, file):
+	if not check_function(code, file):
+		raise AssertionError
+
+def verify_item(code, file):
+	if not check_item(code, file):
+		raise AssertionError
+
 def verify_file(path):
 	with open(path) as f:
-		return True
-	return False
+		return
+	raise AssertionError
 
 def add_line(file, data, pattern, marker):
 	replacement = pattern.format(**data) + '\n' + marker
@@ -45,6 +56,18 @@ def set_tlk_header(file):
 	header = 'Header:\n  Language: English\n  Number of Strings: ' + str(num_strings) + '\n\n'
 	return header + file
 	
+def read_file(path):
+	file = 'error'
+	with open(path) as f:
+		file = f.read()
+	if f == 'error'
+		raise AssertionError
+	return file
+
+def load_descriptions(file):
+	return {}
+	
+
 # armorgen.py
 armor_pattern = """armor_list.append(Armor('{0.tag}',
 	{0.bludgeoningdt}, {0.piercingdt}, {0.slashingdt}, {0.unstoppabledt},
@@ -59,6 +82,8 @@ featcode_pattern = """featcodes.append('{0.featcode}')"""
 featname_pattern = """featnames.append('{0.featname}_N')"""
 itemcode_pattern = """itemcodes.append('{0.baseitemcode}')"""
 baseitem_pattern = """items.append(Item('{0.tag}', '{0.baseitemcode}'))""" 
+featreq_pattern = """"""
+featbonus_pattern = """"""
 
 # hidegen.py
 hideclass_pattern = """hideclasses.append(HideClass({0.name}, {0.attack}, {0.defense}
@@ -148,10 +173,11 @@ forceaoeattackscript_pattern = """scripts.append(Script.new_forceaoeattack('{0.s
 grenadescript_pattern = """scripts.append(Script.new_grenade('{0.script}', {0.radius}, '{0.functioncall}',
 	'{0.visualfunction}'))"""
 beamscript_pattern = """scripts.append(Script.new_beam('{0.script}', '{0.functioncall}', '{0.visualfunction}'))"""
+wavescript_pattern = """scripts.append(Script.new_wave('{0.script}', '{0.functioncall}', '{0.visualfunction}'))"""
 minescript_pattern = """scripts.append(Script.new_mine('{0.script}', {0.radius}, {0.minelevel},
 	'{0.functioncall}', '{0.visualfunction}'))"""
 ammoscript_pattern = """scripts.append(Script.new_ammo('{0.script}', '{0.stacksize}', '{0.ammotag}'))"""
-ammoscript_pattern = """scripts.append(Script.new_buff('{0.script}', '{0.functioncall}'))"""
+buffscript_pattern = """scripts.append(Script.new_buff('{0.script}', '{0.functioncall}'))"""
 shieldscript_pattern = """scripts.append(Script.new_shield('{0.script}', '{0.shieldconst}'))"""
 spawnscript_pattern = """scripts.append(Script.new_spawn('{0.script}', '{0.functioncall}', '{0.include}',
 	'{0.childscript}'))"""
@@ -197,4 +223,256 @@ tlk_pattern = """String {0.number}:
   Text: {0.text}
 ----------
 """
+
+
+verify_file('Data\\Headers\\costheader.ini')
+verify_file('Data\\bastitems.ini')
+feats = read_file('Data\\feats.ini')
+baseitems = read_file('Data\\baseitems.ini')
+poisons = read_file('Data\\poison.ini')
+dcs = read_file('Data\\dc.ini')
+shields = read_file('Data\\shields.ini')
+
+armorgen = read_file('Code\\armorgen.py')
+featgen = read_file('Code\\featgen.py')
+hidgen = read_file('Code\\hidegen.py')
+costgen = read_file('Code\\costgen.py')
+poisongen = read_file('Code\\poisongen.py')
+modulegen = read_file('Code\\modulegen.py')
+powergen = read_file('Code\\powergen.py')
+powergen2 = read_file('Code\\powergen2.py')
+spellgen = read_file('Code\\spellgen.py')
+shieldgen = read_file('Code\\shieldgen.py')
+upgradegen = read_file('Code\\upgradegen.py')
+scriptgen = read_file('Code\\scriptgen.py')
+fieldgen = read_file('Code\\fieldgen.py')
+
+itemconst = read_file('Code\\box_inc_itemconst.nss')
+featconst = read_file('Code\\box_inc_featconst.nss')
+spellconst = read_file('Code\\box_inc_spellconst.nss')
+powerconst = read_file('Code\\box_inc_powerconst.nss')
+shieldconst = read_file('Code\\box_inc_shieldconst.nss')
+
+tlk = ""
+
+descriptions = load_descriptions("Data\\descriptions.txt")
+
+# Weapons
+with open('Data\\weapons.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		copy_template('Data\\Static\\' + row['tag'] + '.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_code(baseitems, row['baseitemcode'])
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		if row['poisoncode']:
+			verify_code(poisons, row['poisoncode'])
+			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
+		if row['hasdc']:
+			verify_item(dcs, row['tag'])
+		
+# Armor
+with open('Data\\armor.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		copy_template('Data\\Static\\' + row['tag'] + '.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_code(baseitems, row['baseitemcode'])
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, upgradefield_pattern, '#ITEMS')
+		add_line(armorgen, row, armor_pattern, '#ARMOR')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+
+# Upgrades
+with open('Data\\upgrades.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		copy_template('Data\\Static\\' + row['tag'] + '.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(fieldgen, row, upgradefield_pattern, '#ITEMS')
+		if row['type'] == 'crystal'
+			add_line(upgradegen, row, crystal_pattern, '#UPGRADES')
+		else:
+			add_line(upgradegen, row, upgrade_pattern, '#UPGRADES')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		if row['poisoncode']:
+			verify_code(poisons, row['poisoncode'])
+			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
+		if row['hasdc']:
+			verify_item(dcs, row['tag'])
+
+# Equipment
+with open('Data\\equipment.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		copy_template('Data\\Static\\' + row['tag'] + '.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_code(baseitems, row['baseitemcode'])
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+
+# Launchers
+with open('Data\\launchers.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		copy_template('Data\\Templates\\launcher.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_code(baseitems, row['baseitemcode'])
+		verify_code(feats, row['featbonus1'])
+		verify_code(feats, row['featbonus2'])
+		add_line(costgen, row, featbonus_pattern, '#BONUSES')
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+
+# Shields
+with open('Data\\shields.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		copy_template('Data\\Templates\\shield.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_code(baseitems, row['baseitemcode'])
+		verify_code(shields, row['shieldcode'])
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		add_line(spellgen, row, selfspell_pattern, '#SPELLS')
+		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
+		add_line(shieldgen, row, shield_pattern, '#ITEMS')
+		add_line(scriptgen, row, shieldscript_pattern, '#SCRIPTS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		add_line(shieldconst, row, shieldconst_pattern, '//SHIELDS')
+		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
+
+# Stimulants
+with open('Data\\shields.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		copy_template('Data\\Templates\\stim.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_code(baseitems, row['baseitemcode'])
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		add_line(spellgen, row, selfspell_pattern, '#SPELLS')
+		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
+		add_line(scriptgen, row, buffscript_pattern, '#SCRIPTS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
+
+
+
+# Grenades
+with open('Data\\grenades.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		copy_template('Data\\Templates\\grenade.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_code(baseitems, row['baseitemcode'])
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
+		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
+		add_line(scriptgen, row, grenadescript_pattern, '#SCRIPTS')
+		add_line(upgradegen, row, medstation_pattern, '#MEDS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
+
+# Fuel
+with open('Data\\fuel.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		copy_template('Data\\Templates\\fuel.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_code(baseitems, row['baseitemcode'])
+		verify_code(baseitems, row['featcode'])
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, featreq_pattern, '#REQS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		if row['type'] == 'grenade':
+			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
+			add_line(scriptgen, row, grenadescript_pattern, '#SCRIPTS')
+		elif row['type'] == 'blast':
+			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
+			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
+		elif row['type'] == 'beam':
+			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
+			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
+		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
+
+
+# Energy
+with open('Data\\energy.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		if row['heavy']:
+			copy_template('Data\\Templates\\heavyenergy.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		else:
+			copy_template('Data\\Templates\\energy.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_code(baseitems, row['baseitemcode'])
+		verify_code(baseitems, row['featcode'])
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		if row['type'] == 'wave':
+			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
+			add_line(scriptgen, row, wavescript_pattern, '#SCRIPTS')
+		elif row['type'] == 'blast':
+			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
+			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
+		elif row['type'] == 'beam':
+			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
+			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
+		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

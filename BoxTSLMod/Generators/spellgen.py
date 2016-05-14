@@ -33,19 +33,7 @@ modify_spells = list()
 
 new_spells = list()
 # Generated lines go here
-#PROJECTILES
-
-# Generated lines go here
-#BEAMS
-
-# Generated lines go here
-#BUFFS
-
-# Generated lines go here
-#MEDPACS
-
-# Generated lines go here
-#REPAIRS
+#SPELLS
 
 
 items = list()

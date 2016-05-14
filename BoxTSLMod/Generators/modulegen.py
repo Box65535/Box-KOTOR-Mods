@@ -29,13 +29,9 @@ class Placeable:
 		self.notag = notag
 
 modules = []
-modules.append('101PER')
-modules.append('102PER')
-modules.append('103PER')
-modules.append('104PER')
-modules.append('105PER')
-modules.append('106PER')
-modules.append('107PER')
+# Generated lines go here
+#MODULES
+
 
 enemies = []
 # Generated lines go here

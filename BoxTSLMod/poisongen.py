@@ -52,7 +52,7 @@ for i in range(0, len(poisoncodes)):
 		# weapons = weapons.replace(poisoncodes[i], '2DAMEMORY' + str(i+1))
 		
 mines = 'error'
-with open('box_inc_poison.nss') as file:
+with open('box_inc_poisonconst.nss') as file:
 	mines = file.read()
 	for i in range(0, len(poisoncodes)):
 		mines = mines.replace(poisoncodes[i], '2DAMEMORY' + str(i+1))

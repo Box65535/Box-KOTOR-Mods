@@ -323,14 +323,6 @@ def save_low(level):
 			save += 1
 	return save
 
-blank_feats = None
-blank_immunities = None
-blank_skill_bonuses = {}
-blank_immunity_bonuses = {}
-blank_save_bonuses = {}
-
-droid_immunities = [2, 3, 7]
-
 
 # Patterns
 bonus = lambda f x: lambda y: f(y) + x
@@ -345,9 +337,19 @@ save_medium_pattern [bonus(save_low, 1), bonus(save_medium, 1), bonus(save_high,
 save_low_pattern [bonus(save_low, 0), bonus(save_medium, 0), bonus(save_high, 2), bonus(save_high, 4)]
 zero_pattern [zerof, zerof, zerof, zerof]
 
+blank_feats = None
+blank_immunities = None
+blank_skill_bonuses = {}
+blank_immunity_bonuses = {}
+blank_save_bonuses = {}
+
+droid_immunities = [2, 3, 7]
+
+
 # Generate hides with hide classes
 hideclasses = []
-# TODO add hide classes to replace the hides
+# Generated lines go here
+#HIDECLASSES
 
 
 max_level = 16

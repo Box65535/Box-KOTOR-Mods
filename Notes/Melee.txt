@@ -245,16 +245,16 @@ Keen
 Grips
 
 [Aggressive 1] Grip
-+1 Enhancement Damage
--1 Attack
++2 Enhancement Damage
+-2 Attack
 
 [Aggressive 2] Grip
-+2 Enhancement Damage
--1 Attack
++4 Enhancement Damage
+-2 Attack
 
 [Aggressive 3] Grip
-+3 Enhancement Damage
--1 Attack
++6 Enhancement Damage
+-2 Attack
 
 [Passive 1] Grip
 +1 Attack
@@ -287,7 +287,7 @@ Grips
 
 [Zabrak 2] Grip
 +3 Attack
-+3 Enhancement Damage
++4 Enhancement Damage
 -2 Defense
 
 [Balanced 1] Grip

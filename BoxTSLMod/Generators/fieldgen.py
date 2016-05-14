@@ -12,6 +12,8 @@ items = []
 # Generated lines go here
 #ITEMS
 
+
+
 weapons = []
 # Generated lines go here
 #WEAPONS

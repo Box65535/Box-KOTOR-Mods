@@ -28,6 +28,14 @@ items = list()
 #ITEMS
 
 
+itemreqs = list()
+# Generated lines go here
+#REQS
+
+itembonuses = list()
+# Generated lines go here
+#BONUSES
+
 
 featdescs = list(featnames)
 for i in range(0, len(featdescs)):

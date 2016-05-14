@@ -8,7 +8,7 @@ scale = 1
 
 costs = []
 # Generated lines go here
-#COST
+#COSTS
 
 
 

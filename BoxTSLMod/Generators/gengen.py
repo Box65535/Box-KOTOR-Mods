@@ -1,32 +1,50 @@
 
 # This is where we generate the generators
 
+import csv
+
 class Object(object):
 	pass
 
 
+def read_csv(path):
+	with open(path, 'r') as csvfile
+		return csv.DictReader(csvfile)
+
+def check_code(code, file):
+	return (code + '=RowLabel') in file
+
+def check_function(func, file):
+	chk1 = 'int ' + func
+	chk2 = 'void ' + func
+	return (chk1 in file) or (chk2 in file)
 
 def verify_file(path):
-	return True
+	with open(path) as f:
+		return True
+	return False
 
-def verify_blob(file, header):
-	return True
-
-def verify_function(file, name):
-	return True
-
-def verify_type(object):
-	return True
-
-def verify_property(file, )
-
-def add_line(file, pattern, marker):
-	pass
+def add_line(file, data, pattern, marker):
+	replacement = pattern.format(**data) + '\n' + marker
+	return file.replace(marker, replacement)
 
 def copy_template(path, new_path):
-	pass
+	with open(path, 'r') as fin:
+		with open(new_path, 'w') as fout:
+			fout.write(fin.read())
 
-
+def set_tlk_header(file):
+	num_strings = 1
+	done = False
+	while not done:
+		findthis = 'String ' + str(num_strings) + ':'
+		if not findthis in file:
+			done = True
+		else:
+			num_strings += 1
+	header = 'Header:\n  Language: English\n  Number of Strings: ' + str(num_strings) + '\n\n'
+	return header + file
+	
 # armorgen.py
 armor_pattern = """armor_list.append(Armor('{0.tag}',
 	{0.bludgeoningdt}, {0.piercingdt}, {0.slashingdt}, {0.unstoppabledt},

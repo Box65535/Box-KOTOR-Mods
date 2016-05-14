@@ -4,15 +4,15 @@ New Stuff
 -----------------------------------------------
 
 Lightsaber
-1d16 Unstoppable / 19-20 x2
+1d18 Unstoppable / 19-20 x2
 +All
 
 Double-Bladed Lightsaber
-1d18 Unstoppable / 20-20 x2 / Balanced
+1d20 Unstoppable / 20-20 x2 / Balanced
 +All
 
 Short Lightsaber
-1d12 Unstoppable / 19-20 x2 / Balanced
+1d16 Unstoppable / 19-20 x2 / Balanced
 +All
 
 

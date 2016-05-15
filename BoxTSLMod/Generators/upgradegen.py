@@ -46,7 +46,7 @@ crystals = []
 
 items = []
 # Generated lines go here
-#ITEM
+#ITEMS
 
 jediitems = []
 # Generated lines go here

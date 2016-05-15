@@ -20,19 +20,23 @@ def check_item(tag, file):
 
 def verify_code(code, file):
 	if not check_code(code, file):
+		print(code)
 		raise AssertionError
 
-def verify_function(code, file):
-	if not check_function(code, file):
+def verify_function(func, file):
+	if not check_function(func, file):
+		print(func)
 		raise AssertionError
 
 def verify_item(code, file):
 	if not check_item(code, file):
+		print(code)
 		raise AssertionError
 
 def verify_file(path):
 	with open(path) as f:
 		return
+	print(path)
 	raise AssertionError
 
 def add_line(file, data, pattern, marker):
@@ -61,6 +65,7 @@ def read_file(path):
 	with open(path) as f:
 		file = f.read()
 	if f == 'error'
+		print(path)
 		raise AssertionError
 	return file
 
@@ -225,13 +230,32 @@ tlk_pattern = """String {0.number}:
 """
 
 
+def add_tlk(file, text, number):
+	data = {}
+	data['text'] = text
+	data['number'] = number
+	add_line(file, data, tlk_pattern, '\nEOF')	
+
+
+
 verify_file('Data\\Headers\\costheader.ini')
-verify_file('Data\\bastitems.ini')
+
 feats = read_file('Data\\feats.ini')
 baseitems = read_file('Data\\baseitems.ini')
 poisons = read_file('Data\\poison.ini')
 dcs = read_file('Data\\dc.ini')
 shields = read_file('Data\\shields.ini')
+
+incgrenade = read_file('Code\\Includes\\box_inc_grenades.nss')
+incenergy = read_file('Code\\Includes\\box_inc_energy.nss')
+incpowers = read_file('Code\\Includes\\box_inc_powers.nss')
+incstims = read_file('Code\\Includes\\box_inc_stims.nss')
+incvisual = read_file('Code\\Includes\\box_inc_visual.nss')
+inchealing = read_file('Code\\Includes\\box_inc_healing.nss')
+incfuelweap = read_file('Code\\Includes\\box_inc_fuelweap.nss')
+
+incspawn = read_file('Code\\Includes\\box_inc_spawn_per.nss') + read_file('Code\\Includes\\box_inc_spawn_tel.nss')
+inctreasure = read_file('Code\\Includes\\box_inc_treas_per.nss') + read_file('Code\\Includes\\box_inc_treas_tel.nss')
 
 armorgen = read_file('Code\\armorgen.py')
 featgen = read_file('Code\\featgen.py')
@@ -253,8 +277,7 @@ spellconst = read_file('Code\\box_inc_spellconst.nss')
 powerconst = read_file('Code\\box_inc_powerconst.nss')
 shieldconst = read_file('Code\\box_inc_shieldconst.nss')
 
-tlk = ""
-
+tlk = "\nEOF"
 descriptions = load_descriptions("Data\\descriptions.txt")
 
 # Weapons
@@ -296,7 +319,7 @@ with open('Data\\upgrades.csv', 'r') as csvfile:
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(fieldgen, row, upgradefield_pattern, '#ITEMS')
 		if row['type'] == 'crystal'
-			add_line(upgradegen, row, crystal_pattern, '#UPGRADES')
+			add_line(upgradegen, row, crystal_pattern, '#CRYSTALS')
 		else:
 			add_line(upgradegen, row, upgrade_pattern, '#UPGRADES')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
@@ -359,6 +382,8 @@ with open('Data\\shields.csv', 'r') as csvfile:
 		row['description'] = descriptions[row['tag']]
 		copy_template('Data\\Templates\\stim.uti', 'Data\\Items\\' + row['tag'] + '.uti')
 		verify_code(baseitems, row['baseitemcode'])
+		verify_function(incstims, row['functioncall'])
+		verify_function(incvisual, row['visualfunction'])
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(fieldgen, row, field_pattern, '#ITEMS')
@@ -377,6 +402,8 @@ with open('Data\\grenades.csv', 'r') as csvfile:
 		row['description'] = descriptions[row['tag']]
 		copy_template('Data\\Templates\\grenade.uti', 'Data\\Items\\' + row['tag'] + '.uti')
 		verify_code(baseitems, row['baseitemcode'])
+		verify_function(incgrenade, row['functioncall'])
+		verify_function(incvisual, row['visualfunction'])
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(fieldgen, row, field_pattern, '#ITEMS')
@@ -399,9 +426,11 @@ with open('Data\\fuel.csv', 'r') as csvfile:
 		add_line(featgen, row, featreq_pattern, '#REQS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		verify_function(incgrenade + incfuelweap, row['functioncall'])
+		verify_function(incvisual, row['visualfunction'])
 		if row['type'] == 'grenade':
-			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
-			add_line(scriptgen, row, grenadescript_pattern, '#SCRIPTS')
+			verify_function(incgrenade, row['functioncall'])
+			verify_function(incvisual, row['visualfunction'])
 		elif row['type'] == 'blast':
 			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
 			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
@@ -409,6 +438,27 @@ with open('Data\\fuel.csv', 'r') as csvfile:
 			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
 			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
 		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
+
+
+# Ammo Boxes
+with open('Data\\ammoboxes.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		copy_template('Data\\Templates\\ammobox.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_code(baseitems, row['baseitemcode'])
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		add_line(spellgen, row, selfspell_pattern, '#SPELLS')
+		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
+		add_line(scriptgen, row, ammoscript_pattern, '#SCRIPTS')
+		if row['type'] == 'workbench':
+			add_line(upgradegen, row, craftitem_pattern, '#ITEMS')
+		else:
+			add_line(upgradegen, row, medstation_pattern, '#MEDS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
 
@@ -423,7 +473,8 @@ with open('Data\\energy.csv', 'r') as csvfile:
 		else:
 			copy_template('Data\\Templates\\energy.uti', 'Data\\Items\\' + row['tag'] + '.uti')
 		verify_code(baseitems, row['baseitemcode'])
-		verify_code(baseitems, row['featcode'])
+		verify_function(incenergy, row['functioncall'])
+		verify_function(incvisual, row['visualfunction'])
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(fieldgen, row, field_pattern, '#ITEMS')
@@ -440,22 +491,179 @@ with open('Data\\energy.csv', 'r') as csvfile:
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
 
-#
+# Healing
+with open('Data\\healing.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		row['description'] = descriptions[row['tag']]
+		verify_function(inchealing + incfuelweap, row['functioncall'])
+		verify_function(incvisual, row['visualfunction'])
+		if row['type'] == 'medpac':
+			copy_template('Data\\Templates\\medpac.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+			add_line(spellgen, row, medpacspell_pattern, '#SPELLS')
+			add_line(upgradegen, row, medstation_pattern, '#MEDS')
+		else:
+			copy_template('Data\\Templates\\repairkit.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+			add_line(spellgen, row, repairspell_pattern, '#SPELLS')
+			add_line(upgradegen, row, craftitem_pattern, '#ITEMS')
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
+		add_line(scriptgen, row, buffscript_pattern, '#SCRIPTS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
 
 
+# Enemy Spell Equipment
+with open('Data\\enemyspells.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		copy_template('Data\\Templates\\enemyspell.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_code(baseitems, row['baseitemcode'])
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
+		verify_function(incenergy + incfuelweap + incgrenade + incstims + inchealing, row['functioncall'])
+		verify_function(incvisual, row['visualfunction'])
+		if row['type'] == 'grenade':
+			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
+			add_line(scriptgen, row, grenadescript_pattern, '#SCRIPTS')
+		elif row['type'] == 'wave':
+			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
+			add_line(scriptgen, row, wavescript_pattern, '#SCRIPTS')
+		elif row['type'] == 'blast':
+			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
+			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
+		elif row['type'] == 'beam':
+			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
+			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
+		elif row['type'] == 'shield':
+			verify_code(shields, row['shieldcode'])
+			add_line(spellgen, row, selfspell_pattern, '#SPELLS')
+			add_line(shieldgen, row, shield_pattern, '#ITEMS')
+			add_line(scriptgen, row, shieldscript_pattern, '#SCRIPTS')
+			add_line(shieldconst, row, shieldconst_pattern, '//SHIELDS')
+		elif row['type'] == 'stim':
+			add_line(spellgen, row, selfspell_pattern, '#SPELLS')
+			add_line(scriptgen, row, buffscript_pattern, '#SCRIPTS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
+
+# Enemy Mines
 
 
+# Feats
+with open('Data\\feats.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	number = 1
+	for row in reader:
+		row['description'] = descriptions[row['name']]
+		if row['new']:
+			verify_code(feats, row['featcode'])
+		add_line(featgen, row, featcode_pattern, '#FEATCODES')
+		add_line(featgen, row, featname_pattern, '#FEATNAMES')
+		add_line(featconst, row, featconst_pattern, '//FEATS')
+		add_tlk(tlk, row['name'], number)
+		number += 1
+		add_tlk(tlk, row['description'], number)
+		number += 1
+	set_tlk_header(tlk)
+	with open('feats.tlk', 'w') as tlkout:
+		file.write(tlk)
+	tlk = "\nEOF"
+		
+# Base Items
+with open('Data\\baseitems.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		if row['new']:
+			verify_code(feats, row['baseitemcode'])
+			add_line(featgen, row, itemcode_pattern, '#ITEMCODES')
+		add_line(itemconst, row, itemconst_pattern, '//ITEMS')
+
+# Powers
+with open('Data\\powers.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	number = 1
+	for row in reader:
+		row['description'] = descriptions[row['name']]
+		if row['type'] == 'remove':
+			add_line(powergen, row, removepower_pattern, '#REMOVES')
+		elif row['type'] == 'eradicate':
+			add_line(powergen, row, eradicatepower_pattern, '#ERADICATES')
+		elif row['type'] == 'modify':
+			verify_function(incpowers, row['functioncall'])
+			verify_function(incvisual, row['visualfunction'])
+			add_line(powergen, row, modifypower_pattern, '#MODIFIES')
+			add_line(powergen, row, modifypower_pattern, '#NAMES')
+			add_line(scriptgen, row, po, '#SCRIPTS')
+			add_line(powerconst, row, spellconst_pattern, '//POWERS')
+			add_tlk(tlk, row['name'], number)
+			number += 1
+			add_tlk(tlk, row['description'], number)
+			number += 1
+			if row['spellindex'] == '270': # Breath control
+				add_line(scriptgen, row, forcebuffscript_pattern, '#SCRIPTS')
+			elif row['spellindex'] == '182': # Beast trick
+				add_line(scriptgen, row, forceattackscript_pattern, '#SCRIPTS')
+			elif row['spellindex'] == '180': # Sever
+				add_line(scriptgen, row, forceattackscript_pattern, '#SCRIPTS')
+			elif row['spellindex'] == '177': # Consume
+				add_line(scriptgen, row, forceattackscript_pattern, '#SCRIPTS')
+		else:
+			verify_function(incpowers, row['functioncall'])
+			verify_function(incvisual, row['visualfunction'])
+			if row['type'] == 'throw':
+				add_line(powergen, row, newsaberpower_pattern, '#POWERS')
+				add_line(scriptgen, row, forceattackscript_pattern, '#SCRIPTS')
+			elif row['type'] == 'crush':
+				add_line(powergen, row, newcrushpower_pattern, '#POWERS')
+				add_line(scriptgen, row, forceaoeattackscript_pattern, '#SCRIPTS')
+			elif row['type'] == 'attack':
+				add_line(powergen, row, newpower_pattern, '#POWERS')
+				add_line(scriptgen, row, forceattackscript_pattern, '#SCRIPTS')
+			elif row['type'] == 'aoe':
+				add_line(powergen, row, newpower_pattern, '#POWERS')
+				add_line(scriptgen, row, forceaoeattackscript_pattern, '#SCRIPTS')
+			elif row['type'] == 'buff':
+				add_line(powergen, row, newpower_pattern, '#POWERS')
+				add_line(scriptgen, row, forcebuffscript_pattern, '#SCRIPTS')
+			elif row['type'] == 'teambuff':
+				add_line(powergen, row, newpower_pattern, '#POWERS')
+				add_line(scriptgen, row, forceteambuffscript_pattern, '#SCRIPTS')
+			add_line(powerconst, row, spellconst_pattern, '//POWERS')
+			add_line(tlk, row, tlk_pattern, '\nEOF')
+			add_tlk(tlk, row['name'], number)
+			number += 1
+			add_tlk(tlk, row['description'], number)
+			number += 1
+	set_tlk_header(tlk)
+	with open('powers.tlk', 'w') as tlkout:
+		file.write(tlk)
+	tlk = "\nEOF"
 
 
+# Hide Classes
+with open('Data\\enemyclasses.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		add_line(hidegen, row, hideclass_pattern, '#HIDECLASSES')
 
+# Spawns
+with open('Data\\spawns.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		verify_function(incspawn, row['functioncall'])
+		add_line(scriptgen, row, spawnscript_pattern, '#SCRIPTS')
 
-
-
-
-
-
-
-
+# Treasures
+with open('Data\\treasures.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		verify_function(inctreasure, row['functioncall'])
+		add_line(scriptgen, row, treasurescript_pattern, '#SCRIPTS')
 
 
 

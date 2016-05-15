@@ -59,6 +59,12 @@ class Script:
 			None, None, None, None, None)
 	
 	@classmethod
+	def new_buff(cls, filename, functioncall, visualfunction):
+		return cls('buff', filename, 'Auto-generated Script', None, None, None, None,
+			None, functioncall, None, visualfunction, None,
+			None, None, None, None, None)
+	
+	@classmethod
 	def new_wave(cls, filename, functioncall, visualfunction):
 		return cls('wave', filename, 'Auto-generated Script', None, None, None, None,
 			None, functioncall, None, visualfunction, None,

@@ -54,13 +54,8 @@ modify_spells = list()
 # New spells
 new_spells = list()
 # Generated lines go here
-#NEWPOWERS
+#POWERS
 
-# Generated lines go here
-#SABERS
-
-# Generated lines go here
-#CRUSHES
 
 
 incout = 'error'

@@ -116,13 +116,10 @@ with open('feats.ini', 'r') as file:
 	featout = file.read()
 	
 	index = 0
-	for feat in featnames:
-		featout = featout.replace(feat, 'StrRef' + str(index))
-		index = index + 1
-	
-	for feat in featdescs:
-		featout = featout.replace(feat, 'StrRef' + str(index))
-		index = index + 1
+	for i in range(0, len(featnames)):
+		featout = featout.replace(featnames[i], 'StrRef' + str(index))
+		featout = featout.replace(featdescs[i], 'StrRef' + str(index+1))
+		index = index + 2
 	
 	index = 1
 	for feat in featcodes:

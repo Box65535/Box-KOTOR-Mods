@@ -22,13 +22,10 @@ with open('temp.ini', 'r') as file:
 	powers = file.read()
 	
 	index = 0
-	for spell in spellnames:
-		powers = powers.replace(spell, 'StrRef' + str(index))
-		index = index + 1
-	
-	for spell in spelldescs:
-		powers = powers.replace(spell, 'StrRef' + str(index))
-		index = index + 1
+	for i in range(0, len(spellnames)):
+		powers = powers.replace(spellnames[i], 'StrRef' + str(index))
+		powers = powers.replace(spelldescs[i], 'StrRef' + str(index+1))
+		index = index + 2
 
 
 with open('tslpatchdata\\powers.ini', 'w') as file:

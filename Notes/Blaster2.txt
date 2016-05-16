@@ -6,7 +6,9 @@ These are my adjustments to the blasters, most are the same
 Common Blasters
 
 Blaster Pistol
-1d8 Energy / 20-20 x2 / Balanced+All
+1d8 Energy / 20-20 x2 / Balanced
++All
+
 Hold Out Blaster
 1d6 Energy / 19-20 x2 / Balanced
 +All
@@ -123,6 +125,10 @@ Verpine Ion Rifle
 +6 Ion vs Droid
 +Chamber, Scope
 
+HK-50 Assassin Rifle (Disruptor Rifle)
+1d12 Unstoppable / 18-20 x2
++Chamber, Scope
+
 Onderon Sonic Rifle
 1d12 Sonic / 20-20 x2
 -6 Wis DC 20
@@ -159,11 +165,6 @@ Zabrak Combat Rifle (Blaster Rifle)
 +1d4 Unstoppable
 +None
 
-Droid Assassin Rifle (Disruptor Rifle)
-1d12 Unstoppable / 19-20 x2
--6 Str DC 20
-HK 47 Only
-+Chamber, Scope
 
 Not Sure
 
@@ -194,9 +195,10 @@ Republic Repeating Blaster
 +All
 
 Onderon Repeating Carbine
-3d6 Sonic / 20-20 x2
+3d4 Sonic / 20-20 x2
 -6 Wis DC 20
-+None
++1d8 Unstoppable
++Scope
 
 Zabrak Repeating Blaster
 3d6 Energy / 20-20 x2
@@ -208,9 +210,13 @@ Overclocked Repeating Blaster
 +2 Rapid Shot
 +None
 
+Mandalorian Heavy Assault Rifle
+3d8 Energy / 20-20 x2
++All
 
-Not Sure
-
+Sith Repeating Blaster
+3d6 Unstoppable / 20-20 x2
++Chamber, Scope
 
 
 
@@ -224,6 +230,17 @@ Republic Heavy Repeater
 Mandalorian Heavy Repeater
 6d4 Unstoppable / 20-20 x2
 +Chamber, Scope
+
+
+WIP:
+
+Ion Turret Gun
+6d4 Ion / 20-20 x3
++Chamber, Scope
+
+HK-50 Heavy Repeater
+6d4 Energy / 19-20 x2
++All
 
 
 Bowcasters

@@ -197,7 +197,8 @@ weaponfield_pattern = """weapons.append(Item('{0.tag}', '{0.name}', \"\"\"{0.des
 upgradefield_pattern = """items.append(Item('{0.tag}', '{0.name}', \"\"\"{0.description}\"\"\",
 	'{0.model}', '{0.upgradelevel}'))"""
 
-
+# weapgen.py
+weapon_pattern = """weapons.append('{0.tag}')"""
 
 # box_inc_featconst.nss
 featconst_pattern = """int {0.featconst} = #CODE_{0.featcode}#;"""
@@ -216,6 +217,10 @@ poisonconst_pattern = """int {0.poisonconst} = #CODE_{0.poisoncode}#;"""
 # box_inc_itemconst.nss
 tagconst_pattern = """string {0.itemconst} = "{0.tag}";"""
 
+# box_inc_itemconst.nss
+hideconst_pattern = """string {0.hideconst} = "{0.name}";"""
+
+
 
 
 # append.txt
@@ -228,6 +233,7 @@ tlk_pattern = """String {0.number}:
   Text: {0.text}
 ----------
 """
+
 
 
 def add_tlk(file, text, number):
@@ -270,15 +276,21 @@ shieldgen = read_file('Code\\shieldgen.py')
 upgradegen = read_file('Code\\upgradegen.py')
 scriptgen = read_file('Code\\scriptgen.py')
 fieldgen = read_file('Code\\fieldgen.py')
+weapgen = read_file('Code\\weapgen.py')
 
 itemconst = read_file('Code\\box_inc_itemconst.nss')
 featconst = read_file('Code\\box_inc_featconst.nss')
 spellconst = read_file('Code\\box_inc_spellconst.nss')
 powerconst = read_file('Code\\box_inc_powerconst.nss')
 shieldconst = read_file('Code\\box_inc_shieldconst.nss')
+hideconst = read_file('Code\\box_inc_hideconst.nss')
 
 tlk = "\nEOF"
 descriptions = load_descriptions("Data\\descriptions.txt")
+
+
+
+
 
 # Weapons
 with open('Data\\weapons.csv', 'r') as csvfile:
@@ -286,11 +298,12 @@ with open('Data\\weapons.csv', 'r') as csvfile:
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
 		copy_template('Data\\Static\\' + row['tag'] + '.uti', 'Data\\Items\\' + row['tag'] + '.uti')
-		verify_code(baseitems, row['baseitemcode'])
-		add_line(costgen, row, cost_pattern, '#COSTS')
-		add_line(featgen, row, baseitem_pattern, '#ITEMS')
-		add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
+		if row['type'] == 'new':
+			verify_code(baseitems, row['baseitemcode'])
+			add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
 		if row['poisoncode']:
 			verify_code(poisons, row['poisoncode'])
 			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
@@ -570,7 +583,7 @@ with open('Data\\feats.csv', 'r') as csvfile:
 		add_tlk(tlk, row['description'], number)
 		number += 1
 	set_tlk_header(tlk)
-	with open('feats.tlk', 'w') as tlkout:
+	with open('feats.txt', 'w') as tlkout:
 		file.write(tlk)
 	tlk = "\nEOF"
 		
@@ -640,7 +653,7 @@ with open('Data\\powers.csv', 'r') as csvfile:
 			add_tlk(tlk, row['description'], number)
 			number += 1
 	set_tlk_header(tlk)
-	with open('powers.tlk', 'w') as tlkout:
+	with open('powers.txt', 'w') as tlkout:
 		file.write(tlk)
 	tlk = "\nEOF"
 
@@ -650,6 +663,7 @@ with open('Data\\enemyclasses.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		add_line(hidegen, row, hideclass_pattern, '#HIDECLASSES')
+		add_line(hideconst, row, hideconst_pattern, '//HIDES')
 
 # Spawns
 with open('Data\\spawns.csv', 'r') as csvfile:

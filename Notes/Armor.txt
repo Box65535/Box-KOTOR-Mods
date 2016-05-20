@@ -36,13 +36,13 @@ Miner Uniform
 +Level 1 Underlays
 
 Atton's Ribbed Jacket
--2 vs Physical
+-2 vs Piercing/Slashing
 +1 Saves
 +None
 
 Mira's Ballilstic Mesh Jacket
--2 vs Physical
--20% vs Physical
+-2 vs Piercing/Slashing
+-20% vs Piercing/Slashing
 +None
 
 
@@ -50,32 +50,39 @@ Light Combat Suits
 
 Republic Light Combat Suit
 Max Dex +3
--2 vs Physical
--2 vs Energy/Ion/Fire/Electrical
+-2 vs Piercing/Slashing
+-2 vs Energy/Ion/Fire
 +Level 1 Upgrades
 
 Zabrak Light Combat Suit
 Max Dex +3
--2 vs Physical
--2 vs Energy/Ion/Electrical
--3 vs Cold
--3 vs Fire
-+1 Saves vs Cold
-+1 Saves vs Fire
+-2 vs Piercing/Slashing
+-2 vs Energy/Ion/Fire
+-2 vs Cold
+-20% vs Cold
++None
+
+Zabrak Light Combat Suit 2
+Max Dex +3
+-2 vs Piercing/Slashing
+-2 vs Energy/Ion/Fire
+-2 vs Cold
+-15% vs Fire
 +None
 
 Echani Light Combat Suit
 Max Dex +3
--1 vs Physical
--2 vs Energy/Ion/Fire/Electrical
+-2 vs Energy/Ion/Fire
+-2 vs Electrical
 -2 vs Sonic
 +2 Max Dex
 +None
 
 Massassi Ceremonial Armor
 Max Dex +3
--2 vs Physical
--2 vs Energy/Ion/Fire/Electrical
+-2 vs Peircing/Slashing
+-2 vs Energy/Ion/Fire
+-2 vs Electrical
 Immune Fear
 +None
 
@@ -85,51 +92,76 @@ Heavy Combat Suits
 
 Republic Combat Suit
 Max Dex +2
--3 vs Physical
--3 vs Energy/Ion/Fire/Electrical
+-4 vs Piercing/Slashing
+-4 vs Energy/Ion/Fire
 +Level 2 Upgrades
 
 Zabrak Field Suit
 Max Dex +2
--4 vs Physical
--2 vs Energy/Ion/Electrical
--5 vs Fire
--5 vs Cold
-+3 Saves vs Fire
-+3 Saves vs Cold
+-4 vs Piercing/Slashing
+-4 vs Energy/Ion/Fire
+-30% vs Cold
++2 Saves vs Fire
++2 Saves vs Cold
++None
+
+Zabrak Field Suit 2
+Max Dex +2
+-4 vs Piercing/Slashing
+-4 vs Energy/Ion/Fire
+-20% vs Fire
++2 Saves vs Fire
++2 Saves vs Cold
 +None
 
 Echani Shield Suit
 Max Dex +2
--1 vs Physical
--3 vs Energy/Ion
--5 vs Fire
+-5 vs Energy/Ion/Fire
 -5 vs Electrical
 -5 vs Sonic
+-20% vs Energy
++2 Max Dex
++None
+
+Echani Shield Suit 2
+Max Dex +2
+-5 vs Energy/Ion/Fire
+-5 vs Electrical
+-5 vs Sonic
+-20% vs Energy
 +2 Max Dex
 +None
 
 Mandalorian Combat Suit
 Max Dex +2
--4 vs Physical
--3 vs Energy/Ion/Fire/Electrical
+-5 vs Piercing/Slashing
+-3 vs Energy/Ion
+-5 vs Fire
+-3 vs Electrical
++Level 2 Upgrades
+
+Mandalorian Combat Suit 2
+Max Dex +2
+-4 vs Piercing/Slashing
+-4 vs Ion
+-5 vs Energy/Fire
 +Level 2 Upgrades
 
 Sith Combat Suit
 Max Dex +2
 -2 vs Physical
--2 vs Energy/Ion/Fire/Electrical
+-2 vs Energy/Ion/Fire
+-2 vs Electrical
 -2 vs Cold
 -2 vs Sonic
-+1 Saves vs Poison
-+1 Saves vs Mind-Affecting
++2 Saves vs Poison
 +Level 3 Upgrades
 
 Light Power Armor
 Max Dex +2
--3 vs Physical
--3 vs Energy/Ion/Fire/Electrical
-+1 Str
+-4 vs Piercing/Slashing
+-4 vs Energy/Ion/Fire
++2 Str
 +None
 
 
@@ -137,17 +169,13 @@ Armored Flight Suits
 
 Armored Flight Suit
 Max Dex +2
--2 vs Physical
--2 vs Energy/Electrical
 -10 vs Ion
 -10 vs Fire
 -10 vs Cold
 +None
 
 Ubese Environmental Suit
-Max Dex +2
--2 vs Physical
--2 vs Energy/Ion
+ Max Dex +2
 -10 vs Sonic
 -10 vs Fire
 -10 vs Cold
@@ -160,48 +188,47 @@ Military Suits
 
 Republic Military Suit
 Max Dex +1
--4 vs Physical
--4 vs Energy/Ion/Fire/Electrical
--1 vs Sonic
--1 vs Cold
+-6 vs Piercing/Slashing
+-6 vs Energy/Ion/Fire
 +Level 3 Upgrades
 
 Sith Battle Suit
 Max Dex +1
--3 vs Physical
--3 vs Energy/Ion/Fire/Electrical
--3 vs Sonic
--3 vs Cold
+-4 vs Physical
+-4 vs Energy/Ion/Fire
+-4 vs Electrical
+-4 vs Sonic
+-4 vs Cold
 +2 Saves vs Poison
-+2 Saves vs Mind-Affecting
++1 Max Dex
 +Level 4 Upgrades
 
 Echani Battle Armor
 Max Dex +1
--3 vs Physical
--4 vs Energy/Ion
--6 vs Fire
--6 vs Electric
--6 vs Sonic
--1 vs Cold
+-7 vs Energy/Ion/Fire
+-7 vs Electric
+-7 vs Sonic
 +2 Max Dex
 +None
 
 Zabrak Battle Armor
 Max Dex +1
--5 vs Physical
--4 vs Energy/Ion/Electrical
+-6 vs Piercing/Slashing
+-6 vs Energy/Ion
 -10 vs Fire
 -10 vs Cold
+-30% vs Fire
+-30% vs Cold
 +5 Saves vs Fire
 +5 Saves vs Cold
 +None
 
 Verpine Fiber Mesh
 Max Dex +1
--3 vs Physical
--4 vs Energy/Ion/Fire
--10 vs Electrical
+-4 vs Piercing/Slashing
+-6 vs Energy/Fire
+-8 vs Ion
+-8 vs Electrical
 +2 Saves vs Ion
 +2 Saves vs Electrical
 +Level 3 Upgrades
@@ -211,28 +238,25 @@ Heavy Battle Armor
 
 Republic Battle Armor
 Max Dex +0
--5 vs Physical
--5 vs Energy/Ion/Fire/Electrical
--2 vs Sonic
--2 vs Cold
+-8 vs Piercing/Slashing
+-8 vs Energy/Ion/Fire
 +Level 4 Upgrades
 
 Mandalorian Battle Armor
 Max Dex +0
--6 vs Physical
--6 vs Energy/Ion/Fire/Electrical
--2 vs Sonic
--2 vs Cold
+-10 vs Piercing/Slashing
+-6 vs Energy/Ion
+-10 vs Fire
+-6 vs Electrical
 +Level 4 Upgrades
 
 Echani Heavy Armor
 Max Dex +0
--4 vs Physical
--5 vs Energy/Ion
--8 vs Fire
--8 vs Electric
--8 vs Sonic
--2 vs Cold
+-2 vs Piercing/Slashing
+-10 vs Energy/Ion
+-10 vs Fire
+-10 vs Electric
+-10 vs Sonic
 +2 Saves vs Fire
 +2 Saves vs Electrical
 +2 Saves vs Sonic
@@ -241,19 +265,22 @@ Max Dex +0
 
 Sith Heavy Armor
 Max Dex +0
--4 vs Physical
--4 vs Energy/Ion/Fire/Electrical
--4 vs Sonic
--4 vs Cold
+-6 vs Piercing/Slashing
+-6 vs Energy/Ion/Fire
+-6 vs Electrical
+-6 vs Sonic
+-6 vs Cold
+Poison Immunity
++1 Max Dex
 +Level 5 Upgrades
 
 M'uhk'gfa
 Max Dex +0
--8 vs Physical
--6 vs Energy/Ion/Fire/Electrical
--2 vs Sonic
--2 vs Cold
--30% vs Physical
+-12 vs Piercing/Slashing
+-6 vs Energy/Ion/Fire
+-12 vs Bludgeoning
+-30% vs Piercing/Slashing
+-30% vs Bludgeoning
 +None
 
 
@@ -261,27 +288,27 @@ Heaviest Armor
 
 Correlian Powersuit
 Max Dex +0
--7 vs Physical
--7 vs Energy/Ion/Fire/Electrical
--3 vs Sonic
--3 vs Cold
+-10 vs Piercing/Slashing
+-10 vs Energy/Ion/Fire
+-10 vs Electrical
+-10 vs Sonic
 +2 Str
 +2 Con
 +None
 
 Mandalorian Assault Armor
 Max Dex +0
--7 vs Physical
--7 vs Energy/Ion/Fire/Electrical
--3 vs Sonic
--3 vs Cold
+-10 vs Piercing/Slashing
+-12 vs Energy/Ion/Fire
+-10 vs Electrical
 +Level 5 Upgrades
 
 Matrix Armor
--8 vs Physical
--8 vs Energy/Ion/Fire/Electrical
--8 vs Cold
--8 vs Sonic
+-10 vs Physical
+-15 vs Energy/Ion/Fire
+-10 vs Electrical
+-10 vs Cold
+-10 vs Sonic
 -30% vs Energy
 -30% vs Ion
 -30% vs Fire
@@ -310,7 +337,7 @@ Stealth Coating I
 
 
 Level 3:
-
+ 
 Alblative Plating I
 -5% vs Physical
 -5% vs Energy
@@ -406,7 +433,7 @@ Environmental II
 
 Poison II
 +2 Save vs Poison
-
+ 
 Mind-Affecting I
 +1 Save vs Fear
 +1 Save vs Mind-Affecting

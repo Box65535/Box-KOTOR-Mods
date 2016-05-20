@@ -156,7 +156,7 @@ Sith Sniper Rifle (Blaster Rifle)
 +All
 
 Mandalorian Assault Rifle (Blaster Rifle)
-1d20 Energy / 19-20 x2
+1d20 Energy / 20-20 x2
 +All
 
 Zabrak Combat Rifle (Blaster Rifle)
@@ -167,10 +167,6 @@ Zabrak Combat Rifle (Blaster Rifle)
 
 
 Not Sure
-
-(?) Disruption Rifle
-1d12 Unstoppable / 19-20 x2
-+Chamber, Scope
 
 Verpine Neural Scrambler (Ion Rifle)
 1d12 Ion / 20-20 x3
@@ -191,31 +187,31 @@ Paralyze 25% 2 Rounds DC 18
 Repeating Blaster Rifles
 
 Republic Repeating Blaster
-3d6 Energy / 20-20 x2
+3d8 Energy / 20-20 x2
 +All
 
 Onderon Repeating Carbine
-3d4 Sonic / 20-20 x2
+3d6 Sonic / 20-20 x2
 -6 Wis DC 20
 +1d8 Unstoppable
 +Scope
 
 Zabrak Repeating Blaster
-3d6 Energy / 20-20 x2
+3d8 Energy / 20-20 x2
 +1d8 Unstoppable
 +None
 
 Overclocked Repeating Blaster
-3d6 Energy / 20-20 x2
+3d8 Energy / 20-20 x2
 +2 Rapid Shot
 +None
 
 Mandalorian Heavy Assault Rifle
-3d8 Energy / 20-20 x2
+3d10 Energy / 20-20 x2
 +All
 
 Sith Repeating Blaster
-3d6 Unstoppable / 20-20 x2
+3d8 Unstoppable / 20-20 x2
 +Chamber, Scope
 
 
@@ -224,22 +220,22 @@ Sith Repeating Blaster
 Heaving Repeating Blasters
 
 Republic Heavy Repeater
-6d4 Energy / 20-20 x2
+5d6 Energy / 20-20 x2
 +All
 
 Mandalorian Heavy Repeater
-6d4 Unstoppable / 20-20 x2
+5d6 Unstoppable / 20-20 x2
 +Chamber, Scope
 
 
 WIP:
 
 Ion Turret Gun
-6d4 Ion / 20-20 x3
+5d6 Ion / 20-20 x3
 +Chamber, Scope
 
 HK-50 Heavy Repeater
-6d4 Energy / 19-20 x2
+5d6 Energy / 19-20 x2
 +All
 
 

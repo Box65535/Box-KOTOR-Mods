@@ -389,7 +389,7 @@ with open('Data\\shields.csv', 'r') as csvfile:
 		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
 
 # Stimulants
-with open('Data\\shields.csv', 'r') as csvfile:
+with open('Data\\stimulants.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]

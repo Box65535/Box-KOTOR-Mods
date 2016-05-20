@@ -59,7 +59,7 @@ Watchman Blaster (Hold Out Blaster)
 Verpine Ion Pistol
 Ion Blaster
 1d10 Ion / 20-20 x2
-+2 Ion vs Droid
++1d6 Ion vs Droid
 +Chamber, Scope
 
 Sith Disruptor
@@ -122,7 +122,7 @@ Republic Blaster Rifle
 
 Verpine Ion Rifle
 1d12 Ion / 20-20 x3
-+6 Ion vs Droid
++1d12 Ion vs Droid
 +Chamber, Scope
 
 HK-50 Assassin Rifle (Disruptor Rifle)

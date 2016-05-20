@@ -1,0 +1,57 @@
+
+Defense Bonus 4 Armors:
+-Light Combat Suit
+-Combat Suit
+-Mandalorian Combat Suit
+-Zabrak Combat Suit
+-Echani Light Armor
+-Massassi Ceremonial Armor
+-Mandalorian Heavy Suit
+-Electromesh Suit
+
+Defense Bonus 5 Armors:
+-Heavy Combat Suit
+-Bonadan Heavy Alloy Suit
+-Zabrak Battle Armor
+-Echani Shield Suit
+-Reinforced Fiber Armor
+-Zabrak Field Armor
+-Ulic Qel Droma's Mesh Suit
+
+Defense Bonus 6 Armors:
+-Military Suit
+-Echani Battle Armor
+-Cinnagar War Suit
+-Sith Battle Suit
+-Verpine Fiber Mesh
+-Exar Kun's Light Battle Suit
+-Heavy Cinnagar War Suit
+-Verpine Fiber Ultramesh
+
+Defense Bonus 7 Armors:
+-Light Battle Armor
+-Bronzium Light Battle Armor
+-Krath Heavy Armor
+-Powered Light Battle Armor
+-Krath Holy Battle Suit
+-Electromesh Armor
+-Jamo Hogra's Battle Armor
+
+Defense Bonus 8 Armors:
+-Battle Armor
+-Echani Heavy Armor
+-Powered Battle Armor
+-Verpine Zal Alloy Mesh
+
+Defense Bonus 9 Armors:
+-Heavy Battle Armor
+-Durasteel Heavy Armor
+-Flex Heavy Armor
+-Mandalorian Battle Armor
+-Mandalorian Heavy Armor
+
+
+
+
+
+

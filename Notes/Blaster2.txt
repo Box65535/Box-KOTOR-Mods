@@ -131,7 +131,9 @@ HK-50 Assassin Rifle (Disruptor Rifle)
 
 Onderon Sonic Rifle
 1d12 Sonic / 20-20 x2
--6 Wis DC 20
+-6 Int DC 18
+-6 Wis DC 18
+-6 Chr DC 18
 +Scope
 
 Mandalorian Disruption Rifle (Disruptor Rifle)
@@ -250,3 +252,54 @@ Ceremonial Bowcaster
 +1d4 Piercing
 Keen
 +None
+
+
+
+
+What if you made repeating all blasters one weapon class and had 4 levels of ranged weapons?
+
+
+Republic Blaster Cannon
+3d8 Energy / 20-20 x2
++All
+
+Onderon Repeating Carbine
+3d6 Sonic / 20-20 x2
+-6 Wis DC 20
++1d8 Unstoppable
++Scope
+
+Overclocked Repeating Blaster
+3d8 Energy / 20-20 x2
++2 Rapid Shot
++None
+
+Heavy Plasma Cannon
+3d8 Ion / 20-20 x2
++1d8 Fire
++Chamber, Scope
+
+Mandalorian Heavy Repeater
+3d10 Energy / 20-20 x2
++All
+
+Zabrak Heavy Repeater
+3d10 Energy / 20-20 x2
++1d10 Unstoppable
++None
+
+HK-50 Heavy Repeater
+3d6 Unstoppable / 19-20 x2
++Chamber, Scope
+
+
+This also works with the fact that there are 7 heavy weapons models in k2
+
+OK, now I'm learning that repeating blasters actually attack twice per round
+In that case.........
+Well, we should make them something like 1d12-1d16
+I mean that's actually really, really good when you consider upgrades and the fact that you dodge having to take the dual wield feats
+You could even make it 1d10-1d12 but that's ehhhh maybe
+
+
+

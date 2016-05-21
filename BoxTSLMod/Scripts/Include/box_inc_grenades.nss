@@ -63,8 +63,8 @@ int Box_PoisonGrenadeLauncher(object oTarget) {
 	return Box_PoisonWeapon(oTarget, GAS_GRENADE);
 }
 
-int Box_SleepGrenadeLauncher(object oTarget) {
-	return 0;
+int Box_NerveGrenadeLauncher(object oTarget) {
+	return Box_EffectWeapon(oTarget, 20, EffectChoke(), SAVING_THROW_FORT, SAVING_THROW_TYPE_POISON, 9.0);
 }
 
 int Box_SonicGrenadeLauncher(object oTarget) {
@@ -73,7 +73,8 @@ int Box_SonicGrenadeLauncher(object oTarget) {
 }
 
 int Box_SonicGrenadeLauncher2(object oTarget) {
-	return 0;
+	int save = Box_GetBestSave(oTarget, SAVING_THROW_REFLEX, SAVING_THROW_WILL);
+	return Box_SonicWeapon(oTarget, 20, 32, 8, save, 6, 30.0);
 }
 
 int Box_PlasmaGrenadeLauncher(object oTarget) {
@@ -81,7 +82,15 @@ int Box_PlasmaGrenadeLauncher(object oTarget) {
 	return Box_PlasmaWeapon(oTarget, 20, 36, 6, save);
 }
 
-int Box_IonGrenadeLauncher(object oTarget) {
+int Box_ShockGrenadeLauncher(object oTarget) {
+	return 0;
+}
+
+int Box_ColdGrenadeLauncher(object oTarget) {
+	return 0;
+}
+
+int Box_AdhesiveGrenadeLauncher(object oTarget) {
 	return 0;
 }
 
@@ -114,6 +123,12 @@ int Box_IncendiaryRocket(object oTarget) {
 	int save = Box_GetBestSave(oTarget, SAVING_THROW_FORT, SAVING_THROW_REFLEX);
 	return Box_BurnWeapon(oTarget, 24, 36, 12, save, 4, 30.0);
 }
+
+int Box_ColdRocket(object oTarget) {
+	return 0;
+}
+
+
 
 int Box_PlasmaRocket(object oTarget) {
 	int save = SAVING_THROW_REFLEX;

@@ -517,8 +517,9 @@ with open('Data\\healing.csv', 'r') as csvfile:
 			add_line(upgradegen, row, medstation_pattern, '#MEDS')
 		else:
 			copy_template('Data\\Templates\\repairkit.uti', 'Data\\Items\\' + row['tag'] + '.uti')
-			add_line(spellgen, row, repairspell_pattern, '#SPELLS')
-			add_line(upgradegen, row, craftitem_pattern, '#ITEMS')
+			# We'll use ammo boxes for these now
+			# add_line(spellgen, row, repairspell_pattern, '#SPELLS')
+			# add_line(upgradegen, row, craftitem_pattern, '#ITEMS')
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(fieldgen, row, field_pattern, '#ITEMS')

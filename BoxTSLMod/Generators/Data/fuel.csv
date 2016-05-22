@@ -11,8 +11,8 @@ al_plasma,grenade,BOXI_FUEL,0,Plasma Grenade Ammo,,PLASMA_GRENADE_AMMO,BOX_PLASM
 al_ion,grenade,BOXI_FUEL,0,Ion Grenade Ammo,,ION_GRENADE_AMMO,BOX_ION_GRENADE,BOX_ION_LAUNCHER,6,box_ionlauncher,****,w_IonGren_001,ballistic,4,Box_IonGrenadeLauncher,Box_IonGrenadeExplode
 ar_explo,grenade,BOXI_FUEL,0,Explosive Rocket,,EXPLOSIVE_ROCKET,BOX_EXPLOSIVE_ROCKET,BOX_EXPLOSIVE_ROCKET,9,box_explosiverocket,****,W_rokplasma,accelerating,5,Box_ExplosiveRocket,Box_ExplosiveRocketExplode
 ar_fire,grenade,BOXI_FUEL,0,Incendiary Rocket,,INDENCIARY_ROCKET,BOX_INCENDIARY_ROCKET,BOX_INCENDIARY_ROCKET,9,box_incendiaryrocket,****,W_rokplasma,accelerating,5,Box_IncendiaryRocket,Box_IncendiaryRocketExplode
-ar_buster,blast,BOXI_FUEL,0,Buster Rocket,,BUSTER_ROCKET,BOX_BUSTER_ROCKET,BOX_BUSTER_ROCKET,9,box_busterrocket,****,W_rokpierce,accelerating,5,Box_BusterRocket,Box_BusterRocketBeam
-ar_buster2,blast,BOXI_FUEL,0,Buster Rocket Mk II,,BUSTER_ROCKET_2,BOX_BUSTER_ROCKET_2,BOX_BUSTER_ROCKET_2,9,box_busterrocket2,****,W_rokpierce,accelerating,5,Box_BusterRocket2,Box_BusterRocketBeam
+ar_buster,blast,BOXI_FUEL,0,Buster Rocket,,BUSTER_ROCKET,BOX_BUSTER_ROCKET,BOX_BUSTER_ROCKET,9,box_busterrocket,****,W_rokpierce,accelerating,,Box_BusterRocket,Box_BusterRocketBeam
+ar_buster2,blast,BOXI_FUEL,0,Buster Rocket Mk II,,BUSTER_ROCKET_2,BOX_BUSTER_ROCKET_2,BOX_BUSTER_ROCKET_2,9,box_busterrocket2,****,W_rokpierce,accelerating,,Box_BusterRocket2,Box_BusterRocketBeam
 ar_cold,grenade,BOXI_FUEL,0,Carbonite Rocket,,CARBONITE_ROCKET,BOX_COLD_ROCKET,BOX_COLD_ROCKET,9,box_coldrocket,****,W_rokconc,accelerating,5,Box_ColdRocket,Box_ColdRocketExplode
 ar_?,grenade,BOXI_FUEL,0,?,,?,?,?,9,?,****,?,accelerating,5,?,?
 ar_plasma,grenade,BOXI_FUEL,0,Plasma Rocket,,PLASMA_ROCKET,BOX_PLASMA_ROCKET,BOX_PLASMA_ROCKET,9,box_plasmarocket,****,W_rokion,accelerating,5,Box_PlasmaRocket,Box_PlasmaRocketExplode

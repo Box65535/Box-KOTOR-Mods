@@ -108,10 +108,10 @@ poisoncode_pattern = """poisoncodes.append('{0.poisoncode}')"""
 poisonitem_pattern = """itemcodes['{0.tag}.uti'] = '{0.poisoncode}'"""
 
 # powergen.py
-removepower_pattern = """remove_spells.append(Spell({0.spellindex}, '{0.spellcode}_UNUSED', 
+removepower_pattern = """remove_spells.append(Spell({0.spellindex}, '{0.spellcode}', 
 	{0.powercost}, None, {0.levelreq}, None, {0.spellcr}, None, None, None, '{0.script}',
 	None, None, None, None, None, None))"""
-eradicatepower_pattern = """eradicate_spells.append(Spell({0.spellindex}, '{0.spellcode}_UNUSED',
+eradicatepower_pattern = """eradicate_spells.append(Spell({0.spellindex}, '{0.spellcode}',
 	None, None, None,  None,  None,  None,  None,  None,  None,  None,  None,
 	None,  None,  None, None))"""
 modifypower_pattern = """modify_spells.append(Spell({0.spellindex}, '{0.spellcode}', {0.powercost}, None,
@@ -607,6 +607,8 @@ with open('Data\\powers.csv', 'r') as csvfile:
 			add_line(powergen, row, removepower_pattern, '#REMOVES')
 		elif row['type'] == 'eradicate':
 			add_line(powergen, row, eradicatepower_pattern, '#ERADICATES')
+		elif row['type'] == 'persuade':
+			add_line(powergen, row, modifypower_pattern, '#MODIFIES')
 		elif row['type'] == 'modify':
 			verify_function(incpowers, row['functioncall'])
 			verify_function(incvisual, row['visualfunction'])

@@ -9,6 +9,60 @@ class Character:
 		self.filename = filename
 		self.feats = feats
 
+class BaseItem:
+	def __init__(self, name, label, equipableslots, modeltype, itemclass, genderspecific, partenvmap, defaultmodel, defaulticon,
+			container, weaponwield, weapontype, damageflags, weaponsize, prefattackdist, minrange, maxrange, bloodcolr, numdice,
+			dietoroll, critthreat, crithitmult, basecost, stacking, itemmultiplier, invsoundtype, minprops, propcolumn, reqfeat0,
+			ac_enchant, baseac, dexbonus, accheck, armorcheckpen, chargesstarting, rotateonground, tenthlbs, weaponmattype,
+			powereditem, itemtype, specfeat, focfeat, droidorhuman, denysubrace, storepanelsort, armortype, rangedweapon,
+			maxattackrange, ):
+		self.name = name
+		self.label = label
+		self.equipableslots = equipableslots
+		self.modeltype = modeltype
+		self.itemclass = itemclass
+		self.genderspecific = genderspecific
+		self.partenvmap = partenvmap
+		self.defaultmodel = defaultmodel
+		self.defaulticon = defaulticon
+		self.container = container
+		self.weaponwield = weaponwield
+		self.weapontype = weapontype
+		self.damageflags = damageflags
+		self.weaponsize = weaponsize
+		self.prefattackdist = prefattackdist
+		self.minrange = minrange
+		self.bloodcolr = bloodcolr
+		self.numdice = numdice
+		self.dietoroll = dietoroll
+		self.critthreat = critthreat
+		self.crithitmult = crithitmult
+		self.basecost = basecost
+		self.stacking = stacking
+		self.itemmultiplier = itemmultiplier
+		self.invsoundtype = invsoundtype
+		self.minprops = minprops
+		self.propcolumn = propcolumn
+		self.reqfeat0 = reqfeat0		
+		self.ac_enchant = ac_enchant
+		self.baseac = baseac
+		self.dexbonus = dexbonus
+		self.accheck = accheck
+		self.armorcheckpen = armorcheckpen
+		self.chargesstarting = chargesstarting
+		self.rotateonground = rotateonground
+		self.tenthlbs = tenthlbs
+		self.weaponmattype = weaponmattype
+		self.powereditem = powereditem
+		self.itemtype = itemtype
+		self.specfeat = specfeat
+		self.focfeat = focfeat
+		self.droidorhuman = droidorhuman
+		self.denysubrace = denysubrace
+		self.storepanelsort = storepanelsort
+		self.armortype = armortype
+		self.rangedweapon = rangedweapon
+		
 featcodes = list()
 # Generated lines go here
 #FEATCODES

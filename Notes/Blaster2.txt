@@ -46,18 +46,25 @@ Advanced Mining Laser
 1d10 Fire / 20-20 x2
 +Scope
 
-
+Freedon Nadd's Blaster
+1d16 Dark Side / 20-20 x2
+Requires Dark Side
+Requires Force Sensitive
++None
 
 
 
 Military Blasters
+
+Republic Blaster Pistol
+1d10 Energy / 20-20 x2 / Balanced
++All
 
 Watchman Blaster (Hold Out Blaster)
 1d8 Energy / 19-20 x2 / Balanced
 +All
 
 Verpine Ion Pistol
-Ion Blaster
 1d10 Ion / 20-20 x2
 +1d6 Ion vs Droid
 +Chamber, Scope
@@ -72,24 +79,23 @@ Systech Aural Blaster
 -6 Wis DC 12
 +Scope
 
-Republic Blaster Pistol (Heavy Blaster)
+Mandalorian Heavy Blaster
 1d12 Energy / 20-20 x2
 +All
 
-Zabrak Blaster Carbine
-1d12 Energy / 20-20 x2
-+1d3 Unstoppable
-+1 Attack 
-+None
+Systech Electric Blaster (Blaster Pistol)
+1d10 Energy / 20-20 x2 / Balanced
++1d6 Electric
++Scope
 
 Sith Assassin Pistol (Hold Out Blaster)
 1d8 Energy / 19-20 x2 / Balanced
 Stun 25% 2 rounds DC 14
 +All
 
-Systech Electric Blaster (Ion Blaster)
+Aratech Plasma Blaster (Ion Blaster)
 1d10 Ion / 20-20 x2
-+1d4 Electric
++1d4 Fire
 +Chamber, Scope
 
 Mandalorian Disruptor Pistol (Disruptor Pistol)
@@ -101,20 +107,25 @@ Dashade Sonic Disruptor (Sonic Pistol)
 +1d4 Unstoppable
 +Scope
 
-Mercenary Blaster (Heavy Blaster)
+Zabrak Heavy Blaster (Heavy Blaster)
 1d12 Energy / 20-20 x2
-Keen
-+1d3 Physical
-+1d3 Massive Crit
-+None
-
-Exchange Stun Carbine (Blaster Carbine)
-1d12 / 19-20 x2
-Stun 25% 2 rounds DC 16
++1 Attack
++1d4 Unstoppable
 +None
 
 
 Blaster Rifles
+
+Blaster Carbine
+1d12 / 19-20 x2
++1 Attack
++All
+
+Exchange Stun Carbine (Blaster Carbine)
+1d12 / 19-20 x2
+Stun 25% 2 rounds DC 20
++1 Attack
++Scope
 
 Republic Blaster Rifle
 1d16 Energy / 19-20 x2
@@ -164,7 +175,7 @@ Mandalorian Assault Rifle (Blaster Rifle)
 Zabrak Combat Rifle (Blaster Rifle)
 1d16 Energy / 19-20 x2
 +2 Attack
-+1d4 Unstoppable
++1d6 Unstoppable
 +None
 
 

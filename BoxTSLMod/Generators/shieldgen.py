@@ -4,19 +4,12 @@ shieldnames = list()
 # Generated lines go here
 #SHIELDS
 
-replaces = {}
-# Generated lines go here
-#REPLACES
-
 
 
 
 shields = 'error'
 with open('shields.ini', 'r') as file:
 	shields = file.read()
-	
-	for key in replaces:
-		shields = shields.replace(key, replaces[key])
 	
 	index = 1
 	for shield in shieldnames:

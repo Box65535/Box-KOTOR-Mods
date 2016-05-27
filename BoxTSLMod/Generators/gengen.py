@@ -223,19 +223,21 @@ tagconst_pattern = """string {0.itemconst} = "{0.tag}";"""
 hideconst_pattern = """string {0.hideconst} = "{0.name}";"""
 
 # baseitems.ini
-baseitemheader_pattern = """AddRow0{baseitemcode}={baseitemcode}"""
-baseitemini_pattern = """[{baseitemcode}]
+baseitemheader_pattern = """AddRow0{baseitemconst}=baseitem_{baseitemconst}"""
+baseitemini_pattern = """[baseitem_{baseitemconst}]
 name=0
-label={baseitemcode}
+label={baseitemconst}}
 equipableslots={equipableslots}
 canrotateicon={canrotateicon}
 modeltype={modeltype}
+itemclass={itemclass}
 genderspecific={genderspecific}
 partenvmap={partenvmap}
 defaultmodel={defaultmodel}
 defaulticon={defaulticon}
 container={container}
 weaponwield={weaponwield}
+weapontype={weapontype}
 damageflags={damageflags}
 weaponsize={weaponsize}
 rangedweapon={rangedweapon}
@@ -267,6 +269,7 @@ dexbonus={dexbonus}
 accheck={accheck}
 armorcheckpen={armorcheckpen}
 baseitemstatref={baseitemstatref}
+chargesstarting={chargesstarting}
 rotateonground={rotateonground}
 tenthlbs={tenthlbs}
 weaponmattype={weaponmattype}
@@ -286,6 +289,56 @@ storepanelsort={storepanelsort}
 ExclusiveColumn=label
 {baseitemcode}=RowIndex"""
 
+# poison.ini
+poisonheader_pattern = """AddRow0{poisonconst}=poison_{poisonconst}"""
+poisonini_pattern = """[poison_{poisonconst}]
+label={poisonconst}
+dc_save={dc_save}
+duration={duration}
+period={period}
+dam_hp={dam_hp}
+dam_fp={dam_fp}
+dam_str={dam_str}
+dam_dex={dam_dex}
+dam_con={dam_con}
+dam_int={dam_int}
+dam_wis={dam_wis}
+dam_chr={dam_chr}
+name=****
+abil_dur={abil_dur}
+ExclusiveColumn=label
+{poisoncode}=RowIndex
+"""
+
+# shields.ini
+shieldheader_pattern = """AddRow0{shieldconst}=shield_{shieldconst}"""
+shieldini_pattern = """[shield_{shieldconst}]
+label={shieldconst}
+visualeffectdef={visualeffectdef}
+defaultradius={defaultradius}
+damageflags={damageflags}
+vulnerflags={vulnerflags}
+amount={amount}
+permanent={permanent}
+appearance_01={appearance_01}
+visualeffect_01={visualeffect_01}
+radius_01={radius_01}
+appearance_02={appearance_02}
+visualeffect_02={visualeffect_02}
+radius_02={radius_02}
+appearance_03={appearance_03}
+visualeffect_03={visualeffect_03}
+radius_03={radius_03}
+appearance_04={appearance_04}
+visualeffect_04={visualeffect_04}
+radius_04={radius_04}
+ExclusiveColumn=label
+{shieldcode}=RowIndex
+"""
+
+# dc.ini
+dcheader_pattern = """[{tag}.uti]
+PropertiesList\0\CostValue=2DAMEMORY{dc}"""
 
 # append.txt
 tlk_pattern = """String {0.number}:

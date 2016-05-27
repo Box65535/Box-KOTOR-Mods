@@ -357,14 +357,72 @@ Good enough
 
 
 
+New Upgrades:
+
+Vibration Cell:
++2 Enhancement Damage
++1d8 Massive Crit
+
+Sonic Discharge Cell:
++1d8 Sonic
+
+Plasma Cell:
++2 Fire
+Con -6 DC 18
+
+Stabilizing Cell:
++2 Attack
+
+Electric Cell:
++2 Electric
+25% Stun DC 20 (2 Rounds)
 
 
 
+Metal Edge 1:
++1 Enhancement Damage
 
+Metal Edge 2:
++2 Enhancement Damage
 
+Metal Edge 3:
++3 Enhancement Damage
 
+Metal Edge 4:
++4 Enhancement Damage
 
+Metal Edge 5:
++5 Enhancement Damage
 
+Poison Edge 1:
+Str/Dex Attribute Poison DC 10
 
+Poison Edge 2:
+Str/Dex Attribute Poison DC 14
 
+Poison Edge 3:
+Str/Dex Attribute Poison DC 18
 
+Paralysis Edge 1:
+25% Paralysis DC 12
+
+Paralysis Edge 2:
+25% Paralysis DC 16
+
+Paralysis Edge 3:
+25% Paralysis DC 20
+
+Crit Edge 1:
++1d8 Massive Crit
+
+Crit Edge 2:
++1d12 Massive Crit
+
+Crit Edge 3:
++1d16 Massive Crit
+
+Crit Edge 4:
++1d20 Massive Crit
+
+Keen Edge:
+Keen

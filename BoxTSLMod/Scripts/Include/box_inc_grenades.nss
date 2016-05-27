@@ -94,10 +94,6 @@ int Box_AdhesiveGrenadeLauncher(object oTarget) {
 	return 0;
 }
 
-int Box_DetonatorGrenadeLauncher(object oTarget) {
-	int save = SAVING_THROW_REFLEX;
-	return Box_DetonatorWeapon(oTarget, 28, 60, 20, save);
-}
 
 
 // Rocket Launchers
@@ -138,6 +134,11 @@ int Box_PlasmaRocket(object oTarget) {
 int Box_RadiationRocket(object oTarget) {
 	Box_DealDamage(oTarget, 20, DAMAGE_TYPE_FIRE);
 	return Box_PoisonWeapon(oTarget, RADIATION_ROCKET);
+}
+
+int Box_DetonatorGrenadeLauncher(object oTarget) {
+	int save = SAVING_THROW_REFLEX;
+	return Box_DetonatorWeapon(oTarget, 28, 60, 20, save);
 }
 
 int Box_FusionRocket(object oTarget) {

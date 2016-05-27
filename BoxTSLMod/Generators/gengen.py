@@ -153,6 +153,8 @@ spellitem_pattern = """items.append(Item('{0.tag}', '{0.spellcode}'))"""
 
 # shieldgen.py
 shieldcode_pattern = """shieldnames.append('{0.shieldcode}')"""
+shieldabsorb_pattern = """replaces['{0.shieldcode}_ABSORB'] = '{0.shieldabsorb}'"""
+shieldflags_pattern = """replaces['{0.shieldcode}_FLAGS'] = '{0.shieldflags}'"""
 
 # upgradegen.py
 upgrade_pattern = """upgrades.append(Upgrade('{0.tag}', {0.upgradetype}, {0.skill},
@@ -220,7 +222,69 @@ tagconst_pattern = """string {0.itemconst} = "{0.tag}";"""
 # box_inc_itemconst.nss
 hideconst_pattern = """string {0.hideconst} = "{0.name}";"""
 
-
+# baseitems.ini
+baseitemheader_pattern = """AddRow0{baseitemcode}={baseitemcode}"""
+baseitemini_pattern = """[{baseitemcode}]
+name=0
+label={baseitemcode}
+equipableslots={equipableslots}
+canrotateicon={canrotateicon}
+modeltype={modeltype}
+genderspecific={genderspecific}
+partenvmap={partenvmap}
+defaultmodel={defaultmodel}
+defaulticon={defaulticon}
+container={container}
+weaponwield={weaponwield}
+damageflags={damageflags}
+weaponsize={weaponsize}
+rangedweapon={rangedweapon}
+maxattackrange={maxattackrange}
+prefattackdist={prefattackdist}
+minrange={minrange}
+maxrange={maxrange}
+bloodcolr={bloodcolr}
+numdice={numdice}
+dietoroll={dietoroll}
+critthreat={critthreat}
+crithitmult={crithitmult}
+basecost={basecost}
+stacking={stacking}
+itemmultiplier={itemmultiplier}
+description=****
+invsoundtype={invsoundtype}
+maxprops={maxprops}
+minprops={minprops}
+propcolumn={propcolumn}
+reqfeat0={reqfeat0}
+reqfeat1={reqfeat1}
+reqfeat2={reqfeat2}
+reqfeat3={reqfeat3}
+reqfeat4={reqfeat4}
+ac_enchant={ac_enchant}
+baseac={baseac}
+dexbonus={dexbonus}
+accheck={accheck}
+armorcheckpen={armorcheckpen}
+baseitemstatref={baseitemstatref}
+rotateonground={rotateonground}
+tenthlbs={tenthlbs}
+weaponmattype={weaponmattype}
+ammunitiontype={ammunitiontype}
+powereditem={powereditem}
+powerupsnd={powerupsnd}
+powerdownsnd={powerdownsnd}
+poweredsnd={poweredsnd}
+itemtype={itemtype}
+bodyvar={bodyvar}
+specfeat={specfeat}
+focfeat={focfeat}
+droidorhuman={droidorhuman}
+denysubrace={denysubrace}
+armortype={armortype}
+storepanelsort={storepanelsort}
+ExclusiveColumn=label
+{baseitemcode}=RowIndex"""
 
 
 # append.txt
@@ -383,6 +447,8 @@ with open('Data\\shields.csv', 'r') as csvfile:
 		add_line(spellgen, row, selfspell_pattern, '#SPELLS')
 		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
 		add_line(shieldgen, row, shield_pattern, '#ITEMS')
+		add_line(shieldgen, row, shieldabsorb_pattern, '#REPLACES')
+		add_line(shieldgen, row, shieldflags_pattern, '#REPLACES')
 		add_line(scriptgen, row, shieldscript_pattern, '#SCRIPTS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(shieldconst, row, shieldconst_pattern, '//SHIELDS')

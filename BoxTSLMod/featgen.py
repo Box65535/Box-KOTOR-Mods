@@ -180,7 +180,7 @@ featnames.append('BOX_FORCEIMMUN3_N')
 featnames.append('BOX_FORCESTLH_N')
 # Skill
 featnames.append('BOX_CLSAWARE_N')
-featnames.append('BOX_CLSCRAFT_N')
+featnames.append('BOX_CLSSCIENCE_N')
 featnames.append('BOX_CLSDEMO_N')
 featnames.append('BOX_CLSREPAIR_N')
 featnames.append('BOX_CLSSECUR_N')

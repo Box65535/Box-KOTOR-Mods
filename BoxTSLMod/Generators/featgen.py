@@ -8,60 +8,6 @@ class Character:
 	def __init__(self, filename, feats):
 		self.filename = filename
 		self.feats = feats
-
-class BaseItem:
-	def __init__(self, name, label, equipableslots, modeltype, itemclass, genderspecific, partenvmap, defaultmodel, defaulticon,
-			container, weaponwield, weapontype, damageflags, weaponsize, prefattackdist, minrange, maxrange, bloodcolr, numdice,
-			dietoroll, critthreat, crithitmult, basecost, stacking, itemmultiplier, invsoundtype, minprops, propcolumn, reqfeat0,
-			ac_enchant, baseac, dexbonus, accheck, armorcheckpen, chargesstarting, rotateonground, tenthlbs, weaponmattype,
-			powereditem, itemtype, specfeat, focfeat, droidorhuman, denysubrace, storepanelsort, armortype, rangedweapon,
-			maxattackrange, ):
-		self.name = name
-		self.label = label
-		self.equipableslots = equipableslots
-		self.modeltype = modeltype
-		self.itemclass = itemclass
-		self.genderspecific = genderspecific
-		self.partenvmap = partenvmap
-		self.defaultmodel = defaultmodel
-		self.defaulticon = defaulticon
-		self.container = container
-		self.weaponwield = weaponwield
-		self.weapontype = weapontype
-		self.damageflags = damageflags
-		self.weaponsize = weaponsize
-		self.prefattackdist = prefattackdist
-		self.minrange = minrange
-		self.bloodcolr = bloodcolr
-		self.numdice = numdice
-		self.dietoroll = dietoroll
-		self.critthreat = critthreat
-		self.crithitmult = crithitmult
-		self.basecost = basecost
-		self.stacking = stacking
-		self.itemmultiplier = itemmultiplier
-		self.invsoundtype = invsoundtype
-		self.minprops = minprops
-		self.propcolumn = propcolumn
-		self.reqfeat0 = reqfeat0		
-		self.ac_enchant = ac_enchant
-		self.baseac = baseac
-		self.dexbonus = dexbonus
-		self.accheck = accheck
-		self.armorcheckpen = armorcheckpen
-		self.chargesstarting = chargesstarting
-		self.rotateonground = rotateonground
-		self.tenthlbs = tenthlbs
-		self.weaponmattype = weaponmattype
-		self.powereditem = powereditem
-		self.itemtype = itemtype
-		self.specfeat = specfeat
-		self.focfeat = focfeat
-		self.droidorhuman = droidorhuman
-		self.denysubrace = denysubrace
-		self.storepanelsort = storepanelsort
-		self.armortype = armortype
-		self.rangedweapon = rangedweapon
 		
 featcodes = list()
 # Generated lines go here
@@ -82,11 +28,11 @@ items = list()
 #ITEMS
 
 
-itemreqs = list()
+itemreqs = {}
 # Generated lines go here
 #REQS
 
-itembonuses = list()
+itembonuses = {}
 # Generated lines go here
 #BONUSES
 
@@ -198,7 +144,108 @@ with open('baseitems.ini', 'r') as file:
 itemsout = ''
 for item in items:
 	itemsout = itemsout + '[' + item.filename + '.uti]\nBaseItem=' + item.baseitem + '\n'
-
+	extra = ''
+	
+	if item.filename in itemreqs:
+		extra += 'AddField0req=gff_' + item.filename + '_req\n'
+	if item.filename in itembonuses:
+		c = 0
+		for bonus in itembonuses[item.filename]:
+			c += 1
+			extra += 'AddField0bonus' + str(c) +'=gff_' + item.filename + '_bonus' + str(c) +'\n'
+	
+	if item.filename in itemreqs:
+		req = itemreqs[item.filename]
+		extra += '[gff_' + item.filename + '_req]\n'
+		extra += 'FieldType=Struct\n'
+		extra += 'Path=PropertiesList\n'
+		extra += 'Label=\n'
+		extra += 'TypeId=0\n'
+		extra += 'AddField0=gff_' + item.filename + '_PropertyName_req\n'
+		extra += 'AddField1=gff_' + item.filename + '_Subtype_req\n'
+		extra += 'AddField2=gff_' + item.filename + '_CostTable_req\n'
+		extra += 'AddField3=gff_' + item.filename + '_CostValue_req\n'
+		extra += 'AddField4=gff_' + item.filename + '_Param1_req\n'
+		extra += 'AddField5=gff_' + item.filename + '_Param1Value_req\n'
+		extra += 'AddField6=gff_' + item.filename + '_ChanceAppear_req\n'
+		extra += '[gff_' + item.filename + '_PropertyName_req]\n'
+		extra += 'FieldType=Word\n'
+		extra += 'Label=PropertyName\n'
+		extra += 'Value=57\n'
+		extra += '[gff_' + item.filename + '_Subtype_req]\n'
+		extra += 'FieldType=Word\n'
+		extra += 'Label=Subtype\n'
+		extra += 'Value=' + req +'\n'
+		extra += '[gff_' + item.filename + '_CostTable_req]\n'
+		extra += 'FieldType=Byte\n'
+		extra += 'Label=CostTable\n'
+		extra += 'Value=0\n'
+		extra += '[gff_' + item.filename + '_CostValue_req]\n'
+		extra += 'FieldType=Word\n'
+		extra += 'Label=CostValue\n'
+		extra += 'Value=' + req + '\n'
+		extra += '[gff_' + item.filename + '_Param1_req]\n'
+		extra += 'FieldType=Byte\n'
+		extra += 'Label=Param1\n'
+		extra += 'Value=255\n'
+		extra += '[gff_' + item.filename + '_Param1Value_req]\n'
+		extra += 'FieldType=Byte\n'
+		extra += 'Label=Param1Value\n'
+		extra += 'Value=0\n'
+		extra += '[gff_' + item.filename + '_ChanceAppear_req]\n'
+		extra += 'FieldType=Byte\n'
+		extra += 'Label=ChanceAppear\n'
+		extra += 'Value=100\n'
+	if item.filename in itembonuses:
+		c = 0
+		for bonus in itembonuses[item.filename]:
+			c += 1
+			req = itemreqs[item.filename]
+			extra += 'AddField0bonus' + str(c) +'=gff_' + item.filename + '_bonus' + str(c) +'\n'
+			extra += '[gff_' + item.filename + '_bonus' + str(c) +']\n'
+			extra += 'FieldType=Struct\n'
+			extra += 'Path=PropertiesList\n'
+			extra += 'Label=\n'
+			extra += 'TypeId=0\n'
+			extra += 'AddField0=gff_' + item.filename + '_PropertyName_bonus' + str(c) +'\n'
+			extra += 'AddField1=gff_' + item.filename + '_Subtype_bonus' + str(c) +'\n'
+			extra += 'AddField2=gff_' + item.filename + '_CostTable_bonus' + str(c) +'\n'
+			extra += 'AddField3=gff_' + item.filename + '_CostValue_bonus' + str(c) +'\n'
+			extra += 'AddField4=gff_' + item.filename + '_Param1_bonus' + str(c) +'\n'
+			extra += 'AddField5=gff_' + item.filename + '_Param1Value_bonus' + str(c) +'\n'
+			extra += 'AddField6=gff_' + item.filename + '_ChanceAppear_bonus' + str(c) +'\n'
+			extra += '[gff_' + item.filename + '_PropertyName_bonus' + str(c) +']\n'
+			extra += 'FieldType=Word\n'
+			extra += 'Label=PropertyName\n'
+			extra += 'Value=9\n'
+			extra += '[gff_' + item.filename + '_Subtype_bonus' + str(c) +']\n'
+			extra += 'FieldType=Word\n'
+			extra += 'Label=Subtype\n'
+			extra += 'Value=' + bonus +'\n'
+			extra += '[gff_' + item.filename + '_CostTable_bonus' + str(c) +']\n'
+			extra += 'FieldType=Byte\n'
+			extra += 'Label=CostTable\n'
+			extra += 'Value=0\n'
+			extra += '[gff_' + item.filename + '_CostValue_bonus' + str(c) +']\n'
+			extra += 'FieldType=Word\n'
+			extra += 'Label=CostValue\n'
+			extra += 'Value=' + bonus + '\n'
+			extra += '[gff_' + item.filename + '_Param1_bonus' + str(c) +']\n'
+			extra += 'FieldType=Byte\n'
+			extra += 'Label=Param1\n'
+			extra += 'Value=255\n'
+			extra += '[gff_' + item.filename + '_Param1Value_bonus' + str(c) +']\n'
+			extra += 'FieldType=Byte\n'
+			extra += 'Label=Param1Value\n'
+			extra += 'Value=0\n'
+			extra += '[gff_' + item.filename + '_ChanceAppear_bonus' + str(c) +']\n'
+			extra += 'FieldType=Byte\n'
+			extra += 'Label=ChanceAppear\n'
+			extra += 'Value=100\n'
+	
+	itemsout = itemsout + extra
+	
+	
 index = 1
 for feat in featcodes:
 	itemsout = itemsout.replace(feat, '2DAMEMORY' + str(index))
@@ -246,6 +293,12 @@ with open('tslpatchdata\\featitem.ini', 'w') as file:
 	file.write('[GFFList]\n')
 	
 	index = 0
+	for item in items:
+		file.write('File' + str(index) + '=' + item.filename + '.uti\n')
+		index = index + 1
+	for item in items:
+		file.write('File' + str(index) + '=' + item.filename + '.uti\n')
+		index = index + 1
 	for item in items:
 		file.write('File' + str(index) + '=' + item.filename + '.uti\n')
 		index = index + 1

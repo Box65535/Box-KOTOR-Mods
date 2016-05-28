@@ -1,10 +1,11 @@
 
 class Item:
-	def __init__(self, tag, name, description, model, upgradelevel):
+	def __init__(self, tag, name, description, model, upgradelevel, baseitem):
 		self.tag = tag
 		self.name = name
 		self.description = description
 		self.model = model
+		self.baseitem = baseitem
 
 scale = 1
 
@@ -17,6 +18,7 @@ items = []
 weapons = []
 # Generated lines go here
 #WEAPONS
+
 
 
 header = 'error'
@@ -41,6 +43,8 @@ with open('tslpatchdata\\fields.ini', 'w') as file:
 		file.write('LocalizeName(lang0)=' + str(item.name) + '\n')
 		file.write('DescIdentified(lang1)=' + str(item.description) + '\n')
 		file.write('ModelVariation=' + str(item.model) + '\n')
+		if item.baseitem:
+			file.write('BaseItem=' + str(item.baseitem) + '\n')
 		if item.upgradelevel:
 			file.write('UpgradeLevel=' + str(item.upgradelevel) + '\n')
 	
@@ -49,6 +53,8 @@ with open('tslpatchdata\\fields.ini', 'w') as file:
 		file.write('LocalizeName(lang0)=' + str(weapon.name) + '\n')
 		file.write('DescIdentified(lang1)=' + str(weapon.description) + '\n')
 		file.write('ModelVariation=' + str(weapon.model) + '\n')
+		if item.baseitem:
+			file.write('BaseItem=' + str(item.baseitem) + '\n')
 		file.write('UpgradeLevel=' + str(weapon.upgradelevel) + '\n')
 		file.write('AddField0=gff_' + weapon.tag + '_PropertiesList_1_0\n')
 		file.write('[gff_' + weapon.tag + '_PropertiesList_1_0]\n')

@@ -1948,6 +1948,185 @@ Not Upgradeable
 EOV
 
 
+KEY: wm_short
+Upgradeable (Edge, Grip)
+
+Disregarded by most modern warriors, a good short sword can still serve well in combat if the user is skilled.
+EOV
+
+
+KEY: wm_long
+Upgradeable (Edge, Grip)
+
+Here is where the roots of the lightsaber begin, with traditional swords still wielded today in many primitive cultures. They are simple, but effective in the right hands.
+EOV
+
+
+KEY: wm_quarter
+Upgradeable (Grip)
+
+Usually just a smooth staff of wood or light alloys, this is a very simple weapon of ancient design.
+EOV
+
+
+KEY: wm_double
+Upgradeable (Edge, Grip)
+
+A difficult weapon to master, the double-bladed sword has a grip in the center with two long blades emerging from either end. The double-bladed sword is capable of inflicting more damage - but is also less precise - than the single-bladed variant. Using a two-bladed sword expertly requires skill in Two-Weapon Fighting.
+EOV
+
+
+KEY: wm_baton
+Not Upgradeable
+
+Stun Batons are commonly employed by police forces who prefer to incapacitate instead of kill their targets.
+EOV
+
+
+KEY: wm_pike
+Not Upgradeable
+
+This weapon effectively functions as a long staff topped with a vibroblade. Despite its name, it is not related to the Force mastered by Jedi, though it is a powerful weapon in its own right.
+EOV
+
+
+KEY: wm_vblade
+Fully Upgradeable
+
+Small size makes this a good off-hand weapon. Echani vibroblades use a cortosis weave to prevent lightsaber sparring damage, allowing traditional swordplay to continue in the time of Jedi and Sith.
+EOV
+
+KEY: wm_vsword
+Fully Upgradeable
+
+Ultrasonic generators power this Echani-developed weapon design. A cortosis weave that protects against sparring damage ensures that traditional swordplay will endure in the time of lightsabers.
+EOV
+
+KEY: wm_vdoubl
+Fully Upgradeable
+
+Ultrasonic vibrations make this double-bladed sword exceptionally deadly. An Echani cortosis weave protects it against lightsaber sparring damage, ensuring effectiveness even against Jedi and Sith. The double-bladed sword is capable of inflicting more damage - but is also less precise - than the single-bladed variant. Two-Weapon Fighting is required to use a double-bladed sword with maximum effectiveness.
+EOV
+
+KEY: wm_exchan
+Not Upgradeable
+
+A useful tool for espionage, this weapon is more effective than the standard stun baton, but is still available on most worlds.
+EOV
+
+
+KEY: wm_gammor1
+Upgradeable (Grip)
+
+Gamorrean war axes, much like their namesake species, are heavy, unsubtle, and generally a very damaging influence in almost any situation.
+EOV
+
+
+KEY: wm_zabrak
+Not Upgradeable
+
+Though believed to have been constructed by the Zabrak, this vibroblade is rarely used by them. The Zabrak feel their combat skills sufficient to make this weapon's fine balance irrelevant.
+EOV
+
+
+KEY: wm_rodian
+Not Upgradeable
+
+This serrated weapon inflicts great pain upon its victims. Its design is unsuitable for weapon upgrades.
+EOV
+
+
+KEY: wm_sith
+Not Upgradeable
+
+Though most favor lightsabers, some Sith prefer the more visceral feel of metal cutting flesh. These blades are usually blended with cortosis to protect against lightsaber sparring damage.
+EOV
+
+
+KEY: wm_trand
+Not Upgradeable
+
+While most cultures abandoned the primitive sword in favor of vibroblades or other weapons, the Trandoshan sometimes use the weapon as a badge of honor. This variant is made of the rare ore Chalon, and is sharper and heavier than the typical blade. They are not suitable for weapon upgrades, however.
+EOV
+
+
+KEY: wm_gand
+Not Upgradeable
+
+The pinnacle of Gand technology, the discharger can both paralyze and slay opponents with ease. These potent items are extremely rare as they are highly coveted by the few Gand who have earned them.
+EOV
+
+
+KEY: wm_ryyk
+Not Upgradeable
+
+These short blades are typically used in pairs by Wookiees who prefer seeing their victims up close before gutting them.
+EOV
+
+
+KEY: wm_echani
+Not Upgradeable
+
+In addition to a cortosis weave that deflects lightsaber sparring damage, some Echani vibroswords are supercooled to keep them in alignment, giving them an icy sting.
+EOV
+
+
+KEY: wm_shyarn
+Not Upgradeable
+
+This primitive looking weapon hails from the Cerean species, who employ it in traditional honor duels. It is crafted with ancient techniques and rare metals. Shyarn are magnetically attracted to each other, often locking together during parries. This strange property results in duels that are amazing and deadly dances of survival.
+EOV
+
+
+KEY: wm_gammor2
+Not Upgradeable
+
+The impressive Arg'garok is the most prized Gamorrean weapon. These huge axes are designed to be wielded by those with a low center of gravity and tremendous strength, making them awkward for most non-Gamorreans to use.
+EOV
+
+
+KEY: wm_geonos
+Not Upgradeable
+
+Geonosians are winged bipeds covered with protective bony plates. They are highly competitive and generally look down upon other species. Their electro-staves therefore only rarely find their way off of their homeworld of Geonosis.
+EOV
+
+
+KEY: wm_tehkla
+Not Upgradeable
+
+This weapon is favored by the Nagai, a species of slender humanoids who appear more dead than alive. Known for their honor and combat skill, the Nagai use these serrated weapons to cripple their opponents.
+EOV
+
+
+KEY: wm_zhabok
+Not Upgradeable
+
+This variant of the double-bladed sword originated on Iridonia, the homeworld of the Zabrak. A ceremonial weapon, the Zhaboka (double-headed fighting pike) began as a simple wooden stick but has since been refined to be a formidable weapon.
+EOV
+
+
+KEY: wm_wookie
+Not Upgradeable
+
+Carved upon this mighty warblade is a symbol of the Wookiee chieftain Freyyr. How this weapon found its way off of the Wookiee homeworld of Kashyyyk is unknown.
+EOV
+
+
+KEY: wm_twilek1
+KEY: wm_twilek2
+Not Upgradeable
+
+The deadly Twi'lek Twin Suns each wielded one of these deadly blades. Their victims had the rare pleasure of witnessing their beautifully choreographed slaying.
+EOV
+
+
+KEY: wm_ludo
+Not Upgradeable
+
+Though most favor lightsabers, some Sith prefer the more visceral feel of metal cutting flesh. These blades are usually blended with cortosis to protect against lightsaber sparring damage. This particular war sword once belonged to the dark Jedi Ludo Kressh.
+EOV
+
 
 
 

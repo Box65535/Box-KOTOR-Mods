@@ -1684,3 +1684,273 @@ Dark Side Power
 The Jedi is able to consume the force from an opponent. This power kills an opponent with less than (YourForce)d4 of his or her health remaining. The user is given a +2 bonus to all of his or her attributes for 9 seconds and gains a permenant +1 bonus to total force points. This power does not work on certain bosses.
 EOV
 
+
+
+
+KEY: wr_blast1
+Fully Upgradeable
+
+The most common ranged weapon in the galaxy is the basic blaster pistol, firing a bolt of intense coherent light powered by a replaceable power pack.
+EOV
+
+
+KEY: wr_hold1
+Fully Upgradeable
+
+The Hold Out Blaster l is a versatile back-up weapon. Though modest in performance, it is fully upgradeable.
+EOV
+
+
+KEY: wr_ion1
+Upgradeable (Chamber, Scope)
+
+This standard Ion Blaster is commonly issued to Republic troops as a secondary weapon.
+
+While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses blaster fire cannot. Ion weapons cannot utilize most power pack upgrades.
+EOV
+
+
+KEY: wr_disrup1
+Upgradeable (Chamber, Scope)
+
+These pistols are illegal in many planetary systems, being regarded as too powerful a weapon to be owned by civilians. Disruptors reduce solid matter to its constituent molecules. Unlike typical blasters, disruptors ignore most types of personal energy shields.
+EOV
+
+
+KEY: wr_sonic1
+Upgradeable (Scope)
+
+Sometimes referred to as "squealers", these weapons deliver a high-frequency jolt to the senses that can damage and potentially disorient an opponent.
+
+Sonic weapons can temporarily reduce an opponent's Wisdom.
+EOV
+
+
+KEY: wr_heavy1
+Fully Upgradeable
+
+These resemble regular blasters in the same way Quoorian marshsuckers resemble mosquitoes. Sure, they both do damage, but the former definitely has the edge in kill potential.
+EOV
+
+
+KEY: wr_blast2
+Fully Upgradeable
+
+The Republic Blaster can be fully upgraded with firing chamber, targeting scope, and power cell.
+EOV
+
+
+
+KEY: wr_hold2
+Fully Upgradeable
+
+When fully upgraded, these survival pistols can match the best heavy blaster in performance. Their stun capabilites make them an excellent off-hand weapon.
+EOV
+
+
+KEY: wr_ion2
+Upgradeable (Chamber, Scope)
+
+The Verpine Ion Blaster is designed to be capable against all types of opponents, replacing the need to carry a second anti-droid side arm.
+
+While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses that will stop typical blaster fire. Ion weapons cannot utilize most power pack upgrades.
+EOV
+
+
+KEY: wr_disrup2
+Upgradeable (Chamber, Scope)
+
+The Sith disruptor design is compatible with most types of blaster upgrades.
+EOV
+
+
+KEY: wr_sonic2
+Upgradeable (Scope)
+
+Though inferior in damage potential to traditional blasters, this sonic blaster's advanced design makes it a viable weapon, especially in long combats when its deafening capabilities can accumulate.
+
+Sonic weapons can temporarily reduce an opponent's Wisdom. Additionally, many types of shields and defenses are ineffective against sonic attacks. 
+EOV
+
+
+KEY: wr_heavy2
+Fully Upgradeable
+
+Mandalorians improved upon the standard heavy blaster design, creating a weapon that is both fully upgradeable and superior to the standard design.
+EOV
+
+
+KEY: wr_elec2
+Upgradeable (Scope)
+
+This unusual weapon was originally developed for use against veermok, a ferocious primate on Naboo that happens to be resistant to blaster fire. Much of the weapon's damage is electrical in nature, allowing it to bypass blaster resistance.
+EOV
+
+
+KEY: wr_assass2
+Fully Upgradeable
+
+These weapons are designed to incapacitate so death may be quick or lingered upon as desired. Droids are simply dispatched, as cruelty is best rationed among the living.
+EOV
+
+
+KEY: wr_plasma2
+Upgradeable (Chamber, Scope)
+
+This capable side-arm is at the top of Aratech's ion blaster line. It is designed for multi-purpose use.
+EOV
+
+
+KEY: wr_hvydsr2
+Upgradeable (Chamber, Scope)
+
+Not surprisingly, the most deadly disruptor pistol available is of Mandalorian design. Use of this ruthless weapon is a major violation of Republic code.
+EOV
+
+
+KEY: wr_sonicd2
+Upgradeable (Scope)
+
+The Dashade are a secretive and vicious species made infamous by their renowned assassins. Their weapons of choice are best known for the extreme pain they inflict. This improved model combines the best features of sonic and disruptor pistols.
+EOV
+
+
+KEY: wr_zabrak2
+Not Upgradeable
+
+A more cumbersome, but also more damaging, blaster of Zabrak design.
+EOV
+
+
+KEY: wr_dark
+Not Upgradeable
+
+A vile weapon that once belonged to Freedon Nadd, this blaster has killed more Jedi then any lightsaber.
+EOV
+
+
+KEY: wr_carbin3
+Not Upgradeable
+
+Blaster carbine rifles are inelegant, but effective weapons. They are commonly used by unskilled thugs and mercenaries.
+EOV
+
+
+KEY: wr_blast3
+Fully Upgradeable
+
+More powerful than the commonly available pistol, the blaster rifle is favored by soldiers throughout the galaxy. Civilian ownership of these weapons is not generally encouraged.  Unlike carbines, most rifles can be fully upgraded.
+EOV
+
+
+KEY: wr_ion3
+Upgradeable (Chamber, Scope)
+
+While they may have borrowed liberally from designs the Bothans initiated, the Verpine say you can't argue with results. These weapons are simply devastating against droids.
+
+While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses blaster fire cannot. Ion weapons cannot utilize most power pack upgrades.
+EOV
+
+
+KEY: wr_disrup3
+Upgradeable (Scope, Chamber)
+
+This disruptor has all the modifications an assasin droid needs: improved optics, reduced recoil, extended range, and several open ports for even more modular upgrades.
+EOV
+
+
+KEY: wr_sonic3
+Upgradeable (Scope)
+
+More powerful than the pistol, the sonic rifle fires a blast of sound that causes a great deal of sensory overload in addition to damage, disorienting the victim.
+EOV
+
+
+KEY: wr_heavy3
+Fully Upgradeable
+
+These weapons are almost overpowered for their size, but the Mandalorians prefer them that way. They do not make a habit of being subtle in their war making.
+EOV
+
+
+KEY: wr_exchan3
+Not Upgradeable
+
+Trandoshan bounty hunters will use this weapon to capture their victims alive. As it is a carbine, it cannot be upgraded.
+EOV
+
+
+KEY: wr_snip3
+Fully Upgradeable
+
+Despite its effectiveness, these modified blaster rifles are not often employed by the Sith. They prefer to engage their enemies up close and personal.
+EOV
+
+
+KEY: wr_plasma3
+Upgradeable (Chamber, Scope)
+
+This massive weapon fires a bolt of plasma energy at its target. It is difficult to wield except by highly trained marksmen.
+EOV
+
+
+KEY: wr_sonicd3
+Upgradeable (Scope)
+
+Combining both sonic and disruptor attacks, this rifle tears through enemy defenses.
+EOV
+
+
+KEY: wr_hvydsr3
+Upgradeable (Chamber, Scope)
+
+A weapon similar to this disruptor belonged to Jigger Wraith, a bounty hunter who plagued the Republic years ago. Thirty-seven Mandalorians were executed for being him until sightings declined. As a type of disruptor, this weapon ignores most personal energy shields.
+EOV
+
+
+KEY: wr_zabrak3
+Not Upgradeable
+
+The design of the Zabrak Combat Rifle is too complicated to allow further upgrading. Fortunately, it has little need for additional enhancement.
+EOV
+
+
+KEY: wr_blast4
+Fully Upgradeable
+
+This weapon allows the user to fire more quickly than usual, increasing his chances of survival without drastically changing the amount of equipment he would normally carry.
+EOV
+
+
+KEY: wr_sonicd4
+Upgradeable (Scope)
+
+These weapons were employed by the elite troops of Iziz during the Battle of Onderon. The power of these carbines, combined with their high rate of fire, was believed to play a considerable role in the rout of the Mandalorian forces.
+EOV
+
+
+KEY: wr_oclock4
+Not Upgradeable
+
+This powerful repeating blaster inflicts  incredible pain and damage upon its victim, but is difficult to use effectively. Its origin is unclear, though there are some similarities to its design and that of Mandalorian weapons.
+EOV
+
+
+KEY: wr_heavy4
+Fully Upgradeable
+
+With this weapon, the Mandalorians again demonstrate a complete lack of subtlety. The only thing better than a big blaster, apparently, is one that shoots faster.
+EOV
+
+
+KEY: wr_hvsdsr4
+Not Upgradeable
+EOV
+
+
+
+
+
+
+
+

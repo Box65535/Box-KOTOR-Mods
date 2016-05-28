@@ -1,0 +1,1165 @@
+
+KEY: BOX_BLASTERS1
+Prerequisites:
+None
+
+This character is proficient in using commodity blaster pistols. These weapons are easier to use but weaker than military-grade blasters. They include regular blaster pistols as well as ion, sonic, and disruptor pistols.
+
+Free:
+All - Level 1
+EOV
+
+KEY: BOX_BLASTERS2
+Prerequisites:
+Weapon Proficiency - Commodity Blasters
+
+This character is proficient in using military-grade blaster pistols. These are more powerful and more specialized than commodity blaster pistols. They include all one-handed blaster pistols. 
+
+Free:
+All Non-Jedi Classes - Level 1
+Exile - Level 1
+EOV
+
+KEY: BOX_BLASTERS3
+Prerequisites:
+Weapon Proficiency - Military Pistols
+
+This character is proficient in using of two-handed blaster rifles. Blaster rifles have more range and power than one-handed blaster pistols. They range from light carbines to heavy assault rifles.
+
+Free:
+Soldier, Combat Droid - Level 1
+EOV
+
+KEY: BOX_BLASTERS4
+Prerequisites:
+Weapon Proficiency - Blaster Rifles
+
+This character is proficient in using repeating blaster rifles. These weapons have increased rate of fire giving them more damage output than regular blaster rifles. 
+
+Free:
+None
+EOV
+
+KEY: BOX_MELEE1
+Prerequisites:
+Non-Droid
+
+This character is proficient in using primitive melee weapons. These include swords, axes, staves and many more. Depending on the exact type of weapon, these weapons can be outfitted with one or more upgrades.
+
+Free:
+All Non-Droid Classes - Level 1
+EOV
+
+KEY: BOX_MELEE2
+Prerequisites:
+Weapon Proficiency - Primitive Melee Weapons
+Non-Droid
+
+This character is proficient in using modern melee weapons powered by vibrating power cells such as the vibroblade. These weapons are more powerful and can be fully upgtaded by switching out the power cell.
+
+Free:
+Soldier - Level 1
+EOV
+
+KEY: BOX_MELEE3
+Prerequisites:
+Weapon Proficiency - Powered Melee Weapons
+Non-Droid
+
+This character is proficient in using special ceremonial melee weapons used by various spacefaring cultures.These weapons are not upgradeable in any way but they are considerably stronger than all other types of melee weapons.
+
+Free:
+None
+EOV
+
+KEY: BOX_LIGHTSABERS
+Prerequisites:
+Jedi
+
+This character is proficient in using a lightsaber. It includes single-hilt and double-hilt variants. Lightsabers come in many different colors and are all fully upgradeable.
+
+Free:
+None
+EOV
+
+KEY: BOX_MECHWEAP1
+Prerequisites:
+None
+
+Stuff
+
+Free:
+Exile (Jedi Sentinel) - Level 1
+EOV
+
+KEY: BOX_MECHWEAP2
+Prerequisites:
+Weapon Proficiency - Auxilary Weapons
+
+Stuff
+
+Free:
+None
+EOV
+
+
+Prerequisites:
+Weapon Proficiency - Grenade Launchers
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOX_ENERGWEAP1
+Prerequisites:
+Droid or Tech Specialist
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOX_ENERGWEAP2
+Prerequisites:
+Weapon Proficiency - Energy Weapons
+
+Stuff
+
+Free:
+None
+EOV
+
+
+KEY: BOX_BOWCASTERS
+Prerequisites:
+Wookie
+
+This character is proficienct in weapons using bowcasters. Only Wookies can adequately wield these weapons.
+
+Free:
+Wookies - Level 1
+EOV
+
+KEY: BOX_ARMOR1
+Prerequisites:
+Human or Bao-Dur
+
+This character is proficienct in wearing the most basic type of armor: the light combat suit. Armor provides the wearer with a Damage Threshhold (DT). A character's DT will reduce all incoming damage by that amount. Armor also limits the user's maneuverability. Each suit has a maximum modifier that limits Dexterity bonuses to defense. Finally, Jedi who wear armor suffer a penalty while using the Force. Light combat suits offer maximum flexibility but limited protection from attacks. 
+
+Free:
+Humans and Bao-Dur - Level 1
+EOV
+
+KEY: BOX_ARMOR2
+Prerequisites:
+Armor Proficiency - Light Combat Suits
+Human or Bao-Dur
+
+This character is proficienct in wearing heavier combat suits. In addition to being stronger, these larger suits are also compatable with more types of upgrades.
+
+Free:
+Non-Jedi - Level 1
+EOV
+
+KEY: BOX_ARMOR3
+Prerequisites:
+Armor Proficiency - Combat Suits
+Human or Bao-Dur
+
+This character is proficienct in wearing military suits. These suits are stronger than regular combat sutis but are more restrictive. This character is also able to use more advanced armor upgrades.
+
+Free:
+Soldiers - Level 1
+EOV
+
+KEY: BOX_ARMOR4
+Prerequisites:
+Armor Proficiency - Military Suits
+Human
+
+This character is proficienct in wearing heavy battle armor. These suits are very strong but greatly restrict the user's mobility. Most suits don't allow for any Dexterity bonus to be applied. This character is also able to use more advanced armor upgrades.
+
+Free:
+None
+EOV
+
+KEY: BOX_ARMOR5
+Prerequisites:
+Armor Proficiency - Heavy Battle Armor
+Human
+
+This character is proficienct in using the strongest armor in the galaxy. These mastercraft suits provide maximum protection on the battlefield. In addition to the storngest types of armor, this character can also make use of the strongest armor upgrades. 
+
+Free:
+None
+EOV
+
+KEY: BOX_DROIDARMOR1
+Prerequisites:
+Droid
+
+This droid is compatabile with the most basic types of armor. Armor provides the wearer with a Damage Threshhold (DT). A character's DT will reduce all incoming damage by that amount.
+
+Free:
+Combat Droids - Level 1
+EOV
+
+KEY: BOX_DROIDARMOR2
+Prerequisites:
+Armor Proficiency - Mark I Armor
+Droid
+
+This droid is compatabile with more advanced types of armor. These armors provide more protection but also limit the user's maneuverability by providing a penalty to Dexterity.
+
+Free:
+None
+EOV
+
+KEY: BOX_DROIDARMOR3
+Prerequisites:
+Armor Proficiency - Mark II Armor
+Droid
+
+This droid is compatabile with the most advanced types of armor. These armors  provide maximum protection but come with hefty Dexterity penalties.
+
+Free:
+None
+EOV
+
+KEY: BOX_SHIELDS1
+Prerequisites:
+None
+
+This character is able to use basic energy shields. Energy shields are equipped on the left arm  or shield slot and can be activated during battle to absorb damage. Energy shields can be used an infinite number of times but require a minute of recharging between each use.
+
+Free:
+Exile - Level 1
+EOV
+
+KEY: BOX_SHIELDS2
+Prerequisites:
+Item Proficiency - Energy Shields
+
+This character is able to use more advanced energy shields. These shields are more powerful and absorb more damage than basic variants. There are also more varieties that shield against different types of damage.
+
+Free:
+None
+EOV
+
+KEY: BOX_STIMS1
+Prerequisites:
+Non-Droid
+
+This character is able to use basic adrenaline packages. These items are equipped on the left arm and can be activated during battle to grant the user temporary attribute bonuses. The packages regenerate the chemicals automatically and can be used an infinite number of times. However, a recharge time of 2 minutes is required between uses. 
+
+Free:
+Exile (Jedi Sentinel) - Level 1
+EOV
+
+KEY: BOX_STIMS2
+Prerequisites:
+Item Proficiency - Adrenaline Packages
+
+This character is able to use more advanced stimulant packages. These packages provide stronger temporary boosts but otherwise work the same as regular adrenaline packages.
+
+Free:
+None
+EOV
+
+KEY: BOX_IMPLANTS1
+Prerequisites:
+Non-Droid
+
+Stuff
+
+Free:
+Exile (Jedi Sentinel) - Level 1
+EOV
+
+KEY: BOX_IMPLANTS2
+Prerequisites:
+Item Proficiency - Implants
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOX_IMPLANTS3
+Prerequisites:
+Item Proficiency - Implant Packages
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOX_STEALTH
+Prerequisites:
+Non-Droid
+
+This character is proficienct in using stealth field generators. These generators are equipped as a belt and can be activated to hide the wearer in plain sight. In order to effectively use stealth equipment, the user must also have invested in his/her Stealth skill. The user's Stealth skill will be compared against an enemy's Awareness skill to determine if the character is able to hide.
+
+Free:
+Exile - Level 1
+EOV
+
+KEY: BOX_MINES1
+Prerequisites:
+None
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOX_MINES2
+Prerequisites:
+Item Proficiency - Mines
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOX_TURRETS1
+Prerequisites:
+None
+
+Stuff
+
+Free:
+Exile (Jedi Sentinel) - Level 1
+EOV
+
+KEY: BOX_TURRETS2
+Prerequisites:
+Item Proficiency - Turrets
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOX_BLASTERSPEC1
+Prerequisites:
+None
+
+This character has specialized in the use of blaster weapons. This character gains a +1 bonus to Damage with all blaster weapons and a -2 Deflection penalty is conferred against any enemy attempting to deflect the attack.
+
+Free:
+None
+EOV
+
+KEY: BOX_BLASTERSPEC2
+Prerequisites:
+Combat Specialty - Blasters I
+Level 3
+
+This character has further specialized in the use of blaster weapons. This character gains an additional +1 bonus to Damage with all blaster weapons and an additional -2 Deflection penalty is conferred against any enemy attempting to deflect the attack.
+
+Free:
+None
+EOV
+
+KEY: BOX_BLASTERSPEC3
+Prerequisites:
+Combat Specialty - Blasters II
+Level 7
+
+This character has further specialized in the use of blaster weapons. This character gains an additional +1 bonus to Damage with all blaster weapons and an additional -2 Deflection penalty is conferred against any enemy attempting to deflect the attack.
+
+Free:
+None
+EOV
+
+KEY: BOX_BLASTERSPEC4
+Prerequisites:
+Combat Specialty - Blasters IV
+Level 11
+
+This character has further specialized in the use of blaster weapons. This character gains an additional +1 bonus to Damage with all blaster weapons and an additional -2 Deflection penalty is conferred against any enemy attempting to deflect the attack.
+
+Free:
+None
+EOV
+
+KEY: BOX_BLASTERSPEC5
+Prerequisites:
+Combat Specialty - Blasters IV
+Level 15
+
+This character has mastered his or her specialization in the use of blaster weapons. This character gains an additional +1 bonus to Damage with all blaster weapons and an additional -2 Deflection penalty is conferred against any enemy attempting to deflect the attack.
+
+Free:
+None
+EOV
+
+KEY: BOX_MELEESPEC1
+Prerequisites:
+None
+
+This character has specialized in the use of melee weapons. This character gains a +1 bonus to Attack with all melee weapons.
+
+Free:
+None
+EOV
+
+KEY: BOX_MELEESPEC2
+Prerequisites:
+Combat Specialty - Melee Weapons I
+Level 3
+
+This character has further specialized in the use of melee weapons. This character gains an additional +2 bonus to Damage with all melee weapons.
+
+Free:
+None
+EOV
+
+KEY: BOX_MELEESPEC3
+Prerequisites:
+Combat Specialty - Melee Weapons III
+Level 7
+
+This character has further specialized in the use of melee weapons. This character gains an additional +2 bonus to Damage with all melee weapons.
+
+Free:
+None
+EOV
+
+KEY: BOX_MELEESPEC4
+Prerequisites:
+Combat Specialty - Melee Weapons III
+Level 11
+
+This character has further specialized in the use of melee weapons. This character gains an additional +2 bonus to Damage with all melee weapons.
+
+Free:
+None
+EOV
+
+KEY: BOX_MELEESPEC5
+Prerequisites:
+Combat Specialty - Melee Weapons IV
+Level 15
+
+This character has mastered his or her specialization in the use of melee weapons. This character gains an additional +2 bonus to Damage with all melee weapons.
+
+Free:
+None
+EOV
+
+KEY: BOX_SABERSPEC1
+Prerequisites:
+None
+
+This character has specialized in the use of lightsabers. This character gains a +1 bonus to Attack when wielding a lightsaber.
+
+Free:
+None
+EOV
+
+KEY: BOX_SABERSPEC2
+Prerequisites:
+Combat Specialty - Lightsabers I
+Level 3
+
+This character has further specialized in the use of lightsabers. This character gains an additional +1 bonus to Attack when weilding a ligthsaber.
+
+Free:
+None
+EOV
+
+KEY: BOX_SABERSPEC3
+Prerequisites:
+Combat Specialty - Lightsabers II
+Level 7
+
+This character has further specialized in the use of lightsabers. This character gains an additional +1 bonus to Attack when weilding a ligthsaber.
+
+Free:
+None
+EOV
+
+KEY: BOX_SABERSPEC4
+Prerequisites:
+Combat Specialty - Lightsabers III
+Level 11
+
+This character has further specialized in the use of lightsabers. This character gains a +2 bonus to Damage when weilding a ligthsaber.
+
+Free:
+None
+EOV
+
+KEY: BOX_SABERSPEC5
+Prerequisites:
+Combat Specialty - Lightsabers IV
+Level 15
+
+This character has mastered his or her specialization in the use of lightsabers. This character gains an additional +1 bonus to Attack when weilding a ligthsaber.
+
+Free:
+None
+EOV
+
+KEY: BOX_UNARMEDSPEC1
+Prerequisites:
+None
+
+This character has specialized in unarmed combat. This character gains a +1d4 bonus to Damage when unarmed.
+
+Free:
+Exile - Level 1
+EOV
+
+KEY: BOX_UNARMEDSPEC2
+Prerequisites:
+Combat Specialty - Unarmed I
+Level 3
+
+This character has further specialized in unarmed combat. This character gains an additional +1d4 bonus to Damage when unarmed.
+
+Free:
+None
+EOV
+
+KEY: BOX_UNARMEDSPEC3
+Prerequisites:
+Combat Specialty - Unarmed II
+Level 7
+
+This character has further specialized in unarmed combat. This character gains an additional +1d4 bonus to Damage when unarmed.
+
+Free:
+None
+EOV
+
+KEY: BOX_UNARMEDSPEC4
+Prerequisites:
+Combat Specialty - Unarmed III
+Level 11
+
+This character has further specialized in unarmed combat. This character gains an additional +1d4 bonus to Damage when unarmed.
+
+Free:
+None
+EOV
+
+KEY: BOX_UNARMEDSPEC5
+Prerequisites:
+Combat Specialty - Unarmed IV
+Level 15
+
+This character has mastered his or her specialization in unarmed combat. This character gains an additional +1d4 bonus to Damage when unarmed.
+
+Free:
+None
+EOV
+
+KEY: BOX_FORCE1
+Prerequisites:
+Jedi
+
+This character has specialized in using the force. This character gains a +1 bonus to rolls determining whether a force power succeeds.
+
+Free:
+None
+EOV
+
+KEY: BOX_FORCE2
+Prerequisites:
+Combat Specialty - Force I
+Level 7
+
+This character has further specialized in using the force. This character gains an additional +1 bonus to rolls determining whether a force power succeeds.
+
+Free:
+None
+EOV
+
+
+Prerequisites:
+Combat Specialty - Force II
+Level 15
+
+This character has mastered his or her specialization in using the force. This character gains an additional +1 bonus to rolls determining whether a force power succeeds.
+
+Free:
+None
+EOV
+
+KEY: BOX_TWOWEAP1
+Prerequisites:
+None
+
+This character is decently proficienct in wielding two weapons at the same time. Normally a character wielding two weapons suffers a -6 penalty to Attack with the weapon in the main hand and a -10 penalty to Attack with the weapon in the off-hand. This character reduces these penalties to -6 Attack on each hand. Balanced weapons used on the offhand can further reduce main-hand weapon penalties to -4 Attack. Weapons that require the use of both hands are treated the same as two separate weapons
+
+Free:
+None
+EOV
+
+KEY: BOX_TWOWEAP2
+Prerequisites:
+Combat Ability - Two-Weapon Proficiency
+
+This character is more adept in wielding two weapons at the same time. The penalties for wielding two weapons are further reduced to a -4 Attack penalty for each weapon. Balanced weapons used on the offhand can further reduce main-hand weapon penalties to -2 Attack.
+
+Free:
+None
+EOV
+
+KEY: BOX_TWOWEAP3
+Prerequisites:
+Combat Ability - Two-Weapon Adeptness
+
+This character has mastered wielding two weapons at the same time. The penalties for wielding two weapons are further reduced to a -2 Attack penalty for each weapon. Balanced weapons used on the offhand eliminate penalties for the main hand entirely.
+
+Free:
+None
+EOV
+
+KEY: BOX_CONDITION1
+Prerequisites:
+None
+
+This character has undergone conditining to improve resistance to physical and mental attack. This character gains a +1 bonus to all saving throws. 
+
+Free:
+None
+EOV
+
+KEY: BOX_CONDITION2
+Prerequisites:
+Combat Ability - Conditioning
+
+This character has improved his or her conditining to physical or mental attack. This character now gains a +2 bonus to all saving throws instead of +1.
+
+Free:
+None
+EOV
+
+KEY: BOX_CONDITION3
+Prerequisites:
+Combat Ability - Improved Conditioning
+
+This character has perfected his or her conditining to physical or mental attack. This character now gains a +3 bonus to all saving throws instead of +2.
+
+Free:
+None
+EOV
+
+KEY: BOX_SNEAKATK1
+Prerequisites:
+None
+
+This character is able to do more damage against surprised or incapacitated targets. An additional 1d6 damage is done against all targets unable to respond to attacks. This damage is applied to attacks made from behind a target, when attacking an target from stealth mode, or when attacking a stunned or otherwise immobilized. The extra damage is not multiplied in the case of a critical hit.
+
+Free:
+Exile (Jedi Consular) - Level 1
+EOV
+
+KEY: BOX_SNEAKATK2
+Prerequisites:
+Combat Ability - Sneak Attack I
+Level 3
+
+This character has improved his or her ability to do more damage against surprised or incapacitated targets. The bonus damage done to targets who cannot respond is increased by an additional 1d6.
+
+Free:
+None
+EOV
+
+KEY: BOX_SNEAKATK3
+Prerequisites:
+Combat Ability - Sneak Attack II
+Level 7
+
+This character has further improved his or her ability to do more damage against surprised or incapacitated targets. The bonus damage done to targets who cannot respond is increased by an additional 1d6.
+
+Free:
+None
+EOV
+
+KEY: BOX_SNEAKATK4
+Prerequisites:
+Combat Ability - Sneak Attack III
+Level 11
+
+This character has further improved his or her ability to do more damage against surprised or incapacitated targets. The bonus damage done to targets who cannot respond is increased by an additional 1d6.
+
+Free:
+None
+EOV
+
+KEY: BOX_SNEAKATK5
+Prerequisites:
+Combat Ability - Sneak Attack IV
+Level 15
+
+This character has mastered his or her ability to do more damage against surprised or incapacitated targets. The bonus damage done to targets who cannot respond is increased by an additional 1d6.
+
+Free:
+None
+EOV
+
+KEY: BOX_DUALSTR1
+Prerequisites:
+None
+
+This character is able to use teamwork to defeat an enemy. When attacking the same enemy as an ally, this character gains a +2 bonus to Attack.
+
+Free:
+None
+EOV
+
+KEY: BOX_DUALSTR2
+Prerequisites:
+Combat Ability - Dual Strike
+
+This character has improved his or her ability to use teamwork to defeat an enemy. The bonus from attacking the same enemy as an ally is improved from +2 Attack to +4 Attack.
+
+Free:
+None
+EOV
+
+KEY: BOX_DUALSTR3
+Prerequisites:
+Combat Ability - Improved Dual Strike
+
+This character has mastered his or her ability to use teamwork to defeat an enemy. The bonus from attacking the same enemy as an ally is improved from +4 Attack to +6 Attack.
+
+Free:
+None
+EOV
+
+KEY: BOX_TOUGH1
+Prerequisites:
+None
+
+This character is able to better endure physical pain . This character gains a +5% Resistance bonus to all Damage.
+
+Free:
+None
+EOV
+
+KEY: BOX_TOUGH2
+Prerequisites:
+Combat Ability - Toughness I
+
+This character has improved his or her ability to better endure physical pain . This character's bonus Resistance to Damage has increased from +5% to +10%.
+
+Free:
+None
+EOV
+
+KEY: BOX_TOUGH3
+Prerequisites:
+Combat Ability - Toughness II
+
+This character has mastered his or her ability to better endure physical pain . This character's bonus Resistance to Damage has increased from +10% to +15%.
+
+Free:
+None
+EOV
+
+KEY: BOX_MELEEFINE
+Prerequisites:
+Non-Droid
+
+This character has mastered the use of dexterity and grace in combat with Melee Weapons. This character can add his or her Dexterity modifier to the Attack bonus with Melee Weapons in place of his or her Strength modifier.
+
+Free:
+None
+EOV
+
+KEY: BOX_SABERFINE
+Prerequisites:
+Jedi
+
+This character has mastered the use of dexterity and grace in combat with lightsabers. This character can add his or her Dexterity modifier to the Attack bonus with lightsabers in place of his or her Strength modifier.
+
+Free:
+None
+EOV
+
+KEY: BOX_DUELING
+Prerequisites:
+None
+
+This character is able to wield one-handed weapons with more efficiency. When weilding a single one-handed weapon, this character gains a +1 bonus to Attack and a +1 bonus to Defense. This applies to melee and ranged weapons as well as unarmed attacks.
+
+Free:
+None
+EOV
+
+KEY: BOX_CLOSECOM
+Prerequisites:
+None
+
+This character is able to fight effectively using a ranged weapon in close combat. When fighting an enemy at close range with a ranged weapon, this character gets a +1 bonus to Attack. In addition, the enemy's bonus when attacking at close range is reduced from +6 Attack to +4 Attack.
+
+Free:
+None
+EOV
+
+KEY: BOX_POWATTACK1
+Prerequisites:
+Non-Droid
+
+This character is capable of using the power attack technique. When used, all attacks this round will recieve a +3 bonus to Damage at the cost of a -3 penalty to Attack. Critical hits will also do more damage, increasing the multiplier by 1. Lastly, on a critical hit opponent will be knocked down unless he makes a Fortitude save against DC = (YourLevel) + 2x(YourStrengthModifier).
+
+Free:
+Exile (Jedi Guardian) - Level 1
+Handmaiden - Level 1
+EOV
+
+KEY: BOX_POWATTACK2
+Prerequisites:
+Combat Technique - Power Attack
+Level 7
+
+This character has improved the power attack technique. Now the technique grants +7 bonus to Damage instead of +3. 
+
+Free:
+None
+EOV
+
+KEY: BOX_POWATTACK3
+Prerequisites:
+Combat Technique - Improved Power Attack
+Level 15
+
+This character has mastered the power attack technique. Now the technique grants +12 bonus to Damage instead of +7. 
+
+Free:
+None
+EOV
+
+KEY: BOX_FLURRY1
+Prerequisites:
+Non-Droid
+
+This character is capable of using the flurry attack technique. When used, this character will attack one extra time with the primary weapon at the cost of -4 Attack and -2 Defense for the round.
+
+Free:
+Exile (Jedi Guardian) - Level 1
+Handmaiden - Level 1
+EOV
+
+KEY: BOX_FLURRY2
+Prerequisites:
+Combat Technique - Flurry
+Level 7
+
+This character has improved the flurry attack technique. Now this character only suffers a -2 penalty to Attack and a -1 penalty to Defense when using the technique.
+
+Free:
+None
+EOV
+
+KEY: BOX_FLURRY3
+Prerequisites:
+Combat Technique - Improved Flurry
+Level 15
+
+This character has mastered the flurry attack technique. Now this character only suffers no penalties when using the technique.
+
+Free:
+None
+EOV
+
+KEY: BOX_CRITSTRIKE1
+Prerequisites:
+Non-Droid
+
+This character is capable of using the critical strike technique. When used, the base critical hit rate of the weapon held is doubled at the cost -5 Defense for the round. On a successful hit, this technique will also stun the enemy for 6 seconds unless he makes a Fortitude save against DC = (YourLevel) + (YourStrengthModifier).
+
+Free:
+Exile (Jedi Guardian) - Level 1
+Exile (Jedi Consular) - Level 1
+Handmaiden - Level 1
+EOV
+
+KEY: BOX_CRITSTRIKE2
+Prerequisites:
+Combat Technique - Critical Strike
+Level 7
+
+This character has improved the critical strike technique. Now the technique triples the base critical hit rate of the weapon held instead of doubling it.
+
+Free:
+None
+EOV
+
+KEY: BOX_CRITSTRIKE1
+Prerequisites:
+Combat Technique - Improved Critical Strike
+Level 15
+
+This character has mastered the critical strike technique. Now the technique quadruples the base critical hit rate of the weapon held instead of tripling it.
+
+Free:
+None
+EOV
+
+KEY: BOX_POWBLAST1
+Prerequisites:
+None
+
+This character is capable of using the power blast technique. When used, all attacks this round will recieve a +3 bonus to Damage at the cost of a -3 penalty to Attack. Critical hits will also do more damage, increasing the multiplier by 1. Lastly, on a critical hit opponent will be knocked down unless he makes a Fortitude save against DC = (YourLevel) + 2x(YourDexterityModifier).
+
+Free:
+None
+EOV
+
+KEY: BOX_POWBLAST2
+Prerequisites:
+Combat Technique - Power Blast
+Level 7
+
+This character has improved the power blast technique. Now the technique grants +7 bonus to Damage instead of +3. 
+
+Free:
+None
+EOV
+
+KEY: BOX_POWBLAST3
+Prerequisites:
+Combat Technique - Improved Power Blast
+Level 15
+
+This character has mastered the power blast technique. Now the technique grants +12 bonus to Damage instead of +7. 
+
+Free:
+None
+EOV
+
+KEY: BOX_RAPIDSHOT1
+Prerequisites:
+None
+
+This character is capable of using the rapid shot technique. When used, this character will attack one extra time with the primary weapon at the cost of -4 Attack and -2 Defense for the round.
+
+Free:
+None
+EOV
+
+KEY: BOX_RAPIDSHOT2
+Prerequisites:
+Combat Technique - Rapid Shot
+Level 7
+
+This character has improved the rapid shot technique. Now this character only suffers a -2 penalty to Attack and a -1 penalty to Defense when using the technique.
+
+Free:
+None
+EOV
+
+KEY: BOX_RAPIDSHOT3
+Prerequisites:
+Combat Technique - Improved Rapid Shot
+Level 7
+
+This character has mastered the rapid shot technique. Now this character only suffers no penalties when using the technique.
+
+Free:
+None
+EOV
+
+KEY: BOX_SNIPSHOT1
+Prerequisites:
+None
+
+This character is capable of using the sniper shot technique. When used, the base critical hit rate of the weapon held is doubled at the cost -5 Defense for the round. On a successful hit, this technique will also stun the enemy for 6 seconds unless he makes a Fortitude save against DC = (YourLevel) + (YourIntelligenceModifier).
+
+Free:
+None
+EOV
+
+KEY: BOX_SNIPSHOT2
+Prerequisites:
+Combat Technique - Sniper Shot
+Level 7
+
+This character has improved the sniper shot technique. Now the technique triples the base critical hit rate of the weapon held instead of doubling it.
+
+Free:
+None
+EOV
+
+KEY: BOX_SNIPSHOT3
+Prerequisites:
+Combat Technique - Improved Sniper Shot
+Level 15
+
+This character has mastered the sniper shot technique. Now the technique quadruples the base critical hit rate of the weapon held instead of tripling it.
+
+Free:
+None
+EOV
+
+KEY: BOX_FORCESENSE
+Jedi Ability - Force Sensitive
+EOV
+
+KEY: BOX_DEFLECT1
+Jedi Ability - Blaster Deflection
+EOV
+
+KEY: BOX_DEFLECT2
+Jedi Ability - Improved Blaster Deflection
+EOV
+
+KEY: BOX_DEFLECT3
+Jedi Ability - Master Blaster Deflection
+EOV
+
+KEY: BOX_FORCEJUMP1
+Jedi Ability - Force Jump
+EOV
+
+KEY: BOX_FORCEJUMP2
+Jedi Ability - Improved Force Jump
+EOV
+
+KEY: BOX_FORCEJUMP3
+Jedi Ability - Master Force Jump
+EOV
+
+KEY: BOX_FORCEIMMUN1
+Jedi Ability - Fear Immunity
+EOV
+
+KEY: BOX_FORCEIMMUN2
+Jedi Ability - Stun Immunity
+EOV
+
+KEY: BOX_FORCEIMMUN3
+Jedi Ability - Paralysis Immunity
+EOV
+
+KEY: BOX_FORCESTLH
+Jedi Ability - Force Concealment
+EOV
+
+KEY: BOX_CLSAWARE
+Class Skill - Awareness
+EOV
+
+KEY: BOX_CLSSCIENCE
+Class Skill - Science
+EOV
+
+KEY: BOX_CLSDEMO
+Class Skill - Demolitions
+EOV
+
+KEY: BOX_CLSREPAIR
+Class Skill - Repair
+EOV
+
+KEY: BOX_CLSSECUR
+Class Skill - Security
+EOV
+
+KEY: BOX_CLSSTLH
+Class Skill - Stealth
+EOV
+
+KEY: BOX_CLSMEDIC
+Class Skill - Medicine
+EOV
+
+KEY: BOX_CLSPERSUAD
+Class Skill - Persuade
+EOV
+
+KEY: BOX_WARVET
+Character Ability - War Veteran
+EOV
+
+KEY: BOX_EMPATHY1
+Character Ability - Empathy
+EOV
+
+KEY: BOX_EMPATHY2
+Character Ability - Improved Empathy
+EOV
+
+KEY: BOX_EMPATHY3
+Character Ability - Master Empathy
+EOV
+
+KEY: BOX_BLASINTGR
+Character Ability - Blaster Integration
+EOV
+
+KEY: BOX_KINETICCOM
+Character Ability - Kinetic Combat
+EOV
+
+KEY: BOX_SPIRIT
+Character Ability - Fighting Spirit
+EOV
+
+KEY: BOX_SHIELDBRK
+Character Ability - Shield Breaker
+EOV
+
+KEY: BOX_REPULSSTRK
+Character Ability - Repulsor Strike
+EOV
+
+KEY: BOX_ECHANISTRK
+Character Ability - Echani Strike
+EOV
+
+KEY: BOX_HEALER
+Character Ability - Healer
+EOV
+
+KEY: BOX_MANDCOUR
+Character Ability - Mandalorian Courage
+EOV
+
+KEY: BOX_IMPLSWITCH
+Character Ability - Implant Switching
+EOV
+
+KEY: BOX_ASSASSPROT
+Character Ability - Assassin Protocols
+EOV
+
+KEY: BOX_POINTGUARD
+Character Ability - Point Guard
+EOV
+
+KEY: BOX_WOOKTOUGH
+Character Ability - Wookie Toughness
+EOV
+
+KEY: BOX_WOOKRAGE
+Character Ability - Wookie Rage
+EOV
+
+KEY: BOX_PERSCLOAK
+Character Ability - Personal Cloaking Shield
+EOV
+
+KEY: BOX_MINEIMMUN
+Character Ability - Mine Immunity
+EOV
+
+KEY: BOX_DROIDSCRAMB
+Character Ability - Droid Scrambler
+EOV
+

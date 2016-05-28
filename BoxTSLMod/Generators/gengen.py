@@ -70,8 +70,24 @@ def read_file(path):
 	return file
 
 def load_descriptions(file):
-	return {}
-	
+	descs = {}
+	file = read_file('Data\\descriptions.txt')
+	desclines = file.split('\n')
+	keybuffer = []
+	descbuffer = ''
+	for line in desclines:
+		if 'KEY: ' in line:
+			keybuffer.append(line.replace('KEY: ', ''))
+		elif  'EOV' == line:
+			for key in keybuffer:
+				descs[key] = descbuffer
+			keybuffer = []
+			descbuffer = ''
+		else:
+			if not descbuffer == '':
+				descbuffer += '\n'
+			descbuffer += line
+	return descs
 
 # armorgen.py
 armor_pattern = """armor_list.append(Armor('{0.tag}',

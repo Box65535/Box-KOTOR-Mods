@@ -1163,3 +1163,524 @@ KEY: BOX_DROIDSCRAMB
 Character Ability - Droid Scrambler
 EOV
 
+KEY: FORCE_SPEED
+Universal Power
+20 Force Points
+Cast DC 6
+(Roll Force + d10 against this number)
+
+This power allows the Jedi to run swiftly. The Jedi recives a boost to movement speed for the next 18 + 3(Force) seconds.
+EOV
+
+KEY: FORCE_SWEEP
+Prerequisites:
+Level 5
+
+Universal Power
+15 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinetic power to sweep the opponent off balance. This power deals (Force)d4 Bludgeoning damage to an opponent and causes knockdown for 3 seconds. A successful Reflex or Will saving throw against 10 + Force reduces the damage to 1/3 and prevents the knockdown.
+EOV
+
+KEY: FORCE_QUAKE
+Prerequisites:
+Force Sweep
+Level 20
+
+Universal Power
+45 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinetic power cause a quake in the ground, sending all nearby opponents off balance. This power deals (Force)d4 Bludgeoning damage to all opponents within 12 meters of the user and causes knockdown for 3 seconds. A successful Reflex or Will saving throw against 10 + Force reduces the damage to 1/3 and prevents the knockdown.
+EOV
+
+KEY: FORCE_IONIZE
+Prerequisites:
+Level 5
+
+Universal Power
+15 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi manipulates the air to send an ionic surge through an enemy droid. This power deals (Force)d4 Ion damage to a droid opponent and causes stun for 6 + 0.25(Force) seconds. A successful Fortitude or Will saving throw (Ion type) against 10 + Force reduces the damage to 1/3 and prevents the stun.
+EOV
+
+KEY: ION_STORM
+Prerequisites:
+Force Ionize
+Level 20
+
+Universal Power
+45 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi manipulates the air to send an ionic surge through an enemy droid. This power deals (Force)d4 Ion damage to all droid enemies within 6 meters of the target and causes stun for 6 + 0.25(Force) seconds. A successful Fortitude or Will saving throw (Ion type) against 10 + Force reduces the damage to 1/3 and prevents the stun.
+(Roll Force + d10 against this number)
+
+The Jedi manipulates the air to send an ionic surge through an enemy droid. This power deals Force d4 damage to a droid opponent and causes stun for 6 + 0.25*Force seconds. A successful Fortitude or Will saving throw against 10 + Force reduces the damage to 1/3 and prevents the stun.
+EOV
+
+KEY: THROW_SABER
+Prerequisites:
+Level 10
+
+Universal Power
+20 Force Points
+Cast DC 12
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinesis to throw his or her lightsaber at an opponent. This power deals (Force)d6 damage to an opponent. A successful Reflex saving throw against 10 + Force reduces the damage to 1/3.
+EOV
+
+KEY: FORCE_LEVITATE
+Prerequisites:
+Level 10
+
+Universal Power
+20 Force Points
+Cast DC 12
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinesis to levitate an opponent. This power leaves an opponent helplessly swirling in the air for 9 + 0.25(Force) seconds. A successful Reflex or Will saving throw against 10 + Force will stop this power.
+EOV
+
+KEY: MASS_LEVITATE
+Prerequisites:
+Force Levitate
+Level 22
+
+Universal Power
+60 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinesis to levitate an opponent. This power leaves all opponents wihtin 12 meters of the user helplessly swirling in the air for 9 + 0.25(Force) seconds. A successful Reflex or Will saving throw against 10 + Force will stop this power.
+EOV
+
+KEY: FORCE_PUSH
+Prerequisites:
+Level 15
+
+Universal Power
+25 Force Points
+Cast DC 15
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinesis to push an opponent away. This power deals (Force)d6 Bludgeoning damage and pushes an opponent away from the user for 0.5 + 0.1(Force) seconds. A successful Reflex or Will saving throw against 10 + Force reduces the damage to 1/3 and prevents the push effect.
+EOV
+
+KEY: FORCE_WAVE
+Prerequisites:
+Force Push
+Level 25
+
+Universal Power
+75 Force Points
+Cast DC 24
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinesis to push an opponent away. This power deals (Force)d6 Bludgeoning damage and pushes all opponents within 12 meters of the user away from the user for 0.5 + 0.1(Force) seconds. A successful Reflex or Will saving throw against 10 + Force reduces the damage to 1/3 and prevents the push effect.
+EOV
+
+KEY: FORCE_BLIND
+Prerequisites:
+Level 15
+
+Universal Power
+25 Force Points
+Cast DC 15
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to temporarily blind an opponent. This power reduces gives a -4 penalty to Defense and a 25% miss chance on all attacks to a human opponent for 12 + 0.5(Force) seconds. A successful Will saving throw (Mind-Affecting type) prevents the miss chance and reduces the Defense penalty to -2 for 6 seconds.
+EOV
+
+KEY: FORCE_AGILITY
+Prerequisites:
+Level 20
+
+Universal Power
+50 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+This power allows the Jedi to move more quickly in combat. The Jedi recives one extra attack for the next 18 + 3(Force) seconds.
+EOV
+
+KEY: BATTLE_MED
+Prerequisites:
+Level 20
+
+Universal Power
+60 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi uses battle meditation to strengthen the fighting ability of him or herself and allies. All allies recieve a +3 bonus to Attack and Defense for the next 18 + 3(Force) seconds.
+EOV
+
+KEY: MASTER_MED
+Prerequisites:
+Battle Meditation
+Level 28
+
+Universal Power
+100 Force Points
+Cast DC 27
+(Roll Force + d10 against this number)
+
+The Jedi uses battle meditation to strengthen the fighting ability of him or herself and allies. All allies recieve a +3 bonus to Attack and Defense for the next 18 + 3(Force) seconds.
+EOV
+
+KEY: FORCE_CONFUSION
+Prerequisites:
+Level 22
+
+Universal Power
+30 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to temporarily confuse an opponent. This power causes an opponent to confuse enemies and allies and fight for the player for 12 + Force seconds. A successful Will saving throw (Mind-Affecting type) stops this power.
+EOV
+
+KEY: MASS_CONFUSION
+Prerequisites:
+Force Confusion
+Level 30
+
+Universal Power
+90 Force Points
+Cast DC 30
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to temporarily confuse an opponent. This power causes all opponents within 15 meters of the user to attack each other for 12 + Force seconds. A successful Will saving throw (Mind-Affecting type) stops this power.
+EOV
+
+KEY: FORCE_VALOR
+Prerequisites:
+None
+
+Light Side Power
+40 Force Points
+Cast DC 6
+(Roll Force + d10 against this number)
+
+The Jedi calls upon the light side of the force to perform a heroic act. The user recieves a +3 bonus to Attack and Defense for 9 + Force seconds.
+EOV
+
+KEY: FORCE_SLEEP
+Prerequisites:
+Level 5
+
+Light Side Power
+15 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to put an opponent in a drowsy state. This power causes a human opponent to sleep for 6 + 0.25(Force) seconds. A successful Will saving throw (Mind-Affecting type) prevents the sleep effect and instead confers a Dexterity penalty of -2 for 3 seconds.
+EOV
+
+KEY: SLEEP_WAVE
+Prerequisites:
+Force Sleep
+Level 20
+
+Light Side Power
+45 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to put an opponent in a drowsy state. This power causes all human opponents within 6 meters of the target to sleep for 6 + 0.25(Force) seconds. A successful Will saving throw (Mind-Affecting type) prevents the sleep effect and instead confers a Dexterity penalty of -2 for 3 seconds.
+EOV
+
+KEY: FORCE_BODY
+Prerequisites:
+Level 10
+
+Light Side Power
+40 Force Points
+Cast DC 12
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to heal his or her body. The user regenerates 2 points every 3 seconds for the next 18 + 3(Force) seconds.
+EOV
+
+KEY: FORCE_ENLIGHT
+Prerequisites:
+Force Body
+Level 25
+
+Light Side Power
+70 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to improve all dimensions of his or her physical performance. This power combines the effects of Force Speed, Force Body, and Force Agility for each of those powers for which the Jedi has already acquired. The effect lasts for 18 + 3(Force) seconds.
+EOV
+
+KEY: FORCE_SUPPRESS
+Prerequisites:
+Level 15
+
+Light Side Power
+20 Force Points
+Cast DC 15
+(Roll Force + d10 against this number)
+
+The Jedi surpresses the use of the force in an enemy. This power deals (Force)d6 points of damage to a Jedi opponent's force points and grants a -6 penalty to the opponent's Wisdom and Charisma for 18 + 2(Force) seconds. A successful Will saving throw (Light Side type) prevents the force point damage and reduces the attribute penalties to -4 for 9 seconds.
+EOV
+
+KEY: FORCE_PARALYZE
+Prerequisites:
+Level 20
+
+Light Side Power
+25 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi uses the temporarily paralyze an opponent. This power causes a human opponent to be paralyzed for 12 + 0.5(Force) seconds. A successful Will saving throw (Mind-Affecting type) prevents the paralysis effect and instead halves the opponent's movement speed for 6 seconds.
+EOV
+
+KEY: PARALYSIS_WAVE
+Prerequisites:
+Force Paralyze
+Level 28
+
+Light Side Power
+75 Force Points
+Cast DC 27
+(Roll Force + d10 against this number)
+
+The Jedi uses the temporarily paralyze an opponent. This power causes all human opponents within 6 meters of the target to be paralyzed for 12 + 0.5(Force) seconds. A successful Will saving throw (Mind-Affecting type) prevents the paralysis effect and instead halves the opponent's movement speed for 6 seconds.
+EOV
+
+KEY: FORCE_LIGHT
+Prerequisites:
+Level 22
+
+Light Side Power
+30 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi draws upon the light side of the force to.
+EOV
+
+KEY: WALL_OF_LIGHT
+Prerequisites:
+Force Light
+Level 30
+
+Light Side Power
+90 Force Points
+Cast DC 30
+(Roll Force + d10 against this number)
+
+The Jedi draws upon the light side of the force to.
+EOV
+
+KEY: FORCE_RAGE
+Prerequisites:
+None
+
+Dark Side Power
+40 Force Points
+Cast DC 6
+(Roll Force + d10 against this number)
+
+The Jedi calls upon the dark side of the force using his or her hate and anger as strength. The user recieves a +3 bonus to Attack and Damage for 6 + Force seconds.
+EOV
+
+KEY: FORCE_AFFLICT
+Prerequisites:
+Level 5
+
+Dark Side Power
+15 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to attack the opponent's muscular system. This power causes a human opponent to slow down to half speed and grants a -4 penality to Strength and Dexterity for 18 + 2(Force) seconds. A successful Fortitude or Will saving throw (Poison type) prevents the attribute penalties and reduces the slow effect to half of its potency for 9 seconds.
+EOV
+
+KEY: FORCE_FEAR
+Prerequisites:
+Level 10
+
+Dark Side Power
+20 Force Points
+Cast DC 12
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to attack an opponent's psyche. This power causes a human opponent to cower in fear for 9 + 0.25(Force) seconds. A successful Will saving throw (Fear type) prevents the fear effect and instead confers an Attack penalty of -2 for 6 seconds.
+EOV
+
+KEY: FORCE_INSANITY
+Prerequisites:
+Force Fear
+Level 22
+
+Dark Side Power
+60 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to attack an opponent's psyche. This power causes all  human opponents within 6 meters of the target to cower in fear for 9 + 0.25(Force) seconds. A successful Will saving throw (Fear type) prevents the fear effect and instead confers an Attack penalty of -2 for 6 seconds.
+EOV
+
+KEY: FORCE_CHOKE
+Prerequisites:
+Level 15
+
+Dark Side Power
+25 Force Points
+Cast DC 15
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to choke an opponent. This power causes a human opponent to choke for 9 seconds and deals (Force)d6 points of Dark Side damage spread across the duration of the choking. A successful Fortitude or Will saving throw (Dark Side type) prevents the choking effect and reduces damage to 1/3.
+EOV
+
+KEY: FORCE_CRUSH
+Prerequisites:
+Jedi Consular, Jedi Master, or Sith Lord
+Force Choke
+Level 25
+
+Dark Side Power
+75 Force Points
+Cast DC 24
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to physically crush an opponent. This power deals (Force)d6 Dark Side damage to all human opponents within 12 meters of the user while crushing them for 3 seconds. A successful Fortitude or Will saving throw (Dark Side type) prevents the crushing effect and reduces damage to 1/3.
+EOV
+
+KEY: FORCE_DRAIN
+Prerequisites:
+Level 20
+
+Dark Side Power
+25 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to drain an opponent's life. This power deals (Force)d6 Dark Side damage to a human opponent. The user is healed half of all damage dealt. A successful Fortitude or Will saving throw (Dark Side type)  reduces the damage to 1/3.
+EOV
+
+KEY: DEATH_FIELD
+Prerequisites:
+Force Drain
+Level 28
+
+Dark Side Power
+75 Force Points
+Cast DC 27
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to drain an opponent's life. This power deals (Force)d6 Dark Side damage to all human opponents within 12 meters of the user. The user is healed half of all damage dealt. A successful Fortitude or Will saving throw (Dark Side type)  reduces the damage to 1/3.
+EOV
+
+KEY: FORCE_LIGHTNING
+Prerequisites:
+Level 22
+
+Dark Side Power
+30 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi uses the force shock an opponent with lightning. This power deals (Force)d12 Dark Side damage to an opponent and causes a stun effect for 3 seconds. A successful Fortitude or Will saving throw (Dark Side type)  reduces the damage to 1/3 and prevents the stun effect.
+EOV
+
+KEY: FORCE_STORM
+Prerequisites:
+Force Lightning
+Level 30
+
+Dark Side Power
+90 Force Points
+Cast DC 30
+(Roll Force + d10 against this number)
+
+The Jedi uses the force shock an opponent with lightning. This power deals (Force)d12 Dark Side damage to all opponents within 15 meters of the user and causes a stun effect for 3 seconds. A successful Fortitude or Will saving throw (Dark Side type)  reduces the damage to 1/3 and prevents the stun effect.
+EOV
+
+KEY: FORCE_SUGGEST
+Prerequisites:
+Exile
+
+Universal Power
+
+The Jedi is able to use the force to persuade others. The option may appear in conversations. Success is not guarunteed for extreme commands or if the target is strong willed.
+EOV
+
+KEY: FORCE_COMPEL
+Prerequisites:
+Force Suggest
+Level 15
+Exile
+
+Universal Power
+
+The Jedi is able to use the force to persuade others. The option may appear in conversations. Success is not guarunteed, but very few beings are able to resist the power of the user.
+EOV
+
+KEY: FORCE_CONCEAL
+Prerequisites:
+None
+
+Universal Power
+
+The Jedi is able to use the force to conceal his or her location before enemies. The user can enter stealth mode without use of a stealth field generator.
+EOV
+
+KEY: BEAST_TRICK
+Prerequisites:
+None
+
+Universal Power
+15 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to distract an enemy beast, making it easier to sneak by them. An enemy beast is unable to notice the user or his or her allies for 24 + 3(Force) seconds. The effect is broken if the user gets too close or interacts with the beast. A successful Will saving throw (Mind-Affecting type) against 10 + Force stops this power.
+EOV
+
+KEY: BREATH_CONTROL
+Prerequisites:
+None
+
+Universal Power
+30 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to sustain his or her breath for an extended period of time. The user is immune to poison for 120 + 15(Force) seconds.
+
+EOV
+
+KEY: FORCE_SEVER
+Prerequisites:
+Exile
+
+Light Side Power
+50 Force Points
+
+The Jedi is able to cut off opponents from the force completely and permenantely. This power causes a Jedi opponent to be held in stasis for 3 seconds. Upon recovery, the opponent can no longer use the force and permenantely suffers a -4 penalty to all attributes. This power does not work on certain bosses.
+EOV
+
+KEY: FORCE_CONSUME
+Prerequisites:
+Exile
+
+Dark Side Power
+50 Force Points
+
+The Jedi is able to consume the force from an opponent. This power kills an opponent with less than (YourForce)d4 of his or her health remaining. The user is given a +2 bonus to all of his or her attributes for 9 seconds and gains a permenant +1 bonus to total force points. This power does not work on certain bosses.
+EOV
+

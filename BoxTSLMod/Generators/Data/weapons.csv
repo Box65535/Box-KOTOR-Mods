@@ -1,4 +1,4 @@
-tag,type,baseitemcode,cost,name,model,upgradelevel,tagconst,poisoncode,hasdc
+tag,type,baseitemcode,cost,name,model,upgradelevel,tagconst,poisoncode,dc
 wm_short,new,BOXI_SHORTSWORD,50,Short Sword,1,2,SHORT_SWORD,,
 wm_long,new,BOXI_LONGSWORD,100,Long Sword,1,2,LONG_SWORD,,
 wm_quarter,new,BOXI_QUARTERSTAFF,75,Quarterstaff,3,1,QUARTERSTAFF,,

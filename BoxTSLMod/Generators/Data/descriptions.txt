@@ -2179,7 +2179,7 @@ EOV
 
 KEY: fg_plasma
 32 Heat Damage
-Save DC 14 (Reflex, Fire) for 4 damage
+Save DC 14 (Reflex, Heat) for 4 damage
 4 Meter Blast Radius
 
 These grenades release a quick burst of an incendiary agent that ignites immediately, damaging all enemies within the area of effect.
@@ -2304,6 +2304,29 @@ These grenades are specially designed and can only be used with an appropriate g
 EOV
 
 
+KEY: fl_poison
+Poison: 2 Damage every 3 Seconds for 60 Seconds
+Save DC 20 (Fortitude, Poison) for no effect
+4 Meter Radius
+
+F
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+
+KEY: fl_nerve
+9 Second Choking
+Save DC 20 (Fortitude, Poison) for no effect
+4 Meter Radius
+
+F
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
 KEY: fg_ion
 20 Ion Damage
 +20 Ion Damage vs Droids
@@ -2352,10 +2375,171 @@ These grenades are specially designed and can only be used with an appropriate g
 EOV
 
 
-KEY: fg_plasma
+KEY: fl_adhes
+15 Second Entanglement
+Save DC 20 (Reflex, None) for no effect
+4 Meter Blast Radius
+
+A
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: fl_plasma
 36 Heat Damage
-Save DC 20 (Reflex, Fire) for 8 damage
+Save DC 20 (Reflex, Heat) for 8 damage
 4 Meter Blast Radius
 
 These grenades release a quick burst of an incendiary agent that ignites immediately, damaging all enemies within the area of effect.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
 EOV
+
+
+KEY: fr_explo
+48 Piercing Damage
+Save DC 24 (Reflex, None) for 12 damage
+5 Meter Blast Radius
+
+EOV
+
+
+KEY: fr_fire
+36 Heat Damage
+Con -4 for 30 Seconds
+Save DC 24 (Fortitude OR Reflex, Heat) for 12 damage and no effect
+5 Meter Blast Radius
+
+EOV
+
+
+KEY: fr_carbon
+36 Cold Damage
+12 Second Paralyze
+Save DC 24 (Fortitude OR Reflex, Cold) for 12 damage and no effect
+5 Meter Blast Radius
+
+EOV
+
+
+KEY: fr_plasma
+60 Heat Damage
+Save DC 24 (Reflex, Heat) for 20 damage
+5 Meter Blast Radius
+
+EOV
+
+
+KEY: fr_radian
+20 Heat Damage
+Poison: Str/Con/Dex damage for 60 Seconds
+Save DC 24 (Fortitude, Poison) for no poison
+5 Meter Blast Radius
+
+EOV
+
+
+KEY: fl_therm
+60 Energy Damage
+Knockdown
+DC 28 (Reflex, None) for 20 damage and no effect
+4 Meter Blast Radius
+
+This Republic device contains a baradium compound that produces a small fusion energy explosion of great force. Civilian possession of these items is outlawed almost everywhere.
+EOV
+
+
+KEY: fr_fusion
+80 Energy Damage
+Knockdown
+DC 32 (Reflex, None) for 40 damage and no effect
+4 Meter Blast Radius
+
+EOV
+
+
+KEY: fr_buster
+60 Piercing Damage
+Knockdown
+DC 24 (Reflex, None) for 12 damage and no effect
+Single Target
+
+EOV
+
+
+KEY: fr_buster2
+60 Piercing Damage
+Knockdown
+DC 28 (Reflex, None) for 20 damage and no effect
+Single Target
+
+EOV
+
+
+KEY: bl_frag
+KEY: bl_flash
+KEY: bl_poison
+KEY: bl_nerve
+KEY: bl_sonic
+KEY: bl_sonic2
+KEY: bl_cold
+KEY: bl_adhes
+KEY: bl_ion
+KEY: bl_plasma
+Open this ammo box to obtain 6 grenades.
+EOV
+
+
+KEY: bl_frag
+KEY: bl_flash
+KEY: bl_poison
+KEY: bl_nerve
+KEY: bl_sonic
+KEY: bl_sonic2
+KEY: bl_cold
+KEY: bl_adhes
+KEY: bl_ion
+KEY: bl_plasma
+KEY: bl_therm
+Open this ammo box to obtain 6 grenades.
+EOV
+
+
+KEY: br_exlpo
+KEY: br_fire
+KEY: br_buster
+KEY: br_buster2
+KEY: br_cold
+KEY: br_plasma
+KEY: br_radian
+KEY: br_fusion
+Open this ammo box to obtain 4 rockets.
+EOV
+
+
+KEY: ba_flame1
+KEY: ba_flame2
+KEY: ba_flame3
+KEY: ba_carbon1
+KEY: ba_carbon2
+KEY: ba_plasma
+KEY: ba_ion
+KEY: ba_antima
+Open this ammo box to obtain a fuel tank.
+EOV
+
+
+KEY: ba_psndt
+KEY: ba_slpdt
+KEY: ba_pardt
+KEY: ba_kybdt
+Open this ammo box to obtain 20 darts.
+EOV
+
+
+
+
+
+
+

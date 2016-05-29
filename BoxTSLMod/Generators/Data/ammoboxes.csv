@@ -12,9 +12,9 @@ bl_ion,medstation,BOXI_AMMOBOX,300,Ion Grenades (6),,ION_GRENADE_BOX,BOX_ION_GRE
 br_explo,medstation,BOXI_AMMOBOX,500,Explosive Rockets (4),,EXPLOSIVE_ROCKET_BOX,BOX_EXPLOSIVE_ROCKET_BOX,3,box_explosiverocketbox,****,fr_explo,4
 br_incen,medstation,BOXI_AMMOBOX,600,Incendiary Rockets (4),,INCENDIARY_ROCKET_BOX,BOX_INCENDIARY_ROCKET_BOX,3,box_incendiaryrocketbox,****,fr_incen,4
 br_buster,medstation,BOXI_AMMOBOX,400,Buster Rockets (4),,BUSTER_ROCKET_BOX,BOX_BUSTER_ROCKET_BOX,3,box_busterrocketbox,****,fr_buster,4
-br_buster2,medstation,BOXI_AMMOBOX,600,Buster Rockets Mk II (4),,BUSTER_ROCKET_2_BOX,BOX_BUSTER_ROCKET_2_BOX,3,box_busterrocket2box,****,fr_buster2,4
-br_cold,medstation,BOXI_AMMOBOX,1000,Carbonite Rockets (4),,COLD_ROCKET_BOX,BOX_COLD_ROCKET_BOX,3,box_carboniterocketbox,****,fr_cold,4
-?,medstation,BOXI_AMMOBOX,1000,?,,?,BOX_?,3,?,****,?,4
+br_buster2,medstation,BOXI_AMMOBOX,600,Mk II Buster Rockets (4),,BUSTER_ROCKET_2_BOX,BOX_BUSTER_ROCKET_2_BOX,3,box_busterrocket2box,****,fr_buster2,4
+br_cold,medstation,BOXI_AMMOBOX,700,Carbonite Rockets (4),,COLD_ROCKET_BOX,BOX_COLD_ROCKET_BOX,3,box_carboniterocketbox,****,fr_cold,4
+?,medstation,BOXI_AMMOBOX,700,?,,?,BOX_?,3,?,****,?,4
 br_plasma,medstation,BOXI_AMMOBOX,1500,Plasma Rockets (4),,PLASMA_ROCKET_BOX,BOX_PLASMA_ROCKET_BOX,3,box_plasmarocketbox,****,fr_plasma,4
 br_radian,medstation,BOXI_AMMOBOX,1500,Radiation Rockets (4),,RADIATION_ROCKET_BOX,BOX_RADIATION_ROCKET_BOX,3,box_radiationrocketbox,****,fr_radian,4
 br_therm,medstation,BOXI_AMMOBOX,2000,Thermal Detonators (6),,THERMAL_DETONATOR_BOX,BOX_THERMAL_DETONATOR_BOX,3,box_thermaldetonatorbox,****,fr_therm,6

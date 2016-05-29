@@ -260,3 +260,103 @@ We'll still have 3 total feats for energy weapons mainly because I don't want to
 Actually we had 4 before..... 2 for the weapons and 2 for the upgrades.......
 
 If you need another feat, you can always just eat the Bowcasters feat and then make bowcasters use the wookie toughness feat or something
+
+
+Alright we'll do this, I think generally these should range from DC 12 to DC 20 unless we find a better way to throttle these
+
+
+Energy Weapons:
+Tier 1:
+
+Ion Striker Mk I
+-Droid Stun for 9 Seconds
+-Nothing on Save (Fortitude, Ion)
+-DC 12
+
+Stun Ray Mk I
+-Stun for 6 Seconds
+-Nothing on Save (Will, Mind-Affecting)
+-DC 12
+
+Shock Arm Mk I
+-12 Electrical Damage
+-4 Damage on Save (Will, Electrical)
+-DC 14
+
+
+Tier 2:
+
+Ion Striker Mk II
+-8 Ion Damage
+-Droid Stun for 9 Seconds
+-4 Damage on Save (Fortitude, Ion)
+-DC 14
+
+Shock Arm Mk II
+-18 Electrical Damage
+-Stun for 3 Seconds
+-6 Damage on Save (Will, Electrical)
+-DC 14
+
+Stun Ray Mk II
+-Stun for 9 Seconds
+-Nothing on Save (Will, Mind-Affecting)
+-DC 14
+
+Sonic Repulsor Mk I
+-Int/Wis/Chr -6 for 30 Seconds
+-Nothing on Save (Will, Sonic)
+-10m Spellcone
+-DC 14
+
+
+Tier 3:
+
+Ion Blaster
+-24 Ion Damage
+-Droid Stun for 3 Seconds
+-8 Damage on Save (Fortitude, Ion)
+-DC 16
+
+Shock Arm Mk III
+-24 Electrical Damage
+-3 Second Stun
+-8 Damage on Save (Will, Electrical)
+-DC 16
+
+
+Tier 4:
+
+Ion Striker Mk III
+-18 Ion Damage
+-Droid Stun for 12 Seconds
+-6 Damage on Save (Fortitude, Ion)
+-DC 18
+
+Plasma Blaster Mk I
+-36 Fire Damage
+-12 Damage on Save (Fortitude, Fire)
+-DC 18
+
+Sonic Repulsor Mk II
+-18 Sonic Damage
+-Int/Wis/Chr -6 for 30 Seconds
+-6 Damage on Save on Save (Will, Sonic)
+-10m Spellcylinder
+-DC 18
+
+
+Tier 5:
+
+Plasma Blaster Mk II
+-48 Fire Damage
+-16 Damage on Save (Fortitude, Fire)
+-DC 20
+
+Shield Disruptor
+-16 Sonic Damage
+-Removes Shield
+-DC --
+
+
+

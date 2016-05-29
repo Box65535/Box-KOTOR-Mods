@@ -220,8 +220,9 @@ weaponfieldbase_pattern = """weapons.append(Item('{0.tag}', '{0.name}', \"\"\"{0
 upgradefield_pattern = """items.append(Item('{0.tag}', '{0.name}', \"\"\"{0.description}\"\"\",
 	'{0.model}', '{0.upgradelevel}', '101'))"""
 
-# weapgen.py
-weapon_pattern = """weapons.append('{0.tag}')"""
+# trapgen.py
+trapcode_pattern = """trapcodes.append('{0.trapcode}')"""
+trapitem_pattern = """itemcodes['{0.tag}.uti'] = '{0.trapcode}'"""
 
 # box_inc_featconst.nss
 featconst_pattern = """int {0.featconst} = #CODE_{0.featcode}#;"""
@@ -242,6 +243,12 @@ tagconst_pattern = """string {0.itemconst} = "{0.tag}";"""
 
 # box_inc_itemconst.nss
 hideconst_pattern = """string {0.hideconst} = "{0.name}";"""
+
+# box_inc_trapconst.nss
+trapconst_pattern = """int {0.trapconst} = #CODE_{0.trapcode}#;"""
+
+# box_inc_turretconst.nss
+turretconst_pattern = """string {0.turretconst} = "{0.turrettag}";"""
 
 # baseitems.ini
 baseitemheader_pattern = """AddRow0{baseitemconst}=baseitem_{baseitemconst}"""
@@ -358,8 +365,33 @@ ExclusiveColumn=label
 """
 
 # dc.ini
-dcheader_pattern = """[{tag}.uti]
+dcini_pattern = """[{tag}.uti]
 PropertiesList\0\CostValue=2DAMEMORY{dc}"""
+
+# traps.ini
+oldtrapheader_pattern = """ChangeRow0{trapconst}=trap_{trapconst}"""
+newtrapheader_pattern = """AddRow0{trapconst}=trap_{trapconst}"""
+oldtrapini_pattern = """[traps_mod_trap_flash_stun_minor_0]
+RowIndex={trapindex}
+trapscript={script}
+setdc={setdc}
+detectdcmod={detectdcmod}
+disarmdcmod={disarmdcmod}
+resref={tag}"""
+newtrapini_pattern = """[trap_{trapconst}]
+label={trapconst}
+trapscript={script}
+setdc={setdc}
+detectdcmod={detectdcmod}
+disarmdcmod={disarmdcmod}
+trapname={trapname}
+resref={tag}
+iconresref={iconresref}
+name={namecode}
+model={trapmodel}
+explosionsound={explosionsound}
+ExclusiveColumn=label
+{trapcode}=RowIndex"""
 
 # append.txt
 tlk_pattern = """String {0.number}:
@@ -389,6 +421,7 @@ baseitems = read_file('Data\\baseitems.ini')
 poisons = read_file('Data\\poison.ini')
 dcs = read_file('Data\\dc.ini')
 shields = read_file('Data\\shields.ini')
+trapss = read_file('Data\\traps.ini')
 
 incgrenade = read_file('Code\\Includes\\box_inc_grenades.nss')
 incenergy = read_file('Code\\Includes\\box_inc_energy.nss')
@@ -397,6 +430,7 @@ incstims = read_file('Code\\Includes\\box_inc_stims.nss')
 incvisual = read_file('Code\\Includes\\box_inc_visual.nss')
 inchealing = read_file('Code\\Includes\\box_inc_healing.nss')
 incfuelweap = read_file('Code\\Includes\\box_inc_fuelweap.nss')
+incmines = read_file('Code\\Includes\\box_inc_mines.nss')
 
 incspawn = read_file('Code\\Includes\\box_inc_spawn_per.nss') + read_file('Code\\Includes\\box_inc_spawn_tel.nss')
 inctreasure = read_file('Code\\Includes\\box_inc_treas_per.nss') + read_file('Code\\Includes\\box_inc_treas_tel.nss')
@@ -414,7 +448,7 @@ shieldgen = read_file('Code\\shieldgen.py')
 upgradegen = read_file('Code\\upgradegen.py')
 scriptgen = read_file('Code\\scriptgen.py')
 fieldgen = read_file('Code\\fieldgen.py')
-weapgen = read_file('Code\\weapgen.py')
+trapgen = read_file('Code\\trapgen.py')
 
 itemconst = read_file('Code\\box_inc_itemconst.nss')
 featconst = read_file('Code\\box_inc_featconst.nss')
@@ -422,6 +456,8 @@ spellconst = read_file('Code\\box_inc_spellconst.nss')
 powerconst = read_file('Code\\box_inc_powerconst.nss')
 shieldconst = read_file('Code\\box_inc_shieldconst.nss')
 hideconst = read_file('Code\\box_inc_hideconst.nss')
+trapconst = read_file('Code\\box_inc_trapconst.nss')
+turretconst = read_file('Code\\box_inc_turretconst.nss')
 
 tlk = "\nEOF"
 descriptions = load_descriptions("Data\\descriptions.txt")
@@ -448,8 +484,9 @@ with open('Data\\weapons.csv', 'r') as csvfile:
 		if row['poisoncode']:
 			verify_code(poisons, row['poisoncode'])
 			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
-		if row['hasdc']:
+		if row['dc']:
 			verify_item(dcs, row['tag'])
+			add_line(dcs, row, dcini_pattern, ';DCS')
 		
 # Armor
 with open('Data\\armor.csv', 'r') as csvfile:
@@ -480,8 +517,9 @@ with open('Data\\upgrades.csv', 'r') as csvfile:
 		if row['poisoncode']:
 			verify_code(poisons, row['poisoncode'])
 			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
-		if row['hasdc']:
+		if row['dc']:
 			verify_item(dcs, row['tag'])
+			add_line(dcs, row, dcini_pattern, ';DCS')
 
 # Equipment
 with open('Data\\equipment.csv', 'r') as csvfile:
@@ -680,63 +718,81 @@ with open('Data\\healing.csv', 'r') as csvfile:
 		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
 
 
-# Enemy Spell Equipment
-with open('Data\\enemyspells.csv', 'r') as csvfile:
+# Mines
+with open('Data\\mines.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
-		copy_template('Data\\Templates\\enemyspell.uti', 'Data\\Items\\' + row['tag'] + '.uti')
-		verify_code(baseitems, row['baseitemcode'])
+		copy_template('Data\\Templates\\trap.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		verify_function(incmines, row['functioncall'])
+		if row['type'] == 'new':
+			row['description'] = descriptions[row['tag']]
+			add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
+			add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+			add_line(trapgen, row, trapitem_pattern, '#ITEMS')
+			add_line(traps, row, newtrapheader_pattern, ';HEADERS')
+			add_line(traps, row, newtrapini_pattern, ';TRAPS')
+			add_line(upgradegen, row, medstation_pattern, '#MEDS')
+		else:
+			add_line(traps, row, oldtrapheader_pattern, ';HEADERS')
+			add_line(traps, row, oldtrapini_pattern, ';TRAPS')
+		add_line(trapgen, row, trapcode_pattern, '#TRAPS')
 		add_line(costgen, row, cost_pattern, '#COSTS')
-		add_line(featgen, row, baseitem_pattern, '#ITEMS')
-		add_line(fieldgen, row, field_pattern, '#ITEMS')
-		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
-		verify_function(incenergy + incfuelweap + incgrenade + incstims + inchealing, row['functioncall'])
-		verify_function(incvisual, row['visualfunction'])
-		if row['type'] == 'grenade':
-			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
-			add_line(scriptgen, row, grenadescript_pattern, '#SCRIPTS')
-		elif row['type'] == 'wave':
-			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
-			add_line(scriptgen, row, wavescript_pattern, '#SCRIPTS')
-		elif row['type'] == 'blast':
-			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
-			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
-		elif row['type'] == 'beam':
-			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
-			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
-		elif row['type'] == 'shield':
-			add_line(spellgen, row, selfspell_pattern, '#SPELLS')
-			add_line(shieldgen, row, shield_pattern, '#ITEMS')
-			add_line(scriptgen, row, shieldscript_pattern, '#SCRIPTS')
-			add_line(shieldconst, row, shieldconst_pattern, '//SHIELDS')
-			add_line(shields, row, shieldheader_pattern, ';HEADERS')
-			add_line(shields, row, shieldini_pattern, ';SHIELDS')
-		elif row['type'] == 'stim':
-			add_line(spellgen, row, selfspell_pattern, '#SPELLS')
-			add_line(scriptgen, row, buffscript_pattern, '#SCRIPTS')
-		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
-		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
+		add_line(scriptgen, row, minescript_pattern, '#SCRIPTS')
+		add_line(trapconst, row, trapconst_pattern, '//TRAPS')
 
-# Enemy Weapons
-with open('Data\\enemyspells.csv', 'r') as csvfile:
+		
+# Turrets
+with open('Data\\turrets.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
-		copy_template('Data\\Templates\\enemyspell.uti', 'Data\\Items\\' + row['tag'] + '.uti')
-		verify_code(baseitems, row['baseitemcode'])
+		copy_template('Data\\Templates\\trap.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		row['description'] = descriptions[row['tag']]
+		add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		add_line(trapgen, row, trapitem_pattern, '#ITEMS')
+		add_line(traps, row, newtrapheader_pattern, ';HEADERS')
+		add_line(traps, row, newtrapini_pattern, ';TRAPS')
+		add_line(trapgen, row, trapcode_pattern, '#TRAPS')
+		add_line(costgen, row, cost_pattern, '#COSTS')
+		add_line(upgradegen, row, craftitem_pattern, '#ITEMS')
+		add_line(trapconst, row, trapconst_pattern, '//TRAPS')
+		add_line(turretconst, row, turretconst_pattern, '//TURRETS')
+
+
+# Craftables
+with open('Data\\craftables.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		if row['type'] == 'workbench':
+			add_line(upgradegen, row, craftitem_pattern, '#ITEMS')
+		else:
+			add_line(upgradegen, row, medstation_pattern, '#MEDS')
+
+		
+# Enemy Weapons
+with open('Data\\enemyweapons.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		if row['type'] == 'template'
+			copy_template('Data\\Templates\\enemyweapon.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		else:
+			copy_template('Data\\Static\\' + row['tag'] + '.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		row['name'] = 'Enemy Weapon'
+		row['description'] = 'Enemy Weapon'
+		row['cost'] = 0
 		add_line(baseitems, row, baseitemheader_pattern, ';HEADERS')
 		add_line(baseitems, row, baseitemini_pattern, ';ITEMS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(itemconst, row, itemconst_pattern, '//ITEMS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(costgen, row, cost_pattern, '#COSTS')
-		add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
 		if row['poisoncode']:
 			verify_code(poisons, row['poisoncode'])
 			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
-		if row['hasdc']:
+		if row['dc']:
 			verify_item(dcs, row['tag'])
-
-# Enemy Mines
+			add_line(dcs, row, dcini_pattern, ';DCS')
 
 
 # Feats

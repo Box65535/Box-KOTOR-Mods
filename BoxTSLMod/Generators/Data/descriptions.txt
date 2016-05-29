@@ -2128,8 +2128,234 @@ Though most favor lightsabers, some Sith prefer the more visceral feel of metal 
 EOV
 
 
+KEY: fg_frag
+20 Piercing Damage
+Save DC 12 (Reflex, None) for 4 damage
+4 Meter Blast Radius
+
+Fragmentation grenades are very basic. They explode when thrown, showering the enemy in shrapnel. It's not elegant, but it's definitely effective.
+EOV
 
 
+KEY: fg_flash
+9 Second Stun
+Save DC 12 (Reflex, None) for no effect
+4 Meter Blast Radius
+
+F
+EOV
 
 
+KEY: fg_ion
+12 Ion Damage
++12 Ion Damage vs Droids
+6 Second Stun vs Droids
+Save DC 12 (Fortitude OR Reflex, Ion) for 4 damage and no effect
+4 Meter Blast Radius
 
+These grenades emit an extremely strong burst of energy devastating to any droids caught in the effect.
+EOV
+
+
+KEY: fg_sonic
+16 Sonic Damage
+Int/Wis/Chr -4 for 30 Seconds
+Save DC 12 (Relfex OR Will, Sonic) for 4 damage and no effect
+4 Meter Blast Radius
+
+These grenades explode loudly, but the majority of their effect is delivered in disorienting frequencies the ear can barely perceive, even as it is damaged.
+EOV
+
+
+KEY: fg_cold
+24 Cold Damage
+6 Second Paralysis
+Save DC 14 (Foritutde OR Reflex, Cold) for 4 damage and no effect
+4 Meter Blast Radius
+
+A CryoBan grenade releases a supercooled liquid that freezes on contact, causing intense pain and damage to victims caught in the effect.
+EOV
+
+
+KEY: fg_plasma
+32 Heat Damage
+Save DC 14 (Reflex, Fire) for 4 damage
+4 Meter Blast Radius
+
+These grenades release a quick burst of an incendiary agent that ignites immediately, damaging all enemies within the area of effect.
+EOV
+
+
+KEY: fg_therm
+60 Energy Damage
+Knockdown
+DC 24 (Reflex, None) for 20 damage and no effect
+4 Meter Blast Radius
+
+This Republic device contains a baradium compound that produces a small fusion energy explosion of great force. Civilian possession of these items is outlawed almost everywhere.
+EOV
+
+
+KEY: wl_mining
+This fuel burner, normally used to burn off gases released in the Peragian mining process, can also be used as a makeshift flamethrower.
+EOV
+
+
+KEY: wl_flame
+This device actually shoots wide streams of liquid fire. There are few practical applications requiring such devices but they are sought after by military powers for their devastating effect on morale.
+
+This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.
+EOV
+
+
+KEY: wl_carbon
+Typically used for long-term storage of perishable goods, these tools can be turned on human targets with reasonable certainty of the outcome.
+
+This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.
+EOV
+
+
+KEY: wl_grappl
+This cable can be used with a grappling hook to harpoon or lasso an opponent.
+EOV
+
+
+KEY: wl_dart
+This weapon shoots various types of darts which each contain a differnt type of chemical payload for debilitating enemies.
+EOV
+
+
+KEY: wl_energy
+This weapon fires blasts of energy. 
+
+This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.
+EOV
+
+
+KEY: wl_gren
+This standard grenade launcher uses frag grenades for dealing damage and flash grenades for crowd control on large groups.
+EOV
+
+
+KEY: wl_gas
+This grenade launcher works with grenades that release gas. The poison grenade deals damage while the nerve grenade attempts to choke enemies. Because the grenades use gas, opponents must save using their Fortitude instead of Reflex and neither grenade is effective against droids.
+EOV
+
+
+KEY: wl_sonic
+This launcher is for deploying sonic charges. Sonic grenades bypass most defenses and can disorient those hit by them.
+EOV
+
+
+KEY: wl_cold
+This launcher deploys grenades that expand into solid matter. Both CryoBan and adhesive grenades are effective at stopping crowds of enemies in their tracks.
+EOV
+
+
+KEY: wl_plasma
+This launcher works with grenades that work by releasing energy. These types of grenades deal high amounts of damage. Ion grenades are effective against droids while plasma grenades devestate weak enemies.
+EOV
+
+
+KEY: wl_rocket
+This is the basic rocket launcher. Rockets are stronger than grenades but are considerably more expensive. This launcher works with regular explosive rockets and incendiary rockets for burning enemies.
+EOV
+
+
+KEY: wl_buster
+This rocket launcher is specially designed for buster rockets. Buster rockets are unique because they don't explode but are used to pierce armor.
+EOV
+
+
+KEY: wl_carbon
+?
+EOV
+
+
+KEY: wl_plasma
+This rocket launcher fires particularly deadly rockets. Plasma rockets deal massive damage while radiation rockets debilitate enemies with radiation poisoning.
+EOV
+
+
+KEY: wl_fusion
+This launcher is designed to work with fusion rounds. It is a dual launcher that can fire thermal detonators as ballstic projectiles as well as fusion rockets. This makes this launcher arguably the most deadly weapon that a single soldier can carry into battle.
+EOV
+
+
+KEY: fl_frag
+24 Piercing Damage
+Save DC 18 (Reflex, None) for 6 damage
+4 Meter Blast Radius
+
+Fragmentation grenades are very basic. They explode when thrown, showering the enemy in shrapnel. It's not elegant, but it's definitely effective.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: fl_flash
+9 Second Stun
+Save DC 18 (Reflex, None) for no effect
+4 Meter Blast Radius
+
+F
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: fg_ion
+20 Ion Damage
++20 Ion Damage vs Droids
+Save DC 18 (Fortitude OR Reflex, Ion) for 6 damage and no effect
+4 Meter Blast Radius
+
+These grenades emit an extremely strong burst of energy devastating to any droids caught in the effect.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: fl_sonic
+24 Sonic Damage
+Int/Wis/Chr -6 for 30 Seconds
+Save DC 18 (Relfex OR Will, Sonic) for 6 damage and no effect
+4 Meter Blast Radius
+
+These grenades explode loudly, but the majority of their effect is delivered in disorienting frequencies the ear can barely perceive, even as it is damaged.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: fl_sonic2
+32 Sonic Damage
+Int/Wis/Chr -6 for 30 Seconds
+Save DC 20 (Relfex OR Will, Sonic) for 8 damage and no effect
+4 Meter Blast Radius
+
+These grenades explode loudly, but the majority of their effect is delivered in disorienting frequencies the ear can barely perceive, even as it is damaged.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: fl_cold
+24 Cold Damage
+9 Second Paralysis
+Save DC 20 (Foritutde OR Reflex, Cold) for 8 damage and no effect
+4 Meter Blast Radius
+
+A CryoBan grenade releases a supercooled liquid that freezes on contact, causing intense pain and damage to victims caught in the effect.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: fg_plasma
+36 Heat Damage
+Save DC 20 (Reflex, Fire) for 8 damage
+4 Meter Blast Radius
+
+These grenades release a quick burst of an incendiary agent that ignites immediately, damaging all enemies within the area of effect.
+EOV

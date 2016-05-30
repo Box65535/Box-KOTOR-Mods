@@ -1,0 +1,56 @@
+
+Blaster Turret
+-Level 4 Combat Droid
+-40 Health
+-Heavy Blaster
+-200 Credits
+-8 Repair
+
+Flamethrower Turret
+-Level 6 Combat Droid
+-50 Health
+-Flamethrower Spell Item
+-350 Credits
+-11 Repair
+
+Sonic Repulsor Turret
+-Level 7 Combat Droid
+-50 Health
+-Sonic Repulsor Spell Item
+-400 Credits
+-13 Repair
+
+
+Heavy Ion Turret
+-Level 12 Combat Droid
+-100 Health
+-Ion Blaster Spell Item
+-800 Credits
+-18 Repair
+
+Ballistic Turret
+-Level 12 Combat Droid
+-100 Health
+-Frag Grenade Spell Item
+-1000 Credits
+-20 Repair
+
+
+Armored Ballistic Turret
+-Level 20 Combat Droid
+-200 Health
+-Frag Grenade Spell Item
+-2000 Credits
+-26 Repair
+
+Armored Fusion Turret
+-Level 24 Combat Droid
+-200 Health
+-Detonator Spell Item
+-3000 Credits
+-32 Repair
+
+
+
+
+

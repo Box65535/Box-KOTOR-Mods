@@ -33,7 +33,7 @@ string ARMORED_FUSION_TURRET_TRAP_TAG = "tt_armfus";
 
 int Box_CheckTurretTrap(object oTrigger) {
 	
-	int trap = GetTrapType(oTrigger);
+	int trap = GetTrapBaseType(oTrigger);
 	if (trap == BLASTER_TURRET_TRAP)
 		return TRUE;
 	if (trap == FLAMETHROWER_TURRET_TRAP)
@@ -55,7 +55,7 @@ int Box_CheckTurretTrap(object oTrigger) {
 
 int Box_CheckTurretCreature(object oCreature) {
 	
-	int tag = GetTag(oCreature);
+	string tag = GetTag(oCreature);
 	if (tag == BLASTER_TURRET_TAG)
 		return TRUE;
 	if (tag == FLAMETHROWER_TURRET_TAG)
@@ -77,7 +77,7 @@ int Box_CheckTurretCreature(object oCreature) {
 
 string Box_GetTurretTag(object oTrigger) {
 	
-	int trap = GetTrapType(oTrigger);
+	int trap = GetTrapBaseType(oTrigger);
 	if (trap == BLASTER_TURRET_TRAP)
 		return BLASTER_TURRET_TAG;
 	if (trap == FLAMETHROWER_TURRET_TRAP)

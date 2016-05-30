@@ -13,7 +13,7 @@ void main() {
 
 	while(GetIsObjectValid(oTurret)) {
 		
-		if (Box_CheckTurretTag(oTurret)) {
+		if (Box_CheckTurretCreature(oTurret)) {
 			location lTurret = GetLocation(oTurret);
 			string trapTag = Box_GetTurretTrapTag(oTurret);
 			DestroyObject(oTurret);
@@ -31,7 +31,7 @@ void main() {
 		
 		int trapBaseType = GetTrapBaseType(oTurret);
 		
-		if (Box_CheckTurretTrap(trapBaseType)) {
+		if (Box_CheckTurretTrap(oTurret)) {
 			location lTurret = GetLocation(oTurret);
 			string turretTag = Box_GetTurretTag(oTurret);
 			DestroyObject(oTurret);

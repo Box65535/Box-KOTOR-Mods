@@ -1,6 +1,6 @@
 // box_turretcontrol
 
-// Test script for turrets
+// Turret control script
 // Written by Box
 
 #include "box_inc_turret"

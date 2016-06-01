@@ -59,9 +59,9 @@ class Script:
 			None, None, None, None)
 	
 	@classmethod
-	def new_wave(cls, filename, functioncall, visualfunction):
-		return cls('wave', filename, 'Auto-generated Script', None, None, None, None,
-			None, functioncall, None, visualfunction, None,
+	def new_wave(cls, filename, radius, spellshape, functioncall, locationfunction, visualfunction):
+		return cls('wave', filename, 'Auto-generated Script', None, radius, spellshape, None,
+			None, functioncall, locationfunction, visualfunction, None,
 			None, None, None, None)
 	
 	@classmethod
@@ -254,6 +254,12 @@ scripts.append(Script.new_spawn('bx_sthass1_pr', 'Box_SithAssassin', 'box_inc_sp
 scripts.append(Script.new_spawn('bx_sthass1_pr', 'Box_SithAssassin', 'box_inc_spawn_per', 'k_sithas_spawn01'))
 scripts.append(Script.new_spawn('bx_sthass1_h1', 'Box_SithAssassin', 'box_inc_spawn_per', 'k_sithspwn_151'))
 scripts.append(Script.new_spawn('bx_sthass1_h2', 'Box_SithAssassin', 'box_inc_spawn_per', 'k_sithspwn_152'))
+
+scripts.append(Script.new_grenade('box_turrfrag', 4.0, 'Box_FragTurret', 'Box_FragGrenadeExplode'))
+scripts.append(Script.new_grenade('box_turrfus', 4.0, 'Box_FusionTurret', 'Box_DetonatorGrenadeExplode'))
+scripts.append(Script.new_beam('box_turrflame', 'Box_FlameTurret', 'Box_FlamethrowerBeam'))
+scripts.append(Script.new_beam('box_turrion', 'Box_IonTurret', 'Box_NoBeam'))
+scripts.append(Script.new_wave('box_turrsonic', 5.0, 'SHAPE_SPELLCYLINDER', 'Box_SonicTurret', 'GetLocation(OBJECT_SELF)', 'Box_SonicBeam'))
 
 
 for script in scripts:

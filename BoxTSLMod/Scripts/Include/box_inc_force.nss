@@ -30,7 +30,7 @@ int Box_GetForceByClassLevel(int class, int level, int totalLevel) {
 		(class == CLASS_KRIEA)) {
 		
 		if (class == CLASS_JEDI_PRESTIGE_CONSULAR) {
-			level = level + 15
+			level = level + 15;
 			force = force - 11;
 		}
 		
@@ -89,7 +89,7 @@ int Box_GetForceByClassLevel(int class, int level, int totalLevel) {
 		
 		if ((class == CLASS_JEDI_PRESTIGE_GUARDIAN) ||
 			(class == CLASS_JEDI_PRESTIGE_SENTINEL)) {
-			level = level + 15
+			level = level + 15;
 			force = force - 7;
 		}
 		

@@ -8,19 +8,19 @@ float STIMULANT_DURATION = 30.0;
 void Box_PoisonResistance(object oUser) {
 	effect eResist = EffectImmunity(IMMUNITY_TYPE_POISON);
 	eResist = EffectLinkEffects(eResist, EffectSavingThrowIncrease(SAVING_THROW_FORT, 4));
-	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eAdren, oUser, STIMULANT_DURATION);
+	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eResist, oUser, STIMULANT_DURATION);
 }
 
 void Box_FearResistance(object oUser) {
 	effect eResist = EffectImmunity(IMMUNITY_TYPE_FEAR);
 	eResist = EffectLinkEffects(eResist, EffectSavingThrowIncrease(SAVING_THROW_WILL, 4));
-	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eAdren, oUser, STIMULANT_DURATION);
+	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eResist, oUser, STIMULANT_DURATION);
 }
 
 void Box_SneakResistance(object oUser) {
 	effect eResist = EffectImmunity(IMMUNITY_TYPE_SNEAK_ATTACK);
 	eResist = EffectLinkEffects(eResist, EffectSavingThrowIncrease(SAVING_THROW_REFLEX, 4));
-	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eAdren, oUser, STIMULANT_DURATION);
+	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eResist, oUser, STIMULANT_DURATION);
 }
 
 void Box_AdrenalStrength(object oUser) {

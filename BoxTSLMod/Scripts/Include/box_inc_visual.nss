@@ -103,6 +103,12 @@ void Box_CarboniteBeam(object oUser, object oTarget) {
 }
 
 //
+void Box_SonicBeam(object oUser, object oTarget) {
+	effect eBeam = EffectVisualEffect(9005);
+	ApplyEffectToObject(DURATION_TYPE_INSTANT, eBeam, oUser);
+}
+
+//
 void Box_BusterRocketBeam(object oUser, object oTarget) {
 	Box_DetonatorGrenadeExplode(GetLocation(oTarget));
 }

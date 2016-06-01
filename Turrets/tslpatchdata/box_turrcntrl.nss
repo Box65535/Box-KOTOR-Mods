@@ -1,4 +1,4 @@
-// box_turretcontrol
+// box_turrcntrl
 
 // Turret control script
 // Written by Box

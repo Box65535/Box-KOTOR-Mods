@@ -19,7 +19,7 @@ string FLAMETHROWER_TURRET_TAG = "tc_flame";
 string SONIC_REPULSOR_TURRET_TAG = "tc_sonic";
 string HEAVY_ION_TURRET_TAG = "tc_hvyion";
 string BALLISTIC_TURRET_TAG = "tc_ballis";
-string ARMORED_BALLISTIC_TURRET_TAG = "tc_armbls";
+string ARMORED_BALLISTIC_TURRET_TAG = "tc_armbal";
 string ARMORED_FUSION_TURRET_TAG = "tc_armfus";
 
 string BLASTER_TURRET_TRAP_TAG = "tt_blast";
@@ -27,7 +27,7 @@ string FLAMETHROWER_TURRET_TRAP_TAG = "tt_flame";
 string SONIC_REPULSOR_TURRET_TRAP_TAG = "tt_sonic";
 string HEAVY_ION_TURRET_TRAP_TAG = "tt_hvyion";
 string BALLISTIC_TURRET_TRAP_TAG = "tt_ballis";
-string ARMORED_BALLISTIC_TURRET_TRAP_TAG = "tt_armbls";
+string ARMORED_BALLISTIC_TURRET_TRAP_TAG = "tt_armbal";
 string ARMORED_FUSION_TURRET_TRAP_TAG = "tt_armfus";
 
 
@@ -110,7 +110,7 @@ string Box_GetTurretTrapTag(object oCreature) {
 		return HEAVY_ION_TURRET_TRAP_TAG;
 	if (tag == BALLISTIC_TURRET_TAG)
 		return BALLISTIC_TURRET_TRAP_TAG;
-	if (tag == ARMORED_BALLISTIC_TURRET_TAG)
+	if (tag == ARMORED_BALLISTIC_TURRET_TAG)		
 		return ARMORED_BALLISTIC_TURRET_TRAP_TAG;
 	if (tag == ARMORED_FUSION_TURRET_TAG)
 		return ARMORED_FUSION_TURRET_TRAP_TAG;

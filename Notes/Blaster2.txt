@@ -215,7 +215,7 @@ Zabrak Repeating Blaster
 +None
 
 Overclocked Repeating Blaster
-3d8 Energy / 20-20 x2
+3d6 Energy / 20-20 x2
 +2 Rapid Shot
 +None
 
@@ -280,9 +280,9 @@ Onderon Repeating Carbine
 +1d8 Unstoppable
 +Scope
 
-Overclocked Repeating Blaster
-3d8 Energy / 20-20 x2
-+2 Rapid Shot
+Sith Repeating Blaster
+3d6 Energy / 19-20 x2
+?
 +None
 
 Heavy Plasma Cannon

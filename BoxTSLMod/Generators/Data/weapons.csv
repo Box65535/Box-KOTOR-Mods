@@ -3,76 +3,72 @@ wm_short,new,BOXI_SHORTSWORD,50,Short Sword,1,2,SHORT_SWORD,,
 wm_long,new,BOXI_LONGSWORD,100,Long Sword,1,2,LONG_SWORD,,
 wm_quarter,new,BOXI_QUARTERSTAFF,75,Quarterstaff,3,1,QUARTERSTAFF,,
 wm_dblade,new,BOXI_DOUBLESWORD,175,Double-Edged Sword,1,2,DOUBLE_BLADE,,
-wm_baton,new,BOXI_STUNBATON,100,Stun Baton,1,1,STUN_BATON,,y
-wm_pike,new,BOXI_FORCEPIKE,250,Force Pike,1,1,FORCE_PIKE,,y
-wm_plasma,new,BOXI_PLASMATORCH,200,Plasma Torch,5,0,PLASMA_TORCH,,
+wm_baton,new,BOXI_STUNBATON,100,Stun Baton,1,1,STUN_BATON,,12
+wm_pike,new,BOXI_FORCEPIKE,250,Force Pike,1,1,FORCE_PIKE,,12
+wm_plasma,new,BOXI_STUNBATON,200,Plasma Torch,5,0,PLASMA_TORCH,,
 wm_mining,new,BOXI_MININGSWORD,100,Vibrocutter,2,0,MINING_SWORD,,
 g_w_vbroswrd002,new,BOXI_DUELINGSWORD,0,Dueling Vibrosword,1,0,DUELING_SWORD,,
 wm_vblade,new,BOXI_VIBROBLADE,1000,Vibroblade,1,3,VIBROBLADE,,
 wm_vsword,new,BOXI_VIBROBLADE,1500,Vibrosword,1,3,VIBROSWORD,,
 wm_vdoubl,new,BOXI_VIBRODOUBLE,3000,Vibro Double-Blade,1,3,VIBRO_DOUBLE,,
-wm_echani,new,BOXI_C_VIBROSWORD,2500,Echani Vibrosword,2,0,ECHANI_BLADE,,
-wm_exchan,new,BOXI_STUNBATON,400,Exchange Negotiator,3,0,EXCHANGE_BATON,,y
+wm_echani,new,BOXI_ADV_VIBROSWORD,2500,Echani Vibrosword,2,0,ECHANI_BLADE,,
+wm_exchan,new,BOXI_STUNBATON,400,Exchange Negotiator,3,0,EXCHANGE_BATON,,14
 wm_gammor1,new,BOXI_GAMMOREANAXE,600,Gammorean War Axe,1,0,GAMMOREAN_AXE_1,,
-wm_gammor2,new,BOXI_C_GAMMOREANAXE,2700,Arg'garok,2,0,GAMMOREAN_AXE_2,,
-wm_gand1,new,BOXI_C_FORCEPIKE,2000,Gand Shockstaff,1,0,GAND_SHOCKSTAFF,,y
-wm_gand2,new,BOXI_C_STUNBATON,1600,Gand Silencer,4,0,GAND_SILENCER,,y
-wm_geonos,new,BOXI_C_QUARTERSTAFF,3200,Geonosian Electrostaff,1,0,GEONOSIAN_ELECTROSTAFF,,
-wm_ludo,new,BOXI_C_VIBRODOUBLE,8000,Ludo Kressh's War Sword,2,0,LUDO_KRESSH_SWORD,,
-wm_rodian,new,BOXI_C_SHORTSWORD,2250,Rodian Blade,4,0,RODIAN_BLADE,BOXP_RODIAN_BLADE,
-wm_ryyk,new,BOXI_C_SHORTSWORD,2500,Ryyk Blade,3,0,RYYK_BLADE,,
-wm_shyarn,new,BOXI_C_LONGSWORD,2300,Shyarn,3,0,SHYARN,,
-wm_sith,new,BOXI_C_DOUBLESWORD,3350,Sith War Sword,1,0,SITH_SWORD,,
-wm_tehkla,new,BOXI_C_VIBROBLADE,2500,Tehkla Blade,2,0,TEHKLA,,y
-wm_trando,new,BOXI_C_LONGSWORD,2400,Trandoshan Sword,5,0,TRANDOSHAN_SWORD,,
-wm_twilek1,new,BOXI_C_SHORTSWORD,1200,Twilek Spinning Blade,1,0,TWILEK_SWORD_1,BOXP_TWILEK_BLADE,
-wm_twilek2,new,BOXI_C_SHORTSWORD,1200,Twilek Spinning Blade,3,0,TWILEK_SWORD_2,,y
+wm_gammor2,new,BOXI_ADV_GAMMOREANAXE,2700,Arg'garok,2,0,GAMMOREAN_AXE_2,,
+wm_gand1,new,BOXI_ADV_FORCEPIKE,2000,Gand Shockstaff,1,0,GAND_SHOCKSTAFF,,20
+wm_gand2,new,BOXI_ADV_STUNBATON,1600,Gand Silencer,4,0,GAND_SILENCER,,20
+wm_geonos,new,BOXI_ADV_QUARTERSTAFF,3200,Geonosian Electrostaff,1,0,GEONOSIAN_ELECTROSTAFF,,
+wm_ludo,new,BOXI_ADV_VIBRODOUBLE,8000,Ludo Kressh's War Sword,2,0,LUDO_KRESSH_SWORD,,
+wm_rodian,new,BOXI_ADV_SHORTSWORD,2250,Rodian Blade,4,0,RODIAN_BLADE,BOXP_RODIAN_BLADE,
+wm_ryyk,new,BOXI_ADV_SHORTSWORD,2500,Ryyk Blade,3,0,RYYK_BLADE,,
+wm_shyarn,new,BOXI_ADV_LONGSWORD,2300,Shyarn,3,0,SHYARN,,
+wm_sith,new,BOXI_ADV_DOUBLESWORD,3350,Sith War Sword,1,0,SITH_SWORD,,
+wm_tehkla,new,BOXI_ADV_VIBROBLADE,2500,Tehkla Blade,2,0,TEHKLA,,20
+wm_trando,new,BOXI_ADV_LONGSWORD,2400,Trandoshan Sword,5,0,TRANDOSHAN_SWORD,,
+wm_twilek1,new,BOXI_ADV_SHORTSWORD,1200,Twilek Spinning Blade,1,0,TWILEK_SWORD_1,BOXP_TWILEK_BLADE,
+wm_twilek2,new,BOXI_ADV_SHORTSWORD,1200,Twilek Spinning Blade,3,0,TWILEK_SWORD_2,,20
 wm_wookie1,new,BOXI_WOOKIEWARBLADE,1000,Wookie Warblade,1,0,WOOKIE_SWORD_1,,
-wm_wookie2,new,BOXI_C_WOOKIEWARBLADE,4200,Freyyr's Warblade,1,0,WOOKIE_SWORD_2,,
-wm_zabrak,new,BOXI_C_VIBROBLADE,2200,Zabrak Vibroblade,3,0,ZABRAK_BLADE,,
-wm_zhabok,new,BOXI_C_VIBRODOUBLE,3500,Zhaboka,3,0,ZHABOKA,,
+wm_wookie2,new,BOXI_ADV_WOOKIEWARBLADE,4200,Freyyr's Warblade,1,0,WOOKIE_SWORD_2,,
+wm_zabrak,new,BOXI_ADV_VIBROBLADE,2200,Zabrak Vibroblade,3,0,ZABRAK_BLADE,,
+wm_zhabok,new,BOXI_ADV_VIBRODOUBLE,3500,Zhaboka,3,0,ZHABOKA,,
 wr_blast1,new,BOXI_BLASTER_PISTOL,200,Blaster Pistol,1,3,BLASTER_PISTOL,,
-wr_hold1,new,BOXI_HOLD_OUT,100,Hold Out Blaster,1,3,HOLD_OUT,,
-wr_ion1,new,BOXI_ION_PISTOL,300,Ion Blaster Pistol,1,2,ION_BLASTER,,
-wr_disrup1,new,BOXI_DISRUPTOR_PISTOL,350,Disruptor Pistol,1,2,DISRUPTOR,,
-wr_sonic1,new,BOXI_SONIC_PISTOL,300,Sonic Blaster Pistol,1,1,SONIC_BLASTER,,y
-wr_heavy1,new,BOXI_HEAVY_PISTOL,400,Heavy Blaster Pistol,1,3,HEAVY_BLASTER,,
-wr_carbin1,new,BOXI_CARBINE,350,Blaster Carbine,,1,BLASTER_CARBINE,,
-wr_rifle1,new,BOXI_CARBINE,400,Sporting Rifle,,3,SPORTING_RIFLE,,
+wr_hold1,new,BOXI_LIGHTPISTOL,100,Hold Out Blaster,1,3,HOLD_OUT,,
+wr_ion1,new,BOXI_IONPISTOL,300,Ion Blaster Pistol,1,2,ION_BLASTER,,
+wr_disrup1,new,BOXI_DISRUPTORPISTOL,350,Disruptor Pistol,1,2,DISRUPTOR,,
+wr_sonic1,new,BOXI_SONICPISTOL,300,Sonic Blaster Pistol,1,1,SONIC_BLASTER,,
+wr_heavy1,new,BOXI_HEAVYPISTOL,400,Heavy Blaster Pistol,1,3,HEAVY_BLASTER,,
+wr_hvydsr1,new,BOXI_HVYDSRPISTOL,400,Heavy Disruptor Pistol,2,2,HEAVY_DISRUPTOR,,
 wr_mining1,new,BOXI_MININGPISTOL,100,Mining Laser,,0,MINING_LASER,,
-wr_mining2,new,BOXI_MININGRIFLE,250,Advanced Mining Laser,,1,ADVANCED_MINING_LASER,,
-wr_hold2,new,BOXI_M_HOLD_OUT,450,Watchman Blaster,2,3,WATCHMAN_BLASTER,,
-wr_ion2,new,BOXI_M_ION_PISTOL,600,Verpine Ion Pistol,2,2,VERPINE_PISTOL,,
-wr_disrup2,new,BOXI_M_DISRUPTOR_PISTOL,600,Sith Disruptor Pistol,4,2,SITH_PISTOL,,
-wr_sonic2,new,BOXI_M_SONIC_PISTOL,500,Systech Aural Blaster,2,1,SYSTECH_PISTOL,,y
-wr_blast2,new,BOXI_M_HEAVY_PISTOL,700,Republic Blaster Pistol,,3,REPUBLIC_BLASTER,,
-wr_zabrak2,new,BOXI_M_CARBINE,1100,Zabrak Blaster Carbine,,0,ZABRAK_PISTOL,,
-wr_assass2,new,BOXI_M_HOLD_OUT,700,Sith Assassin Pistol,3,3,ASSASSIN_PISTOL,,y
-wr_elec2,new,BOXI_M_ION_PISTOL,800,Systech Electric Blaster,,2,ELECTRIC_PISTOL,,
-wr_mand2,new,BOXI_MAND_PISTOL,1000,Mandalorian Disruptor Pistol,2,2,MANDALORIAN_PISTOL,,
-wr_sonicd2,new,BOXI_M_SONIC_PISTOL,1000,Dashade Sonic Disruptor,6,1,DASHADE_PISTOL,,
-wr_merc2,new,BOXI_M_HEAVY_PISTOL,1400,Mercenary Blaster Pistol,,0,MERCENARY_PISTOL,,
-wr_exchan2,new,BOXI_M_CARBINE,1100,Exchange Stun Carbine,,0,EXCHANGE_CARBINE,,y
-wr_blast3,new,BOXI_BLASTER_RIFLE,1500,Republic Blaster Rifle,,3,REPUBLIC_RIFLE,,
-wr_ion3,new,BOXI_ION_RIFLE,2100,Verpine Ion Rifle,,2,VERPINE_RIFLE,,
-wr_sonic3,new,BOXI_SONIC_RIFLE,1850,Onderon Sonic Rifle,,1,ONDERON_RIFLE,,y
-wr_disrup3,new,BOXI_DISRUPTOR_RIFLE,1900,HK-50 Assassin Rifle,,2,ASSASSIN_RIFLE,,
-wr_sonicd3,new,BOXI_SONIC_RIFLE,2500,Systech Sonic Disruption Rifle,,1,SYSTECH_RIFLE,,y
-wr_plasma3,new,BOXI_ION_RIFLE,2400,Aratech Plasma Rifle,,2,PLASMA_RIFLE,,
-wr_sniper3,new,BOXI_BLASTER_RIFLE,1800,Sith Sniper Rifle,,3,SNIPER_RIFLE,,
-wr_assaul3,new,BOXI_ASSAULT_RIFLE,2200,Mandalorian Assault Rifle,,3,ASSAULT_RIFLE,,
-wr_zabrak3,new,BOXI_BLASTER_RIFLE,2400,Zabrak Combat Rifle,,0,ZABRAK_RIFLE,,
-wr_mand3,new,BOXI_MAND_RIFLE,2200,Mandalorian Disruption Rifle,,2,MANDALORIAN_RIFLE,,
-wr_blast4,new,BOXI_REPEATING_BLASTER,3500,Republic Repeater Blaster,,3,REPUBLIC_REPEATER,,
-wr_sonicd4,new,BOXI_REPEATING_SONIC,4400,Onderon Repeating Carbine,,1,ONDERON_REPEATER,,y
-wr_zabrak4,new,BOXI_REPEATING_BLASTER,4800,Zabrak Repeating Blaster,,0,ZABRAK_REPEATER,,
-wr_assaul4,new,BOXI_REPEATING_BLASTER,5000,Mandalorian Heavy Assault Rifle,,3,ASSAULT_REPEATER,,
-wr_disrup4,new,BOXI_REPEATING_DISRUPTOR,4200,Sith Repeating Blaster,,2,SITH_REPEATER,,
-wr_oclock4,new,BOXI_REPEATING_BLASTER,4000,Overclocked Repeating Blaster,,0,OVERCLOCK_REPEATER,,
-wr_blast5,new,BOXI_HEAVY_REPEATER,5500,Republic Heavy Repeater,,3,REPUBLIC_HEAVY_REPEATER,,
-wr_mand5,new,BOXI_HEAVY_DISRUPTOR,7500,Mandalorian Heavy Repeater,,2,MANDALORIAN_HEAVY_REPEATER,,
-wr_ion5,new,BOXI_HEAVY_ION,6000,Rapid Ion Turret Blaster,,2,ION_HEAVY_REPEATER,,
-wr_hk5,new,BOXI_HEAVY_REPEATER,6400,HK-50 Heavy Repeater,,3,ASSASSIN_HEAVY_REPEATER,,
+wr_blast2,new,BOXI_ADV_BLASTERPISTOL,500,Republic Blaster Pistol,1,3,BLASTER_PISTOL,,
+wr_hold2,new,BOXI_ADV_LIGHTPISTOL,450,Watchman Blaster,2,3,WATCHMAN_BLASTER,,
+wr_ion2,new,BOX_ADV_IONPISTOL,600,Verpine Ion Pistol,2,2,VERPINE_PISTOL,,
+wr_disrup2,new,BOXI_ADV_DISRUPTORPISTOL,600,Sith Disruptor Pistol,4,2,SITH_PISTOL,,
+wr_sonic2,new,BOXI_ADV_SONICPISTOL,500,Systech Aural Blaster,2,1,SYSTECH_PISTOL,,12
+wr_blast2,new,BOXI_ADV_HEAVYPISTOL,800,Mandalorian Blaster Pistol,,3,MANDALORIAN_PISTOL,,
+wr_assass2,new,BOXI_ADV_LIGHTPISTOL,700,Sith Assassin Pistol,3,3,ASSASSIN_PISTOL,,14
+wr_elec2,new,BOXI_ADV_BLASTERPISTOL,800,Systech Electric Blaster,,2,ELECTRIC_PISTOL,,
+wr_mand2,new,BOXI_ADV_HVYDSRPISTOL,1000,Mandalorian Disruptor Pistol,5,2,MANDALORIAN_DISRUPTOR,,
+wr_sonicd2,new,BOXI_ADV_SONICPISTOL,1000,Dashade Sonic Disruptor,6,1,DASHADE_PISTOL,,
+wr_merc2,new,BOXI_ADV_HEAVYPISTOL,1400,Mercenary Blaster Pistol,,0,MERCENARY_PISTOL,,
+wr_carbin3,new,BOXI_LIGHTRIFLE,1000,Republic Blaster Carbine,,3,BLASTER_CARBINE,,
+wr_exchan3,new,BOXI_LIGHTRIFLE,1100,Exchange Stun Carbine,,1,EXCHANGE_CARBINE,,20
+wr_blast3,new,BOXI_BLASTERRIFLE,1500,Republic Blaster Rifle,,3,REPUBLIC_RIFLE,,
+wr_ion3,new,BOXI_IONRIFLE,2100,Verpine Ion Rifle,,2,VERPINE_RIFLE,,
+wr_sonic3,new,BOXI_SONICRIFLE,1850,Onderon Sonic Rifle,,1,ONDERON_RIFLE,,18
+wr_disrup3,new,BOXI_DISRUPTORRIFLE,1900,HK-50 Assassin Rifle,,2,ASSASSIN_RIFLE,,
+wr_sonicd3,new,BOXI_SONICRIFLE,2500,Systech Sonic Disruption Rifle,,1,SYSTECH_RIFLE,,12
+wr_plasma3,new,BOXI_IONRIFLE,2400,Aratech Plasma Rifle,,2,PLASMA_RIFLE,,
+wr_sniper3,new,BOXI_BLASTERRIFLE,1800,Sith Sniper Rifle,,3,SNIPER_RIFLE,,
+wr_assaul3,new,BOXI_HEAVYRIFLE,2200,Mandalorian Assault Rifle,,3,ASSAULT_RIFLE,,
+wr_zabrak3,new,BOXI_HEAVYRIFLE,2400,Zabrak Combat Rifle,,0,ZABRAK_RIFLE,,
+wr_mand3,new,BOXI_HVYDSRRIFLE,2200,Mandalorian Disruption Rifle,,2,MANDALORIAN_RIFLE,,
+wr_blast4,new,BOXI_BLASTERREPEATER,3500,Republic Blaster Cannon,,3,REPUBLIC_REPEATER,,
+wr_sonicd4,new,BOXI_SONICREPEATER,4400,Onderon Repeating Carbine,,1,ONDERON_REPEATER,,20
+wr_sith4,new,BOXI_LIGHTREPEATER,3500,Sith Light Repeater,,0,SITH_REPEATER,,
+wr_plasma4,new,BOXI_IONREPEATER,4000,Heavy Plasma Cannon,,2,PLASMA_REPEATER,,
+wr_hk4,new,BOXI_DISRUPTORREPEATER,4000,HK-50 Heavy Repeater,,3,ASSASSIN_HEAVY_REPEATER,,
+wr_mand4,new,BOXI_HEAVYREPEATER,5000,Mandalorian Heavy Repeater,,3,MANDALORIAN_REPEATER,,
+wr_zabrak4,new,BOXI_HVYDSRREPEATER,5600,Zabrak Heavy Repeater,,0,ZABRAK_REPEATER,,
 wr_bow1,new,BOXI_BOWCASTER,1800,Bowcaster,,0,BOWCASTER,,
 wr_bow2,new,BOXI_BOWCASTER,4000,Ceremonial Bowcaster,,0,CEREMONIAL_BOWCASTER,,
 g_w_lghtsbr01,old,,4000,Lightsaber,1,3,,,

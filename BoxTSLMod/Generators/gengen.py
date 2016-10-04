@@ -69,6 +69,10 @@ def read_file(path):
 		raise AssertionError
 	return file
 
+def write_file(data, path):
+	with open(path, 'w') as f:
+		f.write(data)
+
 def load_descriptions(file):
 	descs = {}
 	file = read_file('Data\\descriptions.txt')
@@ -365,6 +369,7 @@ ExclusiveColumn=label
 """
 
 # dc.ini
+dcheader_pattern = """File0{tag}={tag}.uti"""
 dcini_pattern = """[{tag}.uti]
 PropertiesList\0\CostValue=2DAMEMORY{dc}"""
 
@@ -421,7 +426,7 @@ baseitems = read_file('Data\\baseitems.ini')
 poisons = read_file('Data\\poison.ini')
 dcs = read_file('Data\\dc.ini')
 shields = read_file('Data\\shields.ini')
-trapss = read_file('Data\\traps.ini')
+traps = read_file('Data\\traps.ini')
 
 incgrenade = read_file('Code\\Includes\\box_inc_grenades.nss')
 incenergy = read_file('Code\\Includes\\box_inc_energy.nss')
@@ -437,7 +442,7 @@ inctreasure = read_file('Code\\Includes\\box_inc_treas_per.nss') + read_file('Co
 
 armorgen = read_file('Code\\armorgen.py')
 featgen = read_file('Code\\featgen.py')
-hidgen = read_file('Code\\hidegen.py')
+hidegen = read_file('Code\\hidegen.py')
 costgen = read_file('Code\\costgen.py')
 poisongen = read_file('Code\\poisongen.py')
 modulegen = read_file('Code\\modulegen.py')
@@ -464,7 +469,13 @@ descriptions = load_descriptions("Data\\descriptions.txt")
 
 
 
-
+# Poisons
+with open('Data\\poisons.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	number = 1
+	for row in reader:
+		add_line(poisons, row, poisonheader_pattern, ';HEADERS')
+		add_line(poisons, row, poisonini_pattern, ';POISONS')
 
 # Weapons
 with open('Data\\weapons.csv', 'r') as csvfile:
@@ -485,7 +496,7 @@ with open('Data\\weapons.csv', 'r') as csvfile:
 			verify_code(poisons, row['poisoncode'])
 			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
 		if row['dc']:
-			verify_item(dcs, row['tag'])
+			add_line(dcs, row, dcheader_pattern, ';HEADERS')
 			add_line(dcs, row, dcini_pattern, ';DCS')
 		
 # Armor
@@ -518,7 +529,7 @@ with open('Data\\upgrades.csv', 'r') as csvfile:
 			verify_code(poisons, row['poisoncode'])
 			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
 		if row['dc']:
-			verify_item(dcs, row['tag'])
+			add_line(dcs, row, dcheader_pattern, ';HEADERS')
 			add_line(dcs, row, dcini_pattern, ';DCS')
 
 # Equipment
@@ -791,7 +802,7 @@ with open('Data\\enemyweapons.csv', 'r') as csvfile:
 			verify_code(poisons, row['poisoncode'])
 			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
 		if row['dc']:
-			verify_item(dcs, row['tag'])
+			add_line(dcs, row, dcheader_pattern, ';HEADERS')
 			add_line(dcs, row, dcini_pattern, ';DCS')
 
 
@@ -911,15 +922,39 @@ with open('Data\\treasures.csv', 'r') as csvfile:
 		verify_function(inctreasure, row['functioncall'])
 		add_line(scriptgen, row, treasurescript_pattern, '#SCRIPTS')
 
-# Poisons
-with open('Data\\poisons.csv', 'r') as csvfile:
-	reader = csv.DictReader(csvfile)
-	number = 1
-	for row in reader:
-		add_line(poisons, row, poisonheader_pattern, ';HEADERS')
-		add_line(poisons, row, poisonini_pattern, ';POISONS')
 
+write_file(feats, 'Out\\feats.ini')
+write_file(baseitems, 'Out\\baseitems.ini')
+write_file(poisons, 'Out\\poison.ini')
+write_file(dcs, 'Out\\dc.ini')
+write_file(shields, 'Out\\shields.ini')
+write_file(traps, 'Out\\shields.ini')
 
+# We don't need to output the includes
+
+write_file(armorgen, 'Out\\armorgen.py')
+write_file(featgen, 'Out\\featgen.py')
+write_file(hidegen, 'Out\\hidegen.py')
+write_file(costgen, 'Out\\costgen.py')
+write_file(poisongen, 'Out\\poisongen.py')
+write_file(modulegen, 'Out\\modulegen.py')
+write_file(powergen, 'Out\\powergen.py')
+write_file(powergen2, 'Out\\powergen2.py')
+write_file(spellgen, 'Out\\spellgen.py')
+write_file(shieldgen, 'Out\\shieldgen.py')
+write_file(upgradegen, 'Out\\upgradegen.py')
+write_file(scriptgen, 'Out\\scriptgen.py')
+write_file(fieldgen, 'Out\\fieldgen.py')
+write_file(trapgen, 'Out\\trapgen.py')
+
+write_file(itemconst, 'Out\\box_inc_itemconst.nss')
+write_file(featconst, 'Out\\box_inc_featconst.nss')
+write_file(spellconst, 'Out\\box_inc_spellconst.nss')
+write_file(powerconst, 'Out\\box_inc_powerconst.nss')
+write_file(shieldconst, 'Out\\box_inc_shieldconst.nss')
+write_file(hideconst, 'Out\\box_inc_hideconst.nss')
+write_file(trapconst, 'Out\\box_inc_trapconst.nss')
+write_file(turretconst, 'Out\\box_inc_turretconst.nss')
 
 
 

@@ -424,5 +424,54 @@ Crit Edge 3:
 Crit Edge 4:
 +1d20 Massive Crit
 
-Keen Edge:
+Burning Edge 1:
++2 Fire
+Con -6 DC 12
+
+Burning Edge 2:
++3 Fire
+Con -6 DC 16
+
+Chilling Edge 1:
 Keen
+
+Chilling Edge 2:
++2 Cold
+Keen
+
+Ionite Edge 1:
+
+
+
+Vibration Cell Mk I:
++1d4 Slashing
++1d4 Massive Crit
+-1 Attack
+
+Vibration Cell Mk II:
++1d6 Slashing
++1d6 Massive Crit
+-1 Attack
+
+Vibration Cell Mk III:
++1d8 Slashing
++1d8 Massive Crit
+-1 Attack
+
+Sonic Discharge Cell Mk I:
++1d8 Sonic
+-1 Attack
+
+Sonic Discharge Cell Mk II:
++1d12 Sonic
+-1 Attack
+
+
+
+
+
+
+
+
+
+

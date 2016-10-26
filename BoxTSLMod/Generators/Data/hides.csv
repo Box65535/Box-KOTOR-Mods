@@ -1,0 +1,2 @@
+hideconst,name,attack,defense,fort,reflex,will,regen,deflect,immunities,feats,skills,resistances,save_bonuses
+EXPERT_DROID_HIDE,exdrd,attack_medium_pattern,defense_medium_pattern,save_low_pattern,save_low_pattern,save_low_pattern,zero_pattern,zero_pattern,droid_immunities,blank_feats,blank_skill_bonuses,blank_immunity_bonuses,blank_save_bonuses

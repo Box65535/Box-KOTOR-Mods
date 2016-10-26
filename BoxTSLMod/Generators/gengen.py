@@ -901,12 +901,44 @@ with open('Data\\powers.csv', 'r') as csvfile:
 	tlk = "\nEOF"
 
 
+# Enemy Weapons
+with open('Data\\enemyweapons.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		
+		row['description'] = descriptions[row['tag']]
+		if 
+		copy_template('Data\\Static\\' + row['tag'] + '.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		if row['poisoncode']:
+			verify_code(poisons, row['poisoncode'])
+			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
+		if row['dc']:
+			add_line(dcs, row, dcheader_pattern, ';HEADERS')
+			add_line(dcs, row, dcini_pattern, ';DCS')
+		
+		
+		verify_code(feats, row['baseitemcode'])
+		add_line(featgen, row, itemcode_pattern, '#ITEMCODES')
+		add_line(itemconst, row, itemconst_pattern, '//ITEMS')
+		add_line(baseitems, row, baseitemheader_pattern, ';HEADERS')
+		add_line(baseitems, row, baseitemini_pattern, ';ITEMS')
+
+
+# Modules
+with open('Data\\modules.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		add_line(modulegen, row, module_pattern, '#MODULES')
+
 # Hide Classes
-with open('Data\\enemyclasses.csv', 'r') as csvfile:
+with open('Data\\hides.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		add_line(hidegen, row, hideclass_pattern, '#HIDECLASSES')
 		add_line(hideconst, row, hideconst_pattern, '//HIDES')
+
+enemies = {}
 
 # Spawns
 with open('Data\\spawns.csv', 'r') as csvfile:
@@ -914,6 +946,24 @@ with open('Data\\spawns.csv', 'r') as csvfile:
 	for row in reader:
 		verify_function(incspawn, row['functioncall'])
 		add_line(scriptgen, row, spawnscript_pattern, '#SCRIPTS')
+		enemies[row.script] = row
+
+# Enemies
+with open('Data\\enemies.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		enemy = enemies[row.script]
+		row['str'] = enemy['str']
+		row['str'] = enemy['dex']
+		row['str'] = enemy['con']
+		row['int'] = enemy['int']
+		row['wis'] = enemy['wis']
+		row['chr'] = enemy['chr']
+		row['fort'] = enemy['fort']
+		row['reflex'] = enemy['reflex']
+		row['will'] = enemy['will']
+		add_line(modulegen, row, enemy_pattern, '#ENEMIES')
+		
 
 # Treasures
 with open('Data\\treasures.csv', 'r') as csvfile:
@@ -921,6 +971,12 @@ with open('Data\\treasures.csv', 'r') as csvfile:
 	for row in reader:
 		verify_function(inctreasure, row['functioncall'])
 		add_line(scriptgen, row, treasurescript_pattern, '#SCRIPTS')
+
+# Placeables
+with open('Data\\placeables.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		add_line(modulegen, row, placeable_pattern, '#PLACEABLES')
 
 
 write_file(feats, 'Out\\feats.ini')

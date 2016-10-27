@@ -389,7 +389,7 @@ void Box_TelosDroidFlamethrower(object oEnemy) {
 	ActionEquipItem(CreateItemOnObject(TELOS_DROID_FLAMETHROWER, oEnemy), INVENTORY_SLOT_RIGHTARM, TRUE);
 }
 
-void Box_TelosDroidFlamethrower(object oEnemy) {
+void Box_TelosDroidShockArm(object oEnemy) {
 	Box_RemoveAllItems(oEnemy);
 	Box_EquipHide(oEnemy, HIDE_TYPE_COMBAT_DROID, ENEMY_STRENGTH_REGULAR);
 	Box_GrantDualWield(oEnemy);

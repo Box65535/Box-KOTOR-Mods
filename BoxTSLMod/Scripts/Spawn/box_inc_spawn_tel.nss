@@ -305,6 +305,14 @@ void Box_DevaronianCriminal(object oEnemy) {
 	ActionEquipItem(CreateItemOnObject(BOUNTY_HUNTER_SHORT_SWORD, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
 }
 
+void Box_MercenaryGrunt(object oEnemy) {
+	Box_RemoveAllItems(oEnemy);
+	Box_EquipHide(oEnemy, HIDE_TYPE_MERCENARY, ENEMY_STRENGTH_REGULAR);
+	ActionEquipItem(CreateItemOnObject(MERCENARY_RIFLE, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+	ActionEquipItem(CreateItemOnObject(MERCENARY_VIBROBLADE_1, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
+	ActionEquipItem(CreateItemOnObject(MERCENARY_ENERGY_SHIELD_1, oEnemy), INVENTORY_SLOT_RIGHTARM, TRUE);
+}
+
 void Box_MercenaryGruntCarbine(object oEnemy) {
 	Box_RemoveAllItems(oEnemy);
 	Box_EquipHide(oEnemy, HIDE_TYPE_MERCENARY, ENEMY_STRENGTH_REGULAR);

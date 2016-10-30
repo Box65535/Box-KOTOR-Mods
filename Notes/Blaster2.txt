@@ -314,3 +314,127 @@ You could even make it 1d10-1d12 but that's ehhhh maybe
 
 
 
+10/30/2016
+
+So, ranged upgrades:
+
+-Energy Cells
+-Plasma Cells
+-Ion Cells
+-Crit Cells
+-Electric Cells
+-Cold Cells
+
+Energy Cell Mk I
+-Energy +1
+Energy Cell Mk II
+-Energy +2
+Energy Cell Mk II
+-Energy +3
+Energy Cell Mk IV
+-Energy +4
+
+Ion Cell Mk I
+-Ion vs Droid +2
+Ion Cell Mk II
+-Ion vs Droid +4
+Ion Cell Mk III
+-Ion vs Droid +6
+
+Crit Cell Mk I
+-Massive Crit +1d8
+Crit Cell Mk II
+-Massive Crit +1d12
+Crit Cell Mk III
+-Massive Crit +1d16
+
+Plasma Cell Mk I
+-Ion +1
+-Fire +1
+Plasma Cell Mk II
+-Ion +2
+-Fire +2
+
+Cold Cell Mk I
+-Cold +1
+-Paralyze/Droid Stun 25% DC 14
+Cold Cell Mk II
+-Cold +2
+-Paralyze/Droid Stun 25% DC 18
+
+Electric Cell Mk I
+-Electric +1
+-Stun 25% DC 12
+Electric Cell Mk II
+-Electric +2
+-Stun 25% DC 14
+Electric Cell Mk III
+-Electric +3
+-Stun 25% DC 16
+
+
+Now for chambers:
+
+-Widening
+-Concentrating
+-Precision
+-Ionizing
+-Disrupting
+-Stunning
+
+Widening Chamber Mk I
+-Damage -2
+-Attack +1
+Widening Chamber Mk II
+-Damage -2
+-Attack +2
+Widening Chamber Mk III
+-Damage -2
+-Attack +3
+
+Concentrating Chamber Mk I
+-Enhancement Damage +1
+-Attack -1
+Concentrating Chamber Mk II
+-Enhancement Damage +2
+-Attack -1
+Concentrating Chamber Mk III
+-Enhancement Damage +4
+-Attack -1
+
+Precision Chamber Mk I
++1d6 Massive Crit
+-1 Attack
+Precision Chamber Mk II
++1d12 Massive Crit
+-1 Attack
+
+Ionizing Chamber Mk I
+-Damage -2
+-Stun Droid 25% DC 12
+Ionizing Chamber Mk II
+-Damage -2
+-Stun Droid 25% DC 16
+Ionizing Chamber Mk III
+-Damage -2
+-Stun Droid 25% DC 20
+
+Disrupting Chamber Mk I
+-Damage -2
+-Unstoppable +2
+Disrupting Chamber Mk II
+-Damage -2
+-Unstoppable +3
+Disrupting Chamber Mk III
+-Damage -2
+-Unstoppable +4
+
+Stunning Chamber Mk I
+-No Damage
+-Stun 100% DC 12
+Stunning Chamber Mk II
+-No Damage
+-Stun 100% DC 16
+Stunning Chamber Mk III
+-No Damage
+-Stun 100% DC 20

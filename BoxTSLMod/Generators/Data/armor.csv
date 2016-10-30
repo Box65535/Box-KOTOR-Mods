@@ -1,25 +1,40 @@
-tag,type,baseitemcode,cost,name,model,upgradelevel,tagconst,bludgeoningdt,piercingdt,slashingdt,unstoppabledt,universaldt,colddt,lightsidedt,electricaldt,firedt,darksidedt,sonicdt,iondt,energydt
-ha_atton,new,,0,Atton's Ribbed Jacket,,,,0,2,2,0,0,0,0,0,0,0,0,0,0
-ha_mira,new,,0,Mira's Ballistic Mesh Jacket,,,,0,2,2,0,0,0,0,0,0,0,0,0,0
-ha_repub1,new,,,Republic Light Combat Suit,,,,0,2,2,0,0,0,0,0,2,0,0,2,2
-ha_zabrak1,new,,,Zabrak Light Combat Suit,,,,0,2,2,0,0,2,0,0,2,0,0,2,2
-ha_echani1,,,,Echani Light Combat Suit,,,,0,0,0,0,0,0,0,2,2,0,2,2,2
-ha_massas1,,,,Massassi Ceremonial Armor,,,,0,2,2,0,0,0,0,0,2,0,0,2,2
-ha_repub2,,,,Republic Combat Suit,,,,0,4,4,0,0,0,0,0,4,0,0,4,4
-ha_zabrak2,,,,Zabrak Field Suit,,,,0,4,4,0,0,4,0,0,4,0,0,4,4
-ha_mand2,,,,Mandalorian Light Combat Suit,,,,0,5,5,0,0,0,0,3,5,0,0,3,3
-ha_sith2,,,,Sith Combat Suit,,,,0,2,2,0,0,2,0,2,2,0,2,2,2
-ha_power2,,,,Light Power Armor,,,,0,4,4,0,0,0,0,0,4,0,0,4,4
-ha_repub3,,,,Republic Military Suit,,,,0,6,6,0,0,0,0,0,6,0,0,6,6
-ha_sith3,,,,Sith Battle Suit,,,,0,4,4,0,0,4,0,4,4,0,4,4,4
-ha_echani3,,,,Echani Battle Armor,,,,0,0,0,0,0,0,0,7,7,0,7,7,7
-ha_zabrak3,,,,Zabrak Battle Armor,,,,0,6,6,0,0,10,0,0,10,0,0,6,6
-ha_verpin3,,,,Verpine Fiber Mesh,,,,0,4,4,0,0,0,0,8,4,0,4,8,6
-ha_repub4,,,,Republic Battle Armor,,,,0,8,8,0,0,0,0,0,8,0,0,8,8
-ha_mand4,,,,,,,,0,10,10,0,0,0,0,6,10,0,0,6,6
-ha_echani4,,,,,,,,0,2,2,0,0,0,0,10,10,0,10,10,10
-ha_sith4,,,,,,,,0,6,6,0,0,6,0,6,6,0,6,6,6
-ha_gammor4,,,,,,,,12,12,12,0,0,0,0,0,6,0,0,6,6
-ha_power5,,,,,,,,0,10,10,0,0,0,0,10,10,0,10,10,10
-ha_mand5,,,,,,,,0,12,12,0,0,0,0,6,12,0,6,6,6
-ha_matrix5,,,,,,,,0,10,10,0,0,10,0,10,15,0,10,15,15
+tag,baseitemcode,cost,name,model,upgradelevel,tagconst,bludgeoningdt,piercingdt,slashingdt,unstoppabledt,universaldt,colddt,lightsidedt,electricaldt,firedt,darksidedt,sonicdt,iondt,energydt
+ha_atton,,0,Atton's Ribbed Jacket,,,,0,2,2,0,0,0,0,0,0,0,0,0,0
+ha_mira,,0,Mira's Ballistic Mesh Jacket,,,,0,2,2,0,0,0,0,0,0,0,0,0,0
+ha_repub1,,,Republic Light Combat Suit,,,,0,2,2,0,0,0,0,0,2,0,0,2,2
+ha_zabrak1,,,Zabrak Light Combat Suit,,,,0,2,2,0,0,2,0,0,2,0,0,2,2
+ha_echani1,,,Echani Light Combat Suit,,,,0,0,0,0,0,0,0,2,2,0,2,2,2
+ha_massas1,,,Massassi Ceremonial Armor,,,,0,2,2,0,0,0,0,0,2,0,0,2,2
+ha_repub2,,,Republic Combat Suit,,,,0,4,4,0,0,0,0,0,4,0,0,4,4
+ha_zabrak2,,,Zabrak Field Suit,,,,0,4,4,0,0,4,0,0,4,0,0,4,4
+ha_mand2,,,Mandalorian Light Combat Suit,,,,0,5,5,0,0,0,0,3,5,0,0,3,3
+ha_sith2,,,Sith Combat Suit,,,,0,2,2,0,0,2,0,2,2,0,2,2,2
+ha_power2,,,Light Power Armor,,,,0,4,4,0,0,0,0,0,4,0,0,4,4
+ha_repub3,,,Republic Military Suit,,,,0,6,6,0,0,0,0,0,6,0,0,6,6
+ha_sith3,,,Sith Battle Suit,,,,0,4,4,0,0,4,0,4,4,0,4,4,4
+ha_echani3,,,Echani Battle Armor,,,,0,0,0,0,0,0,0,7,7,0,7,7,7
+ha_zabrak3,,,Zabrak Battle Armor,,,,0,6,6,0,0,10,0,0,10,0,0,6,6
+ha_verpin3,,,Verpine Fiber Mesh,,,,0,4,4,0,0,0,0,8,4,0,4,8,6
+ha_repub4,,,Republic Battle Armor,,,,0,8,8,0,0,0,0,0,8,0,0,8,8
+ha_mand4,,,,,,,0,10,10,0,0,0,0,6,10,0,0,6,6
+ha_echani4,,,,,,,0,2,2,0,0,0,0,10,10,0,10,10,10
+ha_sith4,,,,,,,0,6,6,0,0,6,0,6,6,0,6,6,6
+ha_gammor4,,,,,,,12,12,12,0,0,0,0,0,6,0,0,6,6
+ha_power5,,,,,,,0,10,10,0,0,0,0,10,10,0,10,10,10
+ha_mand5,,,,,,,0,12,12,0,0,0,0,6,12,0,6,6,6
+ha_matrix5,,,,,,,0,10,10,0,0,10,0,10,15,0,10,15,15
+da_impact1,,,Impact Armor Mk I,,0,IMPACT_ARMOR_1,3,3,3,0,0,0,0,0,2,0,0,1,1
+da_mod1,,,Modular Plating Mk I,,0,MODULAR_PLATING_1,2,2,2,0,0,2,0,2,2,0,2,2,2
+da_dura1,,,Dura Frame Mk I,,0,DURA_FRAME_1,3,3,3,0,0,0,0,3,3,0,3,3,3
+da_energy1,,,Energized Armor Mk I,,0,ENERGIZED_ARMOR_1,2,2,2,0,0,0,0,2,2,0,0,2,2
+da_agrin1,,,Agrinium Armor,,0,AGRINIUM_ARMOR,1,1,1,0,0,0,0,3,3,0,3,3,3
+da_impact2,,,Impact Armor Mk II,,0,IMPACT_ARMOR_2,4,4,4,0,0,0,0,0,4,0,2,2,2
+da_mod2,,,Modular Plating Mk II,,0,MODULAR_PLATING_2,3,3,3,0,0,3,0,3,3,0,3,3,3
+da_dura2,,,Dura Frame Mk II,,0,DURA_FRAME_2,5,5,5,0,0,0,0,5,5,0,5,5,5
+da_energy2,,,Energized Armor Mk II,,0,ENERGIZED_ARMOR_2,3,3,3,0,0,0,0,3,3,0,0,3,3
+da_quadra2,,,Quadranium Armor,,0,QUADRANIUM_ARMOR,2,2,2,0,0,0,0,4,4,0,4,4,4
+da_impact3,,,Impact Armor Mk III,,0,IMPACT_ARMOR_3,6,6,6,0,0,0,0,0,6,0,2,4,4
+da_mod3,,,Modular Plating Mk III,,0,MODULAR_PLATING_3,4,4,4,0,0,4,0,4,4,0,4,4,4
+da_dura3,,,Dura Frame Mk III,,0,DURA_FRAME_3,7,7,7,0,0,0,0,7,7,0,7,7,7
+da_energy3,,,Energized Armor Mk III,,0,ENERGIZED_ARMOR_3,4,4,4,0,0,0,0,4,4,0,0,4,4
+da_capac3,,,Capacitor Armor,,0,CAPACITOR_ARMOR,4,4,4,0,0,0,0,6,6,0,6,6,6

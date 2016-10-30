@@ -694,6 +694,7 @@ This way we get some but not all underlays on robes without having to bring in f
 
 Alright so where did we leave off with this?
 
+We're still not sure if we can upgrade droid armor, probably not
 
 
 

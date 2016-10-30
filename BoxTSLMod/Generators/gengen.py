@@ -643,8 +643,8 @@ with open('Data\\fuel.csv', 'r') as csvfile:
 		verify_function(incgrenade + incfuelweap, row['functioncall'])
 		verify_function(incvisual, row['visualfunction'])
 		if row['type'] == 'grenade':
-			verify_function(incgrenade, row['functioncall'])
-			verify_function(incvisual, row['visualfunction'])
+			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
+			add_line(scriptgen, row, grenadescript_pattern, '#SCRIPTS')
 		elif row['type'] == 'blast':
 			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
 			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
@@ -805,6 +805,36 @@ with open('Data\\enemyweapons.csv', 'r') as csvfile:
 			add_line(dcs, row, dcheader_pattern, ';HEADERS')
 			add_line(dcs, row, dcini_pattern, ';DCS')
 
+
+# Enemy Spells
+with open('Data\\enemyspells.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+			copy_template('Data\\Templates\\enemyspell.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		if row['baseitem']:
+			add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
+		else:
+			verify_code(baseitems, row['baseitemcode'])
+			add_line(featgen, row, baseitem_pattern, '#ITEMS')
+			add_line(fieldgen, row, field_pattern, '#ITEMS')
+		add_line(featgen, row, featreq_pattern, '#REQS')
+		verify_function(incgrenade + incfuelweap + incenergy, row['functioncall'])
+		verify_function(incvisual, row['visualfunction'])
+		if row['type'] == 'grenade':
+			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
+			add_line(scriptgen, row, grenadescript_pattern, '#SCRIPTS')
+		elif row['type'] == 'blast':
+			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
+			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
+		elif row['type'] == 'beam':
+			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
+			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
+		elif row['type'] == 'wave':
+			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
+			add_line(scriptgen, row, wavescript_pattern, '#SCRIPTS')
+		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
+		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
+		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
 
 # Feats
 with open('Data\\feats.csv', 'r') as csvfile:

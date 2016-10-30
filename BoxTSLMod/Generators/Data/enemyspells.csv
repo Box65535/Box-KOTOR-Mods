@@ -1,0 +1,2 @@
+tag	type	baseitemcode	tagconst	spellcode	spellcr	script	launchsound	projectile	projpath	radius	functioncall	visualfunction
+eq_fraggr1	grenade	BOXI_ENEMY_GRENADE	?	?	3	box_enemyfrag1	****	w_FragGren_001	throw	4	Box_FragGrenade	Box_FragGrenadeExplode

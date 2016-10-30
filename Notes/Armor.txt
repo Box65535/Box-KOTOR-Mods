@@ -696,7 +696,13 @@ Alright so where did we leave off with this?
 
 We're still not sure if we can upgrade droid armor, probably not
 
+With that in mind, I think the droid armors are good
 
+The human armors are mostly good as well, I think there might have been some confusion over some of the exact details as we went to a slightly different "paradigm" for damage
+
+Regardless, the actual DT values are in armor.csv, not here
+
+The upgrades, I think I'm mostly satisfied with them as well actually
 
 
 

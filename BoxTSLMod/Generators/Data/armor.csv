@@ -1,28 +1,28 @@
 tag,baseitemcode,cost,name,model,upgradelevel,tagconst,bludgeoningdt,piercingdt,slashingdt,unstoppabledt,universaldt,colddt,lightsidedt,electricaldt,firedt,darksidedt,sonicdt,iondt,energydt
-ha_atton,,0,Atton's Ribbed Jacket,,,,0,2,2,0,0,0,0,0,0,0,0,0,0
-ha_mira,,0,Mira's Ballistic Mesh Jacket,,,,0,2,2,0,0,0,0,0,0,0,0,0,0
-ha_repub1,,,Republic Light Combat Suit,,,,0,2,2,0,0,0,0,0,2,0,0,2,2
-ha_zabrak1,,,Zabrak Light Combat Suit,,,,0,2,2,0,0,2,0,0,2,0,0,2,2
-ha_echani1,,,Echani Light Combat Suit,,,,0,0,0,0,0,0,0,2,2,0,2,2,2
-ha_massas1,,,Massassi Ceremonial Armor,,,,0,2,2,0,0,0,0,0,2,0,0,2,2
-ha_repub2,,,Republic Combat Suit,,,,0,4,4,0,0,0,0,0,4,0,0,4,4
-ha_zabrak2,,,Zabrak Field Suit,,,,0,4,4,0,0,4,0,0,4,0,0,4,4
-ha_mand2,,,Mandalorian Light Combat Suit,,,,0,5,5,0,0,0,0,3,5,0,0,3,3
-ha_sith2,,,Sith Combat Suit,,,,0,2,2,0,0,2,0,2,2,0,2,2,2
-ha_power2,,,Light Power Armor,,,,0,4,4,0,0,0,0,0,4,0,0,4,4
-ha_repub3,,,Republic Military Suit,,,,0,6,6,0,0,0,0,0,6,0,0,6,6
-ha_sith3,,,Sith Battle Suit,,,,0,4,4,0,0,4,0,4,4,0,4,4,4
-ha_echani3,,,Echani Battle Armor,,,,0,0,0,0,0,0,0,7,7,0,7,7,7
-ha_zabrak3,,,Zabrak Battle Armor,,,,0,6,6,0,0,10,0,0,10,0,0,6,6
-ha_verpin3,,,Verpine Fiber Mesh,,,,0,4,4,0,0,0,0,8,4,0,4,8,6
-ha_repub4,,,Republic Battle Armor,,,,0,8,8,0,0,0,0,0,8,0,0,8,8
-ha_mand4,,,,,,,0,10,10,0,0,0,0,6,10,0,0,6,6
-ha_echani4,,,,,,,0,2,2,0,0,0,0,10,10,0,10,10,10
-ha_sith4,,,,,,,0,6,6,0,0,6,0,6,6,0,6,6,6
-ha_gammor4,,,,,,,12,12,12,0,0,0,0,0,6,0,0,6,6
-ha_power5,,,,,,,0,10,10,0,0,0,0,10,10,0,10,10,10
-ha_mand5,,,,,,,0,12,12,0,0,0,0,6,12,0,6,6,6
-ha_matrix5,,,,,,,0,10,10,0,0,10,0,10,15,0,10,15,15
+ha_atton,,0,Atton's Ribbed Jacket,,,ATTON_RIBBED_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
+ha_mira,,0,Mira's Ballistic Mesh Jacket,,,MIRA_BALLISTIC_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
+ha_repub1,,,Republic Light Combat Suit,,,REPUBLIC_ARMOR_1,0,2,2,0,0,0,0,0,2,0,0,2,2
+ha_zabrak1,,,Zabrak Light Combat Suit,,,ZABRAK_ARMOR_1,0,2,2,0,0,2,0,0,2,0,0,2,2
+ha_echani1,,,Echani Light Combat Suit,,,ECHANI_ARMOR_1,0,0,0,0,0,0,0,2,2,0,2,2,2
+ha_massas1,,,Massassi Ceremonial Armor,,,MASSASSI_ARMOR,0,2,2,0,0,0,0,0,2,0,0,2,2
+ha_repub2,,,Republic Combat Suit,,,REPUBLIC_ARMOR_2,0,4,4,0,0,0,0,0,4,0,0,4,4
+ha_zabrak2,,,Zabrak Field Suit,,,ZABRAK_ARMOR_2,0,4,4,0,0,4,0,0,4,0,0,4,4
+ha_mand2,,,Mandalorian Light Combat Suit,,,MANDALORIAN_ARMOR_2,0,5,5,0,0,0,0,3,5,0,0,3,3
+ha_sith2,,,Sith Combat Suit,,,SITH_ARMOR_2,0,2,2,0,0,2,0,2,2,0,2,2,2
+ha_power2,,,Light Power Armor,,,POWER_ARMOR_2,0,4,4,0,0,0,0,0,4,0,0,4,4
+ha_repub3,,,Republic Military Suit,,,REPUBLIC_ARMOR_3,0,6,6,0,0,0,0,0,6,0,0,6,6
+ha_sith3,,,Sith Battle Suit,,,SITH_ARMOR_3,0,4,4,0,0,4,0,4,4,0,4,4,4
+ha_echani3,,,Echani Battle Armor,,,ECHANI_ARMOR_3,0,0,0,0,0,0,0,7,7,0,7,7,7
+ha_zabrak3,,,Zabrak Battle Armor,,,ZABRAK_ARMOR_3,0,6,6,0,0,10,0,0,10,0,0,6,6
+ha_verpin3,,,Verpine Fiber Mesh,,,VERPINE_ARMOR,0,4,4,0,0,0,0,8,4,0,4,8,6
+ha_repub4,,,Republic Battle Armor,,,REPUBLIC_ARMOR_4,0,8,8,0,0,0,0,0,8,0,0,8,8
+ha_mand4,,,,,,MANDALORIAN_ARMOR_4,0,10,10,0,0,0,0,6,10,0,0,6,6
+ha_echani4,,,,,,ECHANI_ARMOR_4,0,2,2,0,0,0,0,10,10,0,10,10,10
+ha_sith4,,,,,,SITH_ARMOR_4,0,6,6,0,0,6,0,6,6,0,6,6,6
+ha_gammor4,,,,,,GAMMOREAN_ARMOR,12,12,12,0,0,0,0,0,6,0,0,6,6
+ha_power5,,,,,,POWER_ARMOR_5,0,10,10,0,0,0,0,10,10,0,10,10,10
+ha_mand5,,,,,,MANDALORIAN_ARMOR_5,0,12,12,0,0,0,0,6,12,0,6,6,6
+ha_matrix5,,,,,,MATRIX_ARMOR,0,10,10,0,0,10,0,10,15,0,10,15,15
 da_impact1,,,Impact Armor Mk I,,0,IMPACT_ARMOR_1,4,4,4,0,0,0,0,0,2,0,0,0,0
 da_impact2,,,Impact Armor Mk II,,0,IMPACT_ARMOR_2,6,6,6,0,0,0,0,0,4,0,2,2,2
 da_impact3,,,Impact Armor Mk III,,0,IMPACT_ARMOR_3,8,8,8,0,0,0,0,0,6,0,4,4,4

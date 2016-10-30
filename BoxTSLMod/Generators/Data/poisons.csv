@@ -1,0 +1,6 @@
+poisoncode	poisonconst	dc_save	duration	period	dam_hp	dam_fp	dam_str	dam_dex	dam_con	dam_wis	dam_chr	abil_dur
+BOXP_POISON_EDGE_1	POISON_EDGE_1	10	30	10	0	0	4	4	0	0	0	30
+BOXP_POISON_EDGE_2	POISON_EDGE_2	14	30	10	0	0	4	4	0	0	0	30
+BOXP_POISON_EDGE_3	POISON_EDGE_3	18	30	10	0	0	4	4	0	0	0	30
+BOXP_TWILEK_BLADE	POISON_TWILEK											
+BOXP_RODIAN_BLADE	POISON_RODIAN											

@@ -479,5 +479,13 @@ I removed the burning edge and used an ionite edge instead, I'm not sure what wa
 
 
 
-
+Ionite Edge 1
+-Electric +1 vs Human
+-Stun Droid 25% DC 12
+Ionite Edge 2
+-Electric +2 vs Human
+-Stun Droid 25% DC 16
+Ionite Edge 3
+-Electric +3 vs Human
+-Stun Droid 25% DC 20
 

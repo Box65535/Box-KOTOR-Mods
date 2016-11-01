@@ -1,40 +1,52 @@
 tag,baseitemcode,cost,name,model,upgradelevel,tagconst,bludgeoningdt,piercingdt,slashingdt,unstoppabledt,universaldt,colddt,lightsidedt,electricaldt,firedt,darksidedt,sonicdt,iondt,energydt
-ha_atton,,0,Atton's Ribbed Jacket,,,ATTON_RIBBED_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
-ha_mira,,0,Mira's Ballistic Mesh Jacket,,,MIRA_BALLISTIC_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
-ha_repub1,,,Republic Light Combat Suit,,,REPUBLIC_ARMOR_1,0,2,2,0,0,0,0,0,2,0,0,2,2
-ha_zabrak1,,,Zabrak Light Combat Suit,,,ZABRAK_ARMOR_1,0,2,2,0,0,2,0,0,2,0,0,2,2
-ha_echani1,,,Echani Light Combat Suit,,,ECHANI_ARMOR_1,0,0,0,0,0,0,0,2,2,0,2,2,2
-ha_massas1,,,Massassi Ceremonial Armor,,,MASSASSI_ARMOR,0,2,2,0,0,0,0,0,2,0,0,2,2
-ha_repub2,,,Republic Combat Suit,,,REPUBLIC_ARMOR_2,0,4,4,0,0,0,0,0,4,0,0,4,4
-ha_zabrak2,,,Zabrak Field Suit,,,ZABRAK_ARMOR_2,0,4,4,0,0,4,0,0,4,0,0,4,4
-ha_mand2,,,Mandalorian Light Combat Suit,,,MANDALORIAN_ARMOR_2,0,5,5,0,0,0,0,3,5,0,0,3,3
-ha_sith2,,,Sith Combat Suit,,,SITH_ARMOR_2,0,2,2,0,0,2,0,2,2,0,2,2,2
-ha_power2,,,Light Power Armor,,,POWER_ARMOR_2,0,4,4,0,0,0,0,0,4,0,0,4,4
-ha_repub3,,,Republic Military Suit,,,REPUBLIC_ARMOR_3,0,6,6,0,0,0,0,0,6,0,0,6,6
-ha_sith3,,,Sith Battle Suit,,,SITH_ARMOR_3,0,4,4,0,0,4,0,4,4,0,4,4,4
-ha_echani3,,,Echani Battle Armor,,,ECHANI_ARMOR_3,0,0,0,0,0,0,0,7,7,0,7,7,7
-ha_zabrak3,,,Zabrak Battle Armor,,,ZABRAK_ARMOR_3,0,6,6,0,0,10,0,0,10,0,0,6,6
-ha_verpin3,,,Verpine Fiber Mesh,,,VERPINE_ARMOR,0,4,4,0,0,0,0,8,4,0,4,8,6
-ha_repub4,,,Republic Battle Armor,,,REPUBLIC_ARMOR_4,0,8,8,0,0,0,0,0,8,0,0,8,8
-ha_mand4,,,,,,MANDALORIAN_ARMOR_4,0,10,10,0,0,0,0,6,10,0,0,6,6
-ha_echani4,,,,,,ECHANI_ARMOR_4,0,2,2,0,0,0,0,10,10,0,10,10,10
-ha_sith4,,,,,,SITH_ARMOR_4,0,6,6,0,0,6,0,6,6,0,6,6,6
-ha_gammor4,,,,,,GAMMOREAN_ARMOR,12,12,12,0,0,0,0,0,6,0,0,6,6
-ha_power5,,,,,,POWER_ARMOR_5,0,10,10,0,0,0,0,10,10,0,10,10,10
-ha_mand5,,,,,,MANDALORIAN_ARMOR_5,0,12,12,0,0,0,0,6,12,0,6,6,6
-ha_matrix5,,,,,,MATRIX_ARMOR,0,10,10,0,0,10,0,10,15,0,10,15,15
-da_impact1,,,Impact Armor Mk I,,0,IMPACT_ARMOR_1,4,4,4,0,0,0,0,0,2,0,0,0,0
-da_impact2,,,Impact Armor Mk II,,0,IMPACT_ARMOR_2,6,6,6,0,0,0,0,0,4,0,2,2,2
-da_impact3,,,Impact Armor Mk III,,0,IMPACT_ARMOR_3,8,8,8,0,0,0,0,0,6,0,4,4,4
-da_mod1,,,Modular Plating Mk I,,0,MODULAR_PLATING_1,2,2,2,0,0,2,0,2,2,0,2,2,2
-da_mod2,,,Modular Plating Mk II,,0,MODULAR_PLATING_2,4,4,4,0,0,4,0,4,4,0,4,4,4
-da_mod3,,,Modular Plating Mk III,,0,MODULAR_PLATING_3,6,6,6,0,0,6,0,6,6,0,6,6,6
-da_dura1,,,Dura Frame Mk I,,0,DURA_FRAME_1,3,3,3,0,0,0,0,3,3,0,3,3,3
-da_dura2,,,Dura Frame Mk II,,0,DURA_FRAME_2,6,6,6,0,0,0,0,6,6,0,6,6,6
-da_dura3,,,Dura Frame Mk III,,0,DURA_FRAME_3,9,9,9,0,0,0,0,9,9,0,9,9,9
-da_energy1,,,Energized Armor Mk I,,0,ENERGIZED_ARMOR_1,2,2,2,0,0,0,0,2,2,0,0,2,2
-da_energy2,,,Energized Armor Mk II,,0,ENERGIZED_ARMOR_2,4,4,4,0,0,0,0,4,4,0,0,4,4
-da_energy3,,,Energized Armor Mk III,,0,ENERGIZED_ARMOR_3,6,6,6,0,0,0,0,6,6,0,0,6,6
-da_agrin1,,,Agrinium Armor,,0,AGRINIUM_ARMOR,0,0,0,0,0,0,0,4,4,0,4,4,4
-da_quadra2,,,Quadranium Armor,,0,QUADRANIUM_ARMOR,2,2,2,0,0,0,0,6,8,0,6,6,6
-da_capac3,,,Capacitor Armor,,0,CAPACITOR_ARMOR,4,4,4,0,0,0,0,8,8,0,8,8,8
+ha_atton,BOXI_CLOTHING,0,Atton's Ribbed Jacket,,,ATTON_RIBBED_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
+ha_mira,BOXI_CLOTHING,0,Mira's Ballistic Mesh Jacket,,,MIRA_BALLISTIC_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
+ha_repub1,BOXI_ARMOR1,,Republic Light Combat Suit,,,REPUBLIC_ARMOR_1,0,2,2,0,0,0,0,0,2,0,0,2,2
+ha_zabrak1,BOXI_ARMOR1,,Zabrak Light Combat Suit,,,ZABRAK_ARMOR_1,0,2,2,0,0,2,0,0,2,0,0,2,2
+ha_echani1,BOXI_ARMOR1,,Echani Light Combat Suit,,,ECHANI_ARMOR_1,0,0,0,0,0,0,0,2,2,0,2,2,2
+ha_massas1,BOXI_ARMOR1,,Massassi Ceremonial Armor,,,MASSASSI_ARMOR,0,2,2,0,0,0,0,0,2,0,0,2,2
+ha_repub2,BOXI_ARMOR2,,Republic Combat Suit,,,REPUBLIC_ARMOR_2,0,4,4,0,0,0,0,0,4,0,0,4,4
+ha_zabrak2,BOXI_ARMOR2,,Zabrak Field Suit,,,ZABRAK_ARMOR_2,0,4,4,0,0,4,0,0,4,0,0,4,4
+ha_mand2,BOXI_ARMOR2,,Mandalorian Light Combat Suit,,,MANDALORIAN_ARMOR_2,0,5,5,0,0,0,0,3,5,0,0,3,3
+ha_sith2,BOXI_ARMOR2,,Sith Combat Suit,,,SITH_ARMOR_2,0,2,2,0,0,2,0,2,2,0,2,2,2
+ha_power2,BOXI_ARMOR2,,Light Power Armor,,,POWER_ARMOR_2,0,4,4,0,0,0,0,0,4,0,0,4,4
+ha_repub3,BOXI_ARMOR3,,Republic Military Suit,,,REPUBLIC_ARMOR_3,0,6,6,0,0,0,0,0,6,0,0,6,6
+ha_sith3,BOXI_ARMOR3,,Sith Battle Suit,,,SITH_ARMOR_3,0,4,4,0,0,4,0,4,4,0,4,4,4
+ha_echani3,BOXI_ARMOR3,,Echani Battle Armor,,,ECHANI_ARMOR_3,0,0,0,0,0,0,0,7,7,0,7,7,7
+ha_zabrak3,BOXI_ARMOR3,,Zabrak Battle Armor,,,ZABRAK_ARMOR_3,0,6,6,0,0,10,0,0,10,0,0,6,6
+ha_verpin3,BOXI_ARMOR3,,Verpine Fiber Mesh,,,VERPINE_ARMOR,0,4,4,0,0,0,0,8,4,0,4,8,6
+ha_repub4,BOXI_ARMOR4,,Republic Battle Armor,,,REPUBLIC_ARMOR_4,0,8,8,0,0,0,0,0,8,0,0,8,8
+ha_mand4,BOXI_ARMOR4,,,,,MANDALORIAN_ARMOR_4,0,10,10,0,0,0,0,6,10,0,0,6,6
+ha_echani4,BOXI_ARMOR4,,,,,ECHANI_ARMOR_4,0,2,2,0,0,0,0,10,10,0,10,10,10
+ha_sith4,BOXI_ARMOR4,,,,,SITH_ARMOR_4,0,6,6,0,0,6,0,6,6,0,6,6,6
+ha_gammor4,BOXI_ARMOR1,,,,,GAMMOREAN_ARMOR,12,12,12,0,0,0,0,0,6,0,0,6,6
+ha_power5,BOXI_ARMOR5,,,,,POWER_ARMOR_5,0,10,10,0,0,0,0,10,10,0,10,10,10
+ha_mand5,BOXI_ARMOR5,,,,,MANDALORIAN_ARMOR_5,0,12,12,0,0,0,0,6,12,0,6,6,6
+ha_matrix5,BOXI_ARMOR5,,,,,MATRIX_ARMOR,0,10,10,0,0,10,0,10,15,0,10,15,15
+da_impact1,BOXI_DROIDLIGHT1,,Impact Armor Mk I,,0,IMPACT_ARMOR_1,4,4,4,0,0,0,0,0,2,0,0,0,0
+da_impact2,BOXI_DROIDLIGHT2,,Impact Armor Mk II,,0,IMPACT_ARMOR_2,6,6,6,0,0,0,0,0,4,0,2,2,2
+da_impact3,BOXI_DROIDLIGHT3,,Impact Armor Mk III,,0,IMPACT_ARMOR_3,8,8,8,0,0,0,0,0,6,0,4,4,4
+da_mod1,BOXI_DROIDMEDIUM1,,Modular Plating Mk I,,0,MODULAR_PLATING_1,2,2,2,0,0,2,0,2,2,0,2,2,2
+da_mod2,BOXI_DROIDMEDIUM2,,Modular Plating Mk II,,0,MODULAR_PLATING_2,4,4,4,0,0,4,0,4,4,0,4,4,4
+da_mod3,BOXI_DROIDMEDIUM3,,Modular Plating Mk III,,0,MODULAR_PLATING_3,6,6,6,0,0,6,0,6,6,0,6,6,6
+da_dura1,BOXI_DROIDHEAVY1,,Dura Frame Mk I,,0,DURA_FRAME_1,3,3,3,0,0,0,0,3,3,0,3,3,3
+da_dura2,BOXI_DROIDHEAVY2,,Dura Frame Mk II,,0,DURA_FRAME_2,6,6,6,0,0,0,0,6,6,0,6,6,6
+da_dura3,BOXI_DROIDHEAVY3,,Dura Frame Mk III,,0,DURA_FRAME_3,9,9,9,0,0,0,0,9,9,0,9,9,9
+da_energy1,BOXI_DROIDHEAVY1,,Energized Armor Mk I,,0,ENERGIZED_ARMOR_1,2,2,2,0,0,0,0,2,2,0,0,2,2
+da_energy2,BOXI_DROIDHEAVY2,,Energized Armor Mk II,,0,ENERGIZED_ARMOR_2,4,4,4,0,0,0,0,4,4,0,0,4,4
+da_energy3,BOXI_DROIDHEAVY3,,Energized Armor Mk III,,0,ENERGIZED_ARMOR_3,6,6,6,0,0,0,0,6,6,0,0,6,6
+da_agrin1,BOXI_DROIDMEDIUM1,,Agrinium Armor,,0,AGRINIUM_ARMOR,0,0,0,0,0,0,0,4,4,0,4,4,4
+da_quadra2,BOXI_DROIDMEDIUM2,,Quadranium Armor,,0,QUADRANIUM_ARMOR,2,2,2,0,0,0,0,6,8,0,6,6,6
+da_capac3,BOXI_DROIDMEDIUM3,,Capacitor Armor,,0,CAPACITOR_ARMOR,4,4,4,0,0,0,0,8,8,0,8,8,8
+ja_padawa,BOXI_JEDIROBE,,Padawan Robe,,1,PADAWAN_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_jedi,BOXI_JEDIROBE,,Jedi Robe,,1,JEDI_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_knight,BOXI_KNIGHTROBE,,Jedi Knight Robe,,1,KNIGHT_ROBE,0,1,1,0,0,0,0,0,0,0,0,1,1
+ja_dark,BOXI_JEDIROBE,,Dark Jedi Robe,,1,DARK_JEDI_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_master,BOXI_KNIGHTROBE,,Jedi Master Robe,,1,MASTER_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_norris,BOXI_JEDIROBE,,Norris Robe,,0,NORRIS_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_baran,BOXI_JEDIROBE,,Baran Do Robe,,0,BARAN_DO_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_matuka,BOXI_KNIGHTROBE,,Matukai Robe,,0,MATUKAI_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_natth,BOXI_KNIGHTROBE,,Natth Cowling,,0,NATTH_COWLING,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_hand,BOXI_KNIGHTROBE,,Handmaiden's Robe,,0,HANDMAIDEN_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_jal,BOXI_JEDIARMOR,,Jal Shey Armor,,0,JAL_SHEY_ARMOR,0,2,2,0,0,0,0,0,0,0,0,4,4
+ja_zeison,BOXI_JEDIARMOR,,Zeison Sha Armor,,0,ZEISON_SHA_ARMOR,0,4,4,0,0,0,0,0,0,0,0,2,2

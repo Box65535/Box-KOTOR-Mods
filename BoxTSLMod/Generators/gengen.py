@@ -872,7 +872,7 @@ with open('Data\\powers.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	number = 1
 	for row in reader:
-		row['description'] = descriptions[row['name']]
+		row['description'] = descriptions[row['spellcode']]
 		if row['type'] == 'remove':
 			add_line(powergen, row, removepower_pattern, '#REMOVES')
 		elif row['type'] == 'eradicate':

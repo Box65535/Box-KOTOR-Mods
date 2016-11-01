@@ -113,6 +113,15 @@ void Box_BusterRocketBeam(object oUser, object oTarget) {
 	Box_DetonatorGrenadeExplode(GetLocation(oTarget));
 }
 
+//
+void Box_ForceDrainBeam(object oUser, object oTarget) {
+	// TODO
+}
+
+//
+void Box_ForceLightningBeam(object oUser, object oTarget) {
+	// TODO
+}
 
 
 

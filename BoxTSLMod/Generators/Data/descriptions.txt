@@ -1220,9 +1220,6 @@ Cast DC 18
 (Roll Force + d10 against this number)
 
 The Jedi manipulates the air to send an ionic surge through an enemy droid. This power deals (Force)d4 Ion damage to all droid enemies within 6 meters of the target and causes stun for 6 + 0.25(Force) seconds. A successful Fortitude or Will saving throw (Ion type) against 10 + Force reduces the damage to 1/3 and prevents the stun.
-(Roll Force + d10 against this number)
-
-The Jedi manipulates the air to send an ionic surge through an enemy droid. This power deals Force d4 damage to a droid opponent and causes stun for 6 + 0.25*Force seconds. A successful Fortitude or Will saving throw against 10 + Force reduces the damage to 1/3 and prevents the stun.
 EOV
 
 KEY: THROW_SABER

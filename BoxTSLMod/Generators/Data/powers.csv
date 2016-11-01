@@ -96,35 +96,35 @@ FORCE_SPEED,buff,Force Speed,box_forcespeed,,30,0,3,0x1808,P,ip_speedburst,hand,
 FORCE_VALOR,buff,Force Valor,box_forcevalor,,40,0,3,0x1808,P,ip_revital01,hand,self,v_con_light,0,False,0x00,Box_ValorPower,Box_NoVisual,,POWER_TYPE_LIGHT,3,,
 FORCE_FURY,buff,Force Fury,box_forcefury,,40,0,3,0x1808,P,ip_frcscream01,hand,self,v_con_dark,0,False,0x00,Box_FuryPower,Box_NoVisual,,POWER_TYPE_DARK,3,,
 FORCE_SWEEP,attack,Force Sweep,box_forcesweep,,30,5,3,0x1301,M,ip_??,hand,self,****,0,True,0x00,Box_SweepPower,Box_NoBeam,,POWER_TYPE_UNIVERSAL,6,,
-FORCE_QUAKE,aoe,Force Quake,box_forcequake,,60,20,6,0x2302,S,ip_??,up,up,****,1,True,0x00,Box_SweepPower,Box_NoVisual,GetLocation(OBJECT_SELF),POWER_TYPE_UNIVERSAL,15,10,SPELLSHAPE_SPHERE
+FORCE_QUAKE,aoe,Force Quake,box_forcequake,,60,20,6,0x2302,S,ip_??,up,up,****,1,True,0x00,Box_SweepPower,Box_NoVisual,GetLocation(OBJECT_SELF),POWER_TYPE_UNIVERSAL,15,12,SHAPE_SPHERE
 FORCE_IONIZE,attack,Force Ionize,box_forceionize,,30,5,3,0x1301,M,ip_droiddisable,hand,self,****,0,True,0x01,Box_IonizePower,Box_NoBeam,,POWER_TYPE_UNIVERSAL,6,,
-ION_STORM,aoe,Ion Storm,box_ionstorm,,60,20,6,0x2302,S,ip_droiddestroy,up,up,****,1,True,0x01,Box_IonizePower,Box_NoVisual,GetTargetLocation(),POWER_TYPE_UNIVERSAL,15,6,SPELLSHAPE_SPHERE
+ION_STORM,aoe,Ion Storm,box_ionstorm,,60,20,6,0x2302,S,ip_droiddestroy,up,up,****,1,True,0x01,Box_IonizePower,Box_NoVisual,GetTargetLocation(),POWER_TYPE_UNIVERSAL,15,6,SHAPE_SPHERE
 FORCE_SLEEP,attack,Force Sleep,box_forcesleep,,30,5,3,0x1201,M,ip_sleep,hand,self,v_con_light,0,True,0x02,Box_SleepPower,Box_NoBeam,,POWER_TYPE_LIGHT,6,,
-SLEEP_WAVE,aoe,Sleep Wave,box_sleepwave,,60,20,6,0x2201,M,ip_sleep,hand,self,v_con_light,1,True,0x02,Box_SleepPower,Box_NoBeam,GetTargetLocation(),POWER_TYPE_LIGHT,15,,
+SLEEP_WAVE,aoe,Sleep Wave,box_sleepwave,,60,20,6,0x2201,M,ip_sleep,hand,self,v_con_light,1,True,0x02,Box_SleepPower,Box_NoBeam,GetTargetLocation(),POWER_TYPE_LIGHT,15,6,SHAPE_SPHERE
 FORCE_AFFLICT,attack,Force Afflict,box_forceafflict,,30,5,3,0x1101,M,ip_affliction,hand,dark,v_con_dark,0,True,0x02,Box_AfflictPower,Box_NoBeam,,POWER_TYPE_DARK,6,,
 THROW_LIGHTSABER,throw,Throw Lightsaber,box_throwsaber,,35,10,3,0x1101,M,ip_lsthrow,throw,throw,****,0,True,0x00,Box_ThrowLightsaberPower,Box_NoBeam,,POWER_TYPE_UNIVERSAL,9,,
 FORCE_LEVITATE,attack,Force Levitate,box_forcelevitate,,35,10,3,0x1301,M,ip_whirlwind,hand,self,****,0,True,0x00,Box_LevitatePower,Box_NoBeam,,POWER_TYPE_UNIVERSAL,9,,
-LEVITATION_FIELD,aoe,Levitation Field,box_levitationfield,,70,22,6,0x2301,S,ip_whirlwind,up,up,****,1,True,0x00,Box_LevitatePower,Box_NoBeam,GetLocation(OBJECT_SELF),POWER_TYPE_UNIVERSAL,18,,
+LEVITATION_FIELD,aoe,Levitation Field,box_levitationfield,,70,22,6,0x2301,S,ip_whirlwind,up,up,****,1,True,0x00,Box_LevitatePower,Box_NoBeam,GetLocation(OBJECT_SELF),POWER_TYPE_UNIVERSAL,18,12,SHAPE_SPHERE
 FORCE_BODY,buff,Force Body,box_forcebody,,50,10,3,0x1808,P,ip_forcebody01,hand,self,v_con_light,0,False,0x00,Box_BodyPower,Box_NoBeam,,POWER_TYPE_LIGHT,9,,
 FORCE_ENLIGHTENMENT,buff,Force Enlightenment,box_forceenlight,,90,22,9,0x1808,P,ip_forcebody03,hand,self,v_con_light,1,False,0x00,Box_EnlightenPower,Box_NoBeam,,POWER_TYPE_LIGHT,18,,
-FORCE_FEAR,attack,Force Fear,box_forcefear,,35,10,3,0x1201,M,ip_fear,hand,dark,v_con_dark,0,True,0x02,Box_FearPower,Box_NoBeam,,POWER_TYPE_DARK,9,,
+FORCE_FEAR,attack,Force Fear,box_forcefear,,35,10,3,0x1201,M,ip_fear,hand,dark,v_con_dark,0,True,0x02,Box_FearPower,Box_NoBeam,,POWER_TYPE_DARK,9,6,SHAPE_SPHERE
 FORCE_INSANITY,aoe,Force Insanity,box_forceinsanity,,70,22,6,0x2201,M,ip_horror,hand,dark,v_con_dark,1,True,0x02,Box_FearPower,Box_NoBeam,GetTargetLocation(),POWER_TYPE_DARK,20,,
 FORCE_PUSH,attack,Force Push,box_forcepush,,40,15,6,0x1301,M,ip_push,hand,self,v_fpush_cas,0,True,0x00,Box_PushPower,Box_NoBeam,,POWER_TYPE_UNIVERSAL,12,,
-FORCE_WAVE,aoe,Force Wave,box_forcewave,,80,25,9,0x2302,S,ip_wave,up,up,v_fpush_cas,1,True,0x00,Box_PushPower,Box_NoBeam,GetLocation(OBJECT_SELF),POWER_TYPE_UNIVERSAL,20,,
+FORCE_WAVE,aoe,Force Wave,box_forcewave,,80,25,9,0x2302,S,ip_wave,up,up,v_fpush_cas,1,True,0x00,Box_PushPower,Box_NoBeam,GetLocation(OBJECT_SELF),POWER_TYPE_UNIVERSAL,20,12,SHAPE_SPHERE
 FORCE_BLIND,attack,Force Blind,box_forceblind,,40,15,6,0x1101,M,ip_stun,hand,self,****,0,True,0x02,Box_BlindPower,Box_NoBeam,,POWER_TYPE_UNIVERSAL,12,,
 FORCE_SUPPRESS,attack,Force Suppress,box_forcesuppress,,40,15,6,0x1101,M,ip_surpress,hand,self,v_con_light,0,True,0x02,Box_SuppressPower,Box_NoBeam,,POWER_TYPE_LIGHT,12,,
 FORCE_CHOKE,attack,Force Choke,box_forcechoke,,40,15,6,0x1301,M,ip_choke,hand,dark,v_con_dark,0,True,0x02,Box_ChokePower,Box_NoBeam,,POWER_TYPE_DARK,12,,
-FORCE_CRUSH,crush,Force Crush,box_forcecrush,,80,25,9,****,S,ip_forcecrush,hand,crush,v_con_dark,1,True,0x00,Box_CrushPower,Box_NoBeam,GetLocation(OBJECT_SELF),POWER_TYPE_DARK,20,,
+FORCE_CRUSH,crush,Force Crush,box_forcecrush,,80,25,9,****,S,ip_forcecrush,hand,crush,v_con_dark,1,True,0x00,Box_CrushPower,Box_NoBeam,GetLocation(OBJECT_SELF),POWER_TYPE_DARK,20,12,SHAPE_SPHERE
 FORCE_AGILITY,buff,Force Agility,box_forceagility,,70,20,6,0x1808,P,ip_masterspeed,hand,self,****,0,False,0x00,Box_AgilityPower,Box_NoBeam,,POWER_TYPE_UNIVERSAL,15,,
 BATTLE_MEDITATION,teambuff,Battle Meditation,box_battlemeditation,,90,20,6,0x1808,T,ip_battlemed01,hand,self,****,0,False,0x00,Box_MeditationPower,Box_NoBeam,,POWER_TYPE_UNIVERSAL,15,,
 MASTER_MEDITATION,teambuff,Master Battle Meditation,box_mastermeditation,,150,27,9,0x1808,T,ip_battlemed03,hand,self,****,1,False,0x00,Box_MasterMeditationPower,Box_NoBeam,,POWER_TYPE_UNIVERSAL,22,,
 FORCE_PARALYSIS,attack,Force Paralysis,box_forceparalysis,,45,20,6,0x1201,M,ip_hold,hand,self,v_con_light,0,True,0x02,Box_ParalysisPower,Box_NoBeam,,POWER_TYPE_LIGHT,15,,
-PARALYSIS_WAVE,aoe,Paralysis Wave,box_paralysiswave,,90,27,9,0x2201,M,ip_hold,hand,self,v_con_light,1,True,0x02,Box_ParalysisPower,Box_NoBeam,GetTargetLocation(),POWER_TYPE_LIGHT,22,,
+PARALYSIS_WAVE,aoe,Paralysis Wave,box_paralysiswave,,90,27,9,0x2201,M,ip_hold,hand,self,v_con_light,1,True,0x02,Box_ParalysisPower,Box_NoBeam,GetTargetLocation(),POWER_TYPE_LIGHT,22,6,SHAPE_SPHERE
 FORCE_DRAIN,attack,Force Drain,box_forcedrain,,45,20,6,0x1501,M,ip_drainforce01,hand,dark,v_con_dark,0,True,0x02,Box_DrainPower,,,POWER_TYPE_DARK,15,,
-DEATH_FIELD,aoe,Death Field,box_deathfield,,90,27,9,0x2101,S,ip_drainforce03,up,up,v_con_dark,1,True,0x02,Box_DrainPower,,GetLocation(OBJECT_SELF),POWER_TYPE_DARK,22,,
+DEATH_FIELD,aoe,Death Field,box_deathfield,,90,27,9,0x2101,S,ip_drainforce03,up,up,v_con_dark,1,True,0x02,Box_DrainPower,,GetLocation(OBJECT_SELF),POWER_TYPE_DARK,22,12,SHAPE_SPHERE
 FORCE_CONFUSION,attack,Force Confusion,box_forceconfusion,,50,22,9,0x1201,M,ip_mindtrick,hand,self,****,0,True,0x02,Box_ConfusionPower,Box_NoBeam,,POWER_TYPE_UNIVERSAL,18,,
-MASS_CONFUSION,aoe,Mass Confusion,box_massconfusion,,100,30,9,0x2201,S,ip_confusion,up,up,****,1,True,0x02,Box_MassConfusionPower,Box_NoBeam,GetLocation(OBJECT_SELF),POWER_TYPE_UNIVERSAL,24,,
+MASS_CONFUSION,aoe,Mass Confusion,box_massconfusion,,100,30,9,0x2201,S,ip_confusion,up,up,****,1,True,0x02,Box_MassConfusionPower,Box_NoBeam,GetLocation(OBJECT_SELF),POWER_TYPE_UNIVERSAL,24,15,SHAPE_SPHERE
 FORCE_LIGHT,attack,Force Light,box_forcelight,,50,22,9,0x1201,M,ip_frcenlighten,hand,self,v_con_light,0,True,0x02,Box_LightPower,Box_NoBeam,,POWER_TYPE_LIGHT,18,,
-WALL_OF_LIGHT,aoe,Wall of Light,box_walloflight,,100,30,9,0x2201,S,ip_frcenlighten,up,up,v_con_light,1,True,0x02,Box_LightPower,Box_NoBeam,GetLocation(OBJECT_SELF),POWER_TYPE_LIGHT,24,,
+WALL_OF_LIGHT,aoe,Wall of Light,box_walloflight,,100,30,9,0x2201,S,ip_frcenlighten,up,up,v_con_light,1,True,0x02,Box_LightPower,Box_NoBeam,GetLocation(OBJECT_SELF),POWER_TYPE_LIGHT,24,15,SHAPE_SPHERE
 FORCE_LIGHTNING,attack,Force Lightning,box_forcelightning,,50,22,9,0x8101,M,ip_lightning,hand,dark,v_con_dark,0,True,0x00,Box_LightningPower,,,POWER_TYPE_DARK,18,,
-FORCE_STORM,aoe,Force Storm,box_forcestorm,,100,30,9,0x2111,S,ip_storm,up,up,v_con_dark,1,True,0x00,Box_LightningPower,,GetLocation(OBJECT_SELF),POWER_TYPE_DARK,24,,
+FORCE_STORM,aoe,Force Storm,box_forcestorm,,100,30,9,0x2111,S,ip_storm,up,up,v_con_dark,1,True,0x00,Box_LightningPower,,GetLocation(OBJECT_SELF),POWER_TYPE_DARK,24,15,SHAPE_SPHERE

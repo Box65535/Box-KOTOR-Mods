@@ -1,144 +1,144 @@
 tag,type,cost,name,model,upgradelevel,tagconst,poisoncode,dc,skill,skillreq,levelreq,craftgroup
-ua_ablat1,,900,Ablative Plating Mk I,,3,ARMOR_UPGRADE_ABLATIVE_1,,,science,,0,armor_group
-ua_ablat2,,,Ablative Plating Mk II,,4,ARMOR_UPGRADE_ABLATIVE_2,,,science,,0,armor_group
-ua_ablat3,,,Ablative Plating Mk III,,5,ARMOR_UPGRADE_ABLATIVE_3,,,science,,0,armor_group
-ua_ballis1,,,Ballistic Shielding Mk I,,2,ARMOR_UPGRADE_BALLISTIC_1,,,repair,,0,armor_group
-ua_ballis2,,,Ballistic Shielding Mk III,,3,ARMOR_UPGRADE_BALLISTIC_2,,,repair,,0,armor_group
-ua_ballis3,,,Ballistic Shielding Mk III,,4,ARMOR_UPGRADE_BALLISTIC_3,,,repair,,0,armor_group
-ua_ballis4,,,Ballistic Shielding Mk IV,,5,ARMOR_UPGRADE_BALLISTIC_4,,,repair,,0,armor_group
-ua_energy1,,,Energy Shielding Mk I,,2,ARMOR_UPGRADE_ENERGY_1,,,science,,0,armor_group
-ua_energy2,,,Energy Shielding Mk III,,3,ARMOR_UPGRADE_ENERGY_2,,,science,,0,armor_group
-ua_energy3,,,Energy Shielding Mk III,,4,ARMOR_UPGRADE_ENERGY_3,,,science,,0,armor_group
-ua_energy4,,,Energy Shielding Mk IV,,5,ARMOR_UPGRADE_ENERGY_4,,,science,,0,armor_group
-ua_heat1,,,Heat Shielding Mk I,,2,ARMOR_UPGRADE_HEAT_1,,,science,,0,armor_group
-ua_heat2,,,Heat Shielding Mk II,,3,ARMOR_UPGRADE_HEAT_2,,,science,,0,armor_group
-ua_heat3,,,Heat Shielding Mk III,,4,ARMOR_UPGRADE_HEAT_3,,,science,,0,armor_group
-ua_heat4,,,Heat Shielding Mk IV,,5,ARMOR_UPGRADE_HEAT_4,,,science,,0,armor_group
-ua_radian1,,,Radiant Shielding Mk I,,2,ARMOR_UPGRADE_RADIANT_1,,,science,,0,armor_group
-ua_radian2,,,Radiant Shielding Mk II,,3,ARMOR_UPGRADE_RADIANT_2,,,science,,0,armor_group
-ua_radian3,,,Radiant Shielding Mk III,,4,ARMOR_UPGRADE_RADIANT_3,,,science,,0,armor_group
-ua_radian4,,,Radiant Shielding Mk IV,,5,ARMOR_UPGRADE_RADIANT_4,,,science,,0,armor_group
-ua_steal1,,,Stealth Coating Mk I,,2,ARMOR_UPGRADE_STEALTH_1,,,science,,0,armor_group
-ua_steal2,,,Stealth Coating Mk II,,3,ARMOR_UPGRADE_STEALTH_2,,,science,,0,armor_group
-ua_steal3,,,Stealth Coating Mk III,,4,ARMOR_UPGRADE_STEALTH_3,,,science,,0,armor_group
-ua_steal4,,,Stealth Coating Mk IV,,5,ARMOR_UPGRADE_STEALTH_4,,,science,,0,armor_group
-ua_biores1,,,Biorestorative Underlay Mk I,,4,ARMOR_UPGRADE_BIORESTORATIVE_1,,,medicine,,0,armor_group
-ua_biores2,,,Biorestorative Underlay Mk II,,5,ARMOR_UPGRADE_BIORESTORATIVE_2,,,medicine,,0,armor_group
-ua_envir1,,,Environmental Underlay Mk I,,1,ARMOR_UPGRADE_ENVIRONMENT_1,,,science,,0,armor_group
-ua_envir2,,,Environmental Underlay Mk II,,2,ARMOR_UPGRADE_ENVIRONMENT_2,,,science,,0,armor_group
-ua_mental1,,,Nerve-Enhancing Underlay Mk I,,2,ARMOR_UPGRADE_MIND_PROTECT_1,,,science,,0,armor_group
-ua_mental2,,,Nerve-Enhancing Underlay Mk III,,3,ARMOR_UPGRADE_MIND_PROTECT_2,,,science,,0,armor_group
-ua_mental3,,,Nerve-Enhancing Underlay Mk III,,4,ARMOR_UPGRADE_MIND_PROTECT_3,,,science,,0,armor_group
-ua_med1,,,Medical Underlay Mk I,,1,ARMOR_UPGRADE_MEDICAL_1,,,medicine,,0,armor_group
-ua_med2,,,Medical Underlay Mk III,,2,ARMOR_UPGRADE_MEDICAL_2,,,medicine,,0,armor_group
-ua_med3,,,Medical Underlay Mk III,,3,ARMOR_UPGRADE_MEDICAL_3,,,medicine,,0,armor_group
-ua_med4,,,Medical Underlay Mk IV,,4,ARMOR_UPGRADE_MEDICAL_4,,,medicine,,0,armor_group
-ua_flex1,,,Flexible Underlay Mk I,,2,ARMOR_UPGRADE_FLEX_1,,,repair,,0,armor_group
-ua_flex2,,,Flexible Underlay Mk III,,3,ARMOR_UPGRADE_FLEX_2,,,repair,,0,armor_group
-ua_flex3,,,Flexible Underlay Mk III,,4,ARMOR_UPGRADE_FLEX_3,,,repair,,0,armor_group
-ua_stren1,,,Strengthening Underlay Mk I,,3,ARMOR_UPGRADE_STRENGTHENING_1,,,science,,0,armor_group
-ua_stren2,,,Strengthening Underlay Mk II,,4,ARMOR_UPGRADE_STRENGTHENING_2,,,science,,0,armor_group
-ua_stren3,,,Strengthening Underlay Mk II,,5,ARMOR_UPGRADE_STRENGTHENING_3,,,science,,0,armor_group
-ua_prot1,,,Protecting Underlay Mk I,,3,ARMOR_UPGRADE_PROTECTING_1,,,science,,0,armor_group
-ua_prot2,,,Protecting Underlay Mk II,,4,ARMOR_UPGRADE_PROTECTING_2,,,science,,0,armor_group
-um_metal1,,,Basic Neutronium Edge,,2,MELEE_UPGRAGE_METAL_1,,,repair,,0,melee_group
-um_metal2,,,Improved Neutronium Edge,,2,MELEE_UPGRAGE_METAL_2,,,repair,,0,melee_group
-um_metal3,,,Superior Neutronium Edge,,2,MELEE_UPGRAGE_METAL_3,,,repair,,0,melee_group
-um_metal4,,,Deadly Neutronium Edge,,2,MELEE_UPGRAGE_METAL_4,,,repair,,0,melee_group
-um_metal5,,,Quadranium Edge,,2,MELEE_UPGRAGE_METAL_5,,,repair,,0,melee_group
-um_poison1,,,Mild Devaronian Edge,,2,MELEE_UPGRADE_POISON_1,BOXP_POISON_EDGE_1,,medicine,,0,melee_group
-um_poison2,,,Moderate Devaronian Edge,,2,MELEE_UPGRADE_POISON_2,BOXP_POISON_EDGE_2,,medicine,,0,melee_group
-um_poison3,,,Severe Devaronian Edge,,2,MELEE_UPGRADE_POISON_3,BOXP_POISON_EDGE_3,,medicine,,0,melee_group
-um_para1,,,Mild Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_1,,12,medicine,,0,melee_group
-um_para2,,,Moderate Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_2,,16,medicine,,0,melee_group
-um_para3,,,Severe Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_3,,20,medicine,,0,melee_group
-um_crit1,,,Basic Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_1,,,science,,0,melee_group
-um_crit2,,,Improved Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_2,,,science,,0,melee_group
-um_crit3,,,Superior Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_3,,,science,,0,melee_group
-um_crit4,,,Deadly Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_4,,,science,,0,melee_group
-um_ionite1,,,Basic Ionite Edge,,2,MELEE_UPGRADE_IONITE_1,,12,science,,0,melee_group
-um_ionite2,,,Improved Ionite Edge,,2,MELEE_UPGRADE_IONITE_2,,16,science,,0,melee_group
-um_ionite3,,,Superior Ionite Edge,,2,MELEE_UPGRADE_IONITE_3,,20,science,,0,melee_group
-um_chill1,,,Ostrine Edge,,2,MELEE_UPGRADE_CHILLING_1,,,science,,0,melee_group
-um_chill2,,,Superior Ostrine Edge,,2,MELEE_UPGRADE_CHILLING_2,,,science,,0,melee_group
-um_burn1,,,Burning Edge,,2,MELEE_UPGRADE_BURNING_1,,12,science,,0,melee_group
-um_burn2,,,Superior Burning Edge,,2,MELEE_UPGRADE_BURNING_2,,16,science,,0,melee_group
-um_aggro1,,,Basic Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_1,,,repair,,0,melee_group
-um_aggro2,,,Improved Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_2,,,repair,,0,melee_group
-um_aggro3,,,Superior Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_3,,,repair,,0,melee_group
-um_passiv1,,,Basic Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_1,,,repair,,0,melee_group
-um_passiv2,,,Improved Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_2,,,repair,,0,melee_group
-um_passiv3,,,Superior Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_3,,,repair,,0,melee_group
-um_defend1,,,Basic Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_1,,,repair,,0,melee_group
-um_defend2,,,Improved Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_2,,,repair,,0,melee_group
-um_defend3,,,Superior Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_3,,,repair,,0,melee_group
-um_power1,,,Basic Zabrak Grip,,1,MELEE_UPGRADE_POWER_1,,,repair,,0,melee_group
-um_power2,,,Improved Zabrak Grip,,1,MELEE_UPGRADE_POWER_2,,,repair,,0,melee_group
-um_balanc1,,,Basic Nagai Grip,,1,MELEE_UPGRADE_BALANCED_1,,,repair,,0,melee_group
-um_balanc2,,,Alternate Nagai Grip,,1,MELEE_UPGRADE_BALANCED_2,,,repair,,0,melee_group
-um_balanc3,,,Superior Nagai Grip,,1,MELEE_UPGRADE_BALANCED_3,,,repair,,0,melee_group
-um_energy,,,Enhanced Energy Cell,,3,MELEE_UPGRADE_ENERGY,,,science,,0,melee_group
-um_elec,,,Telgorn Jolt Cell,,3,MELEE_UPGRADE_ELECTRIC,,,science,,0,melee_group
-um_ion,,,Ion Cell,,3,MELEE_UPGRADE_ION,,,science,,0,melee_group
-um_plasma,,,Plasma Cell,,3,MELEE_UPGRADE_PLASMA,,,science,,0,melee_group
-um_vibro,,,Vibration Cell,,3,MELEE_UPGRADE_VIBRO,,,science,,0,melee_group
-um_sonic,,,Sonic Discharge Cell,,3,MELEE_UPGRADE_SONIC,,,science,,0,melee_group
-ur_scope1,,,Accuracy Scope Mk I,,1,RANGED_UPGRADE_SCOPE_1,,,repair,,0,ranged_group
-ur_scope2,,,Accuracy Scope Mk II,,1,RANGED_UPGRADE_SCOPE_2,,,repair,,0,ranged_group
-ur_keen,,,Targeting Scope,,1,RANGED_UPGRADE_KEEN_SCOPE,,,repair,,0,ranged_group
-ur_energy1,,,Rylith Cell Mk I,,3,RANGED_UPGRADE_ENERGY_1,,,science,,0,ranged_group
-ur_energy2,,,Rylith Cell Mk II,,3,RANGED_UPGRADE_ENERGY_2,,,science,,0,ranged_group
-ur_energy3,,,Rylith Cell Mk III,,3,RANGED_UPGRADE_ENERGY_3,,,science,,0,ranged_group
-ur_energy4,,,Rylith Cell Mk IV,,3,RANGED_UPGRADE_ENERGY_4,,,science,,0,ranged_group
-ur_ion1,,,Ion Cell Mk I,,3,RANGED_UPGRADE_ION_1,,,science,,0,ranged_group
-ur_ion2,,,Ion Cell Mk II,,3,RANGED_UPGRADE_ION_2,,,science,,0,ranged_group
-ur_ion3,,,Ion Cell Mk III,,3,RANGED_UPGRADE_ION_3,,,science,,0,ranged_group
-ur_crit1,,,Power Pulsator Mk I,,3,RANGED_UPGRADE_CRIT_1,,,science,,0,ranged_group
-ur_crit2,,,Power Pulsator Mk II,,3,RANGED_UPGRADE_CRIT_2,,,science,,0,ranged_group
-ur_crit3,,,Power Pulsator Mk III,,3,RANGED_UPGRADE_CRIT_3,,,science,,0,ranged_group
-ur_plasma1,,,Plasma Cell Mk I,,3,RANGED_UPGRADE_PLASMA_1,,,science,,0,ranged_group
-ur_plasma2,,,Plasma Cell Mk II,,3,RANGED_UPGRADE_PLASMA_2,,,science,,0,ranged_group
-ur_cold1,,,Carbonite Cell Mk I,,3,RANGED_UPGRADE_COLD_1,,14,science,,0,ranged_group
-ur_cold2,,,Carbonite Cell Mk II,,3,RANGED_UPGRADE_COLD_2,,18,science,,0,ranged_group
-ur_elec1,,,Electric Cell Mk I,,3,RANGED_UPGRADE_ELECTRIC_1,,10,science,,0,ranged_group
-ur_elec2,,,Electric Cell Mk III,,3,RANGED_UPGRADE_ELECTRIC_2,,14,science,,0,ranged_group
-ur_elec3,,,Electric Cell Mk III,,3,RANGED_UPGRADE_ELECTRIC_3,,18,science,,0,ranged_group
-ur_wide1,,,Broadening Chamber Mk I,,2,RANGED_UPGRADE_WIDENING_1,,,science,,0,ranged_group
-ur_wide2,,,Broadening Chamber Mk II,,2,RANGED_UPGRADE_WIDENING_2,,,science,,0,ranged_group
-ur_wide3,,,Broadening Chamber Mk III,,2,RANGED_UPGRADE_WIDENING_3,,,science,,0,ranged_group
-ur_conc1,,,Concentrating Chamber Mk I,,2,RANGED_UPGRADE_CONCENTRATING_1,,,science,,0,ranged_group
-ur_conc2,,,Concentrating Chamber Mk II,,2,RANGED_UPGRADE_CONCENTRATING_2,,,science,,0,ranged_group
-ur_conc3,,,Concentrating Chamber Mk III,,2,RANGED_UPGRADE_CONCENTRATING_3,,,science,,0,ranged_group
-ur_precis1,,,Precision Chamber Mk I,,2,RANGED_UPGRADE_PRECISION_1,,,science,,0,ranged_group
-ur_precis2,,,Precision Chamber Mk II,,2,RANGED_UPGRADE_PRECISION_2,,,science,,0,ranged_group
-ur_ionize1,,,Ionizing Chamber Mk I,,2,RANGED_UPGRADE_IONIZING_1,,,science,,0,ranged_group
-ur_ionize2,,,Ionizing Chamber Mk II,,2,RANGED_UPGRADE_IONIZING_2,,,science,,0,ranged_group
-ur_ionize3,,,Ionizing Chamber Mk III,,2,RANGED_UPGRADE_IONIZING_3,,,science,,0,ranged_group
-ur_disrup1,,,Mandalorian Chamber Mk I,,2,RANGED_UPGRADE_DISRUPTING_1,,,science,,0,ranged_group
-ur_disrup2,,,Mandalorian Chamber Mk II,,2,RANGED_UPGRADE_DISRUPTING_2,,,science,,0,ranged_group
-ur_disrup3,,,Mandalorian Chamber Mk III,,2,RANGED_UPGRADE_DISRUPTING_3,,,science,,0,ranged_group
-ur_stun1,,,Stun Chamber Mk I,,2,RANGED_UPGRADE_STUNNING_1,,12,science,,0,ranged_group
-ur_stun2,,,Stun Chamber Mk II,,2,RANGED_UPGRADE_STUNNING_2,,16,science,,0,ranged_group
-ur_stun3,,,Stun Chamber Mk III,,2,RANGED_UPGRADE_STUNNING_3,,20,science,,0,ranged_group
-ul_wide1,,,Widening Lens,,1,SABER_UPGRADE_WIDENING_1,,,science,,0,saber_group
-ul_wide2,,,Enhanced Widening Lens,,1,SABER_UPGRADE_WIDENING_2,,,science,,0,saber_group
-ul_kunda1,,,Kunda Lens,,1,SABER_UPGRADE_KUNDA_1,,,science,,0,saber_group
-ul_kunda2,,,Enhanced Kunda Lens,,1,SABER_UPGRADE_KUNDA_2,,,science,,0,saber_group
-ul_vibro1,,,Vibration Lens,,1,SABER_UPGRADE_VIBRATION_1,,,science,,0,saber_group
-ul_vibro2,,,Enhanced Vibration Lens,,1,SABER_UPGRADE_VIBRATION_2,,,science,,0,saber_group
-ul_sharp,,,? Lens,,1,SABER_UPGRADE_SHARP,,,science,,0,saber_group
-ul_deflec1,,,Deflection Emitter,,1,SABER_UPGRADE_DEFLECT_1,,,science,,0,saber_group
-ul_deflec2,,,Enhanced Deflection Emitter,,1,SABER_UPGRADE_DEFLECT_2,,,science,,0,saber_group
-ul_fencin,,,Fencing Emitter,,1,SABER_UPGRADE_FENCING,,,science,,0,saber_group
-ul_disrup1,,,Disruption Emitter,,1,SABER_UPGRADE_DISRUPTING_1,,,science,,0,saber_group
-ul_disrup2,,,Enhancing Disruption Emitter,,1,SABER_UPGRADE_DISRUPTING_2,,,science,,0,saber_group
-ul_phob,,,Phobium Emitter,,1,SABER_UPGRADE_PHOBIUM,,,science,,0,saber_group
-ul_energy,,,Energy Cell,,1,SABER_UPGRADE_ENERGY,,,science,,0,saber_group
-ul_elec,,,Telgorn Jolt Cell,,1,SABER_UPGRADE_ELECTRIC,,,science,,0,saber_group
-ul_cold,,,Cold Cell,,1,SABER_UPGRADE_COLD,,,science,,0,saber_group
-ul_fire,,,Fire Cell,,1,SABER_UPGRADE_FIRE,,,science,,0,saber_group
-ul_ion,,,Ion Cell,,1,SABER_UPGRADE_ION,,,science,,0,saber_group
-ul_vibro,,,Vibration Cell,,1,SABER_UPGRADE_VIBRO,,,science,,0,saber_group
+ua_ablat1,armor,900,Ablative Plating Mk I,,3,ARMOR_UPGRADE_ABLATIVE_1,,,science,,0,armor_group
+ua_ablat2,armor,,Ablative Plating Mk II,,4,ARMOR_UPGRADE_ABLATIVE_2,,,science,,0,armor_group
+ua_ablat3,armor,,Ablative Plating Mk III,,5,ARMOR_UPGRADE_ABLATIVE_3,,,science,,0,armor_group
+ua_ballis1,armor,,Ballistic Shielding Mk I,,2,ARMOR_UPGRADE_BALLISTIC_1,,,repair,,0,armor_group
+ua_ballis2,armor,,Ballistic Shielding Mk III,,3,ARMOR_UPGRADE_BALLISTIC_2,,,repair,,0,armor_group
+ua_ballis3,armor,,Ballistic Shielding Mk III,,4,ARMOR_UPGRADE_BALLISTIC_3,,,repair,,0,armor_group
+ua_ballis4,armor,,Ballistic Shielding Mk IV,,5,ARMOR_UPGRADE_BALLISTIC_4,,,repair,,0,armor_group
+ua_energy1,armor,,Energy Shielding Mk I,,2,ARMOR_UPGRADE_ENERGY_1,,,science,,0,armor_group
+ua_energy2,armor,,Energy Shielding Mk III,,3,ARMOR_UPGRADE_ENERGY_2,,,science,,0,armor_group
+ua_energy3,armor,,Energy Shielding Mk III,,4,ARMOR_UPGRADE_ENERGY_3,,,science,,0,armor_group
+ua_energy4,armor,,Energy Shielding Mk IV,,5,ARMOR_UPGRADE_ENERGY_4,,,science,,0,armor_group
+ua_heat1,armor,,Heat Shielding Mk I,,2,ARMOR_UPGRADE_HEAT_1,,,science,,0,armor_group
+ua_heat2,armor,,Heat Shielding Mk II,,3,ARMOR_UPGRADE_HEAT_2,,,science,,0,armor_group
+ua_heat3,armor,,Heat Shielding Mk III,,4,ARMOR_UPGRADE_HEAT_3,,,science,,0,armor_group
+ua_heat4,armor,,Heat Shielding Mk IV,,5,ARMOR_UPGRADE_HEAT_4,,,science,,0,armor_group
+ua_radian1,armor,,Radiant Shielding Mk I,,2,ARMOR_UPGRADE_RADIANT_1,,,science,,0,armor_group
+ua_radian2,armor,,Radiant Shielding Mk II,,3,ARMOR_UPGRADE_RADIANT_2,,,science,,0,armor_group
+ua_radian3,armor,,Radiant Shielding Mk III,,4,ARMOR_UPGRADE_RADIANT_3,,,science,,0,armor_group
+ua_radian4,armor,,Radiant Shielding Mk IV,,5,ARMOR_UPGRADE_RADIANT_4,,,science,,0,armor_group
+ua_steal1,armor,,Stealth Coating Mk I,,2,ARMOR_UPGRADE_STEALTH_1,,,science,,0,armor_group
+ua_steal2,armor,,Stealth Coating Mk II,,3,ARMOR_UPGRADE_STEALTH_2,,,science,,0,armor_group
+ua_steal3,armor,,Stealth Coating Mk III,,4,ARMOR_UPGRADE_STEALTH_3,,,science,,0,armor_group
+ua_steal4,armor,,Stealth Coating Mk IV,,5,ARMOR_UPGRADE_STEALTH_4,,,science,,0,armor_group
+ua_biores1,armor,,Biorestorative Underlay Mk I,,4,ARMOR_UPGRADE_BIORESTORATIVE_1,,,medicine,,0,armor_group
+ua_biores2,armor,,Biorestorative Underlay Mk II,,5,ARMOR_UPGRADE_BIORESTORATIVE_2,,,medicine,,0,armor_group
+ua_envir1,armor,,Environmental Underlay Mk I,,1,ARMOR_UPGRADE_ENVIRONMENT_1,,,science,,0,armor_group
+ua_envir2,armor,,Environmental Underlay Mk II,,2,ARMOR_UPGRADE_ENVIRONMENT_2,,,science,,0,armor_group
+ua_mental1,armor,,Nerve-Enhancing Underlay Mk I,,2,ARMOR_UPGRADE_MIND_PROTECT_1,,,science,,0,armor_group
+ua_mental2,armor,,Nerve-Enhancing Underlay Mk III,,3,ARMOR_UPGRADE_MIND_PROTECT_2,,,science,,0,armor_group
+ua_mental3,armor,,Nerve-Enhancing Underlay Mk III,,4,ARMOR_UPGRADE_MIND_PROTECT_3,,,science,,0,armor_group
+ua_med1,armor,,Medical Underlay Mk I,,1,ARMOR_UPGRADE_MEDICAL_1,,,medicine,,0,armor_group
+ua_med2,armor,,Medical Underlay Mk III,,2,ARMOR_UPGRADE_MEDICAL_2,,,medicine,,0,armor_group
+ua_med3,armor,,Medical Underlay Mk III,,3,ARMOR_UPGRADE_MEDICAL_3,,,medicine,,0,armor_group
+ua_med4,armor,,Medical Underlay Mk IV,,4,ARMOR_UPGRADE_MEDICAL_4,,,medicine,,0,armor_group
+ua_flex1,armor,,Flexible Underlay Mk I,,2,ARMOR_UPGRADE_FLEX_1,,,repair,,0,armor_group
+ua_flex2,armor,,Flexible Underlay Mk III,,3,ARMOR_UPGRADE_FLEX_2,,,repair,,0,armor_group
+ua_flex3,armor,,Flexible Underlay Mk III,,4,ARMOR_UPGRADE_FLEX_3,,,repair,,0,armor_group
+ua_stren1,armor,,Strengthening Underlay Mk I,,3,ARMOR_UPGRADE_STRENGTHENING_1,,,science,,0,armor_group
+ua_stren2,armor,,Strengthening Underlay Mk II,,4,ARMOR_UPGRADE_STRENGTHENING_2,,,science,,0,armor_group
+ua_stren3,armor,,Strengthening Underlay Mk II,,5,ARMOR_UPGRADE_STRENGTHENING_3,,,science,,0,armor_group
+ua_prot1,armor,,Protecting Underlay Mk I,,3,ARMOR_UPGRADE_PROTECTING_1,,,science,,0,armor_group
+ua_prot2,armor,,Protecting Underlay Mk II,,4,ARMOR_UPGRADE_PROTECTING_2,,,science,,0,armor_group
+um_metal1,melee,,Basic Neutronium Edge,,2,MELEE_UPGRAGE_METAL_1,,,repair,,0,melee_group
+um_metal2,melee,,Improved Neutronium Edge,,2,MELEE_UPGRAGE_METAL_2,,,repair,,0,melee_group
+um_metal3,melee,,Superior Neutronium Edge,,2,MELEE_UPGRAGE_METAL_3,,,repair,,0,melee_group
+um_metal4,melee,,Deadly Neutronium Edge,,2,MELEE_UPGRAGE_METAL_4,,,repair,,0,melee_group
+um_metal5,melee,,Quadranium Edge,,2,MELEE_UPGRAGE_METAL_5,,,repair,,0,melee_group
+um_poison1,melee,,Mild Devaronian Edge,,2,MELEE_UPGRADE_POISON_1,BOXP_POISON_EDGE_1,,medicine,,0,melee_group
+um_poison2,melee,,Moderate Devaronian Edge,,2,MELEE_UPGRADE_POISON_2,BOXP_POISON_EDGE_2,,medicine,,0,melee_group
+um_poison3,melee,,Severe Devaronian Edge,,2,MELEE_UPGRADE_POISON_3,BOXP_POISON_EDGE_3,,medicine,,0,melee_group
+um_para1,melee,,Mild Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_1,,12,medicine,,0,melee_group
+um_para2,melee,,Moderate Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_2,,16,medicine,,0,melee_group
+um_para3,melee,,Severe Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_3,,20,medicine,,0,melee_group
+um_crit1,melee,,Basic Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_1,,,science,,0,melee_group
+um_crit2,melee,,Improved Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_2,,,science,,0,melee_group
+um_crit3,melee,,Superior Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_3,,,science,,0,melee_group
+um_crit4,melee,,Deadly Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_4,,,science,,0,melee_group
+um_ionite1,melee,,Basic Ionite Edge,,2,MELEE_UPGRADE_IONITE_1,,12,science,,0,melee_group
+um_ionite2,melee,,Improved Ionite Edge,,2,MELEE_UPGRADE_IONITE_2,,16,science,,0,melee_group
+um_ionite3,melee,,Superior Ionite Edge,,2,MELEE_UPGRADE_IONITE_3,,20,science,,0,melee_group
+um_chill1,melee,,Ostrine Edge,,2,MELEE_UPGRADE_CHILLING_1,,,science,,0,melee_group
+um_chill2,melee,,Superior Ostrine Edge,,2,MELEE_UPGRADE_CHILLING_2,,,science,,0,melee_group
+um_burn1,melee,,Burning Edge,,2,MELEE_UPGRADE_BURNING_1,,12,science,,0,melee_group
+um_burn2,melee,,Superior Burning Edge,,2,MELEE_UPGRADE_BURNING_2,,16,science,,0,melee_group
+um_aggro1,melee,,Basic Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_1,,,repair,,0,melee_group
+um_aggro2,melee,,Improved Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_2,,,repair,,0,melee_group
+um_aggro3,melee,,Superior Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_3,,,repair,,0,melee_group
+um_passiv1,melee,,Basic Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_1,,,repair,,0,melee_group
+um_passiv2,melee,,Improved Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_2,,,repair,,0,melee_group
+um_passiv3,melee,,Superior Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_3,,,repair,,0,melee_group
+um_defend1,melee,,Basic Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_1,,,repair,,0,melee_group
+um_defend2,melee,,Improved Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_2,,,repair,,0,melee_group
+um_defend3,melee,,Superior Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_3,,,repair,,0,melee_group
+um_power1,melee,,Basic Zabrak Grip,,1,MELEE_UPGRADE_POWER_1,,,repair,,0,melee_group
+um_power2,melee,,Improved Zabrak Grip,,1,MELEE_UPGRADE_POWER_2,,,repair,,0,melee_group
+um_balanc1,melee,,Basic Nagai Grip,,1,MELEE_UPGRADE_BALANCED_1,,,repair,,0,melee_group
+um_balanc2,melee,,Alternate Nagai Grip,,1,MELEE_UPGRADE_BALANCED_2,,,repair,,0,melee_group
+um_balanc3,melee,,Superior Nagai Grip,,1,MELEE_UPGRADE_BALANCED_3,,,repair,,0,melee_group
+um_energy,melee,,Enhanced Energy Cell,,3,MELEE_UPGRADE_ENERGY,,,science,,0,melee_group
+um_elec,melee,,Telgorn Jolt Cell,,3,MELEE_UPGRADE_ELECTRIC,,,science,,0,melee_group
+um_ion,melee,,Ion Cell,,3,MELEE_UPGRADE_ION,,,science,,0,melee_group
+um_plasma,melee,,Plasma Cell,,3,MELEE_UPGRADE_PLASMA,,,science,,0,melee_group
+um_vibro,melee,,Vibration Cell,,3,MELEE_UPGRADE_VIBRO,,,science,,0,melee_group
+um_sonic,melee,,Sonic Discharge Cell,,3,MELEE_UPGRADE_SONIC,,,science,,0,melee_group
+ur_scope1,ranged,,Accuracy Scope Mk I,,1,RANGED_UPGRADE_SCOPE_1,,,repair,,0,ranged_group
+ur_scope2,ranged,,Accuracy Scope Mk II,,1,RANGED_UPGRADE_SCOPE_2,,,repair,,0,ranged_group
+ur_keen,ranged,,Targeting Scope,,1,RANGED_UPGRADE_KEEN_SCOPE,,,repair,,0,ranged_group
+ur_energy1,ranged,,Rylith Cell Mk I,,3,RANGED_UPGRADE_ENERGY_1,,,science,,0,ranged_group
+ur_energy2,ranged,,Rylith Cell Mk II,,3,RANGED_UPGRADE_ENERGY_2,,,science,,0,ranged_group
+ur_energy3,ranged,,Rylith Cell Mk III,,3,RANGED_UPGRADE_ENERGY_3,,,science,,0,ranged_group
+ur_energy4,ranged,,Rylith Cell Mk IV,,3,RANGED_UPGRADE_ENERGY_4,,,science,,0,ranged_group
+ur_ion1,ranged,,Ion Cell Mk I,,3,RANGED_UPGRADE_ION_1,,,science,,0,ranged_group
+ur_ion2,ranged,,Ion Cell Mk II,,3,RANGED_UPGRADE_ION_2,,,science,,0,ranged_group
+ur_ion3,ranged,,Ion Cell Mk III,,3,RANGED_UPGRADE_ION_3,,,science,,0,ranged_group
+ur_crit1,ranged,,Power Pulsator Mk I,,3,RANGED_UPGRADE_CRIT_1,,,science,,0,ranged_group
+ur_crit2,ranged,,Power Pulsator Mk II,,3,RANGED_UPGRADE_CRIT_2,,,science,,0,ranged_group
+ur_crit3,ranged,,Power Pulsator Mk III,,3,RANGED_UPGRADE_CRIT_3,,,science,,0,ranged_group
+ur_plasma1,ranged,,Plasma Cell Mk I,,3,RANGED_UPGRADE_PLASMA_1,,,science,,0,ranged_group
+ur_plasma2,ranged,,Plasma Cell Mk II,,3,RANGED_UPGRADE_PLASMA_2,,,science,,0,ranged_group
+ur_cold1,ranged,,Carbonite Cell Mk I,,3,RANGED_UPGRADE_COLD_1,,14,science,,0,ranged_group
+ur_cold2,ranged,,Carbonite Cell Mk II,,3,RANGED_UPGRADE_COLD_2,,18,science,,0,ranged_group
+ur_elec1,ranged,,Electric Cell Mk I,,3,RANGED_UPGRADE_ELECTRIC_1,,10,science,,0,ranged_group
+ur_elec2,ranged,,Electric Cell Mk III,,3,RANGED_UPGRADE_ELECTRIC_2,,14,science,,0,ranged_group
+ur_elec3,ranged,,Electric Cell Mk III,,3,RANGED_UPGRADE_ELECTRIC_3,,18,science,,0,ranged_group
+ur_wide1,ranged,,Broadening Chamber Mk I,,2,RANGED_UPGRADE_WIDENING_1,,,science,,0,ranged_group
+ur_wide2,ranged,,Broadening Chamber Mk II,,2,RANGED_UPGRADE_WIDENING_2,,,science,,0,ranged_group
+ur_wide3,ranged,,Broadening Chamber Mk III,,2,RANGED_UPGRADE_WIDENING_3,,,science,,0,ranged_group
+ur_conc1,ranged,,Concentrating Chamber Mk I,,2,RANGED_UPGRADE_CONCENTRATING_1,,,science,,0,ranged_group
+ur_conc2,ranged,,Concentrating Chamber Mk II,,2,RANGED_UPGRADE_CONCENTRATING_2,,,science,,0,ranged_group
+ur_conc3,ranged,,Concentrating Chamber Mk III,,2,RANGED_UPGRADE_CONCENTRATING_3,,,science,,0,ranged_group
+ur_precis1,ranged,,Precision Chamber Mk I,,2,RANGED_UPGRADE_PRECISION_1,,,science,,0,ranged_group
+ur_precis2,ranged,,Precision Chamber Mk II,,2,RANGED_UPGRADE_PRECISION_2,,,science,,0,ranged_group
+ur_ionize1,ranged,,Ionizing Chamber Mk I,,2,RANGED_UPGRADE_IONIZING_1,,,science,,0,ranged_group
+ur_ionize2,ranged,,Ionizing Chamber Mk II,,2,RANGED_UPGRADE_IONIZING_2,,,science,,0,ranged_group
+ur_ionize3,ranged,,Ionizing Chamber Mk III,,2,RANGED_UPGRADE_IONIZING_3,,,science,,0,ranged_group
+ur_disrup1,ranged,,Mandalorian Chamber Mk I,,2,RANGED_UPGRADE_DISRUPTING_1,,,science,,0,ranged_group
+ur_disrup2,ranged,,Mandalorian Chamber Mk II,,2,RANGED_UPGRADE_DISRUPTING_2,,,science,,0,ranged_group
+ur_disrup3,ranged,,Mandalorian Chamber Mk III,,2,RANGED_UPGRADE_DISRUPTING_3,,,science,,0,ranged_group
+ur_stun1,ranged,,Stun Chamber Mk I,,2,RANGED_UPGRADE_STUNNING_1,,12,science,,0,ranged_group
+ur_stun2,ranged,,Stun Chamber Mk II,,2,RANGED_UPGRADE_STUNNING_2,,16,science,,0,ranged_group
+ur_stun3,ranged,,Stun Chamber Mk III,,2,RANGED_UPGRADE_STUNNING_3,,20,science,,0,ranged_group
+ul_wide1,saber,,Widening Lens,,1,SABER_UPGRADE_WIDENING_1,,,science,,0,saber_group
+ul_wide2,saber,,Enhanced Widening Lens,,1,SABER_UPGRADE_WIDENING_2,,,science,,0,saber_group
+ul_kunda1,saber,,Kunda Lens,,1,SABER_UPGRADE_KUNDA_1,,,science,,0,saber_group
+ul_kunda2,saber,,Enhanced Kunda Lens,,1,SABER_UPGRADE_KUNDA_2,,,science,,0,saber_group
+ul_vibro1,saber,,Vibration Lens,,1,SABER_UPGRADE_VIBRATION_1,,,science,,0,saber_group
+ul_vibro2,saber,,Enhanced Vibration Lens,,1,SABER_UPGRADE_VIBRATION_2,,,science,,0,saber_group
+ul_sharp,saber,,? Lens,,1,SABER_UPGRADE_SHARP,,,science,,0,saber_group
+ul_deflec1,saber,,Deflection Emitter,,1,SABER_UPGRADE_DEFLECT_1,,,science,,0,saber_group
+ul_deflec2,saber,,Enhanced Deflection Emitter,,1,SABER_UPGRADE_DEFLECT_2,,,science,,0,saber_group
+ul_fencin,saber,,Fencing Emitter,,1,SABER_UPGRADE_FENCING,,,science,,0,saber_group
+ul_disrup1,saber,,Disruption Emitter,,1,SABER_UPGRADE_DISRUPTING_1,,,science,,0,saber_group
+ul_disrup2,saber,,Enhancing Disruption Emitter,,1,SABER_UPGRADE_DISRUPTING_2,,,science,,0,saber_group
+ul_phob,saber,,Phobium Emitter,,1,SABER_UPGRADE_PHOBIUM,,,science,,0,saber_group
+ul_energy,saber,,Energy Cell,,1,SABER_UPGRADE_ENERGY,,,science,,0,saber_group
+ul_elec,saber,,Telgorn Jolt Cell,,1,SABER_UPGRADE_ELECTRIC,,,science,,0,saber_group
+ul_cold,saber,,Cold Cell,,1,SABER_UPGRADE_COLD,,,science,,0,saber_group
+ul_fire,saber,,Fire Cell,,1,SABER_UPGRADE_FIRE,,,science,,0,saber_group
+ul_ion,saber,,Ion Cell,,1,SABER_UPGRADE_ION,,,science,,0,saber_group
+ul_vibro,saber,,Vibration Cell,,1,SABER_UPGRADE_VIBRO,,,science,,0,saber_group
 ul_rubat,crystal,,Rubat Crystal,,1,CRYSTAL_RUBAT,,,,,,
 ul_nextor,crystal,,Nextor Crystal,,1,CRYSTAL_NEXTOR,,,,,,
 ul_dragit,crystal,,Dragite Crystal,,1,CRYSTAL_DRAGITE,,,,,,

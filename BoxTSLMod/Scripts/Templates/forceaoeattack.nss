@@ -32,8 +32,12 @@ void main() {
 		for (index = 0; index < Box_ArraySize(aTargets); index++) {
 			
 			object oTarget = Box_ArrayGet(aTargets, index);
-			int saveResult = #FUNCTION_CALL(oUser, oTarget, force);
 			
+			// Visual Effects
+			#VISUAL_FUNCTION(oUser, oTarget);
+			
+			// Damage/Effects
+			int saveResult = #FUNCTION_CALL(oUser, oTarget, force);
 			if (saveResult == IMMUNE)
 				Box_SignalSpellImmune(oTarget, name);
 			else if (saveResult == SAVED) 

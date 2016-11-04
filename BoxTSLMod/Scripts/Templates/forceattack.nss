@@ -26,6 +26,11 @@ void main() {
 	}
 	// Damage/Effects
 	else {
+		
+		// Visual Effects
+		#VISUAL_FUNCTION(oUser, oTarget);
+		
+		// Damage/Effects
 		int saveResult = #FUNCTION_CALL(oUser, oTarget, force);
 		if (saveResult == IMMUNE)
 			Box_SignalSpellImmune(oTarget, name);

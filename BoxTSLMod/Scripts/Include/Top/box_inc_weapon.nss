@@ -74,7 +74,18 @@ int Box_FlashWeapon(object oTarget, int dc, int save, float duration) {
 	effect eStun = EffectStunned();
 	int saveType = SAVING_THROW_TYPE_NONE;
 	
-	// Damage
+	// Effect
+	return Box_EffectWeapon(oTarget, dc, eStun, save, saveType, duration);
+}
+
+//
+int Box_ChokeWeapon(object oTarget, int dc, int save, float duration) {
+	
+	// Properties
+	effect eStun = EffectChoke();
+	int saveType = SAVING_THROW_TYPE_NONE;
+	
+	// Effect
 	return Box_EffectWeapon(oTarget, dc, eStun, save, saveType, duration);
 }
 
@@ -85,7 +96,7 @@ int Box_StunWeapon(object oTarget, int dc, int save, float duration) {
 	effect eStun = EffectStunned();
 	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
 	
-	// Damage
+	// Effect
 	return Box_EffectWeapon(oTarget, dc, eStun, save, saveType, duration);
 }
 
@@ -96,8 +107,19 @@ int Box_SleepWeapon(object oTarget, int dc, int save, float duration) {
 	effect eSleep = EffectSleep();
 	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
 	
-	// Damage
+	// Effect
 	return Box_EffectWeapon(oTarget, dc, eSleep, save, saveType, duration);
+}
+
+//
+int Box_ParalyzeWeapon(object oTarget, int dc, int save, float duration) {
+	
+	// Properties
+	effect eStun = EffectParalyze();
+	int saveType = SAVING_THROW_TYPE_POISON;
+	
+	// Effect
+	return Box_EffectWeapon(oTarget, dc, eStun, save, saveType, duration);
 }
 
 //
@@ -107,7 +129,7 @@ int Box_ConfuseWeapon(object oTarget, int dc, int save, float duration) {
 	int saveType = SAVING_THROW_TYPE_MIND_AFFECTING;
 	effect eConfuse = EffectFactionModifier(STANDARD_FACTION_INSANE);
 	
-	// Damage
+	// Effect
 	return Box_EffectWeapon(oTarget, dc, eConfuse, save, saveType, duration);
 }
 

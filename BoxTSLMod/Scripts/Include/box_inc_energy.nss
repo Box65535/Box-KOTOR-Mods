@@ -5,7 +5,7 @@
 
 
 int Box_IonStrikerMkI(object oTarget) {
-	int save = ;
+	int save = SAVING_THROW_WILL;
 	return ;
 }
 

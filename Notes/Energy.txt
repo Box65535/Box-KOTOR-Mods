@@ -281,7 +281,7 @@ Stun Ray Mk I
 Shock Arm Mk I
 -12 Electrical Damage
 -4 Damage on Save (Will, Electrical)
--DC 14
+-DC 12
 
 
 Tier 2:
@@ -360,3 +360,101 @@ Shield Disruptor
 
 
 
+Heavy Weapons:
+
+Let's say that regular energy weapons can be used once per minute but that heavy energy weapons can only be used once every 2 minutes so they can be more impactful even at lower tiers
+
+
+Tier 1:
+
+Lightning Arm [Use Ionize Beam effect]
+-24 Electrical Damage
+-12 Damage on Save (Will, Electrical)
+-6 Second Stun
+-6 Second Droid Stun
+-12m Spellcone
+-DC 16
+
+Sonic Wave Emitter
+-12 Sonic Damage
+-Int/Wis/Chr -6 for 30 Seconds
+-6 Damage on Save (Will, Sonic)
+-15m Sphere
+-DC 16
+
+
+Tier 2:
+
+Droid Hacker
+-20 Second Droid Confusion
+-Nothing on Save (Will, Mind-Affecting)
+-DC 18
+
+Seismic Disruptor
+-18 Sonic Damage
+-12 Bludgeoning Damage after 3 Seconds
+-3 Second Knockdown
+-6 Sonic Damage on Save (Reflex, None)
+-20m Sphere
+-DC 18
+
+Paralysis Ray
+-16 Electrical Damage
+-15 Second Stasis
+-8 Elecrical Damage on Save (Will, Electrical)
+-DC 18
+
+
+Tier 3:
+
+Plasma Bomber
+-48 Fire Damage
+-16 Damage on Save (Reflex, Fire)
+-4m Radius from Impact
+-DC 20
+
+Gravity Projector
+-36 Bludgeoning Damage
+-3 Second Push
+-12 Damage on Save (Reflex, None)
+-10m Spellcone
+-DC 20
+
+Storm Arm [Alternate regular and ion lightning]
+-24 Electrical Damage
+-8 Damage on Save (Will, Electrical)
+-6 Second Stun
+-6 Second Droid Stun
+-Chain: Find up to 2 unshocked enemies within 6m
+-DC 20
+
+
+Tier 4:
+
+Death Ray
+-Kills weak/medium enemy
+-Nothing on Save (Fortitude, Mind-Affecting)
+-DC 24
+
+Droid Dominator
+-30 Second Droid Confusion
+-Nothing on Save (Will, Mind-Affecting)
+-DC 24
+
+Gravity Generator
+-12 Seconds of Whirlwind followed by Push to center then Crush
+-24 Bludgeoning Damage during Whirlwind (2 per Second)
+-24 Bludgeoning Damage on End
+-??? on Save (Reflex, None)
+-DC 24
+
+
+Tier 5:
+
+Droid Self-Destruct
+-4*Level Energy Damage
+-Push Effect
+-Level Damage on Save (Reflex, None)
+-Causes Faint on Use
+-12m Sphere
+-DC 32

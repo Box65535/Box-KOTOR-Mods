@@ -201,6 +201,8 @@ forceaoeattackscript_pattern = """scripts.append(Script.new_forceaoeattack('{0.s
 grenadescript_pattern = """scripts.append(Script.new_grenade('{0.script}', {0.radius}, '{0.functioncall}',
 	'{0.visualfunction}'))"""
 beamscript_pattern = """scripts.append(Script.new_beam('{0.script}', '{0.functioncall}', '{0.visualfunction}'))"""
+multibeamscript_pattern = """scripts.append(Script.new_multibeam('{0.script}', '{0.functioncall}',
+	'{0.locationfunction}', '{0.visualfunction}'))"""
 wavescript_pattern = """scripts.append(Script.new_wave('{0.script}', '{0.functioncall}', '{0.visualfunction}'))"""
 minescript_pattern = """scripts.append(Script.new_mine('{0.script}', {0.radius}, {0.minelevel},
 	'{0.functioncall}', '{0.visualfunction}'))"""
@@ -701,6 +703,12 @@ with open('Data\\energy.csv', 'r') as csvfile:
 		elif row['type'] == 'beam':
 			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
 			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
+		elif row['type'] == 'multibeam':
+			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
+			add_line(scriptgen, row, multibeamscript_pattern, '#SCRIPTS')
+		elif row['type'] == 'grenade':
+			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
+			add_line(scriptgen, row, grenadescript_pattern, '#SCRIPTS')
 		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(spellconst, row, spellconst_pattern, '//SPELLS')

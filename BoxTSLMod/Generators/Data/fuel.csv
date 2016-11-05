@@ -23,13 +23,13 @@ aa_mining,beam,BOXI_FUEL,50,Peragus Mining Fuel,,PERAGUS_FUEL,BOX_PERAGUS_FUEL,B
 aa_flame1,beam,BOXI_FUEL,0,Flamethrower Fuel,,FLAMETHROWER_FUEL,BOX_FLAMETHROWER,BOX_FLAMETHROWER,3,box_flamethrower1,****,****,****,,Box_Flamethrower,Box_FlamethrowerBeam
 aa_flame2,beam,BOXI_FUEL,0,High Octane Flamethrower Fuel,,FLAMETHROWER_2_FUEL,BOX_FLAMETHROWER,BOX_FLAMETHROWER_2,6,box_flamethrower2,****,****,****,,Box_Flamethrower2,Box_FlamethrowerBeam
 aa_flame3,beam,BOXI_FUEL,0,Plasma Flamethrower Fuel,,PLASMA_FLAMETHROWER_FUEL,BOX_FLAMETHROWER,BOX_PLASMA_FLAMETHROWER,9,box_plasmaflamethrower,****,****,****,,Box_PlasmaFlamethrower,Box_FlamethrowerBeam
-aa_carbon1,beam,BOXI_FUEL,0,Carbonite Fuel,,BOX_CARBONITE_FUEL,BOX_CARBONITE,BOX_CARBONITE,6,box_carbonite1,****,****,****,,Box_Carbonite,Box_CarboniteBeam
-aa_carbon2,beam,BOXI_FUEL,0,Concentrated Carbonite Fuel,,BOX_CARBONITE_2_FUEL,BOX_CARBONITE,BOX_CARBONITE_2,9,box_carbonite2,****,****,****,,Box_Carbonite2,Box_CarboniteBeam
-aa_ion,blast,BOXI_FUEL,0,Ion Fuel Tank,,BOX_ION_FUEL,BOX_ENERGY_FUEL,BOX_ION_BLASTER,6,box_ionblaster,cb_sh_pwrblast1,w_lfire_pb_b1,homing,,Box_IonBlaster,Box_NoBeam
-aa_plasma,blast,BOXI_FUEL,0,Plasma Fuel Tank,,BOX_PLASMA_FUEL,BOX_ENERGY_FUEL,BOX_PLASMA_BLASTER,6,box_plasmablaster,cb_sh_pwrblast1,w_lfire_pb_r1,homing,,Box_PlasmaBlaster,Box_NoBeam
-aa_antima,blast,BOXI_FUEL,0,Antimatter Fuel Tank,,BOX_ANTIMATTER_FUEL,BOX_ENERGY_FUEL,BOX_ANTIMATTER_BLASTER,9,box_antimatterblaster,cb_sh_pwrblast1,w_lfire_pb_w1,homing,,Box_AntimatterBlaster,Box_NoBeam
-aa_grappl,blast,BOXI_FUEL,0,Grappling Hook,,BOX_GRAPPLING_HOOK,BOX_GRAPPLING_HOOK,BOX_GRAPPLING_HOOK,3,box_grapplinghook,****,W_rokdart,homing,,Box_GrapplingHook,Box_NoBeam
-aa_psndt,blast,BOXI_FUEL,0,Poison Dart,,BOX_POISON_DART,BOX_DARTS,BOX_POISON_DART,3,box_poisondart,****,W_rokdart,homing,,Box_PoisonDart,Box_NoBeam
-aa_slpdt,blast,BOXI_FUEL,0,Tranquilizer Dart,,BOX_SLEEP_DART,BOX_DARTS,BOX_SLEEP_DART,3,box_sleepdart,****,W_rokdart,homing,,Box_SleepDart,Box_NoBeam
-aa_kybdt,blast,BOXI_FUEL,0,Kyber Dart,,BOX_KYBER_DART,BOX_DARTS,BOX_KYBER_DART,6,box_kyberdart,****,W_rokdart,homing,,Box_KyberDart,Box_NoBeam
-aa_pardt,blast,BOXI_FUEL,0,Paralysis Dart,,BOX_PARALYSIS_DART,BOX_DARTS,BOX_PARALYSIS_DART,6,box_paralysisdart,****,W_rokdart,homing,,Box_ParalysisDart,Box_NoBeam
+aa_carbon1,beam,BOXI_FUEL,0,Carbonite Fuel,,CARBONITE_FUEL,BOX_CARBONITE,BOX_CARBONITE,6,box_carbonite1,****,****,****,,Box_Carbonite,Box_CarboniteBeam
+aa_carbon2,beam,BOXI_FUEL,0,Concentrated Carbonite Fuel,,CARBONITE_2_FUEL,BOX_CARBONITE,BOX_CARBONITE_2,9,box_carbonite2,****,****,****,,Box_Carbonite2,Box_CarboniteBeam
+aa_ion,blast,BOXI_FUEL,0,Ion Fuel Tank,,ION_FUEL,BOX_ENERGY_FUEL,BOX_ION_BLASTER,6,box_ionblaster,cb_sh_pwrblast1,w_lfire_pb_b1,homing,,Box_IonBlaster,Box_NoBeam
+aa_plasma,blast,BOXI_FUEL,0,Plasma Fuel Tank,,PLASMA_FUEL,BOX_ENERGY_FUEL,BOX_PLASMA_BLASTER,6,box_plasmablaster,cb_sh_pwrblast1,w_lfire_pb_r1,homing,,Box_PlasmaBlaster,Box_NoBeam
+aa_antima,blast,BOXI_FUEL,0,Antimatter Fuel Tank,,ANTIMATTER_FUEL,BOX_ENERGY_FUEL,BOX_ANTIMATTER_BLASTER,9,box_antimatterblaster,cb_sh_pwrblast1,w_lfire_pb_w1,homing,,Box_AntimatterBlaster,Box_NoBeam
+aa_grappl,blast,BOXI_FUEL,0,Grappling Hook,,GRAPPLING_HOOK,BOX_GRAPPLING_HOOK,BOX_GRAPPLING_HOOK,3,box_grapplinghook,****,W_rokdart,homing,,Box_GrapplingHook,Box_NoBeam
+aa_psndt,blast,BOXI_FUEL,0,Poison Dart,,POISON_DART,BOX_DARTS,BOX_POISON_DART,3,box_poisondart,****,W_rokdart,homing,,Box_PoisonDart,Box_NoBeam
+aa_slpdt,blast,BOXI_FUEL,0,Tranquilizer Dart,,SLEEP_DART,BOX_DARTS,BOX_SLEEP_DART,3,box_sleepdart,****,W_rokdart,homing,,Box_SleepDart,Box_NoBeam
+aa_kybdt,blast,BOXI_FUEL,0,Kyber Dart,,KYBER_DART,BOX_DARTS,BOX_KYBER_DART,6,box_kyberdart,****,W_rokdart,homing,,Box_KyberDart,Box_NoBeam
+aa_pardt,blast,BOXI_FUEL,0,Paralysis Dart,,PARALYSIS_DART,BOX_DARTS,BOX_PARALYSIS_DART,6,box_paralysisdart,****,W_rokdart,homing,,Box_ParalysisDart,Box_NoBeam

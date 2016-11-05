@@ -59,6 +59,12 @@ class Script:
 			None, None, None, None, None)
 	
 	@classmethod
+	def new_multibeam(cls, filename, functioncall, locationfunction, visualfunction):
+		return cls('multibeam', filename, 'Auto-generated Script', None, None, None, None,
+			None, functioncall, locationfunction, visualfunction, None,
+			None, None, None, None, None)
+	
+	@classmethod
 	def new_buff(cls, filename, functioncall, visualfunction):
 		return cls('buff', filename, 'Auto-generated Script', None, None, None, None,
 			None, functioncall, None, visualfunction, None,

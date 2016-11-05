@@ -79,8 +79,60 @@ int Box_ShieldDisruptor(object oTarget) {
 	return ;
 }
 
+int Box_LightningArm(object oTarget) {
+	int save = ;
+	return ;
+}
 
+int Box_SonicWaveEmitter(object oTarget) {
+	int save = ;
+	return ;
+}
 
+int Box_DroidHacker(object oTarget) {
+	int save = ;
+	return ;
+}
+
+int Box_SeismicDisruptor(object oTarget) {
+	int save = ;
+	return ;
+}
+
+int Box_ParalysisRay(object oTarget) {
+	int save = ;
+	return ;
+}
+
+int Box_PlasmaBomber(object oTarget) {
+	int save = ;
+	return ;
+}
+
+int Box_GravityProjector(object oTarget) {
+	int save = ;
+	return ;
+}
+
+int Box_DeathRay(object oTarget) {
+	int save = ;
+	return ;
+}
+
+int Box_DroidDominator(object oTarget) {
+	int save = ;
+	return ;
+}
+
+int Box_GravityGenerator(object oTarget) {
+	int save = ;
+	return ;
+}
+
+int Box_DroidSelfDestruct(object oTarget) {
+	int save = ;
+	return ;
+}
 
 
 

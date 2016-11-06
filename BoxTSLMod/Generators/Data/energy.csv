@@ -1,26 +1,27 @@
 tag,type,heavy,baseitemcode,cost,name,model,tagconst,spellcode,spellcr,script,launchsound,projectile,projpath,radius,functioncall,visualfunction,locationfunction,spellshape,spellexclusion
-we_ionst1,beam,,BOXI_ENERGYWEAP1,,Ion Striker Mk I,,ION_STRIKER_1,,3,box_ionstrike1,****,,,,Box_IonStrikerMkI,Box_IonStrikeBeam,,,0x01
-we_stun1,beam,,BOXI_ENERGYWEAP1,,Stun Ray Mk I,,STUN_RAY_1,,3,box_stunray1,****,,,,Box_StunRayMkI,Box_StunRayBeam,,,0x02
-we_shock1,beam,,BOXI_ENERGYWEAP1,,Shock Arm Mk I,,SHOCK_ARM_1,,3,box_shockarm1,****,,,,Box_ShockArmMkI,Box_ShockArmBeam,,,0x00
-we_ionst2,beam,,BOXI_ENERGYWEAP1,,Ion Striker Mk II,,ION_STRIKER_2,,3,box_ionstrike2,****,,,,Box_IonStrikerMkII,Box_IonStrikeBeam,,,0x00
-we_stun2,beam,,BOXI_ENERGYWEAP1,,Stun Ray Mk II,,STUN_RAY_2,,3,box_stunray2,****,,,,Box_StunRayMkII,Box_StunRayBeam,,,0x02
-we_shock2,beam,,BOXI_ENERGYWEAP1,,Shock Arm Mk II,,SHOCK_ARM_2,,3,box_shockarm2,****,,,,Box_ShockArmMkII,Box_ShockArmBeam,,,0x00
-we_sonic1,wave,,BOXI_ENERGYWEAP1,,Sonic Repulsor Mk I,,SONIC_REPULSOR_1,,3,box_sonicrepuls1,****,,,10,Box_SonicRepulsorMkI,Box_SonicRepulsorBeam,GetSpellTargetLocation(),SHAPE_SPELLCONE,0x00
-we_ionbl1,blast,,BOXI_ENERGYWEAP1,,Ion Blaster Mk I,,ION_BLASTER_1,,6,box_ionblast1,cb_sh_pwrblast1,w_lfire_pb_b1,homing,,Box_IonBlasterMkI,Box_NoBeam,,,0x00
-we_shock3,beam,,BOXI_ENERGYWEAP1,,Shock Arm Mk III,,SHOCK_ARM_3,,6,box_shockarm3,****,,,,Box_ShockArmMkIII,Box_ShockArmBeam,,,0x00
-we_ionst3,beam,,BOXI_ENERGYWEAP1,,Ion Striker Mk III,,ION_STRIKER_3,,6,box_ionstrike3,****,,,,Box_IonStrikerMkIII,Box_IonStrikeBeam,,,0x00
-we_plasma1,blast,,BOXI_ENERGYWEAP1,,Plasma Blaster Mk I,,PLASMA_BLASTER_1,,6,box_plasmablast1,cb_sh_pwrblast1,w_lfire_pb_r1,homing,,Box_PlasmaBlasterMkI,Box_NoBeam,,,0x00
-we_sonic2,wave,,BOXI_ENERGYWEAP1,,Sonic Repulsor Mk II,,SONIC_REPULSOR_2,,6,box_sonicrepuls2,****,,,10,Box_SonicRepulsorMkII,Box_SonicRepulsorBeam,GetSpellTargetLocation(),SHAPE_SPELLCYLINDER,0x00
-we_plasma2,blast,,BOXI_ENERGYWEAP1,,Plasma Blaster Mk II,,PLASMA_BLASTER_1,,9,box_plasmablast2,cb_sh_pwrblast1,w_lfire_pb_r1,homing,,Box_PlasmaBlasterMkII,Box_NoBeam,,,0x00
-we_shield,blast,,BOXI_ENERGYWEAP1,,Shield Disruptor,,SHIELD_DISRUPTOR,,9,box_shielddisrup,cb_sh_pwrblast1,,,,Box_ShieldDisruptor,Box_NoBeam,,,0x00
-wh_shock,multibeam,y,BOXI_ENERGYWEAP2,,Lightning Arm,,LIGHTNING_ARM,,6,box_lightningarm,****,,,12,Box_LightningArm,Box_IonShockBeam,GetSpellTargetLocation(),SHAPE_SPELLCYLINDER,0x00
-wh_sonic,wave,y,BOXI_ENERGYWEAP2,,Sonic Wave Emitter,,SONIC_WAVE_EMITTER,,6,box_sonicwave,****,,,15,Box_SonicWaveEmitter,Box_SonicWaveBeam,GetLocation(OBJECT_SELF),SHAPE_SPHERE,0x00
-wh_hack,beam,y,BOXI_ENERGYWEAP2,,Droid Hacker,,DROID_HACKER,,6,box_droidhack,****,,,,Box_DroidHacker,Box_DroidHackBeam,,,0x01
-wh_seis,wave,y,BOXI_ENERGYWEAP2,,Seismic Disruptor,,SEISMIC_DISRUPTOR,,6,box_seismicdisrup,****,,,20,Box_SeismicDisruptor,Box_NoBeam,GetLocation(OBJECT_SELF),SHAPE_SPHERE,0x00
-wh_para,beam,y,BOXI_ENERGYWEAP2,,Paralysis Ray,,PARALYSIS_RAY,,6,box_paralyzeray,****,,,,Box_ParalysisRay,Box_StunRayBeam,,,0x02
-wh_plasma,grenade,y,BOXI_ENERGYWEAP2,,Plasma Bomber,,PLASMA_BOMBER,,9,box_plasmabomber,cb_sh_pwrblast1,w_lfire_pb_r1,homing,,Box_PlasmaBomber,Box_NoBeam,,,0x00
-wh_proj,wave,y,BOXI_ENERGYWEAP2,,Gravity Projector,,GRAVITY_PROJECTOR,,9,box_gravitproj,****,,,12,Box_GravityProjector,Box_GravityBeam,GetSpellTargetLocation(),SHAPE_SPELLCONE,0x00
-wh_death,beam,y,BOXI_ENERGYWEAP2,,Death Ray,,DEATH_RAY,,9,box_deathray,****,,,,Box_DeathRay,Box_DeathBeam,,,0x02
-wh_domina,beam,y,BOXI_ENERGYWEAP2,,Droid Dominator,,DROID_DOMINATOR,,9,box_droiddomina,****,,,,Box_DroidDominator,Box_DroidHackBeam,,,0x01
-wh_gravit,wave,y,BOXI_ENERGYWEAP2,,Gravity Generator,,GRAVITY_GENERATOR,,9,box_gravitgen,****,,,15,Box_GravityGenerator,Box_GravityLongBeam,GetSpellTargetLocation(),SHAPE_SPHERE,0x00
-wh_selfd,wave,y,BOXI_ENERGYWEAP2,,Droid Self-Destruct,,DROID_SELF_DESTRUCT,,9,box_selfdestruct,****,,,12,Box_DroidSelfDestruct,Box_SelfDestructBeam,GetLocation(OBJECT_SELF),SHAPE_SPHERE,0x00
+we_ionst1,beam,,BOXI_ENERGYWEAP1,200,Ion Striker Mk I,,ION_STRIKER_1,BOXS_ION_STRIKER_1,3,box_ionstrike1,****,,,,Box_IonStrikerMkI,Box_IonStrikeBeam,,,0x01
+we_stun1,beam,,BOXI_ENERGYWEAP1,300,Stun Ray Mk I,,STUN_RAY_1,BOXS_STUN_RAY_1,3,box_stunray1,****,,,,Box_StunRayMkI,Box_StunRayBeam,,,0x02
+we_shock1,beam,,BOXI_ENERGYWEAP1,400,Shock Arm Mk I,,SHOCK_ARM_1,BOXS_SHOCK_ARM_1,3,box_shockarm1,****,,,,Box_ShockArmMkI,Box_ShockArmBeam,,,0x00
+we_ionst2,beam,,BOXI_ENERGYWEAP1,500,Ion Striker Mk II,,ION_STRIKER_2,BOXS_ION_STRIKER_2,3,box_ionstrike2,****,,,,Box_IonStrikerMkII,Box_IonStrikeBeam,,,0x01
+we_stun2,beam,,BOXI_ENERGYWEAP1,600,Stun Ray Mk II,,STUN_RAY_2,BOXS_STUN_RAY_2,3,box_stunray2,****,,,,Box_StunRayMkII,Box_StunRayBeam,,,0x02
+we_shock2,beam,,BOXI_ENERGYWEAP1,700,Shock Arm Mk II,,SHOCK_ARM_2,BOXS_SHOCK_ARM_2,3,box_shockarm2,****,,,,Box_ShockArmMkII,Box_ShockArmBeam,,,0x00
+we_sonic1,wave,,BOXI_ENERGYWEAP1,600,Sonic Repulsor Mk I,,SONIC_REPULSOR_1,BOXS_SONIC_REPULSOR_1,3,box_sonicrepuls1,****,,,10,Box_SonicRepulsorMkI,Box_SonicRepulsorBeam,GetSpellTargetLocation(),SHAPE_SPELLCONE,0x00
+we_ionbl1,blast,,BOXI_ENERGYWEAP1,1000,Ion Blaster Mk I,,ION_BLASTER_1,BOXS_ION_BLASTER_1,6,box_ionblast1,cb_sh_pwrblast1,w_lfire_pb_b1,homing,,Box_IonBlasterMkI,Box_NoBeam,,,0x00
+we_shock3,beam,,BOXI_ENERGYWEAP1,1200,Shock Arm Mk III,,SHOCK_ARM_3,BOXS_SHOCK_ARM_3,6,box_shockarm3,****,,,,Box_ShockArmMkIII,Box_ShockArmBeam,,,0x00
+we_ionst3,beam,,BOXI_ENERGYWEAP1,900,Ion Striker Mk III,,ION_STRIKER_3,BOXS_ION_STRIKER_3,6,box_ionstrike3,****,,,,Box_IonStrikerMkIII,Box_IonStrikeBeam,,,0x01
+we_plasma1,blast,,BOXI_ENERGYWEAP1,1800,Plasma Blaster Mk I,,PLASMA_BLASTER_1,BOXS_PLASMA_BLASTER_1,6,box_plasmablast1,cb_sh_pwrblast1,w_lfire_pb_r1,homing,,Box_PlasmaBlasterMkI,Box_NoBeam,,,0x00
+we_sonic2,wave,,BOXI_ENERGYWEAP1,1500,Sonic Repulsor Mk II,,SONIC_REPULSOR_2,BOXS_SONIC_REPULSOR_2,6,box_sonicrepuls2,****,,,10,Box_SonicRepulsorMkII,Box_SonicRepulsorBeam,GetSpellTargetLocation(),SHAPE_SPELLCYLINDER,0x00
+we_plasma2,blast,,BOXI_ENERGYWEAP1,3500,Plasma Blaster Mk II,,PLASMA_BLASTER_1,BOXS_PLASMA_BLASTER_1,9,box_plasmablast2,cb_sh_pwrblast1,w_lfire_pb_r1,homing,,Box_PlasmaBlasterMkII,Box_NoBeam,,,0x00
+we_ionbl2,blast,,BOXI_ENERGYWEAP1,2800,Ion Blaster Mk II,,ION_BLASTER_2,BOXS_ION_BLASTER_2,9,box_ionblast2,cb_sh_pwrblast1,w_lfire_pb_b1,homing,,Box_IonBlasterMkII,Box_NoBeam,,,0x00
+we_shield,blast,,BOXI_ENERGYWEAP1,3000,Shield Disruptor,,SHIELD_DISRUPTOR,BOXS_SHIELD_DISRUPTOR,9,box_shielddisrup,cb_sh_pwrblast1,w_lfire_pb_s1,homing,,Box_ShieldDisruptor,Box_NoBeam,,,0x00
+wh_shock,multibeam,y,BOXI_ENERGYWEAP2,1000,Lightning Arm,,LIGHTNING_ARM,BOXS_LIGHTNING_ARM,6,box_lightningarm,****,,,12,Box_LightningArm,Box_IonShockBeam,GetSpellTargetLocation(),SHAPE_SPELLCYLINDER,0x00
+wh_sonic,wave,y,BOXI_ENERGYWEAP2,800,Sonic Wave Emitter,,SONIC_WAVE_EMITTER,BOXS_SONIC_WAVE_EMITTER,6,box_sonicwave,****,,,15,Box_SonicWaveEmitter,Box_SonicWaveBeam,GetLocation(OBJECT_SELF),SHAPE_SPHERE,0x00
+wh_hack,beam,y,BOXI_ENERGYWEAP2,1000,Droid Hacker,,DROID_HACKER,BOXS_DROID_HACKER,6,box_droidhack,****,,,,Box_DroidHacker,Box_DroidHackBeam,,,0x01
+wh_seis,wave,y,BOXI_ENERGYWEAP2,2000,Seismic Disruptor,,SEISMIC_DISRUPTOR,BOXS_SEISMIC_DISRUPTOR,6,box_seismicdisrup,****,,,20,Box_SeismicDisruptor,Box_NoBeam,GetLocation(OBJECT_SELF),SHAPE_SPHERE,0x00
+wh_para,beam,y,BOXI_ENERGYWEAP2,1200,Paralysis Ray,,PARALYSIS_RAY,BOXS_PARALYSIS_RAY,6,box_paralyzeray,****,,,,Box_ParalysisRay,Box_StunRayBeam,,,0x02
+wh_plasma,grenade,y,BOXI_ENERGYWEAP2,3000,Plasma Bomber,,PLASMA_BOMBER,BOXS_PLASMA_BOMBER,9,box_plasmabomber,cb_sh_pwrblast1,w_lfire_pb_r1,homing,,Box_PlasmaBomber,Box_NoBeam,,,0x00
+wh_proj,wave,y,BOXI_ENERGYWEAP2,3500,Gravity Projector,,GRAVITY_PROJECTOR,BOXS_GRAVITY_PROJECTOR,9,box_gravitproj,****,,,12,Box_GravityProjector,Box_GravityBeam,GetSpellTargetLocation(),SHAPE_SPELLCONE,0x00
+wh_death,beam,y,BOXI_ENERGYWEAP2,5000,Death Ray,,DEATH_RAY,BOXS_DEATH_RAY,9,box_deathray,****,,,,Box_DeathRay,Box_DeathBeam,,,0x02
+wh_domina,beam,y,BOXI_ENERGYWEAP2,5500,Droid Dominator,,DROID_DOMINATOR,BOXS_DROID_DOMINATOR,9,box_droiddomina,****,,,,Box_DroidDominator,Box_DroidHackBeam,,,0x01
+wh_gravit,wave,y,BOXI_ENERGYWEAP2,6500,Gravity Generator,,GRAVITY_GENERATOR,BOXS_GRAVITY_GENERATOR,9,box_gravitgen,****,,,15,Box_GravityGenerator,Box_GravityLongBeam,GetSpellTargetLocation(),SHAPE_SPHERE,0x00
+wh_selfd,wave,y,BOXI_ENERGYWEAP2,8000,Droid Self-Destruct,,DROID_SELF_DESTRUCT,BOXS_DROID_SELF_DESTRUCT,9,box_selfdestruct,****,,,12,Box_DroidSelfDestruct,Box_SelfDestructBeam,GetLocation(OBJECT_SELF),SHAPE_SPHERE,0x00

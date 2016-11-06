@@ -134,6 +134,17 @@ int Box_ConfuseWeapon(object oTarget, int dc, int save, float duration) {
 }
 
 //
+int Box_DroidStunWeapon(object oTarget, int dc, int save, float duration) {
+	
+	// Properties
+	int saveType = SAVING_THROW_TYPE_ION;
+	effect eDroidStun = EffectDroidStun();
+	
+	// Effect
+	return Box_EffectWeapon(oTarget, dc, eDroidStun, save, saveType, duration);
+}
+
+//
 int Box_IonWeapon(object oTarget, int dc, int damage, int saveDamage, int droidDamage,
 		int save, float duration) {
 	

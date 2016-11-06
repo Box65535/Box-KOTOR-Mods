@@ -13,7 +13,7 @@ type	functioncall	script	itemconst
 	Box_PeragusVibrocutter		CREDITS_5
 	Box_SecuritySpike	bxt_secspk1	
 	Box_SecuritySpike		SECURITY_SPIKE_1
-	Box_5Credits	bxt_5credits	
+	Box_5Credits	bxt_5credit	
 	Box_5Credits		CREDITS_5
 	Box_Medpac	bxt_medpac	
 	Box_Medpac		MEDPAC_1
@@ -26,7 +26,7 @@ type	functioncall	script	itemconst
 	Box_100Chem		CHEMICALS_100
 	Box_5Comp	bxt_5comp	
 	Box_5Comp		COMPONENTS_5
-	Box_10Credits	bxt_10credits	
+	Box_10Credits	bxt_10credit	
 	Box_10Credits		CREDITS_10
 	Box_PeragusLockedIonGrenades	bxt_perlkion	
 	Box_PeragusLockedIonGrenades		ION_GRENADE

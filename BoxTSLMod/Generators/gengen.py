@@ -1017,13 +1017,14 @@ with open('Data\\enemies.csv', 'r') as csvfile:
 with open('Data\\treasures.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
-		if row['type'] == 'script':
+		row['include'] = 'box_inc_treasure'
+		if row['itemconst']:
+			add_line(inctreasure, row, treasureitem_pattern, '//' + row['functioncall'])
+		elif row['type'] == 'static':
+			add_line(scriptgen, row, treasurescript_pattern, '#SCRIPTS')
+		elif row['script']:
 			add_line(scriptgen, row, treasurescript_pattern, '#SCRIPTS')
 			add_line(inctreasure, row, treasurefunction_pattern, '//FUNCTIONS')
-		if row['type'] == 'static':
-			add_line(scriptgen, row, treasurescript_pattern, '#SCRIPTS')
-		if row['type'] == 'treasure':
-			add_line(inctreasure, row, treasureitem_pattern, '//' + row['functioncall'])
 
 
 # Placeables

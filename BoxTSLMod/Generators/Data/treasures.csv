@@ -1,17 +1,76 @@
-type	script	functioncall	include	itemconst
-script	bxt_perstl	Box_PeragusStealthBelt	box_inc_treasure	
-treasure		Box_PeragusStealthBelt		STEALTH_FIELD_GENERATOR
-treasure		Box_PeragusStealthBelt		MEDPAC_1
-script	bxt_perion	Box_PeragusIonGrenades	box_inc_treasure	
-treasure		Box_PeragusIonGrenades		ION_GRENADE
-treasure		Box_PeragusIonGrenades		ION_GRENADE
-treasure		Box_PeragusIonGrenades		CREDITS_10
-script	bxt_pertorch	Box_PeragusPlasmaTorch	box_inc_treasure	
-treasure		Box_PeragusPlasmaTorch		PLASMA_TORCH
-script	bxt_pervibct	Box_PeragusVibrocutter	box_inc_treasure	
-treasure		Box_PeragusVibrocutter		VIBROCUTTER
-treasure		Box_PeragusVibrocutter		CREDITS_5
-script	bxt_secspk1	Box_SecuritySpike	box_inc_treasure	
-treasure		Box_SecuritySpike		SECURITY_SPIKE_1
-script	bxt_5credits	Box_5Credits	box_inc_treasure	
-treasure		Box_5Credits		CREDITS_5
+type	functioncall	script	itemconst
+	Box_PeragusStealthBelt	bxt_perstl	
+	Box_PeragusStealthBelt		STEALTH_FIELD_GENERATOR
+	Box_PeragusStealthBelt		MEDPAC_1
+	Box_PeragusIonGrenades	bxt_perion	
+	Box_PeragusIonGrenades		ION_GRENADE
+	Box_PeragusIonGrenades		ION_GRENADE
+	Box_PeragusIonGrenades		CREDITS_10
+	Box_PeragusPlasmaTorch	bxt_pertorch	
+	Box_PeragusPlasmaTorch		PLASMA_TORCH
+	Box_PeragusVibrocutter	bxt_pervibct	
+	Box_PeragusVibrocutter		VIBROCUTTER
+	Box_PeragusVibrocutter		CREDITS_5
+	Box_SecuritySpike	bxt_secspk1	
+	Box_SecuritySpike		SECURITY_SPIKE_1
+	Box_5Credits	bxt_5credits	
+	Box_5Credits		CREDITS_5
+	Box_Medpac	bxt_medpac	
+	Box_Medpac		MEDPAC_1
+	Box_2Medpac	bxt_2medpac	
+	Box_2Medpac		MEDPAC_1
+	Box_2Medpac		MEDPAC_1
+	Box_PoisStim	bxt_poistim	
+	Box_PoisStim		POISON_STIM
+	Box_100Chem	bxt_100chem	
+	Box_100Chem		CHEMICALS_100
+	Box_5Comp	bxt_5comp	
+	Box_5Comp		COMPONENTS_5
+	Box_10Credits	bxt_10credits	
+	Box_10Credits		CREDITS_10
+	Box_PeragusLockedIonGrenades	bxt_perlkion	
+	Box_PeragusLockedIonGrenades		ION_GRENADE
+	Box_PeragusLockedIonGrenades		ION_GRENADE
+	Box_PeragusLockedIonGrenades		SONIC_GRENADE
+	Box_PeragusLockedIonGrenades		SONIC_GRENADE
+	Box_PeragusLockedIonGrenades		MEDPAC_1
+	Box_PeragusOnlyIonGrenades	bxt_perion2	
+	Box_PeragusOnlyIonGrenades		ION_GRENADE
+	Box_PeragusOnlyIonGrenades		ION_GRENADE
+	Box_3Parts	bxt_3parts	
+	Box_3Parts		PARTS
+	Box_3Parts		PARTS
+	Box_3Parts		PARTS
+	Box_CompSpike	bxt_cspike	
+	Box_CompSpike		COMPUTER_SPIKE
+	Box_PeragusLootDroid	bxt_perlootd	
+	Box_PeragusLootDroid		SONIC_GRENADE
+	Box_PeragusLootDroid		COMPONENTS
+	Box_PeragusLootDroid		COMPONENTS
+	Box_PeragusMoreLootDroid	bxt_perlootd2	
+	Box_PeragusMoreLootDroid		SONIC_GRENADE
+	Box_PeragusMoreLootDroid		COMPONENTS
+	Box_PeragusMoreLootDroid		COMPONENTS
+	Box_PeragusMoreLootDroid		COMPONENTS
+	Box_20CreditsMedpac	bxt_20crdmed	
+	Box_20CreditsMedpac		CREDITS_20
+	Box_20CreditsMedpac		MEDPAC_1
+	Box_PeragusHiddenCorpse	bxt_perhidco	
+	Box_PeragusHiddenCorpse		MELEE_UPGRADE_IONITE_1
+	Box_PeragusHiddenCorpse		CARDIO_REGULATOR
+	Box_PeragusPartsSpikes	bxt_perptspk	
+	Box_PeragusPartsSpikes		PARTS
+	Box_PeragusPartsSpikes		PARTS
+	Box_PeragusPartsSpikes		PARTS
+	Box_PeragusPartsSpikes		PARTS
+	Box_PeragusPartsSpikes		PARTS
+	Box_PeragusPartsSpikes		PARTS
+	Box_PeragusPartsSpikes		PARTS
+	Box_PeragusPartsSpikes		COMPUTER_SPIKE
+	Box_PeragusPartsSpikes		COMPUTER_SPIKE
+	Box_PeragusPartsSpikes		COMPUTER_SPIKE
+	Box_PeragusUniformContainer	bxt_perunif	
+	Box_PeragusUniformContainer		MINER_UNIFORM
+	Box_PeragusUniformContainer		PERAGUS_MINING_SHIELD
+	Box_PeragusUniformContainer		MEDPAC_1
+	Box_PeragusUniformContainer		ADRENALINE_AMPLIFIER

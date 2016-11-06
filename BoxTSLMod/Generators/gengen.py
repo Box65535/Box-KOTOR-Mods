@@ -256,6 +256,16 @@ trapconst_pattern = """int {0.trapconst} = #CODE_{0.trapcode}#;"""
 # box_inc_turretconst.nss
 turretconst_pattern = """string {0.turretconst} = "{0.turrettag}";"""
 
+# box_inc_treasure.nss
+treasurefunction_pattern = """void {0.functioncall}(object oContainer) {
+	Box_RemoveAllItems(oContainer);
+	//{0.functioncall}
+}
+
+"""
+treasureitem_pattern = """CreateItemOnObject({0.itemconst}, oContainer);"""
+
+
 # baseitems.ini
 baseitemheader_pattern = """AddRow0{baseitemconst}=baseitem_{baseitemconst}"""
 baseitemini_pattern = """[baseitem_{baseitemconst}]
@@ -440,7 +450,7 @@ incfuelweap = read_file('Code\\Includes\\box_inc_fuelweap.nss')
 incmines = read_file('Code\\Includes\\box_inc_mines.nss')
 
 incspawn = read_file('Code\\Includes\\box_inc_spawn_per.nss') + read_file('Code\\Includes\\box_inc_spawn_tel.nss')
-inctreasure = read_file('Code\\Includes\\box_inc_treas_per.nss') + read_file('Code\\Includes\\box_inc_treas_tel.nss')
+inctreasure = read_file('Code\\box_inc_treasure.nss')
 
 armorgen = read_file('Code\\armorgen.py')
 featgen = read_file('Code\\featgen.py')
@@ -962,7 +972,7 @@ with open('Data\\enemyweapons.csv', 'r') as csvfile:
 		add_line(baseitems, row, baseitemheader_pattern, ';HEADERS')
 		add_line(baseitems, row, baseitemini_pattern, ';ITEMS')
 
-
+		
 # Modules
 with open('Data\\modules.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
@@ -1007,8 +1017,14 @@ with open('Data\\enemies.csv', 'r') as csvfile:
 with open('Data\\treasures.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
-		verify_function(inctreasure, row['functioncall'])
-		add_line(scriptgen, row, treasurescript_pattern, '#SCRIPTS')
+		if row['type'] == 'script':
+			add_line(scriptgen, row, treasurescript_pattern, '#SCRIPTS')
+			add_line(inctreasure, row, treasurefunction_pattern, '//FUNCTIONS')
+		if row['type'] == 'static':
+			add_line(scriptgen, row, treasurescript_pattern, '#SCRIPTS')
+		if row['type'] == 'treasure':
+			add_line(inctreasure, row, treasureitem_pattern, '//' + row['functioncall'])
+
 
 # Placeables
 with open('Data\\placeables.csv', 'r') as csvfile:

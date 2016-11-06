@@ -1,0 +1,17 @@
+type	script	functioncall	include	itemconst
+script	bxt_perstl	Box_PeragusStealthBelt	box_inc_treasure	
+treasure		Box_PeragusStealthBelt		STEALTH_FIELD_GENERATOR
+treasure		Box_PeragusStealthBelt		MEDPAC_1
+script	bxt_perion	Box_PeragusIonGrenades	box_inc_treasure	
+treasure		Box_PeragusIonGrenades		ION_GRENADE
+treasure		Box_PeragusIonGrenades		ION_GRENADE
+treasure		Box_PeragusIonGrenades		CREDITS_10
+script	bxt_pertorch	Box_PeragusPlasmaTorch	box_inc_treasure	
+treasure		Box_PeragusPlasmaTorch		PLASMA_TORCH
+script	bxt_pervibct	Box_PeragusVibrocutter	box_inc_treasure	
+treasure		Box_PeragusVibrocutter		VIBROCUTTER
+treasure		Box_PeragusVibrocutter		CREDITS_5
+script	bxt_secspk1	Box_SecuritySpike	box_inc_treasure	
+treasure		Box_SecuritySpike		SECURITY_SPIKE_1
+script	bxt_5credits	Box_5Credits	box_inc_treasure	
+treasure		Box_5Credits		CREDITS_5

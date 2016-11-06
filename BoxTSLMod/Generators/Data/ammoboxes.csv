@@ -31,9 +31,9 @@ ba_psndt,medstation,BOXI_AMMOBOX,300,Poison Darts (20),,POISON_DARTS_BOX,BOX_POI
 ba_slpdt,medstation,BOXI_AMMOBOX,300,Tranquilizer Darts (20),,SLEEP_DARTS_BOX,BOX_SLEEP_DARTS_BOX,3,box_sleepdartbox,****,fa_slpdt,20
 ba_kybdt,medstation,BOXI_AMMOBOX,750,Kyber Darts (20),,KYBER_DARTS_BOX,BOX_KYBER_DARTS_BOX,3,box_kyberdartbox,****,fa_kybdt,20
 ba_pardt,medstation,BOXI_AMMOBOX,750,Paralysis Darts (20),,PARALYSIS_DARTS_BOX,BOX_PARALYSIS_DARTS_BOX,3,box_paralysisdartbox,****,fa_pardt,20
-bh_repair1,workbench,BOXI_AMMOBOX,25,Small Repair Kits (10),,REPAIR_KIT_1_BOX,BOX_REPAIR_KIT_1_BOX,3,box_repairkit1box,****,hd_repair1,10
-bh_repair2,workbench,BOXI_AMMOBOX,50,Repair Kits (10),,REPAIR_KIT_2_BOX,BOX_REPAIR_KIT_2_BOX,3,box_repairkit2box,****,hd_repair2,10
-bh_repair3,workbench,BOXI_AMMOBOX,100,Advanced Repair Kits (10),,REPAIR_KIT_3_BOX,BOX_REPAIR_KIT_3_BOX,3,box_repairkit3box,****,hd_repair3,10
-bh_repair4,workbench,BOXI_AMMOBOX,150,Construction Kits (10),,REPAIR_KIT_4_BOX,BOX_REPAIR_KIT_4_BOX,3,box_repairkit4box,****,hd_repair4,10
-bh_quick1,workbench,BOXI_AMMOBOX,125,Quick Fix Kits (10),,QUICK_FIX_KIT_1_BOX,BOX_QUICK_FIX_KIT_1_BOX,3,box_quickkit1box,****,hd_quick1,10
-bh_quick2,workbench,BOXI_AMMOBOX,175,Quicker Fix Kits (10),,QUICK_FIX_KIT_2_BOX,BOX_QUICK_FIX_KIT_2_BOX,3,box_quickkit2box,****,hd_quick2,10
+bh_repair1,workbench,BOXI_AMMOBOX,50,Small Repair Kits (12),,REPAIR_KIT_1_BOX,BOX_REPAIR_KIT_1_BOX,3,box_repairkit1box,****,hd_repair1,12
+bh_repair2,workbench,BOXI_AMMOBOX,100,Repair Kits (12),,REPAIR_KIT_2_BOX,BOX_REPAIR_KIT_2_BOX,3,box_repairkit2box,****,hd_repair2,12
+bh_repair3,workbench,BOXI_AMMOBOX,200,Advanced Repair Kits (12),,REPAIR_KIT_3_BOX,BOX_REPAIR_KIT_3_BOX,3,box_repairkit3box,****,hd_repair3,12
+bh_repair4,workbench,BOXI_AMMOBOX,300,Construction Kits (12),,REPAIR_KIT_4_BOX,BOX_REPAIR_KIT_4_BOX,3,box_repairkit4box,****,hd_repair4,12
+bh_quick1,workbench,BOXI_AMMOBOX,200,Quick Fix Kits (8),,QUICK_FIX_KIT_1_BOX,BOX_QUICK_FIX_KIT_1_BOX,3,box_quickkit1box,****,hd_quick1,8
+bh_quick2,workbench,BOXI_AMMOBOX,300,Quicker Fix Kits (8),,QUICK_FIX_KIT_2_BOX,BOX_QUICK_FIX_KIT_2_BOX,3,box_quickkit2box,****,hd_quick2,8

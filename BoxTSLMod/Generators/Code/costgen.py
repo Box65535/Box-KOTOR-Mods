@@ -4,7 +4,8 @@ class Item:
 		self.name = name
 		self.cost = cost
 
-scale = 1
+scalar = 1
+divisor = 2
 
 costs = []
 # Generated lines go here
@@ -13,7 +14,8 @@ costs = []
 
 
 for cost in costs:
-	cost.cost *= scale
+	cost.cost *= scalar
+	cost.cost //= divisor
 
 header = 'error'
 with open('costheader.ini', 'r') as file:

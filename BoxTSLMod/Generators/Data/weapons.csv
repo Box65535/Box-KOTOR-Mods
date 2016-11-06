@@ -1,8 +1,8 @@
 tag,type,baseitemcode,cost,name,model,upgradelevel,tagconst,poisoncode,dc
 wm_short,new,BOXI_SHORTSWORD,50,Short Sword,1,2,SHORT_SWORD,,
 wm_long,new,BOXI_LONGSWORD,100,Long Sword,1,2,LONG_SWORD,,
-wm_quarter,new,BOXI_QUARTERSTAFF,75,Quarterstaff,3,1,QUARTERSTAFF,,
-wm_dblade,new,BOXI_DOUBLESWORD,175,Double-Edged Sword,1,2,DOUBLE_BLADE,,
+wm_quarter,new,BOXI_QUARTERSTAFF,100,Quarterstaff,3,1,QUARTERSTAFF,,
+wm_dblade,new,BOXI_DOUBLESWORD,200,Double-Edged Sword,1,2,DOUBLE_BLADE,,
 wm_baton,new,BOXI_STUNBATON,100,Stun Baton,1,1,STUN_BATON,,12
 wm_pike,new,BOXI_FORCEPIKE,250,Force Pike,1,1,FORCE_PIKE,,12
 wm_plasma,new,BOXI_STUNBATON,200,Plasma Torch,5,0,PLASMA_TORCH,,

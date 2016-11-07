@@ -489,3 +489,45 @@ Ionite Edge 3
 -Electric +3 vs Human
 -Stun Droid 25% DC 20
 
+
+
+Passive Grip 1 - 3
+Aggro Grip 1 - 3
+Metal Edge 1 - 4
+Poison Edge 1 - 5
+Defend Grip 1 - 6
+Ionite Edge 1 - 7
+Paralysis Edge 1 - 8
+Energy Cell - 9
+Metal Edge 2 - 10
+Passive Grip 2 - 11
+Aggro Grip 2 - 11
+Poison Edge 2 - 12
+Vibration Cell - 13
+Defend Grip 2 - 14
+Power Grip 1 - 15
+Ionite Edge 2 - 15
+Metal Edge 3 - 16
+Paralysis Edge 2 - 16
+Balanced Grip 1 - 16
+Ion Cell - 17
+Burning Edge 1 - 18
+Balanced Grip 2 - 19
+Poison Edge 3 - 20
+Passive Grip 3 - 20
+Aggro Grip 3 - 20
+Chilling Edge 1 - 21
+Electric Cell - 21
+Metal Edge 4 - 22
+Ionite Edge 3 - 23
+Paralysis Edge 3 - 24
+Defend Grip 3 - 25
+Plasma Cell - 26
+Power Grip 2 - 26
+Burning Edge 2 - 27
+Metal Edge 5 - 28
+Sonic Discharge Cell - 29
+Balanced Grip 3 - 29
+Chilling Edge 2 - 30
+
+

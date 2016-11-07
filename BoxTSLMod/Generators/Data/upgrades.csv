@@ -83,43 +83,42 @@ um_ion,melee,,Ion Cell,,3,MELEE_UPGRADE_ION,,,science,,0,melee_group
 um_plasma,melee,,Plasma Cell,,3,MELEE_UPGRADE_PLASMA,,,science,,0,melee_group
 um_vibro,melee,,Vibration Cell,,3,MELEE_UPGRADE_VIBRO,,,science,,0,melee_group
 um_sonic,melee,,Sonic Discharge Cell,,3,MELEE_UPGRADE_SONIC,,,science,,0,melee_group
-ur_scope1,ranged,,Accuracy Scope Mk I,,1,RANGED_UPGRADE_SCOPE_1,,,repair,,0,ranged_group
-ur_scope2,ranged,,Accuracy Scope Mk II,,1,RANGED_UPGRADE_SCOPE_2,,,repair,,0,ranged_group
-ur_keen,ranged,,Targeting Scope,,1,RANGED_UPGRADE_KEEN_SCOPE,,,repair,,0,ranged_group
-ur_energy1,ranged,,Rylith Cell Mk I,,3,RANGED_UPGRADE_ENERGY_1,,,science,,0,ranged_group
-ur_energy2,ranged,,Rylith Cell Mk II,,3,RANGED_UPGRADE_ENERGY_2,,,science,,0,ranged_group
-ur_energy3,ranged,,Rylith Cell Mk III,,3,RANGED_UPGRADE_ENERGY_3,,,science,,0,ranged_group
-ur_energy4,ranged,,Rylith Cell Mk IV,,3,RANGED_UPGRADE_ENERGY_4,,,science,,0,ranged_group
-ur_ion1,ranged,,Ion Cell Mk I,,3,RANGED_UPGRADE_ION_1,,,science,,0,ranged_group
-ur_ion2,ranged,,Ion Cell Mk II,,3,RANGED_UPGRADE_ION_2,,,science,,0,ranged_group
-ur_ion3,ranged,,Ion Cell Mk III,,3,RANGED_UPGRADE_ION_3,,,science,,0,ranged_group
-ur_crit1,ranged,,Power Pulsator Mk I,,3,RANGED_UPGRADE_CRIT_1,,,science,,0,ranged_group
-ur_crit2,ranged,,Power Pulsator Mk II,,3,RANGED_UPGRADE_CRIT_2,,,science,,0,ranged_group
-ur_crit3,ranged,,Power Pulsator Mk III,,3,RANGED_UPGRADE_CRIT_3,,,science,,0,ranged_group
-ur_plasma1,ranged,,Plasma Cell Mk I,,3,RANGED_UPGRADE_PLASMA_1,,,science,,0,ranged_group
-ur_plasma2,ranged,,Plasma Cell Mk II,,3,RANGED_UPGRADE_PLASMA_2,,,science,,0,ranged_group
-ur_cold1,ranged,,Carbonite Cell Mk I,,3,RANGED_UPGRADE_COLD_1,,14,science,,0,ranged_group
-ur_cold2,ranged,,Carbonite Cell Mk II,,3,RANGED_UPGRADE_COLD_2,,18,science,,0,ranged_group
-ur_elec1,ranged,,Electric Cell Mk I,,3,RANGED_UPGRADE_ELECTRIC_1,,10,science,,0,ranged_group
-ur_elec2,ranged,,Electric Cell Mk III,,3,RANGED_UPGRADE_ELECTRIC_2,,14,science,,0,ranged_group
-ur_elec3,ranged,,Electric Cell Mk III,,3,RANGED_UPGRADE_ELECTRIC_3,,18,science,,0,ranged_group
-ur_wide1,ranged,,Broadening Chamber Mk I,,2,RANGED_UPGRADE_WIDENING_1,,,science,,0,ranged_group
-ur_wide2,ranged,,Broadening Chamber Mk II,,2,RANGED_UPGRADE_WIDENING_2,,,science,,0,ranged_group
-ur_wide3,ranged,,Broadening Chamber Mk III,,2,RANGED_UPGRADE_WIDENING_3,,,science,,0,ranged_group
-ur_conc1,ranged,,Concentrating Chamber Mk I,,2,RANGED_UPGRADE_CONCENTRATING_1,,,science,,0,ranged_group
-ur_conc2,ranged,,Concentrating Chamber Mk II,,2,RANGED_UPGRADE_CONCENTRATING_2,,,science,,0,ranged_group
-ur_conc3,ranged,,Concentrating Chamber Mk III,,2,RANGED_UPGRADE_CONCENTRATING_3,,,science,,0,ranged_group
-ur_precis1,ranged,,Precision Chamber Mk I,,2,RANGED_UPGRADE_PRECISION_1,,,science,,0,ranged_group
-ur_precis2,ranged,,Precision Chamber Mk II,,2,RANGED_UPGRADE_PRECISION_2,,,science,,0,ranged_group
-ur_ionize1,ranged,,Ionizing Chamber Mk I,,2,RANGED_UPGRADE_IONIZING_1,,,science,,0,ranged_group
-ur_ionize2,ranged,,Ionizing Chamber Mk II,,2,RANGED_UPGRADE_IONIZING_2,,,science,,0,ranged_group
-ur_ionize3,ranged,,Ionizing Chamber Mk III,,2,RANGED_UPGRADE_IONIZING_3,,,science,,0,ranged_group
-ur_disrup1,ranged,,Mandalorian Chamber Mk I,,2,RANGED_UPGRADE_DISRUPTING_1,,,science,,0,ranged_group
-ur_disrup2,ranged,,Mandalorian Chamber Mk II,,2,RANGED_UPGRADE_DISRUPTING_2,,,science,,0,ranged_group
-ur_disrup3,ranged,,Mandalorian Chamber Mk III,,2,RANGED_UPGRADE_DISRUPTING_3,,,science,,0,ranged_group
-ur_stun1,ranged,,Stun Chamber Mk I,,2,RANGED_UPGRADE_STUNNING_1,,12,science,,0,ranged_group
-ur_stun2,ranged,,Stun Chamber Mk II,,2,RANGED_UPGRADE_STUNNING_2,,16,science,,0,ranged_group
-ur_stun3,ranged,,Stun Chamber Mk III,,2,RANGED_UPGRADE_STUNNING_3,,20,science,,0,ranged_group
+ur_scope1,ranged,,Accuracy Scope Mk I,,1,RANGED_UPGRADE_SCOPE_1,,,repair,11,0,ranged_group
+ur_scope2,ranged,,Accuracy Scope Mk II,,1,RANGED_UPGRADE_SCOPE_2,,,repair,28,0,ranged_group
+ur_keen,ranged,,Targeting Scope,,1,RANGED_UPGRADE_KEEN_SCOPE,,,repair,19,0,ranged_group
+ur_energy1,ranged,,Rylith Cell Mk I,,3,RANGED_UPGRADE_ENERGY_1,,,science,5,0,ranged_group
+ur_energy2,ranged,,Rylith Cell Mk II,,3,RANGED_UPGRADE_ENERGY_2,,,science,13,0,ranged_group
+ur_energy3,ranged,,Rylith Cell Mk III,,3,RANGED_UPGRADE_ENERGY_3,,,science,21,0,ranged_group
+ur_energy4,ranged,,Rylith Cell Mk IV,,3,RANGED_UPGRADE_ENERGY_4,,,science,29,0,ranged_group
+ur_ion1,ranged,,Ion Cell Mk I,,3,RANGED_UPGRADE_ION_1,,,science,8,0,ranged_group
+ur_ion2,ranged,,Ion Cell Mk II,,3,RANGED_UPGRADE_ION_2,,,science,17,0,ranged_group
+ur_ion3,ranged,,Ion Cell Mk III,,3,RANGED_UPGRADE_ION_3,,,science,25,0,ranged_group
+ur_crit1,ranged,,Power Pulsator Mk I,,3,RANGED_UPGRADE_CRIT_1,,,science,7,0,ranged_group
+ur_crit2,ranged,,Power Pulsator Mk II,,3,RANGED_UPGRADE_CRIT_2,,,science,16,0,ranged_group
+ur_crit3,ranged,,Power Pulsator Mk III,,3,RANGED_UPGRADE_CRIT_3,,,science,24,0,ranged_group
+ur_plasma1,ranged,,Plasma Cell Mk I,,3,RANGED_UPGRADE_PLASMA_1,,,science,15,0,ranged_group
+ur_plasma2,ranged,,Plasma Cell Mk II,,3,RANGED_UPGRADE_PLASMA_2,,,science,30,0,ranged_group
+ur_cold1,ranged,,Carbonite Cell Mk I,,3,RANGED_UPGRADE_COLD_1,,14,science,18,0,ranged_group
+ur_cold2,ranged,,Carbonite Cell Mk II,,3,RANGED_UPGRADE_COLD_2,,18,science,27,0,ranged_group
+ur_elec1,ranged,,Electric Cell Mk I,,3,RANGED_UPGRADE_ELECTRIC_1,,10,science,10,0,ranged_group
+ur_elec2,ranged,,Electric Cell Mk III,,3,RANGED_UPGRADE_ELECTRIC_2,,14,science,18,0,ranged_group
+ur_elec3,ranged,,Electric Cell Mk III,,3,RANGED_UPGRADE_ELECTRIC_3,,18,science,26,0,ranged_group
+ur_wide1,ranged,,Broadening Chamber Mk I,,2,RANGED_UPGRADE_WIDENING_1,,,science,4,0,ranged_group
+ur_wide2,ranged,,Broadening Chamber Mk II,,2,RANGED_UPGRADE_WIDENING_2,,,science,12,0,ranged_group
+ur_wide3,ranged,,Broadening Chamber Mk III,,2,RANGED_UPGRADE_WIDENING_3,,,science,20,0,ranged_group
+ur_conc1,ranged,,Concentrating Chamber Mk I,,2,RANGED_UPGRADE_CONCENTRATING_1,,,science,4,0,ranged_group
+ur_conc2,ranged,,Concentrating Chamber Mk II,,2,RANGED_UPGRADE_CONCENTRATING_2,,,science,12,0,ranged_group
+ur_conc3,ranged,,Concentrating Chamber Mk III,,2,RANGED_UPGRADE_CONCENTRATING_3,,,science,20,0,ranged_group
+ur_precis1,ranged,,Precision Chamber Mk I,,2,RANGED_UPGRADE_PRECISION_1,,,science,16,0,ranged_group
+ur_precis2,ranged,,Precision Chamber Mk II,,2,RANGED_UPGRADE_PRECISION_2,,,science,24,0,ranged_group
+ur_ionize1,ranged,,Ionizing Chamber Mk I,,2,RANGED_UPGRADE_IONIZING_1,,,science,6,0,ranged_group
+ur_ionize2,ranged,,Ionizing Chamber Mk II,,2,RANGED_UPGRADE_IONIZING_2,,,science,14,0,ranged_group
+ur_ionize3,ranged,,Ionizing Chamber Mk III,,2,RANGED_UPGRADE_IONIZING_3,,,science,22,0,ranged_group
+ur_disrup1,ranged,,Mandalorian Chamber Mk I,,2,RANGED_UPGRADE_DISRUPTING_1,,,science,15,0,ranged_group
+ur_disrup2,ranged,,Mandalorian Chamber Mk II,,2,RANGED_UPGRADE_DISRUPTING_2,,,science,23,0,ranged_group
+ur_stun1,ranged,,Stun Chamber Mk I,,2,RANGED_UPGRADE_STUNNING_1,,12,science,9,0,ranged_group
+ur_stun2,ranged,,Stun Chamber Mk II,,2,RANGED_UPGRADE_STUNNING_2,,16,science,17,0,ranged_group
+ur_stun3,ranged,,Stun Chamber Mk III,,2,RANGED_UPGRADE_STUNNING_3,,20,science,25,0,ranged_group
 ul_wide1,saber,,Widening Lens,,1,SABER_UPGRADE_WIDENING_1,,,science,,0,saber_group
 ul_wide2,saber,,Enhanced Widening Lens,,1,SABER_UPGRADE_WIDENING_2,,,science,,0,saber_group
 ul_kunda1,saber,,Kunda Lens,,1,SABER_UPGRADE_KUNDA_1,,,science,,0,saber_group

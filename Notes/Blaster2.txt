@@ -438,3 +438,128 @@ Stunning Chamber Mk II
 Stunning Chamber Mk III
 -No Damage
 -Stun 100% DC 20
+
+
+
+
+Energy Cell Mk I
+Energy Cell Mk II
+Energy Cell Mk III
+Energy Cell Mk IV
+Ion Cell Mk I
+Ion Cell Mk II
+Ion Cell Mk III
+Crit Cell Mk I
+Crit Cell Mk II
+Crit Cell Mk III
+Plasma Cell Mk I
+Plasma Cell Mk II
+Cold Cell Mk I
+Cold Cell Mk II
+Electric Cell Mk I
+Electric Cell Mk II
+Electric Cell Mk III
+
+Widening Chamber Mk I
+Widening Chamber Mk II
+Widening Chamber Mk III
+Concentrating Chamber Mk I
+Concentrating Chamber Mk II
+Concentrating Chamber Mk III
+Precision Chamber Mk I
+Precision Chamber Mk II
+Ionizing Chamber Mk I
+Ionizing Chamber Mk II
+Disrupting Chamber Mk I
+Disrupting Chamber Mk II
+Disrupting Chamber Mk III
+Stunning Chamber Mk I
+Stunning Chamber Mk II
+Stunning Chamber Mk III
+
+Widening Chamber Mk I - 5
+Concentrating Chamber Mk I - 5
+Energy Cell Mk I - 6
+Ionizing Chamber Mk I - 7
+Crit Cell Mk I - 8
+Ion Cell Mk I - 9
+Stunning Chamber Mk I - 10
+Electric Cell Mk I - 11
+
+Accuray Scope 1 - 11
+
+Widening Chamber Mk II - 12
+Concentrating Chamber Mk II - 12
+Energy Cell Mk II - 10
+Ionizing Chamber Mk II - 11
+Disruption Chamber Mk I - 11
+Precision Chamber Mk I - 11
+Plasma Cell Mk I - 12
+Crit Cell Mk II - 13
+Ion Cell Mk II - 14
+Stunning Chamber Mk II - 15
+Electric Cell Mk II - 16
+Cold Cell Mk I - 17
+Keen Scope - 18
+
+
+Widening Chamber Mk I - 4
+Concentrating Chamber Mk I - 4
+Energy Cell Mk I - 5
+Ionizing Chamber Mk I - 6
+Crit Cell Mk I - 7
+Ion Cell Mk I - 8
+Stunning Chamber Mk I - 9
+Electric Cell Mk I - 10
+Accuray Scope 1 - 11
+Widening Chamber Mk II - 12
+Concentrating Chamber Mk II - 12
+Energy Cell Mk II - 13
+Ionizing Chamber Mk II - 14
+Disrupting Chamber Mk I - 15
+Precision Chamber Mk I - 16
+Crit Cell Mk II - 16
+Ion Cell Mk II - 17
+Stunning Chamber Mk II - 17
+Electric Cell Mk II - 18
+Cold Cell Mk I - 18
+Keen Scope - 19
+Widening Chamber Mk III - 20
+Concentrating Chamber Mk III - 20
+Energy Cell Mk III - 21
+Ionizing Chamber Mk III - 22
+Disrupting Chamber Mk II - 23
+Precision Chamber Mk II - 24
+Crit Cell Mk III - 24
+Ion Cell Mk III - 25
+Stunning Chamber Mk III - 25
+Electric Cell Mk III - 26
+Cold Cell Mk II - 27
+Accuracy Scope 2 - 28
+Energy Cell Mk IV - 29
+Plasma Cell Mk II - 30
+
+
+Energy Cell Mk II
+Widening Chamber Mk II
+Concentrating Chamber Mk II
+Crit Cell Mk II
+Ion Cell Mk II
+Disrupting Chamber Mk I
+Electric Cell Mk II
+
+
+
+Plasma Cell Mk I
+Cold Cell Mk I
+Energy Cell Mk III
+Ion Cell Mk III
+Crit Cell Mk III
+Electric Cell Mk III
+Energy Cell Mk IV
+Plasma Cell Mk II
+Cold Cell Mk II
+
+
+Accur
+

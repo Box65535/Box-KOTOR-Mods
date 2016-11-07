@@ -707,5 +707,52 @@ The upgrades, I think I'm mostly satisfied with them as well actually
 
 
 
+Alright skill requirements for upgrades
 
+Poison I - 3
+Environmental I	- 4
+
+Energy Shielding I - 6
+Ballistic Shielding I -6
+Heat Shielding I - 7
+Poison II - 7
+Environmental II - 8
+Radiant Shielding I - 8
+Mind-Affecting I - 9
+Flexible I - 10
+Stealth Coating I - 11
+
+Poison III - 12
+Energy Shielding II - 13
+Ballistic Shielding II - 13
+Heat Shielding II - 14
+Mind-Affecting II - 15
+Radiant Shielding II - 15
+Alblative Plating I - 16
+Strengthening I - 16
+Flexible II - 17
+Stealth Coating II - 17
+Protecting I - 18
+
+Poison IV - 19
+Energy Shielding III - 20
+Ballistic Shielding III - 20
+Mind-Affecting III - 21
+Heat Shielding III - 21
+Radiant Shielding III - 22
+Strengthening II - 22
+Flexible III - 23
+Alblative Plating II - 23
+Stealth Coating III - 24
+Regen I	- 24
+Protecting II - 25
+
+Energy Shielding IV - 26
+Ballistic Shielding IV - 26
+Heat Shielding IV - 27
+Radiant Shielding IV - 28
+Strengthening III - 28
+Alblative Plating III - 29
+Stealth Coating IV - 30
+Regen II - 30
 

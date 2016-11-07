@@ -1,64 +1,64 @@
 tag,type,cost,name,model,upgradelevel,tagconst,poisoncode,dc,skill,skillreq,levelreq,craftgroup
-ua_ablat1,armor,900,Ablative Plating Mk I,,3,ARMOR_UPGRADE_ABLATIVE_1,,,science,,0,armor_group
-ua_ablat2,armor,1700,Ablative Plating Mk II,,4,ARMOR_UPGRADE_ABLATIVE_2,,,science,,0,armor_group
-ua_ablat3,armor,3600,Ablative Plating Mk III,,5,ARMOR_UPGRADE_ABLATIVE_3,,,science,,0,armor_group
-ua_ballis1,armor,550,Ballistic Shielding Mk I,,2,ARMOR_UPGRADE_BALLISTIC_1,,,repair,,0,armor_group
-ua_ballis2,armor,1100,Ballistic Shielding Mk III,,3,ARMOR_UPGRADE_BALLISTIC_2,,,repair,,0,armor_group
-ua_ballis3,armor,2000,Ballistic Shielding Mk III,,4,ARMOR_UPGRADE_BALLISTIC_3,,,repair,,0,armor_group
-ua_ballis4,armor,3200,Ballistic Shielding Mk IV,,5,ARMOR_UPGRADE_BALLISTIC_4,,,repair,,0,armor_group
-ua_energy1,armor,600,Energy Shielding Mk I,,2,ARMOR_UPGRADE_ENERGY_1,,,science,,0,armor_group
-ua_energy2,armor,1200,Energy Shielding Mk III,,3,ARMOR_UPGRADE_ENERGY_2,,,science,,0,armor_group
-ua_energy3,armor,2100,Energy Shielding Mk III,,4,ARMOR_UPGRADE_ENERGY_3,,,science,,0,armor_group
-ua_energy4,armor,3500,Energy Shielding Mk IV,,5,ARMOR_UPGRADE_ENERGY_4,,,science,,0,armor_group
-ua_heat1,armor,400,Heat Shielding Mk I,,2,ARMOR_UPGRADE_HEAT_1,,,science,,0,armor_group
-ua_heat2,armor,850,Heat Shielding Mk II,,3,ARMOR_UPGRADE_HEAT_2,,,science,,0,armor_group
-ua_heat3,armor,1900,Heat Shielding Mk III,,4,ARMOR_UPGRADE_HEAT_3,,,science,,0,armor_group
-ua_heat4,armor,3400,Heat Shielding Mk IV,,5,ARMOR_UPGRADE_HEAT_4,,,science,,0,armor_group
-ua_radian1,armor,500,Radiant Shielding Mk I,,2,ARMOR_UPGRADE_RADIANT_1,,,science,,0,armor_group
-ua_radian2,armor,1150,Radiant Shielding Mk II,,3,ARMOR_UPGRADE_RADIANT_2,,,science,,0,armor_group
-ua_radian3,armor,2300,Radiant Shielding Mk III,,4,ARMOR_UPGRADE_RADIANT_3,,,science,,0,armor_group
-ua_radian4,armor,3800,Radiant Shielding Mk IV,,5,ARMOR_UPGRADE_RADIANT_4,,,science,,0,armor_group
-ua_steal1,armor,800,Stealth Coating Mk I,,2,ARMOR_UPGRADE_STEALTH_1,,,science,,0,armor_group
-ua_steal2,armor,1550,Stealth Coating Mk II,,3,ARMOR_UPGRADE_STEALTH_2,,,science,,0,armor_group
-ua_steal3,armor,3200,Stealth Coating Mk III,,4,ARMOR_UPGRADE_STEALTH_3,,,science,,0,armor_group
-ua_steal4,armor,5000,Stealth Coating Mk IV,,5,ARMOR_UPGRADE_STEALTH_4,,,science,,0,armor_group
-ua_biores1,armor,2000,Biorestorative Underlay Mk I,,4,ARMOR_UPGRADE_BIORESTORATIVE_1,,,medicine,,0,armor_group
-ua_biores2,armor,5000,Biorestorative Underlay Mk II,,5,ARMOR_UPGRADE_BIORESTORATIVE_2,,,medicine,,0,armor_group
-ua_envir1,armor,200,Environmental Underlay Mk I,,1,ARMOR_UPGRADE_ENVIRONMENT_1,,,science,,0,armor_group
-ua_envir2,armor,450,Environmental Underlay Mk II,,2,ARMOR_UPGRADE_ENVIRONMENT_2,,,science,,0,armor_group
-ua_mental1,armor,550,Nerve-Enhancing Underlay Mk I,,2,ARMOR_UPGRADE_MIND_PROTECT_1,,,science,,0,armor_group
-ua_mental2,armor,900,Nerve-Enhancing Underlay Mk III,,3,ARMOR_UPGRADE_MIND_PROTECT_2,,,science,,0,armor_group
-ua_mental3,armor,1900,Nerve-Enhancing Underlay Mk III,,4,ARMOR_UPGRADE_MIND_PROTECT_3,,,science,,0,armor_group
-ua_med1,armor,150,Medical Underlay Mk I,,1,ARMOR_UPGRADE_MEDICAL_1,,,medicine,,0,armor_group
-ua_med2,armor,350,Medical Underlay Mk III,,2,ARMOR_UPGRADE_MEDICAL_2,,,medicine,,0,armor_group
-ua_med3,armor,700,Medical Underlay Mk III,,3,ARMOR_UPGRADE_MEDICAL_3,,,medicine,,0,armor_group
-ua_med4,armor,1200,Medical Underlay Mk IV,,4,ARMOR_UPGRADE_MEDICAL_4,,,medicine,,0,armor_group
-ua_flex1,armor,650,Flexible Underlay Mk I,,2,ARMOR_UPGRADE_FLEX_1,,,repair,,0,armor_group
-ua_flex2,armor,1300,Flexible Underlay Mk III,,3,ARMOR_UPGRADE_FLEX_2,,,repair,,0,armor_group
-ua_flex3,armor,2100,Flexible Underlay Mk III,,4,ARMOR_UPGRADE_FLEX_3,,,repair,,0,armor_group
-ua_stren1,armor,1000,Strengthening Underlay Mk I,,3,ARMOR_UPGRADE_STRENGTHENING_1,,,science,,0,armor_group
-ua_stren2,armor,1800,Strengthening Underlay Mk II,,4,ARMOR_UPGRADE_STRENGTHENING_2,,,science,,0,armor_group
-ua_stren3,armor,4000,Strengthening Underlay Mk II,,5,ARMOR_UPGRADE_STRENGTHENING_3,,,science,,0,armor_group
-ua_prot1,armor,1200,Protecting Underlay Mk I,,3,ARMOR_UPGRADE_PROTECTING_1,,,science,,0,armor_group
-ua_prot2,armor,2400,Protecting Underlay Mk II,,4,ARMOR_UPGRADE_PROTECTING_2,,,science,,0,armor_group
-um_metal1,melee,,Basic Neutronium Edge,,2,MELEE_UPGRAGE_METAL_1,,,repair,,0,melee_group
-um_metal2,melee,,Improved Neutronium Edge,,2,MELEE_UPGRAGE_METAL_2,,,repair,,0,melee_group
-um_metal3,melee,,Superior Neutronium Edge,,2,MELEE_UPGRAGE_METAL_3,,,repair,,0,melee_group
-um_metal4,melee,,Deadly Neutronium Edge,,2,MELEE_UPGRAGE_METAL_4,,,repair,,0,melee_group
-um_metal5,melee,,Quadranium Edge,,2,MELEE_UPGRAGE_METAL_5,,,repair,,0,melee_group
-um_poison1,melee,,Mild Devaronian Edge,,2,MELEE_UPGRADE_POISON_1,BOXP_POISON_EDGE_1,,medicine,,0,melee_group
-um_poison2,melee,,Moderate Devaronian Edge,,2,MELEE_UPGRADE_POISON_2,BOXP_POISON_EDGE_2,,medicine,,0,melee_group
-um_poison3,melee,,Severe Devaronian Edge,,2,MELEE_UPGRADE_POISON_3,BOXP_POISON_EDGE_3,,medicine,,0,melee_group
-um_para1,melee,,Mild Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_1,,12,medicine,,0,melee_group
-um_para2,melee,,Moderate Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_2,,16,medicine,,0,melee_group
-um_para3,melee,,Severe Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_3,,20,medicine,,0,melee_group
-um_crit1,melee,,Basic Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_1,,,science,,0,melee_group
-um_crit2,melee,,Improved Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_2,,,science,,0,melee_group
-um_crit3,melee,,Superior Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_3,,,science,,0,melee_group
-um_crit4,melee,,Deadly Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_4,,,science,,0,melee_group
-um_ionite1,melee,,Basic Ionite Edge,,2,MELEE_UPGRADE_IONITE_1,,12,science,,0,melee_group
-um_ionite2,melee,,Improved Ionite Edge,,2,MELEE_UPGRADE_IONITE_2,,16,science,,0,melee_group
-um_ionite3,melee,,Superior Ionite Edge,,2,MELEE_UPGRADE_IONITE_3,,20,science,,0,melee_group
+ua_ablat1,armor,900,Ablative Plating Mk I,,3,ARMOR_UPGRADE_ABLATIVE_1,,,science,16,0,armor_group
+ua_ablat2,armor,1700,Ablative Plating Mk II,,4,ARMOR_UPGRADE_ABLATIVE_2,,,science,23,0,armor_group
+ua_ablat3,armor,3600,Ablative Plating Mk III,,5,ARMOR_UPGRADE_ABLATIVE_3,,,science,29,0,armor_group
+ua_ballis1,armor,550,Ballistic Shielding Mk I,,2,ARMOR_UPGRADE_BALLISTIC_1,,,repair,6,0,armor_group
+ua_ballis2,armor,1100,Ballistic Shielding Mk III,,3,ARMOR_UPGRADE_BALLISTIC_2,,,repair,13,0,armor_group
+ua_ballis3,armor,2000,Ballistic Shielding Mk III,,4,ARMOR_UPGRADE_BALLISTIC_3,,,repair,20,0,armor_group
+ua_ballis4,armor,3200,Ballistic Shielding Mk IV,,5,ARMOR_UPGRADE_BALLISTIC_4,,,repair,26,0,armor_group
+ua_energy1,armor,600,Energy Shielding Mk I,,2,ARMOR_UPGRADE_ENERGY_1,,,science,6,0,armor_group
+ua_energy2,armor,1200,Energy Shielding Mk III,,3,ARMOR_UPGRADE_ENERGY_2,,,science,13,0,armor_group
+ua_energy3,armor,2100,Energy Shielding Mk III,,4,ARMOR_UPGRADE_ENERGY_3,,,science,20,0,armor_group
+ua_energy4,armor,3500,Energy Shielding Mk IV,,5,ARMOR_UPGRADE_ENERGY_4,,,science,26,0,armor_group
+ua_heat1,armor,400,Heat Shielding Mk I,,2,ARMOR_UPGRADE_HEAT_1,,,science,7,0,armor_group
+ua_heat2,armor,850,Heat Shielding Mk II,,3,ARMOR_UPGRADE_HEAT_2,,,science,14,0,armor_group
+ua_heat3,armor,1900,Heat Shielding Mk III,,4,ARMOR_UPGRADE_HEAT_3,,,science,21,0,armor_group
+ua_heat4,armor,3400,Heat Shielding Mk IV,,5,ARMOR_UPGRADE_HEAT_4,,,science,27,0,armor_group
+ua_radian1,armor,500,Radiant Shielding Mk I,,2,ARMOR_UPGRADE_RADIANT_1,,,science,8,0,armor_group
+ua_radian2,armor,1150,Radiant Shielding Mk II,,3,ARMOR_UPGRADE_RADIANT_2,,,science,15,0,armor_group
+ua_radian3,armor,2300,Radiant Shielding Mk III,,4,ARMOR_UPGRADE_RADIANT_3,,,science,22,0,armor_group
+ua_radian4,armor,3800,Radiant Shielding Mk IV,,5,ARMOR_UPGRADE_RADIANT_4,,,science,28,0,armor_group
+ua_steal1,armor,800,Stealth Coating Mk I,,2,ARMOR_UPGRADE_STEALTH_1,,,science,11,0,armor_group
+ua_steal2,armor,1550,Stealth Coating Mk II,,3,ARMOR_UPGRADE_STEALTH_2,,,science,17,0,armor_group
+ua_steal3,armor,3200,Stealth Coating Mk III,,4,ARMOR_UPGRADE_STEALTH_3,,,science,24,0,armor_group
+ua_steal4,armor,5000,Stealth Coating Mk IV,,5,ARMOR_UPGRADE_STEALTH_4,,,science,30,0,armor_group
+ua_biores1,armor,2000,Biorestorative Underlay Mk I,,4,ARMOR_UPGRADE_BIORESTORATIVE_1,,,medicine,24,0,armor_group
+ua_biores2,armor,5000,Biorestorative Underlay Mk II,,5,ARMOR_UPGRADE_BIORESTORATIVE_2,,,medicine,30,0,armor_group
+ua_envir1,armor,200,Environmental Underlay Mk I,,1,ARMOR_UPGRADE_ENVIRONMENT_1,,,science,4,0,armor_group
+ua_envir2,armor,450,Environmental Underlay Mk II,,2,ARMOR_UPGRADE_ENVIRONMENT_2,,,science,8,0,armor_group
+ua_mental1,armor,550,Nerve-Enhancing Underlay Mk I,,2,ARMOR_UPGRADE_MIND_PROTECT_1,,,science,9,0,armor_group
+ua_mental2,armor,900,Nerve-Enhancing Underlay Mk III,,3,ARMOR_UPGRADE_MIND_PROTECT_2,,,science,15,0,armor_group
+ua_mental3,armor,1900,Nerve-Enhancing Underlay Mk III,,4,ARMOR_UPGRADE_MIND_PROTECT_3,,,science,21,0,armor_group
+ua_med1,armor,150,Medical Underlay Mk I,,1,ARMOR_UPGRADE_MEDICAL_1,,,medicine,3,0,armor_group
+ua_med2,armor,350,Medical Underlay Mk III,,2,ARMOR_UPGRADE_MEDICAL_2,,,medicine,7,0,armor_group
+ua_med3,armor,700,Medical Underlay Mk III,,3,ARMOR_UPGRADE_MEDICAL_3,,,medicine,12,0,armor_group
+ua_med4,armor,1200,Medical Underlay Mk IV,,4,ARMOR_UPGRADE_MEDICAL_4,,,medicine,19,0,armor_group
+ua_flex1,armor,650,Flexible Underlay Mk I,,2,ARMOR_UPGRADE_FLEX_1,,,repair,10,0,armor_group
+ua_flex2,armor,1300,Flexible Underlay Mk III,,3,ARMOR_UPGRADE_FLEX_2,,,repair,17,0,armor_group
+ua_flex3,armor,2100,Flexible Underlay Mk III,,4,ARMOR_UPGRADE_FLEX_3,,,repair,23,0,armor_group
+ua_stren1,armor,1000,Strengthening Underlay Mk I,,3,ARMOR_UPGRADE_STRENGTHENING_1,,,science,16,0,armor_group
+ua_stren2,armor,1800,Strengthening Underlay Mk II,,4,ARMOR_UPGRADE_STRENGTHENING_2,,,science,22,0,armor_group
+ua_stren3,armor,4000,Strengthening Underlay Mk II,,5,ARMOR_UPGRADE_STRENGTHENING_3,,,science,28,0,armor_group
+ua_prot1,armor,1200,Protecting Underlay Mk I,,3,ARMOR_UPGRADE_PROTECTING_1,,,science,18,0,armor_group
+ua_prot2,armor,2400,Protecting Underlay Mk II,,4,ARMOR_UPGRADE_PROTECTING_2,,,science,25,0,armor_group
+um_metal1,melee,200,Basic Neutronium Edge,,2,MELEE_UPGRAGE_METAL_1,,,repair,4,0,melee_group
+um_metal2,melee,400,Improved Neutronium Edge,,2,MELEE_UPGRAGE_METAL_2,,,repair,10,0,melee_group
+um_metal3,melee,800,Superior Neutronium Edge,,2,MELEE_UPGRAGE_METAL_3,,,repair,16,0,melee_group
+um_metal4,melee,1600,Deadly Neutronium Edge,,2,MELEE_UPGRAGE_METAL_4,,,repair,22,0,melee_group
+um_metal5,melee,3200,Quadranium Edge,,2,MELEE_UPGRAGE_METAL_5,,,repair,28,0,melee_group
+um_poison1,melee,250,Mild Devaronian Edge,,2,MELEE_UPGRADE_POISON_1,BOXP_POISON_EDGE_1,,medicine,5,0,melee_group
+um_poison2,melee,600,Moderate Devaronian Edge,,2,MELEE_UPGRADE_POISON_2,BOXP_POISON_EDGE_2,,medicine,12,0,melee_group
+um_poison3,melee,1500,Severe Devaronian Edge,,2,MELEE_UPGRADE_POISON_3,BOXP_POISON_EDGE_3,,medicine,20,0,melee_group
+um_para1,melee,450,Mild Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_1,,12,medicine,8,0,melee_group
+um_para2,melee,1100,Moderate Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_2,,16,medicine,16,0,melee_group
+um_para3,melee,2400,Severe Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_3,,20,medicine,24,0,melee_group
+um_crit1,melee,400,Basic Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_1,,,repair,,0,melee_group
+um_crit2,melee,700,Improved Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_2,,,repair,,0,melee_group
+um_crit3,melee,1200,Superior Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_3,,,repair,,0,melee_group
+um_crit4,melee,2000,Deadly Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_4,,,repair,,0,melee_group
+um_ionite1,melee,400,Basic Ionite Edge,,2,MELEE_UPGRADE_IONITE_1,,12,science,,0,melee_group
+um_ionite2,melee,950,Improved Ionite Edge,,2,MELEE_UPGRADE_IONITE_2,,16,science,,0,melee_group
+um_ionite3,melee,2200,Superior Ionite Edge,,2,MELEE_UPGRADE_IONITE_3,,20,science,,0,melee_group
 um_chill1,melee,,Ostrine Edge,,2,MELEE_UPGRADE_CHILLING_1,,,science,,0,melee_group
 um_chill2,melee,,Superior Ostrine Edge,,2,MELEE_UPGRADE_CHILLING_2,,,science,,0,melee_group
 um_burn1,melee,,Burning Edge,,2,MELEE_UPGRADE_BURNING_1,,12,science,,0,melee_group

@@ -821,7 +821,7 @@ with open('Data\\enemyweapons.csv', 'r') as csvfile:
 			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
 		if row['dc']:
 			add_line(dcs, row, dcheader_pattern, ';HEADERS')
-			add_line(dcs, row, dcini_pattern, ';DCS')
+			add_line(dcs, row, dcini_pattern, ';DCS')			
 
 
 # Enemy Spells
@@ -947,30 +947,6 @@ with open('Data\\powers.csv', 'r') as csvfile:
 	with open('powers.txt', 'w') as tlkout:
 		file.write(tlk)
 	tlk = "\nEOF"
-
-
-# Enemy Weapons
-with open('Data\\enemyweapons.csv', 'r') as csvfile:
-	reader = csv.DictReader(csvfile)
-	for row in reader:
-		
-		row['description'] = descriptions[row['tag']]
-		if 
-		copy_template('Data\\Static\\' + row['tag'] + '.uti', 'Data\\Items\\' + row['tag'] + '.uti')
-		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
-		if row['poisoncode']:
-			verify_code(poisons, row['poisoncode'])
-			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
-		if row['dc']:
-			add_line(dcs, row, dcheader_pattern, ';HEADERS')
-			add_line(dcs, row, dcini_pattern, ';DCS')
-		
-		
-		verify_code(feats, row['baseitemcode'])
-		add_line(featgen, row, itemcode_pattern, '#ITEMCODES')
-		add_line(itemconst, row, itemconst_pattern, '//ITEMS')
-		add_line(baseitems, row, baseitemheader_pattern, ';HEADERS')
-		add_line(baseitems, row, baseitemini_pattern, ';ITEMS')
 
 		
 # Modules

@@ -1,8 +1,8 @@
-tag,type,baseitemcode,cost,name,model,tagconst,spellcode,spellcr,script,launchsound,projectile,projpath,radius,functioncall,visualfunction,skill,skillreq,levelreq,craftgroup
-ag_frag,,BOXI_GRENADES,40,Frag Grenade,,FRAG_GRENADE,BOX_FRAG_GRENADE,3,box_fraggrenade,****,w_FragGren_001,grenade,4,Box_FragGrenade,Box_FragGrenadeExplode,demolitions,4,0,grenade_group
-ag_flash,,BOXI_GRENADES,40,Flash Grenade,,FLASH_GRENADE,BOX_FLASH_GRENADE,3,box_flashgrenade,****,w_StunGren_001,grenade,4,Box_FlashGrenade,Box_FlashGrenadeExplode,demolitions,4,0,grenade_group
-ag_ion,,BOXI_GRENADES,60,Ion Grenade,,ION_GRENADE,BOX_ION_GRENADE,3,box_iongrenade,****,w_IonGren_001,grenade,4,Box_IonGrenade,Box_IonGrenadeExplode,demolitions,6,0,grenade_group
-ag_sonic,,BOXI_GRENADES,60,Sonic Grenade,,SONIC_GRENADE,BOX_SONIC_GRENADE,3,box_sonicgrenade,****,w_SonicGren_001,grenade,4,Box_SonicGrenade,Box_SonicGrenadeExplode,demolitions,8,0,grenade_group
-ag_cold,,BOXI_GRENADES,100,CryoBan Grenade,,COLD_GRENADE,BOX_COLD_GRENADE,6,box_coldgrenade,****,w_CryobGren_001,grenade,4,Box_ColdGrenade,Box_ColdGrenadeExplode,demolitions,10,0,grenade_group
-ag_plasma,,BOXI_GRENADES,120,Plasma Grenade,,PLASMA_GRENADE,BOX_PLASMA_GRENADE,6,box_plasmagrenade,****,w_FireGren_001,grenade,4,Box_PlasmaGrenade,Box_PlasmaGrenadeExplode,demolitions,12,0,grenade_group
-ag_therm,,BOXI_GRENADES,900,Thermal Detonator,,THERMAL_DETONATOR,BOX_THERMAL_DETONATOR,9,box_thermaldetonator,****,w_ThermDet_001,grenade,4,Box_DetonatorGrenade,Box_DetonatorGrenadeExplode,demolitions,24,0,grenade_group
+tag,type,baseitemcode,cost,name,model,tagconst,spellcode,spellcr,script,launchsound,projectile,projpath,radius,functioncall,visualfunction,skill,skillreq,levelreq,craftgroup,spellexclusion
+ag_frag,,BOXI_GRENADES,40,Frag Grenade,,FRAG_GRENADE,BOX_FRAG_GRENADE,3,box_fraggrenade,****,w_FragGren_001,grenade,4,Box_FragGrenade,Box_FragGrenadeExplode,demolitions,4,0,grenade_group,0x00
+ag_flash,,BOXI_GRENADES,40,Flash Grenade,,FLASH_GRENADE,BOX_FLASH_GRENADE,3,box_flashgrenade,****,w_StunGren_001,grenade,4,Box_FlashGrenade,Box_FlashGrenadeExplode,demolitions,4,0,grenade_group,0x00
+ag_ion,,BOXI_GRENADES,60,Ion Grenade,,ION_GRENADE,BOX_ION_GRENADE,3,box_iongrenade,****,w_IonGren_001,grenade,4,Box_IonGrenade,Box_IonGrenadeExplode,demolitions,6,0,grenade_group,0x00
+ag_sonic,,BOXI_GRENADES,60,Sonic Grenade,,SONIC_GRENADE,BOX_SONIC_GRENADE,3,box_sonicgrenade,****,w_SonicGren_001,grenade,4,Box_SonicGrenade,Box_SonicGrenadeExplode,demolitions,8,0,grenade_group,0x00
+ag_cold,,BOXI_GRENADES,100,CryoBan Grenade,,COLD_GRENADE,BOX_COLD_GRENADE,6,box_coldgrenade,****,w_CryobGren_001,grenade,4,Box_ColdGrenade,Box_ColdGrenadeExplode,demolitions,10,0,grenade_group,0x00
+ag_plasma,,BOXI_GRENADES,120,Plasma Grenade,,PLASMA_GRENADE,BOX_PLASMA_GRENADE,6,box_plasmagrenade,****,w_FireGren_001,grenade,4,Box_PlasmaGrenade,Box_PlasmaGrenadeExplode,demolitions,12,0,grenade_group,0x00
+ag_therm,,BOXI_GRENADES,900,Thermal Detonator,,THERMAL_DETONATOR,BOX_THERMAL_DETONATOR,9,box_thermaldetonator,****,w_ThermDet_001,grenade,4,Box_DetonatorGrenade,Box_DetonatorGrenadeExplode,demolitions,24,0,grenade_group,0x00

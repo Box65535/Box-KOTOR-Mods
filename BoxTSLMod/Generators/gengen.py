@@ -850,6 +850,9 @@ with open('Data\\enemyspells.csv', 'r') as csvfile:
 		elif row['type'] == 'beam':
 			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
 			add_line(scriptgen, row, beamscript_pattern, '#SCRIPTS')
+		elif row['type'] == 'multibeam':
+			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
+			add_line(scriptgen, row, multibeamscript_pattern, '#SCRIPTS')
 		elif row['type'] == 'wave':
 			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
 			add_line(scriptgen, row, wavescript_pattern, '#SCRIPTS')

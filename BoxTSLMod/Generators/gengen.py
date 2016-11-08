@@ -828,14 +828,17 @@ with open('Data\\enemyweapons.csv', 'r') as csvfile:
 with open('Data\\enemyspells.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
-			copy_template('Data\\Templates\\enemyspell.uti', 'Data\\Items\\' + row['tag'] + '.uti')
-		if row['baseitem']:
-			add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
+		if row['use'] == 'single':
+			copy_template('Data\\Templates\\enemysinglespell.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		elif row['use'] == 'double':
+			copy_template('Data\\Templates\\enemydoublespell.uti', 'Data\\Items\\' + row['tag'] + '.uti')
 		else:
-			verify_code(baseitems, row['baseitemcode'])
-			add_line(featgen, row, baseitem_pattern, '#ITEMS')
-			add_line(fieldgen, row, field_pattern, '#ITEMS')
-		add_line(featgen, row, featreq_pattern, '#REQS')
+			copy_template('Data\\Templates\\enemyspell.uti', 'Data\\Items\\' + row['tag'] + '.uti')
+		row['name'] = 'Enemy Equipment'
+		row['description'] = 'Enemy Equipment'
+		row['cost'] = 0
+		verify_code(baseitems, row['baseitemcode'])
+		add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
 		verify_function(incgrenade + incfuelweap + incenergy, row['functioncall'])
 		verify_function(incvisual, row['visualfunction'])
 		if row['type'] == 'grenade':
@@ -850,6 +853,18 @@ with open('Data\\enemyspells.csv', 'r') as csvfile:
 		elif row['type'] == 'wave':
 			add_line(spellgen, row, beamspell_pattern, '#SPELLS')
 			add_line(scriptgen, row, wavescript_pattern, '#SCRIPTS')
+		elif row['type'] == 'shield':
+			add_line(spellgen, row, selfspell_pattern, '#SPELLS')
+			add_line(shieldgen, row, shield_pattern, '#ITEMS')
+			add_line(shieldgen, row, shieldabsorb_pattern, '#REPLACES')
+			add_line(shieldgen, row, shieldflags_pattern, '#REPLACES')
+			add_line(scriptgen, row, shieldscript_pattern, '#SCRIPTS')
+			add_line(shieldconst, row, shieldconst_pattern, '//SHIELDS')
+			add_line(shields, row, shieldheader_pattern, ';HEADERS')
+			add_line(shields, row, shieldini_pattern, ';SHIELDS')
+		elif row['type'] == 'buff':
+			add_line(spellgen, row, spellitem_pattern, '#ITEMS')
+			add_line(scriptgen, row, buffscript_pattern, '#SCRIPTS')
 		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(spellconst, row, spellconst_pattern, '//SPELLS')

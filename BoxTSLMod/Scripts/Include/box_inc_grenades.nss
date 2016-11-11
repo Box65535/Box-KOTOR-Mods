@@ -4,13 +4,6 @@
 // Include file for grenades
 
 
-// Peragus Grenades
-int Box_PeragusSonicGrenade(object oTarget) {
-	int save = Box_GetBestSave(oTarget, SAVING_THROW_REFLEX, SAVING_THROW_WILL);
-	return Box_SonicWeapon(oTarget, 10, 8, 2, save, 4, 30.0);
-}
-
-
 // Loose Grenades
 int Box_FragGrenade(object oTarget) {
 	int save = SAVING_THROW_REFLEX;

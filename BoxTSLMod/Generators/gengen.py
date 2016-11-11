@@ -104,7 +104,7 @@ cost_pattern = """costs.append(Item('{0.tag}', {0.cost}))"""
 
 # featgen.py
 featcode_pattern = """featcodes.append('{0.featcode}')"""
-featname_pattern = """featnames.append('{0.featname}_N')"""
+featname_pattern = """featnames.append('{0.featcode}_N')"""
 itemcode_pattern = """itemcodes.append('{0.baseitemcode}')"""
 baseitem_pattern = """items.append(Item('{0.tag}', '{0.baseitemcode}'))""" 
 featreq_pattern = """itemreqs['{0.tag}'] = '{0.featreq}'"""
@@ -332,6 +332,204 @@ armortype={armortype}
 storepanelsort={storepanelsort}
 ExclusiveColumn=label
 {baseitemcode}=RowIndex"""
+
+# feats.ini
+changefeatheader_pattern = """ChangeRow0{featconst}=feat_{featconst}"""
+changefeatini_pattern = """[feat_{featconst}]
+RowIndex={rowindex}
+label={featconst}
+name={name}
+description={description}
+icon={icon}
+mincharlevel={mincharlevel}
+minattackbonus={minattackbonus}
+minstr={minstr}
+mindex={mindex}
+minint={minint}
+minwis={minwis}
+minspelllvl={minspelllvl}
+prereqfeat1={prereqfeat1}
+prereqfeat1={prereqfeat2}
+gainmultiple={gainmultiple}
+effectsstack={effectsstack}
+allclassescanuse={allclassescanuse}
+constant={featconst}
+allclassescanuse={allclassescanuse}
+category={category}
+maxcr={maxcr}
+spellid={spellid}
+successor={successor}
+crvalue={crvalue}
+usesperday={usesperday}
+masterfeat={masterfeat}
+targetself={targetself}
+orreqfeat0={orreqfeat0}
+orreqfeat1={orreqfeat1}
+orreqfeat2={orreqfeat2}
+orreqfeat3={orreqfeat3}
+orreqfeat4={orreqfeat4}
+reqskill={reqskill}
+constant={featconst}
+toolscategories={toolscategories}
+hostilefeat={hostilefeat}
+jcn_pc_granted={jcn_pc_granted}
+jsn_pc_granted={jsn_pc_granted}
+jgd_pc_granted={jgd_pc_granted}
+scd_list={scd_list}
+scd_granted={scd_granted}
+scd_recom={scd_recom}
+sol_list={sol_list}
+sol_granted={sol_granted}
+sol_recom={sol_recom}
+sct_list={sct_list}
+sct_granted={sct_granted}
+sct_recom={sct_recom}
+jcn_list={jcn_list}
+jcn_granted={jcn_granted}
+jcn_recom={jcn_recom}
+jsn_list={jsn_list}
+jsn_granted={jsn_granted}
+jsn_recom={jsn_recom}
+jgd_list={jgd_list}
+jgd_granted={jgd_granted}
+jgd_recom={jgd_recom}
+sas_list={sas_list}
+sas_granted={sas_granted}
+sas_recom={sas_recom}
+sld_list={sld_list}
+sld_granted={sld_granted}
+sld_recom={sld_recom}
+sma_list={sma_list}
+sma_granted={sma_granted}
+sma_recom={sma_recom}
+jwm_list={jwm_list}
+jwm_granted={jwm_granted}
+jwm_recom={jwm_recom}
+jma_list={jma_list}
+jma_granted={jma_granted}
+jma_recom={jma_recom}
+jwa_list={jwa_list}
+jwa_granted={jwa_granted}
+jwa_recom={jwa_recom}
+tec_list={tec_list}
+tec_granted={tec_granted}
+tec_recom={tec_recom}
+drx_list={drx_list}
+drx_granted={drx_granted}
+drx_recom={drx_recom}
+drc_list={drc_list}
+drc_granted={drc_granted}
+drc_recom={drc_recom}
+handmaiden={handmaiden}
+baodur={baodur}
+hanharr={hanharr}
+hk47={hk47}
+g0t0={g0t0}
+atton={atton}
+kreia={kreia}
+exclusion={exclusion}
+pips={pips}
+ExclusiveColumn=label
+{featcode}=RowIndex
+"""
+addfeatheader_pattern = """AddRow0{featconst}=feat_{featconst}"""
+addfeatini_pattern = """[feat_{featconst}]
+RowIndex={rowindex}
+label={featconst}
+name={name}
+description={description}
+icon={icon}
+mincharlevel={mincharlevel}
+minattackbonus={minattackbonus}
+minstr={minstr}
+mindex={mindex}
+minint={minint}
+minwis={minwis}
+minspelllvl={minspelllvl}
+prereqfeat1={prereqfeat1}
+prereqfeat1={prereqfeat2}
+gainmultiple={gainmultiple}
+effectsstack={effectsstack}
+allclassescanuse={allclassescanuse}
+constant={featconst}
+allclassescanuse={allclassescanuse}
+category={category}
+maxcr={maxcr}
+spellid={spellid}
+successor={successor}
+crvalue={crvalue}
+usesperday={usesperday}
+masterfeat={masterfeat}
+targetself={targetself}
+orreqfeat0={orreqfeat0}
+orreqfeat1={orreqfeat1}
+orreqfeat2={orreqfeat2}
+orreqfeat3={orreqfeat3}
+orreqfeat4={orreqfeat4}
+reqskill={reqskill}
+constant={featconst}
+toolscategories={toolscategories}
+hostilefeat={hostilefeat}
+jcn_pc_granted={jcn_pc_granted}
+jsn_pc_granted={jsn_pc_granted}
+jgd_pc_granted={jgd_pc_granted}
+scd_list={scd_list}
+scd_granted={scd_granted}
+scd_recom={scd_recom}
+sol_list={sol_list}
+sol_granted={sol_granted}
+sol_recom={sol_recom}
+sct_list={sct_list}
+sct_granted={sct_granted}
+sct_recom={sct_recom}
+jcn_list={jcn_list}
+jcn_granted={jcn_granted}
+jcn_recom={jcn_recom}
+jsn_list={jsn_list}
+jsn_granted={jsn_granted}
+jsn_recom={jsn_recom}
+jgd_list={jgd_list}
+jgd_granted={jgd_granted}
+jgd_recom={jgd_recom}
+sas_list={sas_list}
+sas_granted={sas_granted}
+sas_recom={sas_recom}
+sld_list={sld_list}
+sld_granted={sld_granted}
+sld_recom={sld_recom}
+sma_list={sma_list}
+sma_granted={sma_granted}
+sma_recom={sma_recom}
+jwm_list={jwm_list}
+jwm_granted={jwm_granted}
+jwm_recom={jwm_recom}
+jma_list={jma_list}
+jma_granted={jma_granted}
+jma_recom={jma_recom}
+jwa_list={jwa_list}
+jwa_granted={jwa_granted}
+jwa_recom={jwa_recom}
+tec_list={tec_list}
+tec_granted={tec_granted}
+tec_recom={tec_recom}
+drx_list={drx_list}
+drx_granted={drx_granted}
+drx_recom={drx_recom}
+drc_list={drc_list}
+drc_granted={drc_granted}
+drc_recom={drc_recom}
+handmaiden={handmaiden}
+baodur={baodur}
+hanharr={hanharr}
+hk47={hk47}
+g0t0={g0t0}
+atton={atton}
+kreia={kreia}
+exclusion={exclusion}
+pips={pips}
+ExclusiveColumn=label
+{featcode}=RowIndex
+"""
 
 # poison.ini
 poisonheader_pattern = """AddRow0{poisonconst}=poison_{poisonconst}"""
@@ -877,16 +1075,28 @@ with open('Data\\feats.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	number = 1
 	for row in reader:
-		row['description'] = descriptions[row['name']]
-		if row['new']:
-			verify_code(feats, row['featcode'])
-		add_line(featgen, row, featcode_pattern, '#FEATCODES')
-		add_line(featgen, row, featname_pattern, '#FEATNAMES')
-		add_line(featconst, row, featconst_pattern, '//FEATS')
-		add_tlk(tlk, row['name'], number)
-		number += 1
-		add_tlk(tlk, row['description'], number)
-		number += 1
+		if row['type'] == 'skip':
+			pass
+		elif row['type'] == 'nil':
+			add_line(feats, row, changefeatheader_pattern, ';CHANGEHEADERS')
+			add_line(feats, row, changefeatini_pattern, ';CHANGES')
+		else:
+			row['description'] = descriptions[row['name']]
+			add_tlk(tlk, row['name'], number)
+			number += 1
+			add_tlk(tlk, row['description'], number)
+			number += 1
+			add_line(featgen, row, featcode_pattern, '#FEATCODES')
+			add_line(featgen, row, featname_pattern, '#FEATNAMES')
+			add_line(featconst, row, featconst_pattern, '//FEATS')
+			row['name'] = row['featcode'] + '_N'
+			row['name'] = row['featcode'] + '_D'
+		if row['type'] == 'change':
+			add_line(feats, row, changefeatheader_pattern, ';CHANGEHEADERS')
+			add_line(feats, row, changefeatini_pattern, ';CHANGES')
+		elif row['type'] == 'add':
+			add_line(feats, row, addfeatheader_pattern, ';ADDHEADERS')
+			add_line(feats, row, addfeatini_pattern, ';ADDS')
 	set_tlk_header(tlk)
 	with open('feats.txt', 'w') as tlkout:
 		file.write(tlk)

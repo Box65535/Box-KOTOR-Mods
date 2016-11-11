@@ -30,4 +30,4 @@ eq_shocka1,beam,,BOXI_ENEMYLAUNCHER,ENEMY_SHOCK_ARM_1,BOXS_ENEMY_SHOCK_ARM_1,3,b
 eq_shocka1,beam,,BOXI_ENEMYLAUNCHER,ENEMY_SHOCK_ARM_2,BOXS_ENEMY_SHOCK_ARM_1,6,boxe_shockarm1,****,,,,Box_ShockArmMkIII,Box_ShockArmBeam,0x00,,,,,,,,,,,,,,,,,,,,,,
 eq_stunra1,beam,,BOXI_ENEMYLAUNCHER,ENEMY_STUN_RAY_1,BOXS_ENEMY_STUN_RAY_1,3,boxe_stunray1,****,,,,Box_StunRayMkI,Box_StunRayBeam,0x02,,,,,,,,,,,,,,,,,,,,,,
 eq_stunra1,beam,,BOXI_ENEMYLAUNCHER,ENEMY_STUN_RAY_2,BOXS_ENEMY_STUN_RAY_2,6,boxe_stunray2,****,,,,Box_StunRayMkII,Box_StunRayBeam,0x02,,,,,,,,,,,,,,,,,,,,,,
-eq_lighta1,multibeam,,BOXI_ENEMYLAUNCHER,ENEMY_LIGHTNING_ARM_1,BOXS_ENEMY_LIGHTNING_ARM_1,6,boxe_lightarm1,****,,,10,Box_ShockArmMkIII,Box_ShockArmBeam,0x00,GetLocation(OBJECT_SELF),SHAPE_SPHERE,,,,,,,,,,,,,,,,,,,,
+eq_lighta1,multibeam,,BOXI_ENEMYLAUNCHER,ENEMY_LIGHTNING_ARM_1,BOXS_ENEMY_LIGHTNING_ARM_1,6,boxe_lightningarm1,****,,,10,Box_ShockArmMkIII,Box_ShockArmBeam,0x00,GetLocation(OBJECT_SELF),SHAPE_SPHERE,,,,,,,,,,,,,,,,,,,,

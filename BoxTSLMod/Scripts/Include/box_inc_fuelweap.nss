@@ -24,11 +24,6 @@ int Box_PlasmaFlamethrower(object oTarget) {
 	return Box_BurnWeapon(oTarget, 20, 48, 16, save, 4, 18.0);
 }
 
-int Box_FireSuppression(object oTarget) {
-	int save = SAVING_THROW_FORT;
-	return Box_ColdWeapon(oTarget, 10, 12, 4, save, 6.0);
-}
-
 int Box_Carbonite(object oTarget) {
 	int save = SAVING_THROW_FORT;
 	return Box_ColdWeapon(oTarget, 16, 16, 8, save, 12.0);

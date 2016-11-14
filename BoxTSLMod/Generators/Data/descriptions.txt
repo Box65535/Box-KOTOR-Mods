@@ -1,5 +1,5 @@
 
-KEY: BOX_BLASTERS1
+KEY: BOXF_BLASTERS_1
 Prerequisites:
 None
 
@@ -9,7 +9,7 @@ Free:
 All - Level 1
 EOV
 
-KEY: BOX_BLASTERS2
+KEY: BOXF_BLASTERS_2
 Prerequisites:
 Weapon Proficiency - Commodity Blasters
 
@@ -20,7 +20,7 @@ All Non-Jedi Classes - Level 1
 Exile - Level 1
 EOV
 
-KEY: BOX_BLASTERS3
+KEY: BOXF_BLASTERS_3
 Prerequisites:
 Weapon Proficiency - Military Pistols
 
@@ -30,7 +30,7 @@ Free:
 Soldier, Combat Droid - Level 1
 EOV
 
-KEY: BOX_BLASTERS4
+KEY: BOXF_BLASTERS_4
 Prerequisites:
 Weapon Proficiency - Blaster Rifles
 
@@ -40,7 +40,7 @@ Free:
 None
 EOV
 
-KEY: BOX_MELEE1
+KEY: BOXF_MELEE_1
 Prerequisites:
 Non-Droid
 
@@ -50,7 +50,7 @@ Free:
 All Non-Droid Classes - Level 1
 EOV
 
-KEY: BOX_MELEE2
+KEY: BOXF_MELEE_2
 Prerequisites:
 Weapon Proficiency - Primitive Melee Weapons
 Non-Droid
@@ -61,7 +61,7 @@ Free:
 Soldier - Level 1
 EOV
 
-KEY: BOX_MELEE3
+KEY: BOXF_MELEE_3
 Prerequisites:
 Weapon Proficiency - Powered Melee Weapons
 Non-Droid
@@ -72,7 +72,7 @@ Free:
 None
 EOV
 
-KEY: BOX_LIGHTSABERS
+KEY: BOXF_LIGHTSABERS
 Prerequisites:
 Jedi
 
@@ -82,7 +82,7 @@ Free:
 None
 EOV
 
-KEY: BOX_MECHWEAP1
+KEY: BOXF_AUXILARY_WEAPONS
 Prerequisites:
 None
 
@@ -92,7 +92,7 @@ Free:
 Exile (Jedi Sentinel) - Level 1
 EOV
 
-KEY: BOX_MECHWEAP2
+KEY: BOXF_GRENADE_LAUNCHERS
 Prerequisites:
 Weapon Proficiency - Auxilary Weapons
 
@@ -102,7 +102,7 @@ Free:
 None
 EOV
 
-
+KEY: BOXF_ROCKET_LAUNCHERS
 Prerequisites:
 Weapon Proficiency - Grenade Launchers
 
@@ -112,7 +112,7 @@ Free:
 None
 EOV
 
-KEY: BOX_ENERGWEAP1
+KEY: BOXF_ENERGY_WEAPONS_1
 Prerequisites:
 Droid or Tech Specialist
 
@@ -122,7 +122,7 @@ Free:
 None
 EOV
 
-KEY: BOX_ENERGWEAP2
+KEY: BOXF_ENERGY_WEAPONS_2
 Prerequisites:
 Weapon Proficiency - Energy Weapons
 
@@ -133,7 +133,7 @@ None
 EOV
 
 
-KEY: BOX_BOWCASTERS
+KEY: BOXF_BOWCASTERS
 Prerequisites:
 Wookie
 
@@ -143,7 +143,7 @@ Free:
 Wookies - Level 1
 EOV
 
-KEY: BOX_ARMOR1
+KEY: BOXF_ARMOR_1
 Prerequisites:
 Human or Bao-Dur
 
@@ -153,7 +153,7 @@ Free:
 Humans and Bao-Dur - Level 1
 EOV
 
-KEY: BOX_ARMOR2
+KEY: BOXF_ARMOR_2
 Prerequisites:
 Armor Proficiency - Light Combat Suits
 Human or Bao-Dur
@@ -164,7 +164,7 @@ Free:
 Non-Jedi - Level 1
 EOV
 
-KEY: BOX_ARMOR3
+KEY: BOXF_ARMOR_3
 Prerequisites:
 Armor Proficiency - Combat Suits
 Human or Bao-Dur
@@ -175,7 +175,7 @@ Free:
 Soldiers - Level 1
 EOV
 
-KEY: BOX_ARMOR4
+KEY: BOXF_ARMOR_4
 Prerequisites:
 Armor Proficiency - Military Suits
 Human
@@ -186,7 +186,7 @@ Free:
 None
 EOV
 
-KEY: BOX_ARMOR5
+KEY: BOXF_ARMOR_5
 Prerequisites:
 Armor Proficiency - Heavy Battle Armor
 Human
@@ -197,7 +197,7 @@ Free:
 None
 EOV
 
-KEY: BOX_DROIDARMOR1
+KEY: BOXF_DROID_ARMOR_1
 Prerequisites:
 Droid
 
@@ -207,7 +207,7 @@ Free:
 Combat Droids - Level 1
 EOV
 
-KEY: BOX_DROIDARMOR2
+KEY: BOXF_DROID_ARMOR_2
 Prerequisites:
 Armor Proficiency - Mark I Armor
 Droid
@@ -218,7 +218,7 @@ Free:
 None
 EOV
 
-KEY: BOX_DROIDARMOR3
+KEY: BOXF_DROID_ARMOR_3
 Prerequisites:
 Armor Proficiency - Mark II Armor
 Droid
@@ -229,7 +229,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SHIELDS1
+KEY: BOXF_ENERGY_SHIELDS_1
 Prerequisites:
 None
 
@@ -239,7 +239,7 @@ Free:
 Exile - Level 1
 EOV
 
-KEY: BOX_SHIELDS2
+KEY: BOXF_ENERGY_SHIELDS_2
 Prerequisites:
 Item Proficiency - Energy Shields
 
@@ -249,7 +249,7 @@ Free:
 None
 EOV
 
-KEY: BOX_STIMS1
+KEY: BOXF_STIMULANTS_1
 Prerequisites:
 Non-Droid
 
@@ -259,7 +259,7 @@ Free:
 Exile (Jedi Sentinel) - Level 1
 EOV
 
-KEY: BOX_STIMS2
+KEY: BOXF_STIMULANTS_2
 Prerequisites:
 Item Proficiency - Adrenaline Packages
 
@@ -269,7 +269,7 @@ Free:
 None
 EOV
 
-KEY: BOX_IMPLANTS1
+KEY: BOXF_IMPLANTS_1
 Prerequisites:
 Non-Droid
 
@@ -279,7 +279,7 @@ Free:
 Exile (Jedi Sentinel) - Level 1
 EOV
 
-KEY: BOX_IMPLANTS2
+KEY: BOXF_IMPLANTS_2
 Prerequisites:
 Item Proficiency - Implants
 
@@ -289,7 +289,7 @@ Free:
 None
 EOV
 
-KEY: BOX_IMPLANTS3
+KEY: BOXF_IMPLANTS_3
 Prerequisites:
 Item Proficiency - Implant Packages
 
@@ -299,7 +299,7 @@ Free:
 None
 EOV
 
-KEY: BOX_STEALTH
+KEY: BOXF_STEALTH_FIELDS
 Prerequisites:
 Non-Droid
 
@@ -309,7 +309,7 @@ Free:
 Exile - Level 1
 EOV
 
-KEY: BOX_MINES1
+KEY: BOXF_MINES_1
 Prerequisites:
 None
 
@@ -319,7 +319,7 @@ Free:
 None
 EOV
 
-KEY: BOX_MINES2
+KEY: BOXF_MINES_2
 Prerequisites:
 Item Proficiency - Mines
 
@@ -329,7 +329,7 @@ Free:
 None
 EOV
 
-KEY: BOX_TURRETS1
+KEY: BOXF_TURRETS_1
 Prerequisites:
 None
 
@@ -339,7 +339,7 @@ Free:
 Exile (Jedi Sentinel) - Level 1
 EOV
 
-KEY: BOX_TURRETS2
+KEY: BOXF_TURRETS_2
 Prerequisites:
 Item Proficiency - Turrets
 
@@ -349,7 +349,7 @@ Free:
 None
 EOV
 
-KEY: BOX_BLASTERSPEC1
+KEY: BOXF_PRECISE_SHOT_1
 Prerequisites:
 None
 
@@ -359,7 +359,7 @@ Free:
 None
 EOV
 
-KEY: BOX_BLASTERSPEC2
+KEY: BOXF_PRECISE_SHOT_2
 Prerequisites:
 Combat Specialty - Blasters I
 Level 3
@@ -370,7 +370,7 @@ Free:
 None
 EOV
 
-KEY: BOX_BLASTERSPEC3
+KEY: BOXF_PRECISE_SHOT_3
 Prerequisites:
 Combat Specialty - Blasters II
 Level 7
@@ -381,7 +381,7 @@ Free:
 None
 EOV
 
-KEY: BOX_BLASTERSPEC4
+KEY: BOXF_PRECISE_SHOT_4
 Prerequisites:
 Combat Specialty - Blasters IV
 Level 11
@@ -392,7 +392,7 @@ Free:
 None
 EOV
 
-KEY: BOX_BLASTERSPEC5
+KEY: BOXF_PRECISE_SHOT_5
 Prerequisites:
 Combat Specialty - Blasters IV
 Level 15
@@ -403,7 +403,7 @@ Free:
 None
 EOV
 
-KEY: BOX_MELEESPEC1
+KEY: BOXF_MELEE_FOCUS_1
 Prerequisites:
 None
 
@@ -413,7 +413,7 @@ Free:
 None
 EOV
 
-KEY: BOX_MELEESPEC2
+KEY: BOXF_MELEE_FOCUS_2
 Prerequisites:
 Combat Specialty - Melee Weapons I
 Level 3
@@ -424,7 +424,7 @@ Free:
 None
 EOV
 
-KEY: BOX_MELEESPEC3
+KEY: BOXF_MELEE_FOCUS_3
 Prerequisites:
 Combat Specialty - Melee Weapons III
 Level 7
@@ -435,7 +435,7 @@ Free:
 None
 EOV
 
-KEY: BOX_MELEESPEC4
+KEY: BOXF_MELEE_FOCUS_4
 Prerequisites:
 Combat Specialty - Melee Weapons III
 Level 11
@@ -446,7 +446,7 @@ Free:
 None
 EOV
 
-KEY: BOX_MELEESPEC5
+KEY: BOXF_MELEE_FOCUS_5
 Prerequisites:
 Combat Specialty - Melee Weapons IV
 Level 15
@@ -457,7 +457,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SABERSPEC1
+KEY: BOXF_LIGHTSABER_FOCUS_1
 Prerequisites:
 None
 
@@ -467,7 +467,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SABERSPEC2
+KEY: BOXF_LIGHTSABER_FOCUS_2
 Prerequisites:
 Combat Specialty - Lightsabers I
 Level 3
@@ -478,7 +478,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SABERSPEC3
+KEY: BOXF_LIGHTSABER_FOCUS_3
 Prerequisites:
 Combat Specialty - Lightsabers II
 Level 7
@@ -489,7 +489,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SABERSPEC4
+KEY: BOXF_LIGHTSABER_FOCUS_4
 Prerequisites:
 Combat Specialty - Lightsabers III
 Level 11
@@ -500,7 +500,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SABERSPEC5
+KEY: BOXF_LIGHTSABER_FOCUS_5
 Prerequisites:
 Combat Specialty - Lightsabers IV
 Level 15
@@ -511,7 +511,7 @@ Free:
 None
 EOV
 
-KEY: BOX_UNARMEDSPEC1
+KEY: BOXF_UNARMED_1
 Prerequisites:
 None
 
@@ -521,7 +521,7 @@ Free:
 Exile - Level 1
 EOV
 
-KEY: BOX_UNARMEDSPEC2
+KEY: BOXF_UNARMED_2
 Prerequisites:
 Combat Specialty - Unarmed I
 Level 3
@@ -532,7 +532,7 @@ Free:
 None
 EOV
 
-KEY: BOX_UNARMEDSPEC3
+KEY: BOXF_UNARMED_3
 Prerequisites:
 Combat Specialty - Unarmed II
 Level 7
@@ -543,7 +543,7 @@ Free:
 None
 EOV
 
-KEY: BOX_UNARMEDSPEC4
+KEY: BOXF_UNARMED_4
 Prerequisites:
 Combat Specialty - Unarmed III
 Level 11
@@ -554,7 +554,7 @@ Free:
 None
 EOV
 
-KEY: BOX_UNARMEDSPEC5
+KEY: BOXF_UNARMED_5
 Prerequisites:
 Combat Specialty - Unarmed IV
 Level 15
@@ -565,7 +565,7 @@ Free:
 None
 EOV
 
-KEY: BOX_FORCE1
+KEY: BOXF_FORCE_1
 Prerequisites:
 Jedi
 
@@ -575,7 +575,7 @@ Free:
 None
 EOV
 
-KEY: BOX_FORCE2
+KEY: BOXF_FORCE_2
 Prerequisites:
 Combat Specialty - Force I
 Level 7
@@ -586,7 +586,7 @@ Free:
 None
 EOV
 
-
+KEY: BOXF_FORCE_3
 Prerequisites:
 Combat Specialty - Force II
 Level 15
@@ -597,7 +597,7 @@ Free:
 None
 EOV
 
-KEY: BOX_TWOWEAP1
+KEY: BOXF_TWO_WEAPON_1
 Prerequisites:
 None
 
@@ -607,7 +607,7 @@ Free:
 None
 EOV
 
-KEY: BOX_TWOWEAP2
+KEY: BOXF_TWO_WEAPON_2
 Prerequisites:
 Combat Ability - Two-Weapon Proficiency
 
@@ -617,7 +617,7 @@ Free:
 None
 EOV
 
-KEY: BOX_TWOWEAP3
+KEY: BOXF_TWO_WEAPON_3
 Prerequisites:
 Combat Ability - Two-Weapon Adeptness
 
@@ -627,7 +627,7 @@ Free:
 None
 EOV
 
-KEY: BOX_CONDITION1
+KEY: BOXF_CONDITIONING_1
 Prerequisites:
 None
 
@@ -637,7 +637,7 @@ Free:
 None
 EOV
 
-KEY: BOX_CONDITION2
+KEY: BOXF_CONDITIONING_2
 Prerequisites:
 Combat Ability - Conditioning
 
@@ -647,7 +647,7 @@ Free:
 None
 EOV
 
-KEY: BOX_CONDITION3
+KEY: BOXF_CONDITIONING_3
 Prerequisites:
 Combat Ability - Improved Conditioning
 
@@ -657,7 +657,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SNEAKATK1
+KEY: BOXF_SNEAK_ATTACK_1
 Prerequisites:
 None
 
@@ -667,7 +667,7 @@ Free:
 Exile (Jedi Consular) - Level 1
 EOV
 
-KEY: BOX_SNEAKATK2
+KEY: BOXF_SNEAK_ATTACK_2
 Prerequisites:
 Combat Ability - Sneak Attack I
 Level 3
@@ -678,7 +678,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SNEAKATK3
+KEY: BOXF_SNEAK_ATTACK_3
 Prerequisites:
 Combat Ability - Sneak Attack II
 Level 7
@@ -689,7 +689,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SNEAKATK4
+KEY: BOXF_SNEAK_ATTACK_4
 Prerequisites:
 Combat Ability - Sneak Attack III
 Level 11
@@ -700,7 +700,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SNEAKATK5
+KEY: BOXF_SNEAK_ATTACK_5
 Prerequisites:
 Combat Ability - Sneak Attack IV
 Level 15
@@ -711,7 +711,7 @@ Free:
 None
 EOV
 
-KEY: BOX_DUALSTR1
+KEY: BOXF_DUAL_STRIKE_1
 Prerequisites:
 None
 
@@ -721,7 +721,7 @@ Free:
 None
 EOV
 
-KEY: BOX_DUALSTR2
+KEY: BOXF_DUAL_STRIKE_2
 Prerequisites:
 Combat Ability - Dual Strike
 
@@ -731,7 +731,7 @@ Free:
 None
 EOV
 
-KEY: BOX_DUALSTR3
+KEY: BOXF_DUAL_STRIKE_3
 Prerequisites:
 Combat Ability - Improved Dual Strike
 
@@ -741,7 +741,7 @@ Free:
 None
 EOV
 
-KEY: BOX_TOUGH1
+KEY: BOXF_TOUGHNESS_1
 Prerequisites:
 None
 
@@ -751,7 +751,7 @@ Free:
 None
 EOV
 
-KEY: BOX_TOUGH2
+KEY: BOXF_TOUGHNESS_2
 Prerequisites:
 Combat Ability - Toughness I
 
@@ -761,7 +761,7 @@ Free:
 None
 EOV
 
-KEY: BOX_TOUGH3
+KEY: BOXF_TOUGHNESS_3
 Prerequisites:
 Combat Ability - Toughness II
 
@@ -771,7 +771,7 @@ Free:
 None
 EOV
 
-KEY: BOX_MELEEFINE
+KEY: BOXF_MELEE_FINESSE
 Prerequisites:
 Non-Droid
 
@@ -781,7 +781,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SABERFINE
+KEY: BOXF_LIGHTSABER_FINESSE
 Prerequisites:
 Jedi
 
@@ -791,7 +791,7 @@ Free:
 None
 EOV
 
-KEY: BOX_DUELING
+KEY: BOXF_DUELING
 Prerequisites:
 None
 
@@ -801,7 +801,7 @@ Free:
 None
 EOV
 
-KEY: BOX_CLOSECOM
+KEY: BOXF_CLOSE_COMBAT
 Prerequisites:
 None
 
@@ -811,7 +811,7 @@ Free:
 None
 EOV
 
-KEY: BOX_POWATTACK1
+KEY: BOXF_POWER_ATTACK_1
 Prerequisites:
 Non-Droid
 
@@ -822,7 +822,7 @@ Exile (Jedi Guardian) - Level 1
 Handmaiden - Level 1
 EOV
 
-KEY: BOX_POWATTACK2
+KEY: BOXF_POWER_ATTACK_2
 Prerequisites:
 Combat Technique - Power Attack
 Level 7
@@ -833,7 +833,7 @@ Free:
 None
 EOV
 
-KEY: BOX_POWATTACK3
+KEY: BOXF_POWER_ATTACK_3
 Prerequisites:
 Combat Technique - Improved Power Attack
 Level 15
@@ -844,7 +844,7 @@ Free:
 None
 EOV
 
-KEY: BOX_FLURRY1
+KEY: BOX_FLURRY_1
 Prerequisites:
 Non-Droid
 
@@ -855,7 +855,7 @@ Exile (Jedi Guardian) - Level 1
 Handmaiden - Level 1
 EOV
 
-KEY: BOX_FLURRY2
+KEY: BOX_FLURRY_2
 Prerequisites:
 Combat Technique - Flurry
 Level 7
@@ -866,7 +866,7 @@ Free:
 None
 EOV
 
-KEY: BOX_FLURRY3
+KEY: BOX_FLURRY_3
 Prerequisites:
 Combat Technique - Improved Flurry
 Level 15
@@ -877,7 +877,7 @@ Free:
 None
 EOV
 
-KEY: BOX_CRITSTRIKE1
+KEY: BOXF_CRITICAL_STRIKE_1
 Prerequisites:
 Non-Droid
 
@@ -889,7 +889,7 @@ Exile (Jedi Consular) - Level 1
 Handmaiden - Level 1
 EOV
 
-KEY: BOX_CRITSTRIKE2
+KEY: BOXF_CRITICAL_STRIKE_2
 Prerequisites:
 Combat Technique - Critical Strike
 Level 7
@@ -900,7 +900,7 @@ Free:
 None
 EOV
 
-KEY: BOX_CRITSTRIKE1
+KEY: BOXF_CRITICAL_STRIKE_3
 Prerequisites:
 Combat Technique - Improved Critical Strike
 Level 15
@@ -911,7 +911,7 @@ Free:
 None
 EOV
 
-KEY: BOX_POWBLAST1
+KEY: BOXF_POWER_BLAST_1
 Prerequisites:
 None
 
@@ -921,7 +921,7 @@ Free:
 None
 EOV
 
-KEY: BOX_POWBLAST2
+KEY: BOXF_POWER_BLAST_2
 Prerequisites:
 Combat Technique - Power Blast
 Level 7
@@ -932,7 +932,7 @@ Free:
 None
 EOV
 
-KEY: BOX_POWBLAST3
+KEY: BOXF_POWER_BLAST_3
 Prerequisites:
 Combat Technique - Improved Power Blast
 Level 15
@@ -943,7 +943,7 @@ Free:
 None
 EOV
 
-KEY: BOX_RAPIDSHOT1
+KEY: BOXF_RAPID_SHOT_1
 Prerequisites:
 None
 
@@ -953,7 +953,7 @@ Free:
 None
 EOV
 
-KEY: BOX_RAPIDSHOT2
+KEY: BOXF_RAPID_SHOT_2
 Prerequisites:
 Combat Technique - Rapid Shot
 Level 7
@@ -964,7 +964,7 @@ Free:
 None
 EOV
 
-KEY: BOX_RAPIDSHOT3
+KEY: BOXF_RAPID_SHOT_3
 Prerequisites:
 Combat Technique - Improved Rapid Shot
 Level 7
@@ -975,7 +975,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SNIPSHOT1
+KEY: BOXF_SNIPER_SHOT_1
 Prerequisites:
 None
 
@@ -985,7 +985,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SNIPSHOT2
+KEY: BOXF_SNIPER_SHOT_2
 Prerequisites:
 Combat Technique - Sniper Shot
 Level 7
@@ -996,7 +996,7 @@ Free:
 None
 EOV
 
-KEY: BOX_SNIPSHOT3
+KEY: BOXF_SNIPER_SHOT_3
 Prerequisites:
 Combat Technique - Improved Sniper Shot
 Level 15
@@ -1007,111 +1007,107 @@ Free:
 None
 EOV
 
-KEY: BOX_FORCESENSE
+KEY: BOXF_FORCE_SENSITIVE
 Jedi Ability - Force Sensitive
 EOV
 
-KEY: BOX_DEFLECT1
+KEY: BOXF_DEFLECT_1
 Jedi Ability - Blaster Deflection
 EOV
 
-KEY: BOX_DEFLECT2
+KEY: BOXF_DEFLECT_2
 Jedi Ability - Improved Blaster Deflection
 EOV
 
-KEY: BOX_DEFLECT3
+KEY: BOXF_DEFLECT_3
 Jedi Ability - Master Blaster Deflection
 EOV
 
-KEY: BOX_FORCEJUMP1
+KEY: BOXF_FORCE_JUMP_1
 Jedi Ability - Force Jump
 EOV
 
-KEY: BOX_FORCEJUMP2
+KEY: BOXF_FORCE_JUMP_2
 Jedi Ability - Improved Force Jump
 EOV
 
-KEY: BOX_FORCEJUMP3
+KEY: BOXF_FORCE_JUMP_3
 Jedi Ability - Master Force Jump
 EOV
 
-KEY: BOX_FORCEIMMUN1
+KEY: BOXF_FORCE_IMMUNITY_1
 Jedi Ability - Fear Immunity
 EOV
 
-KEY: BOX_FORCEIMMUN2
+KEY: BOXF_FORCE_IMMUNITY_2
 Jedi Ability - Stun Immunity
 EOV
 
-KEY: BOX_FORCEIMMUN3
+KEY: BOXF_FORCE_IMMUNITY_3
 Jedi Ability - Paralysis Immunity
 EOV
 
-KEY: BOX_FORCESTLH
+KEY: BOXF_FORCE_STEALTH
 Jedi Ability - Force Concealment
 EOV
 
-KEY: BOX_CLSAWARE
+KEY: BOXF_CLASS_AWARENESS
 Class Skill - Awareness
 EOV
 
-KEY: BOX_CLSSCIENCE
+KEY: BOXF_CLASS_SCIENCE
 Class Skill - Science
 EOV
 
-KEY: BOX_CLSDEMO
+KEY: BOXF_CLASS_DEMOLITIONS
 Class Skill - Demolitions
 EOV
 
-KEY: BOX_CLSREPAIR
+KEY: BOXF_CLASS_REPAIR
 Class Skill - Repair
 EOV
 
-KEY: BOX_CLSSECUR
+KEY: BOXF_CLASS_SECURITY
 Class Skill - Security
 EOV
 
-KEY: BOX_CLSSTLH
+KEY: BOXF_CLASS_STEALTH
 Class Skill - Stealth
 EOV
 
-KEY: BOX_CLSMEDIC
+KEY: BOXF_CLASS_MEDICINE
 Class Skill - Medicine
 EOV
 
-KEY: BOX_CLSPERSUAD
+KEY: BOXF_CLASS_PERSUADE
 Class Skill - Persuade
 EOV
-
-KEY: BOX_WARVET
+KEY: BOXF_COMPLEX_UNARMED_ANIMATIONSComplex Unarmed Animations.EOV
+KEY: BOXF_WAR_VETERAN
 Character Ability - War Veteran
 EOV
 
-KEY: BOX_EMPATHY1
+KEY: BOXF_EMPATHY_1
 Character Ability - Empathy
 EOV
 
-KEY: BOX_EMPATHY2
+KEY: BOXF_EMPATHY_2
 Character Ability - Improved Empathy
 EOV
 
-KEY: BOX_EMPATHY3
+KEY: BOXF_EMPATHY_3
 Character Ability - Master Empathy
 EOV
-
-KEY: BOX_BLASINTGR
-Character Ability - Blaster Integration
-EOV
-
-KEY: BOX_KINETICCOM
+KEY: BOXF_FORCE_CHAINCharacter Ability - Force ChainEOV
+KEY: BOXF_KINETIC_COMBAT
 Character Ability - Kinetic Combat
 EOV
 
-KEY: BOX_SPIRIT
+KEY: BOXF_SPIRIT
 Character Ability - Fighting Spirit
 EOV
 
-KEY: BOX_SHIELDBRK
+KEY: BOXF_SHIELD_BREAKER
 Character Ability - Shield Breaker
 EOV
 
@@ -1119,47 +1115,47 @@ KEY: BOX_REPULSSTRK
 Character Ability - Repulsor Strike
 EOV
 
-KEY: BOX_ECHANISTRK
+KEY: BOXF_ECHANI_STRIKE
 Character Ability - Echani Strike
 EOV
 
-KEY: BOX_HEALER
+KEY: BOXF_HEALER
 Character Ability - Healer
 EOV
 
-KEY: BOX_MANDCOUR
+KEY: BOXF_MANDALORIAN_COURAGE
 Character Ability - Mandalorian Courage
 EOV
 
-KEY: BOX_IMPLSWITCH
+KEY: BOXF_IMPLANT_SWITCHING
 Character Ability - Implant Switching
 EOV
 
-KEY: BOX_ASSASSPROT
+KEY: BOXF_ASSASSIN_PROTOCOL
 Character Ability - Assassin Protocols
 EOV
 
-KEY: BOX_POINTGUARD
+KEY: BOXF_POINT_GUARD
 Character Ability - Point Guard
 EOV
 
-KEY: BOX_WOOKTOUGH
+KEY: BOXF_WOOKIEE_TOUGHNESS
 Character Ability - Wookie Toughness
 EOV
 
-KEY: BOX_WOOKRAGE
+KEY: BOXF_WOOKIE_RAGE
 Character Ability - Wookie Rage
 EOV
 
-KEY: BOX_PERSCLOAK
+KEY: BOXF_PERSONAL_CLOAKING_SHIELD
 Character Ability - Personal Cloaking Shield
 EOV
 
-KEY: BOX_MINEIMMUN
+KEY: BOXF_MINE_IMMUNITY
 Character Ability - Mine Immunity
 EOV
 
-KEY: BOX_DROIDSCRAMB
+KEY: BOXF_DROID_SCRAMBLER
 Character Ability - Droid Scrambler
 EOV
 
@@ -1728,15 +1724,13 @@ Fully Upgradeable
 
 These resemble regular blasters in the same way Quoorian marshsuckers resemble mosquitoes. Sure, they both do damage, but the former definitely has the edge in kill potential.
 EOV
-
-
+KEY: wr_hvydsr1Upgradeable (Chamber, Scope)These pistols are illegal in many planetary systems, being regarded as too powerful a weapon to be owned by civilians. Disruptors reduce solid matter to its constituent molecules. Unlike typical blasters, disruptors ignore most types of personal energy shields.EOV
+KEY: wr_mining1Not UpgradeableThis industrial hand-held laser can double as a makeshift blaster.EOV
 KEY: wr_blast2
 Fully Upgradeable
 
 The Republic Blaster can be fully upgraded with firing chamber, targeting scope, and power cell.
 EOV
-
-
 
 KEY: wr_hold2
 Fully Upgradeable
@@ -1798,7 +1792,7 @@ This capable side-arm is at the top of Aratech's ion blaster line. It is designe
 EOV
 
 
-KEY: wr_hvydsr2
+KEY: wr_mand2
 Upgradeable (Chamber, Scope)
 
 Not surprisingly, the most deadly disruptor pistol available is of Mandalorian design. Use of this ruthless weapon is a major violation of Republic code.
@@ -1863,7 +1857,7 @@ More powerful than the pistol, the sonic rifle fires a blast of sound that cause
 EOV
 
 
-KEY: wr_heavy3
+KEY: wr_assaul3
 Fully Upgradeable
 
 These weapons are almost overpowered for their size, but the Mandalorians prefer them that way. They do not make a habit of being subtle in their war making.
@@ -1877,7 +1871,7 @@ Trandoshan bounty hunters will use this weapon to capture their victims alive. A
 EOV
 
 
-KEY: wr_snip3
+KEY: wr_sniper3
 Fully Upgradeable
 
 Despite its effectiveness, these modified blaster rifles are not often employed by the Sith. They prefer to engage their enemies up close and personal.
@@ -1898,7 +1892,7 @@ Combining both sonic and disruptor attacks, this rifle tears through enemy defen
 EOV
 
 
-KEY: wr_hvydsr3
+KEY: wr_mand3
 Upgradeable (Chamber, Scope)
 
 A weapon similar to this disruptor belonged to Jigger Wraith, a bounty hunter who plagued the Republic years ago. Thirty-seven Mandalorians were executed for being him until sightings declined. As a type of disruptor, this weapon ignores most personal energy shields.
@@ -1926,25 +1920,25 @@ These weapons were employed by the elite troops of Iziz during the Battle of Ond
 EOV
 
 
-KEY: wr_oclock4
-Not Upgradeable
+KEY: wr_sith4
+Fully Upgradeable
 
-This powerful repeating blaster inflicts  incredible pain and damage upon its victim, but is difficult to use effectively. Its origin is unclear, though there are some similarities to its design and that of Mandalorian weapons.
+?
 EOV
+KEY: wr_plasma4Upgradeable (Chamber, Scope)EOVKEY: wr_hk4Upgradeable (Chamber, Scope)EOV
 
-
-KEY: wr_heavy4
+KEY: wr_mand4
 Fully Upgradeable
 
 With this weapon, the Mandalorians again demonstrate a complete lack of subtlety. The only thing better than a big blaster, apparently, is one that shoots faster.
 EOV
 
 
-KEY: wr_hvsdsr4
+KEY: wr_zabrak4
 Not Upgradeable
 EOV
 
-
+KEY: wr_bow1Not UpgradeableEOVKEY: wr_bow2Not UpgradeableEOV
 KEY: wm_short
 Upgradeable (Edge, Grip)
 
@@ -1966,7 +1960,7 @@ Usually just a smooth staff of wood or light alloys, this is a very simple weapo
 EOV
 
 
-KEY: wm_double
+KEY: wm_dblade
 Upgradeable (Edge, Grip)
 
 A difficult weapon to master, the double-bladed sword has a grip in the center with two long blades emerging from either end. The double-bladed sword is capable of inflicting more damage - but is also less precise - than the single-bladed variant. Using a two-bladed sword expertly requires skill in Two-Weapon Fighting.
@@ -1985,7 +1979,7 @@ Not Upgradeable
 
 This weapon effectively functions as a long staff topped with a vibroblade. Despite its name, it is not related to the Force mastered by Jedi, though it is a powerful weapon in its own right.
 EOV
-
+KEY: wm_plasmaNot Upgradeable?EOV
 
 KEY: wm_vblade
 Fully Upgradeable

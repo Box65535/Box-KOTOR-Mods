@@ -269,3 +269,26 @@ Fire Cell			30
 Ion Cell			24
 Disruption Cell		26
 
+
+
+Deflection Emitter 1 - 12
+Deflection Emitter 2 - 21
+Fencing Emitter	 - 18
+Disrupting Emitter 1 - 15
+Disrupting Emitter 2 - 24
+Phobium Emitter	- 28
+
+Widening Lens 1 - 13
+Widening Lens 2	- 22
+Kunda Lens 1 - 16
+Kunda Lens 2 - 25
+Sharp Lens - 29
+Vibration Lens 1 - 11
+Vibration Lens 2 - 20
+
+Energy Cell	- 14
+Electric Cell - 17
+Cold Cell - 26
+Fire Cell - 27
+Ion Cell - 19
+Disruption Cell	- 23

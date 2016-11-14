@@ -52,37 +52,37 @@ um_poison3,melee,1650,Severe Devaronian Edge,,2,MELEE_UPGRADE_POISON_3,BOXP_POIS
 um_para1,melee,450,Mild Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_1,,12,medicine,8,0,melee_group
 um_para2,melee,1100,Moderate Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_2,,16,medicine,16,0,melee_group
 um_para3,melee,2400,Severe Devaronian Edge,,2,MELEE_UPGRADE_PARALYZE_3,,20,medicine,24,0,melee_group
-um_crit1,melee,400,Basic Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_1,,,repair,,0,melee_group
-um_crit2,melee,700,Improved Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_2,,,repair,,0,melee_group
-um_crit3,melee,1200,Superior Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_3,,,repair,,0,melee_group
-um_crit4,melee,2000,Deadly Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_4,,,repair,,0,melee_group
-um_ionite1,melee,400,Basic Ionite Edge,,2,MELEE_UPGRADE_IONITE_1,,12,science,,0,melee_group
-um_ionite2,melee,950,Improved Ionite Edge,,2,MELEE_UPGRADE_IONITE_2,,16,science,,0,melee_group
-um_ionite3,melee,2200,Superior Ionite Edge,,2,MELEE_UPGRADE_IONITE_3,,20,science,,0,melee_group
-um_chill1,melee,1900,Ostrine Edge,,2,MELEE_UPGRADE_CHILLING_1,,,science,,0,melee_group
-um_chill2,melee,4000,Superior Ostrine Edge,,2,MELEE_UPGRADE_CHILLING_2,,,science,,0,melee_group
-um_burn1,melee,1600,Burning Edge,,2,MELEE_UPGRADE_BURNING_1,,14,science,,0,melee_group
-um_burn2,melee,3600,Superior Burning Edge,,2,MELEE_UPGRADE_BURNING_2,,18,science,,0,melee_group
-um_aggro1,melee,150,Basic Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_1,,,repair,,0,melee_group
-um_aggro2,melee,400,Improved Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_2,,,repair,,0,melee_group
-um_aggro3,melee,1200,Superior Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_3,,,repair,,0,melee_group
-um_passiv1,melee,100,Basic Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_1,,,repair,,0,melee_group
-um_passiv2,melee,350,Improved Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_2,,,repair,,0,melee_group
-um_passiv3,melee,1000,Superior Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_3,,,repair,,0,melee_group
-um_defend1,melee,250,Basic Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_1,,,repair,,0,melee_group
-um_defend2,melee,650,Improved Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_2,,,repair,,0,melee_group
-um_defend3,melee,1500,Superior Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_3,,,repair,,0,melee_group
-um_power1,melee,800,Basic Zabrak Grip,,1,MELEE_UPGRADE_POWER_1,,,repair,,0,melee_group
-um_power2,melee,1700,Improved Zabrak Grip,,1,MELEE_UPGRADE_POWER_2,,,repair,,0,melee_group
-um_balanc1,melee,500,Basic Nagai Grip,,1,MELEE_UPGRADE_BALANCED_1,,,repair,,0,melee_group
-um_balanc2,melee,800,Alternate Nagai Grip,,1,MELEE_UPGRADE_BALANCED_2,,,repair,,0,melee_group
-um_balanc3,melee,1900,Superior Nagai Grip,,1,MELEE_UPGRADE_BALANCED_3,,,repair,,0,melee_group
-um_energy,melee,600,Enhanced Energy Cell,,3,MELEE_UPGRADE_ENERGY,,,science,,0,melee_group
-um_elec,melee,1400,Telgorn Jolt Cell,,3,MELEE_UPGRADE_ELECTRIC,,,science,,0,melee_group
-um_ion,melee,1100,Ion Cell,,3,MELEE_UPGRADE_ION,,,science,,0,melee_group
-um_plasma,melee,1700,Plasma Cell,,3,MELEE_UPGRADE_PLASMA,,,science,,0,melee_group
-um_vibro,melee,800,Vibration Cell,,3,MELEE_UPGRADE_VIBRO,,,science,,0,melee_group
-um_sonic,melee,1900,Sonic Discharge Cell,,3,MELEE_UPGRADE_SONIC,,,science,,0,melee_group
+um_crit1,melee,400,Basic Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_1,,,repair,8,0,melee_group
+um_crit2,melee,700,Improved Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_2,,,repair,13,0,melee_group
+um_crit3,melee,1200,Superior Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_3,,,repair,19,0,melee_group
+um_crit4,melee,2000,Deadly Mullinine Edge,,2,MELEE_UPGRADE_CRITICAL_4,,,repair,25,0,melee_group
+um_ionite1,melee,400,Basic Ionite Edge,,2,MELEE_UPGRADE_IONITE_1,,12,science,7,0,melee_group
+um_ionite2,melee,950,Improved Ionite Edge,,2,MELEE_UPGRADE_IONITE_2,,16,science,15,0,melee_group
+um_ionite3,melee,2200,Superior Ionite Edge,,2,MELEE_UPGRADE_IONITE_3,,20,science,23,0,melee_group
+um_chill1,melee,1900,Ostrine Edge,,2,MELEE_UPGRADE_CHILLING_1,,,science,21,0,melee_group
+um_chill2,melee,4000,Superior Ostrine Edge,,2,MELEE_UPGRADE_CHILLING_2,,,science,30,0,melee_group
+um_burn1,melee,1600,Burning Edge,,2,MELEE_UPGRADE_BURNING_1,,14,science,18,0,melee_group
+um_burn2,melee,3600,Superior Burning Edge,,2,MELEE_UPGRADE_BURNING_2,,18,science,27,0,melee_group
+um_aggro1,melee,150,Basic Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_1,,,repair,3,0,melee_group
+um_aggro2,melee,400,Improved Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_2,,,repair,11,0,melee_group
+um_aggro3,melee,1200,Superior Agrinium Grip,,1,MELEE_UPGRAGE_AGGRESSIVE_3,,,repair,20,0,melee_group
+um_passiv1,melee,100,Basic Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_1,,,repair,3,0,melee_group
+um_passiv2,melee,350,Improved Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_2,,,repair,11,0,melee_group
+um_passiv3,melee,1000,Superior Contoured Grip,,1,MELEE_UPGRAGE_PASSIVE_3,,,repair,20,0,melee_group
+um_defend1,melee,250,Basic Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_1,,,repair,6,0,melee_group
+um_defend2,melee,650,Improved Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_2,,,repair,14,0,melee_group
+um_defend3,melee,1500,Superior Basket Hilt,,1,MELEE_UPGRAGE_DEFENSIVE_3,,,repair,25,0,melee_group
+um_power1,melee,800,Basic Zabrak Grip,,1,MELEE_UPGRADE_POWER_1,,,repair,15,0,melee_group
+um_power2,melee,1700,Improved Zabrak Grip,,1,MELEE_UPGRADE_POWER_2,,,repair,26,0,melee_group
+um_balanc1,melee,500,Basic Nagai Grip,,1,MELEE_UPGRADE_BALANCED_1,,,repair,16,0,melee_group
+um_balanc2,melee,800,Alternate Nagai Grip,,1,MELEE_UPGRADE_BALANCED_2,,,repair,19,0,melee_group
+um_balanc3,melee,1900,Superior Nagai Grip,,1,MELEE_UPGRADE_BALANCED_3,,,repair,29,0,melee_group
+um_energy,melee,600,Enhanced Energy Cell,,3,MELEE_UPGRADE_ENERGY,,,science,9,0,melee_group
+um_elec,melee,1400,Telgorn Jolt Cell,,3,MELEE_UPGRADE_ELECTRIC,,,science,21,0,melee_group
+um_ion,melee,1100,Ion Cell,,3,MELEE_UPGRADE_ION,,,science,17,0,melee_group
+um_plasma,melee,1700,Plasma Cell,,3,MELEE_UPGRADE_PLASMA,,,science,26,0,melee_group
+um_vibro,melee,800,Vibration Cell,,3,MELEE_UPGRADE_VIBRO,,,science,13,0,melee_group
+um_sonic,melee,1900,Sonic Discharge Cell,,3,MELEE_UPGRADE_SONIC,,,science,29,0,melee_group
 ur_scope1,ranged,,Accuracy Scope Mk I,,1,RANGED_UPGRADE_SCOPE_1,,,repair,11,0,ranged_group
 ur_scope2,ranged,,Accuracy Scope Mk II,,1,RANGED_UPGRADE_SCOPE_2,,,repair,28,0,ranged_group
 ur_keen,ranged,,Targeting Scope,,1,RANGED_UPGRADE_KEEN_SCOPE,,,repair,19,0,ranged_group
@@ -119,25 +119,25 @@ ur_disrup2,ranged,,Mandalorian Chamber Mk II,,2,RANGED_UPGRADE_DISRUPTING_2,,,sc
 ur_stun1,ranged,,Stun Chamber Mk I,,2,RANGED_UPGRADE_STUNNING_1,,12,science,9,0,ranged_group
 ur_stun2,ranged,,Stun Chamber Mk II,,2,RANGED_UPGRADE_STUNNING_2,,16,science,17,0,ranged_group
 ur_stun3,ranged,,Stun Chamber Mk III,,2,RANGED_UPGRADE_STUNNING_3,,20,science,25,0,ranged_group
-ul_wide1,saber,,Widening Lens,,1,SABER_UPGRADE_WIDENING_1,,,science,,0,saber_group
-ul_wide2,saber,,Enhanced Widening Lens,,1,SABER_UPGRADE_WIDENING_2,,,science,,0,saber_group
-ul_kunda1,saber,,Kunda Lens,,1,SABER_UPGRADE_KUNDA_1,,,science,,0,saber_group
-ul_kunda2,saber,,Enhanced Kunda Lens,,1,SABER_UPGRADE_KUNDA_2,,,science,,0,saber_group
-ul_vibro1,saber,,Vibration Lens,,1,SABER_UPGRADE_VIBRATION_1,,,science,,0,saber_group
-ul_vibro2,saber,,Enhanced Vibration Lens,,1,SABER_UPGRADE_VIBRATION_2,,,science,,0,saber_group
-ul_sharp,saber,,? Lens,,1,SABER_UPGRADE_SHARP,,,science,,0,saber_group
-ul_deflec1,saber,,Deflection Emitter,,1,SABER_UPGRADE_DEFLECT_1,,,science,,0,saber_group
-ul_deflec2,saber,,Enhanced Deflection Emitter,,1,SABER_UPGRADE_DEFLECT_2,,,science,,0,saber_group
-ul_fencin,saber,,Fencing Emitter,,1,SABER_UPGRADE_FENCING,,,science,,0,saber_group
-ul_disrup1,saber,,Disruption Emitter,,1,SABER_UPGRADE_DISRUPTING_1,,,science,,0,saber_group
-ul_disrup2,saber,,Enhancing Disruption Emitter,,1,SABER_UPGRADE_DISRUPTING_2,,,science,,0,saber_group
-ul_phob,saber,,Phobium Emitter,,1,SABER_UPGRADE_PHOBIUM,,,science,,0,saber_group
-ul_energy,saber,,Energy Cell,,1,SABER_UPGRADE_ENERGY,,,science,,0,saber_group
-ul_elec,saber,,Telgorn Jolt Cell,,1,SABER_UPGRADE_ELECTRIC,,,science,,0,saber_group
-ul_cold,saber,,Cold Cell,,1,SABER_UPGRADE_COLD,,,science,,0,saber_group
-ul_fire,saber,,Fire Cell,,1,SABER_UPGRADE_FIRE,,,science,,0,saber_group
-ul_ion,saber,,Ion Cell,,1,SABER_UPGRADE_ION,,,science,,0,saber_group
-ul_vibro,saber,,Vibration Cell,,1,SABER_UPGRADE_VIBRO,,,science,,0,saber_group
+ul_wide1,saber,,Widening Lens,,1,SABER_UPGRADE_WIDENING_1,,,science,14,0,saber_group
+ul_wide2,saber,,Enhanced Widening Lens,,1,SABER_UPGRADE_WIDENING_2,,,science,23,0,saber_group
+ul_kunda1,saber,,Kunda Lens,,1,SABER_UPGRADE_KUNDA_1,,,science,17,0,saber_group
+ul_kunda2,saber,,Enhanced Kunda Lens,,1,SABER_UPGRADE_KUNDA_2,,,science,26,0,saber_group
+ul_vibro1,saber,,Vibration Lens,,1,SABER_UPGRADE_VIBRATION_1,,,science,12,0,saber_group
+ul_vibro2,saber,,Enhanced Vibration Lens,,1,SABER_UPGRADE_VIBRATION_2,,,science,21,0,saber_group
+ul_sharp,saber,,? Lens,,1,SABER_UPGRADE_SHARP,,,science,30,0,saber_group
+ul_deflec1,saber,,Deflection Emitter,,1,SABER_UPGRADE_DEFLECT_1,,,science,13,0,saber_group
+ul_deflec2,saber,,Enhanced Deflection Emitter,,1,SABER_UPGRADE_DEFLECT_2,,,science,22,0,saber_group
+ul_fencin,saber,,Fencing Emitter,,1,SABER_UPGRADE_FENCING,,,science,19,0,saber_group
+ul_disrup1,saber,,Disruption Emitter,,1,SABER_UPGRADE_DISRUPTING_1,,,science,16,0,saber_group
+ul_disrup2,saber,,Enhancing Disruption Emitter,,1,SABER_UPGRADE_DISRUPTING_2,,,science,25,0,saber_group
+ul_phob,saber,,Phobium Emitter,,1,SABER_UPGRADE_PHOBIUM,,,science,29,0,saber_group
+ul_energy,saber,,Energy Cell,,1,SABER_UPGRADE_ENERGY,,,science,15,0,saber_group
+ul_elec,saber,,Telgorn Jolt Cell,,1,SABER_UPGRADE_ELECTRIC,,,science,18,0,saber_group
+ul_cold,saber,,Cold Cell,,1,SABER_UPGRADE_COLD,,,science,27,0,saber_group
+ul_fire,saber,,Fire Cell,,1,SABER_UPGRADE_FIRE,,,science,28,0,saber_group
+ul_ion,saber,,Ion Cell,,1,SABER_UPGRADE_ION,,,science,20,0,saber_group
+ul_vibro,saber,,Vibration Cell,,1,SABER_UPGRADE_VIBRO,,,science,24,0,saber_group
 ul_rubat,crystal,,Rubat Crystal,,1,CRYSTAL_RUBAT,,,,,,
 ul_nextor,crystal,,Nextor Crystal,,1,CRYSTAL_NEXTOR,,,,,,
 ul_dragit,crystal,,Dragite Crystal,,1,CRYSTAL_DRAGITE,,,,,,

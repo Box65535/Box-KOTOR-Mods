@@ -693,12 +693,9 @@ with open('Data\\weapons.csv', 'r') as csvfile:
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
 		copy_template('Data\\Static\\' + row['tag'] + '.uti', 'Data\\Items\\' + row['tag'] + '.uti')
-		if row['baseitem']:
-			add_line(fieldgen, row, weaponfieldbase_pattern, '#WEAPONS')
-		else:
-			verify_code(baseitems, row['baseitemcode'])
-			add_line(featgen, row, baseitem_pattern, '#ITEMS')
-			add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
+		verify_code(baseitems, row['baseitemcode'])
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
@@ -753,7 +750,7 @@ with open('Data\\equipment.csv', 'r') as csvfile:
 		else:
 			verify_code(baseitems, row['baseitemcode'])
 			add_line(featgen, row, baseitem_pattern, '#ITEMS')
-			add_line(fieldgen, row, field_pattern, '#ITEMS')
+			add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')

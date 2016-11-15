@@ -2532,94 +2532,50 @@ EOV
 KEY: ua_ablat1
 KEY: ua_ablat2
 KEY: ua_ablat3
-
-EOV
-
-
 KEY: ua_ballis1
 KEY: ua_ballis2
 KEY: ua_ballis3
 KEY: ua_ballis4
-
-EOV
-
-
 KEY: ua_energy1
 KEY: ua_energy2
 KEY: ua_energy3
 KEY: ua_energy4
-
-EOV
-
-
 KEY: ua_heat1
 KEY: ua_heat2
 KEY: ua_heat3
 KEY: ua_heat4
-
-EOV
-
-
 KEY: ua_radian1
 KEY: ua_radian2
 KEY: ua_radian3
 KEY: ua_radian4
-
-EOV
-
-
 KEY: ua_steal1
 KEY: ua_steal2
 KEY: ua_steal3
 KEY: ua_steal4
-
+Alloy overlays can enhance armor performance. The modifications require a workbench with adequate tools and armor of high quality marked as upgradeable.
 EOV
 
 
 KEY: ua_biores1
 KEY: ua_biores2
-
-EOV
-
-
 KEY: ua_envir1
 KEY: ua_envir2
-
-EOV
-
-
 KEY: ua_mental1
 KEY: ua_mental2
 KEY: ua_mental3
-
-EOV
-
-
 KEY: ua_med1
 KEY: ua_med2
 KEY: ua_med3
 KEY: ua_med4
-
-EOV
-
-
 KEY: ua_flex1
 KEY: ua_flex2
 KEY: ua_flex3
-
-EOV
-
-
 KEY: ua_stren1
 KEY: ua_stren2
 KEY: ua_stren3
-
-EOV
-
-
 KEY: ua_prot1
 KEY: ua_prot2
-
+Underlay can have a variety of effects on the armor to which it is applied. The modifications require a workbench with adequate tools and armor of high quality marked as upgradeable.
 EOV
 
 
@@ -2627,22 +2583,25 @@ KEY: um_metal1
 KEY: um_metal2
 KEY: um_metal3
 KEY: um_metal4
-KEY: um_metal5
+Neutronium is a highly durable and resilient material used in the creation of durasteel. It can be used to increase the damage inflicted by a blade. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
 
+KEY: um_metal5
+Quadranium is an amazingly strong material that is sometimes used for fuel storage containers. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: um_poison1
 KEY: um_poison2
 KEY: um_poison3
-
+Devaronian Blood-poison is a gemstone that can release poison into a victim's bloodstream. Application of Devaronian particles on a blade's edge can cause great pain to the weapon's victim. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: um_para1
 KEY: um_para2
 KEY: um_para3
-
+???
 EOV
 
 
@@ -2650,65 +2609,65 @@ KEY: um_crit1
 KEY: um_crit2
 KEY: um_crit3
 KEY: um_crit4
-
+Mullinine is an ideal building material for melee weapons as it holds an edge very well. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: um_ionite1
 KEY: um_ionite2
 KEY: um_ionite3
-
+Ionite alloy produces the inverse charge of its surroundings, creating a disrupting effect to electronic systems. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: um_chill1
 KEY: um_chill2
-
+Ostrine is a rare mineral that exists on the planet Hargeeva. Ostrine is excellent at absorbing heat and, when refined and applied to a blade, can inflict cold damage.
 EOV
 
 
 KEY: um_burn1
 KEY: um_burn2
-
+???
 EOV
 
 
 KEY: um_aggro1
 KEY: um_aggro2
 KEY: um_aggro3
-
+This grip, made from the lighter mineral agrinium, balances a weapon towards the point, resulting in heftier swings. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: um_passiv1
 KEY: um_passiv2
 KEY: um_passiv3
-
+This shorter grip allows maximum accuracy, but the reduced leverage limits the weapon's power. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: um_defend1
 KEY: um_defend2
 KEY: um_defend3
-
+The basket hilt makes a weapon ideal for parrying, but slightly less wieldy. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: um_power1
 KEY: um_power2
-
+This specialized grip has a reduced crossguard, increasing both accuracy and damage, but making it less useful for parrying. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: um_balanc1
 KEY: um_balanc2
 KEY: um_balanc3
-
+The Nagai designed this grip to improve a weapon's performance without any side-effects. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: um_energy
-
+Enhanced energy cells can stabilize the blade, increasing damage. Only certain melee weapons, like vibroblades, can utilize energy cells. The modifications require a workbench with adequate tools.
 EOV
 
 
@@ -2718,7 +2677,7 @@ EOV
 
 
 KEY: um_ion
-
+Ion cells discharge ions along the length of the blade. Only certain melee weapons, like vibroblades, can utilize energy cells. The modifications require a workbench with adequate tools.
 EOV
 
 
@@ -2728,23 +2687,19 @@ EOV
 
 
 KEY: um_vibro
-
+Vibration energy cells increase the amount of damage a weapon can inflict, but make them much harder to wield. Only certain melee weapons, like vibroblades, can utilize energy cells. The modifications require a workbench with adequate tools.
 EOV
 
 
 KEY: um_sonic
-
+Sonic discharge energy cells release sound waves upon impact. Though the sonic discharge makes the weapon unwieldy, few types of armor protect against this type of attack. Only certain melee weapons, like vibroblades, can utilize energy cells. The modifications require a workbench with adequate tools.
 EOV
 
 
 KEY: ur_scope1
 KEY: ur_scope2
-
-EOV
-
-
 KEY: ur_keen1
-
+This scope can increase the effectiveness of blasters, blaster rifles, and bowcasters. The modifications require a workbench and a weapon of high quality marked as upgradeable.
 EOV
 
 
@@ -2752,305 +2707,281 @@ KEY: ur_energy1
 KEY: ur_energy2
 KEY: ur_energy3
 KEY: ur_energy4
-
-EOV
-
-
 KEY: ur_ion1
 KEY: ur_ion2
 KEY: ur_ion3
-
-EOV
-
-
 KEY: ur_crit1
 KEY: ur_crit2
 KEY: ur_crit3
-
-EOV
-
-
 KEY: ur_plasma1
 KEY: ur_plasma2
-
-EOV
-
-
 KEY: ur_cold1
 KEY: ur_cold2
-
-EOV
-
-
 KEY: ur_elec1
 KEY: ur_elec2
 KEY: ur_elec3
-
+This cell increases the energy output of blasters, blaster rifles, and bowcasters. The modifications require a workbench and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: ur_wide1
 KEY: ur_wide2
 KEY: ur_wide3
-
-EOV
-
-
 KEY: ur_conc1
 KEY: ur_conc2
 KEY: ur_conc3
-
-EOV
-
-
 KEY: ur_precis1
 KEY: ur_precis2
-
-EOV
-
-
 KEY: ur_ionize1
 KEY: ur_ionize2
 KEY: ur_ionize3
-
-EOV
-
-
 KEY: ur_disrup1
 KEY: ur_disrup2
-
-EOV
-
-
 KEY: ur_stun1
 KEY: ur_stun2
 KEY: ur_stun3
-
+This item can broaden the beam of certain blaster types, increasing damage or possibly granting other effects. The modifications require a workbench and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: ul_wide1
 KEY: ul_wide2
-
+Byrothsis was originally used to created infrared camera lenses, but has since found use in other applications, including lightsaber lenses. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: ul_kunda1
 KEY: ul_kunda2
-
+The kunda stone has numerous practical applications in medicine and communications. It can also be combined with normal lens to produce a broader, yet still focused beam. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: ul_vibro1
 KEY: ul_vibro2
-
+This lens vibrates very rapidly, resulting in a less stable, but more deadly beam. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: ul_sharp
-
+The aptly named beam gem crystals are common in optical computers such as those involved in navigational systems. Not surprisingly, they also can create a highly focused lightsaber beam. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: ul_deflec1
 KEY: ul_deflec2
-
+Deflection emitters are optimzied for use against blaster fire. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: ul_fencin
-
+Fencing emitters are most suitable for parrying hand-to-hand attacks. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: ul_disrup1
 KEY: ul_disrup2
-
+Disrupting emitters create an unsteady beam which can wreck havoc on a victim's nervous system. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: ul_phob
-
+Made for the more aggressive combatant, the phobium emitter is heavier and less wieldy than the typical disrupting emitter. It is also indisputably more effective. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: ul_energy
-
-EOV
-
-
 KEY: ul_elec
-
-EOV
-
-
 KEY: ul_cold
-
-EOV
-
-
 KEY: ul_fire
-
-EOV
-
-
 KEY: ul_ion
-
+KEY: ul_vibro
+This power cell modifies the energy output of lightsabers, allowing skilled users to better deliver powerful attacks. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
 EOV
 
 
 KEY: ul_rubat
-
+Used in lightsaber construction, rubat crystal is mined on Phemis. It produces a clearly defined blade that a Jedi can easily track, making it easier to hit opponents.
 EOV
 
 
 KEY: ul_nextor
-
+This crystal is mined in the mountains of planet M'haeli, and when used in lightsaber construction it produces a volatile blade that can cause surprising amounts of damage.
 EOV
 
 
 KEY: ul_dragit
-
+Dragite crystals are found on M'haeli, in the D'olop mountain range. The beam they create resonates loudly when it strikes, inflicting a minor amount of sonic damage.
 EOV
 
 
 KEY: ul_firk
-
+This heavy crystal is collected by the natives of Rafa V. If used in lightsaber construction it produces an electrically charged beam that is devastating to droids.
 EOV
 
 
 KEY: ul_phond
-
+The strange byproduct of rare impurities bonding during the making of certain alloys and some random external condition, this crystal produces a fiercely burning lightsaber beam.
 EOV
 
 
 KEY: ul_bondar
-
+This crystal was mined on a far-orbit asteroid circling the Alderaan system. It produces a volatile lightsaber beam that pulses on impact, potentially stunning an opponent.
 EOV
 
 
 KEY: ul_sigil
-
+Mined in the Sigil System, this crystal is a costly but valued addition to a lightsaber. It produces a fiercely bright beam that sears on contact, inflicting great damage.
 EOV
 
 
 KEY: ul_jenrau
-
+The refined form of Opila, this crystal has been cleansed of all impurities. When used in lightsaber construction it produces a blade of unerring quickness.
 EOV
 
 
 KEY: ul_kasha
-
+This crystal is traditionally used by the Cereans as a meditation tool. When used as a lightsaber crystal, it helps clear the wielder's mind of distractions, even during tense combat.
 EOV
 
 
 KEY: ul_styg
-
+he stygium mineral can be used to create cloaking effects that foil enemy sensors. In its pure crystal form, it is suitable for a lightsaber.
 EOV
 
 
 KEY: ul_damind
-
+Found on the desert world of Daminia, this crystal can be used in lightsaber construction to produce a clearly defined beam of subtly wider width and length.
 EOV
 
 
 KEY: ul_pontit
-
+Pontite is one of the rarest forms of Adegan crystal. It radiates a powerful aura that cools both skin and tempers.
 EOV
 
 
 KEY: ul_upari
-
+Strangely, this crystal is usually encountered scattered in the orbit of primarily forest worlds. It is brittle but versatile, and a Master Jedi can get it to produce many effects.
 EOV
 
 
 KEY: ul_ultima
-
+An unusual choice for a lightsaber focusing crystal, this rare stone can be found on Calamari. Difficult to properly install in a lightsaber, this valuable stone has powerful effects.
 EOV
 
 
 KEY: ul_solari
-
+There are many famous lightsaber crystals spoken of in the history of the Jedi Order. An artifact of true light side power, only those Jedi who are pure in spirit can wield a lightsaber equipped with this gleaming white gem.
+ 
+When the great Jedi Master Ood Bnar initiated his life-cycle change after a thousand years of serving the Order, he bequeathed the Solari crystal to his most promising student, a young female Jedi named Shaela Nuur. When Shaela disappeared shortly after the time of the Great Hunt, the Solari crystal vanished with her.
 EOV
 
 
 KEY: ul_qixoni
-
+Qixoni crystals were formed on a planet that was destroyed millenia ago when its star went supernova. They are exceedingly rare and also quite powerful.
 EOV
 
 
 KEY: ul_lorrd
-
+During their subjugation, the Lorrdians were banned from speaking to each other and thus learned to use subtle gestures and ticks to communicate. The few Force-Adepts found after the Jedi freed the population of slaves has imprinted these gemstones with the Force to enhance the ability to read an opponent.
 EOV
 
 
 KEY: ul_barab
-
+The ore from Barab I actually lies on the planets surface, meaning it is exposed to high doses of radiation and torrential downpours daily. This ore can be found in concentrated ingots that actual store and magnify the radiation.
+ 
+When placed in a lightsaber, the ingots produce a blade that burns almost to the point of losing its cohesion.
 EOV
 
 
 KEY: ul_hurrik
-
+The very rare Hurrikaine crystal is best known for its unparalleled beauty. When used in a lightsaber, the dark gemstone creates a devastating beam that can partially penetrate any defenses.
 EOV
 
 
 KEY: ul_ankar
+This crystal possesses legendary healing powers and numerous other effects. It is one of the most potent crystals that can be used in lightsaber creation.
+EOV
 
+
+KEY: ul_exile
+This black crystal is bound to <FullName>. Its power reflects that of its master.
 EOV
 
 
 KEY: ha_atton
+Not Upgradeable
 
+Atton's durable jacket provides protection comparable to light armor.
 EOV
 
 
 KEY: ha_mira
+Not Upgradeable
 
+One of the first major purchases of a successful bounty hunter is often exceptional protection. Mira's mesh jacket is as protective as medium armor, but much less restrictive.
 EOV
 
 
 KEY: ha_miner
+Level 1 Upgrades
 
+This is a standard uniform worn by miners at the Peragus facility. It provides minimal protection, but can be upgraded with some underlays.
 EOV
 
 
 KEY: ha_repub1
+Level 1 Upgrades
 
+Even the most frugal of mercenaries know they need at least some protection from the rigors of combat, although suits of this type are recommended for light skirmishes only.
 EOV
 
 
 KEY: ha_zabrak1
+Not Upgradeable
 
+A Zabrak improvement on the combat suit, this armor is good protection where speed and unrestricted movement are more important than bulky plating.
 EOV
 
 
 KEY: ha_echani1
+Not Upgradeable
 
+Echani prefer elegant design to brute force. The Maktites learned this when their stores of thermal weapons were rendered ineffective by simple changes in the Echani light armor.
 EOV
 
 
 KEY: ha_massas1
+Not Upgradeable
 
+Long-term domination by the Sith has erased the memory of the Massassi rituals for which this armor was designed, but it retains its effectiveness on the battlefield regardless.
 EOV
 
 
 KEY: ha_repub2
+Level 2 Upgrades
 
+This version of the combat suit offers more protection than the basic model. It is heavier overall and not quite as flexible, but many consider the tradeoffs worthwhile.
 EOV
 
 
 KEY: ha_zabrak2
+Not Upgradeable
 
+On the far northern continent of the planet Iridonia, the Zabrak produce expensive armor that nonetheless has become very popular on the galactic markets, due to excellent low-temperature defensive properties.
 EOV
 
 
 KEY: ha_echani2
+Not Upgradeable
 
+The Echani combined their talents for energy shield design with their armorcrafting skills to develop this innovative combat suit. It provides capable defense that is augmented with a low strength energy shield.
 EOV
 
 
 KEY: ha_mand2
+Level 2 Upgrades
 
+Even the basic combat attire of the Mandalorians provides a formidable defense. The mesh of this armor absorbs some of the impact of physical blows despite its light weight.
 EOV
 
 
@@ -3060,47 +2991,65 @@ EOV
 
 
 KEY: ha_power2
+Not Upgradeable
 
+This suit is an early attempt at power-assisted armor, increasing the physical strength of the wearer.
 EOV
 
 
 KEY: ha_repub3
+Level 3 Upgrades
 
+This standard issue suit provides good protection, but can be heavier and more restrictive than some of its counterparts. Even so, many mercenaries swear the tradeoffs are worth it.
 EOV
 
 
 KEY: ha_sith3
+Level 4 Upgrades
 
+This battle armor's name is actually created by Aratech, who named it after the Sith to benefit from their fame (or infamy). This combat suit is very flexible for medium armor.
 EOV
 
 
 KEY: ha_echani3
+Not Upgradeable
 
+This armor provides solid defense at the cost of some flexibility, although it is still an Echani product and is therefore well suited to quick-moving combat.
 EOV
 
 
 KEY: ha_zabrak3
+Not Upgradeable
 
+This is a higher-quality version of the basic armor produced by the Zabrak. These were often reserved for field commanders, and meant to be easily identified on the battlefield.
 EOV
 
 
 KEY: ha_verpin3
+Level 3 Upgrades
 
+Raxsus Nuli had plans of planetary conquest in the wake of Sith aggression. Though eclipsed by recent events, the Jedi saw the pirate jailed and his Verpine stockpiles auctioned.
 EOV
 
 
 KEY: ha_repub4
+Level 4 Upgrades
 
+Battle armor production thrived on Bonadan as the Republic recovered from war. This model heavy durasteel casing provides superior protection when compared to normal Heavy Battle Armor.
 EOV
 
 
 KEY: ha_mand4
+Level 4 Upgradeable
 
+Republic soldiers saw this armor all too often during the Mandalorian War. It's understandable that the conflict could drag on when a fanatical enemy is so defensively outfitted.
 EOV
 
 
 KEY: ha_echani4
+Not Upgradeable
 
+Echani Heavy Armor is comparable to typical heavy battle armor in terms of protection, but allows for slightly more mobility.
 EOV
 
 
@@ -3110,66 +3059,86 @@ EOV
 
 
 KEY: ha_gammor4
+Not Upgradeable
 
+Cumbersome, but powerful armor, M'uhk'gfa is the battle plate used by elite Gammorean warriors. Traditionally, each Gammorean warrior would fashion his own battle plate from metal fragments on the battlefields of their victories.
 EOV
 
 
 KEY: ha_power5
+Not Upgradeable
 
+Essentially an improved version of powered battle armor, the powersuit employs a system of servomotors to enhance the wearer's strength.
 EOV
 
 
 KEY: ha_mand5
+Level 5 Upgrades
 
+This was the armor of the Mandalorian elite frontline troops, a sight that Republic soldiers were all too familiar with during the war.
 EOV
 
 
 KEY: ha_matrix5
+Not Upgradeable
 
+Matrix armor is typically used for starship plating. Adapting it to personal use is expensive and technologically difficult. The armor is particularly resistant to blaster fire.
 EOV
 
 
 KEY: ha_flight
+Not Upgradeable
 
+This combat-ready flight suit provides additional protection against vacuum for limited periods. Its many models appeal to a wide range of users, from military pilots and mercenaries to fringe explorers and space pirates.
 EOV
 
 
 KEY: ha_ubese
+Not Upgradeable
 
+Ubese is the name given to a species believed to exist in the Mid Rim. The very few who actually claim to have encountered the Ubese attribute these advanced environmental suits to the enigmatic species. Though less useful against conventional weapons, this suit is ideal defense against blasters, flames, and cryoban grenades.
 EOV
 
 
 KEY: da_impact1
 KEY: da_impact2
 KEY: da_impact3
-
+Impact armor is designed to help absorb some of the wear-and-tear droids can take in an active workplace and save the chassis from major damage.
 EOV
 
 
 KEY: da_mod1
 KEY: da_mod2
 KEY: da_mod3
-
+Modular Plating was designed as a light-weight yet durable substitute for heavier, more cumbersome armor.
 EOV
 
 
 KEY: da_dura1
 KEY: da_dura2
 KEY: da_dura3
-
+Originally used on starship hulls, durasteel is the most cost-effective way to prevent the destruction of your droids.
 EOV
 
 
 KEY: da_energy1
 KEY: da_energy2
 KEY: da_energy3
-
+Energized armor draws on the droid's power source and applies a current through a specially designed matrix on this armor. This energy matrix binds the molecules of the armor together to create a nearly inpenetrable physical barrier.
 EOV
 
 
 KEY: da_agrin1
-KEY: da_quadra2
-KEY: da_capac3
+Agrinium is used to create solar sails and is highly resilient to all forms of radiation. Applied to droid armor, it creates a highly effective barrier against many forms of damage.
 
+This armor is used on light-weight repair droids that maintain the sails on deep space sail ships.
+EOV
+
+KEY: da_quadra2
+Quadranium is an incredibly strong element used in the manufacture of starship fuel tanks. It was first applied to droid armor by Aratech during the development of droids that could be sent to clean starship engines and fuel tanks without sustaining any damage.
+EOV
+
+KEY: da_capac3
+Based on an inverse architecture of Energized Armor, Capacitor Armor actually absorbs incoming energy and converts it into usuable power for the droid's internal power source. The rest of the energy is dissipated harmlessly into the environment around the droid.
 EOV
 

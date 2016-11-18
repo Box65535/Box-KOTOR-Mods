@@ -1235,6 +1235,17 @@ with open('Data\\placeables.csv', 'r') as csvfile:
 		add_line(modulegen, row, placeable_pattern, '#PLACEABLES')
 
 
+# Merchants
+with open('Data\\merchants.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		if row['type'] == 'merchant':
+			add_line(merchantgen, row, merchant_pattern, '#MERCHANTS')
+		elif row['type'] == 'item':
+			add_line(merchantgen, row, merchantitem_pattern, row['marker'])
+
+
+
 write_file(feats, 'Out\\feats.ini')
 write_file(baseitems, 'Out\\baseitems.ini')
 write_file(poisons, 'Out\\poison.ini')

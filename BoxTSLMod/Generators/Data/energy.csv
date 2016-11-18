@@ -19,8 +19,9 @@ wh_sonic,wave,y,BOXI_ENERGYWEAP2,800,Sonic Wave Emitter,,SONIC_WAVE_EMITTER,BOXS
 wh_hack,beam,y,BOXI_ENERGYWEAP2,1000,Droid Hacker,,DROID_HACKER,BOXS_DROID_HACKER,6,box_droidhack,****,,,,Box_DroidHacker,Box_DroidHackBeam,,,0x01
 wh_seis,wave,y,BOXI_ENERGYWEAP2,2000,Seismic Disruptor,,SEISMIC_DISRUPTOR,BOXS_SEISMIC_DISRUPTOR,6,box_seismicdisrup,****,,,20,Box_SeismicDisruptor,Box_NoBeam,GetLocation(OBJECT_SELF),SHAPE_SPHERE,0x00
 wh_para,beam,y,BOXI_ENERGYWEAP2,1200,Paralysis Ray,,PARALYSIS_RAY,BOXS_PARALYSIS_RAY,6,box_paralyzeray,****,,,,Box_ParalysisRay,Box_StunRayBeam,,,0x02
+wh_storm,multibeam,y,BOXI_ENERGYWEAP2,2750,Storm Arm,,STORM_ARM,BOXS_STORM_ARM,9,box_stormarm,****,,,12,Box_StormArm,Box_IonShockBeam,GetLocation(OBJECT_SELF),SHAPE_SPHERE,0x00
 wh_plasma,grenade,y,BOXI_ENERGYWEAP2,3000,Plasma Bomber,,PLASMA_BOMBER,BOXS_PLASMA_BOMBER,9,box_plasmabomber,cb_sh_pwrblast1,w_lfire_pb_r1,homing,,Box_PlasmaBomber,Box_NoBeam,,,0x00
-wh_proj,wave,y,BOXI_ENERGYWEAP2,3500,Gravity Projector,,GRAVITY_PROJECTOR,BOXS_GRAVITY_PROJECTOR,9,box_gravitproj,****,,,12,Box_GravityProjector,Box_GravityBeam,GetSpellTargetLocation(),SHAPE_SPELLCONE,0x00
+wh_proj,wave,y,BOXI_ENERGYWEAP2,3500,Gravity Projector,,GRAVITY_PROJECTOR,BOXS_GRAVITY_PROJECTOR,9,box_gravitproj,****,,,12,Box_GravityProjector,Box_GravityBeam,GetSpellTargetLocation(),SHAPE_SPELLCYLINDER,0x00
 wh_death,beam,y,BOXI_ENERGYWEAP2,4500,Death Ray,,DEATH_RAY,BOXS_DEATH_RAY,9,box_deathray,****,,,,Box_DeathRay,Box_DeathBeam,,,0x02
 wh_domina,beam,y,BOXI_ENERGYWEAP2,5000,Droid Dominator,,DROID_DOMINATOR,BOXS_DROID_DOMINATOR,9,box_droiddomina,****,,,,Box_DroidDominator,Box_DroidHackBeam,,,0x01
 wh_gravit,wave,y,BOXI_ENERGYWEAP2,6500,Gravity Generator,,GRAVITY_GENERATOR,BOXS_GRAVITY_GENERATOR,9,box_gravitgen,****,,,15,Box_GravityGenerator,Box_GravityLongBeam,GetSpellTargetLocation(),SHAPE_SPHERE,0x00

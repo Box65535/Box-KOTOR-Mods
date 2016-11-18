@@ -1,7 +1,7 @@
 tag,baseitemcode,cost,name,model,upgradelevel,tagconst,bludgeoningdt,piercingdt,slashingdt,unstoppabledt,universaldt,colddt,lightsidedt,electricaldt,firedt,darksidedt,sonicdt,iondt,energydt
-ha_atton,BOXI_CLOTHING,0,Atton's Ribbed Jacket,0,0,ATTON_RIBBED_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
-ha_mira,BOXI_CLOTHING,0,Mira's Ballistic Mesh Jacket,0,0,MIRA_BALLISTIC_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
-ha_miner,BOXI_CLOTHING,0,Miner Uniform,0,1,MINER_UNIFORM,0,0,0,0,0,0,0,0,1,0,1,1,1
+ha_atton,BOXI_CLOTHING,50,Atton's Ribbed Jacket,0,0,ATTON_RIBBED_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
+ha_mira,BOXI_CLOTHING,50,Mira's Ballistic Mesh Jacket,0,0,MIRA_BALLISTIC_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
+ha_miner,BOXI_CLOTHING,100,Miner Uniform,0,1,MINER_UNIFORM,0,0,0,0,0,0,0,0,1,0,1,1,1
 ha_repub1,BOXI_ARMOR1,500,Republic Light Combat Suit,0,1,REPUBLIC_ARMOR_1,0,2,2,0,0,0,0,0,2,0,0,2,2
 ha_zabrak1,BOXI_ARMOR1,950,Zabrak Light Combat Suit,0,0,ZABRAK_ARMOR_1,0,2,2,0,0,2,0,0,2,0,0,2,2
 ha_echani1,BOXI_ARMOR1,900,Echani Light Combat Suit,0,0,ECHANI_ARMOR_1,0,0,0,0,0,0,0,2,2,0,2,2,2

@@ -30,6 +30,7 @@ Free:
 Soldier, Combat Droid - Level 1
 EOV
 
+
 KEY: BOXF_BLASTERS_4
 Prerequisites:
 Weapon Proficiency - Blaster Rifles
@@ -39,6 +40,7 @@ This character is proficient in using repeating blaster rifles. These weapons ha
 Free:
 None
 EOV
+
 
 KEY: BOXF_MELEE_1
 Prerequisites:
@@ -50,6 +52,7 @@ Free:
 All Non-Droid Classes - Level 1
 EOV
 
+
 KEY: BOXF_MELEE_2
 Prerequisites:
 Weapon Proficiency - Primitive Melee Weapons
@@ -58,8 +61,9 @@ Non-Droid
 This character is proficient in using modern melee weapons powered by vibrating power cells such as the vibroblade. These weapons are more powerful and can be fully upgtaded by switching out the power cell.
 
 Free:
-Soldier - Level 1
+Handmaiden - Level 1
 EOV
+
 
 KEY: BOXF_MELEE_3
 Prerequisites:
@@ -72,11 +76,13 @@ Free:
 None
 EOV
 
+
 KEY: BOXF_LIGHTSABERS
 Prerequisites:
 Jedi
 
 This character is proficient in using a lightsaber. It includes single-hilt and double-hilt variants. Lightsabers come in many different colors and are all fully upgradeable.
+
 
 Free:
 None
@@ -91,6 +97,7 @@ Stuff
 Free:
 Exile (Jedi Sentinel) - Level 1
 EOV
+
 
 KEY: BOXF_GRENADE_LAUNCHERS
 Prerequisites:
@@ -112,6 +119,7 @@ Free:
 None
 EOV
 
+
 KEY: BOXF_ENERGY_WEAPONS_1
 Prerequisites:
 Droid or Tech Specialist
@@ -122,9 +130,11 @@ Free:
 None
 EOV
 
+
 KEY: BOXF_ENERGY_WEAPONS_2
 Prerequisites:
 Weapon Proficiency - Energy Weapons
+Droid
 
 Stuff
 
@@ -143,6 +153,7 @@ Free:
 Wookies - Level 1
 EOV
 
+
 KEY: BOXF_ARMOR_1
 Prerequisites:
 Human or Bao-Dur
@@ -153,6 +164,7 @@ Free:
 Humans and Bao-Dur - Level 1
 EOV
 
+
 KEY: BOXF_ARMOR_2
 Prerequisites:
 Armor Proficiency - Light Combat Suits
@@ -161,8 +173,10 @@ Human or Bao-Dur
 This character is proficienct in wearing heavier combat suits. In addition to being stronger, these larger suits are also compatable with more types of upgrades.
 
 Free:
+Exile - Level 1
 Non-Jedi - Level 1
 EOV
+
 
 KEY: BOXF_ARMOR_3
 Prerequisites:
@@ -175,6 +189,7 @@ Free:
 Soldiers - Level 1
 EOV
 
+
 KEY: BOXF_ARMOR_4
 Prerequisites:
 Armor Proficiency - Military Suits
@@ -185,6 +200,7 @@ This character is proficienct in wearing heavy battle armor. These suits are ver
 Free:
 None
 EOV
+
 
 KEY: BOXF_ARMOR_5
 Prerequisites:
@@ -610,6 +626,7 @@ EOV
 KEY: BOXF_TWO_WEAPON_2
 Prerequisites:
 Combat Ability - Two-Weapon Proficiency
+Level 3
 
 This character is more adept in wielding two weapons at the same time. The penalties for wielding two weapons are further reduced to a -4 Attack penalty for each weapon. Balanced weapons used on the offhand can further reduce main-hand weapon penalties to -2 Attack.
 
@@ -620,6 +637,7 @@ EOV
 KEY: BOXF_TWO_WEAPON_3
 Prerequisites:
 Combat Ability - Two-Weapon Adeptness
+Level 7
 
 This character has mastered wielding two weapons at the same time. The penalties for wielding two weapons are further reduced to a -2 Attack penalty for each weapon. Balanced weapons used on the offhand eliminate penalties for the main hand entirely.
 
@@ -640,6 +658,7 @@ EOV
 KEY: BOXF_CONDITIONING_2
 Prerequisites:
 Combat Ability - Conditioning
+Level 3
 
 This character has improved his or her conditining to physical or mental attack. This character now gains a +2 bonus to all saving throws instead of +1.
 
@@ -650,6 +669,7 @@ EOV
 KEY: BOXF_CONDITIONING_3
 Prerequisites:
 Combat Ability - Improved Conditioning
+Level 7
 
 This character has perfected his or her conditining to physical or mental attack. This character now gains a +3 bonus to all saving throws instead of +2.
 
@@ -724,6 +744,7 @@ EOV
 KEY: BOXF_DUAL_STRIKE_2
 Prerequisites:
 Combat Ability - Dual Strike
+Level 3
 
 This character has improved his or her ability to use teamwork to defeat an enemy. The bonus from attacking the same enemy as an ally is improved from +2 Attack to +4 Attack.
 
@@ -734,6 +755,7 @@ EOV
 KEY: BOXF_DUAL_STRIKE_3
 Prerequisites:
 Combat Ability - Improved Dual Strike
+Level 7
 
 This character has mastered his or her ability to use teamwork to defeat an enemy. The bonus from attacking the same enemy as an ally is improved from +4 Attack to +6 Attack.
 
@@ -754,6 +776,7 @@ EOV
 KEY: BOXF_TOUGHNESS_2
 Prerequisites:
 Combat Ability - Toughness I
+Level 3
 
 This character has improved his or her ability to better endure physical pain . This character's bonus Resistance to Damage has increased from +5% to +10%.
 
@@ -764,6 +787,7 @@ EOV
 KEY: BOXF_TOUGHNESS_3
 Prerequisites:
 Combat Ability - Toughness II
+Level 7
 
 This character has mastered his or her ability to better endure physical pain . This character's bonus Resistance to Damage has increased from +10% to +15%.
 
@@ -1021,143 +1045,114 @@ EOV
 
 KEY: BOXF_DEFLECT_3
 Jedi Ability - Master Blaster Deflection
-EOV
+EOVKEY: BOXF_DEFLECT_MASTERYPrerequisites:Jedi Weapon MasterStuffFree:Jedi Weapon Master - Level 1EOV
 
 KEY: BOXF_FORCE_JUMP_1
-Jedi Ability - Force Jump
+Prerequisites:Jedi Weapon MasterStuffFree:Jedi Weapon Master - Level 1
 EOV
 
 KEY: BOXF_FORCE_JUMP_2
-Jedi Ability - Improved Force Jump
+Prerequisites:Jedi Ability - Force JumpPrestige Level 7StuffFree:Jedi Weapon Master - Level 7
 EOV
 
 KEY: BOXF_FORCE_JUMP_3
-Jedi Ability - Master Force Jump
-EOV
-
-KEY: BOXF_FORCE_IMMUNITY_1
-Jedi Ability - Fear Immunity
-EOV
+Prerequisites:Jedi Ability - Improved Force JumpPrestige Level 15StuffFree:Jedi Weapon Master - Level 15
+EOVKEY: BOXF_FORCE_REGENERATEPrerequisites:Sith MarauderStuffFree:Sith Marauder - Level 1EOV
+KEY: BOXF_IGNORE_PAIN_1Prerequisites:Sith MarauderStuffFree:Sith Marauder - Level 1EOVKEY: BOXF_IGNORE_PAIN_2Prerequisites:Sith Ability - Ignore Pain IPrestige Level 7StuffFree:Sith Marauder - Level 7EOV
+KEY: BOXF_IGNORE_PAIN_3Prerequisites:Sith Ability - Ignore Pain IIIPrestige Level 15StuffFree:Sith Marauder - Level 15EOVKEY: BOXF_FORCE_MASTERYPrerequisites:Jedi MasterStuffFree:Jedi Master - Level 1EOVKEY: BOXF_DARK_SIDE_MASTERYPrerequisites:Sith LordStuffFree:Sith Lord - Level 1EOVKEY: BOXF_SNEAK_ATTACK_E1Prerequisites:Sith AssassinStuffFree:Sith Assassin - Level 1EOVKEY: BOXF_SNEAK_ATTACK_E2Prerequisites:Sith Ability - Sneak Attack IPrestige Level 7StuffFree:Sith Assassin - Level 7EOVKEY: BOXF_SNEAK_ATTACK_E3Prerequisites:Sith Ability - Sneak Attack IIPrestige Level 15StuffFree:Sith Assassin - Level 15EOVKEY: BOXF_FORCE_IMMUNITY_1
+Prerequisites:JediStuffFree:Exile (Jedi Consular) - Level 1EOV
 
 KEY: BOXF_FORCE_IMMUNITY_2
-Jedi Ability - Stun Immunity
-EOV
+Prerequisites:Jedi Ability - Fear ImmunityLevel 7StuffFree:NoneEOV
 
 KEY: BOXF_FORCE_IMMUNITY_3
-Jedi Ability - Paralysis Immunity
-EOV
+Prerequisites:Jedi Ability - Stun ImmunityLevel 15StuffFree:NoneEOV
 
 KEY: BOXF_FORCE_STEALTH
 Jedi Ability - Force Concealment
 EOV
 
 KEY: BOXF_CLASS_AWARENESS
-Class Skill - Awareness
-EOV
+Prerequisites:NoneStuffFree:All - Level 1EOV
 
 KEY: BOXF_CLASS_SCIENCE
-Class Skill - Science
-EOV
+Prerequisites:NoneStuffFree:Exile (Jedi Sentinel) - Level 1Tech Specialist - Level 1EOV
 
 KEY: BOXF_CLASS_DEMOLITIONS
-Class Skill - Demolitions
-EOV
+Prerequisites:NoneStuffFree:Exile (Jedi Guardian) - Level 1Soldier - Level 1Scout - Level 1Combat Droid - Level 1EOV
 
 KEY: BOXF_CLASS_REPAIR
-Class Skill - Repair
-EOV
+Prerequisites:NoneStuffFree:Exile (Jedi Consular) - Level 1Scout - Level 1Tech Specialist - Level 1Expert Droid - Level 1EOV
 
 KEY: BOXF_CLASS_SECURITY
-Class Skill - Security
-EOV
+Prerequisites:NoneStuffFree:Exile (Jedi Sentinel) - Level 1Scoundrel - Level 1Tech Specialist - Level 1Expert Droid - Level 1EOV
 
 KEY: BOXF_CLASS_STEALTH
-Class Skill - Stealth
-EOV
+Prerequisites:NoneStuffFree:Exile (Jedi Guardian) - Level 1EOV
 
 KEY: BOXF_CLASS_MEDICINE
-Class Skill - Medicine
-EOV
+Prerequisites:NoneStuffFree:Exile (Jedi Sentinel) - Level 1Scoundrel - Level 1EOV
 
 KEY: BOXF_CLASS_PERSUADE
-Class Skill - Persuade
-EOV
+Prerequisites:Jedi Master OR Sith LordStuffFree:Jedi Master - Level 1Sith Lord - Level 1EOV
 KEY: BOXF_COMPLEX_UNARMED_ANIMATIONSComplex Unarmed Animations.EOV
 KEY: BOXF_WAR_VETERAN
-Character Ability - War Veteran
-EOV
+StuffEOV
 
 KEY: BOXF_EMPATHY_1
-Character Ability - Empathy
-EOV
+StuffEOV
 
 KEY: BOXF_EMPATHY_2
-Character Ability - Improved Empathy
-EOV
+StuffEOV
 
 KEY: BOXF_EMPATHY_3
-Character Ability - Master Empathy
-EOV
-KEY: BOXF_FORCE_CHAINCharacter Ability - Force ChainEOV
+StuffEOV
+KEY: BOXF_FORCE_CHAINStuffEOV
 KEY: BOXF_KINETIC_COMBAT
-Character Ability - Kinetic Combat
+Stuff
 EOV
 
 KEY: BOXF_SPIRIT
-Character Ability - Fighting Spirit
-EOV
+StuffEOV
 
 KEY: BOXF_SHIELD_BREAKER
-Character Ability - Shield Breaker
-EOV
+StuffEOV
 
-KEY: BOX_REPULSSTRK
-Character Ability - Repulsor Strike
-EOV
+KEY: BOX_REPULSER_STRIKE
+StuffEOV
 
 KEY: BOXF_ECHANI_STRIKE
-Character Ability - Echani Strike
-EOV
+StuffEOV
 
 KEY: BOXF_HEALER
-Character Ability - Healer
-EOV
+StuffEOV
 
 KEY: BOXF_MANDALORIAN_COURAGE
-Character Ability - Mandalorian Courage
-EOV
+StuffEOV
 
 KEY: BOXF_IMPLANT_SWITCHING
-Character Ability - Implant Switching
-EOV
+StuffEOV
 
 KEY: BOXF_ASSASSIN_PROTOCOL
-Character Ability - Assassin Protocols
-EOV
+StuffEOV
 
 KEY: BOXF_POINT_GUARD
-Character Ability - Point Guard
-EOV
+StuffEOV
 
 KEY: BOXF_WOOKIEE_TOUGHNESS
-Character Ability - Wookie Toughness
-EOV
+StuffEOV
 
 KEY: BOXF_WOOKIE_RAGE
-Character Ability - Wookie Rage
-EOV
+StuffEOV
 
 KEY: BOXF_PERSONAL_CLOAKING_SHIELD
-Character Ability - Personal Cloaking Shield
-EOV
+StuffEOV
 
 KEY: BOXF_MINE_IMMUNITY
-Character Ability - Mine Immunity
-EOV
+StuffEOV
 
 KEY: BOXF_DROID_SCRAMBLER
-Character Ability - Droid Scrambler
-EOV
+StuffEOV
 
 KEY: BOXFP_FORCE_SPEED
 Universal Power
@@ -1678,448 +1673,7 @@ The Jedi is able to consume the force from an opponent. This power kills an oppo
 EOV
 
 
-
-
-KEY: wr_blast1
-Fully Upgradeable
-
-The most common ranged weapon in the galaxy is the basic blaster pistol, firing a bolt of intense coherent light powered by a replaceable power pack.
-EOV
-
-
-KEY: wr_hold1
-Fully Upgradeable
-
-The Hold Out Blaster l is a versatile back-up weapon. Though modest in performance, it is fully upgradeable.
-EOV
-
-
-KEY: wr_ion1
-Upgradeable (Chamber, Scope)
-
-This standard Ion Blaster is commonly issued to Republic troops as a secondary weapon.
-
-While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses blaster fire cannot. Ion weapons cannot utilize most power pack upgrades.
-EOV
-
-
-KEY: wr_disrup1
-Upgradeable (Chamber, Scope)
-
-These pistols are illegal in many planetary systems, being regarded as too powerful a weapon to be owned by civilians. Disruptors reduce solid matter to its constituent molecules. Unlike typical blasters, disruptors ignore most types of personal energy shields.
-EOV
-
-
-KEY: wr_sonic1
-Upgradeable (Scope)
-
-Sometimes referred to as "squealers", these weapons deliver a high-frequency jolt to the senses that can damage and potentially disorient an opponent.
-
-Sonic weapons can temporarily reduce an opponent's Wisdom.
-EOV
-
-
-KEY: wr_heavy1
-Fully Upgradeable
-
-These resemble regular blasters in the same way Quoorian marshsuckers resemble mosquitoes. Sure, they both do damage, but the former definitely has the edge in kill potential.
-EOV
-KEY: wr_hvydsr1Upgradeable (Chamber, Scope)These pistols are illegal in many planetary systems, being regarded as too powerful a weapon to be owned by civilians. Disruptors reduce solid matter to its constituent molecules. Unlike typical blasters, disruptors ignore most types of personal energy shields.EOV
-KEY: wr_mining1Not UpgradeableThis industrial hand-held laser can double as a makeshift blaster.EOV
-KEY: wr_blast2
-Fully Upgradeable
-
-The Republic Blaster can be fully upgraded with firing chamber, targeting scope, and power cell.
-EOV
-
-KEY: wr_hold2
-Fully Upgradeable
-
-When fully upgraded, these survival pistols can match the best heavy blaster in performance. Their stun capabilites make them an excellent off-hand weapon.
-EOV
-
-
-KEY: wr_ion2
-Upgradeable (Chamber, Scope)
-
-The Verpine Ion Blaster is designed to be capable against all types of opponents, replacing the need to carry a second anti-droid side arm.
-
-While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses that will stop typical blaster fire. Ion weapons cannot utilize most power pack upgrades.
-EOV
-
-
-KEY: wr_disrup2
-Upgradeable (Chamber, Scope)
-
-The Sith disruptor design is compatible with most types of blaster upgrades.
-EOV
-
-
-KEY: wr_sonic2
-Upgradeable (Scope)
-
-Though inferior in damage potential to traditional blasters, this sonic blaster's advanced design makes it a viable weapon, especially in long combats when its deafening capabilities can accumulate.
-
-Sonic weapons can temporarily reduce an opponent's Wisdom. Additionally, many types of shields and defenses are ineffective against sonic attacks. 
-EOV
-
-
-KEY: wr_heavy2
-Fully Upgradeable
-
-Mandalorians improved upon the standard heavy blaster design, creating a weapon that is both fully upgradeable and superior to the standard design.
-EOV
-
-
-KEY: wr_elec2
-Upgradeable (Scope)
-
-This unusual weapon was originally developed for use against veermok, a ferocious primate on Naboo that happens to be resistant to blaster fire. Much of the weapon's damage is electrical in nature, allowing it to bypass blaster resistance.
-EOV
-
-
-KEY: wr_assass2
-Fully Upgradeable
-
-These weapons are designed to incapacitate so death may be quick or lingered upon as desired. Droids are simply dispatched, as cruelty is best rationed among the living.
-EOV
-
-
-KEY: wr_plasma2
-Upgradeable (Chamber, Scope)
-
-This capable side-arm is at the top of Aratech's ion blaster line. It is designed for multi-purpose use.
-EOV
-
-
-KEY: wr_mand2
-Upgradeable (Chamber, Scope)
-
-Not surprisingly, the most deadly disruptor pistol available is of Mandalorian design. Use of this ruthless weapon is a major violation of Republic code.
-EOV
-
-
-KEY: wr_sonicd2
-Upgradeable (Scope)
-
-The Dashade are a secretive and vicious species made infamous by their renowned assassins. Their weapons of choice are best known for the extreme pain they inflict. This improved model combines the best features of sonic and disruptor pistols.
-EOV
-
-
-KEY: wr_zabrak2
-Not Upgradeable
-
-A more cumbersome, but also more damaging, blaster of Zabrak design.
-EOV
-
-
-KEY: wr_dark
-Not Upgradeable
-
-A vile weapon that once belonged to Freedon Nadd, this blaster has killed more Jedi then any lightsaber.
-EOV
-
-
-KEY: wr_carbin3
-Not Upgradeable
-
-Blaster carbine rifles are inelegant, but effective weapons. They are commonly used by unskilled thugs and mercenaries.
-EOV
-
-
-KEY: wr_blast3
-Fully Upgradeable
-
-More powerful than the commonly available pistol, the blaster rifle is favored by soldiers throughout the galaxy. Civilian ownership of these weapons is not generally encouraged.  Unlike carbines, most rifles can be fully upgraded.
-EOV
-
-
-KEY: wr_ion3
-Upgradeable (Chamber, Scope)
-
-While they may have borrowed liberally from designs the Bothans initiated, the Verpine say you can't argue with results. These weapons are simply devastating against droids.
-
-While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses blaster fire cannot. Ion weapons cannot utilize most power pack upgrades.
-EOV
-
-
-KEY: wr_disrup3
-Upgradeable (Scope, Chamber)
-
-This disruptor has all the modifications an assasin droid needs: improved optics, reduced recoil, extended range, and several open ports for even more modular upgrades.
-EOV
-
-
-KEY: wr_sonic3
-Upgradeable (Scope)
-
-More powerful than the pistol, the sonic rifle fires a blast of sound that causes a great deal of sensory overload in addition to damage, disorienting the victim.
-EOV
-
-
-KEY: wr_assaul3
-Fully Upgradeable
-
-These weapons are almost overpowered for their size, but the Mandalorians prefer them that way. They do not make a habit of being subtle in their war making.
-EOV
-
-
-KEY: wr_exchan3
-Not Upgradeable
-
-Trandoshan bounty hunters will use this weapon to capture their victims alive. As it is a carbine, it cannot be upgraded.
-EOV
-
-
-KEY: wr_sniper3
-Fully Upgradeable
-
-Despite its effectiveness, these modified blaster rifles are not often employed by the Sith. They prefer to engage their enemies up close and personal.
-EOV
-
-
-KEY: wr_plasma3
-Upgradeable (Chamber, Scope)
-
-This massive weapon fires a bolt of plasma energy at its target. It is difficult to wield except by highly trained marksmen.
-EOV
-
-
-KEY: wr_sonicd3
-Upgradeable (Scope)
-
-Combining both sonic and disruptor attacks, this rifle tears through enemy defenses.
-EOV
-
-
-KEY: wr_mand3
-Upgradeable (Chamber, Scope)
-
-A weapon similar to this disruptor belonged to Jigger Wraith, a bounty hunter who plagued the Republic years ago. Thirty-seven Mandalorians were executed for being him until sightings declined. As a type of disruptor, this weapon ignores most personal energy shields.
-EOV
-
-
-KEY: wr_zabrak3
-Not Upgradeable
-
-The design of the Zabrak Combat Rifle is too complicated to allow further upgrading. Fortunately, it has little need for additional enhancement.
-EOV
-
-
-KEY: wr_blast4
-Fully Upgradeable
-
-This weapon allows the user to fire more quickly than usual, increasing his chances of survival without drastically changing the amount of equipment he would normally carry.
-EOV
-
-
-KEY: wr_sonicd4
-Upgradeable (Scope)
-
-These weapons were employed by the elite troops of Iziz during the Battle of Onderon. The power of these carbines, combined with their high rate of fire, was believed to play a considerable role in the rout of the Mandalorian forces.
-EOV
-
-
-KEY: wr_sith4
-Fully Upgradeable
-
-?
-EOV
-KEY: wr_plasma4Upgradeable (Chamber, Scope)EOVKEY: wr_hk4Upgradeable (Chamber, Scope)EOV
-
-KEY: wr_mand4
-Fully Upgradeable
-
-With this weapon, the Mandalorians again demonstrate a complete lack of subtlety. The only thing better than a big blaster, apparently, is one that shoots faster.
-EOV
-
-
-KEY: wr_zabrak4
-Not Upgradeable
-EOV
-
-KEY: wr_bow1Not UpgradeableEOVKEY: wr_bow2Not UpgradeableEOV
-KEY: wm_short
-Upgradeable (Edge, Grip)
-
-Disregarded by most modern warriors, a good short sword can still serve well in combat if the user is skilled.
-EOV
-
-
-KEY: wm_long
-Upgradeable (Edge, Grip)
-
-Here is where the roots of the lightsaber begin, with traditional swords still wielded today in many primitive cultures. They are simple, but effective in the right hands.
-EOV
-
-
-KEY: wm_quarter
-Upgradeable (Grip)
-
-Usually just a smooth staff of wood or light alloys, this is a very simple weapon of ancient design.
-EOV
-
-
-KEY: wm_dblade
-Upgradeable (Edge, Grip)
-
-A difficult weapon to master, the double-bladed sword has a grip in the center with two long blades emerging from either end. The double-bladed sword is capable of inflicting more damage - but is also less precise - than the single-bladed variant. Using a two-bladed sword expertly requires skill in Two-Weapon Fighting.
-EOV
-
-
-KEY: wm_baton
-Not Upgradeable
-
-Stun Batons are commonly employed by police forces who prefer to incapacitate instead of kill their targets.
-EOV
-
-
-KEY: wm_pike
-Not Upgradeable
-
-This weapon effectively functions as a long staff topped with a vibroblade. Despite its name, it is not related to the Force mastered by Jedi, though it is a powerful weapon in its own right.
-EOV
-KEY: wm_plasmaNot Upgradeable?EOV
-
-KEY: wm_vblade
-Fully Upgradeable
-
-Small size makes this a good off-hand weapon. Echani vibroblades use a cortosis weave to prevent lightsaber sparring damage, allowing traditional swordplay to continue in the time of Jedi and Sith.
-EOV
-
-KEY: wm_vsword
-Fully Upgradeable
-
-Ultrasonic generators power this Echani-developed weapon design. A cortosis weave that protects against sparring damage ensures that traditional swordplay will endure in the time of lightsabers.
-EOV
-
-KEY: wm_vdoubl
-Fully Upgradeable
-
-Ultrasonic vibrations make this double-bladed sword exceptionally deadly. An Echani cortosis weave protects it against lightsaber sparring damage, ensuring effectiveness even against Jedi and Sith. The double-bladed sword is capable of inflicting more damage - but is also less precise - than the single-bladed variant. Two-Weapon Fighting is required to use a double-bladed sword with maximum effectiveness.
-EOV
-
-KEY: wm_exchan
-Not Upgradeable
-
-A useful tool for espionage, this weapon is more effective than the standard stun baton, but is still available on most worlds.
-EOV
-
-
-KEY: wm_gammor1
-Upgradeable (Grip)
-
-Gamorrean war axes, much like their namesake species, are heavy, unsubtle, and generally a very damaging influence in almost any situation.
-EOV
-
-
-KEY: wm_zabrak
-Not Upgradeable
-
-Though believed to have been constructed by the Zabrak, this vibroblade is rarely used by them. The Zabrak feel their combat skills sufficient to make this weapon's fine balance irrelevant.
-EOV
-
-
-KEY: wm_rodian
-Not Upgradeable
-
-This serrated weapon inflicts great pain upon its victims. Its design is unsuitable for weapon upgrades.
-EOV
-
-
-KEY: wm_sith
-Not Upgradeable
-
-Though most favor lightsabers, some Sith prefer the more visceral feel of metal cutting flesh. These blades are usually blended with cortosis to protect against lightsaber sparring damage.
-EOV
-
-
-KEY: wm_trand
-Not Upgradeable
-
-While most cultures abandoned the primitive sword in favor of vibroblades or other weapons, the Trandoshan sometimes use the weapon as a badge of honor. This variant is made of the rare ore Chalon, and is sharper and heavier than the typical blade. They are not suitable for weapon upgrades, however.
-EOV
-
-
-KEY: wm_gand
-Not Upgradeable
-
-The pinnacle of Gand technology, the discharger can both paralyze and slay opponents with ease. These potent items are extremely rare as they are highly coveted by the few Gand who have earned them.
-EOV
-
-
-KEY: wm_ryyk
-Not Upgradeable
-
-These short blades are typically used in pairs by Wookiees who prefer seeing their victims up close before gutting them.
-EOV
-
-
-KEY: wm_echani
-Not Upgradeable
-
-In addition to a cortosis weave that deflects lightsaber sparring damage, some Echani vibroswords are supercooled to keep them in alignment, giving them an icy sting.
-EOV
-
-
-KEY: wm_shyarn
-Not Upgradeable
-
-This primitive looking weapon hails from the Cerean species, who employ it in traditional honor duels. It is crafted with ancient techniques and rare metals. Shyarn are magnetically attracted to each other, often locking together during parries. This strange property results in duels that are amazing and deadly dances of survival.
-EOV
-
-
-KEY: wm_gammor2
-Not Upgradeable
-
-The impressive Arg'garok is the most prized Gamorrean weapon. These huge axes are designed to be wielded by those with a low center of gravity and tremendous strength, making them awkward for most non-Gamorreans to use.
-EOV
-
-
-KEY: wm_geonos
-Not Upgradeable
-
-Geonosians are winged bipeds covered with protective bony plates. They are highly competitive and generally look down upon other species. Their electro-staves therefore only rarely find their way off of their homeworld of Geonosis.
-EOV
-
-
-KEY: wm_tehkla
-Not Upgradeable
-
-This weapon is favored by the Nagai, a species of slender humanoids who appear more dead than alive. Known for their honor and combat skill, the Nagai use these serrated weapons to cripple their opponents.
-EOV
-
-
-KEY: wm_zhabok
-Not Upgradeable
-
-This variant of the double-bladed sword originated on Iridonia, the homeworld of the Zabrak. A ceremonial weapon, the Zhaboka (double-headed fighting pike) began as a simple wooden stick but has since been refined to be a formidable weapon.
-EOV
-
-
-KEY: wm_wookie
-Not Upgradeable
-
-Carved upon this mighty warblade is a symbol of the Wookiee chieftain Freyyr. How this weapon found its way off of the Wookiee homeworld of Kashyyyk is unknown.
-EOV
-
-
-KEY: wm_twilek1
-KEY: wm_twilek2
-Not Upgradeable
-
-The deadly Twi'lek Twin Suns each wielded one of these deadly blades. Their victims had the rare pleasure of witnessing their beautifully choreographed slaying.
-EOV
-
-
-KEY: wm_ludo
-Not Upgradeable
-
-Though most favor lightsabers, some Sith prefer the more visceral feel of metal cutting flesh. These blades are usually blended with cortosis to protect against lightsaber sparring damage. This particular war sword once belonged to the dark Jedi Ludo Kressh.
-EOV
-
-
-KEY: fg_frag
+KEY: ag_frag
 20 Piercing Damage
 Save DC 12 (Reflex, None) for 4 damage
 4 Meter Blast Radius
@@ -2128,16 +1682,16 @@ Fragmentation grenades are very basic. They explode when thrown, showering the e
 EOV
 
 
-KEY: fg_flash
+KEY: ag_flash
 9 Second Stun
 Save DC 12 (Reflex, None) for no effect
 4 Meter Blast Radius
 
-F
+
 EOV
 
 
-KEY: fg_ion
+KEY: ag_ion
 12 Ion Damage
 +12 Ion Damage vs Droids
 6 Second Stun vs Droids
@@ -2148,7 +1702,7 @@ These grenades emit an extremely strong burst of energy devastating to any droid
 EOV
 
 
-KEY: fg_sonic
+KEY: ag_sonic
 16 Sonic Damage
 Int/Wis/Chr -4 for 30 Seconds
 Save DC 12 (Relfex OR Will, Sonic) for 4 damage and no effect
@@ -2158,7 +1712,7 @@ These grenades explode loudly, but the majority of their effect is delivered in 
 EOV
 
 
-KEY: fg_cold
+KEY: ag_cold
 24 Cold Damage
 6 Second Paralysis
 Save DC 14 (Foritutde OR Reflex, Cold) for 4 damage and no effect
@@ -2168,7 +1722,7 @@ A CryoBan grenade releases a supercooled liquid that freezes on contact, causing
 EOV
 
 
-KEY: fg_plasma
+KEY: ag_plasma
 32 Heat Damage
 Save DC 14 (Reflex, Heat) for 4 damage
 4 Meter Blast Radius
@@ -2177,99 +1731,13 @@ These grenades release a quick burst of an incendiary agent that ignites immedia
 EOV
 
 
-KEY: fg_therm
+KEY: ag_therm
 60 Energy Damage
 Knockdown
 DC 24 (Reflex, None) for 20 damage and no effect
 4 Meter Blast Radius
 
 This Republic device contains a baradium compound that produces a small fusion energy explosion of great force. Civilian possession of these items is outlawed almost everywhere.
-EOV
-
-
-KEY: wl_mining
-This fuel burner, normally used to burn off gases released in the Peragian mining process, can also be used as a makeshift flamethrower.
-EOV
-
-
-KEY: wl_flame
-This device actually shoots wide streams of liquid fire. There are few practical applications requiring such devices but they are sought after by military powers for their devastating effect on morale.
-
-This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.
-EOV
-
-
-KEY: wl_carbon
-Typically used for long-term storage of perishable goods, these tools can be turned on human targets with reasonable certainty of the outcome.
-
-This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.
-EOV
-
-
-KEY: wl_grappl
-This cable can be used with a grappling hook to harpoon or lasso an opponent.
-EOV
-
-
-KEY: wl_dart
-This weapon shoots various types of darts which each contain a differnt type of chemical payload for debilitating enemies.
-EOV
-
-
-KEY: wl_energy
-This weapon fires blasts of energy. 
-
-This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.
-EOV
-
-
-KEY: wl_gren
-This standard grenade launcher uses frag grenades for dealing damage and flash grenades for crowd control on large groups.
-EOV
-
-
-KEY: wl_gas
-This grenade launcher works with grenades that release gas. The poison grenade deals damage while the nerve grenade attempts to choke enemies. Because the grenades use gas, opponents must save using their Fortitude instead of Reflex and neither grenade is effective against droids.
-EOV
-
-
-KEY: wl_sonic
-This launcher is for deploying sonic charges. Sonic grenades bypass most defenses and can disorient those hit by them.
-EOV
-
-
-KEY: wl_cold
-This launcher deploys grenades that expand into solid matter. Both CryoBan and adhesive grenades are effective at stopping crowds of enemies in their tracks.
-EOV
-
-
-KEY: wl_plasma
-This launcher works with grenades that work by releasing energy. These types of grenades deal high amounts of damage. Ion grenades are effective against droids while plasma grenades devestate weak enemies.
-EOV
-
-
-KEY: wl_rocket
-This is the basic rocket launcher. Rockets are stronger than grenades but are considerably more expensive. This launcher works with regular explosive rockets and incendiary rockets for burning enemies.
-EOV
-
-
-KEY: wl_buster
-This rocket launcher is specially designed for buster rockets. Buster rockets are unique because they don't explode but are used to pierce armor.
-EOV
-
-
-KEY: wl_carbon
-?
-EOV
-
-
-KEY: wl_plasma
-This rocket launcher fires particularly deadly rockets. Plasma rockets deal massive damage while radiation rockets debilitate enemies with radiation poisoning.
-EOV
-
-
-KEY: wl_fusion
-This launcher is designed to work with fusion rounds. It is a dual launcher that can fire thermal detonators as ballstic projectiles as well as fusion rockets. This makes this launcher arguably the most deadly weapon that a single soldier can carry into battle.
 EOV
 
 
@@ -2307,7 +1775,7 @@ EOV
 
 
 
-KEY: fl_nerve
+KEY: al_nerve
 9 Second Choking
 Save DC 20 (Fortitude, Poison) for no effect
 4 Meter Radius
@@ -2318,7 +1786,7 @@ These grenades are specially designed and can only be used with an appropriate g
 EOV
 
 
-KEY: fg_ion
+KEY: al_ion
 20 Ion Damage
 +20 Ion Damage vs Droids
 Save DC 18 (Fortitude OR Reflex, Ion) for 6 damage and no effect
@@ -2330,7 +1798,7 @@ These grenades are specially designed and can only be used with an appropriate g
 EOV
 
 
-KEY: fl_sonic
+KEY: al_sonic
 24 Sonic Damage
 Int/Wis/Chr -6 for 30 Seconds
 Save DC 18 (Relfex OR Will, Sonic) for 6 damage and no effect
@@ -2342,7 +1810,7 @@ These grenades are specially designed and can only be used with an appropriate g
 EOV
 
 
-KEY: fl_sonic2
+KEY: al_sonic2
 32 Sonic Damage
 Int/Wis/Chr -6 for 30 Seconds
 Save DC 20 (Relfex OR Will, Sonic) for 8 damage and no effect
@@ -2354,7 +1822,7 @@ These grenades are specially designed and can only be used with an appropriate g
 EOV
 
 
-KEY: fl_cold
+KEY: al_cold
 24 Cold Damage
 9 Second Paralysis
 Save DC 20 (Foritutde OR Reflex, Cold) for 8 damage and no effect
@@ -2366,7 +1834,7 @@ These grenades are specially designed and can only be used with an appropriate g
 EOV
 
 
-KEY: fl_adhes
+KEY: al_adhes
 15 Second Entanglement
 Save DC 20 (Reflex, None) for no effect
 4 Meter Blast Radius
@@ -2388,7 +1856,7 @@ These grenades are specially designed and can only be used with an appropriate g
 EOV
 
 
-KEY: fr_explo
+KEY: ar_explo
 48 Piercing Damage
 Save DC 24 (Reflex, None) for 12 damage
 5 Meter Blast Radius
@@ -2396,7 +1864,7 @@ Save DC 24 (Reflex, None) for 12 damage
 EOV
 
 
-KEY: fr_fire
+KEY: ar_fire
 36 Heat Damage
 Con -4 for 30 Seconds
 Save DC 24 (Fortitude OR Reflex, Heat) for 12 damage and no effect
@@ -2405,7 +1873,7 @@ Save DC 24 (Fortitude OR Reflex, Heat) for 12 damage and no effect
 EOV
 
 
-KEY: fr_carbon
+KEY: ar_carbon
 36 Cold Damage
 12 Second Paralyze
 Save DC 24 (Fortitude OR Reflex, Cold) for 12 damage and no effect
@@ -2414,7 +1882,7 @@ Save DC 24 (Fortitude OR Reflex, Cold) for 12 damage and no effect
 EOV
 
 
-KEY: fr_plasma
+KEY: ar_plasma
 60 Heat Damage
 Save DC 24 (Reflex, Heat) for 20 damage
 5 Meter Blast Radius
@@ -2422,7 +1890,7 @@ Save DC 24 (Reflex, Heat) for 20 damage
 EOV
 
 
-KEY: fr_radian
+KEY: ar_radian
 20 Heat Damage
 Poison: Str/Con/Dex damage for 60 Seconds
 Save DC 24 (Fortitude, Poison) for no poison
@@ -2431,7 +1899,7 @@ Save DC 24 (Fortitude, Poison) for no poison
 EOV
 
 
-KEY: fl_therm
+KEY: al_therm
 60 Energy Damage
 Knockdown
 DC 28 (Reflex, None) for 20 damage and no effect
@@ -2441,7 +1909,7 @@ This Republic device contains a baradium compound that produces a small fusion e
 EOV
 
 
-KEY: fr_fusion
+KEY: ar_fusion
 80 Energy Damage
 Knockdown
 DC 32 (Reflex, None) for 40 damage and no effect
@@ -2450,7 +1918,7 @@ DC 32 (Reflex, None) for 40 damage and no effect
 EOV
 
 
-KEY: fr_buster
+KEY: ar_buster
 60 Piercing Damage
 Knockdown
 DC 24 (Reflex, None) for 12 damage and no effect
@@ -2459,15 +1927,13 @@ Single Target
 EOV
 
 
-KEY: fr_buster2
+KEY: ar_buster2
 60 Piercing Damage
 Knockdown
 DC 28 (Reflex, None) for 20 damage and no effect
 Single Target
 
-EOV
-
-
+EOVKEY: aa_mining12 Heat Damage3 Second HorrorDC 10 (Will, Fire) for 4 damage and no effectEOVKEY: aa_flame118 Heat Damage3 Second FearDC 12 (Will, Heat) for 6 damage and no effectEOVKEY: aa_flame230 Heat Damage3 Second FearDC 16 (Will, Heat) for 10 damage and no effectEOVKEY: aa_flame336 Heat DamageCon -4 for 18 SecondsDC 20 (Fortitude, Heat) for 12 damage and no effectEOVKEY: aa_carbon118 Cold Damage9 Second ParalyzeDC 16 (Fortitude, Cold) for 9 damage and no effectEOVKEY: aa_carbon224 Cold Damage12 Second ParalyzeDC 20 (Fortitude, Heat) for 12 damage and no effectEOVKEY: aa_ion16 Ion Damage+8 Ion Damage vs Droids6 Second Droid StunDC 16 (Fortitude, Ion) for 8 damage and no effectEOVKEY: aa_plasma24 Heat DamageDC 16 (Fortitude, Heat) for 8 damageEOVKEY: aa_antima36 Unstoppable DamageDC 18 (Reflex, None) for 12 damageEOVKEY: aa_psndtPoison: DC 12 (Fortitude, Poison) for no effectEOVKEY: aa_slpdt9 Second SleepDC 12 (Fortitude, Mind-Affecting) for no effectEOVKEY: aa_kybdtPoison: DC 16 (Fortitude, Poison) for no effectEOVKEY: aa_pardt9 Second ParalyzeDC 16 (Fortitude, Mind-Affecting) for no effectEOVKEY: aa_grappl6 Second ChokeSave DC 12 (Reflex, None) for no effectEOVKEY: we_ionst19 Second Stun vs DroidsSave DC 12 (Will, Ion) for no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_stun16 Second StunSave DC 12 (Will, Mind-Affecting) for no effectThis device fires a beam that is disruptive to the neural pathways of biological creatures.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock112 Electrical DamageSave DC 12 (Fortitude, Electrical) for 3 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionst26 Ion Damage9 Second Stun vs DroidsSave DC 14 (Will, Ion) for 3 damage and no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_stun29 Second StunSave DC 14 (Will, Mind-Affecting) for no effectThis device fires a beam that is disruptive to the neural pathways of biological creatures.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock218 Electrical DamageSave DC 14 (Fortitude, Electrical) for 6 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_sonic1Int/Wis/Chr -6 for 30 SecondsSave DC 14 (Sonic, Will) for no effect10 Meter ConeEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionbl124 Ion Damage3 Second Stun vs DroidsSave DC 16 (Fortitude, Ion) for 8 damage and no effectEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock324 Electrical Damage3 Second StunSave DC 16 (Fortitude, Electrical) for 8 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionst318 Ion Damage12 Second Stun vs DroidsSave DC 18 (Will, Ion) for 9 damage and no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_plasma136 Heat DamageSave DC 18 (Heat, Fortitude) for 9 damageEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_sonic218 Sonic DamageInt/Wis/Chr -6 for 30 SecondsSave DC 18 (Sonic, Will) for 6 damage and no effect10 Meter CylinderEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_plasma248 Heat DamageSave DC 20 (Heat, Fortitude) for 12 damageEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionbl236 Ion Damage6 Second Stun vs DroidsSave DC 20 (Fortitude, Ion) for 12 damage and no effectEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shield16 Sonic DamageRemoves Shield on hitEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: wh_shock24 Electrical Damage6 Second StunSave DC 16 (Fortitude, Electrical) for 12 damage and no effect12 Meter ConeEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_sonic12 Sonic DamageInt/Wis/Chr -6 for 30 SecondsSave DC 16 (Will, Sonic) for 6 damage and no effect15 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_hackConfusion for 20 Seconds vs DroidsSave DC 18 (Will, Mind-Affecting) for no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_seis18 Sonic Damage3 Second Knockdown with 12 Bludgeoning DamageSave DC 18 (Reflex, None) for 6 damage and no effect20 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_para16 Electrical Damage15 Second StasisSave DC 18 (Will, Electrical) for 8 damage and no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_storm36 Electrical Damage6 Second StunSave DC 20 (Fortitude, Electrical) for 12 damage and no effect12 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_plasma48 Heat DamageSave DC 20 (Reflex, Heat) for 12 damage4 Meter RadiusEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_proj36 Bludgeoning Damage3 Second PushSave DC 20 (Reflex, None) for 12 damage and no effect12 Meter SpellconeEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_deathDeathSave DC 24 (Will, Mind-Affecting) for no effectStrong Enemies are immuneEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_dominaConfusion for 30 Seconds vs DroidsSave DC 24 (Will, Mind-Affecting) for no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_gravit48 Bludgeoning Damage12 Second Whirlwind and CrushSave DC 24 (Reflex, None) for no effect12 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_selfd4x(UserLevel) Energy DamageKnockdownSave DC 32 (Reflex, None) for 1x(UserLevel) damage12 Meter SphereFaint on UseEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: hs_mining20 Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_energy40 Energy Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_enviro40 Ion, Heat, Electrical, Cold Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_sith60 Energy, Electrical Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_echani60 Energy, Ion, Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_mand30 Slashing, Piercing, Bludgeoning Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_zabrak60 Energy, Ion, Elecrtical, Sonic Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_energy40 Energy Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_enviro40 Ion, Heat, Electrical, Cold Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_advanc60 Energy, Electrical Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_radian60 Energy, Ion, Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_univer50 Energy, Ion, Heat, Elecrtical, Cold, Sonic Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_poisonPoison Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_fearFear Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_sneakSneak Attack Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_stradrStrength +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_dexadrDexterity +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_conadrConstitution +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_strenStrength +4Fortitude +4Reflext +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_toughConstitution +410% Damage Immunity vs Slashing10% Damage Immunity vs Piercing10% Damage Immunity vs Bludgeoning30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_concDexterity +4Will +4Saves vs Fear +4Saves vs Mind-Affecting +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_battleStrength +4Damage +2Saves +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_endurConstitution +4Regenerate 4 Damage every 3 SecondsPoison ImmunityParalysis Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_agilDexterity +4Number of Attacks +130 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: wl_miningThis fuel burner, normally used to burn off gases released in the Peragian mining process, can also be used as a makeshift flamethrower.EOVKEY: wl_flameThis device actually shoots wide streams of liquid fire. There are few practical applications requiring such devices but they are sought after by military powers for their devastating effect on morale.This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_carbonTypically used for long-term storage of perishable goods, these tools can be turned on human targets with reasonable certainty of the outcome.This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_grapplThis cable can be used with a grappling hook to harpoon or lasso an opponent.EOVKEY: wl_dartThis weapon shoots various types of darts which each contain a differnt type of chemical payload for debilitating enemies.EOVKEY: wl_energyThis weapon fires blasts of energy. This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_grenThis standard grenade launcher uses frag grenades for dealing damage and flash grenades for crowd control on large groups.EOVKEY: wl_gasThis grenade launcher works with grenades that release gas. The poison grenade deals damage while the nerve grenade attempts to choke enemies. Because the grenades use gas, opponents must save using their Fortitude instead of Reflex and neither grenade is effective against droids.EOVKEY: wl_sonicThis launcher is for deploying sonic charges. Sonic grenades bypass most defenses and can disorient those hit by them.EOVKEY: wl_coldThis launcher deploys grenades that expand into solid matter. Both CryoBan and adhesive grenades are effective at stopping crowds of enemies in their tracks.EOVKEY: wl_plasmaThis launcher works with grenades that work by releasing energy. These types of grenades deal high amounts of damage. Ion grenades are effective against droids while plasma grenades devestate weak enemies.EOVKEY: wl_rocketThis is the basic rocket launcher. Rockets are stronger than grenades but are considerably more expensive. This launcher works with regular explosive rockets and incendiary rockets for burning enemies.EOVKEY: wl_busterThis rocket launcher is specially designed for buster rockets. Buster rockets are unique because they don't explode but are used to pierce armor.EOVKEY: wl_carbon?EOVKEY: wl_plasmaThis rocket launcher fires particularly deadly rockets. Plasma rockets deal massive damage while radiation rockets debilitate enemies with radiation poisoning.EOVKEY: wl_fusionThis launcher is designed to work with fusion rounds. It is a dual launcher that can fire thermal detonators as ballstic projectiles as well as fusion rockets. This makes this launcher arguably the most deadly weapon that a single soldier can carry into battle.EOVKEY: wr_blast1Fully UpgradeableThe most common ranged weapon in the galaxy is the basic blaster pistol, firing a bolt of intense coherent light powered by a replaceable power pack.EOVKEY: wr_hold1Fully UpgradeableThe Hold Out Blaster l is a versatile back-up weapon. Though modest in performance, it is fully upgradeable.EOVKEY: wr_ion1Upgradeable (Chamber, Scope)This standard Ion Blaster is commonly issued to Republic troops as a secondary weapon.While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses blaster fire cannot. Ion weapons cannot utilize most power pack upgrades.EOVKEY: wr_disrup1Upgradeable (Chamber, Scope)These pistols are illegal in many planetary systems, being regarded as too powerful a weapon to be owned by civilians. Disruptors reduce solid matter to its constituent molecules. Unlike typical blasters, disruptors ignore most types of personal energy shields.EOVKEY: wr_sonic1Upgradeable (Scope)Sometimes referred to as "squealers", these weapons deliver a high-frequency jolt to the senses that can damage and potentially disorient an opponent.Sonic weapons can temporarily reduce an opponent's Wisdom.EOVKEY: wr_heavy1Fully UpgradeableThese resemble regular blasters in the same way Quoorian marshsuckers resemble mosquitoes. Sure, they both do damage, but the former definitely has the edge in kill potential.EOVKEY: wr_mining1Not UpgradeableThis industrial hand-held laser can double as a makeshift blaster.EOVKEY: wr_blast2Fully UpgradeableThe Republic Blaster can be fully upgraded with firing chamber, targeting scope, and power cell.EOVKEY: wr_hold2Fully UpgradeableWhen fully upgraded, these survival pistols can match the best heavy blaster in performance. Their stun capabilites make them an excellent off-hand weapon.EOVKEY: wr_ion2Upgradeable (Chamber, Scope)The Verpine Ion Blaster is designed to be capable against all types of opponents, replacing the need to carry a second anti-droid side arm.While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses that will stop typical blaster fire. Ion weapons cannot utilize most power pack upgrades.EOVKEY: wr_disrup2Upgradeable (Chamber, Scope)The Sith disruptor design is compatible with most types of blaster upgrades.EOVKEY: wr_sonic2Upgradeable (Scope)Though inferior in damage potential to traditional blasters, this sonic blaster's advanced design makes it a viable weapon, especially in long combats when its deafening capabilities can accumulate.Sonic weapons can temporarily reduce an opponent's Wisdom. Additionally, many types of shields and defenses are ineffective against sonic attacks. EOVKEY: wr_heavy2Fully UpgradeableMandalorians improved upon the standard heavy blaster design, creating a weapon that is both fully upgradeable and superior to the standard design.EOVKEY: wr_elec2Upgradeable (Scope)This unusual weapon was originally developed for use against veermok, a ferocious primate on Naboo that happens to be resistant to blaster fire. Much of the weapon's damage is electrical in nature, allowing it to bypass blaster resistance.EOVKEY: wr_assass2Fully UpgradeableThese weapons are designed to incapacitate so death may be quick or lingered upon as desired. Droids are simply dispatched, as cruelty is best rationed among the living.EOVKEY: wr_plasma2Upgradeable (Chamber, Scope)This capable side-arm is at the top of Aratech's ion blaster line. It is designed for multi-purpose use.EOVKEY: wr_mand2Upgradeable (Chamber, Scope)Not surprisingly, the most deadly disruptor pistol available is of Mandalorian design. Use of this ruthless weapon is a major violation of Republic code.EOVKEY: wr_sonicd2Upgradeable (Scope)The Dashade are a secretive and vicious species made infamous by their renowned assassins. Their weapons of choice are best known for the extreme pain they inflict. This improved model combines the best features of sonic and disruptor pistols.EOVKEY: wr_zabrak2Not UpgradeableA more cumbersome, but also more damaging, blaster of Zabrak design.EOVKEY: wr_darkNot UpgradeableA vile weapon that once belonged to Freedon Nadd, this blaster has killed more Jedi then any lightsaber.EOVKEY: wr_carbin3Not UpgradeableBlaster carbine rifles are inelegant, but effective weapons. They are commonly used by unskilled thugs and mercenaries.EOVKEY: wr_blast3Fully UpgradeableMore powerful than the commonly available pistol, the blaster rifle is favored by soldiers throughout the galaxy. Civilian ownership of these weapons is not generally encouraged.  Unlike carbines, most rifles can be fully upgraded.EOVKEY: wr_ion3Upgradeable (Chamber, Scope)While they may have borrowed liberally from designs the Bothans initiated, the Verpine say you can't argue with results. These weapons are simply devastating against droids.While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses blaster fire cannot. Ion weapons cannot utilize most power pack upgrades.EOVKEY: wr_disrup3Upgradeable (Scope, Chamber)This disruptor has all the modifications an assasin droid needs: improved optics, reduced recoil, extended range, and several open ports for even more modular upgrades.EOVKEY: wr_sonic3Upgradeable (Scope)More powerful than the pistol, the sonic rifle fires a blast of sound that causes a great deal of sensory overload in addition to damage, disorienting the victim.EOVKEY: wr_assaul3Fully UpgradeableThese weapons are almost overpowered for their size, but the Mandalorians prefer them that way. They do not make a habit of being subtle in their war making.EOVKEY: wr_exchan3Not UpgradeableTrandoshan bounty hunters will use this weapon to capture their victims alive. As it is a carbine, it cannot be upgraded.EOVKEY: wr_sniper3Fully UpgradeableDespite its effectiveness, these modified blaster rifles are not often employed by the Sith. They prefer to engage their enemies up close and personal.EOVKEY: wr_plasma3Upgradeable (Chamber, Scope)This massive weapon fires a bolt of plasma energy at its target. It is difficult to wield except by highly trained marksmen.EOVKEY: wr_sonicd3Upgradeable (Scope)Combining both sonic and disruptor attacks, this rifle tears through enemy defenses.EOVKEY: wr_mand3Upgradeable (Chamber, Scope)A weapon similar to this disruptor belonged to Jigger Wraith, a bounty hunter who plagued the Republic years ago. Thirty-seven Mandalorians were executed for being him until sightings declined. As a type of disruptor, this weapon ignores most personal energy shields.EOVKEY: wr_zabrak3Not UpgradeableThe design of the Zabrak Combat Rifle is too complicated to allow further upgrading. Fortunately, it has little need for additional enhancement.EOVKEY: wr_blast4Fully UpgradeableThis weapon allows the user to fire more quickly than usual, increasing his chances of survival without drastically changing the amount of equipment he would normally carry.EOVKEY: wr_sonicd4Upgradeable (Scope)These weapons were employed by the elite troops of Iziz during the Battle of Onderon. The power of these carbines, combined with their high rate of fire, was believed to play a considerable role in the rout of the Mandalorian forces.EOVKEY: wr_sith4Fully UpgradeableEOVKEY: wr_plasma4Upgradeable (Chamber, Scope)EOVKEY: wr_hk4Upgradeable (Chamber, Scope)EOVKEY: wr_mand4Fully UpgradeableWith this weapon, the Mandalorians again demonstrate a complete lack of subtlety. The only thing better than a big blaster, apparently, is one that shoots faster.EOVKEY: wr_zabrak4Not UpgradeableEOVKEY: wr_bow1Not UpgradeableEOVKEY: wr_bow2Not UpgradeableEOVKEY: wm_shortUpgradeable (Edge, Grip)Disregarded by most modern warriors, a good short sword can still serve well in combat if the user is skilled.EOVKEY: wm_longUpgradeable (Edge, Grip)Here is where the roots of the lightsaber begin, with traditional swords still wielded today in many primitive cultures. They are simple, but effective in the right hands.EOVKEY: wm_quarterUpgradeable (Grip)Usually just a smooth staff of wood or light alloys, this is a very simple weapon of ancient design.EOVKEY: wm_dbladeUpgradeable (Edge, Grip)A difficult weapon to master, the double-bladed sword has a grip in the center with two long blades emerging from either end. The double-bladed sword is capable of inflicting more damage - but is also less precise - than the single-bladed variant. Using a two-bladed sword expertly requires skill in Two-Weapon Fighting.EOVKEY: wm_batonNot UpgradeableStun Batons are commonly employed by police forces who prefer to incapacitate instead of kill their targets.EOVKEY: wm_pikeNot UpgradeableThis weapon effectively functions as a long staff topped with a vibroblade. Despite its name, it is not related to the Force mastered by Jedi, though it is a powerful weapon in its own right.EOVKEY: wm_plasmaNot Upgradeable?EOVKEY: wm_vbladeFully UpgradeableSmall size makes this a good off-hand weapon. Echani vibroblades use a cortosis weave to prevent lightsaber sparring damage, allowing traditional swordplay to continue in the time of Jedi and Sith.EOVKEY: wm_vswordFully UpgradeableUltrasonic generators power this Echani-developed weapon design. A cortosis weave that protects against sparring damage ensures that traditional swordplay will endure in the time of lightsabers.EOVKEY: wm_vdoublFully UpgradeableUltrasonic vibrations make this double-bladed sword exceptionally deadly. An Echani cortosis weave protects it against lightsaber sparring damage, ensuring effectiveness even against Jedi and Sith. The double-bladed sword is capable of inflicting more damage - but is also less precise - than the single-bladed variant. Two-Weapon Fighting is required to use a double-bladed sword with maximum effectiveness.EOVKEY: wm_exchanNot UpgradeableA useful tool for espionage, this weapon is more effective than the standard stun baton, but is still available on most worlds.EOVKEY: wm_gammor1Upgradeable (Grip)Gamorrean war axes, much like their namesake species, are heavy, unsubtle, and generally a very damaging influence in almost any situation.EOVKEY: wm_zabrakNot UpgradeableThough believed to have been constructed by the Zabrak, this vibroblade is rarely used by them. The Zabrak feel their combat skills sufficient to make this weapon's fine balance irrelevant.EOVKEY: wm_rodianNot UpgradeableThis serrated weapon inflicts great pain upon its victims. Its design is unsuitable for weapon upgrades.EOVKEY: wm_sithNot UpgradeableThough most favor lightsabers, some Sith prefer the more visceral feel of metal cutting flesh. These blades are usually blended with cortosis to protect against lightsaber sparring damage.EOVKEY: wm_trandNot UpgradeableWhile most cultures abandoned the primitive sword in favor of vibroblades or other weapons, the Trandoshan sometimes use the weapon as a badge of honor. This variant is made of the rare ore Chalon, and is sharper and heavier than the typical blade. They are not suitable for weapon upgrades, however.EOVKEY: wm_gandNot UpgradeableThe pinnacle of Gand technology, the discharger can both paralyze and slay opponents with ease. These potent items are extremely rare as they are highly coveted by the few Gand who have earned them.EOVKEY: wm_ryykNot UpgradeableThese short blades are typically used in pairs by Wookiees who prefer seeing their victims up close before gutting them.EOVKEY: wm_echaniNot UpgradeableIn addition to a cortosis weave that deflects lightsaber sparring damage, some Echani vibroswords are supercooled to keep them in alignment, giving them an icy sting.EOVKEY: wm_shyarnNot UpgradeableThis primitive looking weapon hails from the Cerean species, who employ it in traditional honor duels. It is crafted with ancient techniques and rare metals. Shyarn are magnetically attracted to each other, often locking together during parries. This strange property results in duels that are amazing and deadly dances of survival.EOVKEY: wm_gammor2Not UpgradeableThe impressive Arg'garok is the most prized Gamorrean weapon. These huge axes are designed to be wielded by those with a low center of gravity and tremendous strength, making them awkward for most non-Gamorreans to use.EOVKEY: wm_geonosNot UpgradeableGeonosians are winged bipeds covered with protective bony plates. They are highly competitive and generally look down upon other species. Their electro-staves therefore only rarely find their way off of their homeworld of Geonosis.EOVKEY: wm_tehklaNot UpgradeableThis weapon is favored by the Nagai, a species of slender humanoids who appear more dead than alive. Known for their honor and combat skill, the Nagai use these serrated weapons to cripple their opponents.EOVKEY: wm_zhabokNot UpgradeableThis variant of the double-bladed sword originated on Iridonia, the homeworld of the Zabrak. A ceremonial weapon, the Zhaboka (double-headed fighting pike) began as a simple wooden stick but has since been refined to be a formidable weapon.EOVKEY: wm_wookieNot UpgradeableCarved upon this mighty warblade is a symbol of the Wookiee chieftain Freyyr. How this weapon found its way off of the Wookiee homeworld of Kashyyyk is unknown.EOVKEY: wm_twilek1KEY: wm_twilek2Not UpgradeableThe deadly Twi'lek Twin Suns each wielded one of these deadly blades. Their victims had the rare pleasure of witnessing their beautifully choreographed slaying.EOVKEY: wm_ludoNot UpgradeableThough most favor lightsabers, some Sith prefer the more visceral feel of metal cutting flesh. These blades are usually blended with cortosis to protect against lightsaber sparring damage. This particular war sword once belonged to the dark Jedi Ludo Kressh.EOV
 KEY: bl_frag
 KEY: bl_flash
 KEY: bl_poison

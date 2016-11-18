@@ -225,7 +225,7 @@ Visas		- Awareness, Stealth
 +6 Feats, +1 Skills - (assuming Jedi Apprentice class)
 
 Mira		- Armor 2, Blasters 2, Melee 1, Grenades 2
-Mira		- Close Combat, Turrets 1
+Mira		- Close Combat, Mines 1
 Mira		- Point Guard, Awareness, Demolitions, Repair, Medicine
 +4 Feats, +1 Skills, +1 Character Feats
 

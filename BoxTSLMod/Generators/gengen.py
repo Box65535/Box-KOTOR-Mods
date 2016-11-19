@@ -726,11 +726,17 @@ with open('Data\\upgrades.csv', 'r') as csvfile:
 		row['description'] = descriptions[row['tag']]
 		copy_template('Data\\Static\\' + row['tag'] + '.uti', 'Data\\Items\\' + row['tag'] + '.uti')
 		add_line(costgen, row, cost_pattern, '#COSTS')
-		add_line(fieldgen, row, upgradefield_pattern, '#ITEMS')
-		if row['type'] == 'crystal'
+		if row['type'] == 'crystal':
 			add_line(upgradegen, row, crystal_pattern, '#CRYSTALS')
+			add_line(fieldgen, row, upgradefield_pattern, '#ITEMS')
+		elif row['type'] == 'implant':
+			add_line(upgradegen, row, upgrade_pattern, '#UPGRADES')
+			add_line(upgradegen, row, upgrade_pattern, '#UPGRADES')
+			add_line(fieldgen, row, upgradefield_pattern, '#ITEMS')
+			# The above few lines about implants are all wrong
 		else:
 			add_line(upgradegen, row, upgrade_pattern, '#UPGRADES')
+			add_line(fieldgen, row, upgradefield_pattern, '#ITEMS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		if row['poisoncode']:
 			verify_code(poisons, row['poisoncode'])

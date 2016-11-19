@@ -158,3 +158,21 @@ ul_lorrd,crystal,3900,Lorrdian Gemstone,,1,CRYSTAL_LORRDIAN,,,,,,
 ul_barab,crystal,4000,Barab Ore Ignot,,1,CRYSTAL_BARAB,,,,,,
 ul_hurrik,crystal,4500,Hurrikane Crystal,,1,CRYSTAL_HURRIKANE,,,,,,
 ul_ankar,crystal,5000,Ankarres Sapphire,,1,CRYSTAL_ANKARRES,,,,,,
+ui_cardio,implant,,Cardio Implant,1,1,IMPLANT_UPGRADE_CARDIO,,,medicine,6,0,implant_group
+ui_reflex,implant,,Reflex Implant,1,1,IMPLANT_UPGRADE_REFLEX,,,medicine,8,0,implant_group
+ui_relax,implant,,Relaxing Implant,1,1,IMPLANT_UPGRADE_RELAXING,,,medicine,10,0,implant_group
+ui_nerve,implant,,Nerve Enhancement Implant,1,1,IMPLANT_UPGRADE_NERVE,,,medicine,12,0,implant_group
+ui_stren,implant,,Strength Implant,1,1,IMPLANT_UPGRADE_STRENGTH,,,medicine,14,0,implant_group
+ui_endur,implant,,Endurance Implant,1,1,IMPLANT_UPGRADE_ENDURANCE,,,medicine,16,0,implant_group
+ui_dex,implant,,Dexterity Implant,1,2,IMPLANT_UPGRADE_DEXTERITY,,,medicine,13,0,implant_group
+ui_aware,implant,,Awareness Implant,1,2,IMPLANT_UPGRADE_AWARENESS,,,medicine,15,0,implant_group
+ui_antido,implant,,Bio-Antidote Implant,1,2,IMPLANT_UPGRADE_ANTIDOTE,,,medicine,17,0,implant_group
+ui_calm,implant,,Calming Implant,1,2,IMPLANT_UPGRADE_CALMING,,,medicine,19,0,implant_group
+ui_tough,implant,,Toughness Implant,1,2,IMPLANT_UPGRADE_TOUGHNESS,,,medicine,21,0,implant_group
+ui_fitnes,implant,,Fitness Implant,1,2,IMPLANT_UPGRADE_FITNESS,,,medicine,23,0,implant_group
+ui_agil,implant,,Agility Implant,1,3,IMPLANT_UPGRADE_AGILITY,,,medicine,18,0,implant_group
+ui_intell,implant,,Intelligence Implant,1,3,IMPLANT_UPGRADE_INTELLIGENCE,,,medicine,20,0,implant_group
+ui_conc,implant,,Concentration Implant,1,3,IMPLANT_UPGRADE_CONCENTRATION,,,medicine,22,0,implant_group
+ui_health,implant,,Health Implant,1,3,IMPLANT_UPGRADE_HEALTH,,,medicine,24,0,implant_group
+ui_char,implant,,Charisma Implant,1,3,IMPLANT_UPGRADE_CHARISMA,,,medicine,26,0,implant_group
+ui_combat,implant,,Combat Implant,1,3,IMPLANT_UPGRADE_COMBAT,,,medicine,28,0,implant_group

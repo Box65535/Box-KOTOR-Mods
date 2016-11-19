@@ -24,3 +24,6 @@ ja_matuka,workbench,awareness,0,15,item_group
 ja_natth,workbench,awareness,0,15,item_group
 ja_jal,workbench,awareness,0,15,item_group
 ja_zeison,workbench,awareness,0,15,item_group
+hi_implan1,workbench,medicine,6,0,item_group
+hi_implan2,workbench,medicine,12,0,item_group
+hi_implan3,workbench,medicine,18,0,item_group

@@ -52,9 +52,9 @@ type	functioncall	script	itemconst
 	Box_PeragusMoreLootDroid		COMPONENTS
 	Box_PeragusMoreLootDroid		COMPONENTS
 	Box_PeragusMoreLootDroid		COMPONENTS
-	Box_25CreditsMedpac	bxt_20crdmed	
-	Box_25CreditsMedpac		CREDITS_25
-	Box_25CreditsMedpac		MEDPAC_1
+	Box_25C1M25Credits1Medpac	bxt_25crdmed	
+	Box_25C1M25Credits1Medpac		CREDITS_25
+	Box_25C1M25Credits1Medpac		MEDPAC_1
 	Box_PeragusHiddenCorpse	bxt_perhidco	
 	Box_PeragusHiddenCorpse		MELEE_UPGRADE_IONITE_1
 	Box_PeragusHiddenCorpse		CARDIO_REGULATOR
@@ -74,16 +74,25 @@ type	functioncall	script	itemconst
 	Box_PeragusUniformContainer		PERAGUS_MINING_SHIELD
 	Box_PeragusUniformContainer		MEDPAC_1
 	Box_PeragusUniformContainer		ADRENALINE_AMPLIFIER
+	Box_PeragusContainerSonicGrenade	bxt_personcn	
+	Box_PeragusContainerSonicGrenade		SONIC_GRENADE
+	Box_PeragusContainerSonicGrenade		SONIC_GRENADE
+	Box_PeragusContainerSonicGrenade		MEDPAC_1
+	Box_PeragusContainerSonicGrenade		SECURITY_SPIKE_1
 	Box_Empty	bxt_empty	
-	Box_2Repair2Parts	bxt_2rep2prt	
-	Box_2Repair2Parts		REPAIR_KIT_1
-	Box_2Repair2Parts		REPAIR_KIT_1
-	Box_2Repair2Parts		PARTS
-	Box_2Repair2Parts		PARTS
+	Box_2R2P2Repair2Parts	bxt_2rep2prt	
+	Box_2R2P2Repair2Parts		REPAIR_KIT_1
+	Box_2R2P2Repair2Parts		REPAIR_KIT_1
+	Box_2R2P2Repair2Parts		PARTS
+	Box_2R2P2Repair2Parts		PARTS
 	Box_3Components	bxt_3comp	
 	Box_3Components		COMPONENTS
 	Box_3Components		COMPONENTS
 	Box_3Components		COMPONENTS
+	Box_PeragusSonicComponents	bxt_personcp	
+	Box_PeragusSonicComponents		SONIC_GRENADE
+	Box_PeragusSonicComponents		COMPONENTS
+	Box_PeragusSonicComponents		COMPONENTS
 	Box_PeragusDatapad001	bxt_perdp001	
 	Box_PeragusDatapad001		"""mine_datapad001"""
 	Box_PeragusDatapad001		SONIC_MINE
@@ -150,7 +159,7 @@ type	functioncall	script	itemconst
 	Box_PeragusCheat		COMPUTER_SPIKE
 	Box_2Parts	bxt_2parts	
 	Box_2Parts		PARTS
-	Box_2parts		PARTS
+	Box_2Parts		PARTS
 	Box_Miner002	bxt_miner002	
 	Box_Miner002		"""datapadminer002"""
 	Box_PeragusBrokenContainer	bxt_perbrkc	
@@ -193,6 +202,8 @@ type	functioncall	script	itemconst
 	Box_5P5S5Parts5Spikes		COMPUTER_SPIKE
 	Box_PeragusSonicGrenade	bxt_persongr	
 	Box_PeragusSonicGrenade		SONIC_GRENADE
+	Box_1Components	bxt_1comp	
+	Box_1Components		COMPONENTS
 	Box_PeragusLockedSpikes	bxt_perlkspk	
 	Box_PeragusLockedSpikes		COMPUTER_SPIKE
 	Box_PeragusLockedSpikes		COMPUTER_SPIKE
@@ -203,3 +214,18 @@ type	functioncall	script	itemconst
 	Box_PeragusExitFootlocker		COMPONENTS
 	Box_100Credits	bxt_100credit	
 	Box_100Credits		CREDITS_100
+	Box_TelosLockerArmor	bxt_tsfarmor	
+	Box_TelosLockerArmor		REPUBLIC_ARMOR_1
+	Box_TelosLockerRifle	bxt_tsfrifle	
+	Box_TelosLockerRifle		REPUBLIC_RIFLE
+	Box_1AdvancedMedpac	bxt_1medpac2	
+	Box_1AdvancedMedpac		MEDPAC_2
+	Box_TelosMedicalCache	bxt_telcamed	
+	Box_TelosMedicalCache		MEDPAC_2
+	Box_TelosMedicalCache		MEDPAC_2
+	Box_TelosMedicalCache		MEDPAC_2
+	Box_TelosMedicalCache		MEDPAC_2
+	Box_TelosOtherCache	bxt_telcaoth	
+	Box_TelosOtherCache		???
+	Box_TelosBackpack	bxt_telbkpk	
+	Box_TelosBackpack		???

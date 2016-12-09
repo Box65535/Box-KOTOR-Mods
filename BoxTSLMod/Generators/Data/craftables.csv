@@ -11,7 +11,8 @@ wr_ion1,workbench,science,4,0,item_group
 wr_disrup1,workbench,science,4,0,item_group
 wr_sonic1,workbench,science,4,0,item_group
 wr_heavy1,workbench,science,6,0,item_group
-wr_hvydsr1,workbench,science,6,0,item_group
+wl_grappl,workbench,repair,6,0,item_group
+wl_dart,workbench,repair,8,0,item_group
 ja_padawa,workbench,awareness,0,5,item_group
 ja_jedi,workbench,awareness,0,10,item_group
 ja_knight,workbench,awareness,0,10,item_group

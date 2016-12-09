@@ -217,6 +217,15 @@ int Box_GetSpellForce(object oUser, int powerAlignment, int castSuccess) {
 	
 	int force = Box_GetBaseForce(oUser, powerAlignment);
 	
+	if (GetFeatAcquired(oUser, FEAT_DARK_SIDE_MASTERY) &&
+		powerAlignment == POWER_TYPE_DARK) {
+		
+		int class = CLASS_JEDI_PRESTIGE_CONSULAR;
+		int level = GetLevelByClass(class, oUser);
+		int totalLevel = GetHitDice(oUser);
+		int forceAdd = 1 + Box_GetForceByClassLevel(class, level, totalLevel) / 4;
+	}
+	
 	if (castSuccess)
 		return force;
 	else

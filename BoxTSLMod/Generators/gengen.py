@@ -693,12 +693,9 @@ with open('Data\\weapons.csv', 'r') as csvfile:
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
 		copy_template('Data\\Static\\' + row['tag'] + '.uti', 'Data\\Items\\' + row['tag'] + '.uti')
-		if row['baseitem']:
-			add_line(fieldgen, row, weaponfieldbase_pattern, '#WEAPONS')
-		else:
-			verify_code(baseitems, row['baseitemcode'])
-			add_line(featgen, row, baseitem_pattern, '#ITEMS')
-			add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
+		verify_code(baseitems, row['baseitemcode'])
+		add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
@@ -753,7 +750,7 @@ with open('Data\\equipment.csv', 'r') as csvfile:
 		else:
 			verify_code(baseitems, row['baseitemcode'])
 			add_line(featgen, row, baseitem_pattern, '#ITEMS')
-			add_line(fieldgen, row, field_pattern, '#ITEMS')
+			add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
@@ -1236,6 +1233,17 @@ with open('Data\\placeables.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		add_line(modulegen, row, placeable_pattern, '#PLACEABLES')
+
+
+# Merchants
+with open('Data\\merchants.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		if row['type'] == 'merchant':
+			add_line(merchantgen, row, merchant_pattern, '#MERCHANTS')
+		elif row['type'] == 'item':
+			add_line(merchantgen, row, merchantitem_pattern, row['marker'])
+
 
 
 write_file(feats, 'Out\\feats.ini')

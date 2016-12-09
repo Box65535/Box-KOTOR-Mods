@@ -1,0 +1,54 @@
+marker	type	tag	quantity	module	markup	markdown
+#DENDIS	merchant	m_202_001		202TEL	100	55
+#BLACK	merchant	m_202_002		202TEL	100	55
+#SAMHAN	merchant	m_202_003		202TEL	100	55
+#CHANO	merchant	m_chano		203TEL	100	55
+#DENDIS	item	hh_medpac1				
+#DENDIS	item	hh_medpac2				
+#DENDIS	item	hb_reflex1				
+#DENDIS	item	hb_cardio1				
+#DENDIS	item	hb_nerve1				
+#DENDIS	item	hs_energy				
+#DENDIS	item	hs_enviro				
+#DENDIS	item	hb_steal				
+#DENDIS	item	wl_grappl				
+#DENDIS	item	wl_flame				
+#DENDIS	item	wl_dart				
+#DENDIS	item	wl_gren				
+#DENDIS	item	wl_gas				
+#DENDIS	item	ag_frag				
+#DENDIS	item	ag_flash				
+#DENDIS	item	bl_frag				
+#DENDIS	item	bl_flash				
+#DENDIS	item	bl_poison				
+#DENDIS	item	bl_nerve				
+#DENDIS	item	aa_mining				
+#DENDIS	item	ba_flame1				
+#DENDIS	item	aa_grappl				
+#DENDIS	item	ba_psndt				
+#DENDIS	item	ba_slpdt				
+#DENDIS	item	wm_short				
+#DENDIS	item	wm_long				
+#DENDIS	item	wm_quarter				
+#DENDIS	item	wm_dblade				
+#DENDIS	item	wm_baton				
+#DENDIS	item	wm_pike				
+#DENDIS	item	wm_vblade				
+#DENDIS	item	wr_blast1				
+#DENDIS	item	wr_hold1				
+#DENDIS	item	wr_ion1				
+#DENDIS	item	wr_disrup1				
+#DENDIS	item	wr_sonic1				
+#DENDIS	item	wr_heavy1				
+#DENDIS	item	wr_carbin3				
+#DENDIS	item	wr_blast2				
+#DENDIS	item	wr_hold2				
+#DENDIS	item	wr_ion2				
+#DENDIS	item	wr_blast3				
+#DENDIS	item	ha_repub1				
+#DENDIS	item	ha_repub2				
+#DENDIS	item	ha_repub3				
+#DENDIS	item	hh_anti				
+#DENDIS	item	g_i_progspike01				
+#DENDIS	item	g_i_secspike01				
+#DENDIS	item	g_i_parts01				

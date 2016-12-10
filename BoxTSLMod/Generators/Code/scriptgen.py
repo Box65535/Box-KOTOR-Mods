@@ -105,7 +105,13 @@ class Script:
 		return cls('shield', filename, 'Auto-generated Script', None, None, None, None,
 			None, None, None, None, None,
 			None, None, None, None, shield)
-
+	
+	@classmethod
+	def new_merchant(cls, filename, functioncall):
+		return cls('merchant', filename, 'Auto-generated Script', None, None, None, None,
+			None, functioncall, None, None, None,
+			None, None, None, None, None)
+	
 scripts = []
 
 # Generated lines go here

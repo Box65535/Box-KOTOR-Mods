@@ -123,6 +123,8 @@ enemy_pattern = """enemies.append(Enemy('{0.module}', '{0.tag}', '{0.script}',
 	{0.fort}, {0.reflex}, {0.will}))"""
 placeable_pattern = """placeables.append(Placeable('{0.module}', '{0.tag}', '{0.script}',
 	{0.unlock}, {0.bash}, None))"""
+merchant_pattern = """merchants.append(Merchant('{0.module}', '{0.tag}', '{0.script}',
+	'{0.buysell}', '{0.markup}', '{0.markdown}'))"""
 
 # poisongen.py
 poisoncode_pattern = """poisoncodes.append('{0.poisoncode}')"""
@@ -213,6 +215,7 @@ spawnscript_pattern = """scripts.append(Script.new_spawn('{0.script}', '{0.funct
 	'{0.childscript}'))"""
 treasurescript_pattern = """scripts.append(Script.new_treasure('{0.script}', '{0.functioncall}',
 	'{0.include}'))"""
+merchantscript_pattern = """scripts.append(Script.new_merchant('{0.script}', '{0.functioncall}'))"""
 
 # fieldgen.py
 field_pattern = """items.append(Item('{0.tag}', '{0.name}', \"\"\"{0.description}\"\"\",
@@ -646,6 +649,7 @@ incvisual = read_file('Code\\Includes\\box_inc_visual.nss')
 inchealing = read_file('Code\\Includes\\box_inc_healing.nss')
 incfuelweap = read_file('Code\\Includes\\box_inc_fuelweap.nss')
 incmines = read_file('Code\\Includes\\box_inc_mines.nss')
+incmerchant = read_file('Code\\Includes\\box_inc_merchants.nss')
 
 incspawn = read_file('Code\\Includes\\box_inc_spawn_per.nss') + read_file('Code\\Includes\\box_inc_spawn_tel.nss')
 inctreasure = read_file('Code\\box_inc_treasure.nss')
@@ -1240,9 +1244,10 @@ with open('Data\\merchants.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		if row['type'] == 'merchant':
-			add_line(merchantgen, row, merchant_pattern, '#MERCHANTS')
+			add_line(modulegen, row, merchant_pattern, '#MERCHANTS')
+			add_line(, row, merchantscript_pattern, '#SCRIPTS')
 		elif row['type'] == 'item':
-			add_line(merchantgen, row, merchantitem_pattern, row['marker'])
+			add_line(incmerchant, row, merchantitem_pattern, '//'+row['marker'])
 
 
 
@@ -1278,6 +1283,7 @@ write_file(shieldconst, 'Out\\box_inc_shieldconst.nss')
 write_file(hideconst, 'Out\\box_inc_hideconst.nss')
 write_file(trapconst, 'Out\\box_inc_trapconst.nss')
 write_file(turretconst, 'Out\\box_inc_turretconst.nss')
+write_file(incmerchant, 'Out\\box_inc_merchants.nss')
 
 
 

@@ -28,6 +28,16 @@ class Placeable:
 		self.bash = bash
 		self.notag = notag
 
+class Merchant:
+	def __init__(self, module, tag, script, buysell, markup, markdown):
+		self.module = module
+		self.tag = tag
+		self.filename = tag + '.utm'
+		self.script = script
+		self.buysell = buysell
+		self.markup = markup
+		self.markdown = markdown
+		
 modules = []
 # Generated lines go here
 #MODULES
@@ -43,6 +53,12 @@ placeables = []
 #PLACEABLES
 
 
+merchants = []
+# Generated lines go here
+#MERCHANTS
+
+
+
 header = 'error'
 with open('moduleheader.ini', 'r') as file:
 	header = file.read()
@@ -52,8 +68,10 @@ for module in modules:
 
 	menemies = filter(lambda e: e.module == module, enemies)
 	mplaceables = filter(lambda p: p.module == module, placeables)
+	mmerchants = filter(lambda p: p.module == module, merchants)
 	menemies2 = filter(lambda e: e.module == module, enemies)
 	mplaceables2 = filter(lambda p: p.module == module, placeables)
+	mmerchants2 = filter(lambda p: p.module == module, merchants)
 	
 	
 	with open('tslpatchdata\\' + module + '.ini', 'w') as file:
@@ -67,6 +85,10 @@ for module in modules:
 			
 		for placeable in mplaceables:
 			file.write('File' + str(index) + '=' + placeable.filename + '\n')
+			index = index + 1
+		
+		for merchant in mmerchants:
+			file.write('File' + str(index) + '=' + merchant.filename + '\n')
 			index = index + 1
 		
 		for enemy in menemies2:
@@ -96,6 +118,17 @@ for module in modules:
 			if not placeable.notag:
 				file.write('Tag=' + placeable.tag + '\n')
 			file.write('!Destination=Modules\\' + module + '.mod\n')
-	
+		
+		for merchant in mmerchants2:
+			file.write('[' + merchant.filename + ']\n')
+			if merchant.script:
+				file.write('OnOpenStore=' + merchant.script + '\n')
+			if merchant.buysell:
+				file.write('BuySellFlag=' + merchant.buysell + '\n')
+			if merchant.markdown:
+				file.write('MarkDown=' + merchant.markdown + '\n')
+			if merchant.markup:
+				file.write('MarkUp=' + merchant.markup + '\n')
+			file.write('!Destination=Modules\\' + module + '.mod\n')
 	
 

@@ -1,0 +1,112 @@
+tag	script	module	unlock	bash
+g_trescivil003	bxt_perstl	101PER		ADD_SOME_BASH_SCRIPT
+g_trescivil004	bxt_perion	101PER		
+g_tresgencorp004	bxt_pertorch	101PER		
+g_tresgencorp005	bxt_pervibct	101PER		
+g_tresgencorp006	bxt_secspk1	101PER		
+g_tresgencorp007	bxt_10credit	101PER		
+g_tresgencorp008	bxt_10credit	101PER		
+g_tresmilhig006	bxt_10credit	101PER		
+g_tresmillow006	bxt_2medpac	101PER		
+g_tresmillow007	bxt_medpac	101PER		
+g_tresmillow008	bxt_poistim	101PER		
+g_tresmillow009	bxt_medpac	101PER		
+g_tresmillow010	bxt_2medpac	101PER		
+g_tresmillow011	bxt_100chem	101PER		
+g_tresmillow012	bxt_5comp	101PER		
+lockerlg001	bxt_25credit	101PER		
+lockerlg002	bxt_perlkion	101PER		
+lockerlg003	bxt_perion2	101PER		
+g_tresdrd004	bxt_3parts	102PER		
+g_tresdrd005	bxt_cspike	102PER		
+g_tresdrd006	bxt_perlootd	102PER		
+g_tresdrd007	bxt_perlootd2	102PER		
+g_tresgencorp004	bxt_50credit	102PER		
+g_tresgencorp005	bxt_empty	102PER		
+g_tresgencorp006	bxt_perhidco	102PER		
+g_tresgencorp007	bxt_10credit	102PER		
+g_tresgencorp008	bxt_10credit	102PER		
+g_tresgencorp009	bxt_10credit	102PER		
+g_tresgencorp010	bxt_10credit	102PER		
+g_tresmilhig006	bxt_perptspk	102PER		
+g_tresmillow007	bxt_perunif	102PER		
+g_tresmillow008	bxt_personcn	102PER		
+g_tresmillow009	bxt_2medpac	102PER		
+g_tresdrd005	bxt_empty	103PER		
+g_tresdrd006	bxt_2rep2prt	103PER		
+g_tresdrd007	bxt_3comp	103PER		
+g_tresdrd008	bxt_3comp	103PER		
+g_tresdrd009	bxt_personcp	103PER		
+g_tresgencorp004	bxt_10credit	103PER		
+g_tresgencorp005	bxt_perdp001	103PER		
+g_tresgencorp006	bxt_2cspike	103PER		
+g_tresgencorp007	bxt_5credit	103PER		
+g_tresmilhig006	bxt_sonsens	103PER		
+g_tresmilhig007	bxt_perecell	103PER		
+g_tresmilhig008	bxt_perhang25	103PER		
+g_tresmillow006	bxt_10credit	103PER		
+g_tresmillow007	bxt_perimp	103PER		
+lockerlg001	bxt_perspace	103PER		
+g_trescivil003	bxt_empty	105PER		
+g_trescivil004	bxt_100credit	105PER		
+g_trescivil005	bxt_minerdps	105PER		
+g_tresdrd004	bxt_personcp	105PER		
+g_tresgencorp004	bxt_empty	105PER		
+g_tresgencorp005	bxt_minersmg	105PER		
+g_tresgencorp006	bxt_mineradm	105PER		
+g_tresgencorp007	bxt_minerdck	105PER		
+g_tresgencorp008	bxt_minermed	105PER		
+g_tresgencorp009	bxt_minersul	105PER		
+g_tresgencorp010	bxt_coorta	105PER		
+g_tresgencorp011	bxt_minerthg	105PER		
+g_tresgencorp012	bxt_empty	105PER		
+g_tresgencorp013	bxt_miner003	105PER		
+g_tresmilhig006	bxt_percheat	105PER		
+g_tresmilhig007	bxt_2parts	105PER		
+g_tresmilhig008	bxt_2cspike	105PER		
+g_tresmilhig009	bxt_percheat	105PER		
+g_tresmillow006	bxt_empty	105PER		
+g_tresmillow007	bxt_miner002	105PER		
+g_tresmillow008	bxt_empty	105PER		
+g_tresmillow009	bxt_perbrkc	105PER		
+g_tresmillow010	bxt_10credit	105PER		
+g_tresmillow011	bxt_25credit	105PER		
+g_tresmillow012	bxt_perinsul	105PER		
+g_tresmillow013	bxt_10credit	105PER		
+g_tresmilmid006	bxt_persurv1	105PER		
+g_tresmilmid007	bxt_persurv2	105PER		
+g_tresdrd004	bxt_2kit	106PER		
+g_tresdrd005	bxt_1kit	106PER		
+g_tresmilhig006	bxt_empty	106PER		
+g_tresmilhig007	bxt_perionst	106PER		
+g_tresmilhig008	bxt_2comp	106PER		
+g_tresmillow006	bxt_empty	106PER		
+g_tresmillow007	bxt_5par5spk	106PER		
+g_tresmillow008	bxt_persongr	106PER		
+g_tresmillow009	bxt_1comp	106PER		
+g_tresmillow010	bxt_perlkspk	106PER		
+g_tresmillow011	bxt_2kit	106PER		
+g_tresmillow012	bxt_2kit	106PER		
+g_tresmillow013	bxt_10credit	106PER		
+g_tresmillow014	bxt_empty	106PER		
+g_tresmillow015	bxt_perexitfl	106PER		
+g_tresmillow016	bxt_100credit	106PER		
+g_tresmillow017	bxt_1kit	106PER		
+g_lockertsf	bxt_tsfarmor	202TEL		
+g_lockertsf001	bxt_tsfrifle	202TEL		
+g_trescivil003	bxt_25credit	203TEL		
+g_tresmilhig006	bxt_1medpac2	204TEL		
+g_trescivil003	bxt_telcamed	231TEL		
+g_tresmilhig006	bxt_telcaoth	231TEL		
+g_tresmilmid006	bxt_telbkpk	231TEL		
+g_slvgpk		232TEL		
+g_trescivil003		232TEL		
+g_tresmillow009		232TEL		
+metalbox001		232TEL		
+metalbox002		232TEL		
+metalbox003		232TEL		
+metalbox004		232TEL		
+g_tresmilhig006		262TEL		
+g_tresmillow006		262TEL		
+g_tresmillow010		262TEL		
+g_tresmilmid006		262TEL		

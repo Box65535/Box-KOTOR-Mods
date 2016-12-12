@@ -1,0 +1,1 @@
+Human/Droid armor and Jedi robes.

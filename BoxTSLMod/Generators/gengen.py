@@ -123,6 +123,8 @@ enemy_pattern = """enemies.append(Enemy('{0.module}', '{0.tag}', '{0.script}',
 	{0.fort}, {0.reflex}, {0.will}))"""
 placeable_pattern = """placeables.append(Placeable('{0.module}', '{0.tag}', '{0.script}',
 	{0.unlock}, {0.bash}, None))"""
+merchant_pattern = """merchants.append(Merchant('{0.module}', '{0.tag}', '{0.script}',
+	'{0.buysell}', '{0.markup}', '{0.markdown}'))"""
 
 # poisongen.py
 poisoncode_pattern = """poisoncodes.append('{0.poisoncode}')"""
@@ -213,6 +215,7 @@ spawnscript_pattern = """scripts.append(Script.new_spawn('{0.script}', '{0.funct
 	'{0.childscript}'))"""
 treasurescript_pattern = """scripts.append(Script.new_treasure('{0.script}', '{0.functioncall}',
 	'{0.include}'))"""
+merchantscript_pattern = """scripts.append(Script.new_merchant('{0.script}', '{0.functioncall}'))"""
 
 # fieldgen.py
 field_pattern = """items.append(Item('{0.tag}', '{0.name}', \"\"\"{0.description}\"\"\",
@@ -229,6 +232,12 @@ upgradefield_pattern = """items.append(Item('{0.tag}', '{0.name}', \"\"\"{0.desc
 # trapgen.py
 trapcode_pattern = """trapcodes.append('{0.trapcode}')"""
 trapitem_pattern = """itemcodes['{0.tag}.uti'] = '{0.trapcode}'"""
+
+# box_inc_ai.nss
+rangedai_pattern = """baseItem == {0.baseitemconst} ||"""
+
+# box_inc_merchants.nss
+merchantitem_pattern = """CreateItemOnObject({0.tag}, oUser, {0.quantity});"""
 
 # box_inc_featconst.nss
 featconst_pattern = """int {0.featconst} = #CODE_{0.featcode}#;"""
@@ -638,6 +647,7 @@ dcs = read_file('Data\\dc.ini')
 shields = read_file('Data\\shields.ini')
 traps = read_file('Data\\traps.ini')
 
+incai = read_file('Code\\Includes\\box_inc_ai.nss')
 incgrenade = read_file('Code\\Includes\\box_inc_grenades.nss')
 incenergy = read_file('Code\\Includes\\box_inc_energy.nss')
 incpowers = read_file('Code\\Includes\\box_inc_powers.nss')
@@ -646,6 +656,7 @@ incvisual = read_file('Code\\Includes\\box_inc_visual.nss')
 inchealing = read_file('Code\\Includes\\box_inc_healing.nss')
 incfuelweap = read_file('Code\\Includes\\box_inc_fuelweap.nss')
 incmines = read_file('Code\\Includes\\box_inc_mines.nss')
+incmerchant = read_file('Code\\Includes\\box_inc_merchants.nss')
 
 incspawn = read_file('Code\\Includes\\box_inc_spawn_per.nss') + read_file('Code\\Includes\\box_inc_spawn_tel.nss')
 inctreasure = read_file('Code\\box_inc_treasure.nss')
@@ -1023,6 +1034,8 @@ with open('Data\\enemyweapons.csv', 'r') as csvfile:
 		if row['dc']:
 			add_line(dcs, row, dcheader_pattern, ';HEADERS')
 			add_line(dcs, row, dcini_pattern, ';DCS')			
+		if row['weapontype'] == '4':
+			add_line(incai, row, rangedai_pattern, '//RANGED')
 
 
 # Enemy Spells
@@ -1115,6 +1128,8 @@ with open('Data\\baseitems.csv', 'r') as csvfile:
 		add_line(itemconst, row, itemconst_pattern, '//ITEMS')
 		add_line(baseitems, row, baseitemheader_pattern, ';HEADERS')
 		add_line(baseitems, row, baseitemini_pattern, ';ITEMS')
+		if row['weapontype'] == '4':
+			add_line(incai, row, rangedai_pattern, '//RANGED')
 
 # Powers
 with open('Data\\powers.csv', 'r') as csvfile:
@@ -1246,9 +1261,10 @@ with open('Data\\merchants.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		if row['type'] == 'merchant':
-			add_line(merchantgen, row, merchant_pattern, '#MERCHANTS')
+			add_line(modulegen, row, merchant_pattern, '#MERCHANTS')
+			add_line(, row, merchantscript_pattern, '#SCRIPTS')
 		elif row['type'] == 'item':
-			add_line(merchantgen, row, merchantitem_pattern, row['marker'])
+			add_line(incmerchant, row, merchantitem_pattern, '//'+row['marker'])
 
 
 
@@ -1284,6 +1300,8 @@ write_file(shieldconst, 'Out\\box_inc_shieldconst.nss')
 write_file(hideconst, 'Out\\box_inc_hideconst.nss')
 write_file(trapconst, 'Out\\box_inc_trapconst.nss')
 write_file(turretconst, 'Out\\box_inc_turretconst.nss')
+write_file(incmerchant, 'Out\\box_inc_merchants.nss')
+write_file(incmerchant, 'Out\\box_inc_ai.nss')
 
 
 

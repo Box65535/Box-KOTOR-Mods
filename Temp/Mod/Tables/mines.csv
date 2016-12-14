@@ -1,0 +1,31 @@
+tag,type,baseitemcode,cost,name,model,tagconst,trapconst,trapcode,trapindex,script,setdc,detectdcmod,disarmdcmod,trapname,iconresref,namecode,trapmodel,explosionsound,radius,minelevel,functioncall,visualfunction,skill,skillreq,levelreq,craftgroup
+chem_00005,old,,,,,,TRAP_ENEMY_FLASH_MINE_1,BOXTR_ENEMY_FLASH_MINE_1,0,box_flashmine1,15,15,20,,,,,,4,1,Box_FlashMine,Box_NoVisual,,,,
+chem_00010,old,,,,,,TRAP_ENEMY_FLASH_MINE_2,BOXTR_ENEMY_FLASH_MINE_2,1,box_flashmine2,20,20,25,,,,,,4,2,Box_FlashMine,Box_NoVisual,,,,
+chem_00015,old,,,,,,TRAP_ENEMY_FLASH_MINE_3,BOXTR_ENEMY_FLASH_MINE_3,2,box_flashmine3,25,25,30,,,,,,4,3,Box_FlashMine,Box_NoVisual,,,,
+chem_00025,old,,,,,,TRAP_ENEMY_FLASH_MINE_4,BOXTR_ENEMY_FLASH_MINE_4,17,box_flashmine4,30,30,35,,,,,,4,4,Box_FlashMine,Box_NoVisual,,,,
+chem_00040,old,,,,,,TRAP_ENEMY_FLASH_MINE_5,BOXTR_ENEMY_FLASH_MINE_5,18,box_flashmine5,35,35,40,,,,,,4,5,Box_FlashMine,Box_NoVisual,,,,
+chem_00005,old,,,,,,TRAP_ENEMY_FRAG_MINE_1,BOXTR_ENEMY_FRAG_MINE_1,3,box_fragmine1,15,15,20,,,,,,4,1,Box_FragMine,Box_NoVisual,,,,
+chem_00010,old,,,,,,TRAP_ENEMY_FRAG_MINE_2,BOXTR_ENEMY_FRAG_MINE_2,4,box_fragmine2,20,20,25,,,,,,4,2,Box_FragMine,Box_NoVisual,,,,
+chem_00015,old,,,,,,TRAP_ENEMY_FRAG_MINE_3,BOXTR_ENEMY_FRAG_MINE_3,5,box_fragmine3,25,25,30,,,,,,4,3,Box_FragMine,Box_NoVisual,,,,
+chem_00025,old,,,,,,TRAP_ENEMY_FRAG_MINE_4,BOXTR_ENEMY_FRAG_MINE_4,19,box_fragmine4,30,30,35,,,,,,4,4,Box_FragMine,Box_NoVisual,,,,
+chem_00040,old,,,,,,TRAP_ENEMY_FRAG_MINE_5,BOXTR_ENEMY_FRAG_MINE_5,20,box_fragmine5,35,35,40,,,,,,4,5,Box_FragMine,Box_NoVisual,,,,
+chem_00005,old,,,,,,TRAP_ENEMY_SONIC_MINE_1,BOXTR_ENEMY_SONIC_MINE_1,14,box_sonicmine1,15,15,20,,,,,,4,1,Box_SonicMine,Box_NoVisual,,,,
+chem_00010,old,,,,,,TRAP_ENEMY_SONIC_MINE_2,BOXTR_ENEMY_SONIC_MINE_2,15,box_sonicmine2,20,20,25,,,,,,4,2,Box_SonicMine,Box_NoVisual,,,,
+chem_00015,old,,,,,,TRAP_ENEMY_SONIC_MINE_3,BOXTR_ENEMY_SONIC_MINE_3,16,box_sonicmine3,25,25,30,,,,,,4,3,Box_SonicMine,Box_NoVisual,,,,
+chem_00025,old,,,,,,TRAP_ENEMY_SONIC_MINE_4,BOXTR_ENEMY_SONIC_MINE_4,25,box_sonicmine4,30,30,35,,,,,,4,4,Box_SonicMine,Box_NoVisual,,,,
+chem_00040,old,,,,,,TRAP_ENEMY_SONIC_MINE_5,BOXTR_ENEMY_SONIC_MINE_5,26,box_sonicmine5,35,35,40,,,,,,4,5,Box_SonicMine,Box_NoVisual,,,,
+chem_00005,old,,,,,,TRAP_ENEMY_GAS_MINE_1,BOXTR_ENEMY_GAS_MINE_1,9,box_gasmine1,15,15,20,,,,,,4,1,Box_GasMine,Box_NoVisual,,,,
+chem_00010,old,,,,,,TRAP_ENEMY_GAS_MINE_2,BOXTR_ENEMY_GAS_MINE_2,10,box_gasmine2,20,20,25,,,,,,4,2,Box_GasMine,Box_NoVisual,,,,
+chem_00015,old,,,,,,TRAP_ENEMY_GAS_MINE_3,BOXTR_ENEMY_GAS_MINE_3,11,box_gasmine3,25,25,30,,,,,,4,3,Box_GasMine,Box_NoVisual,,,,
+chem_00025,old,,,,,,TRAP_ENEMY_GAS_MINE_4,BOXTR_ENEMY_GAS_MINE_4,23,box_gasmine4,30,30,35,,,,,,4,4,Box_GasMine,Box_NoVisual,,,,
+chem_00040,old,,,,,,TRAP_ENEMY_GAS_MINE_5,BOXTR_ENEMY_GAS_MINE_5,24,box_gasmine5,35,35,40,,,,,,4,5,Box_GasMine,Box_NoVisual,,,,
+chem_00005,old,,,,,,TRAP_ENEMY_PLASMA_MINE_1,BOXTR_ENEMY_PLASMA_MINE_1,6,box_plasmamine1,15,15,20,,,,,,4,1,Box_PlasmaMine,Box_NoVisual,,,,
+chem_00010,old,,,,,,TRAP_ENEMY_PLASMA_MINE_2,BOXTR_ENEMY_PLASMA_MINE_2,7,box_plasmamine2,20,20,25,,,,,,4,2,Box_PlasmaMine,Box_NoVisual,,,,
+chem_00015,old,,,,,,TRAP_ENEMY_PLASMA_MINE_3,BOXTR_ENEMY_PLASMA_MINE_3,8,box_plasmamine3,25,25,30,,,,,,4,3,Box_PlasmaMine,Box_NoVisual,,,,
+chem_00025,old,,,,,,TRAP_ENEMY_PLASMA_MINE_4,BOXTR_ENEMY_PLASMA_MINE_4,21,box_plasmamine4,30,30,35,,,,,,4,4,Box_PlasmaMine,Box_NoVisual,,,,
+chem_00040,old,,,,,,TRAP_ENEMY_PLASMA_MINE_5,BOXTR_ENEMY_PLASMA_MINE_5,22,box_plasmamine5,35,35,40,,,,,,4,5,Box_PlasmaMine,Box_NoVisual,,,,
+tm_flash,new,BOXI_MINES_1,300,Flash Mine,1,,TRAP_FLASH_MINE,BOXTR_FLASH_MINE,,box_uflashmine,20,20,25,,****,,v_mnstun,cb_gr_stun,4,2,Box_FlashMine,Box_NoVisual,demolitions,6,0,mine_group
+tm_frag,new,BOXI_MINES_1,300,Frag Mine,2,,TRAP_FRAG_MINE,BOXTR_FRAG_MINE,,box_ufragmine,20,20,25,,****,,v_mnfrag,cb_gr_fragment,4,2,Box_FragMine,Box_NoVisual,demolitions,7,0,mine_group
+tm_sonic,new,BOXI_MINES_1,300,Sonic Mine,1,,TRAP_SONIC_MINE,BOXTR_SONIC_MINE,,box_usonicmine,20,20,25,,****,,v_mnstun,cb_gr_sonic,4,2,Box_SonicMine,Box_NoVisual,demolitions,9,0,mine_group
+tm_poison,new,BOXI_MINES_1,300,Gas Mine,3,,TRAP_GAS_MINE,BOXTR_GAS_MINE,,box_ugasmine,20,20,25,,****,,v_mngas,cb_gr_poison,4,2,Box_PoisonMine,Box_NoVisual,demolitions,8,0,mine_group
+tm_plasma,new,BOXI_MINES_1,300,Plasma Mine,4,,TRAP_PLASMA_MINE,BOXTR_PLASMA_MINE,,box_uplasmamine,20,20,25,,****,,v_mnplasma,cb_gr_plasma,4,2,Box_PlasmaMine,Box_NoVisual,demolitions,10,0,mine_group

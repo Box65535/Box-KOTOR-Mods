@@ -1,0 +1,1 @@
+Stealth field generators, saving throw belts, and other static equipment.

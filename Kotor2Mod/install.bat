@@ -16,3 +16,5 @@ cd ..\..
 
 REM Compile Scripts
 
+
+pause

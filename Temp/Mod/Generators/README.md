@@ -1,1 +1,0 @@
-This is where we generate the generating scripts. Work in progress.

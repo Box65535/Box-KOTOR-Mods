@@ -22,6 +22,7 @@ copy Mod\GFFs\Turrets\* Install\Gen\Input
 copy Mod\GFFs\Upgrades\* Install\Gen\Input
 copy Mod\GFFs\Weapons\* Install\Gen\Input
 cd Install\Gen
+cls
 python gengen.py
 cd ..\..
 

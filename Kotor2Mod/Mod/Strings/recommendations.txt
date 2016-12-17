@@ -213,3 +213,17 @@ EOV
 KEY: jsn_recom
 BOXF_LIGHTSABERS
 EOV
+
+
+KEY: sas_recom
+EOV
+KEY: sld_recom
+EOV
+KEY: sma_recom
+EOV
+KEY: jwm_recom
+EOV
+KEY: jma_recom
+EOV
+KEY: jwa_recom
+EOV

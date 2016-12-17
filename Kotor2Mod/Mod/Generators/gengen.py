@@ -59,7 +59,14 @@ def set_tlk_header(file):
 			num_strings += 1
 	header = 'Header:\n  Language: English\n  Number of Strings: ' + str(num_strings) + '\n\n'
 	return header + file
-	
+
+def add_tlk(file, text, number):
+	data = {}
+	data['text'] = text
+	data['number'] = number
+	add_line(file, data, tlk_pattern, '\nEOF')	
+
+
 def read_file(path):
 	file = 'error'
 	with open(path) as f:
@@ -73,9 +80,9 @@ def write_file(data, path):
 	with open(path, 'w') as f:
 		f.write(data)
 
-def load_descriptions(file):
+def load_descriptions(path):
 	descs = {}
-	file = read_file('Input\\descriptions.txt')
+	file = read_file(path)
 	desclines = file.split('\n')
 	keybuffer = []
 	descbuffer = ''
@@ -93,186 +100,209 @@ def load_descriptions(file):
 			descbuffer += line
 	return descs
 
+def load_recommendations(path):
+	recs = {}
+	recs['nil'] = {}
+	file = read_file(path)
+	reclines = file.split('\n')
+	key = 'nil'
+	count = 0
+	for line in reclines:
+		if 'KEY: ' in line:
+			count = 0
+			key = line.replace('KEY: ', '')
+			recs[key] = {}
+		elif  'EOV' is line:
+			key = 'nil'
+			count = 0
+		elif '' is line:
+			pass
+		else:
+			count = count + 1
+			recs[key][line] = str(count)
+			
+	return recs
+
 # armorgen.py
-armor_pattern = """armor_list.append(Armor('{0.tag}',
-	{0.bludgeoningdt}, {0.piercingdt}, {0.slashingdt}, {0.unstoppabledt},
-	{0.universaldt}, {0.colddt}, {0.lightsidedt}, {0.electricaldt},
-	{0.firedt}, {0.darksidedt}, {0.sonicdt}, {0.iondt}, {0.energydt}))"""
+armor_pattern = """armor_list.append(Armor('{tag}',
+	{bludgeoningdt}, {piercingdt}, {slashingdt}, {unstoppabledt},
+	{universaldt}, {colddt}, {lightsidedt}, {electricaldt},
+	{firedt}, {darksidedt}, {sonicdt}, {iondt}, {energydt}))"""
 
 # costgen.py
-cost_pattern = """costs.append(Item('{0.tag}', {0.cost}))"""
+cost_pattern = """costs.append(Item('{tag}', {cost}))"""
 
 # featgen.py
-featcode_pattern = """featcodes.append('{0.featcode}')"""
-featname_pattern = """featnames.append('{0.featcode}_N')"""
-itemcode_pattern = """itemcodes.append('{0.baseitemcode}')"""
-baseitem_pattern = """items.append(Item('{0.tag}', '{0.baseitemcode}'))""" 
-featreq_pattern = """itemreqs['{0.tag}'] = '{0.featreq}'"""
-featbonus_pattern = """itemreqs['{0.tag}'] = ['{0.featbonus1}']"""
-featbonus2_pattern = """itemreqs['{0.tag}'] = ['{0.featbonus1}', '{0.featbonus2}']"""
+featcode_pattern = """featcodes.append('{featcode}')"""
+featname_pattern = """featnames.append('{featcode}_N')"""
+itemcode_pattern = """itemcodes.append('{baseitemcode}')"""
+baseitem_pattern = """items.append(Item('{tag}', '{baseitemcode}'))""" 
+featreq_pattern = """itemreqs['{tag}'] = '{featreq}'"""
+featbonus_pattern = """itemreqs['{tag}'] = ['{featbonus1}']"""
+featbonus2_pattern = """itemreqs['{tag}'] = ['{featbonus1}', '{featbonus2}']"""
 
 # hidegen.py
-hideclass_pattern = """hideclasses.append(HideClass({0.name}, {0.attack}, {0.defense}
-	{0.fort}, {0.reflex}, {0.will}, {0.regen}, {0.deflect}, {0.immunities}, {0.feats},
-	{0.skills}, {0.resistances}, {0.savebonuses}"""
+hideclass_pattern = """hideclasses.append(HideClass({name}, {attack}, {defense}
+	{fort}, {reflex}, {will}, {regen}, {deflect}, {immunities}, {feats},
+	{skills}, {resistances}, {savebonuses}"""
 
 # modulegen.py
-module_pattern = """modules.append('{0.name}')"""
-enemy_pattern = """enemies.append(Enemy('{0.module}', '{0.tag}', '{0.script}',
-	{0.str}, {0.con}, {0.dex}, {0.int}, {0.wis}, {0.chr}, None,
-	{0.fort}, {0.reflex}, {0.will}))"""
-placeable_pattern = """placeables.append(Placeable('{0.module}', '{0.tag}', '{0.script}',
-	{0.unlock}, {0.bash}, None))"""
-merchant_pattern = """merchants.append(Merchant('{0.module}', '{0.tag}', '{0.script}',
-	'{0.buysell}', '{0.markup}', '{0.markdown}'))"""
+module_pattern = """modules.append('{name}')"""
+enemy_pattern = """enemies.append(Enemy('{module}', '{tag}', '{script}',
+	{str}, {con}, {dex}, {int}, {wis}, {chr}, None,
+	{fort}, {reflex}, {will}))"""
+placeable_pattern = """placeables.append(Placeable('{module}', '{tag}', '{script}',
+	{unlock}, {bash}, None))"""
+merchant_pattern = """merchants.append(Merchant('{module}', '{tag}', '{script}',
+	'{buysell}', '{markup}', '{markdown}'))"""
 
 # poisongen.py
-poisoncode_pattern = """poisoncodes.append('{0.poisoncode}')"""
-poisonitem_pattern = """itemcodes['{0.tag}.uti'] = '{0.poisoncode}'"""
+poisoncode_pattern = """poisoncodes.append('{poisoncode}')"""
+poisonitem_pattern = """itemcodes['{tag}.uti'] = '{poisoncode}'"""
 
 # powergen.py
-removepower_pattern = """remove_spells.append(Spell({0.spellindex}, '{0.spellcode}', 
-	{0.powercost}, None, {0.levelreq}, None, {0.spellcr}, None, None, None, '{0.script}',
+removepower_pattern = """remove_spells.append(Spell({spellindex}, '{spellcode}', 
+	{powercost}, None, {levelreq}, None, {spellcr}, None, None, None, '{script}',
 	None, None, None, None, None, None))"""
-eradicatepower_pattern = """eradicate_spells.append(Spell({0.spellindex}, '{0.spellcode}',
+eradicatepower_pattern = """eradicate_spells.append(Spell({spellindex}, '{spellcode}',
 	None, None, None,  None,  None,  None,  None,  None,  None,  None,  None,
 	None,  None,  None, None))"""
-modifypower_pattern = """modify_spells.append(Spell({0.spellindex}, '{0.spellcode}', {0.powercost}, None,
-	{0.levelreq}, False, {0.spellcr}, None, None, '{0.spellicon}', '{0.script}',
+modifypower_pattern = """modify_spells.append(Spell({spellindex}, '{spellcode}', {powercost}, None,
+	{levelreq}, False, {spellcr}, None, None, '{spellicon}', '{script}',
 	None, None, None, None, None, None))"""
-newpower_pattern = """new_spells.append(Spell(None, '{0.spellcode}', {0.powercost}, {0.prereq}, {0.levelreq},
-	False, {0.spellcr}, '{0.spellcategory}', '{0.spellrange}', '{0.icon}', '{0.script}',
-	'{0.conjanim}', '{0.castanim}', '{0.casthand}', {0.priority}, {0.hostile}, '{0.spellexclusion}'))"""
-newsaberpower_pattern = """ls = Spell(None, '{0.spellcode}', {0.powercost}, {0.prereq}, {0.levelreq},
-	False, 3, '0x1101', 'M', '{0.icon}', '{0.script}', 'throw', 'throw', '****', {0.priority}, True, '0x00')
+newpower_pattern = """new_spells.append(Spell(None, '{spellcode}', {powercost}, {prereq}, {levelreq},
+	False, {spellcr}, '{spellcategory}', '{spellrange}', '{icon}', '{script}',
+	'{conjanim}', '{castanim}', '{casthand}', {priority}, {hostile}, '{spellexclusion}'))"""
+newsaberpower_pattern = """ls = Spell(None, '{spellcode}', {powercost}, {prereq}, {levelreq},
+	False, 3, '0x1101', 'M', '{icon}', '{script}', 'throw', 'throw', '****', {priority}, True, '0x00')
 ls.conjtime = 560
 ls.casttime = 1940
 ls.catchtime = 500
 ls.catchanim = 'CATCH'
 ls.requireitem = '0x0040'
 new_spells.append(ls)"""
-newcrushpower_pattern = """crush = Spell(None, '{0.spellcode}', {0.powercost}, {0.prereq}, {0.levelreq},
-	False, 9, '****', 'S', '{0.icon}', '{0.script}', 'hand', 'crush', 'v_con_dark', {0.priority}, True, '0x02')
+newcrushpower_pattern = """crush = Spell(None, '{spellcode}', {powercost}, {prereq}, {levelreq},
+	False, 9, '****', 'S', '{icon}', '{script}', 'hand', 'crush', 'v_con_dark', {priority}, True, '0x02')
 crush.conjtime = 0
 crush.casttime = 2000
 new_spells.append(crush)"""
 
 # powergen2.py
-powername_pattern = """spellnames.append('{0.spellcode}')"""
+powername_pattern = """spellnames.append('{spellcode}')"""
 
 # spellgen.py
-modifyspell_pattern = """modify_spells.append(Script({0.spellindex}, '{0.script}'))"""
-projectilespell_pattern = """new_spells.append(Spell(None, '{0.spellcode}', {0.spellcr}, '0x8000',
-	'L', '{0.script}', '{0.launchsound}', True, '{0.projectile}', '{0.projpath}', '****', True, '0x00'))"""
-beamspell_pattern = """new_spells.append(Spell(None, '{0.spellcode}', {0.spellcr}, '0x8000',
-	'M', '{0.script}', '{0.launchsound}', False, None, None, None, True, '{0.spellexclusion}'))"""
-selfspell_pattern = """new_spells.append(Spell(None, '{0.spellcode}', {0.spellcr}, '0x1808',
-	'T', '{0.script}', '{0.launchsound}', False, None, None, None, False, '0x00'))"""
-medpacspell_pattern = """new_spells.append(Spell(None, '{0.spellcode}', {0.spellcr}, '0x1408',
-	'T', '{0.script}', '{0.launchsound}', False, None, None, None, False, '0x00'))"""
-repairspell_pattern = """new_spells.append(Spell(None, '{0.spellcode}', {0.spellcr}, '0x1404',
-	'T', '{0.script}', '{0.launchsound}', False, None, None, None, False, '0x00'))"""
-spellitem_pattern = """items.append(Item('{0.tag}', '{0.spellcode}'))"""
+modifyspell_pattern = """modify_spells.append(Script({spellindex}, '{script}'))"""
+projectilespell_pattern = """new_spells.append(Spell(None, '{spellcode}', {spellcr}, '0x8000',
+	'L', '{script}', '{launchsound}', True, '{projectile}', '{projpath}', '****', True, '0x00'))"""
+beamspell_pattern = """new_spells.append(Spell(None, '{spellcode}', {spellcr}, '0x8000',
+	'M', '{script}', '{launchsound}', False, None, None, None, True, '{spellexclusion}'))"""
+selfspell_pattern = """new_spells.append(Spell(None, '{spellcode}', {spellcr}, '0x1808',
+	'T', '{script}', '{launchsound}', False, None, None, None, False, '0x00'))"""
+medpacspell_pattern = """new_spells.append(Spell(None, '{spellcode}', {spellcr}, '0x1408',
+	'T', '{script}', '{launchsound}', False, None, None, None, False, '0x00'))"""
+repairspell_pattern = """new_spells.append(Spell(None, '{spellcode}', {spellcr}, '0x1404',
+	'T', '{script}', '{launchsound}', False, None, None, None, False, '0x00'))"""
+spellitem_pattern = """items.append(Item('{tag}', '{spellcode}'))"""
 
 # shieldgen.py
-shieldcode_pattern = """shieldnames.append('{0.shieldcode}')"""
-shieldabsorb_pattern = """replaces['{0.shieldcode}_ABSORB'] = '{0.shieldabsorb}'"""
-shieldflags_pattern = """replaces['{0.shieldcode}_FLAGS'] = '{0.shieldflags}'"""
+shieldcode_pattern = """shieldnames.append('{shieldcode}')"""
+shieldabsorb_pattern = """replaces['{shieldcode}_ABSORB'] = '{shieldabsorb}'"""
+shieldflags_pattern = """replaces['{shieldcode}_FLAGS'] = '{shieldflags}'"""
 
 # upgradegen.py
-upgrade_pattern = """upgrades.append(Upgrade('{0.tag}', {0.upgradetype}, {0.skill},
-	{0.skillreq}, {0.levereq}, {0.craftgroup}))"""
-crystal_pattern = """crystals.append(Upgrade('{0.tag}', 0, None, None, None, None))"""
-craftitem_pattern = """items.append(Upgrade('{0.tag}', None, {0.skill}, {0.skillreq},
-	{0.levelreq}, item_group))"""
-craftjedi_pattern = """jediitems.append(Upgrade('{0.tag}', None, {0.skill}, {0.skillreq},
-	{0.levelreq}, item_group))"""
-medstation_pattern = """meds.append(Upgrade('{0.tag}', None, {0.skill},
-	{0.skillreq}, {0.levelreq}, {0.craftgroup}))"""
+upgrade_pattern = """upgrades.append(Upgrade('{tag}', {upgradetype}, {skill},
+	{skillreq}, {levereq}, {craftgroup}))"""
+crystal_pattern = """crystals.append(Upgrade('{tag}', 0, None, None, None, None))"""
+craftitem_pattern = """items.append(Upgrade('{tag}', None, {skill}, {skillreq},
+	{levelreq}, item_group))"""
+craftjedi_pattern = """jediitems.append(Upgrade('{tag}', None, {skill}, {skillreq},
+	{levelreq}, item_group))"""
+medstation_pattern = """meds.append(Upgrade('{tag}', None, {skill},
+	{skillreq}, {levelreq}, {craftgroup}))"""
 
 # scriptgen.py
-forcebuffscript_pattern = """scripts.append(Script.new_forcebuff('{0.script}', {0.castdc}, '{0.functioncall}',
-	'{0.visualfunction}', '{0.alignment}'))"""
-forceteambuffscript_pattern = """scripts.append(Script.new_forceteambuff('{0.script}', {0.castdc},
-	'{0.functioncall}', '{0.visualfunction}', '{0.alignment}'))"""
-forceattackscript_pattern = """scripts.append(Script.new_forceattack('{0.script}', '{0.name}', '{0.castdc}',
-	'{0.functioncall}', '{0.visualfunction}', '{0.alignment}'))"""
-forceaoeattackscript_pattern = """scripts.append(Script.new_forceaoeattack('{0.script}', '{0.name}',
-	{0.radius}, '{0.spellshape}', {0.castdc}, '{0.functioncall}', '{0.locationfunction}',
-	'{0.visualfunction}', '{0.alignment}'))"""
-grenadescript_pattern = """scripts.append(Script.new_grenade('{0.script}', {0.radius}, '{0.functioncall}',
-	'{0.visualfunction}'))"""
-beamscript_pattern = """scripts.append(Script.new_beam('{0.script}', '{0.functioncall}', '{0.visualfunction}'))"""
-multibeamscript_pattern = """scripts.append(Script.new_multibeam('{0.script}', '{0.functioncall}',
-	'{0.locationfunction}', '{0.visualfunction}'))"""
-wavescript_pattern = """scripts.append(Script.new_wave('{0.script}', '{0.functioncall}', '{0.visualfunction}'))"""
-minescript_pattern = """scripts.append(Script.new_mine('{0.script}', {0.radius}, {0.minelevel},
-	'{0.functioncall}', '{0.visualfunction}'))"""
-ammoscript_pattern = """scripts.append(Script.new_ammo('{0.script}', '{0.stacksize}', '{0.ammotag}'))"""
-buffscript_pattern = """scripts.append(Script.new_buff('{0.script}', '{0.functioncall}'))"""
-shieldscript_pattern = """scripts.append(Script.new_shield('{0.script}', '{0.shieldconst}'))"""
-spawnscript_pattern = """scripts.append(Script.new_spawn('{0.script}', '{0.functioncall}', '{0.include}',
-	'{0.childscript}'))"""
-treasurescript_pattern = """scripts.append(Script.new_treasure('{0.script}', '{0.functioncall}',
-	'{0.include}'))"""
-merchantscript_pattern = """scripts.append(Script.new_merchant('{0.script}', '{0.functioncall}'))"""
+forcebuffscript_pattern = """scripts.append(Script.new_forcebuff('{script}', {castdc}, '{functioncall}',
+	'{visualfunction}', '{alignment}'))"""
+forceteambuffscript_pattern = """scripts.append(Script.new_forceteambuff('{script}', {castdc},
+	'{functioncall}', '{visualfunction}', '{alignment}'))"""
+forceattackscript_pattern = """scripts.append(Script.new_forceattack('{script}', '{name}', '{castdc}',
+	'{functioncall}', '{visualfunction}', '{alignment}'))"""
+forceaoeattackscript_pattern = """scripts.append(Script.new_forceaoeattack('{script}', '{name}',
+	{radius}, '{spellshape}', {castdc}, '{functioncall}', '{locationfunction}',
+	'{visualfunction}', '{alignment}'))"""
+grenadescript_pattern = """scripts.append(Script.new_grenade('{script}', {radius}, '{functioncall}',
+	'{visualfunction}'))"""
+beamscript_pattern = """scripts.append(Script.new_beam('{script}', '{functioncall}', '{visualfunction}'))"""
+multibeamscript_pattern = """scripts.append(Script.new_multibeam('{script}', '{functioncall}',
+	'{locationfunction}', '{visualfunction}'))"""
+wavescript_pattern = """scripts.append(Script.new_wave('{script}', '{functioncall}', '{visualfunction}'))"""
+minescript_pattern = """scripts.append(Script.new_mine('{script}', {radius}, {minelevel},
+	'{functioncall}', '{visualfunction}'))"""
+ammoscript_pattern = """scripts.append(Script.new_ammo('{script}', '{stacksize}', '{ammotag}'))"""
+buffscript_pattern = """scripts.append(Script.new_buff('{script}', '{functioncall}'))"""
+shieldscript_pattern = """scripts.append(Script.new_shield('{script}', '{shieldconst}'))"""
+spawnscript_pattern = """scripts.append(Script.new_spawn('{script}', '{functioncall}', '{include}',
+	'{childscript}'))"""
+treasurescript_pattern = """scripts.append(Script.new_treasure('{script}', '{functioncall}',
+	'{include}'))"""
+merchantscript_pattern = """scripts.append(Script.new_merchant('{script}', '{functioncall}'))"""
 
 # fieldgen.py
-field_pattern = """items.append(Item('{0.tag}', '{0.name}', \"\"\"{0.description}\"\"\",
-	'{0.model}', None, None))"""
-fieldbase_pattern = """items.append(Item('{0.tag}', '{0.name}', \"\"\"{0.description}\"\"\",
-	'{0.model}', None, '{0.baseitem}'))"""
-weaponfield_pattern = """weapons.append(Item('{0.tag}', '{0.name}', \"\"\"{0.description}\"\"\",
-	'{0.model}', '{0.upgradelevel}', None))"""
-weaponfieldbase_pattern = """weapons.append(Item('{0.tag}', '{0.name}', \"\"\"{0.description}\"\"\",
-	'{0.model}', '{0.upgradelevel}', '{0.baseitem}'))"""
-upgradefield_pattern = """items.append(Item('{0.tag}', '{0.name}', \"\"\"{0.description}\"\"\",
-	'{0.model}', '{0.upgradelevel}', '101'))"""
+field_pattern = """items.append(Item('{tag}', '{name}', \"\"\"{description}\"\"\",
+	'{model}', None, None))"""
+fieldbase_pattern = """items.append(Item('{tag}', '{name}', \"\"\"{description}\"\"\",
+	'{model}', None, '{baseitem}'))"""
+weaponfield_pattern = """weapons.append(Item('{tag}', '{name}', \"\"\"{description}\"\"\",
+	'{model}', '{upgradelevel}', None))"""
+weaponfieldbase_pattern = """weapons.append(Item('{tag}', '{name}', \"\"\"{description}\"\"\",
+	'{model}', '{upgradelevel}', '{baseitem}'))"""
+upgradefield_pattern = """items.append(Item('{tag}', '{name}', \"\"\"{description}\"\"\",
+	'{model}', '{upgradelevel}', '101'))"""
 
 # trapgen.py
-trapcode_pattern = """trapcodes.append('{0.trapcode}')"""
-trapitem_pattern = """itemcodes['{0.tag}.uti'] = '{0.trapcode}'"""
+trapcode_pattern = """trapcodes.append('{trapcode}')"""
+trapitem_pattern = """itemcodes['{tag}.uti'] = '{trapcode}'"""
 
 # box_inc_ai.nss
-rangedai_pattern = """baseItem == {0.baseitemconst} ||"""
+rangedai_pattern = """baseItem == {baseitemconst} ||"""
 
 # box_inc_merchants.nss
-merchantitem_pattern = """CreateItemOnObject({0.tag}, oUser, {0.quantity});"""
+merchantitem_pattern = """CreateItemOnObject({tag}, oUser, {quantity});"""
 
 # box_inc_featconst.nss
-featconst_pattern = """int {0.featconst} = #CODE_{0.featcode}#;"""
-itemconst_pattern = """int {0.baseitemconst} = #CODE_{0.baseitemcode}#;"""
+featconst_pattern = """int {featconst} = #CODE_{featcode}#;"""
+itemconst_pattern = """int {baseitemconst} = #CODE_{baseitemcode}#;"""
 
 # box_inc_spellconst.nss
 # box_inc_powerconst.nss
-spellconst_pattern = """int {0.spellconst} = #CODE_{0.spellcode}#;"""
+spellconst_pattern = """int {spellconst} = #CODE_{spellcode}#;"""
 
 # box_inc_shieldconst.nss
-shieldconst_pattern = """int {0.shieldconst} = #CODE_{0.shieldcode}#;"""
+shieldconst_pattern = """int {shieldconst} = #CODE_{shieldcode}#;"""
 
 # box_inc_poisonconst.nss
-poisonconst_pattern = """int {0.poisonconst} = #CODE_{0.poisoncode}#;"""
+poisonconst_pattern = """int {poisonconst} = #CODE_{poisoncode}#;"""
 
 # box_inc_itemconst.nss
-tagconst_pattern = """string {0.itemconst} = "{0.tag}";"""
+tagconst_pattern = """string {itemconst} = "{tag}";"""
 
 # box_inc_itemconst.nss
-hideconst_pattern = """string {0.hideconst} = "{0.name}";"""
+hideconst_pattern = """string {hideconst} = "{name}";"""
 
 # box_inc_trapconst.nss
-trapconst_pattern = """int {0.trapconst} = #CODE_{0.trapcode}#;"""
+trapconst_pattern = """int {trapconst} = #CODE_{trapcode}#;"""
 
 # box_inc_turretconst.nss
-turretconst_pattern = """string {0.turretconst} = "{0.turrettag}";"""
+turretconst_pattern = """string {turretconst} = "{turrettag}";"""
 
 # box_inc_treasure.nss
-treasurefunction_pattern = """void {0.functioncall}(object oContainer) {
+treasurefunction_pattern = """void {functioncall}(object oContainer) {
 	Box_RemoveAllItems(oContainer);
-	//{0.functioncall}
+	//{functioncall}
 }
 
 """
-treasureitem_pattern = """CreateItemOnObject({0.itemconst}, oContainer);"""
+treasureitem_pattern = """CreateItemOnObject({itemconst}, oContainer);"""
 
 
 # baseitems.ini
@@ -618,23 +648,17 @@ ExclusiveColumn=label
 {trapcode}=RowIndex"""
 
 # append.txt
-tlk_pattern = """String {0.number}:
+tlk_pattern = """String {number}:
   Flags:
     Sound: No
     SoundLength: 0.0
     Text Present: Yes
   Audio:                 
-  Text: {0.text}
+  Text: {text}
 ----------
 """
 
 
-
-def add_tlk(file, text, number):
-	data = {}
-	data['text'] = text
-	data['number'] = number
-	add_line(file, data, tlk_pattern, '\nEOF')	
 
 
 
@@ -686,7 +710,7 @@ turretconst = read_file('Input\\box_inc_turretconst.nss')
 
 tlk = "\nEOF"
 descriptions = load_descriptions("Input\\descriptions.txt")
-
+recommendations = load_recommendations("Input\\recommendations.txt")
 
 
 # Poisons
@@ -696,6 +720,58 @@ with open('Input\\poisons.csv', 'r') as csvfile:
 	for row in reader:
 		add_line(poisons, row, poisonheader_pattern, ';HEADERS')
 		add_line(poisons, row, poisonini_pattern, ';POISONS')
+
+
+# Feats
+with open('Input\\feats.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	number = 1
+	for row in reader:
+		if row['featcode']:
+			for key in recommendations:
+				if row['featcode'] in recommendations[key]:
+					row[key] = recommendations[key][row['featcode']]
+				else:
+					row[key] = '****'
+		if row['type'] == 'skip':
+			pass
+		elif row['type'] == 'nil':
+			add_line(feats, row, changefeatheader_pattern, ';CHANGEHEADERS')
+			add_line(feats, row, changefeatini_pattern, ';CHANGES')
+		else:
+			if row['featcode'] in descriptions:
+				row['description'] = descriptions[row['featcode']]
+			add_tlk(tlk, row['name'], number)
+			number += 1
+			add_tlk(tlk, row['description'], number)
+			number += 1
+			add_line(featgen, row, featcode_pattern, '#FEATCODES')
+			add_line(featgen, row, featname_pattern, '#FEATNAMES')
+			add_line(featconst, row, featconst_pattern, '//FEATS')
+			row['name'] = row['featcode'] + '_N'
+			row['name'] = row['featcode'] + '_D'
+		if row['type'] == 'change':
+			add_line(feats, row, changefeatheader_pattern, ';CHANGEHEADERS')
+			add_line(feats, row, changefeatini_pattern, ';CHANGES')
+		elif row['type'] == 'add':
+			add_line(feats, row, addfeatheader_pattern, ';ADDHEADERS')
+			add_line(feats, row, addfeatini_pattern, ';ADDS')
+	set_tlk_header(tlk)
+	with open('feats.txt', 'w') as tlkout:
+		tlkout.write(tlk)
+	tlk = "\nEOF"
+
+# Base Items
+with open('Input\\baseitems.csv', 'r') as csvfile:
+	reader = csv.DictReader(csvfile)
+	for row in reader:
+		add_line(featgen, row, itemcode_pattern, '#ITEMCODES')
+		add_line(itemconst, row, itemconst_pattern, '//ITEMS')
+		add_line(baseitems, row, baseitemheader_pattern, ';HEADERS')
+		add_line(baseitems, row, baseitemini_pattern, ';ITEMS')
+		if row['weapontype'] == '4':
+			add_line(incai, row, rangedai_pattern, '//RANGED')
+
 
 # Weapons
 with open('Input\\weapons.csv', 'r') as csvfile:
@@ -1079,50 +1155,6 @@ with open('Input\\enemyspells.csv', 'r') as csvfile:
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(spellconst, row, spellconst_pattern, '//SPELLS')
 
-# Feats
-with open('Input\\feats.csv', 'r') as csvfile:
-	reader = csv.DictReader(csvfile)
-	number = 1
-	for row in reader:
-		if row['type'] == 'skip':
-			pass
-		elif row['type'] == 'nil':
-			add_line(feats, row, changefeatheader_pattern, ';CHANGEHEADERS')
-			add_line(feats, row, changefeatini_pattern, ';CHANGES')
-		else:
-			row['description'] = descriptions[row['name']]
-			add_tlk(tlk, row['name'], number)
-			number += 1
-			add_tlk(tlk, row['description'], number)
-			number += 1
-			add_line(featgen, row, featcode_pattern, '#FEATCODES')
-			add_line(featgen, row, featname_pattern, '#FEATNAMES')
-			add_line(featconst, row, featconst_pattern, '//FEATS')
-			row['name'] = row['featcode'] + '_N'
-			row['name'] = row['featcode'] + '_D'
-		if row['type'] == 'change':
-			add_line(feats, row, changefeatheader_pattern, ';CHANGEHEADERS')
-			add_line(feats, row, changefeatini_pattern, ';CHANGES')
-		elif row['type'] == 'add':
-			add_line(feats, row, addfeatheader_pattern, ';ADDHEADERS')
-			add_line(feats, row, addfeatini_pattern, ';ADDS')
-	set_tlk_header(tlk)
-	with open('feats.txt', 'w') as tlkout:
-		file.write(tlk)
-	tlk = "\nEOF"
-		
-# Base Items
-with open('Input\\baseitems.csv', 'r') as csvfile:
-	reader = csv.DictReader(csvfile)
-	for row in reader:
-		if row['new']:
-			verify_code(feats, row['baseitemcode'])
-			add_line(featgen, row, itemcode_pattern, '#ITEMCODES')
-		add_line(itemconst, row, itemconst_pattern, '//ITEMS')
-		add_line(baseitems, row, baseitemheader_pattern, ';HEADERS')
-		add_line(baseitems, row, baseitemini_pattern, ';ITEMS')
-		if row['weapontype'] == '4':
-			add_line(incai, row, rangedai_pattern, '//RANGED')
 
 # Powers
 with open('Input\\powers.csv', 'r') as csvfile:

@@ -1,0 +1,2773 @@
+
+KEY: BOXF_BLASTERS_1
+Prerequisites:
+None
+
+This character is proficient in using commodity blaster pistols. These weapons are easier to use but weaker than military-grade blasters. They include regular blaster pistols as well as ion, sonic, and disruptor pistols.
+
+Free:
+All - Level 1
+EOV
+
+KEY: BOXF_BLASTERS_2
+Prerequisites:
+Weapon Proficiency - Commodity Blasters
+
+This character is proficient in using military-grade blaster pistols. These are more powerful and more specialized than commodity blaster pistols. They include all one-handed blaster pistols. 
+
+Free:
+All Non-Jedi Classes - Level 1
+Exile - Level 1
+EOV
+
+KEY: BOXF_BLASTERS_3
+Prerequisites:
+Weapon Proficiency - Military Pistols
+
+This character is proficient in using of two-handed blaster rifles. Blaster rifles have more range and power than one-handed blaster pistols. They range from light carbines to heavy assault rifles.
+
+Free:
+Soldier, Combat Droid - Level 1
+EOV
+
+
+KEY: BOXF_BLASTERS_4
+Prerequisites:
+Weapon Proficiency - Blaster Rifles
+
+This character is proficient in using repeating blaster rifles. These weapons have increased rate of fire giving them more damage output than regular blaster rifles. 
+
+Free:
+None
+EOV
+
+
+KEY: BOXF_MELEE_1
+Prerequisites:
+Non-Droid
+
+This character is proficient in using primitive melee weapons. These include swords, axes, staves and many more. Depending on the exact type of weapon, these weapons can be outfitted with one or more upgrades.
+
+Free:
+All Non-Droid Classes - Level 1
+EOV
+
+
+KEY: BOXF_MELEE_2
+Prerequisites:
+Weapon Proficiency - Primitive Melee Weapons
+Non-Droid
+
+This character is proficient in using modern melee weapons powered by vibrating power cells such as the vibroblade. These weapons are more powerful and can be fully upgtaded by switching out the power cell.
+
+Free:
+Handmaiden - Level 1
+EOV
+
+
+KEY: BOXF_MELEE_3
+Prerequisites:
+Weapon Proficiency - Powered Melee Weapons
+Non-Droid
+
+This character is proficient in using special ceremonial melee weapons used by various spacefaring cultures.These weapons are not upgradeable in any way but they are considerably stronger than all other types of melee weapons.
+
+Free:
+None
+EOV
+
+
+KEY: BOXF_LIGHTSABERS
+Prerequisites:
+Jedi
+
+This character is proficient in using a lightsaber. It includes single-hilt and double-hilt variants. Lightsabers come in many different colors and are all fully upgradeable.
+
+
+Free:
+None
+EOV
+
+KEY: BOXF_AUXILARY_WEAPONS
+Prerequisites:
+None
+
+Stuff
+
+Free:
+Exile (Jedi Sentinel) - Level 1
+EOV
+
+
+KEY: BOXF_GRENADE_LAUNCHERS
+Prerequisites:
+Weapon Proficiency - Auxilary Weapons
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOXF_ROCKET_LAUNCHERS
+Prerequisites:
+Weapon Proficiency - Grenade Launchers
+
+Stuff
+
+Free:
+None
+EOV
+
+
+KEY: BOXF_ENERGY_WEAPONS_1
+Prerequisites:
+Droid or Tech Specialist
+
+Stuff
+
+Free:
+None
+EOV
+
+
+KEY: BOXF_ENERGY_WEAPONS_2
+Prerequisites:
+Weapon Proficiency - Energy Weapons
+Droid
+
+Stuff
+
+Free:
+None
+EOV
+
+
+KEY: BOXF_BOWCASTERS
+Prerequisites:
+Wookie
+
+This character is proficienct in weapons using bowcasters. Only Wookies can adequately wield these weapons.
+
+Free:
+Wookies - Level 1
+EOV
+
+
+KEY: BOXF_ARMOR_1
+Prerequisites:
+Human or Bao-Dur
+
+This character is proficienct in wearing the most basic type of armor: the light combat suit. Armor provides the wearer with a Damage Threshhold (DT). A character's DT will reduce all incoming damage by that amount. Armor also limits the user's maneuverability. Each suit has a maximum modifier that limits Dexterity bonuses to defense. Finally, Jedi who wear armor suffer a penalty while using the Force. Light combat suits offer maximum flexibility but limited protection from attacks. 
+
+Free:
+Humans and Bao-Dur - Level 1
+EOV
+
+
+KEY: BOXF_ARMOR_2
+Prerequisites:
+Armor Proficiency - Light Combat Suits
+Human or Bao-Dur
+
+This character is proficienct in wearing heavier combat suits. In addition to being stronger, these larger suits are also compatable with more types of upgrades.
+
+Free:
+Exile - Level 1
+Non-Jedi - Level 1
+EOV
+
+
+KEY: BOXF_ARMOR_3
+Prerequisites:
+Armor Proficiency - Combat Suits
+Human or Bao-Dur
+
+This character is proficienct in wearing military suits. These suits are stronger than regular combat sutis but are more restrictive. This character is also able to use more advanced armor upgrades.
+
+Free:
+Soldiers - Level 1
+EOV
+
+
+KEY: BOXF_ARMOR_4
+Prerequisites:
+Armor Proficiency - Military Suits
+Human
+
+This character is proficienct in wearing heavy battle armor. These suits are very strong but greatly restrict the user's mobility. Most suits don't allow for any Dexterity bonus to be applied. This character is also able to use more advanced armor upgrades.
+
+Free:
+None
+EOV
+
+
+KEY: BOXF_ARMOR_5
+Prerequisites:
+Armor Proficiency - Heavy Battle Armor
+Human
+
+This character is proficienct in using the strongest armor in the galaxy. These mastercraft suits provide maximum protection on the battlefield. In addition to the storngest types of armor, this character can also make use of the strongest armor upgrades. 
+
+Free:
+None
+EOV
+
+KEY: BOXF_DROID_ARMOR_1
+Prerequisites:
+Droid
+
+This droid is compatabile with the most basic types of armor. Armor provides the wearer with a Damage Threshhold (DT). A character's DT will reduce all incoming damage by that amount.
+
+Free:
+Combat Droids - Level 1
+EOV
+
+KEY: BOXF_DROID_ARMOR_2
+Prerequisites:
+Armor Proficiency - Mark I Armor
+Droid
+
+This droid is compatabile with more advanced types of armor. These armors provide more protection but also limit the user's maneuverability by providing a penalty to Dexterity.
+
+Free:
+None
+EOV
+
+KEY: BOXF_DROID_ARMOR_3
+Prerequisites:
+Armor Proficiency - Mark II Armor
+Droid
+
+This droid is compatabile with the most advanced types of armor. These armors  provide maximum protection but come with hefty Dexterity penalties.
+
+Free:
+None
+EOV
+
+KEY: BOXF_ENERGY_SHIELDS_1
+Prerequisites:
+None
+
+This character is able to use basic energy shields. Energy shields are equipped on the left arm  or shield slot and can be activated during battle to absorb damage. Energy shields can be used an infinite number of times but require a minute of recharging between each use.
+
+Free:
+Exile - Level 1
+EOV
+
+KEY: BOXF_ENERGY_SHIELDS_2
+Prerequisites:
+Item Proficiency - Energy Shields
+
+This character is able to use more advanced energy shields. These shields are more powerful and absorb more damage than basic variants. There are also more varieties that shield against different types of damage.
+
+Free:
+None
+EOV
+
+KEY: BOXF_STIMULANTS_1
+Prerequisites:
+Non-Droid
+
+This character is able to use basic adrenaline packages. These items are equipped on the left arm and can be activated during battle to grant the user temporary attribute bonuses. The packages regenerate the chemicals automatically and can be used an infinite number of times. However, a recharge time of 2 minutes is required between uses. 
+
+Free:
+Exile (Jedi Sentinel) - Level 1
+EOV
+
+KEY: BOXF_STIMULANTS_2
+Prerequisites:
+Item Proficiency - Adrenaline Packages
+
+This character is able to use more advanced stimulant packages. These packages provide stronger temporary boosts but otherwise work the same as regular adrenaline packages.
+
+Free:
+None
+EOV
+
+KEY: BOXF_IMPLANTS_1
+Prerequisites:
+Non-Droid
+
+Stuff
+
+Free:
+Exile (Jedi Sentinel) - Level 1
+EOV
+
+KEY: BOXF_IMPLANTS_2
+Prerequisites:
+Item Proficiency - Implants
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOXF_IMPLANTS_3
+Prerequisites:
+Item Proficiency - Implant Packages
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOXF_STEALTH_FIELDS
+Prerequisites:
+Non-Droid
+
+This character is proficienct in using stealth field generators. These generators are equipped as a belt and can be activated to hide the wearer in plain sight. In order to effectively use stealth equipment, the user must also have invested in his/her Stealth skill. The user's Stealth skill will be compared against an enemy's Awareness skill to determine if the character is able to hide.
+
+Free:
+Exile - Level 1
+EOV
+
+KEY: BOXF_MINES_1
+Prerequisites:
+None
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOXF_MINES_2
+Prerequisites:
+Item Proficiency - Mines
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOXF_TURRETS_1
+Prerequisites:
+None
+
+Stuff
+
+Free:
+Exile (Jedi Sentinel) - Level 1
+EOV
+
+KEY: BOXF_TURRETS_2
+Prerequisites:
+Item Proficiency - Turrets
+
+Stuff
+
+Free:
+None
+EOV
+
+KEY: BOXF_PRECISE_SHOT_1
+Prerequisites:
+None
+
+This character has specialized in the use of blaster weapons. This character gains a +1 bonus to Damage with all blaster weapons and a -2 Deflection penalty is conferred against any enemy attempting to deflect the attack.
+
+Free:
+None
+EOV
+
+KEY: BOXF_PRECISE_SHOT_2
+Prerequisites:
+Combat Specialty - Blasters I
+Level 3
+
+This character has further specialized in the use of blaster weapons. This character gains an additional +1 bonus to Damage with all blaster weapons and an additional -2 Deflection penalty is conferred against any enemy attempting to deflect the attack.
+
+Free:
+None
+EOV
+
+KEY: BOXF_PRECISE_SHOT_3
+Prerequisites:
+Combat Specialty - Blasters II
+Level 7
+
+This character has further specialized in the use of blaster weapons. This character gains an additional +1 bonus to Damage with all blaster weapons and an additional -2 Deflection penalty is conferred against any enemy attempting to deflect the attack.
+
+Free:
+None
+EOV
+
+KEY: BOXF_PRECISE_SHOT_4
+Prerequisites:
+Combat Specialty - Blasters IV
+Level 11
+
+This character has further specialized in the use of blaster weapons. This character gains an additional +1 bonus to Damage with all blaster weapons and an additional -2 Deflection penalty is conferred against any enemy attempting to deflect the attack.
+
+Free:
+None
+EOV
+
+KEY: BOXF_PRECISE_SHOT_5
+Prerequisites:
+Combat Specialty - Blasters IV
+Level 15
+
+This character has mastered his or her specialization in the use of blaster weapons. This character gains an additional +1 bonus to Damage with all blaster weapons and an additional -2 Deflection penalty is conferred against any enemy attempting to deflect the attack.
+
+Free:
+None
+EOV
+
+KEY: BOXF_MELEE_FOCUS_1
+Prerequisites:
+None
+
+This character has specialized in the use of melee weapons. This character gains a +1 bonus to Attack with all melee weapons.
+
+Free:
+None
+EOV
+
+KEY: BOXF_MELEE_FOCUS_2
+Prerequisites:
+Combat Specialty - Melee Weapons I
+Level 3
+
+This character has further specialized in the use of melee weapons. This character gains an additional +2 bonus to Damage with all melee weapons.
+
+Free:
+None
+EOV
+
+KEY: BOXF_MELEE_FOCUS_3
+Prerequisites:
+Combat Specialty - Melee Weapons III
+Level 7
+
+This character has further specialized in the use of melee weapons. This character gains an additional +2 bonus to Damage with all melee weapons.
+
+Free:
+None
+EOV
+
+KEY: BOXF_MELEE_FOCUS_4
+Prerequisites:
+Combat Specialty - Melee Weapons III
+Level 11
+
+This character has further specialized in the use of melee weapons. This character gains an additional +2 bonus to Damage with all melee weapons.
+
+Free:
+None
+EOV
+
+KEY: BOXF_MELEE_FOCUS_5
+Prerequisites:
+Combat Specialty - Melee Weapons IV
+Level 15
+
+This character has mastered his or her specialization in the use of melee weapons. This character gains an additional +2 bonus to Damage with all melee weapons.
+
+Free:
+None
+EOV
+
+KEY: BOXF_LIGHTSABER_FOCUS_1
+Prerequisites:
+None
+
+This character has specialized in the use of lightsabers. This character gains a +1 bonus to Attack when wielding a lightsaber.
+
+Free:
+None
+EOV
+
+KEY: BOXF_LIGHTSABER_FOCUS_2
+Prerequisites:
+Combat Specialty - Lightsabers I
+Level 3
+
+This character has further specialized in the use of lightsabers. This character gains an additional +1 bonus to Attack when weilding a ligthsaber.
+
+Free:
+None
+EOV
+
+KEY: BOXF_LIGHTSABER_FOCUS_3
+Prerequisites:
+Combat Specialty - Lightsabers II
+Level 7
+
+This character has further specialized in the use of lightsabers. This character gains an additional +1 bonus to Attack when weilding a ligthsaber.
+
+Free:
+None
+EOV
+
+KEY: BOXF_LIGHTSABER_FOCUS_4
+Prerequisites:
+Combat Specialty - Lightsabers III
+Level 11
+
+This character has further specialized in the use of lightsabers. This character gains a +2 bonus to Damage when weilding a ligthsaber.
+
+Free:
+None
+EOV
+
+KEY: BOXF_LIGHTSABER_FOCUS_5
+Prerequisites:
+Combat Specialty - Lightsabers IV
+Level 15
+
+This character has mastered his or her specialization in the use of lightsabers. This character gains an additional +1 bonus to Attack when weilding a ligthsaber.
+
+Free:
+None
+EOV
+
+KEY: BOXF_UNARMED_1
+Prerequisites:
+None
+
+This character has specialized in unarmed combat. This character gains a +1d4 bonus to Damage when unarmed.
+
+Free:
+Exile - Level 1
+EOV
+
+KEY: BOXF_UNARMED_2
+Prerequisites:
+Combat Specialty - Unarmed I
+Level 3
+
+This character has further specialized in unarmed combat. This character gains an additional +1d4 bonus to Damage when unarmed.
+
+Free:
+None
+EOV
+
+KEY: BOXF_UNARMED_3
+Prerequisites:
+Combat Specialty - Unarmed II
+Level 7
+
+This character has further specialized in unarmed combat. This character gains an additional +1d4 bonus to Damage when unarmed.
+
+Free:
+None
+EOV
+
+KEY: BOXF_UNARMED_4
+Prerequisites:
+Combat Specialty - Unarmed III
+Level 11
+
+This character has further specialized in unarmed combat. This character gains an additional +1d4 bonus to Damage when unarmed.
+
+Free:
+None
+EOV
+
+KEY: BOXF_UNARMED_5
+Prerequisites:
+Combat Specialty - Unarmed IV
+Level 15
+
+This character has mastered his or her specialization in unarmed combat. This character gains an additional +1d4 bonus to Damage when unarmed.
+
+Free:
+None
+EOV
+
+KEY: BOXF_FORCE_1
+Prerequisites:
+Jedi
+
+This character has specialized in using the force. This character gains a +1 bonus to rolls determining whether a force power succeeds.
+
+Free:
+None
+EOV
+
+KEY: BOXF_FORCE_2
+Prerequisites:
+Combat Specialty - Force I
+Level 7
+
+This character has further specialized in using the force. This character gains an additional +1 bonus to rolls determining whether a force power succeeds.
+
+Free:
+None
+EOV
+
+KEY: BOXF_FORCE_3
+Prerequisites:
+Combat Specialty - Force II
+Level 15
+
+This character has mastered his or her specialization in using the force. This character gains an additional +1 bonus to rolls determining whether a force power succeeds.
+
+Free:
+None
+EOV
+
+KEY: BOXF_TWO_WEAPON_1
+Prerequisites:
+None
+
+This character is decently proficienct in wielding two weapons at the same time. Normally a character wielding two weapons suffers a -6 penalty to Attack with the weapon in the main hand and a -10 penalty to Attack with the weapon in the off-hand. This character reduces these penalties to -6 Attack on each hand. Balanced weapons used on the offhand can further reduce main-hand weapon penalties to -4 Attack. Weapons that require the use of both hands are treated the same as two separate weapons
+
+Free:
+None
+EOV
+
+KEY: BOXF_TWO_WEAPON_2
+Prerequisites:
+Combat Ability - Two-Weapon Proficiency
+Level 3
+
+This character is more adept in wielding two weapons at the same time. The penalties for wielding two weapons are further reduced to a -4 Attack penalty for each weapon. Balanced weapons used on the offhand can further reduce main-hand weapon penalties to -2 Attack.
+
+Free:
+None
+EOV
+
+KEY: BOXF_TWO_WEAPON_3
+Prerequisites:
+Combat Ability - Two-Weapon Adeptness
+Level 7
+
+This character has mastered wielding two weapons at the same time. The penalties for wielding two weapons are further reduced to a -2 Attack penalty for each weapon. Balanced weapons used on the offhand eliminate penalties for the main hand entirely.
+
+Free:
+None
+EOV
+
+KEY: BOXF_CONDITIONING_1
+Prerequisites:
+None
+
+This character has undergone conditining to improve resistance to physical and mental attack. This character gains a +1 bonus to all saving throws. 
+
+Free:
+None
+EOV
+
+KEY: BOXF_CONDITIONING_2
+Prerequisites:
+Combat Ability - Conditioning
+Level 3
+
+This character has improved his or her conditining to physical or mental attack. This character now gains a +2 bonus to all saving throws instead of +1.
+
+Free:
+None
+EOV
+
+KEY: BOXF_CONDITIONING_3
+Prerequisites:
+Combat Ability - Improved Conditioning
+Level 7
+
+This character has perfected his or her conditining to physical or mental attack. This character now gains a +3 bonus to all saving throws instead of +2.
+
+Free:
+None
+EOV
+
+KEY: BOXF_SNEAK_ATTACK_1
+Prerequisites:
+None
+
+This character is able to do more damage against surprised or incapacitated targets. An additional 1d6 damage is done against all targets unable to respond to attacks. This damage is applied to attacks made from behind a target, when attacking an target from stealth mode, or when attacking a stunned or otherwise immobilized. The extra damage is not multiplied in the case of a critical hit.
+
+Free:
+Exile (Jedi Consular) - Level 1
+EOV
+
+KEY: BOXF_SNEAK_ATTACK_2
+Prerequisites:
+Combat Ability - Sneak Attack I
+Level 3
+
+This character has improved his or her ability to do more damage against surprised or incapacitated targets. The bonus damage done to targets who cannot respond is increased by an additional 1d6.
+
+Free:
+None
+EOV
+
+KEY: BOXF_SNEAK_ATTACK_3
+Prerequisites:
+Combat Ability - Sneak Attack II
+Level 7
+
+This character has further improved his or her ability to do more damage against surprised or incapacitated targets. The bonus damage done to targets who cannot respond is increased by an additional 1d6.
+
+Free:
+None
+EOV
+
+KEY: BOXF_SNEAK_ATTACK_4
+Prerequisites:
+Combat Ability - Sneak Attack III
+Level 11
+
+This character has further improved his or her ability to do more damage against surprised or incapacitated targets. The bonus damage done to targets who cannot respond is increased by an additional 1d6.
+
+Free:
+None
+EOV
+
+KEY: BOXF_SNEAK_ATTACK_5
+Prerequisites:
+Combat Ability - Sneak Attack IV
+Level 15
+
+This character has mastered his or her ability to do more damage against surprised or incapacitated targets. The bonus damage done to targets who cannot respond is increased by an additional 1d6.
+
+Free:
+None
+EOV
+
+KEY: BOXF_DUAL_STRIKE_1
+Prerequisites:
+None
+
+This character is able to use teamwork to defeat an enemy. When attacking the same enemy as an ally, this character gains a +2 bonus to Attack.
+
+Free:
+None
+EOV
+
+KEY: BOXF_DUAL_STRIKE_2
+Prerequisites:
+Combat Ability - Dual Strike
+Level 3
+
+This character has improved his or her ability to use teamwork to defeat an enemy. The bonus from attacking the same enemy as an ally is improved from +2 Attack to +4 Attack.
+
+Free:
+None
+EOV
+
+KEY: BOXF_DUAL_STRIKE_3
+Prerequisites:
+Combat Ability - Improved Dual Strike
+Level 7
+
+This character has mastered his or her ability to use teamwork to defeat an enemy. The bonus from attacking the same enemy as an ally is improved from +4 Attack to +6 Attack.
+
+Free:
+None
+EOV
+
+KEY: BOXF_TOUGHNESS_1
+Prerequisites:
+None
+
+This character is able to better endure physical pain . This character gains a +5% Resistance bonus to all Damage.
+
+Free:
+None
+EOV
+
+KEY: BOXF_TOUGHNESS_2
+Prerequisites:
+Combat Ability - Toughness I
+Level 3
+
+This character has improved his or her ability to better endure physical pain . This character's bonus Resistance to Damage has increased from +5% to +10%.
+
+Free:
+None
+EOV
+
+KEY: BOXF_TOUGHNESS_3
+Prerequisites:
+Combat Ability - Toughness II
+Level 7
+
+This character has mastered his or her ability to better endure physical pain . This character's bonus Resistance to Damage has increased from +10% to +15%.
+
+Free:
+None
+EOV
+
+KEY: BOXF_MELEE_FINESSE
+Prerequisites:
+Non-Droid
+
+This character has mastered the use of dexterity and grace in combat with Melee Weapons. This character can add his or her Dexterity modifier to the Attack bonus with Melee Weapons in place of his or her Strength modifier.
+
+Free:
+None
+EOV
+
+KEY: BOXF_LIGHTSABER_FINESSE
+Prerequisites:
+Jedi
+
+This character has mastered the use of dexterity and grace in combat with lightsabers. This character can add his or her Dexterity modifier to the Attack bonus with lightsabers in place of his or her Strength modifier.
+
+Free:
+None
+EOV
+
+KEY: BOXF_DUELING
+Prerequisites:
+None
+
+This character is able to wield one-handed weapons with more efficiency. When weilding a single one-handed weapon, this character gains a +1 bonus to Attack and a +1 bonus to Defense. This applies to melee and ranged weapons as well as unarmed attacks.
+
+Free:
+None
+EOV
+
+KEY: BOXF_CLOSE_COMBAT
+Prerequisites:
+None
+
+This character is able to fight effectively using a ranged weapon in close combat. When fighting an enemy at close range with a ranged weapon, this character gets a +1 bonus to Attack. In addition, the enemy's bonus when attacking at close range is reduced from +6 Attack to +4 Attack.
+
+Free:
+None
+EOV
+
+KEY: BOXF_POWER_ATTACK_1
+Prerequisites:
+Non-Droid
+
+This character is capable of using the power attack technique. When used, all attacks this round will recieve a +3 bonus to Damage at the cost of a -3 penalty to Attack. Critical hits will also do more damage, increasing the multiplier by 1. Lastly, on a critical hit opponent will be knocked down unless he makes a Fortitude save against DC = (YourLevel) + 2x(YourStrengthModifier).
+
+Free:
+Exile (Jedi Guardian) - Level 1
+Handmaiden - Level 1
+EOV
+
+KEY: BOXF_POWER_ATTACK_2
+Prerequisites:
+Combat Technique - Power Attack
+Level 7
+
+This character has improved the power attack technique. Now the technique grants +7 bonus to Damage instead of +3. 
+
+Free:
+None
+EOV
+
+KEY: BOXF_POWER_ATTACK_3
+Prerequisites:
+Combat Technique - Improved Power Attack
+Level 15
+
+This character has mastered the power attack technique. Now the technique grants +12 bonus to Damage instead of +7. 
+
+Free:
+None
+EOV
+
+KEY: BOX_FLURRY_1
+Prerequisites:
+Non-Droid
+
+This character is capable of using the flurry attack technique. When used, this character will attack one extra time with the primary weapon at the cost of -4 Attack and -2 Defense for the round.
+
+Free:
+Exile (Jedi Guardian) - Level 1
+Handmaiden - Level 1
+EOV
+
+KEY: BOX_FLURRY_2
+Prerequisites:
+Combat Technique - Flurry
+Level 7
+
+This character has improved the flurry attack technique. Now this character only suffers a -2 penalty to Attack and a -1 penalty to Defense when using the technique.
+
+Free:
+None
+EOV
+
+KEY: BOX_FLURRY_3
+Prerequisites:
+Combat Technique - Improved Flurry
+Level 15
+
+This character has mastered the flurry attack technique. Now this character only suffers no penalties when using the technique.
+
+Free:
+None
+EOV
+
+KEY: BOXF_CRITICAL_STRIKE_1
+Prerequisites:
+Non-Droid
+
+This character is capable of using the critical strike technique. When used, the base critical hit rate of the weapon held is doubled at the cost -5 Defense for the round. On a successful hit, this technique will also stun the enemy for 6 seconds unless he makes a Fortitude save against DC = (YourLevel) + (YourStrengthModifier).
+
+Free:
+Exile (Jedi Guardian) - Level 1
+Exile (Jedi Consular) - Level 1
+Handmaiden - Level 1
+EOV
+
+KEY: BOXF_CRITICAL_STRIKE_2
+Prerequisites:
+Combat Technique - Critical Strike
+Level 7
+
+This character has improved the critical strike technique. Now the technique triples the base critical hit rate of the weapon held instead of doubling it.
+
+Free:
+None
+EOV
+
+KEY: BOXF_CRITICAL_STRIKE_3
+Prerequisites:
+Combat Technique - Improved Critical Strike
+Level 15
+
+This character has mastered the critical strike technique. Now the technique quadruples the base critical hit rate of the weapon held instead of tripling it.
+
+Free:
+None
+EOV
+
+KEY: BOXF_POWER_BLAST_1
+Prerequisites:
+None
+
+This character is capable of using the power blast technique. When used, all attacks this round will recieve a +3 bonus to Damage at the cost of a -3 penalty to Attack. Critical hits will also do more damage, increasing the multiplier by 1. Lastly, on a critical hit opponent will be knocked down unless he makes a Fortitude save against DC = (YourLevel) + 2x(YourDexterityModifier).
+
+Free:
+None
+EOV
+
+KEY: BOXF_POWER_BLAST_2
+Prerequisites:
+Combat Technique - Power Blast
+Level 7
+
+This character has improved the power blast technique. Now the technique grants +7 bonus to Damage instead of +3. 
+
+Free:
+None
+EOV
+
+KEY: BOXF_POWER_BLAST_3
+Prerequisites:
+Combat Technique - Improved Power Blast
+Level 15
+
+This character has mastered the power blast technique. Now the technique grants +12 bonus to Damage instead of +7. 
+
+Free:
+None
+EOV
+
+KEY: BOXF_RAPID_SHOT_1
+Prerequisites:
+None
+
+This character is capable of using the rapid shot technique. When used, this character will attack one extra time with the primary weapon at the cost of -4 Attack and -2 Defense for the round.
+
+Free:
+None
+EOV
+
+KEY: BOXF_RAPID_SHOT_2
+Prerequisites:
+Combat Technique - Rapid Shot
+Level 7
+
+This character has improved the rapid shot technique. Now this character only suffers a -2 penalty to Attack and a -1 penalty to Defense when using the technique.
+
+Free:
+None
+EOV
+
+KEY: BOXF_RAPID_SHOT_3
+Prerequisites:
+Combat Technique - Improved Rapid Shot
+Level 7
+
+This character has mastered the rapid shot technique. Now this character only suffers no penalties when using the technique.
+
+Free:
+None
+EOV
+
+KEY: BOXF_SNIPER_SHOT_1
+Prerequisites:
+None
+
+This character is capable of using the sniper shot technique. When used, the base critical hit rate of the weapon held is doubled at the cost -5 Defense for the round. On a successful hit, this technique will also stun the enemy for 6 seconds unless he makes a Fortitude save against DC = (YourLevel) + (YourIntelligenceModifier).
+
+Free:
+None
+EOV
+
+KEY: BOXF_SNIPER_SHOT_2
+Prerequisites:
+Combat Technique - Sniper Shot
+Level 7
+
+This character has improved the sniper shot technique. Now the technique triples the base critical hit rate of the weapon held instead of doubling it.
+
+Free:
+None
+EOV
+
+KEY: BOXF_SNIPER_SHOT_3
+Prerequisites:
+Combat Technique - Improved Sniper Shot
+Level 15
+
+This character has mastered the sniper shot technique. Now the technique quadruples the base critical hit rate of the weapon held instead of tripling it.
+
+Free:
+None
+EOV
+
+KEY: BOXF_FORCE_SENSITIVE
+Jedi Ability - Force Sensitive
+EOV
+
+KEY: BOXF_DEFLECT_1
+Jedi Ability - Blaster Deflection
+EOV
+
+KEY: BOXF_DEFLECT_2
+Jedi Ability - Improved Blaster Deflection
+EOV
+
+KEY: BOXF_DEFLECT_3
+Jedi Ability - Master Blaster Deflection
+EOVKEY: BOXF_DEFLECT_MASTERYPrerequisites:Jedi Weapon MasterStuffFree:Jedi Weapon Master - Level 1EOV
+
+KEY: BOXF_FORCE_JUMP_1
+Prerequisites:Jedi Weapon MasterStuffFree:Jedi Weapon Master - Level 1
+EOV
+
+KEY: BOXF_FORCE_JUMP_2
+Prerequisites:Jedi Ability - Force JumpPrestige Level 7StuffFree:Jedi Weapon Master - Level 7
+EOV
+
+KEY: BOXF_FORCE_JUMP_3
+Prerequisites:Jedi Ability - Improved Force JumpPrestige Level 15StuffFree:Jedi Weapon Master - Level 15
+EOVKEY: BOXF_FORCE_REGENERATEPrerequisites:Sith MarauderStuffFree:Sith Marauder - Level 1EOV
+KEY: BOXF_IGNORE_PAIN_1Prerequisites:Sith MarauderStuffFree:Sith Marauder - Level 1EOVKEY: BOXF_IGNORE_PAIN_2Prerequisites:Sith Ability - Ignore Pain IPrestige Level 7StuffFree:Sith Marauder - Level 7EOV
+KEY: BOXF_IGNORE_PAIN_3Prerequisites:Sith Ability - Ignore Pain IIIPrestige Level 15StuffFree:Sith Marauder - Level 15EOVKEY: BOXF_FORCE_MASTERYPrerequisites:Jedi MasterStuffFree:Jedi Master - Level 1EOVKEY: BOXF_DARK_SIDE_MASTERYPrerequisites:Sith LordStuffFree:Sith Lord - Level 1EOVKEY: BOXF_SNEAK_ATTACK_E1Prerequisites:Sith AssassinStuffFree:Sith Assassin - Level 1EOVKEY: BOXF_SNEAK_ATTACK_E2Prerequisites:Sith Ability - Sneak Attack IPrestige Level 7StuffFree:Sith Assassin - Level 7EOVKEY: BOXF_SNEAK_ATTACK_E3Prerequisites:Sith Ability - Sneak Attack IIPrestige Level 15StuffFree:Sith Assassin - Level 15EOVKEY: BOXF_FORCE_IMMUNITY_1
+Prerequisites:JediStuffFree:Exile (Jedi Consular) - Level 1EOV
+
+KEY: BOXF_FORCE_IMMUNITY_2
+Prerequisites:Jedi Ability - Fear ImmunityLevel 7StuffFree:NoneEOV
+
+KEY: BOXF_FORCE_IMMUNITY_3
+Prerequisites:Jedi Ability - Stun ImmunityLevel 15StuffFree:NoneEOV
+
+KEY: BOXF_FORCE_STEALTH
+Jedi Ability - Force Concealment
+EOV
+
+KEY: BOXF_CLASS_AWARENESS
+Prerequisites:NoneStuffFree:All - Level 1EOV
+
+KEY: BOXF_CLASS_SCIENCE
+Prerequisites:NoneStuffFree:Exile (Jedi Sentinel) - Level 1Tech Specialist - Level 1EOV
+
+KEY: BOXF_CLASS_DEMOLITIONS
+Prerequisites:NoneStuffFree:Exile (Jedi Guardian) - Level 1Soldier - Level 1Scout - Level 1Combat Droid - Level 1EOV
+
+KEY: BOXF_CLASS_REPAIR
+Prerequisites:NoneStuffFree:Exile (Jedi Consular) - Level 1Scout - Level 1Tech Specialist - Level 1Expert Droid - Level 1EOV
+
+KEY: BOXF_CLASS_SECURITY
+Prerequisites:NoneStuffFree:Exile (Jedi Sentinel) - Level 1Scoundrel - Level 1Tech Specialist - Level 1Expert Droid - Level 1EOV
+
+KEY: BOXF_CLASS_STEALTH
+Prerequisites:NoneStuffFree:Exile (Jedi Guardian) - Level 1EOV
+
+KEY: BOXF_CLASS_MEDICINE
+Prerequisites:NoneStuffFree:Exile (Jedi Sentinel) - Level 1Scoundrel - Level 1EOV
+
+KEY: BOXF_CLASS_PERSUADE
+Prerequisites:Jedi Master OR Sith LordStuffFree:Jedi Master - Level 1Sith Lord - Level 1EOV
+KEY: BOXF_COMPLEX_UNARMED_ANIMATIONSComplex Unarmed Animations.EOV
+KEY: BOXF_WAR_VETERAN
+StuffEOV
+
+KEY: BOXF_EMPATHY_1
+StuffEOV
+
+KEY: BOXF_EMPATHY_2
+StuffEOV
+
+KEY: BOXF_EMPATHY_3
+StuffEOV
+KEY: BOXF_FORCE_CHAINStuffEOV
+KEY: BOXF_KINETIC_COMBAT
+Stuff
+EOV
+
+KEY: BOXF_SPIRIT
+StuffEOV
+
+KEY: BOXF_SHIELD_BREAKER
+StuffEOV
+
+KEY: BOX_REPULSER_STRIKE
+StuffEOV
+
+KEY: BOXF_ECHANI_STRIKE
+StuffEOV
+
+KEY: BOXF_HEALER
+StuffEOV
+
+KEY: BOXF_MANDALORIAN_COURAGE
+StuffEOV
+
+KEY: BOXF_IMPLANT_SWITCHING
+StuffEOV
+
+KEY: BOXF_ASSASSIN_PROTOCOL
+StuffEOV
+
+KEY: BOXF_POINT_GUARD
+StuffEOV
+
+KEY: BOXF_WOOKIEE_TOUGHNESS
+StuffEOV
+
+KEY: BOXF_WOOKIE_RAGE
+StuffEOV
+
+KEY: BOXF_PERSONAL_CLOAKING_SHIELD
+StuffEOV
+
+KEY: BOXF_MINE_IMMUNITY
+StuffEOV
+
+KEY: BOXF_DROID_SCRAMBLER
+StuffEOV
+
+KEY: BOXFP_FORCE_SPEED
+Universal Power
+20 Force Points
+Cast DC 6
+(Roll Force + d10 against this number)
+
+This power allows the Jedi to run swiftly. The Jedi recives a boost to movement speed for the next 18 + 3(Force) seconds.
+EOV
+
+KEY: BOXFP_FORCE_SWEEP
+Prerequisites:
+Level 5
+
+Universal Power
+15 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinetic power to sweep the opponent off balance. This power deals (Force)d4 Bludgeoning damage to an opponent and causes knockdown for 3 seconds. A successful Reflex or Will saving throw against 10 + Force reduces the damage to 1/3 and prevents the knockdown.
+EOV
+
+KEY: BOXFP_FORCE_QUAKE
+Prerequisites:
+Force Sweep
+Level 20
+
+Universal Power
+45 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinetic power cause a quake in the ground, sending all nearby opponents off balance. This power deals (Force)d4 Bludgeoning damage to all opponents within 12 meters of the user and causes knockdown for 3 seconds. A successful Reflex or Will saving throw against 10 + Force reduces the damage to 1/3 and prevents the knockdown.
+EOV
+
+KEY: BOXFP_FORCE_IONIZE
+Prerequisites:
+Level 5
+
+Universal Power
+15 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi manipulates the air to send an ionic surge through an enemy droid. This power deals (Force)d4 Ion damage to a droid opponent and causes stun for 6 + 0.25(Force) seconds. A successful Fortitude or Will saving throw (Ion type) against 10 + Force reduces the damage to 1/3 and prevents the stun.
+EOV
+
+KEY: BOXFP_ION_STORM
+Prerequisites:
+Force Ionize
+Level 20
+
+Universal Power
+45 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi manipulates the air to send an ionic surge through an enemy droid. This power deals (Force)d4 Ion damage to all droid enemies within 6 meters of the target and causes stun for 6 + 0.25(Force) seconds. A successful Fortitude or Will saving throw (Ion type) against 10 + Force reduces the damage to 1/3 and prevents the stun.
+EOV
+
+KEY: BOXFP_THROW_SABER
+Prerequisites:
+Level 10
+
+Universal Power
+20 Force Points
+Cast DC 12
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinesis to throw his or her lightsaber at an opponent. This power deals (Force)d6 damage to an opponent. A successful Reflex saving throw against 10 + Force reduces the damage to 1/3.
+EOV
+
+KEY: BOXFP_FORCE_LEVITATE
+Prerequisites:
+Level 10
+
+Universal Power
+20 Force Points
+Cast DC 12
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinesis to levitate an opponent. This power leaves an opponent helplessly swirling in the air for 9 + 0.25(Force) seconds. A successful Reflex or Will saving throw against 10 + Force will stop this power.
+EOV
+
+KEY: BOXFP_MASS_LEVITATE
+Prerequisites:
+Force Levitate
+Level 22
+
+Universal Power
+60 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinesis to levitate an opponent. This power leaves all opponents wihtin 12 meters of the user helplessly swirling in the air for 9 + 0.25(Force) seconds. A successful Reflex or Will saving throw against 10 + Force will stop this power.
+EOV
+
+KEY: BOXFP_FORCE_PUSH
+Prerequisites:
+Level 15
+
+Universal Power
+25 Force Points
+Cast DC 15
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinesis to push an opponent away. This power deals (Force)d6 Bludgeoning damage and pushes an opponent away from the user for 0.5 + 0.1(Force) seconds. A successful Reflex or Will saving throw against 10 + Force reduces the damage to 1/3 and prevents the push effect.
+EOV
+
+KEY: BOXFP_FORCE_WAVE
+Prerequisites:
+Force Push
+Level 25
+
+Universal Power
+75 Force Points
+Cast DC 24
+(Roll Force + d10 against this number)
+
+The Jedi uses telekinesis to push an opponent away. This power deals (Force)d6 Bludgeoning damage and pushes all opponents within 12 meters of the user away from the user for 0.5 + 0.1(Force) seconds. A successful Reflex or Will saving throw against 10 + Force reduces the damage to 1/3 and prevents the push effect.
+EOV
+
+KEY: BOXFP_FORCE_BLIND
+Prerequisites:
+Level 15
+
+Universal Power
+25 Force Points
+Cast DC 15
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to temporarily blind an opponent. This power reduces gives a -4 penalty to Defense and a 25% miss chance on all attacks to a human opponent for 12 + 0.5(Force) seconds. A successful Will saving throw (Mind-Affecting type) prevents the miss chance and reduces the Defense penalty to -2 for 6 seconds.
+EOV
+
+KEY: BOXFP_FORCE_AGILITY
+Prerequisites:
+Level 20
+
+Universal Power
+50 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+This power allows the Jedi to move more quickly in combat. The Jedi recives one extra attack for the next 18 + 3(Force) seconds.
+EOV
+
+KEY: BOXFP_BATTLE_MEDITATION
+Prerequisites:
+Level 20
+
+Universal Power
+60 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi uses battle meditation to strengthen the fighting ability of him or herself and allies. All allies recieve a +3 bonus to Attack and Defense for the next 18 + 3(Force) seconds.
+EOV
+
+KEY: BOXFP_MASTER_MEDITATION
+Prerequisites:
+Battle Meditation
+Level 28
+
+Universal Power
+100 Force Points
+Cast DC 27
+(Roll Force + d10 against this number)
+
+The Jedi uses battle meditation to strengthen the fighting ability of him or herself and allies. All allies recieve a +3 bonus to Attack and Defense for the next 18 + 3(Force) seconds.
+EOV
+
+KEY: BOXFP_FORCE_CONFUSION
+Prerequisites:
+Level 22
+
+Universal Power
+30 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to temporarily confuse an opponent. This power causes an opponent to confuse enemies and allies and fight for the player for 12 + Force seconds. A successful Will saving throw (Mind-Affecting type) stops this power.
+EOV
+
+KEY: BOXFP_MASS_CONFUSION
+Prerequisites:
+Force Confusion
+Level 30
+
+Universal Power
+90 Force Points
+Cast DC 30
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to temporarily confuse an opponent. This power causes all opponents within 15 meters of the user to attack each other for 12 + Force seconds. A successful Will saving throw (Mind-Affecting type) stops this power.
+EOV
+
+KEY: BOXFP_FORCE_VALOR
+Prerequisites:
+None
+
+Light Side Power
+40 Force Points
+Cast DC 6
+(Roll Force + d10 against this number)
+
+The Jedi calls upon the light side of the force to perform a heroic act. The user recieves a +3 bonus to Attack and Defense for 9 + Force seconds.
+EOV
+
+KEY: BOXFP_FORCE_SLEEP
+Prerequisites:
+Level 5
+
+Light Side Power
+15 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to put an opponent in a drowsy state. This power causes a human opponent to sleep for 6 + 0.25(Force) seconds. A successful Will saving throw (Mind-Affecting type) prevents the sleep effect and instead confers a Dexterity penalty of -2 for 3 seconds.
+EOV
+
+KEY: BOXFP_SLEEP_WAVE
+Prerequisites:
+Force Sleep
+Level 20
+
+Light Side Power
+45 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to put an opponent in a drowsy state. This power causes all human opponents within 6 meters of the target to sleep for 6 + 0.25(Force) seconds. A successful Will saving throw (Mind-Affecting type) prevents the sleep effect and instead confers a Dexterity penalty of -2 for 3 seconds.
+EOV
+
+KEY: BOXFP_FORCE_BODY
+Prerequisites:
+Level 10
+
+Light Side Power
+40 Force Points
+Cast DC 12
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to heal his or her body. The user regenerates 2 points every 3 seconds for the next 18 + 3(Force) seconds.
+EOV
+
+KEY: BOXFP_FORCE_ENLIGHTENMENT
+Prerequisites:
+Force Body
+Level 25
+
+Light Side Power
+70 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to improve all dimensions of his or her physical performance. This power combines the effects of Force Speed, Force Body, and Force Agility for each of those powers for which the Jedi has already acquired. The effect lasts for 18 + 3(Force) seconds.
+EOV
+
+KEY: BOXFP_FORCE_SUPPRESS
+Prerequisites:
+Level 15
+
+Light Side Power
+20 Force Points
+Cast DC 15
+(Roll Force + d10 against this number)
+
+The Jedi surpresses the use of the force in an enemy. This power deals (Force)d6 points of damage to a Jedi opponent's force points and grants a -6 penalty to the opponent's Wisdom and Charisma for 18 + 2(Force) seconds. A successful Will saving throw (Light Side type) prevents the force point damage and reduces the attribute penalties to -4 for 9 seconds.
+EOV
+
+KEY: BOXFP_FORCE_PARALYZE
+Prerequisites:
+Level 20
+
+Light Side Power
+25 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi uses the temporarily paralyze an opponent. This power causes a human opponent to be paralyzed for 12 + 0.5(Force) seconds. A successful Will saving throw (Mind-Affecting type) prevents the paralysis effect and instead halves the opponent's movement speed for 6 seconds.
+EOV
+
+KEY: BOXFP_PARALYSIS_WAVE
+Prerequisites:
+Force Paralyze
+Level 28
+
+Light Side Power
+75 Force Points
+Cast DC 27
+(Roll Force + d10 against this number)
+
+The Jedi uses the temporarily paralyze an opponent. This power causes all human opponents within 6 meters of the target to be paralyzed for 12 + 0.5(Force) seconds. A successful Will saving throw (Mind-Affecting type) prevents the paralysis effect and instead halves the opponent's movement speed for 6 seconds.
+EOV
+
+KEY: BOXFP_FORCE_LIGHT
+Prerequisites:
+Level 22
+
+Light Side Power
+30 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi draws upon the light side of the force to.
+EOV
+
+KEY: BOXFP_WALL_OF_LIGHT
+Prerequisites:
+Force Light
+Level 30
+
+Light Side Power
+90 Force Points
+Cast DC 30
+(Roll Force + d10 against this number)
+
+The Jedi draws upon the light side of the force to.
+EOV
+
+KEY: BOXFP_FORCE_FURY
+Prerequisites:
+None
+
+Dark Side Power
+40 Force Points
+Cast DC 6
+(Roll Force + d10 against this number)
+
+The Jedi calls upon the dark side of the force using his or her hate and anger as strength. The user recieves a +3 bonus to Attack and Damage for 6 + Force seconds.
+EOV
+
+KEY: BOXFP_FORCE_AFFLICT
+Prerequisites:
+Level 5
+
+Dark Side Power
+15 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to attack the opponent's muscular system. This power causes a human opponent to slow down to half speed and grants a -4 penality to Strength and Dexterity for 18 + 2(Force) seconds. A successful Fortitude or Will saving throw (Poison type) prevents the attribute penalties and reduces the slow effect to half of its potency for 9 seconds.
+EOV
+
+KEY: BOXFP_FORCE_FEAR
+Prerequisites:
+Level 10
+
+Dark Side Power
+20 Force Points
+Cast DC 12
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to attack an opponent's psyche. This power causes a human opponent to cower in fear for 9 + 0.25(Force) seconds. A successful Will saving throw (Fear type) prevents the fear effect and instead confers an Attack penalty of -2 for 6 seconds.
+EOV
+
+KEY: BOXFP_FORCE_INSANITY
+Prerequisites:
+Force Fear
+Level 22
+
+Dark Side Power
+60 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to attack an opponent's psyche. This power causes all  human opponents within 6 meters of the target to cower in fear for 9 + 0.25(Force) seconds. A successful Will saving throw (Fear type) prevents the fear effect and instead confers an Attack penalty of -2 for 6 seconds.
+EOV
+
+KEY: BOXFP_FORCE_CHOKE
+Prerequisites:
+Level 15
+
+Dark Side Power
+25 Force Points
+Cast DC 15
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to choke an opponent. This power causes a human opponent to choke for 9 seconds and deals (Force)d6 points of Dark Side damage spread across the duration of the choking. A successful Fortitude or Will saving throw (Dark Side type) prevents the choking effect and reduces damage to 1/3.
+EOV
+
+KEY: BOXFP_FORCE_CRUSH
+Prerequisites:
+Jedi Consular, Jedi Master, or Sith Lord
+Force Choke
+Level 25
+
+Dark Side Power
+75 Force Points
+Cast DC 24
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to physically crush an opponent. This power deals (Force)d6 Dark Side damage to all human opponents within 12 meters of the user while crushing them for 3 seconds. A successful Fortitude or Will saving throw (Dark Side type) prevents the crushing effect and reduces damage to 1/3.
+EOV
+
+KEY: BOXFP_FORCE_DRAIN
+Prerequisites:
+Level 20
+
+Dark Side Power
+25 Force Points
+Cast DC 18
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to drain an opponent's life. This power deals (Force)d6 Dark Side damage to a human opponent. The user is healed half of all damage dealt. A successful Fortitude or Will saving throw (Dark Side type)  reduces the damage to 1/3.
+EOV
+
+KEY: BOXFP_DEATH_FIELD
+Prerequisites:
+Force Drain
+Level 28
+
+Dark Side Power
+75 Force Points
+Cast DC 27
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to drain an opponent's life. This power deals (Force)d6 Dark Side damage to all human opponents within 12 meters of the user. The user is healed half of all damage dealt. A successful Fortitude or Will saving throw (Dark Side type)  reduces the damage to 1/3.
+EOV
+
+KEY: BOXFP_FORCE_LIGHTNING
+Prerequisites:
+Level 22
+
+Dark Side Power
+30 Force Points
+Cast DC 21
+(Roll Force + d10 against this number)
+
+The Jedi uses the force shock an opponent with lightning. This power deals (Force)d12 Dark Side damage to an opponent and causes a stun effect for 3 seconds. A successful Fortitude or Will saving throw (Dark Side type)  reduces the damage to 1/3 and prevents the stun effect.
+EOV
+
+KEY: BOXFP_FORCE_STORM
+Prerequisites:
+Force Lightning
+Level 30
+
+Dark Side Power
+90 Force Points
+Cast DC 30
+(Roll Force + d10 against this number)
+
+The Jedi uses the force shock an opponent with lightning. This power deals (Force)d12 Dark Side damage to all opponents within 15 meters of the user and causes a stun effect for 3 seconds. A successful Fortitude or Will saving throw (Dark Side type)  reduces the damage to 1/3 and prevents the stun effect.
+EOV
+
+KEY: BOXFP_FORCE_SUGGEST
+Prerequisites:
+Exile
+
+Universal Power
+
+The Jedi is able to use the force to persuade others. The option may appear in conversations. Success is not guarunteed for extreme commands or if the target is strong willed.
+EOV
+
+KEY: BOXFP_FORCE_COMPEL
+Prerequisites:
+Force Suggest
+Level 15
+Exile
+
+Universal Power
+
+The Jedi is able to use the force to persuade others. The option may appear in conversations. Success is not guarunteed, but very few beings are able to resist the power of the user.
+EOV
+
+KEY: BOXFP_FORCE_CONCEAL
+Prerequisites:
+None
+
+Universal Power
+
+The Jedi is able to use the force to conceal his or her location before enemies. The user can enter stealth mode without use of a stealth field generator.
+EOV
+
+KEY: BOXFP_BEAST_TRICK
+Prerequisites:
+None
+
+Universal Power
+15 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to distract an enemy beast, making it easier to sneak by them. An enemy beast is unable to notice the user or his or her allies for 24 + 3(Force) seconds. The effect is broken if the user gets too close or interacts with the beast. A successful Will saving throw (Mind-Affecting type) against 10 + Force stops this power.
+EOV
+
+KEY: BOXFP_BREATH_CONTROL
+Prerequisites:
+None
+
+Universal Power
+30 Force Points
+Cast DC 9
+(Roll Force + d10 against this number)
+
+The Jedi uses the force to sustain his or her breath for an extended period of time. The user is immune to poison for 120 + 15(Force) seconds.
+
+EOV
+
+KEY: BOXFP_FORCE_SEVER
+Prerequisites:
+Exile
+
+Light Side Power
+50 Force Points
+
+The Jedi is able to cut off opponents from the force completely and permenantely. This power causes a Jedi opponent to be held in stasis for 3 seconds. Upon recovery, the opponent can no longer use the force and permenantely suffers a -4 penalty to all attributes. This power does not work on certain bosses.
+EOV
+
+KEY: BOXFP_FORCE_CONSUME
+Prerequisites:
+Exile
+
+Dark Side Power
+50 Force Points
+
+The Jedi is able to consume the force from an opponent. This power kills an opponent with less than (YourForce)d4 of his or her health remaining. The user is given a +2 bonus to all of his or her attributes for 9 seconds and gains a permenant +1 bonus to total force points. This power does not work on certain bosses.
+EOV
+
+
+KEY: ag_frag
+20 Piercing Damage
+Save DC 12 (Reflex, None) for 4 damage
+4 Meter Blast Radius
+
+Fragmentation grenades are very basic. They explode when thrown, showering the enemy in shrapnel. It's not elegant, but it's definitely effective.
+EOV
+
+
+KEY: ag_flash
+9 Second Stun
+Save DC 12 (Reflex, None) for no effect
+4 Meter Blast Radius
+
+
+EOV
+
+
+KEY: ag_ion
+12 Ion Damage
++12 Ion Damage vs Droids
+6 Second Stun vs Droids
+Save DC 12 (Fortitude OR Reflex, Ion) for 4 damage and no effect
+4 Meter Blast Radius
+
+These grenades emit an extremely strong burst of energy devastating to any droids caught in the effect.
+EOV
+
+
+KEY: ag_sonic
+16 Sonic Damage
+Int/Wis/Chr -4 for 30 Seconds
+Save DC 12 (Relfex OR Will, Sonic) for 4 damage and no effect
+4 Meter Blast Radius
+
+These grenades explode loudly, but the majority of their effect is delivered in disorienting frequencies the ear can barely perceive, even as it is damaged.
+EOV
+
+
+KEY: ag_cold
+24 Cold Damage
+6 Second Paralysis
+Save DC 14 (Foritutde OR Reflex, Cold) for 4 damage and no effect
+4 Meter Blast Radius
+
+A CryoBan grenade releases a supercooled liquid that freezes on contact, causing intense pain and damage to victims caught in the effect.
+EOV
+
+
+KEY: ag_plasma
+32 Heat Damage
+Save DC 14 (Reflex, Heat) for 4 damage
+4 Meter Blast Radius
+
+These grenades release a quick burst of an incendiary agent that ignites immediately, damaging all enemies within the area of effect.
+EOV
+
+
+KEY: ag_therm
+60 Energy Damage
+Knockdown
+DC 24 (Reflex, None) for 20 damage and no effect
+4 Meter Blast Radius
+
+This Republic device contains a baradium compound that produces a small fusion energy explosion of great force. Civilian possession of these items is outlawed almost everywhere.
+EOV
+
+
+KEY: fl_frag
+24 Piercing Damage
+Save DC 18 (Reflex, None) for 6 damage
+4 Meter Blast Radius
+
+Fragmentation grenades are very basic. They explode when thrown, showering the enemy in shrapnel. It's not elegant, but it's definitely effective.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: fl_flash
+9 Second Stun
+Save DC 18 (Reflex, None) for no effect
+4 Meter Blast Radius
+
+F
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: fl_poison
+Poison: 2 Damage every 3 Seconds for 60 Seconds
+Save DC 20 (Fortitude, Poison) for no effect
+4 Meter Radius
+
+F
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+
+KEY: al_nerve
+9 Second Choking
+Save DC 20 (Fortitude, Poison) for no effect
+4 Meter Radius
+
+F
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: al_ion
+20 Ion Damage
++20 Ion Damage vs Droids
+Save DC 18 (Fortitude OR Reflex, Ion) for 6 damage and no effect
+4 Meter Blast Radius
+
+These grenades emit an extremely strong burst of energy devastating to any droids caught in the effect.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: al_sonic
+24 Sonic Damage
+Int/Wis/Chr -6 for 30 Seconds
+Save DC 18 (Relfex OR Will, Sonic) for 6 damage and no effect
+4 Meter Blast Radius
+
+These grenades explode loudly, but the majority of their effect is delivered in disorienting frequencies the ear can barely perceive, even as it is damaged.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: al_sonic2
+32 Sonic Damage
+Int/Wis/Chr -6 for 30 Seconds
+Save DC 20 (Relfex OR Will, Sonic) for 8 damage and no effect
+4 Meter Blast Radius
+
+These grenades explode loudly, but the majority of their effect is delivered in disorienting frequencies the ear can barely perceive, even as it is damaged.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: al_cold
+24 Cold Damage
+9 Second Paralysis
+Save DC 20 (Foritutde OR Reflex, Cold) for 8 damage and no effect
+4 Meter Blast Radius
+
+A CryoBan grenade releases a supercooled liquid that freezes on contact, causing intense pain and damage to victims caught in the effect.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: al_adhes
+15 Second Entanglement
+Save DC 20 (Reflex, None) for no effect
+4 Meter Blast Radius
+
+A
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: fl_plasma
+36 Heat Damage
+Save DC 20 (Reflex, Heat) for 8 damage
+4 Meter Blast Radius
+
+These grenades release a quick burst of an incendiary agent that ignites immediately, damaging all enemies within the area of effect.
+
+These grenades are specially designed and can only be used with an appropriate grenade launcher.
+EOV
+
+
+KEY: ar_explo
+48 Piercing Damage
+Save DC 24 (Reflex, None) for 12 damage
+5 Meter Blast Radius
+
+EOV
+
+
+KEY: ar_fire
+36 Heat Damage
+Con -4 for 30 Seconds
+Save DC 24 (Fortitude OR Reflex, Heat) for 12 damage and no effect
+5 Meter Blast Radius
+
+EOV
+
+
+KEY: ar_carbon
+36 Cold Damage
+12 Second Paralyze
+Save DC 24 (Fortitude OR Reflex, Cold) for 12 damage and no effect
+5 Meter Blast Radius
+
+EOV
+
+
+KEY: ar_plasma
+60 Heat Damage
+Save DC 24 (Reflex, Heat) for 20 damage
+5 Meter Blast Radius
+
+EOV
+
+
+KEY: ar_radian
+20 Heat Damage
+Poison: Str/Con/Dex damage for 60 Seconds
+Save DC 24 (Fortitude, Poison) for no poison
+5 Meter Blast Radius
+
+EOV
+
+
+KEY: al_therm
+60 Energy Damage
+Knockdown
+DC 28 (Reflex, None) for 20 damage and no effect
+4 Meter Blast Radius
+
+This Republic device contains a baradium compound that produces a small fusion energy explosion of great force. Civilian possession of these items is outlawed almost everywhere.
+EOV
+
+
+KEY: ar_fusion
+80 Energy Damage
+Knockdown
+DC 32 (Reflex, None) for 40 damage and no effect
+4 Meter Blast Radius
+
+EOV
+
+
+KEY: ar_buster
+60 Piercing Damage
+Knockdown
+DC 24 (Reflex, None) for 12 damage and no effect
+Single Target
+
+EOV
+
+
+KEY: ar_buster2
+60 Piercing Damage
+Knockdown
+DC 28 (Reflex, None) for 20 damage and no effect
+Single Target
+
+EOVKEY: aa_mining12 Heat Damage3 Second HorrorDC 10 (Will, Fire) for 4 damage and no effectEOVKEY: aa_flame118 Heat Damage3 Second FearDC 12 (Will, Heat) for 6 damage and no effectEOVKEY: aa_flame230 Heat Damage3 Second FearDC 16 (Will, Heat) for 10 damage and no effectEOVKEY: aa_flame336 Heat DamageCon -4 for 18 SecondsDC 20 (Fortitude, Heat) for 12 damage and no effectEOVKEY: aa_carbon118 Cold Damage9 Second ParalyzeDC 16 (Fortitude, Cold) for 9 damage and no effectEOVKEY: aa_carbon224 Cold Damage12 Second ParalyzeDC 20 (Fortitude, Heat) for 12 damage and no effectEOVKEY: aa_ion16 Ion Damage+8 Ion Damage vs Droids6 Second Droid StunDC 16 (Fortitude, Ion) for 8 damage and no effectEOVKEY: aa_plasma24 Heat DamageDC 16 (Fortitude, Heat) for 8 damageEOVKEY: aa_antima36 Unstoppable DamageDC 18 (Reflex, None) for 12 damageEOVKEY: aa_psndtPoison: DC 12 (Fortitude, Poison) for no effectEOVKEY: aa_slpdt9 Second SleepDC 12 (Fortitude, Mind-Affecting) for no effectEOVKEY: aa_kybdtPoison: DC 16 (Fortitude, Poison) for no effectEOVKEY: aa_pardt9 Second ParalyzeDC 16 (Fortitude, Mind-Affecting) for no effectEOVKEY: aa_grappl6 Second ChokeSave DC 12 (Reflex, None) for no effectEOVKEY: we_ionst19 Second Stun vs DroidsSave DC 12 (Will, Ion) for no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_stun16 Second StunSave DC 12 (Will, Mind-Affecting) for no effectThis device fires a beam that is disruptive to the neural pathways of biological creatures.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock112 Electrical DamageSave DC 12 (Fortitude, Electrical) for 3 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionst26 Ion Damage9 Second Stun vs DroidsSave DC 14 (Will, Ion) for 3 damage and no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_stun29 Second StunSave DC 14 (Will, Mind-Affecting) for no effectThis device fires a beam that is disruptive to the neural pathways of biological creatures.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock218 Electrical DamageSave DC 14 (Fortitude, Electrical) for 6 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_sonic1Int/Wis/Chr -6 for 30 SecondsSave DC 14 (Sonic, Will) for no effect10 Meter ConeEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionbl124 Ion Damage3 Second Stun vs DroidsSave DC 16 (Fortitude, Ion) for 8 damage and no effectEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock324 Electrical Damage3 Second StunSave DC 16 (Fortitude, Electrical) for 8 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionst318 Ion Damage12 Second Stun vs DroidsSave DC 18 (Will, Ion) for 9 damage and no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_plasma136 Heat DamageSave DC 18 (Heat, Fortitude) for 9 damageEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_sonic218 Sonic DamageInt/Wis/Chr -6 for 30 SecondsSave DC 18 (Sonic, Will) for 6 damage and no effect10 Meter CylinderEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_plasma248 Heat DamageSave DC 20 (Heat, Fortitude) for 12 damageEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionbl236 Ion Damage6 Second Stun vs DroidsSave DC 20 (Fortitude, Ion) for 12 damage and no effectEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shield16 Sonic DamageRemoves Shield on hitEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: wh_shock24 Electrical Damage6 Second StunSave DC 16 (Fortitude, Electrical) for 12 damage and no effect12 Meter ConeEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_sonic12 Sonic DamageInt/Wis/Chr -6 for 30 SecondsSave DC 16 (Will, Sonic) for 6 damage and no effect15 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_hackConfusion for 20 Seconds vs DroidsSave DC 18 (Will, Mind-Affecting) for no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_seis18 Sonic Damage3 Second Knockdown with 12 Bludgeoning DamageSave DC 18 (Reflex, None) for 6 damage and no effect20 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_para16 Electrical Damage15 Second StasisSave DC 18 (Will, Electrical) for 8 damage and no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_storm36 Electrical Damage6 Second StunSave DC 20 (Fortitude, Electrical) for 12 damage and no effect12 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_plasma48 Heat DamageSave DC 20 (Reflex, Heat) for 12 damage4 Meter RadiusEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_proj36 Bludgeoning Damage3 Second PushSave DC 20 (Reflex, None) for 12 damage and no effect12 Meter SpellconeEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_deathDeathSave DC 24 (Will, Mind-Affecting) for no effectStrong Enemies are immuneEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_dominaConfusion for 30 Seconds vs DroidsSave DC 24 (Will, Mind-Affecting) for no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_gravit48 Bludgeoning Damage12 Second Whirlwind and CrushSave DC 24 (Reflex, None) for no effect12 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_selfd4x(UserLevel) Energy DamageKnockdownSave DC 32 (Reflex, None) for 1x(UserLevel) damage12 Meter SphereFaint on UseEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: hs_mining20 Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_energy40 Energy Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_enviro40 Ion, Heat, Electrical, Cold Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_sith60 Energy, Electrical Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_echani60 Energy, Ion, Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_mand30 Slashing, Piercing, Bludgeoning Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_zabrak60 Energy, Ion, Elecrtical, Sonic Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_energy40 Energy Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_enviro40 Ion, Heat, Electrical, Cold Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_advanc60 Energy, Electrical Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_radian60 Energy, Ion, Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_univer50 Energy, Ion, Heat, Elecrtical, Cold, Sonic Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_poisonPoison Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_fearFear Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_sneakSneak Attack Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_stradrStrength +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_dexadrDexterity +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_conadrConstitution +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_strenStrength +4Fortitude +4Reflext +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_toughConstitution +410% Damage Immunity vs Slashing10% Damage Immunity vs Piercing10% Damage Immunity vs Bludgeoning30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_concDexterity +4Will +4Saves vs Fear +4Saves vs Mind-Affecting +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_battleStrength +4Damage +2Saves +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_endurConstitution +4Regenerate 4 Damage every 3 SecondsPoison ImmunityParalysis Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_agilDexterity +4Number of Attacks +130 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: wl_miningThis fuel burner, normally used to burn off gases released in the Peragian mining process, can also be used as a makeshift flamethrower.EOVKEY: wl_flameThis device actually shoots wide streams of liquid fire. There are few practical applications requiring such devices but they are sought after by military powers for their devastating effect on morale.This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_carbonTypically used for long-term storage of perishable goods, these tools can be turned on human targets with reasonable certainty of the outcome.This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_grapplThis cable can be used with a grappling hook to harpoon or lasso an opponent.EOVKEY: wl_dartThis weapon shoots various types of darts which each contain a differnt type of chemical payload for debilitating enemies.EOVKEY: wl_energyThis weapon fires blasts of energy. This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_grenThis standard grenade launcher uses frag grenades for dealing damage and flash grenades for crowd control on large groups.EOVKEY: wl_gasThis grenade launcher works with grenades that release gas. The poison grenade deals damage while the nerve grenade attempts to choke enemies. Because the grenades use gas, opponents must save using their Fortitude instead of Reflex and neither grenade is effective against droids.EOVKEY: wl_sonicThis launcher is for deploying sonic charges. Sonic grenades bypass most defenses and can disorient those hit by them.EOVKEY: wl_coldThis launcher deploys grenades that expand into solid matter. Both CryoBan and adhesive grenades are effective at stopping crowds of enemies in their tracks.EOVKEY: wl_plasmaThis launcher works with grenades that work by releasing energy. These types of grenades deal high amounts of damage. Ion grenades are effective against droids while plasma grenades devestate weak enemies.EOVKEY: wl_rocketThis is the basic rocket launcher. Rockets are stronger than grenades but are considerably more expensive. This launcher works with regular explosive rockets and incendiary rockets for burning enemies.EOVKEY: wl_busterThis rocket launcher is specially designed for buster rockets. Buster rockets are unique because they don't explode but are used to pierce armor.EOVKEY: wl_carbon?EOVKEY: wl_plasmaThis rocket launcher fires particularly deadly rockets. Plasma rockets deal massive damage while radiation rockets debilitate enemies with radiation poisoning.EOVKEY: wl_fusionThis launcher is designed to work with fusion rounds. It is a dual launcher that can fire thermal detonators as ballstic projectiles as well as fusion rockets. This makes this launcher arguably the most deadly weapon that a single soldier can carry into battle.EOV
+
+KEY: g_w_lghtsbr01
+KEY: g_w_lghtsbr02
+KEY: g_w_lghtsbr03
+KEY: g_w_lghtsbr04
+KEY: g_w_lghtsbr05
+KEY: g_w_lghtsbr06
+KEY: g_w_lghtsbr07
+KEY: g_w_lghtsbr08
+KEY: g_w_lghtsbr09
+KEY: g_w_lghtsbr10
+KEY: g_w_lghtsbr11
+Fully Upgradeable
+
+Traditionally associated with the Jedi, the lightsaber is a devastating weapon difficult to master. Properties can vary with the type of focusing crystal used in construction.
+EOV
+
+KEY: g_w_dblsbr001
+KEY: g_w_dblsbr002
+KEY: g_w_dblsbr003
+KEY: g_w_dblsbr004
+KEY: g_w_dblsbr005
+KEY: g_w_dblsbr006
+KEY: g_w_dblsbr007
+KEY: g_w_dblsbr008
+KEY: g_w_dblsbr009
+KEY: g_w_dblsbr010
+KEY: g_w_dblsbr011
+Fully Upgradeable
+
+These exotic weapons are rare, and most often associated with Jedi attracted to the dark side of the Force, for whom reckless aggression is sometimes considered an asset. The double-bladed lightsaber is capable of inflicting more damage - but is also less precise - than the single-bladed variant.
+EOV
+
+KEY: g_w_shortsbr01
+KEY: g_w_shortsbr02
+KEY: g_w_shortsbr03
+KEY: g_w_shortsbr04
+KEY: g_w_shortsbr05
+KEY: g_w_shortsbr06
+KEY: g_w_shortsbr07
+KEY: g_w_shortsbr08
+KEY: g_w_shortsbr09
+KEY: g_w_shortsbr10
+KEY: g_w_shortsbr11
+Fully Upgradeable
+
+Lightsabers can come in shorter styles, often used in the off hand during two-weapon fighting. As in larger versions, different focusing crystals can produce additional effects.
+EOV
+KEY: wr_blast1Fully UpgradeableThe most common ranged weapon in the galaxy is the basic blaster pistol, firing a bolt of intense coherent light powered by a replaceable power pack.EOVKEY: wr_hold1Fully UpgradeableThe Hold Out Blaster l is a versatile back-up weapon. Though modest in performance, it is fully upgradeable.EOVKEY: wr_ion1Upgradeable (Chamber, Scope)This standard Ion Blaster is commonly issued to Republic troops as a secondary weapon.While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses blaster fire cannot. Ion weapons cannot utilize most power pack upgrades.EOVKEY: wr_disrup1Upgradeable (Chamber, Scope)These pistols are illegal in many planetary systems, being regarded as too powerful a weapon to be owned by civilians. Disruptors reduce solid matter to its constituent molecules. Unlike typical blasters, disruptors ignore most types of personal energy shields.EOVKEY: wr_sonic1Upgradeable (Scope)Sometimes referred to as "squealers", these weapons deliver a high-frequency jolt to the senses that can damage and potentially disorient an opponent.Sonic weapons can temporarily reduce an opponent's Wisdom.EOVKEY: wr_heavy1Fully UpgradeableThese resemble regular blasters in the same way Quoorian marshsuckers resemble mosquitoes. Sure, they both do damage, but the former definitely has the edge in kill potential.EOVKEY: wr_mining1Not UpgradeableThis industrial hand-held laser can double as a makeshift blaster.EOVKEY: wr_blast2Fully UpgradeableThe Republic Blaster can be fully upgraded with firing chamber, targeting scope, and power cell.EOVKEY: wr_hold2Fully UpgradeableWhen fully upgraded, these survival pistols can match the best heavy blaster in performance. Their stun capabilites make them an excellent off-hand weapon.EOVKEY: wr_ion2Upgradeable (Chamber, Scope)The Verpine Ion Blaster is designed to be capable against all types of opponents, replacing the need to carry a second anti-droid side arm.While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses that will stop typical blaster fire. Ion weapons cannot utilize most power pack upgrades.EOVKEY: wr_disrup2Upgradeable (Chamber, Scope)The Sith disruptor design is compatible with most types of blaster upgrades.EOVKEY: wr_sonic2Upgradeable (Scope)Though inferior in damage potential to traditional blasters, this sonic blaster's advanced design makes it a viable weapon, especially in long combats when its deafening capabilities can accumulate.Sonic weapons can temporarily reduce an opponent's Wisdom. Additionally, many types of shields and defenses are ineffective against sonic attacks. EOVKEY: wr_heavy2Fully UpgradeableMandalorians improved upon the standard heavy blaster design, creating a weapon that is both fully upgradeable and superior to the standard design.EOVKEY: wr_elec2Upgradeable (Scope)This unusual weapon was originally developed for use against veermok, a ferocious primate on Naboo that happens to be resistant to blaster fire. Much of the weapon's damage is electrical in nature, allowing it to bypass blaster resistance.EOVKEY: wr_assass2Fully UpgradeableThese weapons are designed to incapacitate so death may be quick or lingered upon as desired. Droids are simply dispatched, as cruelty is best rationed among the living.EOVKEY: wr_plasma2Upgradeable (Chamber, Scope)This capable side-arm is at the top of Aratech's ion blaster line. It is designed for multi-purpose use.EOVKEY: wr_mand2Upgradeable (Chamber, Scope)Not surprisingly, the most deadly disruptor pistol available is of Mandalorian design. Use of this ruthless weapon is a major violation of Republic code.EOVKEY: wr_sonicd2Upgradeable (Scope)The Dashade are a secretive and vicious species made infamous by their renowned assassins. Their weapons of choice are best known for the extreme pain they inflict. This improved model combines the best features of sonic and disruptor pistols.EOVKEY: wr_zabrak2Not UpgradeableA more cumbersome, but also more damaging, blaster of Zabrak design.EOVKEY: wr_darkNot UpgradeableA vile weapon that once belonged to Freedon Nadd, this blaster has killed more Jedi then any lightsaber.EOVKEY: wr_carbin3Not UpgradeableBlaster carbine rifles are inelegant, but effective weapons. They are commonly used by unskilled thugs and mercenaries.EOVKEY: wr_blast3Fully UpgradeableMore powerful than the commonly available pistol, the blaster rifle is favored by soldiers throughout the galaxy. Civilian ownership of these weapons is not generally encouraged.  Unlike carbines, most rifles can be fully upgraded.EOVKEY: wr_ion3Upgradeable (Chamber, Scope)While they may have borrowed liberally from designs the Bothans initiated, the Verpine say you can't argue with results. These weapons are simply devastating against droids.While ion weapons are generally less damaging against organic opponents, they are powerful against droids. Also, ion damage can penetrate some defenses blaster fire cannot. Ion weapons cannot utilize most power pack upgrades.EOVKEY: wr_disrup3Upgradeable (Scope, Chamber)This disruptor has all the modifications an assasin droid needs: improved optics, reduced recoil, extended range, and several open ports for even more modular upgrades.EOVKEY: wr_sonic3Upgradeable (Scope)More powerful than the pistol, the sonic rifle fires a blast of sound that causes a great deal of sensory overload in addition to damage, disorienting the victim.EOVKEY: wr_assaul3Fully UpgradeableThese weapons are almost overpowered for their size, but the Mandalorians prefer them that way. They do not make a habit of being subtle in their war making.EOVKEY: wr_exchan3Not UpgradeableTrandoshan bounty hunters will use this weapon to capture their victims alive. As it is a carbine, it cannot be upgraded.EOVKEY: wr_sniper3Fully UpgradeableDespite its effectiveness, these modified blaster rifles are not often employed by the Sith. They prefer to engage their enemies up close and personal.EOVKEY: wr_plasma3Upgradeable (Chamber, Scope)This massive weapon fires a bolt of plasma energy at its target. It is difficult to wield except by highly trained marksmen.EOVKEY: wr_sonicd3Upgradeable (Scope)Combining both sonic and disruptor attacks, this rifle tears through enemy defenses.EOVKEY: wr_mand3Upgradeable (Chamber, Scope)A weapon similar to this disruptor belonged to Jigger Wraith, a bounty hunter who plagued the Republic years ago. Thirty-seven Mandalorians were executed for being him until sightings declined. As a type of disruptor, this weapon ignores most personal energy shields.EOVKEY: wr_zabrak3Not UpgradeableThe design of the Zabrak Combat Rifle is too complicated to allow further upgrading. Fortunately, it has little need for additional enhancement.EOVKEY: wr_blast4Fully UpgradeableThis weapon allows the user to fire more quickly than usual, increasing his chances of survival without drastically changing the amount of equipment he would normally carry.EOVKEY: wr_sonicd4Upgradeable (Scope)These weapons were employed by the elite troops of Iziz during the Battle of Onderon. The power of these carbines, combined with their high rate of fire, was believed to play a considerable role in the rout of the Mandalorian forces.EOVKEY: wr_sith4Fully UpgradeableEOVKEY: wr_plasma4Upgradeable (Chamber, Scope)EOVKEY: wr_hk4Upgradeable (Chamber, Scope)EOVKEY: wr_mand4Fully UpgradeableWith this weapon, the Mandalorians again demonstrate a complete lack of subtlety. The only thing better than a big blaster, apparently, is one that shoots faster.EOVKEY: wr_zabrak4Not UpgradeableEOVKEY: wr_bow1Not UpgradeableEOVKEY: wr_bow2Not UpgradeableEOVKEY: wm_shortUpgradeable (Edge, Grip)Disregarded by most modern warriors, a good short sword can still serve well in combat if the user is skilled.EOVKEY: wm_longUpgradeable (Edge, Grip)Here is where the roots of the lightsaber begin, with traditional swords still wielded today in many primitive cultures. They are simple, but effective in the right hands.EOVKEY: wm_quarterUpgradeable (Grip)Usually just a smooth staff of wood or light alloys, this is a very simple weapon of ancient design.EOVKEY: wm_dbladeUpgradeable (Edge, Grip)A difficult weapon to master, the double-bladed sword has a grip in the center with two long blades emerging from either end. The double-bladed sword is capable of inflicting more damage - but is also less precise - than the single-bladed variant. Using a two-bladed sword expertly requires skill in Two-Weapon Fighting.EOVKEY: wm_batonNot UpgradeableStun Batons are commonly employed by police forces who prefer to incapacitate instead of kill their targets.EOV
+KEY: wm_pikeNot UpgradeableThis weapon effectively functions as a long staff topped with a vibroblade. Despite its name, it is not related to the Force mastered by Jedi, though it is a powerful weapon in its own right.EOV
+KEY: wm_plasmaNot UpgradeablePlasma torches are common accessories in most construction facilities. While a clumsy weapon in combat, it can cut through sealed doors and containers easier than most blasters.EOV
+
+KEY: wm_mining
+Not Upgradeable
+
+This vibrocutter is used for carving asteroid rock, and it can double as a melee weapon if necessary.
+EOV
+
+KEY: g_w_vbroswrd002
+Not Upgradeable
+
+Ultrasonic generators power this Echani-developed weapon design. A cortosis weave that protects against sparring damage ensures that traditional swordplay will endure in the time of lightsabers.
+EOV
+
+KEY: wm_vbladeFully UpgradeableSmall size makes this a good off-hand weapon. Echani vibroblades use a cortosis weave to prevent lightsaber sparring damage, allowing traditional swordplay to continue in the time of Jedi and Sith.EOVKEY: wm_vswordFully UpgradeableUltrasonic generators power this Echani-developed weapon design. A cortosis weave that protects against sparring damage ensures that traditional swordplay will endure in the time of lightsabers.EOVKEY: wm_vdoublFully UpgradeableUltrasonic vibrations make this double-bladed sword exceptionally deadly. An Echani cortosis weave protects it against lightsaber sparring damage, ensuring effectiveness even against Jedi and Sith. The double-bladed sword is capable of inflicting more damage - but is also less precise - than the single-bladed variant. Two-Weapon Fighting is required to use a double-bladed sword with maximum effectiveness.EOV
+KEY: wm_wookie1
+Not Upgradeable
+
+Wookie warblades are warblades used by Wookies.
+EOV
+
+KEY: wm_wookie2
+Not Upgradeable
+
+Carved upon this mighty warblade is a symbol of the Wookiee chieftain Freyyr. How this weapon found its way off of the Wookiee homeworld of Kashyyyk is unknown.
+EOV
+KEY: wm_exchanNot UpgradeableA useful tool for espionage, this weapon is more effective than the standard stun baton, but is still available on most worlds.EOVKEY: wm_gammor1Not UpgradeableGamorrean war axes, much like their namesake species, are heavy, unsubtle, and generally a very damaging influence in almost any situation.EOV
+KEY: wm_gammor2
+Not Upgradeable
+
+The impressive Arg'garok is the most prized Gamorrean weapon. These huge axes are designed to be wielded by those with a low center of gravity and tremendous strength, making them awkward for most non-Gamorreans to use.
+EOV
+KEY: wm_zabrakNot UpgradeableThough believed to have been constructed by the Zabrak, this vibroblade is rarely used by them. The Zabrak feel their combat skills sufficient to make this weapon's fine balance irrelevant.EOVKEY: wm_rodianNot UpgradeableThis serrated weapon inflicts great pain upon its victims. Its design is unsuitable for weapon upgrades.EOVKEY: wm_sithNot UpgradeableThough most favor lightsabers, some Sith prefer the more visceral feel of metal cutting flesh. These blades are usually blended with cortosis to protect against lightsaber sparring damage.EOVKEY: wm_trandoNot UpgradeableWhile most cultures abandoned the primitive sword in favor of vibroblades or other weapons, the Trandoshan sometimes use the weapon as a badge of honor. This variant is made of the rare ore Chalon, and is sharper and heavier than the typical blade. They are not suitable for weapon upgrades, however.EOVKEY: wm_gand1Not UpgradeableThe pinnacle of Gand technology, the discharger can both paralyze and slay opponents with ease. These potent items are extremely rare as they are highly coveted by the few Gand who have earned them.EOV
+
+KEY: wm_gand2
+Not Upgradeable
+
+This weapon was developed by Gand findsmen to help them herd their prey. Its powerful stunning capabilities are backed up by the weapon's sharp tip.
+EOV
+KEY: wm_ryykNot UpgradeableThese short blades are typically used in pairs by Wookiees who prefer seeing their victims up close before gutting them.EOVKEY: wm_echaniNot UpgradeableIn addition to a cortosis weave that deflects lightsaber sparring damage, some Echani vibroswords are supercooled to keep them in alignment, giving them an icy sting.EOVKEY: wm_shyarnNot UpgradeableThis primitive looking weapon hails from the Cerean species, who employ it in traditional honor duels. It is crafted with ancient techniques and rare metals. Shyarn are magnetically attracted to each other, often locking together during parries. This strange property results in duels that are amazing and deadly dances of survival.EOVKEY: wm_gammor2Not UpgradeableThe impressive Arg'garok is the most prized Gamorrean weapon. These huge axes are designed to be wielded by those with a low center of gravity and tremendous strength, making them awkward for most non-Gamorreans to use.EOVKEY: wm_geonosNot UpgradeableGeonosians are winged bipeds covered with protective bony plates. They are highly competitive and generally look down upon other species. Their electro-staves therefore only rarely find their way off of their homeworld of Geonosis.EOVKEY: wm_tehklaNot UpgradeableThis weapon is favored by the Nagai, a species of slender humanoids who appear more dead than alive. Known for their honor and combat skill, the Nagai use these serrated weapons to cripple their opponents.EOVKEY: wm_zhabokNot UpgradeableThis variant of the double-bladed sword originated on Iridonia, the homeworld of the Zabrak. A ceremonial weapon, the Zhaboka (double-headed fighting pike) began as a simple wooden stick but has since been refined to be a formidable weapon.EOVKEY: wm_wookieNot UpgradeableCarved upon this mighty warblade is a symbol of the Wookiee chieftain Freyyr. How this weapon found its way off of the Wookiee homeworld of Kashyyyk is unknown.EOVKEY: wm_twilek1KEY: wm_twilek2Not UpgradeableThe deadly Twi'lek Twin Suns each wielded one of these deadly blades. Their victims had the rare pleasure of witnessing their beautifully choreographed slaying.EOVKEY: wm_ludoNot UpgradeableThough most favor lightsabers, some Sith prefer the more visceral feel of metal cutting flesh. These blades are usually blended with cortosis to protect against lightsaber sparring damage. This particular war sword once belonged to the dark Jedi Ludo Kressh.EOV
+KEY: bl_frag
+KEY: bl_flash
+KEY: bl_poison
+KEY: bl_nerve
+KEY: bl_sonic
+KEY: bl_sonic2
+KEY: bl_cold
+KEY: bl_adhes
+KEY: bl_ion
+KEY: bl_plasma
+Open this ammo box to obtain 6 grenades.
+EOV
+
+
+KEY: bl_frag
+KEY: bl_flash
+KEY: bl_poison
+KEY: bl_nerve
+KEY: bl_sonic
+KEY: bl_sonic2
+KEY: bl_cold
+KEY: bl_adhes
+KEY: bl_ion
+KEY: bl_plasma
+KEY: bl_therm
+Open this ammo box to obtain 6 grenades.
+EOV
+
+
+KEY: br_exlpo
+KEY: br_fire
+KEY: br_buster
+KEY: br_buster2
+KEY: br_cold
+KEY: br_plasma
+KEY: br_radian
+KEY: br_fusion
+Open this ammo box to obtain 4 rockets.
+EOV
+
+
+KEY: ba_flame1
+KEY: ba_flame2
+KEY: ba_flame3
+KEY: ba_carbon1
+KEY: ba_carbon2
+KEY: ba_plasma
+KEY: ba_ion
+KEY: ba_antima
+Open this ammo box to obtain a fuel tank.
+EOV
+
+
+KEY: ba_psndt
+KEY: ba_slpdt
+KEY: ba_pardt
+KEY: ba_kybdt
+Open this ammo box to obtain 20 darts.
+EOV
+
+
+KEY: ua_ablat1
+KEY: ua_ablat2
+KEY: ua_ablat3
+KEY: ua_ballis1
+KEY: ua_ballis2
+KEY: ua_ballis3
+KEY: ua_ballis4
+KEY: ua_energy1
+KEY: ua_energy2
+KEY: ua_energy3
+KEY: ua_energy4
+KEY: ua_heat1
+KEY: ua_heat2
+KEY: ua_heat3
+KEY: ua_heat4
+KEY: ua_radian1
+KEY: ua_radian2
+KEY: ua_radian3
+KEY: ua_radian4
+KEY: ua_steal1
+KEY: ua_steal2
+KEY: ua_steal3
+KEY: ua_steal4
+Alloy overlays can enhance armor performance. The modifications require a workbench with adequate tools and armor of high quality marked as upgradeable.
+EOV
+
+
+KEY: ua_biores1
+KEY: ua_biores2
+KEY: ua_envir1
+KEY: ua_envir2
+KEY: ua_mental1
+KEY: ua_mental2
+KEY: ua_mental3
+KEY: ua_med1
+KEY: ua_med2
+KEY: ua_med3
+KEY: ua_med4
+KEY: ua_flex1
+KEY: ua_flex2
+KEY: ua_flex3
+KEY: ua_stren1
+KEY: ua_stren2
+KEY: ua_stren3
+KEY: ua_prot1
+KEY: ua_prot2
+Underlay can have a variety of effects on the armor to which it is applied. The modifications require a workbench with adequate tools and armor of high quality marked as upgradeable.
+EOV
+
+
+KEY: um_metal1
+KEY: um_metal2
+KEY: um_metal3
+KEY: um_metal4
+Neutronium is a highly durable and resilient material used in the creation of durasteel. It can be used to increase the damage inflicted by a blade. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+KEY: um_metal5
+Quadranium is an amazingly strong material that is sometimes used for fuel storage containers. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: um_poison1
+KEY: um_poison2
+KEY: um_poison3
+Devaronian Blood-poison is a gemstone that can release poison into a victim's bloodstream. Application of Devaronian particles on a blade's edge can cause great pain to the weapon's victim. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: um_para1
+KEY: um_para2
+KEY: um_para3
+???
+EOV
+
+
+KEY: um_crit1
+KEY: um_crit2
+KEY: um_crit3
+KEY: um_crit4
+Mullinine is an ideal building material for melee weapons as it holds an edge very well. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: um_ionite1
+KEY: um_ionite2
+KEY: um_ionite3
+Ionite alloy produces the inverse charge of its surroundings, creating a disrupting effect to electronic systems. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: um_chill1
+KEY: um_chill2
+Ostrine is a rare mineral that exists on the planet Hargeeva. Ostrine is excellent at absorbing heat and, when refined and applied to a blade, can inflict cold damage.
+EOV
+
+
+KEY: um_burn1
+KEY: um_burn2
+???
+EOV
+
+
+KEY: um_aggro1
+KEY: um_aggro2
+KEY: um_aggro3
+This grip, made from the lighter mineral agrinium, balances a weapon towards the point, resulting in heftier swings. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: um_passiv1
+KEY: um_passiv2
+KEY: um_passiv3
+This shorter grip allows maximum accuracy, but the reduced leverage limits the weapon's power. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: um_defend1
+KEY: um_defend2
+KEY: um_defend3
+The basket hilt makes a weapon ideal for parrying, but slightly less wieldy. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: um_power1
+KEY: um_power2
+This specialized grip has a reduced crossguard, increasing both accuracy and damage, but making it less useful for parrying. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: um_balanc1
+KEY: um_balanc2
+KEY: um_balanc3
+The Nagai designed this grip to improve a weapon's performance without any side-effects. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: um_energy
+Enhanced energy cells can stabilize the blade, increasing damage. Only certain melee weapons, like vibroblades, can utilize energy cells. The modifications require a workbench with adequate tools.
+EOV
+
+
+KEY: um_elec
+
+EOV
+
+
+KEY: um_ion
+Ion cells discharge ions along the length of the blade. Only certain melee weapons, like vibroblades, can utilize energy cells. The modifications require a workbench with adequate tools.
+EOV
+
+
+KEY: um_plasma
+
+EOV
+
+
+KEY: um_vibro
+Vibration energy cells increase the amount of damage a weapon can inflict, but make them much harder to wield. Only certain melee weapons, like vibroblades, can utilize energy cells. The modifications require a workbench with adequate tools.
+EOV
+
+
+KEY: um_sonic
+Sonic discharge energy cells release sound waves upon impact. Though the sonic discharge makes the weapon unwieldy, few types of armor protect against this type of attack. Only certain melee weapons, like vibroblades, can utilize energy cells. The modifications require a workbench with adequate tools.
+EOV
+
+
+KEY: ur_scope1
+KEY: ur_scope2
+KEY: ur_keen
+This scope can increase the effectiveness of blasters, blaster rifles, and bowcasters. The modifications require a workbench and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ur_energy1
+KEY: ur_energy2
+KEY: ur_energy3
+KEY: ur_energy4
+KEY: ur_ion1
+KEY: ur_ion2
+KEY: ur_ion3
+KEY: ur_crit1
+KEY: ur_crit2
+KEY: ur_crit3
+KEY: ur_plasma1
+KEY: ur_plasma2
+KEY: ur_cold1
+KEY: ur_cold2
+KEY: ur_elec1
+KEY: ur_elec2
+KEY: ur_elec3
+This cell increases the energy output of blasters, blaster rifles, and bowcasters. The modifications require a workbench and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ur_wide1
+KEY: ur_wide2
+KEY: ur_wide3
+KEY: ur_conc1
+KEY: ur_conc2
+KEY: ur_conc3
+KEY: ur_precis1
+KEY: ur_precis2
+KEY: ur_ionize1
+KEY: ur_ionize2
+KEY: ur_ionize3
+KEY: ur_disrup1
+KEY: ur_disrup2
+KEY: ur_stun1
+KEY: ur_stun2
+KEY: ur_stun3
+This item can broaden the beam of certain blaster types, increasing damage or possibly granting other effects. The modifications require a workbench and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ul_wide1
+KEY: ul_wide2
+Byrothsis was originally used to created infrared camera lenses, but has since found use in other applications, including lightsaber lenses. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ul_kunda1
+KEY: ul_kunda2
+The kunda stone has numerous practical applications in medicine and communications. It can also be combined with normal lens to produce a broader, yet still focused beam. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ul_vibro1
+KEY: ul_vibro2
+This lens vibrates very rapidly, resulting in a less stable, but more deadly beam. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ul_sharp
+The aptly named beam gem crystals are common in optical computers such as those involved in navigational systems. Not surprisingly, they also can create a highly focused lightsaber beam. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ul_deflec1
+KEY: ul_deflec2
+Deflection emitters are optimzied for use against blaster fire. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ul_fencin
+Fencing emitters are most suitable for parrying hand-to-hand attacks. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ul_disrup1
+KEY: ul_disrup2
+Disrupting emitters create an unsteady beam which can wreck havoc on a victim's nervous system. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ul_phob
+Made for the more aggressive combatant, the phobium emitter is heavier and less wieldy than the typical disrupting emitter. It is also indisputably more effective. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ul_energy
+KEY: ul_elec
+KEY: ul_cold
+KEY: ul_fire
+KEY: ul_ion
+KEY: ul_disrup
+This power cell modifies the energy output of lightsabers, allowing skilled users to better deliver powerful attacks. The modifications require a workbench with adequate tools and a weapon of high quality marked as upgradeable.
+EOV
+
+
+KEY: ul_rubat
+Used in lightsaber construction, rubat crystal is mined on Phemis. It produces a clearly defined blade that a Jedi can easily track, making it easier to hit opponents.
+EOV
+
+
+KEY: ul_nextor
+This crystal is mined in the mountains of planet M'haeli, and when used in lightsaber construction it produces a volatile blade that can cause surprising amounts of damage.
+EOV
+
+
+KEY: ul_dragit
+Dragite crystals are found on M'haeli, in the D'olop mountain range. The beam they create resonates loudly when it strikes, inflicting a minor amount of sonic damage.
+EOV
+
+
+KEY: ul_firk
+This heavy crystal is collected by the natives of Rafa V. If used in lightsaber construction it produces an electrically charged beam that is devastating to droids.
+EOV
+
+
+KEY: ul_phond
+The strange byproduct of rare impurities bonding during the making of certain alloys and some random external condition, this crystal produces a fiercely burning lightsaber beam.
+EOV
+
+
+KEY: ul_bondar
+This crystal was mined on a far-orbit asteroid circling the Alderaan system. It produces a volatile lightsaber beam that pulses on impact, potentially stunning an opponent.
+EOV
+
+
+KEY: ul_sigil
+Mined in the Sigil System, this crystal is a costly but valued addition to a lightsaber. It produces a fiercely bright beam that sears on contact, inflicting great damage.
+EOV
+
+
+KEY: ul_jenrau
+The refined form of Opila, this crystal has been cleansed of all impurities. When used in lightsaber construction it produces a blade of unerring quickness.
+EOV
+
+
+KEY: ul_kasha
+This crystal is traditionally used by the Cereans as a meditation tool. When used as a lightsaber crystal, it helps clear the wielder's mind of distractions, even during tense combat.
+EOV
+
+
+KEY: ul_styg
+he stygium mineral can be used to create cloaking effects that foil enemy sensors. In its pure crystal form, it is suitable for a lightsaber.
+EOV
+
+
+KEY: ul_damind
+Found on the desert world of Daminia, this crystal can be used in lightsaber construction to produce a clearly defined beam of subtly wider width and length.
+EOV
+
+
+KEY: ul_pontit
+Pontite is one of the rarest forms of Adegan crystal. It radiates a powerful aura that cools both skin and tempers.
+EOV
+
+
+KEY: ul_upari
+Strangely, this crystal is usually encountered scattered in the orbit of primarily forest worlds. It is brittle but versatile, and a Master Jedi can get it to produce many effects.
+EOV
+
+
+KEY: ul_ultima
+An unusual choice for a lightsaber focusing crystal, this rare stone can be found on Calamari. Difficult to properly install in a lightsaber, this valuable stone has powerful effects.
+EOV
+
+
+KEY: ul_solari
+There are many famous lightsaber crystals spoken of in the history of the Jedi Order. An artifact of true light side power, only those Jedi who are pure in spirit can wield a lightsaber equipped with this gleaming white gem.
+ 
+When the great Jedi Master Ood Bnar initiated his life-cycle change after a thousand years of serving the Order, he bequeathed the Solari crystal to his most promising student, a young female Jedi named Shaela Nuur. When Shaela disappeared shortly after the time of the Great Hunt, the Solari crystal vanished with her.
+EOV
+
+
+KEY: ul_qixoni
+Qixoni crystals were formed on a planet that was destroyed millenia ago when its star went supernova. They are exceedingly rare and also quite powerful.
+EOV
+
+
+KEY: ul_lorrd
+During their subjugation, the Lorrdians were banned from speaking to each other and thus learned to use subtle gestures and ticks to communicate. The few Force-Adepts found after the Jedi freed the population of slaves has imprinted these gemstones with the Force to enhance the ability to read an opponent.
+EOV
+
+
+KEY: ul_barab
+The ore from Barab I actually lies on the planets surface, meaning it is exposed to high doses of radiation and torrential downpours daily. This ore can be found in concentrated ingots that actual store and magnify the radiation.
+ 
+When placed in a lightsaber, the ingots produce a blade that burns almost to the point of losing its cohesion.
+EOV
+
+
+KEY: ul_hurrik
+The very rare Hurrikaine crystal is best known for its unparalleled beauty. When used in a lightsaber, the dark gemstone creates a devastating beam that can partially penetrate any defenses.
+EOV
+
+
+KEY: ul_ankar
+This crystal possesses legendary healing powers and numerous other effects. It is one of the most potent crystals that can be used in lightsaber creation.
+EOV
+
+
+KEY: ul_exile
+This black crystal is bound to <FullName>. Its power reflects that of its master.
+EOV
+
+
+KEY: ha_atton
+Not Upgradeable
+
+Atton's durable jacket provides protection comparable to light armor.
+EOV
+
+
+KEY: ha_mira
+Not Upgradeable
+
+One of the first major purchases of a successful bounty hunter is often exceptional protection. Mira's mesh jacket is as protective as medium armor, but much less restrictive.
+EOV
+
+
+KEY: ha_miner
+Level 1 Upgrades
+
+This is a standard uniform worn by miners at the Peragus facility. It provides minimal protection, but can be upgraded with some underlays.
+EOV
+
+
+KEY: ha_repub1
+Level 1 Upgrades
+
+Even the most frugal of mercenaries know they need at least some protection from the rigors of combat, although suits of this type are recommended for light skirmishes only.
+EOV
+
+
+KEY: ha_zabrak1
+Not Upgradeable
+
+A Zabrak improvement on the combat suit, this armor is good protection where speed and unrestricted movement are more important than bulky plating.
+EOV
+
+
+KEY: ha_echani1
+Not Upgradeable
+
+Echani prefer elegant design to brute force. The Maktites learned this when their stores of thermal weapons were rendered ineffective by simple changes in the Echani light armor.
+EOV
+
+
+KEY: ha_massas1
+Not Upgradeable
+
+Long-term domination by the Sith has erased the memory of the Massassi rituals for which this armor was designed, but it retains its effectiveness on the battlefield regardless.
+EOV
+
+
+KEY: ha_repub2
+Level 2 Upgrades
+
+This version of the combat suit offers more protection than the basic model. It is heavier overall and not quite as flexible, but many consider the tradeoffs worthwhile.
+EOV
+
+
+KEY: ha_zabrak2
+Not Upgradeable
+
+On the far northern continent of the planet Iridonia, the Zabrak produce expensive armor that nonetheless has become very popular on the galactic markets, due to excellent low-temperature defensive properties.
+EOV
+
+
+KEY: ha_echani2
+Not Upgradeable
+
+The Echani combined their talents for energy shield design with their armorcrafting skills to develop this innovative combat suit. It provides capable defense that is augmented with a low strength energy shield.
+EOV
+
+
+KEY: ha_mand2
+Level 2 Upgrades
+
+Even the basic combat attire of the Mandalorians provides a formidable defense. The mesh of this armor absorbs some of the impact of physical blows despite its light weight.
+EOV
+
+
+KEY: ha_sith2
+
+EOV
+
+
+KEY: ha_power2
+Not Upgradeable
+
+This suit is an early attempt at power-assisted armor, increasing the physical strength of the wearer.
+EOV
+
+
+KEY: ha_repub3
+Level 3 Upgrades
+
+This standard issue suit provides good protection, but can be heavier and more restrictive than some of its counterparts. Even so, many mercenaries swear the tradeoffs are worth it.
+EOV
+
+
+KEY: ha_sith3
+Level 4 Upgrades
+
+This battle armor's name is actually created by Aratech, who named it after the Sith to benefit from their fame (or infamy). This combat suit is very flexible for medium armor.
+EOV
+
+
+KEY: ha_echani3
+Not Upgradeable
+
+This armor provides solid defense at the cost of some flexibility, although it is still an Echani product and is therefore well suited to quick-moving combat.
+EOV
+
+
+KEY: ha_zabrak3
+Not Upgradeable
+
+This is a higher-quality version of the basic armor produced by the Zabrak. These were often reserved for field commanders, and meant to be easily identified on the battlefield.
+EOV
+
+
+KEY: ha_verpin3
+Level 3 Upgrades
+
+Raxsus Nuli had plans of planetary conquest in the wake of Sith aggression. Though eclipsed by recent events, the Jedi saw the pirate jailed and his Verpine stockpiles auctioned.
+EOV
+
+
+KEY: ha_repub4
+Level 4 Upgrades
+
+Battle armor production thrived on Bonadan as the Republic recovered from war. This model heavy durasteel casing provides superior protection when compared to normal Heavy Battle Armor.
+EOV
+
+
+KEY: ha_mand4
+Level 4 Upgradeable
+
+Republic soldiers saw this armor all too often during the Mandalorian War. It's understandable that the conflict could drag on when a fanatical enemy is so defensively outfitted.
+EOV
+
+
+KEY: ha_echani4
+Not Upgradeable
+
+Echani Heavy Armor is comparable to typical heavy battle armor in terms of protection, but allows for slightly more mobility.
+EOV
+
+
+KEY: ha_sith4
+
+EOV
+
+
+KEY: ha_gammor4
+Not Upgradeable
+
+Cumbersome, but powerful armor, M'uhk'gfa is the battle plate used by elite Gammorean warriors. Traditionally, each Gammorean warrior would fashion his own battle plate from metal fragments on the battlefields of their victories.
+EOV
+
+
+KEY: ha_power5
+Not Upgradeable
+
+Essentially an improved version of powered battle armor, the powersuit employs a system of servomotors to enhance the wearer's strength.
+EOV
+
+
+KEY: ha_mand5
+Level 5 Upgrades
+
+This was the armor of the Mandalorian elite frontline troops, a sight that Republic soldiers were all too familiar with during the war.
+EOV
+
+
+KEY: ha_matrix5
+Not Upgradeable
+
+Matrix armor is typically used for starship plating. Adapting it to personal use is expensive and technologically difficult. The armor is particularly resistant to blaster fire.
+EOV
+
+
+KEY: ha_flight
+Not Upgradeable
+
+This combat-ready flight suit provides additional protection against vacuum for limited periods. Its many models appeal to a wide range of users, from military pilots and mercenaries to fringe explorers and space pirates.
+EOV
+
+
+KEY: ha_ubese
+Not Upgradeable
+
+Ubese is the name given to a species believed to exist in the Mid Rim. The very few who actually claim to have encountered the Ubese attribute these advanced environmental suits to the enigmatic species. Though less useful against conventional weapons, this suit is ideal defense against blasters, flames, and cryoban grenades.
+EOV
+
+
+KEY: da_impact1
+KEY: da_impact2
+KEY: da_impact3
+Impact armor is designed to help absorb some of the wear-and-tear droids can take in an active workplace and save the chassis from major damage.
+EOV
+
+
+KEY: da_mod1
+KEY: da_mod2
+KEY: da_mod3
+Modular Plating was designed as a light-weight yet durable substitute for heavier, more cumbersome armor.
+EOV
+
+
+KEY: da_dura1
+KEY: da_dura2
+KEY: da_dura3
+Originally used on starship hulls, durasteel is the most cost-effective way to prevent the destruction of your droids.
+EOV
+
+
+KEY: da_energy1
+KEY: da_energy2
+KEY: da_energy3
+Energized armor draws on the droid's power source and applies a current through a specially designed matrix on this armor. This energy matrix binds the molecules of the armor together to create a nearly inpenetrable physical barrier.
+EOV
+
+
+KEY: da_radian1
+Agrinium is used to create solar sails and is highly resilient to all forms of radiation. Applied to droid armor, it creates a highly effective barrier against many forms of damage.
+
+This armor is used on light-weight repair droids that maintain the sails on deep space sail ships.
+EOV
+
+KEY: da_radian2
+Quadranium is an incredibly strong element used in the manufacture of starship fuel tanks. It was first applied to droid armor by Aratech during the development of droids that could be sent to clean starship engines and fuel tanks without sustaining any damage.
+EOV
+
+KEY: da_radian3
+Based on an inverse architecture of Energized Armor, Capacitor Armor actually absorbs incoming energy and converts it into usuable power for the droid's internal power source. The rest of the energy is dissipated harmlessly into the environment around the droid.
+EOV
+
+
+KEY: ja_padawa
+Level 1 Upgradeable
+
+Members of the Jedi Order typically wear plain or unassuming garments.
+EOV
+
+KEY: ja_jedi
+Level 1 Upgradeable
+
+Members of the Jedi Order typically wear plain or unassuming garments.
+EOV
+
+KEY: ja_knight
+Level 1 Upgradeable
+
+Members of the Order typically wear plain or unassuming garments, but this variant offers the additional protection needed by Jedi influencing important events.
+EOV
+
+KEY: ja_dark
+Level 1 Upgradeable
+
+These are simple robes, kept modest not by a desire to appear humble, but to offer the greatest freedom of movement during battle.
+EOV
+
+KEY: ja_master
+Level 1 Upgradeable
+
+Members of the Order typically wear plain or unassuming garments, but Jedi Masters also know the importance of adequate protection when great challenges must be surmounted.
+EOV
+
+KEY: ja_norris
+Not Upgradeable
+
+Stained with pigments from the beautiful and rare norris root found on the planet Almar, these robes are naturally resistant to energy. 
+EOV
+
+KEY: ja_baran
+Not Upgradeable
+
+The Baran Do are force sensitive members of the Kel Dor race. They seek inner peace and are very patient, consulting with the Force before making decisions. 
+EOV
+
+KEY: ja_matuka
+Not Upgradeable
+
+The Matukai are a group of Force sensitives who use their physical body to channel the Force. The balance of the physical and spiritual is a cornerstone of their philosophy.
+EOV
+
+KEY: ja_natth
+Not Upgradeable
+
+Dyed with water from the tainted Lake Natth on Ambria, these robes infuse the wearer a trace of the dark powers contained within the lake. 
+EOV
+
+KEY: ja_hand
+Not Upgradeable
+
+This robe once belonged to the Handmaiden's mother, Arren. It is the only thing of hers the Handmaiden possesses.
+EOV
+
+KEY: ja_jal
+Level 3 Upgradeable
+
+The Jal Shey concentrate on intellectual study of the Force, seeking to understand it at a mental level, rather than a spiritual one. Jal Shey are typically exceptional diplomats, but are less successful in physical pursuits.
+EOV
+
+KEY: ja_zeison
+Level 3 Upgradeable
+
+The Outer Rim planet Yanibar was the home of the Zeison Sha, who developed their Force powers as a means of surviving the harsh planet.  Zeison Sha stress independence and survival as well as assistance to those in need.
+EOV
+KEY: hb_stealThis device enables Stealth Mode, a camouflage field that hides the user. Opponents must make an Awareness check versus the Stealth skill of the user or remain unaware of them. The user must have paid points into the Stealth skill to use Stealth Mode. Combat disrupts the field, but mundane tasks do not.EOVKEY: hb_stlrunThis device enables Stealth Mode, a camouflage field that hides the user. Opponents must make an Awareness check versus the Stealth skill of the user or remain unaware of them. The user must have paid points into the Stealth skill to use Stealth Mode. Combat disrupts the field, but mundane tasks do not.This belt allows the user to run while in Stealth Mode.EOVKEY: hb_reflex1KEY: hb_reflex2This device improves the wearer's reflexes by triggering prolonged bursts of adrenaline. It is thought to be perfectly safe, with only a few instances of uncontrolled muscle spasms.EOVKEY: hb_cardio1KEY: hb_cardio2This belt monitors heartbeat and breathing and releases chemicals into the body should either of these become irregular. This gives the wearer a higher fortitude than most.EOVKEY: hb_nerve1KEY: hb_nerve2This belt monitors the brain, emitting energy waves to reinforce established patterns and block any outside influence. It's extremely effective, if mildly uncomfortable.EOVKEY: hb_cardio2EOV

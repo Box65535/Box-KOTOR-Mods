@@ -1,0 +1,47 @@
+Alright so we need to review the build strategy to start putting things together:
+
+Basic Steps:
+
+1. Run gengen
+2. Copy/Rearrange modified files
+3. Compile scripts
+4. Run TSLPatcher
+5. Compile remaining modified scripts
+6. Run TSLPatcher overwrites.ini
+
+Really 3-6 are the same as since before gengen was created
+
+How do we organize our files?
+
+Two folders:
+-Mod = Mod source
+-Temp = Workplace for doing the install
+
+Top level view:
+-Mod/
+-Temp/
+-install.bat
+
+In Mod/
+-Scripts/
+-Generators/
+-Tables/
+-GFFs/
+-Blanks/
+-Overwrites/
+-Strings/
+-INIs/
+-Dependencies/
+-Infos/
+-Old/
+
+I think it's pretty self-explanatory what's in each subfolder, Infos is where you put info.rtf for each TSLPatcher step
+
+
+In Temp/
+-tslpatchdata/
+
+Aside from tslpatchdata, I think everything else is ephemeral
+
+
+

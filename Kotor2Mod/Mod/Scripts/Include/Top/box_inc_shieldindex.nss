@@ -1,0 +1,21 @@
+// box_inc_shieldindex
+
+// Written by Box
+// Include file for energy shield row indexes
+
+int MINING_SHIELD = 500;
+int ENERGY_SHIELD = 500;
+int ENVIRONMENT_SHIELD = 500;
+int SITH_SHIELD = 500;
+int MANDALORIAN_SHIELD = 500;
+int ECHANI_SHIELD = 500;
+int UNIVERSALH_SHIELD = 500;
+int ZABRAK_SHIELD = 500;
+
+int DROID_SHIELD = 500;
+int DROID_ENVIRONMENT_SHIELD = 500;
+int RADIANT_SHIELD = 500;
+int ADVANCED_SHIELD = 500;
+int UNIVERSAL_SHIELD = 500;
+
+int ENEMY_MINING_SHIELD = 500;

@@ -1,0 +1,13 @@
+// box_inc_poison
+
+// Written by Box
+// Include file for poison constants
+
+int POISON_MINE_1 = #2DAMEMORY10#;
+int POISON_MINE_2 = #2DAMEMORY11#;
+int POISON_MINE_3 = #2DAMEMORY12#;
+int POISON_MINE_4 = #2DAMEMORY13#;
+int POISON_MINE_5 = #2DAMEMORY14#;
+int GAS_GRENADE = #2DAMEMORY8#;
+int RADIATION_ROCKET = #2DAMEMORY9#;
+int POISON_DART = #2DAMEMORY7#;

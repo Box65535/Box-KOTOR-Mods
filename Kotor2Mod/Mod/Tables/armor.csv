@@ -1,0 +1,56 @@
+tag,baseitemcode,cost,name,model,upgradelevel,tagconst,bludgeoningdt,piercingdt,slashingdt,unstoppabledt,universaldt,colddt,lightsidedt,electricaldt,firedt,darksidedt,sonicdt,iondt,energydt
+ha_atton,BOXI_CLOTHING,50,Atton's Ribbed Jacket,0,0,ATTON_RIBBED_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
+ha_mira,BOXI_CLOTHING,50,Mira's Ballistic Mesh Jacket,0,0,MIRA_BALLISTIC_JACKET,0,2,2,0,0,0,0,0,0,0,0,0,0
+ha_miner,BOXI_CLOTHING,100,Miner Uniform,0,1,MINER_UNIFORM,0,0,0,0,0,0,0,0,1,0,1,1,1
+ha_repub1,BOXI_ARMOR1,500,Republic Light Combat Suit,0,1,REPUBLIC_ARMOR_1,0,2,2,0,0,0,0,0,2,0,0,2,2
+ha_zabrak1,BOXI_ARMOR1,950,Zabrak Light Combat Suit,0,0,ZABRAK_ARMOR_1,0,2,2,0,0,2,0,0,2,0,0,2,2
+ha_echani1,BOXI_ARMOR1,900,Echani Light Combat Suit,0,0,ECHANI_ARMOR_1,0,0,0,0,0,0,0,2,2,0,2,2,2
+ha_massas1,BOXI_ARMOR1,1200,Massassi Ceremonial Armor,0,0,MASSASSI_ARMOR,0,2,2,0,0,0,0,0,2,0,0,2,2
+ha_repub2,BOXI_ARMOR2,1000,Republic Combat Suit,0,2,REPUBLIC_ARMOR_2,0,4,4,0,0,0,0,0,4,0,0,4,4
+ha_zabrak2,BOXI_ARMOR2,1900,Zabrak Field Suit,0,0,ZABRAK_ARMOR_2,0,4,4,0,0,4,0,0,4,0,0,4,4
+ha_echani2,BOX_ARMOR2,2000,Echani Shield Suit,0,0,ECHANI_ARMOR_2,0,0,0,0,0,0,0,5,5,0,5,5,5
+ha_mand2,BOXI_ARMOR2,1700,Mandalorian Light Combat Suit,0,2,MANDALORIAN_ARMOR_2,0,5,5,0,0,0,0,3,5,0,0,3,3
+ha_sith2,BOXI_ARMOR2,1100,Sith Combat Suit,0,3,SITH_ARMOR_2,0,2,2,0,0,2,0,2,2,0,2,2,2
+ha_power2,BOXI_ARMOR2,2300,Light Power Armor,0,0,POWER_ARMOR_2,0,4,4,0,0,0,0,0,4,0,0,4,4
+ha_repub3,BOXI_ARMOR3,2000,Republic Military Suit,0,3,REPUBLIC_ARMOR_3,0,6,6,0,0,0,0,0,6,0,0,6,6
+ha_sith3,BOXI_ARMOR3,2400,Sith Battle Suit,0,4,SITH_ARMOR_3,0,4,4,0,0,4,0,4,4,0,4,4,4
+ha_echani3,BOXI_ARMOR3,3600,Echani Battle Armor,0,0,ECHANI_ARMOR_3,0,0,0,0,0,0,0,7,7,0,7,7,7
+ha_zabrak3,BOXI_ARMOR3,3200,Zabrak Battle Armor,0,0,ZABRAK_ARMOR_3,0,6,6,0,0,10,0,0,10,0,0,6,6
+ha_verpin3,BOXI_ARMOR3,2800,Verpine Fiber Mesh,0,3,VERPINE_ARMOR,0,4,4,0,0,0,0,8,4,0,4,8,6
+ha_repub4,BOXI_ARMOR4,4000,Republic Battle Armor,0,4,REPUBLIC_ARMOR_4,0,8,8,0,0,0,0,0,8,0,0,8,8
+ha_mand4,BOXI_ARMOR4,6000,Mandalorian Battle Armor,0,4,MANDALORIAN_ARMOR_4,0,10,10,0,0,0,0,6,10,0,0,6,6
+ha_echani4,BOXI_ARMOR4,7000,Echani Heavy Armor,0,0,ECHANI_ARMOR_4,0,2,2,0,0,0,0,10,10,0,10,10,10
+ha_sith4,BOXI_ARMOR4,5000,Sith Heavy Armor,0,5,SITH_ARMOR_4,0,6,6,0,0,6,0,6,6,0,6,6,6
+ha_gammor4,BOXI_ARMOR1,6500,M'uhk'gfa,0,0,GAMMOREAN_ARMOR,12,12,12,0,0,0,0,0,6,0,0,6,6
+ha_power5,BOXI_ARMOR5,8000,Correlian Powersuit,0,0,POWER_ARMOR_5,0,10,10,0,0,0,0,10,10,0,10,10,10
+ha_mand5,BOXI_ARMOR5,9000,Mandalorian Assault Armor,0,5,MANDALORIAN_ARMOR_5,0,12,12,0,0,0,0,6,12,0,6,6,6
+ha_matrix5,BOXI_ARMOR5,12000,Matrix Armor,0,0,MATRIX_ARMOR,0,10,10,0,0,10,0,10,15,0,10,15,15
+ha_flight,BOXI_FLIGHTARMOR,2500,Armored Flight Suit,0,0,FLIGHT_SUIT,0,0,0,0,0,10,0,0,10,0,0,10,0
+ha_ubese,BOXI_FLIGHTARMOR,3000,Ubese Environmental Suit,0,0,UBESE_SUIT,0,0,0,0,0,10,0,10,10,0,10,0,0
+da_impact1,BOXI_DROIDLIGHT1,750,Impact Armor Mk I,1,0,IMPACT_ARMOR_1,4,4,4,0,0,0,0,0,2,0,0,0,0
+da_impact2,BOXI_DROIDLIGHT2,1500,Impact Armor Mk II,2,0,IMPACT_ARMOR_2,6,6,6,0,0,0,0,0,4,0,2,2,2
+da_impact3,BOXI_DROIDLIGHT3,3000,Impact Armor Mk III,3,0,IMPACT_ARMOR_3,8,8,8,0,0,0,0,0,6,0,4,4,4
+da_mod1,BOXI_DROIDMEDIUM1,600,Modular Plating Mk I,1,0,MODULAR_PLATING_1,2,2,2,0,0,2,0,2,2,0,2,2,2
+da_mod2,BOXI_DROIDMEDIUM2,1200,Modular Plating Mk II,2,0,MODULAR_PLATING_2,4,4,4,0,0,4,0,4,4,0,4,4,4
+da_mod3,BOXI_DROIDMEDIUM3,2400,Modular Plating Mk III,3,0,MODULAR_PLATING_3,6,6,6,0,0,6,0,6,6,0,6,6,6
+da_dura1,BOXI_DROIDHEAVY1,1000,Dura Frame Mk I,1,0,DURA_FRAME_1,3,3,3,0,0,0,0,3,3,0,3,3,3
+da_dura2,BOXI_DROIDHEAVY2,2000,Dura Frame Mk II,2,0,DURA_FRAME_2,6,6,6,0,0,0,0,6,6,0,6,6,6
+da_dura3,BOXI_DROIDHEAVY3,4000,Dura Frame Mk III,3,0,DURA_FRAME_3,9,9,9,0,0,0,0,9,9,0,9,9,9
+da_energy1,BOXI_DROIDHEAVY1,900,Energized Armor Mk I,4,0,ENERGIZED_ARMOR_1,2,2,2,0,0,0,0,2,2,0,0,2,2
+da_energy2,BOXI_DROIDHEAVY2,1800,Energized Armor Mk II,4,0,ENERGIZED_ARMOR_2,4,4,4,0,0,0,0,4,4,0,0,4,4
+da_energy3,BOXI_DROIDHEAVY3,3600,Energized Armor Mk III,4,0,ENERGIZED_ARMOR_3,6,6,6,0,0,0,0,6,6,0,0,6,6
+da_radian1,BOXI_DROIDLIGHT1,800,Agrinium Armor,4,0,AGRINIUM_ARMOR,0,0,0,0,0,0,0,4,4,0,4,4,4
+da_radian2,BOXI_DROIDMEDIUM2,1600,Quadranium Armor,4,0,QUADRANIUM_ARMOR,2,2,2,0,0,0,0,6,8,0,6,6,6
+da_radian3,BOXI_DROIDMEDIUM3,3200,Capacitor Armor,4,0,CAPACITOR_ARMOR,4,4,4,0,0,0,0,8,8,0,8,8,8
+ja_padawa,BOXI_JEDIROBE,400,Padawan Robe,0,1,PADAWAN_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_jedi,BOXI_JEDIROBE,900,Jedi Robe,0,1,JEDI_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_knight,BOXI_KNIGHTROBE,1400,Jedi Knight Robe,0,1,KNIGHT_ROBE,0,1,1,0,0,0,0,0,0,0,0,1,1
+ja_dark,BOXI_JEDIROBE,1300,Dark Jedi Robe,0,1,DARK_JEDI_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_master,BOXI_KNIGHTROBE,1700,Jedi Master Robe,0,1,MASTER_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_norris,BOXI_JEDIROBE,1500,Norris Robe,0,0,NORRIS_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_baran,BOXI_JEDIROBE,1200,Baran Do Robe,0,0,BARAN_DO_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_matuka,BOXI_KNIGHTROBE,1400,Matukai Robe,0,0,MATUKAI_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_natth,BOXI_KNIGHTROBE,2000,Natth Cowling,0,0,NATTH_COWLING,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_hand,BOXI_KNIGHTROBE,2400,Handmaiden's Robe,0,0,HANDMAIDEN_ROBE,0,0,0,0,0,0,0,0,0,0,0,0,0
+ja_jal,BOXI_JEDIARMOR,3000,Jal Shey Armor,0,3,JAL_SHEY_ARMOR,0,2,2,0,0,0,0,0,0,0,0,4,4
+ja_zeison,BOXI_JEDIARMOR,3500,Zeison Sha Armor,0,3,ZEISON_SHA_ARMOR,0,4,4,0,0,0,0,0,0,0,0,2,2

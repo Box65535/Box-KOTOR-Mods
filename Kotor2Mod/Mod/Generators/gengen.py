@@ -1,6 +1,7 @@
 
 # This is where we generate the generators
 
+import shutil
 import csv
 
 class Object(object):
@@ -44,9 +45,7 @@ def add_line(file, data, pattern, marker):
 	return file.replace(marker, replacement)
 
 def copy_template(path, new_path):
-	with open(path, 'r') as fin:
-		with open(new_path, 'w') as fout:
-			fout.write(fin.read())
+	shutil.copyfile(path, new_path)
 
 def set_tlk_header(file):
 	num_strings = 1
@@ -211,7 +210,7 @@ shieldflags_pattern = """replaces['{shieldcode}_FLAGS'] = '{shieldflags}'"""
 
 # upgradegen.py
 upgrade_pattern = """upgrades.append(Upgrade('{tag}', {upgradetype}, {skill},
-	{skillreq}, {levereq}, {craftgroup}))"""
+	{skillreq}, {levelreq}, {craftgroup}))"""
 crystal_pattern = """crystals.append(Upgrade('{tag}', 0, None, None, None, None))"""
 craftitem_pattern = """items.append(Upgrade('{tag}', None, {skill}, {skillreq},
 	{levelreq}, item_group))"""
@@ -284,7 +283,7 @@ shieldconst_pattern = """int {shieldconst} = #CODE_{shieldcode}#;"""
 poisonconst_pattern = """int {poisonconst} = #CODE_{poisoncode}#;"""
 
 # box_inc_itemconst.nss
-tagconst_pattern = """string {itemconst} = "{tag}";"""
+tagconst_pattern = """string {tagconst} = "{tag}";"""
 
 # box_inc_itemconst.nss
 hideconst_pattern = """string {hideconst} = "{name}";"""
@@ -309,7 +308,7 @@ treasureitem_pattern = """CreateItemOnObject({itemconst}, oContainer);"""
 baseitemheader_pattern = """AddRow0{baseitemconst}=baseitem_{baseitemconst}"""
 baseitemini_pattern = """[baseitem_{baseitemconst}]
 name=0
-label={baseitemconst}}
+label={baseitemconst}
 equipableslots={equipableslots}
 canrotateicon={canrotateicon}
 modeltype={modeltype}
@@ -707,6 +706,7 @@ shieldconst = read_file('Input\\box_inc_shieldconst.nss')
 hideconst = read_file('Input\\box_inc_hideconst.nss')
 trapconst = read_file('Input\\box_inc_trapconst.nss')
 turretconst = read_file('Input\\box_inc_turretconst.nss')
+tagconst = read_file('Input\\box_inc_tagconst.nss')
 
 tlk = "\nEOF"
 descriptions = load_descriptions("Input\\descriptions.txt")
@@ -778,15 +778,13 @@ with open('Input\\weapons.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
-		copy_template('Input\\' + row['tag'] + '.uti', 'Input\\' + row['tag'] + '.uti')
-		verify_code(baseitems, row['baseitemcode'])
+		copy_template('Input\\' + row['tag'] + '.uti', 'Output\\' + row['tag'] + '.uti')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(fieldgen, row, weaponfield_pattern, '#WEAPONS')
 		if row['poisoncode']:
-			verify_code(poisons, row['poisoncode'])
 			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
 		if row['dc']:
 			add_line(dcs, row, dcheader_pattern, ';HEADERS')
@@ -797,8 +795,7 @@ with open('Input\\armor.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
-		copy_template('Input\\' + row['tag'] + '.uti', 'Input\\' + row['tag'] + '.uti')
-		verify_code(baseitems, row['baseitemcode'])
+		copy_template('Input\\' + row['tag'] + '.uti', 'Output\\' + row['tag'] + '.uti')
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(fieldgen, row, upgradefield_pattern, '#ITEMS')
@@ -810,7 +807,8 @@ with open('Input\\upgrades.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
-		copy_template('Input\\' + row['tag'] + '.uti', 'Input\\' + row['tag'] + '.uti')
+		row['upgradetype'] = row['type'] + '_group'
+		copy_template('Input\\' + row['tag'] + '.uti', 'Output\\' + row['tag'] + '.uti')
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(fieldgen, row, upgradefield_pattern, '#ITEMS')
 		if row['type'] == 'crystal':
@@ -819,7 +817,6 @@ with open('Input\\upgrades.csv', 'r') as csvfile:
 			add_line(upgradegen, row, upgrade_pattern, '#UPGRADES')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		if row['poisoncode']:
-			verify_code(poisons, row['poisoncode'])
 			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
 		if row['dc']:
 			add_line(dcs, row, dcheader_pattern, ';HEADERS')
@@ -830,15 +827,11 @@ with open('Input\\equipment.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
-		copy_template('Input\\' + row['tag'] + '.uti', 'Input\\' + row['tag'] + '.uti')
-		if row['baseitem']:
-			add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
-		else:
-			verify_code(baseitems, row['baseitemcode'])
+		copy_template('Input\\' + row['tag'] + '.uti', 'Output\\' + row['tag'] + '.uti')
+		if 'baseitemcode' in row:
 			add_line(featgen, row, baseitem_pattern, '#ITEMS')
-			add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
 		add_line(costgen, row, cost_pattern, '#COSTS')
-		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 
 # Launchers
@@ -846,10 +839,7 @@ with open('Input\\launchers.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
-		copy_template('Input\\Templates\\launcher.uti', 'Input\\' + row['tag'] + '.uti')
-		verify_code(baseitems, row['baseitemcode'])
-		verify_code(feats, row['featbonus1'])
-		verify_code(feats, row['featbonus2'])
+		copy_template('Input\\launcher.uti', 'Output\\' + row['tag'] + '.uti')
 		if row['type'] == '2':
 			add_line(costgen, row, featbonus2_pattern, '#BONUSES')
 		else:
@@ -864,8 +854,7 @@ with open('Input\\shields.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
-		copy_template('Input\\Templates\\shield.uti', 'Input\\' + row['tag'] + '.uti')
-		verify_code(baseitems, row['baseitemcode'])
+		copy_template('Input\\shield.uti', 'Output\\' + row['tag'] + '.uti')
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(fieldgen, row, field_pattern, '#ITEMS')
@@ -886,7 +875,7 @@ with open('Input\\stimulants.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
-		copy_template('Input\\Templates\\stim.uti', 'Input\\' + row['tag'] + '.uti')
+		copy_template('Input\\stim.uti', 'Output\\' + row['tag'] + '.uti')
 		verify_code(baseitems, row['baseitemcode'])
 		verify_function(incstims, row['functioncall'])
 		verify_function(incvisual, row['visualfunction'])
@@ -906,7 +895,7 @@ with open('Input\\grenades.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
-		copy_template('Input\\Templates\\grenade.uti', 'Input\\' + row['tag'] + '.uti')
+		copy_template('Input\\grenade.uti', 'Output\\' + row['tag'] + '.uti')
 		add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
 		verify_function(incgrenade, row['functioncall'])
 		verify_function(incvisual, row['visualfunction'])
@@ -923,7 +912,7 @@ with open('Input\\fuel.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
-		copy_template('Input\\Templates\\fuel.uti', 'Input\\' + row['tag'] + '.uti')
+		copy_template('Input\\fuel.uti', 'Output\\' + row['tag'] + '.uti')
 		if row['baseitem']:
 			add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
 		else:
@@ -954,7 +943,7 @@ with open('Input\\ammoboxes.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
-		copy_template('Input\\Templates\\ammobox.uti', 'Input\\' + row['tag'] + '.uti')
+		copy_template('Input\\ammobox.uti', 'Output\\' + row['tag'] + '.uti')
 		verify_code(baseitems, row['baseitemcode'])
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
@@ -976,9 +965,9 @@ with open('Input\\energy.csv', 'r') as csvfile:
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
 		if row['heavy']:
-			copy_template('Input\\Templates\\heavyenergy.uti', 'Input\\' + row['tag'] + '.uti')
+			copy_template('Input\\heavyenergy.uti', 'Output\\' + row['tag'] + '.uti')
 		else:
-			copy_template('Input\\Templates\\energy.uti', 'Input\\' + row['tag'] + '.uti')
+			copy_template('Input\\energy.uti', 'Output\\' + row['tag'] + '.uti')
 		verify_code(baseitems, row['baseitemcode'])
 		verify_function(incenergy, row['functioncall'])
 		verify_function(incvisual, row['visualfunction'])
@@ -1012,11 +1001,11 @@ with open('Input\\healing.csv', 'r') as csvfile:
 		verify_function(inchealing + incfuelweap, row['functioncall'])
 		verify_function(incvisual, row['visualfunction'])
 		if row['type'] == 'medpac':
-			copy_template('Input\\Templates\\medpac.uti', 'Input\\' + row['tag'] + '.uti')
+			copy_template('Input\\medpac.uti', 'Output\\' + row['tag'] + '.uti')
 			add_line(spellgen, row, medpacspell_pattern, '#SPELLS')
 			add_line(upgradegen, row, medstation_pattern, '#MEDS')
 		else:
-			copy_template('Input\\Templates\\repairkit.uti', 'Input\\' + row['tag'] + '.uti')
+			copy_template('Input\\repairkit.uti', 'Output\\' + row['tag'] + '.uti')
 			# We'll use ammo boxes for these now
 			# add_line(spellgen, row, repairspell_pattern, '#SPELLS')
 			# add_line(upgradegen, row, craftitem_pattern, '#ITEMS')
@@ -1032,7 +1021,7 @@ with open('Input\\healing.csv', 'r') as csvfile:
 with open('Input\\mines.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
-		copy_template('Input\\Templates\\trap.uti', 'Input\\' + row['tag'] + '.uti')
+		copy_template('Input\\trap.uti', 'Output\\' + row['tag'] + '.uti')
 		verify_function(incmines, row['functioncall'])
 		if row['type'] == 'new':
 			row['description'] = descriptions[row['tag']]
@@ -1055,7 +1044,7 @@ with open('Input\\mines.csv', 'r') as csvfile:
 with open('Input\\turrets.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
-		copy_template('Input\\Templates\\trap.uti', 'Input\\' + row['tag'] + '.uti')
+		copy_template('Input\\trap.uti', 'Output\\' + row['tag'] + '.uti')
 		row['description'] = descriptions[row['tag']]
 		add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
@@ -1084,9 +1073,9 @@ with open('Input\\enemyweapons.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		if row['type'] == 'template':
-			copy_template('Input\\Templates\\enemyweapon.uti', 'Input\\' + row['tag'] + '.uti')
+			copy_template('Input\\enemyweapon.uti', 'Output\\' + row['tag'] + '.uti')
 		else:
-			copy_template('Input\\' + row['tag'] + '.uti', 'Input\\' + row['tag'] + '.uti')
+			copy_template('Input\\' + row['tag'] + '.uti', 'Output\\' + row['tag'] + '.uti')
 		row['name'] = 'Enemy Weapon'
 		row['description'] = 'Enemy Weapon'
 		row['cost'] = 0
@@ -1112,11 +1101,11 @@ with open('Input\\enemyspells.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		if row['use'] == 'single':
-			copy_template('Input\\Templates\\enemysinglespell.uti', 'Input\\' + row['tag'] + '.uti')
+			copy_template('Input\\enemysinglespell.uti', 'Output\\' + row['tag'] + '.uti')
 		elif row['use'] == 'double':
-			copy_template('Input\\Templates\\enemydoublespell.uti', 'Input\\' + row['tag'] + '.uti')
+			copy_template('Input\\enemydoublespell.uti', 'Output\\' + row['tag'] + '.uti')
 		else:
-			copy_template('Input\\Templates\\enemyspell.uti', 'Input\\' + row['tag'] + '.uti')
+			copy_template('Input\\enemyspell.uti', 'Output\\' + row['tag'] + '.uti')
 		row['name'] = 'Enemy Equipment'
 		row['description'] = 'Enemy Equipment'
 		row['cost'] = 0

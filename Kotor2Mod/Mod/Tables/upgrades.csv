@@ -137,7 +137,7 @@ ul_elec,saber,2000,Telgorn Jolt Cell,,1,SABER_UPGRADE_ELECTRIC,,18,science,18,0,
 ul_cold,saber,2300,Cold Cell,,1,SABER_UPGRADE_COLD,,18,science,27,0,saber_group
 ul_fire,saber,2500,Fire Cell,,1,SABER_UPGRADE_FIRE,,16,science,28,0,saber_group
 ul_ion,saber,1800,Ion Cell,,1,SABER_UPGRADE_ION,,,science,20,0,saber_group
-ul_vibro,saber,1600,Vibration Cell,,1,SABER_UPGRADE_VIBRO,,,science,24,0,saber_group
+ul_disrup,saber,1600,Disrupting Cell,,1,SABER_UPGRADE_DISRUPT,,,science,24,0,saber_group
 ul_rubat,crystal,1000,Rubat Crystal,,1,CRYSTAL_RUBAT,,,,,,
 ul_nextor,crystal,1100,Nextor Crystal,,1,CRYSTAL_NEXTOR,,,,,,
 ul_dragit,crystal,1200,Dragite Crystal,,1,CRYSTAL_DRAGITE,,,,,,

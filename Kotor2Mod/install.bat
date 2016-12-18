@@ -18,6 +18,7 @@ copy Mod\GFFs\Medpacs\* Install\Gen\Input
 copy Mod\GFFs\Mines\* Install\Gen\Input
 copy Mod\GFFs\Saber\* Install\Gen\Input
 copy Mod\GFFs\Shields\* Install\Gen\Input
+copy Mod\GFFs\Templates\* Install\Gen\Input
 copy Mod\GFFs\Turrets\* Install\Gen\Input
 copy Mod\GFFs\Upgrades\* Install\Gen\Input
 copy Mod\GFFs\Weapons\* Install\Gen\Input

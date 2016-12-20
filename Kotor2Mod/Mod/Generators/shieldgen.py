@@ -5,8 +5,6 @@ shieldnames = list()
 #SHIELDS
 
 
-
-
 shields = 'error'
 with open('shields.ini', 'r') as file:
 	shields = file.read()

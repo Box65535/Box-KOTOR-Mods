@@ -1,35 +1,35 @@
-tag,type,baseitemcode,cost,name,model,tagconst,featcode,spellcode,spellcr,script,launchsound,projectile,projpath,radius,functioncall,visualfunction,spellexclusion
-al_frag,grenade,BOXI_FUEL,0,Frag Grenade Ammo,,FRAG_GRENADE_AMMO,BOXF_FRAG_GRENADE,BOX_FRAG_LAUNCHER,6,box_fraglauncher,****,w_FragGren_001,ballistic,4,Box_FragGrenadeLauncher,Box_FragGrenadeExplode,
-al_flash,grenade,BOXI_FUEL,0,Flash Grenade Ammo,,FLASH_GRENADE_AMMO,BOXF_FLASH_GRENADE,BOX_FLASH_LAUNCHER,6,box_flashlauncher,****,w_StunGren_001,ballistic,4,Box_FlashGrenadeLauncher,Box_FlashGrenadeExplode,
-al_poison,grenade,BOXI_FUEL,0,Poison Grenade Ammo,,POISON_GRENADE_AMMO,BOXF_POISON_GRENADE,BOX_POISON_LAUNCHER,6,box_poisonlauncher,****,w_PoisnGren_001,ballistic,4,Box_PoisonGrenadeLauncher,Box_GasGrenadeExplode,
-al_nerve,grenade,BOXI_FUEL,0,Nerve Grenade Ammo,,NERVE_GRENADE_AMMO,BOXF_NERVE_GRENADE,BOX_NERVE_LAUNCHER,6,box_nervelauncher,****,w_PoisnGren_001,ballistic,4,Box_NerveGrenadeLauncher,Box_GasGrenadeExplode,
-al_sonic,grenade,BOXI_FUEL,0,Sonic Detonator Ammo,,SONIC_GRENADE_AMMO,BOXF_SONIC_GRENADE_1,BOX_SONIC_LAUNCHER,6,box_soniclauncher,****,w_SonicGren_001,ballistic,4,Box_SonicGrenadeLauncher,Box_SonicGrenadeExplode,
-al_sonic2,grenade,BOXI_FUEL,0,Heavy Sonic Detonator Ammo,,SONIC_GRENADE_2_AMMO,BOXF_SONIC_GRENADE_2,BOX_SONIC_LAUNCHER_2,6,box_soniclauncher2,****,w_SonicGren_001,ballistic,4,Box_SonicGrenadeLauncher2,Box_SonicGrenadeExplode,
-al_cold,grenade,BOXI_FUEL,0,CryoBan Grenade Ammo,,COLD_GRENADE_AMMO,BOXF_COLD_GRENADE,BOX_COLD_LAUNCHER,6,box_coldlauncher,****,w_CryobGren_001,ballistic,4,Box_ColdGrenadeLauncher,Box_ColdGrenadeExplode,
-al_adhes,grenade,BOXI_FUEL,0,Adhesive Grenade Ammo,,ADHESIVE_GRENADE_AMMO,BOXF_ADHESIVE_GRENADE,BOX_ADHESIVE_LAUNCHER,6,box_adhesivelauncher,****,w_AdhsvGren_001,ballistic,4,Box_AdhesiveGrenadeLauncher,Box_AdhesiveGrenadeExplode,
-al_plasma,grenade,BOXI_FUEL,0,Plasma Grenade Ammo,,PLASMA_GRENADE_AMMO,BOXF_PLASMA_GRENADE,BOX_PLASMA_LAUNCHER,6,box_plasmalauncher,****,w_FireGren_001,ballistic,4,Box_PlasmaGrenadeLauncher,Box_PlasmaGrenadeExplode,
-al_ion,grenade,BOXI_FUEL,0,Ion Grenade Ammo,,ION_GRENADE_AMMO,BOXF_ION_GRENADE,BOX_ION_LAUNCHER,6,box_ionlauncher,****,w_IonGren_001,ballistic,4,Box_IonGrenadeLauncher,Box_IonGrenadeExplode,
-ar_explo,grenade,BOXI_FUEL,0,Explosive Rocket,,EXPLOSIVE_ROCKET,BOXF_EXPLOSIVE_ROCKET,BOX_EXPLOSIVE_ROCKET,9,box_explosiverocket,****,W_rokplasma,accelerating,5,Box_ExplosiveRocket,Box_ExplosiveRocketExplode,
-ar_fire,grenade,BOXI_FUEL,0,Incendiary Rocket,,INDENCIARY_ROCKET,BOXF_INCENDIARY_ROCKET,BOX_INCENDIARY_ROCKET,9,box_incendiaryrocket,****,W_rokplasma,accelerating,5,Box_IncendiaryRocket,Box_IncendiaryRocketExplode,
-ar_buster,blast,BOXI_FUEL,0,Buster Rocket,,BUSTER_ROCKET,BOXF_BUSTER_ROCKET_1,BOX_BUSTER_ROCKET,9,box_busterrocket,****,W_rokpierce,accelerating,,Box_BusterRocket,Box_BusterRocketBeam,0x00
-ar_buster2,blast,BOXI_FUEL,0,Buster Rocket Mk II,,BUSTER_ROCKET_2,BOXF_BUSTER_ROCKET_2,BOX_BUSTER_ROCKET_2,9,box_busterrocket2,****,W_rokpierce,accelerating,,Box_BusterRocket2,Box_BusterRocketBeam,0x00
-ar_cold,grenade,BOXI_FUEL,0,Carbonite Rocket,,CARBONITE_ROCKET,BOXF_COLD_ROCKET,BOX_COLD_ROCKET,9,box_coldrocket,****,W_rokconc,accelerating,5,Box_ColdRocket,Box_ColdRocketExplode,
-ar_?,grenade,BOXI_FUEL,0,Alt Cold Rocket,,ALT_COLD_ROCKET,BOXF_ALT_COLD_ROCKET,?,9,?,****,?,accelerating,5,?,?,
-ar_plasma,grenade,BOXI_FUEL,0,Plasma Rocket,,PLASMA_ROCKET,BOXF_PLASMA_ROCKET,BOX_PLASMA_ROCKET,9,box_plasmarocket,****,W_rokion,accelerating,5,Box_PlasmaRocket,Box_PlasmaRocketExplode,
-ar_radian,grenade,BOXI_FUEL,0,Radiation Rocket,,RADIATION_ROCKET,BOXF_RADIATION_ROCKET,BOX_RADIATION_ROCKET,9,box_radiationrocket,****,W_rokpoisn,accelerating,5,Box_RadiationRocket,Box_RadiationRocketExplode,
-ar_therm,grenade,BOXI_FUEL,0,Thermal Detonator Ammo,,THERMAL_DETONATOR_AMMO,BOXF_THERMAL_DETONATOR,BOX_DETONATOR_LAUNCHER,9,box_detonatorlauncher,****,w_ThermDet_001,ballistic,5,Box_DetonatorLauncher,Box_DetonatorGrenadeExplode,
-ar_fusion,grenade,BOXI_FUEL,0,Fusion Rocket,,FUSION_ROCKET,BOXF_FUSION_ROCKET,BOX_FUSION_ROCKET,9,box_fusionrocket,****,W_rokion,accelerating,5,Box_FusionRocket,Box_FusionRocketExplode,
-aa_mining,beam,BOXI_FUEL,50,Peragus Mining Fuel,,PERAGUS_FUEL,BOXF_PERAGUS_FUEL,BOX_PERAGUS_FUEL,3,box_fuelburner,****,****,****,,Box_FuelBurner,Box_FlamethrowerBeam,0x00
-aa_flame1,beam,BOXI_FUEL,0,Flamethrower Fuel,,FLAMETHROWER_FUEL,BOXF_FLAMETHROWER,BOX_FLAMETHROWER,3,box_flamethrower1,****,****,****,,Box_Flamethrower,Box_FlamethrowerBeam,0x00
-aa_flame2,beam,BOXI_FUEL,0,High Octane Flamethrower Fuel,,FLAMETHROWER_2_FUEL,BOXF_FLAMETHROWER,BOX_FLAMETHROWER_2,6,box_flamethrower2,****,****,****,,Box_Flamethrower2,Box_FlamethrowerBeam,0x00
-aa_flame3,beam,BOXI_FUEL,0,Plasma Flamethrower Fuel,,PLASMA_FLAMETHROWER_FUEL,BOXF_FLAMETHROWER,BOX_PLASMA_FLAMETHROWER,9,box_plasmaflamethrower,****,****,****,,Box_PlasmaFlamethrower,Box_FlamethrowerBeam,0x00
-aa_carbon1,beam,BOXI_FUEL,0,Carbonite Fuel,,CARBONITE_FUEL,BOXF_CARBONITE,BOX_CARBONITE,6,box_carbonite1,****,****,****,,Box_Carbonite,Box_CarboniteBeam,0x00
-aa_carbon2,beam,BOXI_FUEL,0,Concentrated Carbonite Fuel,,CARBONITE_2_FUEL,BOXF_CARBONITE,BOX_CARBONITE_2,9,box_carbonite2,****,****,****,,Box_Carbonite2,Box_CarboniteBeam,0x00
-aa_ion,blast,BOXI_FUEL,0,Ion Fuel Tank,,ION_FUEL,BOXF_ENERGY_FUEL,BOX_ION_BLASTER,6,box_ionblaster,cb_sh_pwrblast1,w_lfire_pb_b1,homing,,Box_IonBlaster,Box_NoBeam,0x00
-aa_plasma,blast,BOXI_FUEL,0,Plasma Fuel Tank,,PLASMA_FUEL,BOXF_ENERGY_FUEL,BOX_PLASMA_BLASTER,6,box_plasmablaster,cb_sh_pwrblast1,w_lfire_pb_r1,homing,,Box_PlasmaBlaster,Box_NoBeam,0x00
-aa_antima,blast,BOXI_FUEL,0,Antimatter Fuel Tank,,ANTIMATTER_FUEL,BOXF_ENERGY_FUEL,BOX_ANTIMATTER_BLASTER,9,box_antimatterblaster,cb_sh_pwrblast1,w_lfire_pb_w1,homing,,Box_AntimatterBlaster,Box_NoBeam,0x00
-aa_grappl,blast,BOXI_FUEL,0,Grappling Hook,,GRAPPLING_HOOK,BOXF_GRAPPLING_HOOK,BOX_GRAPPLING_HOOK,3,box_grapplinghook,****,W_rokdart,homing,,Box_GrapplingHook,Box_NoBeam,0x00
-aa_psndt,blast,BOXI_FUEL,0,Poison Dart,,POISON_DART,BOXF_DARTS,BOX_POISON_DART,3,box_poisondart,****,W_rokdart,homing,,Box_PoisonDart,Box_NoBeam,0x02
-aa_slpdt,blast,BOXI_FUEL,0,Tranquilizer Dart,,SLEEP_DART,BOXF_DARTS,BOX_SLEEP_DART,3,box_sleepdart,****,W_rokdart,homing,,Box_SleepDart,Box_NoBeam,0x02
-aa_kybdt,blast,BOXI_FUEL,0,Kyber Dart,,KYBER_DART,BOXF_DARTS,BOX_KYBER_DART,6,box_kyberdart,****,W_rokdart,homing,,Box_KyberDart,Box_NoBeam,0x02
-aa_pardt,blast,BOXI_FUEL,0,Paralysis Dart,,PARALYSIS_DART,BOXF_DARTS,BOX_PARALYSIS_DART,6,box_paralysisdart,****,W_rokdart,homing,,Box_ParalysisDart,Box_NoBeam,0x02
+tag,type,baseitemcode,cost,name,model,tagconst,featcode,spellcode,spellconst,spellcr,script,launchsound,projectile,projpath,radius,functioncall,visualfunction,spellexclusion
+al_frag,grenade,BOXI_FUEL,0,Frag Grenade Ammo,,FRAG_GRENADE_AMMO,BOXF_FRAG_GRENADE,BOXS_FRAG_LAUNCHER,SPELL_FRAG_LAUNCHER,6,box_fraglauncher,****,w_FragGren_001,ballistic,4,Box_FragGrenadeLauncher,Box_FragGrenadeExplode,
+al_flash,grenade,BOXI_FUEL,0,Flash Grenade Ammo,,FLASH_GRENADE_AMMO,BOXF_FLASH_GRENADE,BOXS_FLASH_LAUNCHER,SPELL_FLASH_LAUNCHER,6,box_flashlauncher,****,w_StunGren_001,ballistic,4,Box_FlashGrenadeLauncher,Box_FlashGrenadeExplode,
+al_poison,grenade,BOXI_FUEL,0,Poison Grenade Ammo,,POISON_GRENADE_AMMO,BOXF_POISON_GRENADE,BOXS_POISON_LAUNCHER,SPELL_POISON_LAUNCHER,6,box_poisonlauncher,****,w_PoisnGren_001,ballistic,4,Box_PoisonGrenadeLauncher,Box_GasGrenadeExplode,
+al_nerve,grenade,BOXI_FUEL,0,Nerve Grenade Ammo,,NERVE_GRENADE_AMMO,BOXF_NERVE_GRENADE,BOXS_NERVE_LAUNCHER,SPELL_NERVE_LAUNCHER,6,box_nervelauncher,****,w_PoisnGren_001,ballistic,4,Box_NerveGrenadeLauncher,Box_GasGrenadeExplode,
+al_sonic,grenade,BOXI_FUEL,0,Sonic Detonator Ammo,,SONIC_GRENADE_AMMO,BOXF_SONIC_GRENADE_1,BOXS_SONIC_LAUNCHER,SPELL_SONIC_LAUNCHER,6,box_soniclauncher,****,w_SonicGren_001,ballistic,4,Box_SonicGrenadeLauncher,Box_SonicGrenadeExplode,
+al_sonic2,grenade,BOXI_FUEL,0,Heavy Sonic Detonator Ammo,,SONIC_GRENADE_2_AMMO,BOXF_SONIC_GRENADE_2,BOXS_SONIC_LAUNCHER_2,SPELL_SONIC_LAUNCHER_2,6,box_soniclauncher2,****,w_SonicGren_001,ballistic,4,Box_SonicGrenadeLauncher2,Box_SonicGrenadeExplode,
+al_cold,grenade,BOXI_FUEL,0,CryoBan Grenade Ammo,,COLD_GRENADE_AMMO,BOXF_COLD_GRENADE,BOXS_COLD_LAUNCHER,SPELL_COLD_LAUNCHER,6,box_coldlauncher,****,w_CryobGren_001,ballistic,4,Box_ColdGrenadeLauncher,Box_ColdGrenadeExplode,
+al_adhes,grenade,BOXI_FUEL,0,Adhesive Grenade Ammo,,ADHESIVE_GRENADE_AMMO,BOXF_ADHESIVE_GRENADE,BOXS_ADHESIVE_LAUNCHER,SPELL_ADHESIVE_LAUNCHER,6,box_adhesivelauncher,****,w_AdhsvGren_001,ballistic,4,Box_AdhesiveGrenadeLauncher,Box_AdhesiveGrenadeExplode,
+al_plasma,grenade,BOXI_FUEL,0,Plasma Grenade Ammo,,PLASMA_GRENADE_AMMO,BOXF_PLASMA_GRENADE,BOXS_PLASMA_LAUNCHER,SPELL_PLASMA_LAUNCHER,6,box_plasmalauncher,****,w_FireGren_001,ballistic,4,Box_PlasmaGrenadeLauncher,Box_PlasmaGrenadeExplode,
+al_ion,grenade,BOXI_FUEL,0,Ion Grenade Ammo,,ION_GRENADE_AMMO,BOXF_ION_GRENADE,BOXS_ION_LAUNCHER,SPELL_ION_LAUNCHER,6,box_ionlauncher,****,w_IonGren_001,ballistic,4,Box_IonGrenadeLauncher,Box_IonGrenadeExplode,
+ar_explo,grenade,BOXI_FUEL,0,Explosive Rocket,,EXPLOSIVE_ROCKET,BOXF_EXPLOSIVE_ROCKET,BOXS_EXPLOSIVE_ROCKET,SPELL_EXPLOSIVE_ROCKET,9,box_explosiverocket,****,W_rokplasma,accelerating,5,Box_ExplosiveRocket,Box_RocketExplode,
+ar_fire,grenade,BOXI_FUEL,0,Incendiary Rocket,,INDENCIARY_ROCKET,BOXF_INCENDIARY_ROCKET,BOXS_INCENDIARY_ROCKET,SPELL_INCENDIARY_ROCKET,9,box_incendiaryrocket,****,W_rokplasma,accelerating,5,Box_IncendiaryRocket,Box_FireRocketExplode,
+ar_buster,blast,BOXI_FUEL,0,Buster Rocket,,BUSTER_ROCKET,BOXF_BUSTER_ROCKET_1,BOXS_BUSTER_ROCKET,SPELL_BUSTER_ROCKET,9,box_busterrocket,****,W_rokpierce,accelerating,,Box_BusterRocket,Box_BusterRocketBeam,0x00
+ar_buster2,blast,BOXI_FUEL,0,Buster Rocket Mk II,,BUSTER_ROCKET_2,BOXF_BUSTER_ROCKET_2,BOXS_BUSTER_ROCKET_2,SPELL_BUSTER_ROCKET_2,9,box_busterrocket2,****,W_rokpierce,accelerating,,Box_BusterRocket2,Box_BusterRocketBeam,0x00
+ar_cold,grenade,BOXI_FUEL,0,Carbonite Rocket,,CARBONITE_ROCKET,BOXF_COLD_ROCKET,BOXS_COLD_ROCKET,SPELL_COLD_ROCKET,9,box_coldrocket,****,W_rokconc,accelerating,5,Box_ColdRocket,Box_ColdRocketExplode,
+ar_altcold,grenade,BOXI_FUEL,0,Alt Cold Rocket,,ALT_COLD_ROCKET,BOXF_ALT_COLD_ROCKET,BOXS_ALT_COLD_ROCKET,SPELL_ALT_COLD_ROCKET,9,box_altcoldrocket,****,W_rokconc,accelerating,5,Box_ColdRocket,Box_ColdRocketExplode,
+ar_plasma,grenade,BOXI_FUEL,0,Plasma Rocket,,PLASMA_ROCKET,BOXF_PLASMA_ROCKET,BOXS_PLASMA_ROCKET,SPELL_PLASMA_ROCKET,9,box_plasmarocket,****,W_rokion,accelerating,5,Box_PlasmaRocket,Box_PlasmaRocketExplode,
+ar_radian,grenade,BOXI_FUEL,0,Radiation Rocket,,RADIATION_ROCKET,BOXF_RADIATION_ROCKET,BOXS_RADIATION_ROCKET,SPELL_RADIATION_ROCKET,9,box_radiationrocket,****,W_rokpoisn,accelerating,5,Box_RadiationRocket,Box_RadiationRocketExplode,
+al_therm,grenade,BOXI_FUEL,0,Thermal Detonator Ammo,,THERMAL_DETONATOR_AMMO,BOXF_THERMAL_DETONATOR,BOXS_DETONATOR_LAUNCHER,SPELL_DETONATOR_LAUNCHER,9,box_detonatorlauncher,****,w_ThermDet_001,ballistic,5,Box_DetonatorLauncher,Box_DetonatorGrenadeExplode,
+ar_fusion,grenade,BOXI_FUEL,0,Fusion Rocket,,FUSION_ROCKET,BOXF_FUSION_ROCKET,BOXS_FUSION_ROCKET,SPELL_FUSION_ROCKET,9,box_fusionrocket,****,W_rokion,accelerating,5,Box_FusionRocket,Box_FusionRocketExplode,
+aa_mining,beam,BOXI_FUEL,50,Peragus Mining Fuel,,PERAGUS_FUEL,BOXF_PERAGUS_FUEL,BOXS_PERAGUS_FUEL,SPELL_PERAGUS_FUEL,3,box_fuelburner,****,****,****,,Box_FuelBurner,Box_FlamethrowerBeam,0x00
+aa_flame1,beam,BOXI_FUEL,0,Flamethrower Fuel,,FLAMETHROWER_FUEL,BOXF_FLAMETHROWER,BOXS_FLAMETHROWER,SPELL_FLAMETHROWER,3,box_flamethrower1,****,****,****,,Box_Flamethrower,Box_FlamethrowerBeam,0x00
+aa_flame2,beam,BOXI_FUEL,0,High Octane Flamethrower Fuel,,FLAMETHROWER_2_FUEL,BOXF_FLAMETHROWER,BOXS_FLAMETHROWER_2,SPELL_FLAMETHROWER_2,6,box_flamethrower2,****,****,****,,Box_Flamethrower2,Box_FlamethrowerBeam,0x00
+aa_flame3,beam,BOXI_FUEL,0,Plasma Flamethrower Fuel,,PLASMA_FLAMETHROWER_FUEL,BOXF_FLAMETHROWER,BOXS_PLASMA_FLAMETHROWER,SPELL_PLASMA_FLAMETHROWER,9,box_plasmaflamethrower,****,****,****,,Box_PlasmaFlamethrower,Box_FlamethrowerBeam,0x00
+aa_carbon1,beam,BOXI_FUEL,0,Carbonite Fuel,,CARBONITE_FUEL,BOXF_CARBONITE,BOXS_CARBONITE,SPELL_CARBONITE,6,box_carbonite1,****,****,****,,Box_Carbonite,Box_CarboniteBeam,0x00
+aa_carbon2,beam,BOXI_FUEL,0,Concentrated Carbonite Fuel,,CARBONITE_2_FUEL,BOXF_CARBONITE,BOXS_CARBONITE_2,SPELL_CARBONITE_2,9,box_carbonite2,****,****,****,,Box_Carbonite2,Box_CarboniteBeam,0x00
+aa_ion,blast,BOXI_FUEL,0,Ion Fuel Tank,,ION_FUEL,BOXF_ENERGY_FUEL,BOXS_ION_BLASTER,SPELL_ION_BLASTER,6,box_ionblaster,cb_sh_pwrblast1,w_lfire_pb_b1,homing,,Box_IonBlaster,Box_NoBeam,0x00
+aa_plasma,blast,BOXI_FUEL,0,Plasma Fuel Tank,,PLASMA_FUEL,BOXF_ENERGY_FUEL,BOXS_PLASMA_BLASTER,SPELL_PLASMA_BLASTER,6,box_plasmablaster,cb_sh_pwrblast1,w_lfire_pb_r1,homing,,Box_PlasmaBlaster,Box_NoBeam,0x00
+aa_antima,blast,BOXI_FUEL,0,Antimatter Fuel Tank,,ANTIMATTER_FUEL,BOXF_ENERGY_FUEL,BOXS_ANTIMATTER_BLASTER,SPELL_ANTIMATTER_BLASTER,9,box_antimatterblaster,cb_sh_pwrblast1,w_lfire_pb_w1,homing,,Box_AntimatterBlaster,Box_NoBeam,0x00
+aa_grappl,blast,BOXI_FUEL,0,Grappling Hook,,GRAPPLING_HOOK,BOXF_GRAPPLING_HOOK,BOXS_GRAPPLING_HOOK,SPELL_GRAPPLING_HOOK,3,box_grapplinghook,****,W_rokdart,homing,,Box_GrapplingHook,Box_NoBeam,0x00
+aa_psndt,blast,BOXI_FUEL,0,Poison Dart,,POISON_DART,BOXF_DARTS,BOXS_POISON_DART,SPELL_POISON_DART,3,box_poisondart,****,W_rokdart,homing,,Box_PoisonDart,Box_NoBeam,0x02
+aa_slpdt,blast,BOXI_FUEL,0,Tranquilizer Dart,,SLEEP_DART,BOXF_DARTS,BOXS_SLEEP_DART,SPELL_SLEEP_DART,3,box_sleepdart,****,W_rokdart,homing,,Box_SleepDart,Box_NoBeam,0x02
+aa_kybdt,blast,BOXI_FUEL,0,Kyber Dart,,KYBER_DART,BOXF_DARTS,BOXS_KYBER_DART,SPELL_KYBER_DART,6,box_kyberdart,****,W_rokdart,homing,,Box_KyberDart,Box_NoBeam,0x02
+aa_pardt,blast,BOXI_FUEL,0,Paralysis Dart,,PARALYSIS_DART,BOXF_DARTS,BOXS_PARALYSIS_DART,SPELL_PARALYSIS_DART,6,box_paralysisdart,****,W_rokdart,homing,,Box_ParalysisDart,Box_NoBeam,0x02

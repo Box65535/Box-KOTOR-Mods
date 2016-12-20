@@ -38,8 +38,8 @@ void Box_RepairKit(object oUser, int regen, float duration) {
 void Box_QuickFix(object oUser, int heal, int penalty, float duration) {
 	
 	effect eHeal = EffectHeal(heal);
-	effect eWeak = EffectAbilityDecrease(ABILITY_STRENGTH, penalty);
-	eWeak = EffectLinkEffects(eWeak, EffectAbilityDecrease(ABILITY_DEXTERITY, penalty));
+	effect eWeak = EffectAbilityDecrease(ABILITY_DEXTERITY, penalty);
+	eWeak = EffectLinkEffects(eWeak, EffectAbilityDecrease(ABILITY_INTELLIGENCE, penalty));
 	eWeak = EffectLinkEffects(eWeak, EffectAbilityDecrease(ABILITY_WISDOM, penalty));
 	
 	ApplyEffectToObject(DURATION_TYPE_INSTANT, eHeal, oUser);
@@ -93,7 +93,7 @@ void Box_RepairKit3(object oUser) {
 
 //
 void Box_RepairKit4(object oUser) {
-	Box_RepairKit(oUser, 30, 8.0f);
+	Box_RepairKit(oUser, 40, 8.0f);
 }
 
 //

@@ -1,39 +1,39 @@
-tag,type,baseitemcode,cost,name,model,tagconst,spellcode,spellcr,script,launchsound,ammotag,stacksize
-bl_frag,medstation,BOXI_AMMOBOX,200,Frag Grenades (6),,FRAG_GRENADE_BOX,BOX_FRAG_GRENADE_BOX,3,box_fraggrenadebox,****,fl_frag,6
-bl_flash,medstation,BOXI_AMMOBOX,200,Flash Grenades (6),,FLASH_GRENADE_BOX,BOX_FLASH_GRENADE_BOX,3,box_flashgrenadebox,****,fl_flash,6
-bl_poison,medstation,BOXI_AMMOBOX,250,Poison Grenades (6),,POISON_GRENADE_BOX,BOX_POISON_GRENADE_BOX,3,box_poisongrenadebox,****,fl_poison,6
-bl_nerve,medstation,BOXI_AMMOBOX,250,Nerve Grenades (6),,NERVE_GRENADE_BOX,BOX_NERVE_GRENADE_BOX,3,box_nervegrenadebox,****,fl_nerve,6
-bl_sonic,medstation,BOXI_AMMOBOX,250,Sonic Detonators (6),,SONIC_GRENADE_BOX,BOX_SONIC_GRENADE_BOX,3,box_sonicgrenadebox,****,fl_sonic,6
-bl_sonic2,medstation,BOXI_AMMOBOX,400,Heavy Sonic Detonators (6),,SONIC_GRENADE_2_BOX,BOX_SONIC_GRENADE_2_BOX,3,box_sonicgrenade2box,****,fl_sonic2,6
-bl_cold,medstation,BOXI_AMMOBOX,400,CryoBan Grenades (6),,COLD_GRENADE_BOX,BOX_COLD_GRENADE_BOX,3,box_coldgrenadebox,****,fl_cold,6
-bl_adhes,medstation,BOXI_AMMOBOX,300,Adhesive Grenades (6),,ADHESIVE_GRENADE_BOX,BOX_ADHESIVE_GRENADE_BOX,3,box_adhesivegrenadebox,****,fl_adhes,6
-bl_plasma,medstation,BOXI_AMMOBOX,400,Plasma Grenades (6),,PLASMA_GRENADE_BOX,BOX_PLASMA_GRENADE_BOX,3,box_plasmagrenadebox,****,fl_plasma,6
-bl_ion,medstation,BOXI_AMMOBOX,300,Ion Grenades (6),,ION_GRENADE_BOX,BOX_ION_GRENADE_BOX,3,box_iongrenadebox,****,fl_ion,6
-br_explo,medstation,BOXI_AMMOBOX,500,Explosive Rockets (4),,EXPLOSIVE_ROCKET_BOX,BOX_EXPLOSIVE_ROCKET_BOX,3,box_explosiverocketbox,****,fr_explo,4
-br_incen,medstation,BOXI_AMMOBOX,600,Incendiary Rockets (4),,INCENDIARY_ROCKET_BOX,BOX_INCENDIARY_ROCKET_BOX,3,box_incendiaryrocketbox,****,fr_incen,4
-br_buster,medstation,BOXI_AMMOBOX,400,Buster Rockets (4),,BUSTER_ROCKET_BOX,BOX_BUSTER_ROCKET_BOX,3,box_busterrocketbox,****,fr_buster,4
-br_buster2,medstation,BOXI_AMMOBOX,600,Mk II Buster Rockets (4),,BUSTER_ROCKET_2_BOX,BOX_BUSTER_ROCKET_2_BOX,3,box_busterrocket2box,****,fr_buster2,4
-br_cold,medstation,BOXI_AMMOBOX,700,Carbonite Rockets (4),,COLD_ROCKET_BOX,BOX_COLD_ROCKET_BOX,3,box_carboniterocketbox,****,fr_cold,4
-?,medstation,BOXI_AMMOBOX,700,?,,?,BOX_?,3,?,****,?,4
-br_plasma,medstation,BOXI_AMMOBOX,1500,Plasma Rockets (4),,PLASMA_ROCKET_BOX,BOX_PLASMA_ROCKET_BOX,3,box_plasmarocketbox,****,fr_plasma,4
-br_radian,medstation,BOXI_AMMOBOX,1500,Radiation Rockets (4),,RADIATION_ROCKET_BOX,BOX_RADIATION_ROCKET_BOX,3,box_radiationrocketbox,****,fr_radian,4
-br_therm,medstation,BOXI_AMMOBOX,2000,Thermal Detonators (6),,THERMAL_DETONATOR_BOX,BOX_THERMAL_DETONATOR_BOX,3,box_thermaldetonatorbox,****,fr_therm,6
-br_fusion,medstation,BOXI_AMMOBOX,3000,Fusion Rockets (4),,FUSION_ROCKET_BOX,BOX_FUSION_ROCKET_BOX,3,box_fusionrocketbox,****,fr_fusion,4
-ba_flame1,medstation,BOXI_AMMOBOX,200,Flamethrower Fuel (8),,FLAMETHROWER_FUEL_BOX,BOX_FLAMETHROWER_FUEL_BOX,3,box_flamethrowerbox,****,fa_flame1,8
-ba_flame2,medstation,BOXI_AMMOBOX,400,High Octane Flamethrower Fuel (8),,FLAMETHROWER_2_FUEL_BOX,BOX_FLAMETHROWER_2_FUEL_BOX,3,box_flamethrower2box,****,fa_flame2,8
-ba_flame3,medstation,BOXI_AMMOBOX,800,Plasma Flamethrower Fuel (8),,PLASMA_FLAMETHROWER_FUEL_BOX,BOX_PLASMA_FLAMETHROWER_FUEL_BOX,3,box_plasmaflamethrowerbox,****,fa_flame3,8
-ba_carbon1,medstation,BOXI_AMMOBOX,400,Carbonite (8),,CARBONITE_BOX,BOX_CARBONITE_BOX,3,box_carbonitebox,****,fa_carbon1,8
-ba_carbon2,medstation,BOXI_AMMOBOX,800,Concentrated Carbonite (8),,CARBONITE_2_BOX,BOX_CARBONITE_2_BOX,3,box_carbonite2box,****,fa_carbon2,8
-ba_plasma,medstation,BOXI_AMMOBOX,600,Plasma Fuel (8),,PLASMA_FUEL_BOX,BOX_PLASMA_FUEL_BOX,3,box_plasmabox,****,fa_plasma,8
-ba_ion,medstation,BOXI_AMMOBOX,600,Ion Fuel (8),,ION_FUEL_BOX,BOX_ION_FUEL_BOX,3,box_ionbox,****,fa_ion,8
-ba_antima,medstation,BOXI_AMMOBOX,1200,Antimatter Fuel (8),,ANTIMATTER_FUEL_BOX,BOX_ANTIMATTER_FUEL_BOX,3,box_antimatterbox,****,fa_antima,8
-ba_psndt,medstation,BOXI_AMMOBOX,300,Poison Darts (20),,POISON_DARTS_BOX,BOX_POISON_DARTS_BOX,3,box_poisondartbox,****,fa_psndt,20
-ba_slpdt,medstation,BOXI_AMMOBOX,300,Tranquilizer Darts (20),,SLEEP_DARTS_BOX,BOX_SLEEP_DARTS_BOX,3,box_sleepdartbox,****,fa_slpdt,20
-ba_kybdt,medstation,BOXI_AMMOBOX,750,Kyber Darts (20),,KYBER_DARTS_BOX,BOX_KYBER_DARTS_BOX,3,box_kyberdartbox,****,fa_kybdt,20
-ba_pardt,medstation,BOXI_AMMOBOX,750,Paralysis Darts (20),,PARALYSIS_DARTS_BOX,BOX_PARALYSIS_DARTS_BOX,3,box_paralysisdartbox,****,fa_pardt,20
-bh_repair1,workbench,BOXI_AMMOBOX,50,Small Repair Kits (12),,REPAIR_KIT_1_BOX,BOX_REPAIR_KIT_1_BOX,3,box_repairkit1box,****,hd_repair1,12
-bh_repair2,workbench,BOXI_AMMOBOX,100,Repair Kits (12),,REPAIR_KIT_2_BOX,BOX_REPAIR_KIT_2_BOX,3,box_repairkit2box,****,hd_repair2,12
-bh_repair3,workbench,BOXI_AMMOBOX,200,Advanced Repair Kits (12),,REPAIR_KIT_3_BOX,BOX_REPAIR_KIT_3_BOX,3,box_repairkit3box,****,hd_repair3,12
-bh_repair4,workbench,BOXI_AMMOBOX,300,Construction Kits (12),,REPAIR_KIT_4_BOX,BOX_REPAIR_KIT_4_BOX,3,box_repairkit4box,****,hd_repair4,12
-bh_quick1,workbench,BOXI_AMMOBOX,200,Quick Fix Kits (8),,QUICK_FIX_KIT_1_BOX,BOX_QUICK_FIX_KIT_1_BOX,3,box_quickkit1box,****,hd_quick1,8
-bh_quick2,workbench,BOXI_AMMOBOX,300,Quicker Fix Kits (8),,QUICK_FIX_KIT_2_BOX,BOX_QUICK_FIX_KIT_2_BOX,3,box_quickkit2box,****,hd_quick2,8
+tag,type,baseitemcode,cost,name,model,tagconst,spellcode,spellconst,spellcr,script,launchsound,ammotag,stacksize,skill,skillreq,levelreq,craftgroup
+bl_frag,medstation,BOXI_AMMOBOX,200,Frag Grenades (6),,FRAG_GRENADE_BOX,BOXS_FRAG_GRENADE_BOX,SPELL_FRAG_GRENADE_BOX,3,box_fraggrenadebox,****,al_frag,6,demolitions,0,0,grenade_group
+bl_flash,medstation,BOXI_AMMOBOX,200,Flash Grenades (6),,FLASH_GRENADE_BOX,BOXS_FLASH_GRENADE_BOX,SPELL_FLASH_GRENADE_BOX,3,box_flashgrenadebox,****,al_flash,6,demolitions,0,0,grenade_group
+bl_poison,medstation,BOXI_AMMOBOX,250,Poison Grenades (6),,POISON_GRENADE_BOX,BOXS_POISON_GRENADE_BOX,SPELL_POISON_GRENADE_BOX,3,box_poisongrenadebox,****,al_poison,6,demolitions,0,0,grenade_group
+bl_nerve,medstation,BOXI_AMMOBOX,250,Nerve Grenades (6),,NERVE_GRENADE_BOX,BOXS_NERVE_GRENADE_BOX,SPELL_NERVE_GRENADE_BOX,3,box_nervegrenadebox,****,al_nerve,6,demolitions,0,0,grenade_group
+bl_sonic,medstation,BOXI_AMMOBOX,250,Sonic Detonators (6),,SONIC_GRENADE_BOX,BOXS_SONIC_GRENADE_BOX,SPELL_SONIC_GRENADE_BOX,3,box_sonicgrenadebox,****,al_sonic,6,demolitions,0,0,grenade_group
+bl_sonic2,medstation,BOXI_AMMOBOX,400,Heavy Sonic Detonators (6),,SONIC_GRENADE_2_BOX,BOXS_SONIC_GRENADE_2_BOX,SPELL_SONIC_GRENADE_2_BOX,3,box_sonicgrenade2box,****,al_sonic2,6,demolitions,0,0,grenade_group
+bl_cold,medstation,BOXI_AMMOBOX,400,CryoBan Grenades (6),,COLD_GRENADE_BOX,BOXS_COLD_GRENADE_BOX,SPELL_COLD_GRENADE_BOX,3,box_coldgrenadebox,****,al_cold,6,demolitions,0,0,grenade_group
+bl_adhes,medstation,BOXI_AMMOBOX,300,Adhesive Grenades (6),,ADHESIVE_GRENADE_BOX,BOXS_ADHESIVE_GRENADE_BOX,SPELL_ADHESIVE_GRENADE_BOX,3,box_adhesivegrenadebox,****,al_adhes,6,demolitions,0,0,grenade_group
+bl_plasma,medstation,BOXI_AMMOBOX,400,Plasma Grenades (6),,PLASMA_GRENADE_BOX,BOXS_PLASMA_GRENADE_BOX,SPELL_PLASMA_GRENADE_BOX,3,box_plasmagrenadebox,****,al_plasma,6,demolitions,0,0,grenade_group
+bl_ion,medstation,BOXI_AMMOBOX,300,Ion Grenades (6),,ION_GRENADE_BOX,BOXS_ION_GRENADE_BOX,SPELL_ION_GRENADE_BOX,3,box_iongrenadebox,****,al_ion,6,demolitions,0,0,grenade_group
+br_explo,medstation,BOXI_AMMOBOX,500,Explosive Rockets (4),,EXPLOSIVE_ROCKET_BOX,BOXS_EXPLOSIVE_ROCKET_BOX,SPELL_EXPLOSIVE_ROCKET_BOX,3,box_explosiverocketbox,****,ar_explo,4,demolitions,0,0,grenade_group
+br_incen,medstation,BOXI_AMMOBOX,600,Incendiary Rockets (4),,INCENDIARY_ROCKET_BOX,BOXS_INCENDIARY_ROCKET_BOX,SPELL_INCENDIARY_ROCKET_BOX,3,box_incendiaryrocketbox,****,ar_incen,4,demolitions,0,0,grenade_group
+br_buster,medstation,BOXI_AMMOBOX,400,Buster Rockets (4),,BUSTER_ROCKET_BOX,BOXS_BUSTER_ROCKET_BOX,SPELL_BUSTER_ROCKET_BOX,3,box_busterrocketbox,****,ar_buster,4,demolitions,0,0,grenade_group
+br_buster2,medstation,BOXI_AMMOBOX,600,Mk II Buster Rockets (4),,BUSTER_ROCKET_2_BOX,BOXS_BUSTER_ROCKET_2_BOX,SPELL_BUSTER_ROCKET_2_BOX,3,box_busterrocket2box,****,ar_buster2,4,demolitions,0,0,grenade_group
+br_cold,medstation,BOXI_AMMOBOX,700,Carbonite Rockets (4),,COLD_ROCKET_BOX,BOXS_COLD_ROCKET_BOX,SPELL_COLD_ROCKET_BOX,3,box_carboniterocketbox,****,ar_cold,4,demolitions,0,0,grenade_group
+br_altcold,medstation,BOXI_AMMOBOX,700,Alt Rockets (4),,ALT_COLD_ROCKET_BOX,BOXS_ALT_COLD_ROCKET_BOX,SPELL_ALT_COLD_ROCKET_BOX,3,box_altcoldrocketbox,****,ar_altcold,4,demolitions,0,0,grenade_group
+br_plasma,medstation,BOXI_AMMOBOX,1500,Plasma Rockets (4),,PLASMA_ROCKET_BOX,BOXS_PLASMA_ROCKET_BOX,SPELL_PLASMA_ROCKET_BOX,3,box_plasmarocketbox,****,ar_plasma,4,demolitions,0,0,grenade_group
+br_radian,medstation,BOXI_AMMOBOX,1500,Radiation Rockets (4),,RADIATION_ROCKET_BOX,BOXS_RADIATION_ROCKET_BOX,SPELL_RADIATION_ROCKET_BOX,3,box_radiationrocketbox,****,ar_radian,4,demolitions,0,0,grenade_group
+bl_therm,medstation,BOXI_AMMOBOX,2000,Thermal Detonators (6),,THERMAL_DETONATOR_BOX,BOXS_THERMAL_DETONATOR_BOX,SPELL_THERMAL_DETONATOR_BOX,3,box_thermaldetonatorbox,****,al_therm,6,demolitions,0,0,grenade_group
+br_fusion,medstation,BOXI_AMMOBOX,3000,Fusion Rockets (4),,FUSION_ROCKET_BOX,BOXS_FUSION_ROCKET_BOX,SPELL_FUSION_ROCKET_BOX,3,box_fusionrocketbox,****,ar_fusion,4,demolitions,0,0,grenade_group
+ba_flame1,medstation,BOXI_AMMOBOX,200,Flamethrower Fuel (8),,FLAMETHROWER_FUEL_BOX,BOXS_FLAMETHROWER_FUEL_BOX,SPELL_FLAMETHROWER_FUEL_BOX,3,box_flamethrowerbox,****,aa_flame1,8,science,0,0,grenade_group
+ba_flame2,medstation,BOXI_AMMOBOX,400,High Octane Flamethrower Fuel (8),,FLAMETHROWER_2_FUEL_BOX,BOXS_FLAMETHROWER_2_FUEL_BOX,SPELL_FLAMETHROWER_2_FUEL_BOX,3,box_flamethrower2box,****,aa_flame2,8,science,0,0,grenade_group
+ba_flame3,medstation,BOXI_AMMOBOX,800,Plasma Flamethrower Fuel (8),,PLASMA_FLAMETHROWER_FUEL_BOX,BOXS_PLASMA_FLAMETHROWER_FUEL_BOX,SPELL_PLASMA_FLAMETHROWER_FUEL_BOX,3,box_plasmaflamethrowerbox,****,aa_flame3,8,science,0,0,grenade_group
+ba_carbon1,medstation,BOXI_AMMOBOX,400,Carbonite (8),,CARBONITE_BOX,BOXS_CARBONITE_BOX,SPELL_CARBONITE_BOX,3,box_carbonitebox,****,aa_carbon1,8,science,0,0,grenade_group
+ba_carbon2,medstation,BOXI_AMMOBOX,800,Concentrated Carbonite (8),,CARBONITE_2_BOX,BOXS_CARBONITE_2_BOX,SPELL_CARBONITE_2_BOX,3,box_carbonite2box,****,aa_carbon2,8,science,0,0,grenade_group
+ba_plasma,medstation,BOXI_AMMOBOX,600,Plasma Fuel (8),,PLASMA_FUEL_BOX,BOXS_PLASMA_FUEL_BOX,SPELL_PLASMA_FUEL_BOX,3,box_plasmabox,****,aa_plasma,8,science,0,0,grenade_group
+ba_ion,medstation,BOXI_AMMOBOX,600,Ion Fuel (8),,ION_FUEL_BOX,BOXS_ION_FUEL_BOX,SPELL_ION_FUEL_BOX,3,box_ionbox,****,aa_ion,8,science,0,0,grenade_group
+ba_antima,medstation,BOXI_AMMOBOX,1200,Antimatter Fuel (8),,ANTIMATTER_FUEL_BOX,BOXS_ANTIMATTER_FUEL_BOX,SPELL_ANTIMATTER_FUEL_BOX,3,box_antimatterbox,****,aa_antima,8,science,0,0,grenade_group
+ba_psndt,medstation,BOXI_AMMOBOX,300,Poison Darts (20),,POISON_DARTS_BOX,BOXS_POISON_DARTS_BOX,SPELL_POISON_DARTS_BOX,3,box_poisondartbox,****,aa_psndt,20,medicine,0,0,grenade_group
+ba_slpdt,medstation,BOXI_AMMOBOX,300,Tranquilizer Darts (20),,SLEEP_DARTS_BOX,BOXS_SLEEP_DARTS_BOX,SPELL_SLEEP_DARTS_BOX,3,box_sleepdartbox,****,aa_slpdt,20,medicine,0,0,grenade_group
+ba_kybdt,medstation,BOXI_AMMOBOX,750,Kyber Darts (20),,KYBER_DARTS_BOX,BOXS_KYBER_DARTS_BOX,SPELL_KYBER_DARTS_BOX,3,box_kyberdartbox,****,aa_kybdt,20,medicine,0,0,grenade_group
+ba_pardt,medstation,BOXI_AMMOBOX,750,Paralysis Darts (20),,PARALYSIS_DARTS_BOX,BOXS_PARALYSIS_DARTS_BOX,SPELL_PARALYSIS_DARTS_BOX,3,box_paralysisdartbox,****,aa_pardt,20,medicine,0,0,grenade_group
+bh_repair1,workbench,BOXI_AMMOBOX,50,Small Repair Kits (12),,REPAIR_KIT_1_BOX,BOXS_REPAIR_KIT_1_BOX,SPELL_REPAIR_KIT_1_BOX,3,box_repairkit1box,****,hd_repair1,12,repair,0,0,item_group
+bh_repair2,workbench,BOXI_AMMOBOX,100,Repair Kits (12),,REPAIR_KIT_2_BOX,BOXS_REPAIR_KIT_2_BOX,SPELL_REPAIR_KIT_2_BOX,3,box_repairkit2box,****,hd_repair2,12,repair,0,0,item_group
+bh_repair3,workbench,BOXI_AMMOBOX,200,Advanced Repair Kits (12),,REPAIR_KIT_3_BOX,BOXS_REPAIR_KIT_3_BOX,SPELL_REPAIR_KIT_3_BOX,3,box_repairkit3box,****,hd_repair3,12,repair,0,0,item_group
+bh_repair4,workbench,BOXI_AMMOBOX,300,Construction Kits (12),,REPAIR_KIT_4_BOX,BOXS_REPAIR_KIT_4_BOX,SPELL_REPAIR_KIT_4_BOX,3,box_repairkit4box,****,hd_repair4,12,repair,0,0,item_group
+bh_quick1,workbench,BOXI_AMMOBOX,200,Quick Fix Kits (8),,QUICK_FIX_KIT_1_BOX,BOXS_QUICK_FIX_KIT_1_BOX,SPELL_QUICK_FIX_KIT_1_BOX,3,box_quickkit1box,****,hd_quick1,8,repair,0,0,item_group
+bh_quick2,workbench,BOXI_AMMOBOX,300,Quicker Fix Kits (8),,QUICK_FIX_KIT_2_BOX,BOXS_QUICK_FIX_KIT_2_BOX,SPELL_QUICK_FIX_KIT_2_BOX,3,box_quickkit2box,****,hd_quick2,8,repair,0,0,item_group

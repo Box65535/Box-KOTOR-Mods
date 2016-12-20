@@ -205,8 +205,6 @@ spellitem_pattern = """items.append(Item('{tag}', '{spellcode}'))"""
 
 # shieldgen.py
 shieldcode_pattern = """shieldnames.append('{shieldcode}')"""
-shieldabsorb_pattern = """replaces['{shieldcode}_ABSORB'] = '{shieldabsorb}'"""
-shieldflags_pattern = """replaces['{shieldcode}_FLAGS'] = '{shieldflags}'"""
 
 # upgradegen.py
 upgrade_pattern = """upgrades.append(Upgrade('{tag}', {upgradetype}, {skill},
@@ -262,6 +260,7 @@ upgradefield_pattern = """items.append(Item('{tag}', '{name}', \"\"\"{descriptio
 trapcode_pattern = """trapcodes.append('{trapcode}')"""
 trapitem_pattern = """itemcodes['{tag}.uti'] = '{trapcode}'"""
 
+
 # box_inc_ai.nss
 rangedai_pattern = """baseItem == {baseitemconst} ||"""
 
@@ -293,6 +292,7 @@ trapconst_pattern = """int {trapconst} = #CODE_{trapcode}#;"""
 
 # box_inc_turretconst.nss
 turretconst_pattern = """string {turretconst} = "{turrettag}";"""
+turrettrapconst_pattern = """string {trapconst} = "{tag}";"""
 
 # box_inc_treasure.nss
 treasurefunction_pattern = """void {functioncall}(object oContainer) {
@@ -302,6 +302,20 @@ treasurefunction_pattern = """void {functioncall}(object oContainer) {
 
 """
 treasureitem_pattern = """CreateItemOnObject({itemconst}, oContainer);"""
+
+# box_inc_turrets.nss
+checktrap_pattern = """if (trap == {trapconst})
+	return TRUE;
+"""
+checkturret_pattern = """if (tag == {turretconst})
+	return TRUE;
+"""
+gettrap_pattern = """if (tag == {turretconst})
+	return {trapconst};
+"""
+getturret_pattern = """if (trap == {trapconst})
+	return {turretconst};
+"""
 
 
 # baseitems.ini
@@ -679,6 +693,7 @@ inchealing = read_file('Input\\box_inc_healing.nss')
 incfuelweap = read_file('Input\\box_inc_fuelweap.nss')
 incmines = read_file('Input\\box_inc_mines.nss')
 incmerchant = read_file('Input\\box_inc_merchants.nss')
+incturret = read_file('Input\\box_inc_turrets.nss')
 
 incspawn = read_file('Input\\box_inc_spawn_per.nss') + read_file('Input\\box_inc_spawn_tel.nss')
 inctreasure = read_file('Input\\box_inc_treasure.nss')
@@ -860,9 +875,7 @@ with open('Input\\shields.csv', 'r') as csvfile:
 		add_line(fieldgen, row, field_pattern, '#ITEMS')
 		add_line(spellgen, row, selfspell_pattern, '#SPELLS')
 		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
-		add_line(shieldgen, row, shield_pattern, '#ITEMS')
-		add_line(shieldgen, row, shieldabsorb_pattern, '#REPLACES')
-		add_line(shieldgen, row, shieldflags_pattern, '#REPLACES')
+		add_line(shieldgen, row, shieldcode_pattern, '#ITEMS')
 		add_line(scriptgen, row, shieldscript_pattern, '#SCRIPTS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(shieldconst, row, shieldconst_pattern, '//SHIELDS')
@@ -876,9 +889,7 @@ with open('Input\\stimulants.csv', 'r') as csvfile:
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
 		copy_template('Input\\stim.uti', 'Output\\' + row['tag'] + '.uti')
-		verify_code(baseitems, row['baseitemcode'])
-		verify_function(incstims, row['functioncall'])
-		verify_function(incvisual, row['visualfunction'])
+		verify_function(row['functioncall'], incstims)
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(fieldgen, row, field_pattern, '#ITEMS')
@@ -896,9 +907,11 @@ with open('Input\\grenades.csv', 'r') as csvfile:
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
 		copy_template('Input\\grenade.uti', 'Output\\' + row['tag'] + '.uti')
-		add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
-		verify_function(incgrenade, row['functioncall'])
-		verify_function(incvisual, row['visualfunction'])
+		if 'baseitemcode' in row:
+			add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		verify_function(row['functioncall'], incgrenade)
+		verify_function(row['visualfunction'], incvisual)
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
 		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
@@ -912,18 +925,15 @@ with open('Input\\fuel.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
+		row['featreq'] = row['featcode']
 		copy_template('Input\\fuel.uti', 'Output\\' + row['tag'] + '.uti')
-		if row['baseitem']:
-			add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
-		else:
-			verify_code(baseitems, row['baseitemcode'])
+		if 'baseitemcode' in row:
 			add_line(featgen, row, baseitem_pattern, '#ITEMS')
-			add_line(fieldgen, row, field_pattern, '#ITEMS')
-		verify_code(baseitems, row['featcode'])
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, featreq_pattern, '#REQS')
-		verify_function(incgrenade + incfuelweap, row['functioncall'])
-		verify_function(incvisual, row['visualfunction'])
+		verify_function(row['functioncall'], incgrenade + incfuelweap)
+		verify_function(row['visualfunction'], incvisual)
 		if row['type'] == 'grenade':
 			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
 			add_line(scriptgen, row, grenadescript_pattern, '#SCRIPTS')
@@ -944,7 +954,6 @@ with open('Input\\ammoboxes.csv', 'r') as csvfile:
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
 		copy_template('Input\\ammobox.uti', 'Output\\' + row['tag'] + '.uti')
-		verify_code(baseitems, row['baseitemcode'])
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(fieldgen, row, field_pattern, '#ITEMS')
@@ -968,9 +977,8 @@ with open('Input\\energy.csv', 'r') as csvfile:
 			copy_template('Input\\heavyenergy.uti', 'Output\\' + row['tag'] + '.uti')
 		else:
 			copy_template('Input\\energy.uti', 'Output\\' + row['tag'] + '.uti')
-		verify_code(baseitems, row['baseitemcode'])
-		verify_function(incenergy, row['functioncall'])
-		verify_function(incvisual, row['visualfunction'])
+		verify_function(row['functioncall'], incenergy)
+		verify_function(row['visualfunction'], incvisual)
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(featgen, row, baseitem_pattern, '#ITEMS')
 		add_line(fieldgen, row, field_pattern, '#ITEMS')
@@ -998,8 +1006,8 @@ with open('Input\\healing.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		row['description'] = descriptions[row['tag']]
-		verify_function(inchealing + incfuelweap, row['functioncall'])
-		verify_function(incvisual, row['visualfunction'])
+		verify_function(row['functioncall'], inchealing)
+		verify_function(row['visualfunction'], incvisual)
 		if row['type'] == 'medpac':
 			copy_template('Input\\medpac.uti', 'Output\\' + row['tag'] + '.uti')
 			add_line(spellgen, row, medpacspell_pattern, '#SPELLS')
@@ -1010,7 +1018,9 @@ with open('Input\\healing.csv', 'r') as csvfile:
 			# add_line(spellgen, row, repairspell_pattern, '#SPELLS')
 			# add_line(upgradegen, row, craftitem_pattern, '#ITEMS')
 		add_line(costgen, row, cost_pattern, '#COSTS')
-		add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
+		if 'baseitemcode' in row:
+			add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
 		add_line(spellgen, row, spellitem_pattern, '#ITEMS')
 		add_line(scriptgen, row, buffscript_pattern, '#SCRIPTS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
@@ -1022,10 +1032,12 @@ with open('Input\\mines.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
 		copy_template('Input\\trap.uti', 'Output\\' + row['tag'] + '.uti')
-		verify_function(incmines, row['functioncall'])
+		verify_function(row['functioncall'], incmines)
 		if row['type'] == 'new':
 			row['description'] = descriptions[row['tag']]
-			add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
+			if 'baseitemcode' in row:
+				add_line(featgen, row, baseitem_pattern, '#ITEMS')
+			add_line(fieldgen, row, field_pattern, '#ITEMS')
 			add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 			add_line(trapgen, row, trapitem_pattern, '#ITEMS')
 			add_line(traps, row, newtrapheader_pattern, ';HEADERS')
@@ -1046,7 +1058,9 @@ with open('Input\\turrets.csv', 'r') as csvfile:
 	for row in reader:
 		copy_template('Input\\trap.uti', 'Output\\' + row['tag'] + '.uti')
 		row['description'] = descriptions[row['tag']]
-		add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
+		if 'baseitemcode' in row:
+			add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
 		add_line(tagconst, row, tagconst_pattern, '//ITEMS')
 		add_line(trapgen, row, trapitem_pattern, '#ITEMS')
 		add_line(traps, row, newtrapheader_pattern, ';HEADERS')
@@ -1056,6 +1070,12 @@ with open('Input\\turrets.csv', 'r') as csvfile:
 		add_line(upgradegen, row, craftitem_pattern, '#ITEMS')
 		add_line(trapconst, row, trapconst_pattern, '//TRAPS')
 		add_line(turretconst, row, turretconst_pattern, '//TURRETS')
+		add_line(turretconst, row, turrettrapconst_pattern, '//TRAPS')
+		add_line(incturret, row, checktrap_pattern, '//CHECK_TRAPS')
+		add_line(incturret, row, checkturret_pattern, '//CHECK_TURRETS')
+		add_line(incturret, row, gettrap_pattern, '//GET_TRAPS')
+		add_line(incturret, row, getturret_pattern, '//GET_TURRETS')
+		# Put turret spells in the enemy spells table			
 
 
 # Craftables
@@ -1130,9 +1150,7 @@ with open('Input\\enemyspells.csv', 'r') as csvfile:
 			add_line(scriptgen, row, wavescript_pattern, '#SCRIPTS')
 		elif row['type'] == 'shield':
 			add_line(spellgen, row, selfspell_pattern, '#SPELLS')
-			add_line(shieldgen, row, shield_pattern, '#ITEMS')
-			add_line(shieldgen, row, shieldabsorb_pattern, '#REPLACES')
-			add_line(shieldgen, row, shieldflags_pattern, '#REPLACES')
+			add_line(shieldgen, row, shieldcode_pattern, '#ITEMS')
 			add_line(scriptgen, row, shieldscript_pattern, '#SCRIPTS')
 			add_line(shieldconst, row, shieldconst_pattern, '//SHIELDS')
 			add_line(shields, row, shieldheader_pattern, ';HEADERS')
@@ -1314,6 +1332,8 @@ write_file(shieldconst, 'Output\\box_inc_shieldconst.nss')
 write_file(hideconst, 'Output\\box_inc_hideconst.nss')
 write_file(trapconst, 'Output\\box_inc_trapconst.nss')
 write_file(turretconst, 'Output\\box_inc_turretconst.nss')
+
+write_file(incturret, 'Output\\box_inc_turrets.nss')
 write_file(incmerchant, 'Output\\box_inc_merchants.nss')
 write_file(incai, 'Output\\box_inc_ai.nss')
 

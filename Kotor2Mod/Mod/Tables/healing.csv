@@ -1,14 +1,14 @@
-tag,type,baseitemcode,cost,name,model,tagconst,spellcode,spellcr,script,launchsound,functioncall,visualfunction,skill,skillreq,levelreq,craftgroup
-hh_med1,medpac,BOXI_MEDPAC,8,Small Medpac,,MEDPAC_1,BOX_MEDPAC_1,3,box_medpac1,gui_inject,Box_Medpac1,Box_NoVisual,medicine,2,0,stim_group
-hh_med2,medpac,BOXI_MEDPAC,12,Medpac,,MEDPAC_2,BOX_MEDPAC_2,3,box_medpac2,gui_inject,Box_Medpac2,Box_NoVisual,medicine,8,0,stim_group
-hh_med3,medpac,BOXI_MEDPAC,24,Advanced Medpac,,MEDPAC_3,BOX_MEDPAC_3,6,box_medpac3,gui_inject,Box_Medpac3,Box_NoVisual,medicine,14,0,stim_group
-hh_med4,medpac,BOXI_MEDPAC,36,Yet More Advanced Medpac,,MEDPAC_4,BOX_MEDPAC_4,9,box_medpac4,gui_inject,Box_Medpac4,Box_NoVisual,medicine,20,0,stim_group
-hh_anti,medpac,BOXI_MEDPAC,10,Antidote Pack,,ANTIDOTE_PACK,BOX_ANTIDOTE_PACK,3,box_antidote,gui_inject,Box_AntidotePack,Box_NoVisual,medicine,6,0,stim_group
-hh_life1,medpac,BOXI_MEDPAC,40,Life Support Pack,,LIFE_SUPPORT_PACK_1,BOX_LIFE_SUPPORT_PACK_1,6,box_lifesupport1,gui_inject,Box_LifeSupport1,Box_NoVisual,medicine,16,0,stim_group
-hh_life2,medpac,BOXI_MEDPAC,60,Advanced Life Support Pack,,LIFE_SUPPORT_PACK_2,BOX_LIFE_SUPPORT_PACK_2,9,box_lifesupport2,gui_inject,Box_LifeSupport2,Box_NoVisual,medicine,24,0,stim_group
-hd_repair1,repair,BOXI_REPAIR_KIT,0,Small Repair Kit,,REPAIR_KIT_1,BOX_REPAIR_KIT_1,3,box_repairkit1,gui_upgrade,Box_RepairKit1,Box_NoVisual,,,,
-hd_repair2,repair,BOXI_REPAIR_KIT,0,Repair Kit,,REPAIR_KIT_2,BOX_REPAIR_KIT_2,3,box_repairkit2,gui_upgrade,Box_RepairKit2,Box_NoVisual,,,,
-hd_repair3,repair,BOXI_REPAIR_KIT,0,Advanced Repair Kit,,REPAIR_KIT_3,BOX_REPAIR_KIT_3,6,box_repairkit3,gui_upgrade,Box_RepairKit3,Box_NoVisual,,,,
-hd_repair4,repair,BOXI_REPAIR_KIT,0,Construction Kit,,REPAIR_KIT_4,BOX_REPAIR_KIT_4,9,box_repairkit4,gui_upgrade,Box_RepairKit4,Box_NoVisual,,,,
-hd_quick1,repair,BOXI_REPAIR_KIT,0,Quick Fix Kit,,QUICK_FIX_KIT_1,BOX_QUICK_FIX_KIT_1,6,box_quickfix1,gui_upgrade,Box_QuickKit1,Box_NoVisual,,,,
-hd_quick2,repair,BOXI_REPAIR_KIT,0,Quicker Fixer Kit,,QUICK_FIX_KIT_2,BOX_QUICK_FIX_KIT_2,9,box_quickfix2,gui_upgrade,Box_QuickKit2,Box_NoVisual,,,,
+tag,type,baseitemcode,cost,name,model,tagconst,spellcode,spellconst,spellcr,script,launchsound,functioncall,visualfunction,skill,skillreq,levelreq,craftgroup
+hh_med1,medpac,BOXI_MEDPAC,8,Small Medpac,,MEDPAC_1,BOXS_MEDPAC_1,SPELL_MEDPAC_1,3,box_medpac1,gui_inject,Box_Medpac1,Box_NoVisual,medicine,2,0,stim_group
+hh_med2,medpac,BOXI_MEDPAC,12,Medpac,,MEDPAC_2,BOXS_MEDPAC_2,SPELL_MEDPAC_2,3,box_medpac2,gui_inject,Box_Medpac2,Box_NoVisual,medicine,8,0,stim_group
+hh_med3,medpac,BOXI_MEDPAC,24,Advanced Medpac,,MEDPAC_3,BOXS_MEDPAC_3,SPELL_MEDPAC_3,6,box_medpac3,gui_inject,Box_Medpac3,Box_NoVisual,medicine,14,0,stim_group
+hh_med4,medpac,BOXI_MEDPAC,36,Yet More Advanced Medpac,,MEDPAC_4,BOXS_MEDPAC_4,SPELL_MEDPAC_4,9,box_medpac4,gui_inject,Box_Medpac4,Box_NoVisual,medicine,20,0,stim_group
+hh_anti,medpac,BOXI_MEDPAC,10,Antidote Pack,,ANTIDOTE_PACK,BOXS_ANTIDOTE_PACK,SPELL_ANTIDOTE_PACK,3,box_antidote,gui_inject,Box_AntidotePack,Box_NoVisual,medicine,6,0,stim_group
+hh_life1,medpac,BOXI_MEDPAC,40,Life Support Pack,,LIFE_SUPPORT_PACK_1,BOXS_LIFE_SUPPORT_PACK_1,SPELL_LIFE_SUPPORT_PACK_1,6,box_lifesupport1,gui_inject,Box_LifeSupport1,Box_NoVisual,medicine,16,0,stim_group
+hh_life2,medpac,BOXI_MEDPAC,60,Advanced Life Support Pack,,LIFE_SUPPORT_PACK_2,BOXS_LIFE_SUPPORT_PACK_2,SPELL_LIFE_SUPPORT_PACK_2,9,box_lifesupport2,gui_inject,Box_LifeSupport2,Box_NoVisual,medicine,24,0,stim_group
+hd_repair1,repair,BOXI_REPAIR_KIT,0,Small Repair Kit,,REPAIR_KIT_1,BOXS_REPAIR_KIT_1,SPELL_REPAIR_KIT_1,3,box_repairkit1,gui_upgrade,Box_RepairKit1,Box_NoVisual,,,,
+hd_repair2,repair,BOXI_REPAIR_KIT,0,Repair Kit,,REPAIR_KIT_2,BOXS_REPAIR_KIT_2,SPELL_REPAIR_KIT_2,3,box_repairkit2,gui_upgrade,Box_RepairKit2,Box_NoVisual,,,,
+hd_repair3,repair,BOXI_REPAIR_KIT,0,Advanced Repair Kit,,REPAIR_KIT_3,BOXS_REPAIR_KIT_3,SPELL_REPAIR_KIT_3,6,box_repairkit3,gui_upgrade,Box_RepairKit3,Box_NoVisual,,,,
+hd_repair4,repair,BOXI_REPAIR_KIT,0,Construction Kit,,REPAIR_KIT_4,BOXS_REPAIR_KIT_4,SPELL_REPAIR_KIT_4,9,box_repairkit4,gui_upgrade,Box_RepairKit4,Box_NoVisual,,,,
+hd_quick1,repair,BOXI_REPAIR_KIT,0,Quick Fix Kit,,QUICK_FIX_KIT_1,BOXS_QUICK_FIX_KIT_1,SPELL_QUICK_FIX_KIT_1,6,box_quickfix1,gui_upgrade,Box_QuickKit1,Box_NoVisual,,,,
+hd_quick2,repair,BOXI_REPAIR_KIT,0,Quicker Fixer Kit,,QUICK_FIX_KIT_2,BOXS_QUICK_FIX_KIT_2,SPELL_QUICK_FIX_KIT_2,9,box_quickfix2,gui_upgrade,Box_QuickKit2,Box_NoVisual,,,,

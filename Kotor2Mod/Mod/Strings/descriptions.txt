@@ -1741,7 +1741,7 @@ This Republic device contains a baradium compound that produces a small fusion e
 EOV
 
 
-KEY: fl_frag
+KEY: al_frag
 24 Piercing Damage
 Save DC 18 (Reflex, None) for 6 damage
 4 Meter Blast Radius
@@ -1752,7 +1752,7 @@ These grenades are specially designed and can only be used with an appropriate g
 EOV
 
 
-KEY: fl_flash
+KEY: al_flash
 9 Second Stun
 Save DC 18 (Reflex, None) for no effect
 4 Meter Blast Radius
@@ -1763,7 +1763,7 @@ These grenades are specially designed and can only be used with an appropriate g
 EOV
 
 
-KEY: fl_poison
+KEY: al_poison
 Poison: 2 Damage every 3 Seconds for 60 Seconds
 Save DC 20 (Fortitude, Poison) for no effect
 4 Meter Radius
@@ -1845,7 +1845,7 @@ These grenades are specially designed and can only be used with an appropriate g
 EOV
 
 
-KEY: fl_plasma
+KEY: al_plasma
 36 Heat Damage
 Save DC 20 (Reflex, Heat) for 8 damage
 4 Meter Blast Radius
@@ -1913,7 +1913,7 @@ KEY: ar_fusion
 80 Energy Damage
 Knockdown
 DC 32 (Reflex, None) for 40 damage and no effect
-4 Meter Blast Radius
+5 Meter Blast Radius
 
 EOV
 
@@ -1933,7 +1933,154 @@ Knockdown
 DC 28 (Reflex, None) for 20 damage and no effect
 Single Target
 
-EOVKEY: aa_mining12 Heat Damage3 Second HorrorDC 10 (Will, Fire) for 4 damage and no effectEOVKEY: aa_flame118 Heat Damage3 Second FearDC 12 (Will, Heat) for 6 damage and no effectEOVKEY: aa_flame230 Heat Damage3 Second FearDC 16 (Will, Heat) for 10 damage and no effectEOVKEY: aa_flame336 Heat DamageCon -4 for 18 SecondsDC 20 (Fortitude, Heat) for 12 damage and no effectEOVKEY: aa_carbon118 Cold Damage9 Second ParalyzeDC 16 (Fortitude, Cold) for 9 damage and no effectEOVKEY: aa_carbon224 Cold Damage12 Second ParalyzeDC 20 (Fortitude, Heat) for 12 damage and no effectEOVKEY: aa_ion16 Ion Damage+8 Ion Damage vs Droids6 Second Droid StunDC 16 (Fortitude, Ion) for 8 damage and no effectEOVKEY: aa_plasma24 Heat DamageDC 16 (Fortitude, Heat) for 8 damageEOVKEY: aa_antima36 Unstoppable DamageDC 18 (Reflex, None) for 12 damageEOVKEY: aa_psndtPoison: DC 12 (Fortitude, Poison) for no effectEOVKEY: aa_slpdt9 Second SleepDC 12 (Fortitude, Mind-Affecting) for no effectEOVKEY: aa_kybdtPoison: DC 16 (Fortitude, Poison) for no effectEOVKEY: aa_pardt9 Second ParalyzeDC 16 (Fortitude, Mind-Affecting) for no effectEOVKEY: aa_grappl6 Second ChokeSave DC 12 (Reflex, None) for no effectEOVKEY: we_ionst19 Second Stun vs DroidsSave DC 12 (Will, Ion) for no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_stun16 Second StunSave DC 12 (Will, Mind-Affecting) for no effectThis device fires a beam that is disruptive to the neural pathways of biological creatures.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock112 Electrical DamageSave DC 12 (Fortitude, Electrical) for 3 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionst26 Ion Damage9 Second Stun vs DroidsSave DC 14 (Will, Ion) for 3 damage and no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_stun29 Second StunSave DC 14 (Will, Mind-Affecting) for no effectThis device fires a beam that is disruptive to the neural pathways of biological creatures.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock218 Electrical DamageSave DC 14 (Fortitude, Electrical) for 6 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_sonic1Int/Wis/Chr -6 for 30 SecondsSave DC 14 (Sonic, Will) for no effect10 Meter ConeEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionbl124 Ion Damage3 Second Stun vs DroidsSave DC 16 (Fortitude, Ion) for 8 damage and no effectEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock324 Electrical Damage3 Second StunSave DC 16 (Fortitude, Electrical) for 8 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionst318 Ion Damage12 Second Stun vs DroidsSave DC 18 (Will, Ion) for 9 damage and no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_plasma136 Heat DamageSave DC 18 (Heat, Fortitude) for 9 damageEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_sonic218 Sonic DamageInt/Wis/Chr -6 for 30 SecondsSave DC 18 (Sonic, Will) for 6 damage and no effect10 Meter CylinderEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_plasma248 Heat DamageSave DC 20 (Heat, Fortitude) for 12 damageEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionbl236 Ion Damage6 Second Stun vs DroidsSave DC 20 (Fortitude, Ion) for 12 damage and no effectEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shield16 Sonic DamageRemoves Shield on hitEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: wh_shock24 Electrical Damage6 Second StunSave DC 16 (Fortitude, Electrical) for 12 damage and no effect12 Meter ConeEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_sonic12 Sonic DamageInt/Wis/Chr -6 for 30 SecondsSave DC 16 (Will, Sonic) for 6 damage and no effect15 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_hackConfusion for 20 Seconds vs DroidsSave DC 18 (Will, Mind-Affecting) for no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_seis18 Sonic Damage3 Second Knockdown with 12 Bludgeoning DamageSave DC 18 (Reflex, None) for 6 damage and no effect20 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_para16 Electrical Damage15 Second StasisSave DC 18 (Will, Electrical) for 8 damage and no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_storm36 Electrical Damage6 Second StunSave DC 20 (Fortitude, Electrical) for 12 damage and no effect12 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_plasma48 Heat DamageSave DC 20 (Reflex, Heat) for 12 damage4 Meter RadiusEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_proj36 Bludgeoning Damage3 Second PushSave DC 20 (Reflex, None) for 12 damage and no effect12 Meter SpellconeEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_deathDeathSave DC 24 (Will, Mind-Affecting) for no effectStrong Enemies are immuneEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_dominaConfusion for 30 Seconds vs DroidsSave DC 24 (Will, Mind-Affecting) for no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_gravit48 Bludgeoning Damage12 Second Whirlwind and CrushSave DC 24 (Reflex, None) for no effect12 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_selfd4x(UserLevel) Energy DamageKnockdownSave DC 32 (Reflex, None) for 1x(UserLevel) damage12 Meter SphereFaint on UseEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: hs_mining20 Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_energy40 Energy Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_enviro40 Ion, Heat, Electrical, Cold Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_sith60 Energy, Electrical Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_echani60 Energy, Ion, Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_mand30 Slashing, Piercing, Bludgeoning Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_zabrak60 Energy, Ion, Elecrtical, Sonic Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_energy40 Energy Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_enviro40 Ion, Heat, Electrical, Cold Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_advanc60 Energy, Electrical Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_radian60 Energy, Ion, Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_univer50 Energy, Ion, Heat, Elecrtical, Cold, Sonic Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_poisonPoison Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_fearFear Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_sneakSneak Attack Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_stradrStrength +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_dexadrDexterity +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_conadrConstitution +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_strenStrength +4Fortitude +4Reflext +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_toughConstitution +410% Damage Immunity vs Slashing10% Damage Immunity vs Piercing10% Damage Immunity vs Bludgeoning30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_concDexterity +4Will +4Saves vs Fear +4Saves vs Mind-Affecting +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_battleStrength +4Damage +2Saves +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_endurConstitution +4Regenerate 4 Damage every 3 SecondsPoison ImmunityParalysis Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_agilDexterity +4Number of Attacks +130 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: wl_miningThis fuel burner, normally used to burn off gases released in the Peragian mining process, can also be used as a makeshift flamethrower.EOVKEY: wl_flameThis device actually shoots wide streams of liquid fire. There are few practical applications requiring such devices but they are sought after by military powers for their devastating effect on morale.This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_carbonTypically used for long-term storage of perishable goods, these tools can be turned on human targets with reasonable certainty of the outcome.This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_grapplThis cable can be used with a grappling hook to harpoon or lasso an opponent.EOVKEY: wl_dartThis weapon shoots various types of darts which each contain a differnt type of chemical payload for debilitating enemies.EOVKEY: wl_energyThis weapon fires blasts of energy. This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_grenThis standard grenade launcher uses frag grenades for dealing damage and flash grenades for crowd control on large groups.EOVKEY: wl_gasThis grenade launcher works with grenades that release gas. The poison grenade deals damage while the nerve grenade attempts to choke enemies. Because the grenades use gas, opponents must save using their Fortitude instead of Reflex and neither grenade is effective against droids.EOVKEY: wl_sonicThis launcher is for deploying sonic charges. Sonic grenades bypass most defenses and can disorient those hit by them.EOVKEY: wl_coldThis launcher deploys grenades that expand into solid matter. Both CryoBan and adhesive grenades are effective at stopping crowds of enemies in their tracks.EOVKEY: wl_plasmaThis launcher works with grenades that work by releasing energy. These types of grenades deal high amounts of damage. Ion grenades are effective against droids while plasma grenades devestate weak enemies.EOVKEY: wl_rocketThis is the basic rocket launcher. Rockets are stronger than grenades but are considerably more expensive. This launcher works with regular explosive rockets and incendiary rockets for burning enemies.EOVKEY: wl_busterThis rocket launcher is specially designed for buster rockets. Buster rockets are unique because they don't explode but are used to pierce armor.EOVKEY: wl_carbon?EOVKEY: wl_plasmaThis rocket launcher fires particularly deadly rockets. Plasma rockets deal massive damage while radiation rockets debilitate enemies with radiation poisoning.EOVKEY: wl_fusionThis launcher is designed to work with fusion rounds. It is a dual launcher that can fire thermal detonators as ballstic projectiles as well as fusion rockets. This makes this launcher arguably the most deadly weapon that a single soldier can carry into battle.EOV
+EOV
+KEY: ar_cold
+KEY: ar_altcold
+__ Damage
+Knockdown
+DC __
+5 Meter Blast Radius
+
+?
+EOV
+
+KEY: aa_mining12 Heat Damage3 Second HorrorDC 10 (Will, Fire) for 4 damage and no effectEOVKEY: aa_flame118 Heat Damage3 Second FearDC 12 (Will, Heat) for 6 damage and no effectEOVKEY: aa_flame230 Heat Damage3 Second FearDC 16 (Will, Heat) for 10 damage and no effectEOVKEY: aa_flame336 Heat DamageCon -4 for 18 SecondsDC 20 (Fortitude, Heat) for 12 damage and no effectEOVKEY: aa_carbon118 Cold Damage9 Second ParalyzeDC 16 (Fortitude, Cold) for 9 damage and no effectEOVKEY: aa_carbon224 Cold Damage12 Second ParalyzeDC 20 (Fortitude, Heat) for 12 damage and no effectEOVKEY: aa_ion16 Ion Damage+8 Ion Damage vs Droids6 Second Droid StunDC 16 (Fortitude, Ion) for 8 damage and no effectEOVKEY: aa_plasma24 Heat DamageDC 16 (Fortitude, Heat) for 8 damageEOVKEY: aa_antima36 Unstoppable DamageDC 18 (Reflex, None) for 12 damageEOVKEY: aa_psndtPoison: DC 12 (Fortitude, Poison) for no effectEOVKEY: aa_slpdt9 Second SleepDC 12 (Fortitude, Mind-Affecting) for no effectEOVKEY: aa_kybdtPoison: DC 16 (Fortitude, Poison) for no effectEOVKEY: aa_pardt9 Second ParalyzeDC 16 (Fortitude, Mind-Affecting) for no effectEOVKEY: aa_grappl6 Second ChokeSave DC 12 (Reflex, None) for no effectEOVKEY: we_ionst19 Second Stun vs DroidsSave DC 12 (Will, Ion) for no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_stun16 Second StunSave DC 12 (Will, Mind-Affecting) for no effectThis device fires a beam that is disruptive to the neural pathways of biological creatures.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock112 Electrical DamageSave DC 12 (Fortitude, Electrical) for 3 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionst26 Ion Damage9 Second Stun vs DroidsSave DC 14 (Will, Ion) for 3 damage and no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_stun29 Second StunSave DC 14 (Will, Mind-Affecting) for no effectThis device fires a beam that is disruptive to the neural pathways of biological creatures.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock218 Electrical DamageSave DC 14 (Fortitude, Electrical) for 6 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_sonic1Int/Wis/Chr -6 for 30 SecondsSave DC 14 (Sonic, Will) for no effect10 Meter ConeEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionbl124 Ion Damage3 Second Stun vs DroidsSave DC 16 (Fortitude, Ion) for 8 damage and no effectEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shock324 Electrical Damage3 Second StunSave DC 16 (Fortitude, Electrical) for 8 damageThis unit is a popular upgrade for utility droids in that it is well hidden among the droid's other tools and delivers quite a jolt to the unsuspecting victim.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionst318 Ion Damage12 Second Stun vs DroidsSave DC 18 (Will, Ion) for 9 damage and no effectThe "Scrambler" was developed by Aratech and marketed towards customers who were faced with massive droid armies. Sending a pulse of highly-charged ions, this weapon destroys the electronics of enemy droids.Energy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_plasma136 Heat DamageSave DC 18 (Heat, Fortitude) for 9 damageEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_sonic218 Sonic DamageInt/Wis/Chr -6 for 30 SecondsSave DC 18 (Sonic, Will) for 6 damage and no effect10 Meter CylinderEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_plasma248 Heat DamageSave DC 20 (Heat, Fortitude) for 12 damageEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_ionbl236 Ion Damage6 Second Stun vs DroidsSave DC 20 (Fortitude, Ion) for 12 damage and no effectEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: we_shield16 Sonic DamageRemoves Shield on hitEnergy weapons recharge automatically after use. This weapon takes 1 minute to fully recharge.EOVKEY: wh_shock24 Electrical Damage6 Second StunSave DC 16 (Fortitude, Electrical) for 12 damage and no effect12 Meter ConeEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_sonic12 Sonic DamageInt/Wis/Chr -6 for 30 SecondsSave DC 16 (Will, Sonic) for 6 damage and no effect15 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_hackConfusion for 20 Seconds vs DroidsSave DC 18 (Will, Mind-Affecting) for no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_seis18 Sonic Damage3 Second Knockdown with 12 Bludgeoning DamageSave DC 18 (Reflex, None) for 6 damage and no effect20 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_para16 Electrical Damage15 Second StasisSave DC 18 (Will, Electrical) for 8 damage and no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_storm36 Electrical Damage6 Second StunSave DC 20 (Fortitude, Electrical) for 12 damage and no effect12 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_plasma48 Heat DamageSave DC 20 (Reflex, Heat) for 12 damage4 Meter RadiusEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_proj36 Bludgeoning Damage3 Second PushSave DC 20 (Reflex, None) for 12 damage and no effect12 Meter SpellconeEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_deathDeathSave DC 24 (Will, Mind-Affecting) for no effectStrong Enemies are immuneEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_dominaConfusion for 30 Seconds vs DroidsSave DC 24 (Will, Mind-Affecting) for no effectEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_gravit48 Bludgeoning Damage12 Second Whirlwind and CrushSave DC 24 (Reflex, None) for no effect12 Meter SphereEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: wh_selfd4x(UserLevel) Energy DamageKnockdownSave DC 32 (Reflex, None) for 1x(UserLevel) damage12 Meter SphereFaint on UseEnergy weapons recharge automatically after use. This weapon uses more energy than normal and takes 2 minutes to fully recharge.EOVKEY: hs_mining20 Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_energy40 Energy Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_enviro40 Ion, Heat, Electrical, Cold Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_sith60 Energy, Electrical Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_echani60 Energy, Ion, Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_mand30 Slashing, Piercing, Bludgeoning Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_zabrak60 Energy, Ion, Elecrtical, Sonic Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_energy40 Energy Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_enviro40 Ion, Heat, Electrical, Cold Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_advanc60 Energy, Electrical Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_radian60 Energy, Ion, Heat Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: ds_univer50 Energy, Ion, Heat, Elecrtical, Cold, Sonic Damage Absorption60 SecondsEnergy shields recharge automatically after use. This item takes 1 minute to fully recharge.EOVKEY: hs_poisonPoison Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_fearFear Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_sneakSneak Attack Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_stradrStrength +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_dexadrDexterity +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_conadrConstitution +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_strenStrength +4Fortitude +4Reflext +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_toughConstitution +410% Damage Immunity vs Slashing10% Damage Immunity vs Piercing10% Damage Immunity vs Bludgeoning30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_concDexterity +4Will +4Saves vs Fear +4Saves vs Mind-Affecting +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_battleStrength +4Damage +2Saves +430 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_endurConstitution +4Regenerate 4 Damage every 3 SecondsPoison ImmunityParalysis Immunity30 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOVKEY: hs_agilDexterity +4Number of Attacks +130 SecondsStimulants recharge automatically after use. This item takes 2 minutes to fully recharge.EOV
+
+
+KEY: hh_med1
+Regenerate 40 Hit Points
+Incapacitation for 8 Seconds
+
+A medpac contains essential equipment for the treatment of wounds. They cannot be used by droids.
+EOV
+
+KEY: hh_med2
+Regenerate 80 Hit Points
+Incapacitation for 8 Seconds
+
+A medpac contains essential equipment for the treatment of wounds. They cannot be used by droids.
+EOV
+
+KEY: hh_med3
+Regenerate 120 Hit Points
+Incapacitation for 8 Seconds
+
+A medpac contains essential equipment for the treatment of wounds. They cannot be used by droids.
+EOV
+
+KEY: hh_med4
+Regenerate 160 Hit Points
+Incapacitation for 8 Seconds
+
+A medpac contains essential equipment for the treatment of wounds. They cannot be used by droids.
+EOV
+
+KEY: hh_life1
+Heal 60 Hit Points
+Str/Dex/Wis -4 for 30 Seconds
+
+A medpac contains essential equipment for the treatment of wounds. They cannot be used by droids.
+EOV
+
+KEY: hh_life2
+Heal 120 Hit Points
+Str/Dex/Wis -4 for 30 Seconds
+
+A medpac contains essential equipment for the treatment of wounds. They cannot be used by droids.
+EOV
+
+KEY: hh_anti
+Remove Poison
+Incapacitation for 8 Seconds
+
+This kit contains wide-spectrum antidote hypospray injectors designed to neutralize all known poisons.
+EOV
+
+KEY: hd_repair1
+Regenerate 40 Hit Points
+Incapacitation for 8 Seconds
+
+Included are the tools needed to repair a droid that has been damaged in combat.
+EOV
+
+KEY: hd_repair2
+Regenerate 80 Hit Points
+Incapacitation for 8 Seconds
+
+Included are the tools needed to repair a droid that has been damaged in combat.
+EOV
+
+KEY: hd_repair3
+Regenerate 120 Hit Points
+Incapacitation for 8 Seconds
+
+Included are the tools needed to repair a droid that has been damaged in combat.
+EOV
+
+KEY: hd_repair4
+Regenerate 160 Hit Points
+Incapacitation for 8 Seconds
+
+Included are the tools needed to repair a droid that has been damaged in combat.
+EOV
+
+KEY: hd_quick1
+Heal 60 Hit Points
+Dex/Int/Wis -4 for 30 Seconds
+
+Included are the tools needed to repair a droid that has been damaged in combat.
+EOV
+
+KEY: hd_quick2
+Heal 120 Hit Points
+Dex/Int/Wis -4 for 30 Seconds
+
+Included are the tools needed to repair a droid that has been damaged in combat.
+EOV
+
+
+KEY: tm_flash
+Stun for 7.5 Seconds
+Save DC 14 (Reflex OR Will, None) for no effect
+4 Meter Radius
+
+Carefully set flash mines can stun any enemies unfortunate enough to step on them
+EOV
+
+KEY: tm_frag
+30 Piercing Damage
+Save DC 14 (Reflex, None) for 15 damage
+4 Meter Radius
+
+Frag mines send blasts of shrapnel through any nearby enemies.
+EOV
+
+KEY: tm_sonic
+24 Sonic Damage
+Int/Wis/Chr -4 for 30 Seconds
+Save DC 14 (Reflex OR Will, None) for 12 damage and no effect
+4 Meter Radius
+
+Sonic mines both inflict damage and can mildly stun their target, leaving them off-balance for many seconds.
+EOV
+
+KEY: tm_poison
+Poison: 3 Damage every 5 Seconds for 60 Seconds
+Save DC 14 (Fortitude, Poison) for no effect
+4 Meter Radius
+
+When stepped on, gas mines saturate the immediate area with poisonous gas.
+EOV
+
+KEY: tm_plasma
+24 Heat Damage
+Con -4 for 15 Seconds
+Save DC 14 (Fortitude OR Reflex, Heat) for 15 damage
+4 Meter Radius
+
+When stepped on, plasma mines emit a short burst of intense heat, searing all enemies nearby.
+EOV
+KEY: wl_miningThis fuel burner, normally used to burn off gases released in the Peragian mining process, can also be used as a makeshift flamethrower.EOVKEY: wl_flameThis device actually shoots wide streams of liquid fire. There are few practical applications requiring such devices but they are sought after by military powers for their devastating effect on morale.This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_carbonTypically used for long-term storage of perishable goods, these tools can be turned on human targets with reasonable certainty of the outcome.This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_grapplThis cable can be used with a grappling hook to harpoon or lasso an opponent.EOVKEY: wl_dartThis weapon shoots various types of darts which each contain a differnt type of chemical payload for debilitating enemies.EOVKEY: wl_energyThis weapon fires blasts of energy. This weapon is compatable with several types of fuel and its power varies based on the type of fuel consumed.EOVKEY: wl_grenThis standard grenade launcher uses frag grenades for dealing damage and flash grenades for crowd control on large groups.EOVKEY: wl_gasThis grenade launcher works with grenades that release gas. The poison grenade deals damage while the nerve grenade attempts to choke enemies. Because the grenades use gas, opponents must save using their Fortitude instead of Reflex and neither grenade is effective against droids.EOVKEY: wl_sonicThis launcher is for deploying sonic charges. Sonic grenades bypass most defenses and can disorient those hit by them.EOVKEY: wl_coldThis launcher deploys grenades that expand into solid matter. Both CryoBan and adhesive grenades are effective at stopping crowds of enemies in their tracks.EOVKEY: wl_plasmaThis launcher works with grenades that work by releasing energy. These types of grenades deal high amounts of damage. Ion grenades are effective against droids while plasma grenades devestate weak enemies.EOVKEY: wl_rocketThis is the basic rocket launcher. Rockets are stronger than grenades but are considerably more expensive. This launcher works with regular explosive rockets and incendiary rockets for burning enemies.EOVKEY: wl_busterThis rocket launcher is specially designed for buster rockets. Buster rockets are unique because they don't explode but are used to pierce armor.EOVKEY: wl_coldrk?EOVKEY: wl_radianThis rocket launcher fires particularly deadly rockets. Plasma rockets deal massive damage while radiation rockets debilitate enemies with radiation poisoning.EOVKEY: wl_fusionThis launcher is designed to work with fusion rounds. It is a dual launcher that can fire thermal detonators as ballstic projectiles as well as fusion rockets. This makes this launcher arguably the most deadly weapon that a single soldier can carry into battle.EOV
 
 KEY: g_w_lghtsbr01
 KEY: g_w_lghtsbr02
@@ -2053,11 +2200,12 @@ Open this ammo box to obtain 6 grenades.
 EOV
 
 
-KEY: br_exlpo
-KEY: br_fire
+KEY: br_explo
+KEY: br_incen
 KEY: br_buster
 KEY: br_buster2
 KEY: br_cold
+KEY: br_altcold
 KEY: br_plasma
 KEY: br_radian
 KEY: br_fusion
@@ -2082,6 +2230,20 @@ KEY: ba_slpdt
 KEY: ba_pardt
 KEY: ba_kybdt
 Open this ammo box to obtain 20 darts.
+EOV
+
+
+KEY: bh_repair1
+KEY: bh_repair2
+KEY: bh_repair3
+KEY: bh_repair4
+Open this ammo box to obtain 12 repair kits.
+EOV
+
+
+KEY: bh_quick1
+KEY: bh_quick2
+Open this ammo box to obtain 8 repair kits.
 EOV
 
 
@@ -2771,3 +2933,6 @@ Level 3 Upgradeable
 The Outer Rim planet Yanibar was the home of the Zeison Sha, who developed their Force powers as a means of surviving the harsh planet.  Zeison Sha stress independence and survival as well as assistance to those in need.
 EOV
 KEY: hb_stealThis device enables Stealth Mode, a camouflage field that hides the user. Opponents must make an Awareness check versus the Stealth skill of the user or remain unaware of them. The user must have paid points into the Stealth skill to use Stealth Mode. Combat disrupts the field, but mundane tasks do not.EOVKEY: hb_stlrunThis device enables Stealth Mode, a camouflage field that hides the user. Opponents must make an Awareness check versus the Stealth skill of the user or remain unaware of them. The user must have paid points into the Stealth skill to use Stealth Mode. Combat disrupts the field, but mundane tasks do not.This belt allows the user to run while in Stealth Mode.EOVKEY: hb_reflex1KEY: hb_reflex2This device improves the wearer's reflexes by triggering prolonged bursts of adrenaline. It is thought to be perfectly safe, with only a few instances of uncontrolled muscle spasms.EOVKEY: hb_cardio1KEY: hb_cardio2This belt monitors heartbeat and breathing and releases chemicals into the body should either of these become irregular. This gives the wearer a higher fortitude than most.EOVKEY: hb_nerve1KEY: hb_nerve2This belt monitors the brain, emitting energy waves to reinforce established patterns and block any outside influence. It's extremely effective, if mildly uncomfortable.EOVKEY: hb_cardio2EOV
+
+KEY: tt_blast
+EOV

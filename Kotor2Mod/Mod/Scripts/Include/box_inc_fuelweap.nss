@@ -67,7 +67,7 @@ int Box_PlasmaBlaster(object oTarget) {
 	return Box_PlasmaWeapon(oTarget, 16, 32, 8, save);
 }
 
-int Box_DisruptorBlaster(object oTarget) {
+int Box_AntimatterBlaster(object oTarget) {
 	int save = SAVING_THROW_REFLEX;
 	int damageType = DAMAGE_TYPE_UNSTOPPABLE;
 	int saveType = SAVING_THROW_TYPE_NONE;

@@ -5,3 +5,4 @@
 
 // Generated lines go here
 //TURRETS
+//TRAPS

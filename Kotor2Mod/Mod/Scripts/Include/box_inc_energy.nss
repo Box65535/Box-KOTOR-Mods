@@ -5,7 +5,7 @@
 
 
 int Box_IonStrikerMkI(object oTarget) {
-	int save = SAVING_THROW_FORT;
+	int save = SAVING_THROW_WILL;
 	return Box_DroidStunWeapon(oTarget, 12, save, 9.0);
 }
 
@@ -15,14 +15,14 @@ int Box_StunRayMkI(object oTarget) {
 }
 
 int Box_ShockArmMkI(object oTarget) {
-	int save = SAVING_THROW_WILL;
+	int save = SAVING_THROW_FORT;
 	int damageType = DAMAGE_THROW_TYPE_ELECTRICAL;
 	int saveType = SAVING_THROW_TYPE_ELECTRICAL;
 	return Box_DamageWeapon(oTarget, 14, `12, 4, damageType, save, saveType);
 }
 
 int Box_IonStrikerMkII(object oTarget) {
-	int save = SAVING_THROW_FORT;
+	int save = SAVING_THROW_WILL;
 	return Box_IonWeapon(oTarget, 14, 8, 4, 8, save, 9.0);
 }
 
@@ -32,7 +32,7 @@ int Box_StunRayMkII(object oTarget) {
 }
 
 int Box_ShockArmMkII(object oTarget) {
-	int save = SAVING_THROW_WILL;
+	int save = SAVING_THROW_FORT;
 	return Box_ShockWeapon(oTarget, 14, 18, 6, save, 3.0);
 }
 
@@ -117,6 +117,11 @@ int Box_SeismicDisruptor(object oTarget) {
 int Box_ParalysisRay(object oTarget) {
 	int save = SAVING_THROW_WILL;
 	return Box_ParalyzeWeapon(oTarget, 18, save, 15.0);
+}
+
+int Box_StormArm(object oTarget) {
+	int save = SAVING_THROW_FORT;
+	return Box_ShockWeapon(oTarget, 20, 36, 12, save, 6.0);
 }
 
 int Box_PlasmaBomber(object oTarget) {

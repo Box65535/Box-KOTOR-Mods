@@ -70,6 +70,11 @@ int Box_SonicGrenadeLauncher2(object oTarget) {
 	return Box_SonicWeapon(oTarget, 20, 32, 8, save, 6, 30.0);
 }
 
+int Box_IonGrenadeLauncher(object oTarget) {
+	int save = Box_GetBestSave(oTarget, SAVING_THROW_FORT, SAVING_THROW_REFLEX);
+	return Box_IonWeapon(oTarget, 18, 20, 6, 20, save, 0.0);
+}
+
 int Box_PlasmaGrenadeLauncher(object oTarget) {
 	int save = SAVING_THROW_REFLEX;
 	return Box_PlasmaWeapon(oTarget, 20, 36, 6, save);
@@ -129,7 +134,7 @@ int Box_RadiationRocket(object oTarget) {
 	return Box_PoisonWeapon(oTarget, RADIATION_ROCKET);
 }
 
-int Box_DetonatorGrenadeLauncher(object oTarget) {
+int Box_DetonatorLauncher(object oTarget) {
 	int save = SAVING_THROW_REFLEX;
 	return Box_DetonatorWeapon(oTarget, 28, 60, 20, save);
 }

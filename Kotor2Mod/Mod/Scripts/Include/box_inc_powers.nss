@@ -771,7 +771,7 @@ int Box_ConsumePower(object oUser, object oTarget, int force) {
 }
 
 //
-void Box_BreathPower(object oUser, object oTarget, int force) {
+void Box_BreathControl(object oUser, object oTarget, int force) {
 	
 	float duration = 120.0 + 15.0*force;
 	
@@ -783,7 +783,7 @@ void Box_BreathPower(object oUser, object oTarget, int force) {
 }
 
 //
-int Box_BeastPower(object oUser, object oTarget, int force) {
+int Box_BeastTrick(object oUser, object oTarget, int force) {
 	
 	//
 	int powerDC = 10 + force;

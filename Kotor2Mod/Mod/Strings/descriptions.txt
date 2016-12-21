@@ -1213,7 +1213,7 @@ Cast DC 18
 The Jedi manipulates the air to send an ionic surge through an enemy droid. This power deals (Force)d4 Ion damage to all droid enemies within 6 meters of the target and causes stun for 6 + 0.25(Force) seconds. A successful Fortitude or Will saving throw (Ion type) against 10 + Force reduces the damage to 1/3 and prevents the stun.
 EOV
 
-KEY: BOXFP_THROW_SABER
+KEY: BOXFP_THROW_LIGHTSABER
 Prerequisites:
 Level 10
 
@@ -1237,7 +1237,7 @@ Cast DC 12
 The Jedi uses telekinesis to levitate an opponent. This power leaves an opponent helplessly swirling in the air for 9 + 0.25(Force) seconds. A successful Reflex or Will saving throw against 10 + Force will stop this power.
 EOV
 
-KEY: BOXFP_MASS_LEVITATE
+KEY: BOXFP_LEVITATION_FIELD
 Prerequisites:
 Force Levitate
 Level 22
@@ -1423,7 +1423,7 @@ Cast DC 15
 The Jedi surpresses the use of the force in an enemy. This power deals (Force)d6 points of damage to a Jedi opponent's force points and grants a -6 penalty to the opponent's Wisdom and Charisma for 18 + 2(Force) seconds. A successful Will saving throw (Light Side type) prevents the force point damage and reduces the attribute penalties to -4 for 9 seconds.
 EOV
 
-KEY: BOXFP_FORCE_PARALYZE
+KEY: BOXFP_FORCE_PARALYSIS
 Prerequisites:
 Level 20
 

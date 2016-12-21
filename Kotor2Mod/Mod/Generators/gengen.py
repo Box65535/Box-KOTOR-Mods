@@ -167,7 +167,7 @@ eradicatepower_pattern = """eradicate_spells.append(Spell({spellindex}, '{spellc
 	None, None, None,  None,  None,  None,  None,  None,  None,  None,  None,
 	None,  None,  None, None))"""
 modifypower_pattern = """modify_spells.append(Spell({spellindex}, '{spellcode}', {powercost}, None,
-	{levelreq}, False, {spellcr}, None, None, '{spellicon}', '{script}',
+	{levelreq}, False, {spellcr}, None, None, '{icon}', '{script}',
 	None, None, None, None, None, None))"""
 newpower_pattern = """new_spells.append(Spell(None, '{spellcode}', {powercost}, {prereq}, {levelreq},
 	False, {spellcr}, '{spellcategory}', '{spellrange}', '{icon}', '{script}',
@@ -694,6 +694,9 @@ incfuelweap = read_file('Input\\box_inc_fuelweap.nss')
 incmines = read_file('Input\\box_inc_mines.nss')
 incmerchant = read_file('Input\\box_inc_merchants.nss')
 incturret = read_file('Input\\box_inc_turrets.nss')
+incturretspells = read_file('Input\\box_inc_turretspells.nss')
+incenemyspells = read_file('Input\\box_inc_enemyspells.nss')
+incenemyspells2 = read_file('Input\\box_inc_enemyspells2.nss')
 
 incspawn = read_file('Input\\box_inc_spawn_per.nss') + read_file('Input\\box_inc_spawn_tel.nss')
 inctreasure = read_file('Input\\box_inc_treasure.nss')
@@ -731,7 +734,6 @@ recommendations = load_recommendations("Input\\recommendations.txt")
 # Poisons
 with open('Input\\poisons.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
-	number = 1
 	for row in reader:
 		add_line(poisons, row, poisonheader_pattern, ';HEADERS')
 		add_line(poisons, row, poisonini_pattern, ';POISONS')
@@ -772,7 +774,7 @@ with open('Input\\feats.csv', 'r') as csvfile:
 			add_line(feats, row, addfeatheader_pattern, ';ADDHEADERS')
 			add_line(feats, row, addfeatini_pattern, ';ADDS')
 	set_tlk_header(tlk)
-	with open('feats.txt', 'w') as tlkout:
+	with open('Output\\feats.txt', 'w') as tlkout:
 		tlkout.write(tlk)
 	tlk = "\nEOF"
 
@@ -1107,7 +1109,6 @@ with open('Input\\enemyweapons.csv', 'r') as csvfile:
 		add_line(costgen, row, cost_pattern, '#COSTS')
 		add_line(fieldgen, row, field_pattern, '#ITEMS')
 		if row['poisoncode']:
-			verify_code(poisons, row['poisoncode'])
 			add_line(poisongen, row, poisonitem_pattern, '#ITEMS')
 		if row['dc']:
 			add_line(dcs, row, dcheader_pattern, ';HEADERS')
@@ -1128,11 +1129,13 @@ with open('Input\\enemyspells.csv', 'r') as csvfile:
 			copy_template('Input\\enemyspell.uti', 'Output\\' + row['tag'] + '.uti')
 		row['name'] = 'Enemy Equipment'
 		row['description'] = 'Enemy Equipment'
-		row['cost'] = 0
-		verify_code(baseitems, row['baseitemcode'])
-		add_line(fieldgen, row, fieldbase_pattern, '#ITEMS')
-		verify_function(incgrenade + incfuelweap + incenergy, row['functioncall'])
-		verify_function(incvisual, row['visualfunction'])
+		row['cost'] = '0'
+		row['model'] = '0'
+		if 'baseitemcode' in row:
+			add_line(featgen, row, baseitem_pattern, '#ITEMS')
+		add_line(fieldgen, row, field_pattern, '#ITEMS')
+		verify_function(row['functioncall'], incgrenade + incfuelweap + incenergy + incturretspells + incenemyspells + incenemyspells2)
+		verify_function(row['visualfunction'], incvisual)
 		if row['type'] == 'grenade':
 			add_line(spellgen, row, projectilespell_pattern, '#SPELLS')
 			add_line(scriptgen, row, grenadescript_pattern, '#SCRIPTS')
@@ -1168,7 +1171,10 @@ with open('Input\\powers.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	number = 1
 	for row in reader:
-		row['description'] = descriptions[row['spellcode']]
+		if row['type'] == 'remove' or row['type'] == 'eradicate':
+			row['description'] = 'Removed'
+		else:
+			row['description'] = descriptions[row['spellcode']]
 		if row['type'] == 'remove':
 			add_line(powergen, row, removepower_pattern, '#REMOVES')
 		elif row['type'] == 'eradicate':
@@ -1176,11 +1182,10 @@ with open('Input\\powers.csv', 'r') as csvfile:
 		elif row['type'] == 'persuade':
 			add_line(powergen, row, modifypower_pattern, '#MODIFIES')
 		elif row['type'] == 'modify':
-			verify_function(incpowers, row['functioncall'])
-			verify_function(incvisual, row['visualfunction'])
+			verify_function(row['functioncall'], incpowers)
+			verify_function(row['visualfunction'], incvisual)
 			add_line(powergen, row, modifypower_pattern, '#MODIFIES')
 			add_line(powergen, row, modifypower_pattern, '#NAMES')
-			add_line(scriptgen, row, po, '#SCRIPTS')
 			add_line(powerconst, row, spellconst_pattern, '//POWERS')
 			add_tlk(tlk, row['name'], number)
 			number += 1
@@ -1195,8 +1200,8 @@ with open('Input\\powers.csv', 'r') as csvfile:
 			elif row['spellindex'] == '177': # Consume
 				add_line(scriptgen, row, forceattackscript_pattern, '#SCRIPTS')
 		else:
-			verify_function(incpowers, row['functioncall'])
-			verify_function(incvisual, row['visualfunction'])
+			verify_function(row['functioncall'], incpowers)
+			verify_function(row['visualfunction'], incvisual)
 			if row['type'] == 'throw':
 				add_line(powergen, row, newsaberpower_pattern, '#POWERS')
 				add_line(scriptgen, row, forceattackscript_pattern, '#SCRIPTS')
@@ -1216,14 +1221,13 @@ with open('Input\\powers.csv', 'r') as csvfile:
 				add_line(powergen, row, newpower_pattern, '#POWERS')
 				add_line(scriptgen, row, forceteambuffscript_pattern, '#SCRIPTS')
 			add_line(powerconst, row, spellconst_pattern, '//POWERS')
-			add_line(tlk, row, tlk_pattern, '\nEOF')
 			add_tlk(tlk, row['name'], number)
 			number += 1
 			add_tlk(tlk, row['description'], number)
 			number += 1
 	set_tlk_header(tlk)
-	with open('powers.txt', 'w') as tlkout:
-		file.write(tlk)
+	with open('Output\\powers.txt', 'w') as tlkout:
+		tlkout.write(tlk)
 	tlk = "\nEOF"
 
 		
@@ -1246,18 +1250,18 @@ enemies = {}
 with open('Input\\spawns.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
-		verify_function(incspawn, row['functioncall'])
+		verify_function(row['functioncall'], incspawn)
 		add_line(scriptgen, row, spawnscript_pattern, '#SCRIPTS')
-		enemies[row.script] = row
+		enemies[row['script']] = row
 
 # Enemies
 with open('Input\\enemies.csv', 'r') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
-		enemy = enemies[row.script]
+		enemy = enemies[row['script']]
 		row['str'] = enemy['str']
-		row['str'] = enemy['dex']
-		row['str'] = enemy['con']
+		row['dex'] = enemy['dex']
+		row['con'] = enemy['con']
 		row['int'] = enemy['int']
 		row['wis'] = enemy['wis']
 		row['chr'] = enemy['chr']

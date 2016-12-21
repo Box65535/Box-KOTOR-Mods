@@ -12,6 +12,7 @@ copy Mod\INIs\* Install\Gen\Input
 copy Mod\GFFs\Ammo\* Install\Gen\Input
 copy Mod\GFFs\Armor\* Install\Gen\Input
 copy Mod\GFFs\Belts\* Install\Gen\Input
+copy Mod\GFFs\Enemy\* Install\Gen\Input
 copy Mod\GFFs\Implants\* Install\Gen\Input
 copy Mod\GFFs\Launchers\* Install\Gen\Input
 copy Mod\GFFs\Medpacs\* Install\Gen\Input

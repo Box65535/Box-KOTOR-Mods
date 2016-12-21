@@ -55,7 +55,6 @@ g_201thug2,bx_tethug_gn,201TEL
 n_samhan,bx_samhan_gr,201TEL
 n_tsfoff002,bx_tsfoff,201TEL
 n_repsold006,bx_tsflut,201TEL
-Recheck 201TEL,,
 203_merc002,bx_czthug_bp,202TEL
 203_merc01,bx_czthug_rf,202TEL
 g_201thug,bx_masked,202TEL
@@ -65,7 +64,6 @@ n_tsfgm,bx_tsfoff,202TEL
 n_repoff002,bx_tsfoff,202TEL
 n_repoff003,bx_tsfoff,202TEL
 n_202_rem,bx_batrem,202TEL
-Benok in 202??,,
 203_batono,bx_batono,203TEL
 n_tsfoff001,bx_tsfoff,203TEL
 n_tsfoff002,bx_tsfoff,203TEL
@@ -151,17 +149,14 @@ g_trttel007,bx_teltrt_i,232TEL
 g_trttel008,bx_teltrt,232TEL
 g_trttel009,bx_teltrt,232TEL
 g_trttel010,bx_teltrt,232TEL
-Could add turret variety,Vanilla has some,
 c_drdmkfour001,bx_tankdr,232TEL
 c_drdreact,bx_teldrd_re,232TEL
-Other droids?,,
 p_hk048,bx_telhk5_sn,261TEL
 p_hk049,bx_telhk5_hv,261TEL
 p_hk050,bx_telhk5_gr,261TEL
 n_hk50_002,bx_telhk5_sn,261TEL
 n_hk50_003,bx_telhk5_hv,261TEL
 n_hk50_004,bx_telhk5_gr,261TEL
-p_handmaiden012,,262TEL
-p_handmaiden013,,262TEL
-p_handmaiden014,,262TEL
-Confused which are which,,
+p_handmaiden012,?,262TEL
+p_handmaiden013,?,262TEL
+p_handmaiden014,?,262TEL

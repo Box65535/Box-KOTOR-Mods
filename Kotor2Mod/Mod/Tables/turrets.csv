@@ -1,2 +1,2 @@
 tag,baseitemcode,cost,name,model,tagconst,trapconst,trapcode,script,setdc,detectdcmod,disarmdcmod,trapname,iconresref,namecode,trapmodel,explosionsound,turretconst,turrettag,skill,skillreq,levelreq,craftgroup
-tt_blast,BOXI_TRAPKIT,100,Blaster Turret,1,,TRAP_BLASTER_TURRET,BOXTR_BLASTER_TURRET,****,0,0,0,?,****,?,v_mnfrag,****,,,science,8,0,item_group
+tt_blast,BOXI_TRAPKIT,100,Blaster Turret,1,BLASTER_TURRET,TRAP_BLASTER_TURRET,BOXTR_BLASTER_TURRET,****,0,0,0,?,****,?,v_mnfrag,****,,,science,8,0,item_group

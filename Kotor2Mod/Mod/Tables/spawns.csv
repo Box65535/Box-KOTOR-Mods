@@ -6,6 +6,7 @@ bx_mindrd1_sl,box_inc_spawn_per,Box_MiningDroidShieldedLoot,k_def_spawn01,10,10,
 bx_mindrd1_du,box_inc_spawn_per,Box_MiningDroidDual,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_mindrd1_ds,box_inc_spawn_per,Box_MiningDroidDualShielded,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_exvdrd,box_inc_spawn_per,Box_ExcavatorDroid,k_def_spawn01,10,10,10,10,10,10,0,0,0
+bx_exvdrd_dr,box_inc_spawn_per,Box_ExcavatorDroid,k_drd_spawn01,10,10,10,10,10,10,0,0,0
 bx_exvdrd_bn,box_inc_spawn_per,Box_ExcavatorDroidBurners,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_exvdrd_fs,box_inc_spawn_per,Box_FireSuppressionDroid,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_mindrd2,box_inc_spawn_per,Box_MiningDroidMarkII,k_def_spawn01,10,10,10,10,10,10,0,0,0
@@ -32,12 +33,13 @@ bx_czthug_rf,box_inc_spawn_tel,Box_CzerkaMercenaryThugRifle,k_def_spawn01,10,10,
 bx_batrem,box_inc_spawn_tel,Box_BatuRemAssassin,k_fab_batuspn,10,10,10,10,10,10,0,0,0
 bx_batono,box_inc_spawn_tel,Box_Batono,k_bot_spawn,10,10,10,10,10,10,0,0,0
 bx_masked,box_inc_spawn_tel,Box_MaskedAttacker,k_def_spawn01,10,10,10,10,10,10,0,0,0
-bx_grenn,box_inc_spawn_tel,Box_LiutenantGrenn,?,10,10,10,10,10,10,0,0,0
+bx_grenn,box_inc_spawn_tel,Box_LiutenantGrenn,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_exitho,box_inc_spawn_tel,Box_Ithorian,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_benok,box_inc_spawn_tel,Box_Benok,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_nahata,box_inc_spawn_tel,Box_Nahata,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_vula,box_inc_spawn_tel,Box_Vula,k_ambient_sp,10,10,10,10,10,10,0,0,0
 bx_matu,box_inc_spawn_tel,Box_Matu,k_def_spawn01,10,10,10,10,10,10,0,0,0
+bx_exdoor,box_inc_spawn_tel,Box_ExchangeDoorThug,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_exthg_tl,box_inc_spawn_tel,Box_ExchangeThug,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_gammor1,box_inc_spawn_tel,Box_ExchangeGammorean,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_exdrd,box_inc_spawn_tel,Box_ExchangeDroid,k_def_spawn01,10,10,10,10,10,10,0,0,0
@@ -70,7 +72,7 @@ bx_czmerc_cm,box_inc_spawn_tel,Box_MercenaryCommander,k_def_spawn01,10,10,10,10,
 bx_teldrd,box_inc_spawn_tel,Box_TelosDroid,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_teldrd_fl,box_inc_spawn_tel,Box_TelosDroidFlamethrower,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_teldrd_sa,box_inc_spawn_tel,Box_TelosDroidShockArm,k_def_spawn01,10,10,10,10,10,10,0,0,0
-?,box_inc_spawn_tel,Box_TelosSentryDroid,k_def_spawn01,10,10,10,10,10,10,0,0,0
+bx_teldrd_sn,box_inc_spawn_tel,Box_TelosSentryDroid,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_teltrt,box_inc_spawn_tel,Box_TelosTurret,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_teltrt_i,box_inc_spawn_tel,Box_TelosIonTurret,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_teltrt_sh,box_inc_spawn_tel,Box_TelosTurretShielded,k_def_spawn01,10,10,10,10,10,10,0,0,0
@@ -81,4 +83,4 @@ bx_tankdr,box_inc_spawn_tel,Box_TankDroid,k_tank_spawn,10,10,10,10,10,10,0,0,0
 bx_telhk5_sn,box_inc_spawn_tel,Box_HK50Sniper,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_telhk5_hv,box_inc_spawn_tel,Box_HK50Heavy,k_def_spawn01,10,10,10,10,10,10,0,0,0
 bx_telhk5_gr,box_inc_spawn_tel,Box_HK50Grenadier,k_def_spawn01,10,10,10,10,10,10,0,0,0
-bx_handma,box_inc_spawn_tel,HandmaidenSister,k_def_spawn01,10,10,10,10,10,10,0,0,0
+bx_handma,box_inc_spawn_tel,HandmaidenSister,k_dojo_spawn,16,16,16,16,16,16,0,0,0

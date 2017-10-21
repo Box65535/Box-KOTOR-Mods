@@ -295,10 +295,10 @@ turretconst_pattern = """string {turretconst} = "{turrettag}";"""
 turrettrapconst_pattern = """string {trapconst} = "{tag}";"""
 
 # box_inc_treasure.nss
-treasurefunction_pattern = """void {functioncall}(object oContainer) {
+treasurefunction_pattern = """void {functioncall}(object oContainer) \{
 	Box_RemoveAllItems(oContainer);
 	//{functioncall}
-}
+\}
 
 """
 treasureitem_pattern = """CreateItemOnObject({itemconst}, oContainer);"""

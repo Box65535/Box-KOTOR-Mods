@@ -1,231 +1,231 @@
-type	functioncall	script	itemconst
-	Box_PeragusStealthBelt	bxt_perstl	
-	Box_PeragusStealthBelt		STEALTH_FIELD_GENERATOR
-	Box_PeragusStealthBelt		MEDPAC_1
-	Box_PeragusIonGrenades	bxt_perion	
-	Box_PeragusIonGrenades		ION_GRENADE
-	Box_PeragusIonGrenades		ION_GRENADE
-	Box_PeragusIonGrenades		CREDITS_10
-	Box_PeragusPlasmaTorch	bxt_pertorch	
-	Box_PeragusPlasmaTorch		PLASMA_TORCH
-	Box_PeragusVibrocutter	bxt_pervibct	
-	Box_PeragusVibrocutter		VIBROCUTTER
-	Box_PeragusVibrocutter		CREDITS_5
-	Box_SecuritySpike	bxt_secspk1	
-	Box_SecuritySpike		SECURITY_SPIKE_1
-	Box_5Credits	bxt_5credit	
-	Box_5Credits		CREDITS_5
-	Box_Medpac	bxt_medpac	
-	Box_Medpac		MEDPAC_1
-	Box_2Medpac	bxt_2medpac	
-	Box_2Medpac		MEDPAC_1
-	Box_2Medpac		MEDPAC_1
-	Box_PoisStim	bxt_poistim	
-	Box_PoisStim		POISON_STIM
-	Box_100Chem	bxt_100chem	
-	Box_100Chem		CHEMICALS_100
-	Box_5Comp	bxt_5comp	
-	Box_5Comp		COMPONENTS_5
-	Box_10Credits	bxt_10credit	
-	Box_10Credits		CREDITS_10
-	Box_PeragusLockedIonGrenades	bxt_perlkion	
-	Box_PeragusLockedIonGrenades		ION_GRENADE
-	Box_PeragusLockedIonGrenades		ION_GRENADE
-	Box_PeragusLockedIonGrenades		SONIC_GRENADE
-	Box_PeragusLockedIonGrenades		SONIC_GRENADE
-	Box_PeragusLockedIonGrenades		MEDPAC_1
-	Box_PeragusOnlyIonGrenades	bxt_perion2	
-	Box_PeragusOnlyIonGrenades		ION_GRENADE
-	Box_PeragusOnlyIonGrenades		ION_GRENADE
-	Box_3Parts	bxt_3parts	
-	Box_3Parts		PARTS
-	Box_3Parts		PARTS
-	Box_3Parts		PARTS
-	Box_CompSpike	bxt_cspike	
-	Box_CompSpike		COMPUTER_SPIKE
-	Box_PeragusLootDroid	bxt_perlootd	
-	Box_PeragusLootDroid		SONIC_GRENADE
-	Box_PeragusLootDroid		COMPONENTS
-	Box_PeragusLootDroid		COMPONENTS
-	Box_PeragusMoreLootDroid	bxt_perlootd2	
-	Box_PeragusMoreLootDroid		SONIC_GRENADE
-	Box_PeragusMoreLootDroid		COMPONENTS
-	Box_PeragusMoreLootDroid		COMPONENTS
-	Box_PeragusMoreLootDroid		COMPONENTS
-	Box_25C1M25Credits1Medpac	bxt_25crdmed	
-	Box_25C1M25Credits1Medpac		CREDITS_25
-	Box_25C1M25Credits1Medpac		MEDPAC_1
-	Box_PeragusHiddenCorpse	bxt_perhidco	
-	Box_PeragusHiddenCorpse		MELEE_UPGRADE_IONITE_1
-	Box_PeragusHiddenCorpse		CARDIO_REGULATOR
-	Box_PeragusPartsSpikes	bxt_perptspk	
-	Box_PeragusPartsSpikes		PARTS
-	Box_PeragusPartsSpikes		PARTS
-	Box_PeragusPartsSpikes		PARTS
-	Box_PeragusPartsSpikes		PARTS
-	Box_PeragusPartsSpikes		PARTS
-	Box_PeragusPartsSpikes		PARTS
-	Box_PeragusPartsSpikes		PARTS
-	Box_PeragusPartsSpikes		COMPUTER_SPIKE
-	Box_PeragusPartsSpikes		COMPUTER_SPIKE
-	Box_PeragusPartsSpikes		COMPUTER_SPIKE
-	Box_PeragusUniformContainer	bxt_perunif	
-	Box_PeragusUniformContainer		MINER_UNIFORM
-	Box_PeragusUniformContainer		PERAGUS_MINING_SHIELD
-	Box_PeragusUniformContainer		MEDPAC_1
-	Box_PeragusUniformContainer		ADRENALINE_AMPLIFIER
-	Box_PeragusContainerSonicGrenade	bxt_personcn	
-	Box_PeragusContainerSonicGrenade		SONIC_GRENADE
-	Box_PeragusContainerSonicGrenade		SONIC_GRENADE
-	Box_PeragusContainerSonicGrenade		MEDPAC_1
-	Box_PeragusContainerSonicGrenade		SECURITY_SPIKE_1
-	Box_Empty	bxt_empty	
-	Box_2R2P2Repair2Parts	bxt_2rep2prt	
-	Box_2R2P2Repair2Parts		REPAIR_KIT_1
-	Box_2R2P2Repair2Parts		REPAIR_KIT_1
-	Box_2R2P2Repair2Parts		PARTS
-	Box_2R2P2Repair2Parts		PARTS
-	Box_3Components	bxt_3comp	
-	Box_3Components		COMPONENTS
-	Box_3Components		COMPONENTS
-	Box_3Components		COMPONENTS
-	Box_PeragusSonicComponents	bxt_personcp	
-	Box_PeragusSonicComponents		SONIC_GRENADE
-	Box_PeragusSonicComponents		COMPONENTS
-	Box_PeragusSonicComponents		COMPONENTS
-	Box_PeragusDatapad001	bxt_perdp001	
-	Box_PeragusDatapad001		"""mine_datapad001"""
-	Box_PeragusDatapad001		SONIC_MINE
-	Box_PeragusDatapad001		SONIC_MINE
-	Box_PeragusDatapad001		SONIC_MINE
-	Box_2Spikes	bxt_2cspike	
-	Box_2Spikes		COMPUTER_SPIKE
-	Box_2Spikes		COMPUTER_SPIKE
-	Box_SonicImprintSensor	bxt_sonsens	
-	Box_SonicImprintSensor		"""sonicimprintsens"""
-	Box_SonicImprintSensor		"""mine_datapad002"""
-	Box_PeragusEnergyCell	bxt_perecell	
-	Box_PeragusEnergyCell		MELEE_UPGRADE_ENERGY
-	Box_PeragusHangar25	bxt_perhang25	
-	Box_PeragusHangar25		"""hangar25control"""
-	Box_PeragusHangar25		REPAIR_KIT_1
-	Box_PeragusHangar25		REPAIR_KIT_1
-	Box_PeragusHangar25		REPAIR_KIT_1
-	Box_PeragusHangar25		REPAIR_KIT_1
-	Box_PeragusImplantLocker	bxt_perimp	
-	Box_PeragusImplantLocker		??
-	Box_PeragusImplantLocker		PARTS
-	Box_PeragusSpacesuit	bxt_perspace	
-	Box_PeragusSpacesuit		"""lev40_spacesuit"""
-	Box_25Credits	bxt_25credit	
-	Box_25Credits		CREDITS_25
-	Box_MinerDatapads	bxt_minerdps	
-	Box_MinerDatapads		"""datapadminer002"""
-	Box_MinerDatapads		"""datapadminer1"""
-	Box_MinerDatapads		"""datapadminer003"""
-	Box_MinerDatapads		"""datapaddockoff"""
-	Box_MinerDatapads		"""datapadmineadm"""
-	Box_MinerDatapads		"""datapadmineforem"""
-	Box_MinerDatapads		"""datapadminecoort"""
-	Box_MinerSmuggler	bxt_minersmg	
-	Box_MinerSmuggler		"""datapadminer1"""
-	Box_MinerAdmin	bxt_mineradm	
-	Box_MinerAdmin		CREDITS_25
-	Box_MinerAdmin		"""datapadmineadm"""
-	Box_MinerDock	bxt_minerdck	
-	Box_MinerDock		PARTS
-	Box_MinerDock		"""datapaddockoff"""
-	Box_MinerMedical	bxt_minermed	
-	Box_MinerMedical		CHEMICALS_10
-	Box_MinerMedical		MEDPAC_1
-	Box_MinerSullustan	bxt_minersul	
-	Box_MinerSullustan		COMPONENTS
-	Box_MinerSullustan		COMPONENTS
-	Box_MinerCoorta	bxt_coorta	
-	Box_MinerCoorta		MINING_LASER
-	Box_MinerCoorta		CREDITS_5
-	Box_MinerCoorta		"""datapadminecoort"""
-	Box_MinerThug	bxt_minerthg	
-	Box_MinerThug		MINING_LASER
-	Box_MinerThug		CREDITS_5
-	Box_Miner003	bxt_miner003	
-	Box_Miner003		"""datapadminer003"""
-	Box_PeragusCheat	bxt_percheat	
-	Box_PeragusCheat		PARTS
-	Box_PeragusCheat		PARTS
-	Box_PeragusCheat		SECURITY_SPIKE_1
-	Box_PeragusCheat		SECURITY_SPIKE_1
-	Box_PeragusCheat		COMPUTER_SPIKE
-	Box_PeragusCheat		COMPUTER_SPIKE
-	Box_2Parts	bxt_2parts	
-	Box_2Parts		PARTS
-	Box_2Parts		PARTS
-	Box_Miner002	bxt_miner002	
-	Box_Miner002		"""datapadminer002"""
-	Box_PeragusBrokenContainer	bxt_perbrkc	
-	Box_PeragusBrokenContainer		ARMOR_UPGRADE_MEDICAL_1
-	Box_PeragusBrokenContainer		MEDPAC_1
-	Box_PeragusInsulationLocker	bxt_perinsul	
-	Box_PeragusInsulationLocker		ARMOR_UPGRADE_ENVIRONMENT_1
-	Box_PeragusSurvivalKit1	bxt_persurv1	
-	Box_PeragusSurvivalKit1		MEDPAC_1
-	Box_PeragusSurvivalKit1		MEDPAC_1
-	Box_PeragusSurvivalKit1		MEDPAC_1
-	Box_PeragusSurvivalKit1		MEDPAC_1
-	Box_PeragusSurvivalKit1		ANTIDOTE_KIT
-	Box_PeragusSurvivalKit1		ANTIDOTE_KIT
-	Box_PeragusSurvivalKit2	bxt_persurv2	
-	Box_PeragusSurvivalKit2		MEDPAC_1
-	Box_PeragusSurvivalKit2		MEDPAC_1
-	Box_PeragusSurvivalKit2		MEDPAC_1
-	Box_PeragusSurvivalKit2		CHEMICALS_10
-	Box_2Kits	bxt_2kit	
-	Box_2Kits		REPAIR_KIT_1
-	Box_2Kits		REPAIR_KIT_1
-	Box_1Kit	bxt_1kit	
-	Box_1Kit		REPAIR_KIT_1
-	Box_PeragusIonStriker	bxt_perionst	
-	Box_PeragusIonStriker		ION_STRIKER
-	Box_2Components	bxt_2comp	
-	Box_2Components		COMPONENTS
-	Box_2Components		COMPONENTS
-	Box_5P5S5Parts5Spikes	bxt_5par5spk	
-	Box_5P5S5Parts5Spikes		PARTS
-	Box_5P5S5Parts5Spikes		PARTS
-	Box_5P5S5Parts5Spikes		PARTS
-	Box_5P5S5Parts5Spikes		PARTS
-	Box_5P5S5Parts5Spikes		PARTS
-	Box_5P5S5Parts5Spikes		COMPUTER_SPIKE
-	Box_5P5S5Parts5Spikes		COMPUTER_SPIKE
-	Box_5P5S5Parts5Spikes		COMPUTER_SPIKE
-	Box_5P5S5Parts5Spikes		COMPUTER_SPIKE
-	Box_5P5S5Parts5Spikes		COMPUTER_SPIKE
-	Box_PeragusSonicGrenade	bxt_persongr	
-	Box_PeragusSonicGrenade		SONIC_GRENADE
-	Box_1Components	bxt_1comp	
-	Box_1Components		COMPONENTS
-	Box_PeragusLockedSpikes	bxt_perlkspk	
-	Box_PeragusLockedSpikes		COMPUTER_SPIKE
-	Box_PeragusLockedSpikes		COMPUTER_SPIKE
-	Box_PeragusLockedSpikes		COMPUTER_SPIKE
-	Box_PeragusLockedSpikes		CREDITS_50
-	Box_PeragusExitFootlocker	bxt_perexitfl	
-	Box_PeragusExitFootlocker		SONIC_GRENADE
-	Box_PeragusExitFootlocker		COMPONENTS
-	Box_100Credits	bxt_100credit	
-	Box_100Credits		CREDITS_100
-	Box_TelosLockerArmor	bxt_tsfarmor	
-	Box_TelosLockerArmor		REPUBLIC_ARMOR_1
-	Box_TelosLockerRifle	bxt_tsfrifle	
-	Box_TelosLockerRifle		REPUBLIC_RIFLE
-	Box_1AdvancedMedpac	bxt_1medpac2	
-	Box_1AdvancedMedpac		MEDPAC_2
-	Box_TelosMedicalCache	bxt_telcamed	
-	Box_TelosMedicalCache		MEDPAC_2
-	Box_TelosMedicalCache		MEDPAC_2
-	Box_TelosMedicalCache		MEDPAC_2
-	Box_TelosMedicalCache		MEDPAC_2
-	Box_TelosOtherCache	bxt_telcaoth	
-	Box_TelosOtherCache		???
-	Box_TelosBackpack	bxt_telbkpk	
-	Box_TelosBackpack		???
+type,functioncall,script,itemconst
+,Box_PeragusStealthBelt,bxt_perstl,
+,Box_PeragusStealthBelt,,STEALTH_FIELD_GENERATOR
+,Box_PeragusStealthBelt,,MEDPAC_1
+,Box_PeragusIonGrenades,bxt_perion,
+,Box_PeragusIonGrenades,,ION_GRENADE
+,Box_PeragusIonGrenades,,ION_GRENADE
+,Box_PeragusIonGrenades,,CREDITS_10
+,Box_PeragusPlasmaTorch,bxt_pertorch,
+,Box_PeragusPlasmaTorch,,PLASMA_TORCH
+,Box_PeragusVibrocutter,bxt_pervibct,
+,Box_PeragusVibrocutter,,VIBROCUTTER
+,Box_PeragusVibrocutter,,CREDITS_5
+,Box_SecuritySpike,bxt_secspk1,
+,Box_SecuritySpike,,SECURITY_SPIKE_1
+,Box_5Credits,bxt_5credit,
+,Box_5Credits,,CREDITS_5
+,Box_Medpac,bxt_medpac,
+,Box_Medpac,,MEDPAC_1
+,Box_2Medpac,bxt_2medpac,
+,Box_2Medpac,,MEDPAC_1
+,Box_2Medpac,,MEDPAC_1
+,Box_PoisStim,bxt_poistim,
+,Box_PoisStim,,POISON_STIM
+,Box_100Chem,bxt_100chem,
+,Box_100Chem,,CHEMICALS_100
+,Box_5Comp,bxt_5comp,
+,Box_5Comp,,COMPONENTS_5
+,Box_10Credits,bxt_10credit,
+,Box_10Credits,,CREDITS_10
+,Box_PeragusLockedIonGrenades,bxt_perlkion,
+,Box_PeragusLockedIonGrenades,,ION_GRENADE
+,Box_PeragusLockedIonGrenades,,ION_GRENADE
+,Box_PeragusLockedIonGrenades,,SONIC_GRENADE
+,Box_PeragusLockedIonGrenades,,SONIC_GRENADE
+,Box_PeragusLockedIonGrenades,,MEDPAC_1
+,Box_PeragusOnlyIonGrenades,bxt_perion2,
+,Box_PeragusOnlyIonGrenades,,ION_GRENADE
+,Box_PeragusOnlyIonGrenades,,ION_GRENADE
+,Box_3Parts,bxt_3parts,
+,Box_3Parts,,PARTS
+,Box_3Parts,,PARTS
+,Box_3Parts,,PARTS
+,Box_CompSpike,bxt_cspike,
+,Box_CompSpike,,COMPUTER_SPIKE
+,Box_PeragusLootDroid,bxt_perlootd,
+,Box_PeragusLootDroid,,SONIC_GRENADE
+,Box_PeragusLootDroid,,COMPONENTS
+,Box_PeragusLootDroid,,COMPONENTS
+,Box_PeragusMoreLootDroid,bxt_perlootd2,
+,Box_PeragusMoreLootDroid,,SONIC_GRENADE
+,Box_PeragusMoreLootDroid,,COMPONENTS
+,Box_PeragusMoreLootDroid,,COMPONENTS
+,Box_PeragusMoreLootDroid,,COMPONENTS
+,Box_25C1M25Credits1Medpac,bxt_25crdmed,
+,Box_25C1M25Credits1Medpac,,CREDITS_25
+,Box_25C1M25Credits1Medpac,,MEDPAC_1
+,Box_PeragusHiddenCorpse,bxt_perhidco,
+,Box_PeragusHiddenCorpse,,MELEE_UPGRADE_IONITE_1
+,Box_PeragusHiddenCorpse,,CARDIO_REGULATOR
+,Box_PeragusPartsSpikes,bxt_perptspk,
+,Box_PeragusPartsSpikes,,PARTS
+,Box_PeragusPartsSpikes,,PARTS
+,Box_PeragusPartsSpikes,,PARTS
+,Box_PeragusPartsSpikes,,PARTS
+,Box_PeragusPartsSpikes,,PARTS
+,Box_PeragusPartsSpikes,,PARTS
+,Box_PeragusPartsSpikes,,PARTS
+,Box_PeragusPartsSpikes,,COMPUTER_SPIKE
+,Box_PeragusPartsSpikes,,COMPUTER_SPIKE
+,Box_PeragusPartsSpikes,,COMPUTER_SPIKE
+,Box_PeragusUniformContainer,bxt_perunif,
+,Box_PeragusUniformContainer,,MINER_UNIFORM
+,Box_PeragusUniformContainer,,PERAGUS_MINING_SHIELD
+,Box_PeragusUniformContainer,,MEDPAC_1
+,Box_PeragusUniformContainer,,ADRENALINE_AMPLIFIER
+,Box_PeragusContainerSonicGrenade,bxt_personcn,
+,Box_PeragusContainerSonicGrenade,,SONIC_GRENADE
+,Box_PeragusContainerSonicGrenade,,SONIC_GRENADE
+,Box_PeragusContainerSonicGrenade,,MEDPAC_1
+,Box_PeragusContainerSonicGrenade,,SECURITY_SPIKE_1
+,Box_Empty,bxt_empty,
+,Box_2R2P2Repair2Parts,bxt_2rep2prt,
+,Box_2R2P2Repair2Parts,,REPAIR_KIT_1
+,Box_2R2P2Repair2Parts,,REPAIR_KIT_1
+,Box_2R2P2Repair2Parts,,PARTS
+,Box_2R2P2Repair2Parts,,PARTS
+,Box_3Components,bxt_3comp,
+,Box_3Components,,COMPONENTS
+,Box_3Components,,COMPONENTS
+,Box_3Components,,COMPONENTS
+,Box_PeragusSonicComponents,bxt_personcp,
+,Box_PeragusSonicComponents,,SONIC_GRENADE
+,Box_PeragusSonicComponents,,COMPONENTS
+,Box_PeragusSonicComponents,,COMPONENTS
+,Box_PeragusDatapad001,bxt_perdp001,
+,Box_PeragusDatapad001,,"""mine_datapad001"""
+,Box_PeragusDatapad001,,SONIC_MINE
+,Box_PeragusDatapad001,,SONIC_MINE
+,Box_PeragusDatapad001,,SONIC_MINE
+,Box_2Spikes,bxt_2cspike,
+,Box_2Spikes,,COMPUTER_SPIKE
+,Box_2Spikes,,COMPUTER_SPIKE
+,Box_SonicImprintSensor,bxt_sonsens,
+,Box_SonicImprintSensor,,"""sonicimprintsens"""
+,Box_SonicImprintSensor,,"""mine_datapad002"""
+,Box_PeragusEnergyCell,bxt_perecell,
+,Box_PeragusEnergyCell,,MELEE_UPGRADE_ENERGY
+,Box_PeragusHangar25,bxt_perhang25,
+,Box_PeragusHangar25,,"""hangar25control"""
+,Box_PeragusHangar25,,REPAIR_KIT_1
+,Box_PeragusHangar25,,REPAIR_KIT_1
+,Box_PeragusHangar25,,REPAIR_KIT_1
+,Box_PeragusHangar25,,REPAIR_KIT_1
+,Box_PeragusImplantLocker,bxt_perimp,
+,Box_PeragusImplantLocker,,??
+,Box_PeragusImplantLocker,,PARTS
+,Box_PeragusSpacesuit,bxt_perspace,
+,Box_PeragusSpacesuit,,"""lev40_spacesuit"""
+,Box_25Credits,bxt_25credit,
+,Box_25Credits,,CREDITS_25
+,Box_MinerDatapads,bxt_minerdps,
+,Box_MinerDatapads,,"""datapadminer002"""
+,Box_MinerDatapads,,"""datapadminer1"""
+,Box_MinerDatapads,,"""datapadminer003"""
+,Box_MinerDatapads,,"""datapaddockoff"""
+,Box_MinerDatapads,,"""datapadmineadm"""
+,Box_MinerDatapads,,"""datapadmineforem"""
+,Box_MinerDatapads,,"""datapadminecoort"""
+,Box_MinerSmuggler,bxt_minersmg,
+,Box_MinerSmuggler,,"""datapadminer1"""
+,Box_MinerAdmin,bxt_mineradm,
+,Box_MinerAdmin,,CREDITS_25
+,Box_MinerAdmin,,"""datapadmineadm"""
+,Box_MinerDock,bxt_minerdck,
+,Box_MinerDock,,PARTS
+,Box_MinerDock,,"""datapaddockoff"""
+,Box_MinerMedical,bxt_minermed,
+,Box_MinerMedical,,CHEMICALS_10
+,Box_MinerMedical,,MEDPAC_1
+,Box_MinerSullustan,bxt_minersul,
+,Box_MinerSullustan,,COMPONENTS
+,Box_MinerSullustan,,COMPONENTS
+,Box_MinerCoorta,bxt_coorta,
+,Box_MinerCoorta,,MINING_LASER
+,Box_MinerCoorta,,CREDITS_5
+,Box_MinerCoorta,,"""datapadminecoort"""
+,Box_MinerThug,bxt_minerthg,
+,Box_MinerThug,,MINING_LASER
+,Box_MinerThug,,CREDITS_5
+,Box_Miner003,bxt_miner003,
+,Box_Miner003,,"""datapadminer003"""
+,Box_PeragusCheat,bxt_percheat,
+,Box_PeragusCheat,,PARTS
+,Box_PeragusCheat,,PARTS
+,Box_PeragusCheat,,SECURITY_SPIKE_1
+,Box_PeragusCheat,,SECURITY_SPIKE_1
+,Box_PeragusCheat,,COMPUTER_SPIKE
+,Box_PeragusCheat,,COMPUTER_SPIKE
+,Box_2Parts,bxt_2parts,
+,Box_2Parts,,PARTS
+,Box_2Parts,,PARTS
+,Box_Miner002,bxt_miner002,
+,Box_Miner002,,"""datapadminer002"""
+,Box_PeragusBrokenContainer,bxt_perbrkc,
+,Box_PeragusBrokenContainer,,ARMOR_UPGRADE_MEDICAL_1
+,Box_PeragusBrokenContainer,,MEDPAC_1
+,Box_PeragusInsulationLocker,bxt_perinsul,
+,Box_PeragusInsulationLocker,,ARMOR_UPGRADE_ENVIRONMENT_1
+,Box_PeragusSurvivalKit1,bxt_persurv1,
+,Box_PeragusSurvivalKit1,,MEDPAC_1
+,Box_PeragusSurvivalKit1,,MEDPAC_1
+,Box_PeragusSurvivalKit1,,MEDPAC_1
+,Box_PeragusSurvivalKit1,,MEDPAC_1
+,Box_PeragusSurvivalKit1,,ANTIDOTE_KIT
+,Box_PeragusSurvivalKit1,,ANTIDOTE_KIT
+,Box_PeragusSurvivalKit2,bxt_persurv2,
+,Box_PeragusSurvivalKit2,,MEDPAC_1
+,Box_PeragusSurvivalKit2,,MEDPAC_1
+,Box_PeragusSurvivalKit2,,MEDPAC_1
+,Box_PeragusSurvivalKit2,,CHEMICALS_10
+,Box_2Kits,bxt_2kit,
+,Box_2Kits,,REPAIR_KIT_1
+,Box_2Kits,,REPAIR_KIT_1
+,Box_1Kit,bxt_1kit,
+,Box_1Kit,,REPAIR_KIT_1
+,Box_PeragusIonStriker,bxt_perionst,
+,Box_PeragusIonStriker,,ION_STRIKER
+,Box_2Components,bxt_2comp,
+,Box_2Components,,COMPONENTS
+,Box_2Components,,COMPONENTS
+,Box_5P5S5Parts5Spikes,bxt_5par5spk,
+,Box_5P5S5Parts5Spikes,,PARTS
+,Box_5P5S5Parts5Spikes,,PARTS
+,Box_5P5S5Parts5Spikes,,PARTS
+,Box_5P5S5Parts5Spikes,,PARTS
+,Box_5P5S5Parts5Spikes,,PARTS
+,Box_5P5S5Parts5Spikes,,COMPUTER_SPIKE
+,Box_5P5S5Parts5Spikes,,COMPUTER_SPIKE
+,Box_5P5S5Parts5Spikes,,COMPUTER_SPIKE
+,Box_5P5S5Parts5Spikes,,COMPUTER_SPIKE
+,Box_5P5S5Parts5Spikes,,COMPUTER_SPIKE
+,Box_PeragusSonicGrenade,bxt_persongr,
+,Box_PeragusSonicGrenade,,SONIC_GRENADE
+,Box_1Components,bxt_1comp,
+,Box_1Components,,COMPONENTS
+,Box_PeragusLockedSpikes,bxt_perlkspk,
+,Box_PeragusLockedSpikes,,COMPUTER_SPIKE
+,Box_PeragusLockedSpikes,,COMPUTER_SPIKE
+,Box_PeragusLockedSpikes,,COMPUTER_SPIKE
+,Box_PeragusLockedSpikes,,CREDITS_50
+,Box_PeragusExitFootlocker,bxt_perexitfl,
+,Box_PeragusExitFootlocker,,SONIC_GRENADE
+,Box_PeragusExitFootlocker,,COMPONENTS
+,Box_100Credits,bxt_100credit,
+,Box_100Credits,,CREDITS_100
+,Box_TelosLockerArmor,bxt_tsfarmor,
+,Box_TelosLockerArmor,,REPUBLIC_ARMOR_1
+,Box_TelosLockerRifle,bxt_tsfrifle,
+,Box_TelosLockerRifle,,REPUBLIC_RIFLE
+,Box_1AdvancedMedpac,bxt_1medpac2,
+,Box_1AdvancedMedpac,,MEDPAC_2
+,Box_TelosMedicalCache,bxt_telcamed,
+,Box_TelosMedicalCache,,MEDPAC_2
+,Box_TelosMedicalCache,,MEDPAC_2
+,Box_TelosMedicalCache,,MEDPAC_2
+,Box_TelosMedicalCache,,MEDPAC_2
+,Box_TelosOtherCache,bxt_telcaoth,
+,Box_TelosOtherCache,,???
+,Box_TelosBackpack,bxt_telbkpk,
+,Box_TelosBackpack,,???

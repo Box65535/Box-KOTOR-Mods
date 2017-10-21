@@ -60,7 +60,7 @@ void Box_MiningDroidDualShielded(object oEnemy) {
 void Box_ExcavatorDroid(object oEnemy) {
 	Box_RemoveAllItems(oEnemy);
 	Box_EquipHide(oEnemy, HIDE_TYPE_EXPERT_DROID, ENEMY_STRENGTH_WEAK);
-	ActionEquipItem(CreateItemOnObject(MINING_LASER, oEnemy), INVENTORY_SLOT_BELT, TRUE);
+	ActionEquipItem(CreateItemOnObject(MINING_SHIELD_1, oEnemy), INVENTORY_SLOT_BELT, TRUE);
 	ActionEquipItem(CreateItemOnObject(SONIC_DETONATOR, oEnemy), INVENTORY_SLOT_LEFTARM, TRUE);
 }
 

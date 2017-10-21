@@ -134,7 +134,7 @@ void Box_MaskedAttacker(object oEnemy) {
 void Box_SamhanDobo(object oEnemy) {
 	Box_RemoveAllItems(oEnemy);
 	Box_EquipHide(oEnemy, HIDE_TYPE_THUG, ENEMY_STRENGTH_WEAK);
-	CreateItemOnObject(PLASMA_GRENADE, oEnemy, 1);}
+	CreateItemOnObject(PLASMA_GRENADE, oEnemy, 1);
 }
 
 void Box_LiutenantGrenn(object oEnemy) {
@@ -170,6 +170,12 @@ void Box_Matu(object oEnemy) {
 	ActionEquipItem(CreateItemOnObject(EXCHANGE_SHORT_SWORD, oEnemy), INVENTORY_SLOT_LEFTWEAPON, TRUE);
 }
 
+void Box_ExchangeDoorThug(object oEnemy) {
+	Box_RemoveAllItems(oEnemy);
+	Box_EquipHide(oEnemy, HIDE_TYPE_THUG, ENEMY_STRENGTH_REGULAR);
+	CreateItemOnObject(SHORT_SWORD, oEnemy, 1);
+}
+
 void Box_ExchangeThug(object oEnemy) {
 	Box_RemoveAllItems(oEnemy);
 	Box_EquipHide(oEnemy, HIDE_TYPE_THUG, ENEMY_STRENGTH_REGULAR);
@@ -202,7 +208,7 @@ void Box_ExchangeTurret(object oEnemy) {
 
 void Box_LoppakSlusk(object oEnemy) {
 	Box_RemoveAllItems(oEnemy);
-	Box_EquipHide(oEnemy, HIDE_TYPE_THUG, ENEMY_STRENGTH_REGULAR);
+	Box_EquipHide(oEnemy, HIDE_TYPE_SCOUNDREL, ENEMY_STRENGTH_REGULAR);
 	ActionEquipItem(CreateItemOnObject(SLUSK_BLASTER, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
 }
 
@@ -284,6 +290,7 @@ void Box_Batono(object oEnemy) {
 	Box_EquipHide(oEnemy, HIDE_TYPE_REPUBLIC, ENEMY_STRENGTH_REGULAR);
 	ActionEquipItem(CreateItemOnObject(REPUBLIC_BLASTER, oEnemy), INVENTORY_SLOT_RIGHTWEAPON, TRUE);
 }
+
 
 void Box_CzerkaSecurity(object oEnemy) {
 	Box_RemoveAllItems(oEnemy);
